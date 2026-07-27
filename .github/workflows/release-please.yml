@@ -1,0 +1,49 @@
+name: release-please
+
+# Bumps plugin/esports_scheduler/plugin.json's "version" from Conventional
+# Commits (fix: -> patch, feat: -> minor, feat!:/BREAKING CHANGE: -> major),
+# opens a review PR for the bump, and on merge tags + releases + attaches the
+# plugin zip — see plugin/README.md "Publishing to the official Dispatcharr
+# Plugins repo" for the full picture, including the still-manual step of
+# PRing the version bump to Dispatcharr/Plugins.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: release
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
+
+      # release-please-action doesn't check out the tree itself (it works via
+      # the GitHub API) — check out the exact tag it just cut so the zip
+      # matches what got released, not just whatever HEAD happens to be.
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs['plugin--release_created'] }}
+        with:
+          ref: ${{ steps.release.outputs['plugin--tag_name'] }}
+
+      - name: Package plugin zip
+        if: ${{ steps.release.outputs['plugin--release_created'] }}
+        run: |
+          cd plugin/esports_scheduler
+          zip -r "$GITHUB_WORKSPACE/esports-scheduler.zip" .
+
+      - name: Attach zip to the release
+        if: ${{ steps.release.outputs['plugin--release_created'] }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ steps.release.outputs['plugin--tag_name'] }}" \
+            esports-scheduler.zip \
+            --repo "${{ github.repository }}"
