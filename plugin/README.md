@@ -1,4 +1,4 @@
-# esports_scheduler (Dispatcharr plugin)
+# esportsarr (Dispatcharr plugin)
 
 Consolidates per-league esports Twitch channels into a fixed number of
 generic channels per game, switching the active stream to whichever live
@@ -27,7 +27,7 @@ the steps to run yourself:
 
 1. Copy the plugin folder into the Dispatcharr container's plugin directory:
    ```bash
-   docker cp plugin/esports_scheduler <dispatcharr-container>:/app/data/plugins/esports_scheduler
+   docker cp plugin/esportsarr <dispatcharr-container>:/app/data/plugins/esportsarr
    ```
 2. Reload plugins so Dispatcharr picks it up:
    ```bash
@@ -49,7 +49,7 @@ the steps to run yourself:
    ```
    If none of `url`/`tvg_id`/`name` actually contain the plain Twitch channel
    login (e.g. `lcs`, `valorant_americas`), update the three filters in
-   `_find_stream_for_twitch_channel` (`plugin/esports_scheduler/channel_sync.py`)
+   `_find_stream_for_twitch_channel` (`plugin/esportsarr/channel_sync.py`)
    to match whatever Twitcharr actually stores before relying on this.
 
 2. **Run "Create Channels"** (the plugin action in the Dispatcharr UI). This
@@ -93,7 +93,7 @@ hands-off:
    uploads `esports-scheduler.zip` (see workflow below).
 3. Fork `github.com/Dispatcharr/Plugins`, add
    `plugins/esports-scheduler/plugin.json` (copy of this project's
-   `plugin/esports_scheduler/plugin.json`) plus an optional README/logo, and
+   `plugin/esportsarr/plugin.json`) plus an optional README/logo, and
    open a PR. Their CI checks: valid semver, folder is lowercase-kebab-case,
    `author` matches the GitHub account opening the PR, CodeQL + ClamAV scans.
 4. Any future update: same `fix:`/`feat:` commits, merge the release-please
@@ -107,11 +107,11 @@ and `.github/workflows/release-please.yml` do the following on every push to
 `main`:
 
 - Parse commit messages since the last release to compute the next semver.
-- Patch `plugin/esports_scheduler/plugin.json`'s `"version"` field directly
+- Patch `plugin/esportsarr/plugin.json`'s `"version"` field directly
   (via release-please's `extra-files` JSON updater) as part of the release PR.
 - On merge, tag as `esports-scheduler-v{version}` (matching `plugin.json`'s
   `source_url` placeholder exactly), create the GitHub Release, zip
-  `plugin/esports_scheduler/`, and attach it as `esports-scheduler.zip`.
+  `plugin/esportsarr/`, and attach it as `esports-scheduler.zip`.
 
 Uses the default `GITHUB_TOKEN` (no extra secret needed) — the one tradeoff
 is that commits made by release-please itself won't trigger other workflows
