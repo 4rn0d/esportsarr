@@ -1,4 +1,4 @@
-# dispatcharr-esports-epg
+# esportsarr
 
 Two independent pieces that together turn the Twitcharr-managed esports
 Twitch channels (LCS, LEC, LCK, VCT Americas/EMEA/Pacific) into something
