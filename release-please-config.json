@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "packages": {
+    "plugin": {
+      "release-type": "simple",
+      "component": "esports-scheduler",
+      "include-component-in-tag": true,
+      "tag-separator": "-v",
+      "changelog-path": "CHANGELOG.md",
+      "extra-files": [
+        {
+          "type": "json",
+          "path": "esports_scheduler/plugin.json",
+          "jsonpath": "$.version"
+        }
+      ]
+    }
+  }
+}
