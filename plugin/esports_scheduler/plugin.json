@@ -1,0 +1,72 @@
+{
+  "name": "Esports Scheduler",
+  "version": "0.1.0",
+  "description": "Consolidates per-league esports Twitch channels (LCS/LEC/LCK, VCT Americas/EMEA/Pacific) into a fixed number of generic channels per game, switching the active stream to whichever live match currently holds priority.",
+  "author": "4rn0d",
+  "license": "MIT",
+  "repo_url": "https://github.com/4rn0d/dispatcharr-esports-epg",
+  "source_type": "external",
+  "source_url": "https://github.com/4rn0d/dispatcharr-esports-epg/releases/download/esports-scheduler-v{version}/esports-scheduler.zip",
+  "help_url": "https://github.com/4rn0d/dispatcharr-esports-epg/blob/main/plugin/README.md",
+  "fields": [
+    {
+      "id": "schedule_url",
+      "label": "Schedule JSON URL",
+      "type": "string",
+      "default": "",
+      "help_text": "Raw URL to schedule.json published by the scraper's GitHub Actions workflow, e.g. https://raw.githubusercontent.com/<user>/dispatcharr-esports-epg/main/scraper/output/schedule.json"
+    },
+    {
+      "id": "poll_interval_seconds",
+      "label": "Poll interval (seconds)",
+      "type": "number",
+      "default": 60,
+      "help_text": "How often the background scheduler re-fetches schedule.json and re-evaluates stream priority."
+    },
+    {
+      "id": "slots_per_game",
+      "label": "Channels per game",
+      "type": "number",
+      "default": 2,
+      "help_text": "How many generic channels (e.g. \"LoL 1\", \"LoL 2\") to consolidate each game's leagues into. Must match what you ran 'Create Channels' with."
+    },
+    {
+      "id": "channel_group_name",
+      "label": "Channel group name",
+      "type": "string",
+      "default": "Esports Multiplex",
+      "help_text": "Dispatcharr channel group the generic channels are created under."
+    },
+    {
+      "id": "league_priority_lol",
+      "label": "LoL league priority (comma-separated, highest first)",
+      "type": "string",
+      "default": "LCS,LEC,LCK",
+      "help_text": "When more LoL matches are live than there are slots, leagues earlier in this list keep a slot; later ones wait for a slot to free up."
+    },
+    {
+      "id": "league_priority_valorant",
+      "label": "Valorant league priority (comma-separated, highest first)",
+      "type": "string",
+      "default": "VCT Americas,VCT EMEA,VCT Pacific",
+      "help_text": "Same as the LoL priority setting, for Valorant leagues."
+    }
+  ],
+  "actions": [
+    {
+      "id": "create_channels",
+      "label": "Create Channels",
+      "description": "Idempotently creates the channel group, the generic per-game channels, and the dedicated EPG source this plugin manages. Run this once before enabling the scheduler.",
+      "button_label": "Create Channels",
+      "button_variant": "outline"
+    },
+    {
+      "id": "sync_now",
+      "label": "Sync Now",
+      "description": "Runs one allocation pass immediately (fetch schedule.json, reassign stream priority) without waiting for the next poll tick. Use this to verify behavior against a known live match before trusting the automatic scheduler.",
+      "button_label": "Sync Now",
+      "button_variant": "filled",
+      "button_color": "blue"
+    }
+  ]
+}

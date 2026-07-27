@@ -1,0 +1,24 @@
+[project]
+name = "esports-schedule"
+version = "0.1.0"
+description = "Scrapes Riot esports schedule data into XMLTV + JSON for Dispatcharr"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "responses>=0.25",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["esports_schedule*"]
