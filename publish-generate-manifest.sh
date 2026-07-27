@@ -8,7 +8,6 @@ set -e
 #
 # Usage:
 #   ./test-manifest-local.sh <plugin_slug> <path-to-plugin.json> [manifest-script-path]
-#
 # Example:
 #   ./test-manifest-local.sh esports-scheduler plugin/esportsarr/plugin.json
 
