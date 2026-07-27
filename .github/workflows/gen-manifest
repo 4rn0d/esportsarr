@@ -1,0 +1,81 @@
+name: Generate manifest
+
+on:
+  # Fires after release-please cuts a release (zip attached, tag pushed)
+  release:
+    types: [published]
+  # Lets you trigger it manually to test/re-run without a new release
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+env:
+  SOURCE_BRANCH: main
+  RELEASES_BRANCH: releases
+
+jobs:
+  generate-manifest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source branch (for plugins/*/plugin.json)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.SOURCE_BRANCH }}
+          path: source
+
+      - name: Checkout releases branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASES_BRANCH }}
+          path: releases
+          fetch-depth: 0
+
+      - name: Sync plugin.json files into releases checkout
+        run: |
+          set -e
+          mkdir -p releases/plugins
+          for plugin_dir in source/plugins/*/; do
+            plugin_name=$(basename "$plugin_dir")
+            mkdir -p "releases/plugins/${plugin_name}"
+            cp "${plugin_dir}/plugin.json" "releases/plugins/${plugin_name}/plugin.json"
+          done
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Import GPG key (optional)
+        if: ${{ secrets.GPG_PRIVATE_KEY != '' }}
+        run: echo "GPG signing key present, will be used by the script"
+
+      - name: Generate manifest
+        working-directory: releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: bash ../source/publish-generate-manifest.sh
+
+      - name: Show generated manifest (debug)
+        working-directory: releases
+        run: |
+          echo "=== manifest.json ==="
+          jq . manifest.json
+          for f in metadata/*/manifest.json; do
+            echo "=== $f ==="
+            jq . "$f"
+          done
+
+      - name: Commit and push updated manifests
+        working-directory: releases
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add manifest.json metadata/
+          if git diff --cached --quiet; then
+            echo "No manifest changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update manifest.json [skip ci]"
+          git push origin "${{ env.RELEASES_BRANCH }}"
