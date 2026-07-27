@@ -1,0 +1,43 @@
+name: Scrape esports schedule
+
+on:
+  schedule:
+    # Every 15 minutes. Match state (live/completed) needs to be fresher than
+    # the schedule itself, since the Dispatcharr plugin's stream-switching
+    # reacts to schedule.json — see plugin/README.md.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: scraper
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install .
+
+      - name: Run scraper
+        run: python -m esports_schedule.main --output-dir output
+
+      - name: Commit updated output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/esports.xmltv output/schedule.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update esports schedule output [skip ci]"
+            git push
+          fi
