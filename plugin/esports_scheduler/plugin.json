@@ -1,6 +1,6 @@
 {
   "name": "Esports Scheduler",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Consolidates per-league esports Twitch channels (LCS/LEC/LCK, VCT Americas/EMEA/Pacific) into a fixed number of generic channels per game, switching the active stream to whichever live match currently holds priority.",
   "author": "4rn0d",
   "license": "MIT",
