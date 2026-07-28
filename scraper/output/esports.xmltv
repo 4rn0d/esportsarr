@@ -15,6 +15,9 @@
   <channel id="twitch.valorant_americas">
     <display-name>VCT Americas</display-name>
   </channel>
+  <channel id="twitch.VALORANT_NorthAmerica">
+    <display-name>Last Chance Qualifier Americas</display-name>
+  </channel>
   <channel id="twitch.valorant_emea">
     <display-name>VCT EMEA</display-name>
   </channel>
@@ -507,6 +510,9 @@
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="twitch.valorant_americas">
     <title>TBD vs TBD</title>
   </programme>
+  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="twitch.valorant_americas">
+    <title>TBD vs TBD</title>
+  </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
     <title>FlyQuest RED vs SwimTrek Blue</title>
   </programme>
@@ -573,16 +579,16 @@
   <programme start="20260817233000 +0000" stop="20260818023000 +0000" channel="twitch.valorant_americas">
     <title>TBD vs TBD</title>
   </programme>
-  <programme start="20260728190000 +0000" stop="20260728220000 +0000" channel="twitch.valorant_americas">
+  <programme start="20260728190000 +0000" stop="20260728220000 +0000" channel="twitch.VALORANT_NorthAmerica">
     <title>Shopify Rebellion Black vs 2GAME</title>
   </programme>
-  <programme start="20260728220000 +0000" stop="20260729010000 +0000" channel="twitch.valorant_americas">
+  <programme start="20260728220000 +0000" stop="20260729010000 +0000" channel="twitch.VALORANT_NorthAmerica">
     <title>Bon Bon Bum Contra vs Shopify Rebellion Black</title>
   </programme>
-  <programme start="20260729010000 +0000" stop="20260729040000 +0000" channel="twitch.valorant_americas">
+  <programme start="20260729010000 +0000" stop="20260729040000 +0000" channel="twitch.VALORANT_NorthAmerica">
     <title>Bon Bon Bum Contra vs 2GAME</title>
   </programme>
-  <programme start="20260729190000 +0000" stop="20260729220000 +0000" channel="twitch.valorant_americas">
+  <programme start="20260729190000 +0000" stop="20260729220000 +0000" channel="twitch.VALORANT_NorthAmerica">
     <title>TBD vs TBD</title>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
@@ -693,21 +699,6 @@
   <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="twitch.valorant_emea">
     <title>TBD vs TBD</title>
   </programme>
-  <programme start="20260728142844 +0000" stop="20260728172844 +0000" channel="twitch.valorant_emea">
-    <title>Game Changers EMEA</title>
-  </programme>
-  <programme start="20260728150000 +0000" stop="20260728180000 +0000" channel="twitch.valorant_emea">
-    <title>G2 Gozen vs FOKUS Sakura</title>
-  </programme>
-  <programme start="20260728150000 +0000" stop="20260728180000 +0000" channel="twitch.valorant_emea">
-    <title>Karmine Corp vs Barça eSports</title>
-  </programme>
-  <programme start="20260728180000 +0000" stop="20260728210000 +0000" channel="twitch.valorant_emea">
-    <title>Twisted Minds Orchid vs Habos Babos</title>
-  </programme>
-  <programme start="20260728180000 +0000" stop="20260728210000 +0000" channel="twitch.valorant_emea">
-    <title>SK Nebula vs ALTERNATE aTTaX Ruby</title>
-  </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
     <title>SK Nebula vs G2 Gozen</title>
   </programme>
@@ -715,16 +706,16 @@
     <title>FOKUS Sakura vs Gentle Mates</title>
   </programme>
   <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs Barça eSports</title>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
     <title>Habos Babos vs GIANTX</title>
   </programme>
-  <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
-    <title>Habos Babos vs SK Nebula</title>
+  <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
+    <title>ALTERNATE aTTaX Ruby vs Barça eSports</title>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
     <title>Barça eSports vs Gentle Mates</title>
+  </programme>
+  <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
+    <title>Habos Babos vs SK Nebula</title>
   </programme>
   <programme start="20260730180000 +0000" stop="20260730210000 +0000" channel="twitch.valorant_emea">
     <title>ALTERNATE aTTaX Ruby vs GIANTX</title>
