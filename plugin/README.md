@@ -39,7 +39,7 @@ the steps to run yourself:
 
 ## First run — do this before enabling the automatic scheduler
 
-1. **Verify the Stream lookup assumption.** `channel_sync._find_stream_for_twitch_channel`
+1. **Verify the Stream lookup assumption.** `channel_sync._find_source_stream_for_twitch_channel`
    assumes Twitcharr's `Stream.url` contains `twitch.tv/<channel>`. Check one
    real row (Django admin, or `docker exec` into the container and use
    `python manage.py shell`):
@@ -49,8 +49,12 @@ the steps to run yourself:
    ```
    If none of `url`/`tvg_id`/`name` actually contain the plain Twitch channel
    login (e.g. `lcs`, `valorant_americas`), update the three filters in
-   `_find_stream_for_twitch_channel` (`plugin/esportsarr/channel_sync.py`)
+   `_find_source_stream_for_twitch_channel` (`plugin/esportsarr/channel_sync.py`)
    to match whatever Twitcharr actually stores before relying on this.
+
+   This lookup only ever reads Twitcharr's Stream to copy its playback
+   config (url/stream_profile/m3u_account) — see "Why generic channels use
+   their own cloned Stream" below for why we never attach that row directly.
 
 2. **Run "Create Channels"** (the plugin action in the Dispatcharr UI). This
    creates the channel group + generic channels + EPG source. Idempotent —
@@ -188,6 +192,41 @@ two real problems, both confirmed against Dispatcharr's actual source
   fetch/parse a URL — which fails since we never set one, leaving the source
   stuck showing "Error" in the UI forever (harmless to the data, but
   fighting a status field that isn't ours to manage).
+
+### Why generic channels use their own cloned Stream, not Twitcharr's
+
+An earlier version attached Twitcharr's own Stream row directly to our
+generic channels via `ChannelStream`. That caused our "Valorant 1"/
+"Valorant 2" channels to get created successfully by "Create Channels" and
+then deleted again within minutes, with no error and no manual action —
+confirmed against Twitcharr's actual `streamlink_setup.py` source
+(2026-07-28) as `sync_channels()`'s own cleanup step:
+
+```python
+stale_channels = (
+    Channel.objects.filter(streams__custom_properties__owner=OWNER_TAG)
+    .exclude(tvg_id__in=keep_tvg_ids)
+    .distinct()
+)
+stale_channels.delete()
+```
+
+Twitcharr deletes any Channel linked to a Stream *it* owns, unless that
+Channel's `tvg_id` is one of its own tracked ones. Our channel is linked to
+one of its Streams (because we reused the row) but our `tvg_id`
+(`esportsarr.valorant.1`) obviously isn't in Twitcharr's own list — so its
+next periodic sync deletes our channel as "stale." LoL channels never hit
+this during testing purely because no LoL match had gone live yet, so
+they'd never actually been linked to any stream.
+
+The fix: `_get_or_create_owned_stream` copies the working playback config
+(`url`, `stream_profile`, `m3u_account`, `logo_url`) from whatever Stream
+Twitcharr already set up into a **separate** Stream row this plugin creates
+and owns (`custom_properties={"owner": "esportsarr"}`, stable
+`tvg_id=esportsarr.stream.<channel>` so repeat ticks update the same clone
+instead of multiplying rows). Only that clone is ever attached via
+`ChannelStream` — Twitcharr's ownership-based prune query can never match
+one of our channels again.
 
 The actual fix: `apply_assignment` no longer writes `ProgramData` at all —
 it returns this game's guide entries, and `_run_sync` (`plugin.py`) collects

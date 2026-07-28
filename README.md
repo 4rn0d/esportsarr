@@ -41,7 +41,7 @@ and doesn't add load or a new dependency on the Debian server.
 ## Known unknowns / things to verify against the real install
 
 - **Stream lookup** (`plugin/esportsarr/channel_sync.py`,
-  `_find_stream_for_twitch_channel`): assumes Twitcharr's `Stream.url`
+  `_find_source_stream_for_twitch_channel`): assumes Twitcharr's `Stream.url`
   contains `twitch.tv/<channel>`. Verify against one real Stream row before
   relying on automatic sync — see `plugin/README.md`.
 - **Riot's public API key** (`scraper/esportsarr/riot_api.py`): a
