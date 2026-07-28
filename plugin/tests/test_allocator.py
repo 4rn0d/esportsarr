@@ -5,7 +5,7 @@ would actually be caught."""
 
 from __future__ import annotations
 
-from esports_scheduler.allocator import assign_slots
+from esportsarr.allocator import assign_slots
 
 VALORANT_PRIORITY = ["VCT Americas", "VCT EMEA", "VCT Pacific"]
 

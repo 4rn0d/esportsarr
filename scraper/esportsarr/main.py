@@ -1,6 +1,6 @@
 """CLI entrypoint: fetch matches for every tracked league, write
 output/esports.xmltv (per-league EPG) and output/schedule.json (source of
-truth for the Dispatcharr plugin). Run via `python -m esports_schedule.main`.
+truth for the Dispatcharr plugin). Run via `python -m esportsarr.main`.
 """
 
 from __future__ import annotations

@@ -82,7 +82,7 @@ Zipping, tagging, and releasing are now automated by
 repo is pushed, everything except the actual GitHub-account actions is
 hands-off:
 
-1. Push this repo to `github.com/4rn0d/dispatcharr-esports-epg`, writing
+1. Push this repo to `github.com/4rn0d/esportsarr`, writing
    commits as [Conventional Commits](https://www.conventionalcommits.org/)
    (`fix: ...`, `feat: ...`, `feat!: ...` or a `BREAKING CHANGE:` footer for a
    major bump) from here on — release-please reads these to decide the next
@@ -90,9 +90,9 @@ hands-off:
 2. release-please opens a "release PR" on its own after any `fix:`/`feat:`
    commit lands on `main`, showing the computed version bump. Merge it when
    ready; that merge is what actually cuts the tag, GitHub Release, and
-   uploads `esports-scheduler.zip` (see workflow below).
+   uploads `esportsarr.zip` (see workflow below).
 3. Fork `github.com/Dispatcharr/Plugins`, add
-   `plugins/esports-scheduler/plugin.json` (copy of this project's
+   `plugins/esportsarr/plugin.json` (copy of this project's
    `plugin/esportsarr/plugin.json`) plus an optional README/logo, and
    open a PR. Their CI checks: valid semver, folder is lowercase-kebab-case,
    `author` matches the GitHub account opening the PR, CodeQL + ClamAV scans.
@@ -109,9 +109,9 @@ and `.github/workflows/release-please.yml` do the following on every push to
 - Parse commit messages since the last release to compute the next semver.
 - Patch `plugin/esportsarr/plugin.json`'s `"version"` field directly
   (via release-please's `extra-files` JSON updater) as part of the release PR.
-- On merge, tag as `esports-scheduler-v{version}` (matching `plugin.json`'s
+- On merge, tag as `esportsarr-v{version}` (matching `plugin.json`'s
   `source_url` placeholder exactly), create the GitHub Release, zip
-  `plugin/esportsarr/`, and attach it as `esports-scheduler.zip`.
+  `plugin/esportsarr/`, and attach it as `esportsarr.zip`.
 
 Uses the default `GITHUB_TOKEN` (no extra secret needed) — the one tradeoff
 is that commits made by release-please itself won't trigger other workflows

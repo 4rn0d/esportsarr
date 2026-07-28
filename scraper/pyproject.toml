@@ -1,5 +1,5 @@
 [project]
-name = "esports-schedule"
+name = "esportsarr-scraper"
 version = "0.1.0"
 description = "Scrapes Riot esports schedule data into XMLTV + JSON for Dispatcharr"
 requires-python = ">=3.11"
@@ -21,4 +21,4 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["esports_schedule*"]
+include = ["esportsarr*"]

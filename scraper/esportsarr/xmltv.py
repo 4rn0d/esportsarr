@@ -21,7 +21,7 @@ GUIDE_STATES = (MatchState.UNSTARTED, MatchState.IN_PROGRESS)
 
 
 def build_xmltv(matches: list[MatchEvent]) -> str:
-    tv = ElementTree.Element("tv", attrib={"generator-info-name": "dispatcharr-esports-epg"})
+    tv = ElementTree.Element("tv", attrib={"generator-info-name": "esportsarr"})
 
     guide_matches = [match for match in matches if match.state in GUIDE_STATES]
 

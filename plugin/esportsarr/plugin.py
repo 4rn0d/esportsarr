@@ -28,7 +28,7 @@ from .allocator import assign_slots
 
 logger = logging.getLogger(__name__)
 
-PLUGIN_KEY = "esports_scheduler"
+PLUGIN_KEY = "esportsarr"
 
 DEFAULT_SETTINGS = {
     "schedule_url": "",
@@ -69,7 +69,7 @@ def _load_settings() -> dict:
         if config and isinstance(config.settings, dict):
             return _merge_defaults(config.settings)
     except Exception:
-        logger.exception("esports_scheduler: failed to load settings from DB")
+        logger.exception("esportsarr: failed to load settings from DB")
     return _merge_defaults({})
 
 
@@ -103,7 +103,7 @@ def _release_job_lock(path: str) -> None:
 def _fetch_schedule(settings: dict) -> list[dict[str, Any]]:
     schedule_url = settings["schedule_url"]
     if not schedule_url:
-        logger.warning("esports_scheduler: schedule_url is not configured, skipping tick")
+        logger.warning("esportsarr: schedule_url is not configured, skipping tick")
         return []
     response = requests.get(schedule_url, timeout=REQUEST_TIMEOUT_SECONDS)
     response.raise_for_status()
@@ -140,7 +140,7 @@ def _run_sync(settings: dict) -> dict:
 
         return {"status": "ok", "assignment": results}
     except Exception as exc:
-        logger.exception("esports_scheduler: sync failed")
+        logger.exception("esportsarr: sync failed")
         return {"status": "error", "message": str(exc)}
     finally:
         _release_job_lock(lock_path)
@@ -169,10 +169,10 @@ def _is_web_server_process() -> bool:
 
 def _scheduler_loop() -> None:
     own_module = __name__
-    logger.info("esports_scheduler: self-scheduler started")
+    logger.info("esportsarr: self-scheduler started")
     while not _scheduler_stop.is_set():
         if own_module not in sys.modules:
-            logger.info("esports_scheduler: exiting, module %s was unloaded", own_module)
+            logger.info("esportsarr: exiting, module %s was unloaded", own_module)
             return
         try:
             from django.db import close_old_connections
@@ -180,10 +180,10 @@ def _scheduler_loop() -> None:
             close_old_connections()
             _run_sync(_load_settings())
         except ImportError as exc:
-            logger.info("esports_scheduler: exiting after plugin reload: %s", exc)
+            logger.info("esportsarr: exiting after plugin reload: %s", exc)
             return
         except Exception:
-            logger.exception("esports_scheduler: scheduler tick failed")
+            logger.exception("esportsarr: scheduler tick failed")
         finally:
             try:
                 from django.db import close_old_connections
@@ -200,7 +200,7 @@ def _start_scheduler() -> bool:
     global _scheduler_thread
     if _is_web_server_process():
         logger.info(
-            "esports_scheduler: not starting scheduler in web-server process; "
+            "esportsarr: not starting scheduler in web-server process; "
             "it runs in the Celery worker process instead"
         )
         return False
@@ -208,7 +208,7 @@ def _start_scheduler() -> bool:
         if _scheduler_thread and _scheduler_thread.is_alive():
             return False
         _scheduler_stop.clear()
-        _scheduler_thread = threading.Thread(target=_scheduler_loop, name="EsportsSchedulerThread", daemon=True)
+        _scheduler_thread = threading.Thread(target=_scheduler_loop, name="EsportsarrThread", daemon=True)
         _scheduler_thread.start()
         return True
 
@@ -225,20 +225,20 @@ def _stop_scheduler() -> bool:
 
 
 class Plugin:
-    name = "Esports Scheduler"
+    name = "Esportsarr"
     version = "0.1.0"
     description = (
         "Consolidates per-league esports Twitch channels into a fixed number of "
         "generic channels per game, switching the active stream to whichever "
         "live match currently holds priority."
     )
-    author = "Arnaud Turcotte"
+    author = "4rn0d"
 
     def __init__(self):
         try:
             _start_scheduler()
         except Exception:
-            logger.exception("esports_scheduler: could not start scheduler")
+            logger.exception("esportsarr: could not start scheduler")
 
     def run(self, action: str, params: dict, context: dict):
         settings = _merge_defaults(context.get("settings") or {})
@@ -247,7 +247,7 @@ class Plugin:
             try:
                 return channel_sync.create_channels(settings)
             except Exception as exc:
-                logger.exception("esports_scheduler: create_channels failed")
+                logger.exception("esportsarr: create_channels failed")
                 return {"status": "error", "message": str(exc)}
 
         if action == "sync_now":
@@ -260,5 +260,5 @@ class Plugin:
             _stop_scheduler()
             return {"status": "ok", "message": "Scheduler stopped."}
         except Exception as exc:
-            logger.exception("esports_scheduler: failed to stop scheduler")
+            logger.exception("esportsarr: failed to stop scheduler")
             return {"status": "error", "message": str(exc)}

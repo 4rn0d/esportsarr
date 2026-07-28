@@ -3,8 +3,8 @@ from __future__ import annotations
 import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timezone
 
-from esports_schedule.models import Game, League, MatchEvent, MatchState
-from esports_schedule.xmltv import DEFAULT_MATCH_DURATION, build_xmltv
+from esportsarr.models import Game, League, MatchEvent, MatchState
+from esportsarr.xmltv import DEFAULT_MATCH_DURATION, build_xmltv
 
 LCS = League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs")
 LEC = League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec")

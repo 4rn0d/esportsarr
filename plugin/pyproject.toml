@@ -1,5 +1,5 @@
 [project]
-name = "esports-scheduler-plugin"
+name = "esportsarr-plugin"
 version = "0.1.0"
 description = "Dispatcharr plugin: consolidates esports Twitch channels and switches active stream by live match priority"
 requires-python = ">=3.11"
@@ -24,4 +24,4 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
-include = ["esports_scheduler*"]
+include = ["esportsarr*"]

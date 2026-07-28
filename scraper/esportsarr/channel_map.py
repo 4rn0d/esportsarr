@@ -12,7 +12,9 @@ TRACKED_LEAGUES: tuple[League, ...] = (
     League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec"),
     League(display_name="LCK", game=Game.LOL, epg_channel_id="twitch.lck"),
     League(display_name="VCT Americas", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
+    League(display_name="GC NA", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
     League(display_name="VCT EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
+    League(display_name="GC EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
     League(display_name="VCT Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
 )
 

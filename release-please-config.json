@@ -3,14 +3,13 @@
   "packages": {
     "plugin": {
       "release-type": "simple",
-      "component": "esports-scheduler",
+      "component": "esportsarr",
       "include-component-in-tag": true,
-      "tag-separator": "-v",
       "changelog-path": "CHANGELOG.md",
       "extra-files": [
         {
           "type": "json",
-          "path": "esports_scheduler/plugin.json",
+          "path": "esportsarr/plugin.json",
           "jsonpath": "$.version"
         }
       ]

@@ -1,6 +1,6 @@
 name: release-please
 
-# Bumps plugin/esports_scheduler/plugin.json's "version" from Conventional
+# Bumps plugin/esportsarr/plugin.json's "version" from Conventional
 # Commits (fix: -> patch, feat: -> minor, feat!:/BREAKING CHANGE: -> major),
 # opens a review PR for the bump, and on merge tags + releases + attaches the
 # plugin zip — see plugin/README.md "Publishing to the official Dispatcharr
@@ -36,8 +36,8 @@ jobs:
       - name: Package plugin zip
         if: ${{ steps.release.outputs['plugin--release_created'] }}
         run: |
-          cd plugin/esports_scheduler
-          zip -r "$GITHUB_WORKSPACE/esports-scheduler.zip" .
+          cd plugin/esportsarr
+          zip -r "$GITHUB_WORKSPACE/esportsarr.zip" .
 
       - name: Attach zip to the release
         if: ${{ steps.release.outputs['plugin--release_created'] }}
@@ -45,5 +45,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh release upload "${{ steps.release.outputs['plugin--tag_name'] }}" \
-            esports-scheduler.zip \
+            esportsarr.zip \
             --repo "${{ github.repository }}"

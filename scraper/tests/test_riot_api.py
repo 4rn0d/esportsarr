@@ -1,4 +1,4 @@
-"""Tests for esports_schedule.riot_api — the normalization logic (Riot JSON ->
+"""Tests for esportsarr.riot_api — the normalization logic (Riot JSON ->
 MatchEvent) is the part most likely to break silently if Riot changes field
 names, so these assert on exact output shape rather than just "it didn't crash".
 """
@@ -10,9 +10,9 @@ from urllib.parse import parse_qs, urlparse
 import pytest
 import responses
 
-from esports_schedule.channel_map import UnknownLeagueError
-from esports_schedule.models import Game, League, MatchState
-from esports_schedule.riot_api import (
+from esportsarr.channel_map import UnknownLeagueError
+from esportsarr.models import Game, League, MatchState
+from esportsarr.riot_api import (
     LOL_HOST,
     VALORANT_HOST,
     fetch_matches_for_leagues,

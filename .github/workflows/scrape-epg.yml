@@ -28,7 +28,7 @@ jobs:
         run: pip install .
 
       - name: Run scraper
-        run: python -m esports_schedule.main --output-dir output
+        run: python -m esportsarr.main --output-dir output
 
       - name: Commit updated output
         run: |

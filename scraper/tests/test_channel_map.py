@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import pytest
 
-from esports_schedule.channel_map import TRACKED_LEAGUES, UnknownLeagueError, find_league, leagues_for_game
-from esports_schedule.models import Game
+from esportsarr.channel_map import TRACKED_LEAGUES, UnknownLeagueError, find_league, leagues_for_game
+from esportsarr.models import Game
 
 
 def test_find_league_returns_exact_name_match():

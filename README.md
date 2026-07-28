@@ -21,7 +21,7 @@ See [`scraper/README.md`](scraper/README.md).
 
 ## `plugin/` — Dispatcharr plugin, runs on the Debian server
 
-A real Dispatcharr plugin (`esports_scheduler`) that polls `schedule.json`
+A real Dispatcharr plugin (`esportsarr`) that polls `schedule.json`
 every ~60s and, per game, reassigns which Twitch stream is the active one on
 a fixed number of generic channels — "sticky" assignment, so a live match
 keeps its channel until it ends; a higher-priority match that starts later
@@ -40,11 +40,11 @@ and doesn't add load or a new dependency on the Debian server.
 
 ## Known unknowns / things to verify against the real install
 
-- **Stream lookup** (`plugin/esports_scheduler/channel_sync.py`,
+- **Stream lookup** (`plugin/esportsarr/channel_sync.py`,
   `_find_stream_for_twitch_channel`): assumes Twitcharr's `Stream.url`
   contains `twitch.tv/<channel>`. Verify against one real Stream row before
   relying on automatic sync — see `plugin/README.md`.
-- **Riot's public API key** (`scraper/esports_schedule/riot_api.py`): a
+- **Riot's public API key** (`scraper/esportsarr/riot_api.py`): a
   community-known key embedded in lolesports.com/valorantesports.com's own
   web client, verified working on 2026-07-27. Not officially supported by
   Riot — if it stops working, check

@@ -1,4 +1,4 @@
-"""Django ORM operations for the esports_scheduler plugin.
+"""Django ORM operations for the esportsarr plugin.
 
 Field names below were verified directly against Dispatcharr's actual models
 on 2026-07-27:
@@ -25,11 +25,11 @@ from typing import Any
 
 GAME_DISPLAY_NAMES = {"lol": "LoL", "valorant": "Valorant"}
 
-EPG_SOURCE_NAME = "Esports Scheduler"
+EPG_SOURCE_NAME = "Esportsarr"
 
 # Riot's API gives a match start time but no end time; a Bo3/Bo5 broadcast
 # block including pre/post-show reliably runs a few hours. Same estimate the
-# scraper uses for esports.xmltv (scraper/esports_schedule/xmltv.py).
+# scraper uses for esports.xmltv (scraper/esportsarr/xmltv.py).
 PROGRAMME_DURATION = timedelta(hours=3)
 
 
@@ -42,7 +42,7 @@ def _generic_channel_name(game: str, slot_index: int) -> str:
 
 
 def _generic_channel_tvg_id(game: str, slot_index: int) -> str:
-    return f"esports-scheduler.{game}.{slot_index + 1}"
+    return f"esportsarr.{game}.{slot_index + 1}"
 
 
 def _get_or_create_epg_source():

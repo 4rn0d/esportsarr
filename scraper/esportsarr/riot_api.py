@@ -28,7 +28,7 @@ REQUEST_TIMEOUT_SECONDS = 15
 # Fill in your own repo URL here so Riot (or anyone reading logs) can see who's
 # calling — no documented requirement for this endpoint, but good citizenship
 # given the rate limits are undocumented too.
-SCRAPER_USER_AGENT = "dispatcharr-esports-epg/0.1 (+https://github.com/4rn0d/dispatcharr-esports-epg)"
+SCRAPER_USER_AGENT = "esportsarr/0.1 (+https://github.com/4rn0d/esportsarr)"
 
 
 @dataclass(frozen=True)

@@ -1,12 +1,12 @@
 {
-  "name": "Esports Scheduler",
-  "version": "0.1.1",
+  "name": "Esportsarr",
+  "version": "0.1.0",
   "description": "Consolidates per-league esports Twitch channels (LCS/LEC/LCK, VCT Americas/EMEA/Pacific) into a fixed number of generic channels per game, switching the active stream to whichever live match currently holds priority.",
   "author": "4rn0d",
   "license": "MIT",
   "repo_url": "https://github.com/4rn0d/esportsarr",
   "source_type": "external",
-  "source_url": "https://github.com/4rn0d/esportsarr/releases/download/esports-scheduler-v{version}/esports-scheduler.zip",
+  "source_url": "https://github.com/4rn0d/esportsarr/releases/download/esportsarr-v{version}/esportsarr.zip",
   "help_url": "https://github.com/4rn0d/esportsarr/blob/main/plugin/README.md",
   "fields": [
     {
