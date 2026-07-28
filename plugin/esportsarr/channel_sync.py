@@ -57,10 +57,23 @@ def _get_or_create_epg_source():
 
     epg_source, _ = EPGSource.objects.get_or_create(
         name=EPG_SOURCE_NAME,
-        # "dummy" = Dispatcharr's own category for a manually-managed EPG
-        # source (we write EPGData/ProgramData ourselves, never fetch a URL).
-        defaults={"source_type": "dummy", "is_active": False},
+        # NOT "dummy" — despite the name suggesting "manually-managed, left
+        # alone", Dispatcharr's EPGGridAPIView unconditionally overlays any
+        # channel whose EPG source has source_type="dummy" with its own
+        # auto-generated humorous filler programmes ("Evening Escapism...",
+        # "Lunchtime Laziness...") *regardless* of real ProgramData already
+        # existing for it — confirmed against that view's source, 2026-07-28.
+        # "xmltv" avoids that code path entirely; is_active=False still
+        # prevents Dispatcharr from ever trying to fetch a URL for it, since
+        # we write ProgramData ourselves and never fetch anything.
+        defaults={"source_type": "xmltv", "is_active": False},
     )
+    # get_or_create's defaults only apply on creation — self-heal an
+    # existing row too (e.g. one created before this fix, still "dummy").
+    if epg_source.source_type != "xmltv" or epg_source.is_active:
+        epg_source.source_type = "xmltv"
+        epg_source.is_active = False
+        epg_source.save(update_fields=["source_type", "is_active"])
     return epg_source
 
 

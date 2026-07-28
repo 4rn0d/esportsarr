@@ -6,9 +6,11 @@ truth for the Dispatcharr plugin). Run via `python -m esportsarr.main`.
 from __future__ import annotations
 
 import argparse
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .channel_map import TRACKED_LEAGUES
+from .models import MatchEvent
 from .riot_api import fetch_matches_for_leagues
 from .schedule_export import build_schedule_json
 from .xmltv import build_xmltv
@@ -17,9 +19,21 @@ DEFAULT_OUTPUT_DIR = Path("output")
 XMLTV_FILENAME = "esports.xmltv"
 SCHEDULE_FILENAME = "schedule.json"
 
+# Riot's schedule endpoints return a league's entire history (observed:
+# matches going back to 2023) plus placeholder "TBD vs TBD" entries months
+# out — unbounded, and schedule.json balloons to thousands of entries with
+# it. Neither the guide nor the plugin's reservation logic ever needs
+# anything outside a one-month window either side of "now".
+SCHEDULE_WINDOW = timedelta(days=30)
+
+
+def _within_schedule_window(matches: list[MatchEvent], now: datetime, window: timedelta) -> list[MatchEvent]:
+    return [match for match in matches if now - window <= match.start <= now + window]
+
 
 def run(output_dir: Path) -> None:
     matches = fetch_matches_for_leagues(list(TRACKED_LEAGUES))
+    matches = _within_schedule_window(matches, datetime.now(timezone.utc), SCHEDULE_WINDOW)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / XMLTV_FILENAME).write_text(build_xmltv(matches), encoding="utf-8")

@@ -83,10 +83,20 @@ def _match_title(event: dict, league: League) -> str:
     return f"{league.display_name}: {block_name}" if block_name else league.display_name
 
 
-def _twitch_channel(event: dict) -> str | None:
-    for stream in event.get("streams") or []:
-        if stream.get("provider") == "twitch" and stream.get("parameter"):
-            return stream["parameter"]
+TWITCH_EPG_PREFIX = "twitch."
+
+
+def _twitch_channel_for_league(league: League) -> str | None:
+    """Riot's public API key does not reliably return per-event stream info
+    (confirmed empirically on 2026-07-28: a full schedule pull across every
+    tracked league returned `streams` empty/absent for 100% of events,
+    including ones currently `inProgress`) — so this derives the Twitch
+    channel from `league.epg_channel_id` instead, which is already the
+    authoritative per-league mapping used for the XMLTV guide (see
+    channel_map.py). Returns None for a league whose broadcast isn't on
+    Twitch at all (e.g. LPL's `youtube.LPL_English`)."""
+    if league.epg_channel_id.startswith(TWITCH_EPG_PREFIX):
+        return league.epg_channel_id[len(TWITCH_EPG_PREFIX):]
     return None
 
 
@@ -97,7 +107,7 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
         start=start,
         state=RIOT_STATE_TO_MATCH_STATE[event["state"]],
         title=_match_title(event, league),
-        twitch_channel=_twitch_channel(event),
+        twitch_channel=_twitch_channel_for_league(league),
     )
 
 

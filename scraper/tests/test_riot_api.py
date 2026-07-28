@@ -13,6 +13,7 @@ from esportsarr.models import Game, League, MatchState
 from esportsarr.riot_api import (
     LOL_HOST,
     VALORANT_HOST,
+    _twitch_channel_for_league,
     fetch_matches_for_leagues,
 )
 
@@ -28,8 +29,19 @@ def _schedule_payload(events: list[dict]) -> dict:
     return {"data": {"schedule": {"events": events}}}
 
 
+def test_twitch_channel_for_league_strips_the_twitch_prefix():
+    league = League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs")
+    assert _twitch_channel_for_league(league) == "lcs"
+
+
+def test_twitch_channel_for_league_returns_none_for_a_non_twitch_source():
+    # LPL broadcasts on YouTube only — must not fabricate a Twitch channel.
+    league = League(display_name="LPL", game=Game.LOL, epg_channel_id="youtube.LPL_English")
+    assert _twitch_channel_for_league(league) is None
+
+
 @responses.activate
-def test_fetch_matches_normalizes_two_team_match_with_twitch_stream():
+def test_fetch_matches_normalizes_two_team_match():
     responses.add(
         responses.GET,
         f"{LOL_HOST.base_url}/getLeagues",
@@ -46,10 +58,6 @@ def test_fetch_matches_normalizes_two_team_match_with_twitch_stream():
                     "state": "inProgress",
                     "blockName": "Playoffs",
                     "match": {"teams": [{"name": "Sentinels"}, {"name": "Cloud9"}]},
-                    "streams": [
-                        {"provider": "twitch", "parameter": "lcs", "locale": "en-US"},
-                        {"provider": "youtube", "parameter": "abc123", "locale": "en-US"},
-                    ],
                 }
             ]
         ),
@@ -61,6 +69,8 @@ def test_fetch_matches_normalizes_two_team_match_with_twitch_stream():
     assert match.league is LCS
     assert match.state == MatchState.IN_PROGRESS
     assert match.title == "Sentinels vs Cloud9"
+    # Derived from LCS.epg_channel_id ("twitch.lcs"), not from Riot's own
+    # (unreliable — see _twitch_channel_for_league) per-event stream data.
     assert match.twitch_channel == "lcs"
     assert match.start.year == 2026 and match.start.hour == 20
 
@@ -83,7 +93,6 @@ def test_fetch_matches_titles_tbd_placeholder_teams_normally():
                     "state": "unstarted",
                     "blockName": "Swiss",
                     "match": {"teams": [{"name": "TBD"}, {"name": "TBD"}]},
-                    "streams": [],
                 }
             ]
         ),
@@ -97,7 +106,6 @@ def test_fetch_matches_titles_tbd_placeholder_teams_normally():
     # "X vs Y" title. The blockName fallback (tested below) only kicks in when
     # `match.teams` itself is missing or not exactly 2 entries.
     assert match.title == "TBD vs TBD"
-    assert match.twitch_channel is None
 
 
 @responses.activate
@@ -117,7 +125,6 @@ def test_fetch_matches_uses_block_name_when_match_key_is_absent():
                     "startTime": "2026-08-01T00:00:00Z",
                     "state": "unstarted",
                     "blockName": "Pre-Show",
-                    "streams": [],
                 }
             ]
         ),
@@ -152,7 +159,6 @@ def test_fetch_matches_skips_unknown_league_but_keeps_others_in_the_same_game():
                     "state": "inProgress",
                     "blockName": "Playoffs",
                     "match": {"teams": [{"name": "Sentinels"}, {"name": "Cloud9"}]},
-                    "streams": [{"provider": "twitch", "parameter": "lcs", "locale": "en-US"}],
                 }
             ]
         ),

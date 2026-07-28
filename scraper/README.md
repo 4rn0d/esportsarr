@@ -3,6 +3,22 @@
 Fetches LoL + Valorant match schedules from Riot's esports API and writes
 `output/esports.xmltv` + `output/schedule.json`.
 
+Two things worth knowing about the raw data before it's touched:
+
+- **`twitch_channel` is derived, not read from Riot.** Riot's public API key
+  does not reliably return per-match stream info (confirmed empirically:
+  every single event in a full schedule pull came back with `streams`
+  empty, including ones `inProgress` right now). `riot_api.py`'s
+  `_twitch_channel_for_league` derives it instead from `league.epg_channel_id`
+  (the same mapping used for the XMLTV guide), which is authoritative and
+  always available. Returns `None` for a league not on Twitch at all (LPL).
+- **Output is windowed to ±30 days from now** (`main.py`'s `SCHEDULE_WINDOW`).
+  Riot's schedule endpoints return a league's *entire* history (observed:
+  matches back to 2023) plus far-future placeholder "TBD vs TBD" entries —
+  unbounded, and `schedule.json` balloons to thousands of entries without
+  this. Neither the guide nor the plugin's reservation logic ever needs
+  anything outside that window.
+
 ## Setup
 
 ```bash

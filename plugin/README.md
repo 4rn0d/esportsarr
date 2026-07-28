@@ -158,7 +158,8 @@ policy and edge cases, including the near-vs-far distinction.
 
 `apply_assignment` (`channel_sync.py`) writes a guide entry for every slot on
 every tick, not just occupied ones — otherwise Dispatcharr's own generic
-dummy-EPG filler ("Lunchtime Laziness...") shows through instead:
+placeholder filler ("Lunchtime Laziness...", "Evening Escapism...") shows
+through instead:
 
 - **Live match**: the real match, same as the stream switch itself.
 - **Reserved slot** (an anticipated higher-priority match within
@@ -168,3 +169,16 @@ dummy-EPG filler ("Lunchtime Laziness...") shows through instead:
 - **Genuinely idle** (nothing live, nothing anticipated): an explicit
   "No Match Scheduled" placeholder, refreshed every tick, instead of stale
   or generic filler content.
+
+### Gotcha: the EPGSource must NOT be `source_type="dummy"`
+
+Despite the name suggesting "manually-managed, left alone", Dispatcharr's
+`EPGGridAPIView` (the actual guide-grid endpoint) unconditionally overlays
+**any** channel whose EPG source has `source_type="dummy"` with its own
+auto-generated humorous filler programmes — regardless of whether real
+`ProgramData` already exists for it. That's exactly where "Lunchtime
+Laziness"/"Evening Escapism" come from, and it silently wins over our real
+writes in the guide response. `_get_or_create_epg_source` uses
+`source_type="xmltv"` instead (with `is_active=False` so Dispatcharr never
+tries to actually fetch a URL for it), which avoids that code path entirely
+and self-heals an existing "dummy"-typed row from before this fix.
