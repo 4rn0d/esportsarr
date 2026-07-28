@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T13:56:06.105902+00:00",
+  "generated_at": "2026-07-28T15:42:59.508257+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -7548,30 +7548,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-05-11T15:00:00+00:00",
-      "state": "completed",
-      "title": "GIANTX vs Gentle Mates",
-      "twitch_channel": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-05-11T18:00:00+00:00",
-      "state": "completed",
-      "title": "Karmine Corp vs G2 Gozen",
-      "twitch_channel": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-05-12T15:00:00+00:00",
-      "state": "completed",
-      "title": "SK Nebula vs G2 Gozen",
-      "twitch_channel": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-05-12T15:00:00+00:00",
       "state": "completed",
       "title": "Karmine Corp vs Bar\u00e7a eSports",
@@ -7868,9 +7844,9 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-07-28T15:00:00+00:00",
-      "state": "unstarted",
-      "title": "FOKUS Sakura vs G2 Gozen",
+      "start": "2026-07-28T14:28:44.997000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
       "twitch_channel": null
     },
     {
@@ -7878,7 +7854,15 @@
       "game": "valorant",
       "start": "2026-07-28T15:00:00+00:00",
       "state": "unstarted",
-      "title": "Bar\u00e7a eSports vs Karmine Corp",
+      "title": "G2 Gozen vs FOKUS Sakura",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-28T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Karmine Corp vs Bar\u00e7a eSports",
       "twitch_channel": null
     },
     {
@@ -7918,7 +7902,7 @@
       "game": "valorant",
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
-      "title": "Habos Babos vs GIANTX",
+      "title": "ALTERNATE aTTaX Ruby vs Bar\u00e7a eSports",
       "twitch_channel": null
     },
     {
@@ -7926,15 +7910,7 @@
       "game": "valorant",
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
-      "title": "ALTERNATE aTTaX Ruby vs Bar\u00e7a eSports",
-      "twitch_channel": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-30T15:00:00+00:00",
-      "state": "unstarted",
-      "title": "Bar\u00e7a eSports vs Gentle Mates",
+      "title": "Habos Babos vs GIANTX",
       "twitch_channel": null
     },
     {
@@ -7943,6 +7919,14 @@
       "start": "2026-07-30T15:00:00+00:00",
       "state": "unstarted",
       "title": "Habos Babos vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bar\u00e7a eSports vs Gentle Mates",
       "twitch_channel": null
     },
     {
@@ -8181,6 +8165,22 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-16T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-16T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-17T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
       "twitch_channel": null
