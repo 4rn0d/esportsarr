@@ -6,6 +6,13 @@ as it's still live, so a higher-priority match that starts later does not
 preempt it. This matches the chosen overflow policy: when there are more live
 matches than slots, the lowest-priority ones simply aren't shown until a slot
 frees up on its own (the occupying match ending), rather than being bumped.
+
+`upcoming_matches` (not-yet-live, pre-filtered by the caller to a lookahead
+window — see plugin.py's RESERVATION_GRACE_MINUTES/reservation_lookahead_minutes)
+can still claim an *empty* slot ahead of a lower-priority live match, holding
+it in reserve until the anticipated match actually goes live. This is
+deliberately NOT preemption — it only affects slots that aren't already
+occupied, never bumps an already-live match out of its slot.
 """
 
 from __future__ import annotations
@@ -35,6 +42,7 @@ def assign_slots(
     slots: int,
     league_priority: list[str],
     previous_assignment: list[MatchDict | None] | None = None,
+    upcoming_matches: list[MatchDict] | None = None,
 ) -> list[MatchDict | None]:
     """Returns a list of length `slots`; each entry is the match dict assigned
     to that slot, or None if no live match currently holds it.
@@ -42,7 +50,15 @@ def assign_slots(
     `live_matches` should already be filtered to one game and to
     state == "in_progress" — this function has no concept of "game" at all,
     it just slots whatever list of matches it's given.
+
+    `upcoming_matches` (state == "unstarted", also pre-filtered to one game)
+    can win an *empty* slot ahead of a lower-priority live match, reserving
+    it (left as None) until the anticipated match actually goes live — see
+    module docstring. This function does no date parsing; window-filtering
+    "upcoming" to something actually imminent is entirely the caller's job.
     """
+    upcoming_matches = upcoming_matches or []
+
     assignment: list[MatchDict | None] = list(previous_assignment or [])
     assignment += [None] * (slots - len(assignment))
     assignment = assignment[:slots]
@@ -54,14 +70,37 @@ def assign_slots(
         if occupant is not None and _match_key(occupant) not in live_by_key:
             assignment[i] = None
 
-    # Rank live matches not already occupying a slot, highest priority first.
     occupied_keys = {_match_key(m) for m in assignment if m is not None}
-    unassigned = [m for m in live_matches if _match_key(m) not in occupied_keys]
-    unassigned.sort(key=lambda m: _priority_rank(m, league_priority))
 
-    # Fill empty slots, in slot order, with the highest-priority unassigned matches.
+    # Live matches not already occupying a slot compete for the remaining ones.
+    unassigned_live = [m for m in live_matches if _match_key(m) not in occupied_keys]
+
+    # Dedupe upcoming matches and drop any that are already occupying a slot
+    # or already live — a match must never compete against itself for a
+    # reservation (an accidental duplicate in the feed would otherwise burn
+    # two reservation slots on one anticipated match).
+    reservation_candidates: list[MatchDict] = []
+    seen_upcoming_keys: set[tuple] = set()
+    for match in upcoming_matches:
+        key = _match_key(match)
+        if key in occupied_keys or key in live_by_key or key in seen_upcoming_keys:
+            continue
+        seen_upcoming_keys.add(key)
+        reservation_candidates.append(match)
+
+    # Live candidates listed first: a stable sort then makes a live match win
+    # a same-rank tie over a merely-scheduled one, with no extra tie-break
+    # logic to get wrong.
+    combined = [(m, True) for m in unassigned_live] + [(m, False) for m in reservation_candidates]
+    combined.sort(key=lambda pair: _priority_rank(pair[0], league_priority))
+
+    # Fill empty slots, in slot order, from the top of that ranking. A live
+    # candidate fills the slot; a reservation-only candidate leaves it None,
+    # held for the anticipated match instead of being given to something
+    # lower-priority that's live right now.
     empty_slot_indexes = [i for i, occupant in enumerate(assignment) if occupant is None]
-    for slot_index, match in zip(empty_slot_indexes, unassigned):
-        assignment[slot_index] = match
+    for slot_index, (match, is_live) in zip(empty_slot_indexes, combined):
+        if is_live:
+            assignment[slot_index] = match
 
     return assignment

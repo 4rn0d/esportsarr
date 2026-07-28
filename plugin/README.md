@@ -123,7 +123,22 @@ one.
 
 `league_priority_lol` / `league_priority_valorant` (plugin settings, no code
 change needed) control which league keeps a slot when more matches are live
-simultaneously than there are slots. Earlier in the list = higher priority.
+simultaneously than there are slots. Earlier in the list = higher priority —
+by default the international/global events (Worlds/MSI/First Stand,
+Champions/VALORANT Masters/Game Changers Championship) are listed first, so
+they always outrank regional leagues. The string must match Riot's league
+`name` exactly (`python -m esportsarr.list_leagues --game <game>` in the
+scraper repo) — e.g. `"Game Changers NA"`, not `"Game Changers Americas"`.
+
 Assignment is sticky: a live match keeps its slot until it ends, even if a
-higher-priority match starts in the meantime — see `allocator.py`'s
-docstring and `tests/test_allocator.py` for the exact policy and edge cases.
+higher-priority match starts in the meantime — **this is never overridden,
+an already-live match is never bumped out of its slot.** What *does* happen:
+`reservation_lookahead_minutes` (default 45) lets a higher-priority match
+that's scheduled but not live yet claim an *empty* slot ahead of a
+lower-priority match that's already live, so a regional match starting first
+can't sticky-lock both slots and shut out an international that's about to
+start. A reserved slot keeps showing whatever stream was already on that
+channel — it does not go blank while waiting.
+
+See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
+policy and edge cases.

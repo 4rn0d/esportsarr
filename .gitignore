@@ -1,0 +1,10 @@
+# Python build/cache artifacts from `pip install -e` and pytest runs.
+# scraper/output/ is intentionally NOT ignored — the scraper's cron workflow
+# commits esports.xmltv there on purpose.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.egg
+build/
+dist/

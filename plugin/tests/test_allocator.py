@@ -9,6 +9,9 @@ from esportsarr.allocator import assign_slots
 
 VALORANT_PRIORITY = ["VCT Americas", "VCT EMEA", "VCT Pacific"]
 
+# Internationals ranked first, matching the real default in plugin.py/plugin.json.
+VALORANT_PRIORITY_WITH_INTL = ["Champions", "VCT Americas", "VCT EMEA", "VCT Pacific"]
+
 
 def _match(league: str, start: str, title: str, twitch_channel: str) -> dict:
     return {
@@ -19,6 +22,10 @@ def _match(league: str, start: str, title: str, twitch_channel: str) -> dict:
         "title": title,
         "twitch_channel": twitch_channel,
     }
+
+
+def _upcoming(league: str, start: str, title: str, twitch_channel: str) -> dict:
+    return {**_match(league, start, title, twitch_channel), "state": "unstarted"}
 
 
 def test_fills_empty_slots_by_priority_when_nothing_was_previously_assigned():
@@ -114,6 +121,73 @@ def test_previous_assignment_longer_than_slots_is_truncated_not_errored():
         slots=1,
         league_priority=VALORANT_PRIORITY,
         previous_assignment=[americas, None, None],
+    )
+
+    assert assignment == [americas]
+
+
+def test_upcoming_higher_priority_match_reserves_a_slot_instead_of_a_lower_priority_live_one():
+    americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    # Two empty slots, one live regional match, one imminent international
+    # not live yet. The international's reservation wins the higher-ranked
+    # slot; the regional gets the other one rather than both being empty.
+    assignment = assign_slots(
+        live_matches=[americas],
+        slots=2,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        upcoming_matches=[champions],
+    )
+
+    assert assignment == [None, americas]
+
+
+def test_reservation_never_preempts_an_already_live_match():
+    americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    # Americas already holds the only slot and is still live. Champions is
+    # imminent but there are zero empty slots — the existing live match must
+    # never be bumped out to make room for a reservation.
+    assignment = assign_slots(
+        live_matches=[americas],
+        slots=1,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=[americas],
+        upcoming_matches=[champions],
+    )
+
+    assert assignment == [americas]
+
+
+def test_duplicate_upcoming_entries_for_the_same_match_only_reserve_one_slot():
+    americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    # Regression guard: a duplicate in the upcoming list (feed glitch, double
+    # count) must not burn two reservation slots on the same anticipated
+    # match — that would leave the live regional match with nowhere to go.
+    assignment = assign_slots(
+        live_matches=[americas],
+        slots=2,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        upcoming_matches=[champions, dict(champions)],
+    )
+
+    assert assignment == [None, americas]
+
+
+def test_upcoming_matches_defaults_when_not_provided():
+    americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+
+    assignment = assign_slots(
+        live_matches=[americas],
+        slots=1,
+        league_priority=VALORANT_PRIORITY,
+        previous_assignment=None,
     )
 
     assert assignment == [americas]

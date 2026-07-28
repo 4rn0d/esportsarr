@@ -19,6 +19,7 @@ import os
 import sys
 import threading
 import time
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 import requests
@@ -35,8 +36,13 @@ DEFAULT_SETTINGS = {
     "poll_interval_seconds": 60,
     "slots_per_game": 2,
     "channel_group_name": "Esports Multiplex",
-    "league_priority_lol": "LCS,LEC,LCK",
-    "league_priority_valorant": "VCT Americas,VCT EMEA,VCT Pacific",
+    "league_priority_lol": "Worlds,MSI,First Stand,LCS,LEC,LCK,LPL",
+    "league_priority_valorant": (
+        "Champions,VALORANT Masters,Game Changers Championship,"
+        "VCT Americas,VCT EMEA,VCT Pacific,"
+        "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
+    ),
+    "reservation_lookahead_minutes": 45,
 }
 
 GAME_PRIORITY_SETTING_KEYS = {
@@ -47,6 +53,11 @@ GAME_PRIORITY_SETTING_KEYS = {
 REQUEST_TIMEOUT_SECONDS = 10
 JOB_LOCK_TTL_SECONDS = 300  # a stuck tick shouldn't block the scheduler forever
 PLUGIN_STATE_DIR = f"/app/data/plugins/{PLUGIN_KEY}/.state"
+
+# Safety net, not a user setting: an "unstarted" match whose start time has
+# slipped into the past (delayed broadcast) would otherwise satisfy
+# `start <= now + lookahead` forever and reserve a slot indefinitely.
+RESERVATION_GRACE_MINUTES = 30
 
 # In-memory only: which match currently occupies each slot, per game. Reset
 # on process restart — worst case is one tick where a match that was live
@@ -117,10 +128,20 @@ def _run_sync(settings: dict) -> dict:
 
     try:
         matches = _fetch_schedule(settings)
+        now = datetime.now(timezone.utc)
+        lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
+        grace = timedelta(minutes=RESERVATION_GRACE_MINUTES)
+
         live_by_game: dict[str, list[dict]] = {}
+        upcoming_by_game: dict[str, list[dict]] = {}
         for match in matches:
-            if match.get("state") == "in_progress":
+            state = match.get("state")
+            if state == "in_progress":
                 live_by_game.setdefault(match["game"], []).append(match)
+            elif state == "unstarted":
+                start = datetime.fromisoformat(match["start"])
+                if now - grace <= start <= now + lookahead:
+                    upcoming_by_game.setdefault(match["game"], []).append(match)
 
         results: dict[str, list[str | None]] = {}
         for game, priority_key in GAME_PRIORITY_SETTING_KEYS.items():
@@ -133,6 +154,7 @@ def _run_sync(settings: dict) -> dict:
                 slots=slots,
                 league_priority=priority,
                 previous_assignment=previous,
+                upcoming_matches=upcoming_by_game.get(game, []),
             )
             channel_sync.apply_assignment(settings, game, assignment)
             _last_assignment[game] = assignment

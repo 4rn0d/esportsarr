@@ -39,17 +39,24 @@
     },
     {
       "id": "league_priority_lol",
-      "label": "LoL league priority (comma-separated, highest first)",
+      "label": "LoL league priority (comma-separated, highest first, INTL will always come first)",
       "type": "string",
-      "default": "LCS,LEC,LCK",
+      "default": "Worlds,MSI,First Stand,LCS,LEC,LCK,LPL",
       "help_text": "When more LoL matches are live than there are slots, leagues earlier in this list keep a slot; later ones wait for a slot to free up."
     },
     {
       "id": "league_priority_valorant",
-      "label": "Valorant league priority (comma-separated, highest first)",
+      "label": "Valorant league priority (comma-separated, highest first, INTL will always come first)",
       "type": "string",
-      "default": "VCT Americas,VCT EMEA,VCT Pacific",
-      "help_text": "Same as the LoL priority setting, for Valorant leagues."
+      "default": "Champions,VALORANT Masters,Game Changers Championship,VCT Americas,VCT EMEA,VCT Pacific,Game Changers NA,Game Changers EMEA,Game Changers Pacific",
+      "help_text": "Same as the LoL priority setting, for Valorant leagues. Must exactly match Riot's league name (run 'python -m esportsarr.list_leagues --game valorant' in the scraper repo) — e.g. 'Game Changers NA', not 'Game Changers Americas'."
+    },
+    {
+      "id": "reservation_lookahead_minutes",
+      "label": "Reservation lookahead (minutes)",
+      "type": "number",
+      "default": 45,
+      "help_text": "If a higher-priority match (e.g. an international) is scheduled to start within this many minutes, an empty slot is held open for it instead of being given to a lower-priority match that's already live — this never preempts a match already occupying a slot. A reserved slot keeps showing its last stream, it doesn't go blank."
     }
   ],
   "actions": [
