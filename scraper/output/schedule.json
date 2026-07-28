@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T17:08:31.260049+00:00",
+  "generated_at": "2026-07-28T18:42:38.787156+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -6876,6 +6876,14 @@
     {
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
+      "start": "2026-07-28T18:26:06.588000+00:00",
+      "state": "in_progress",
+      "title": "Last Chance Qualifier Americas",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Americas",
+      "game": "valorant",
       "start": "2026-07-28T19:00:00+00:00",
       "state": "unstarted",
       "title": "Shopify Rebellion Black vs 2GAME",
@@ -7548,22 +7556,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-05-12T15:00:00+00:00",
-      "state": "completed",
-      "title": "Karmine Corp vs Bar\u00e7a eSports",
-      "twitch_channel": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-05-12T18:00:00+00:00",
-      "state": "completed",
-      "title": "ALTERNATE aTTaX Ruby vs FOKUS Sakura",
-      "twitch_channel": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-05-12T18:00:00+00:00",
       "state": "completed",
       "title": "ZennIT Orange vs Twisted Minds Orchid",
@@ -8181,6 +8173,22 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-17T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-17T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-18T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
       "twitch_channel": null
