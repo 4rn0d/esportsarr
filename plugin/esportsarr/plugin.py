@@ -173,6 +173,7 @@ def _run_sync(settings: dict) -> dict:
                     far_upcoming_by_game.setdefault(match["game"], []).append(match)
 
         results: dict[str, list[str | None] | str] = {}
+        guide_entries: list[dict] = []
         for game, priority_key in GAME_PRIORITY_SETTING_KEYS.items():
             # One game's failure (a bad Stream lookup, a Django error, ...)
             # must not prevent the other game from being synced this tick —
@@ -190,12 +191,26 @@ def _run_sync(settings: dict) -> dict:
                     upcoming_matches=upcoming_by_game.get(game, []),
                     far_upcoming_matches=far_upcoming_by_game.get(game, []),
                 )
-                channel_sync.apply_assignment(settings, game, assignment, reserved_for)
+                guide_entries.extend(channel_sync.apply_assignment(settings, game, assignment, reserved_for))
                 _last_assignment[game] = assignment
                 results[game] = [match["title"] if match else None for match in assignment]
             except Exception as exc:
                 logger.exception("esportsarr: sync failed for game %r", game)
                 results[game] = f"error: {exc}"
+
+        # One guide file/refresh covering every game's channels, not one per
+        # game — apply_assignment no longer writes ProgramData itself, so a
+        # game that failed above just contributes no entries this tick
+        # rather than blocking the games that succeeded from updating. If
+        # every game failed, guide_entries is empty — skip the write/refresh
+        # entirely rather than parse a technically-valid empty XMLTV file,
+        # which would successfully wipe the last good guide data instead of
+        # leaving it in place.
+        if guide_entries:
+            try:
+                channel_sync.write_guide(guide_entries)
+            except Exception:
+                logger.exception("esportsarr: failed to write/refresh the guide")
 
         overall_status = "error" if any(isinstance(value, str) for value in results.values()) else "ok"
         return {"status": overall_status, "assignment": results}

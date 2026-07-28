@@ -13,6 +13,24 @@ fallbacks matching this project's own naming convention. If stream lookups
 fail on the real install, check one Stream row in Django admin and adjust
 _find_stream_for_twitch_channel accordingly — see plugin/README.md.
 
+Guide data is NOT written as ProgramData rows directly via the ORM. An
+earlier version did that, and to keep Dispatcharr's own guide-grid endpoint
+(EPGGridAPIView) from overlaying its auto-generated humorous filler on top,
+had to use `source_type="xmltv"` — which then made Dispatcharr's *own* EPG
+pipeline try to fetch/parse a URL we never set every time a channel's
+epg_data link changed, failing and leaving the source stuck showing "Error"
+in the UI forever (confirmed harmless to the actual data, but needlessly
+alarming, and fighting a status field that isn't ours to manage). The
+correct, natively-supported way to do this: EPGSource.file_path (with no
+`url`) tells Dispatcharr to parse a local XMLTV file directly — no network
+fetch attempted at all, so no error status — and `refresh_epg_data()` is a
+real, callable task that parses it into EPGData/ProgramData itself,
+atomically (a bad file never destroys existing guide data — confirmed
+against that task's source, 2026-07-28). apply_assignment builds the guide
+entries; write_guide (called once per tick, after every game's assignment)
+renders them to one XMLTV file covering every channel and triggers that
+task — Dispatcharr owns EPGData/ProgramData creation/updates from there.
+
 All Django imports are deferred into function bodies so this module (and the
 plugin package as a whole, apart from this file) stays importable/testable
 without Django installed.
@@ -20,6 +38,8 @@ without Django installed.
 
 from __future__ import annotations
 
+import os
+import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
@@ -35,9 +55,12 @@ PROGRAMME_DURATION = timedelta(hours=3)
 OFFLINE_PROGRAM_TITLE = "No Match Scheduled"
 # A genuinely idle slot gets this placeholder instead of Dispatcharr's own
 # generic dummy-EPG filler bleeding through. Short and re-written every tick
-# (see apply_assignment) rather than left long, so a missed poll can't leave
-# a block whose end_time has already passed sitting there looking wrong.
+# rather than left long, so a missed poll can't leave a block whose
+# end_time has already passed sitting there looking wrong.
 OFFLINE_PROGRAM_DURATION = timedelta(minutes=15)
+
+GUIDE_FILE_PATH = "/app/data/plugins/esportsarr/.state/esportsarr-guide.xmltv"
+GUIDE_TIME_FORMAT = "%Y%m%d%H%M%S %z"
 
 
 class StreamNotFoundError(LookupError):
@@ -57,23 +80,16 @@ def _get_or_create_epg_source():
 
     epg_source, _ = EPGSource.objects.get_or_create(
         name=EPG_SOURCE_NAME,
-        # NOT "dummy" — despite the name suggesting "manually-managed, left
-        # alone", Dispatcharr's EPGGridAPIView unconditionally overlays any
-        # channel whose EPG source has source_type="dummy" with its own
-        # auto-generated humorous filler programmes ("Evening Escapism...",
-        # "Lunchtime Laziness...") *regardless* of real ProgramData already
-        # existing for it — confirmed against that view's source, 2026-07-28.
-        # "xmltv" avoids that code path entirely; is_active=False still
-        # prevents Dispatcharr from ever trying to fetch a URL for it, since
-        # we write ProgramData ourselves and never fetch anything.
-        defaults={"source_type": "xmltv", "is_active": False},
+        defaults={"source_type": "xmltv", "file_path": GUIDE_FILE_PATH, "is_active": False},
     )
-    # get_or_create's defaults only apply on creation — self-heal an
-    # existing row too (e.g. one created before this fix, still "dummy").
-    if epg_source.source_type != "xmltv" or epg_source.is_active:
+    # get_or_create's defaults only apply on creation — self-heal an existing
+    # row too (e.g. one created before this fix, still "dummy" or missing
+    # file_path).
+    if epg_source.source_type != "xmltv" or epg_source.file_path != GUIDE_FILE_PATH or epg_source.url:
         epg_source.source_type = "xmltv"
-        epg_source.is_active = False
-        epg_source.save(update_fields=["source_type", "is_active"])
+        epg_source.file_path = GUIDE_FILE_PATH
+        epg_source.url = None
+        epg_source.save(update_fields=["source_type", "file_path", "url"])
     return epg_source
 
 
@@ -121,32 +137,19 @@ def _find_stream_for_twitch_channel(twitch_channel: str):
     return stream
 
 
-def _write_programme(epg_data, tvg_id: str, program_id: str, start: datetime, end: datetime, title: str) -> None:
-    from apps.epg.models import ProgramData
-
-    ProgramData.objects.update_or_create(
-        epg=epg_data,
-        program_id=program_id,
-        defaults={
-            "start_time": start,
-            "end_time": end,
-            "title": title,
-            "tvg_id": tvg_id,
-        },
-    )
-
-
 def apply_assignment(
     settings: dict,
     game: str,
     assignment: list[dict[str, Any] | None],
     reserved_for: list[dict[str, Any] | None] | None = None,
-) -> None:
+) -> list[dict[str, Any]]:
     """Given the allocator's output for one game, reassigns ChannelStream
-    priority on the generic channels and writes a guide entry for every slot:
+    priority on the generic channels and returns this game's guide entries —
+    the caller collects these across every game and calls write_guide() once
+    per tick, since all games' channels share one EPGSource/guide file.
 
-    - Live match (`assignment[i]` is not None): existing behavior — its
-      stream becomes `order=0`, guide shows the match itself.
+    - Live match (`assignment[i]` is not None): its stream becomes `order=0`,
+      guide entry shows the match itself.
     - No live match but `reserved_for[i]` is set: a "coming up" guide entry
       for the anticipated match. `ChannelStream` is left untouched — this
       plugin never clears a channel's last-known stream just because a slot
@@ -161,9 +164,11 @@ def apply_assignment(
     reserved_for = reserved_for or [None] * len(assignment)
     epg_source = _get_or_create_epg_source()
     now = datetime.now(timezone.utc)
+    entries: list[dict[str, Any]] = []
 
     for slot_index, match in enumerate(assignment):
         tvg_id = _generic_channel_tvg_id(game, slot_index)
+        name = _generic_channel_name(game, slot_index)
         try:
             channel = Channel.objects.get(tvg_id=tvg_id)
         except Channel.DoesNotExist as exc:
@@ -187,34 +192,67 @@ def apply_assignment(
             ChannelStream.objects.filter(channel=channel).exclude(stream=stream).update(order=1)
 
             start = datetime.fromisoformat(match["start"])
-            _write_programme(
-                epg_data,
-                tvg_id,
-                program_id=f"{match['league']}:{match['start']}",
-                start=start,
-                end=start + PROGRAMME_DURATION,
-                title=match["title"],
+            entries.append(
+                {"tvg_id": tvg_id, "name": name, "title": match["title"], "start": start, "end": start + PROGRAMME_DURATION}
             )
             continue
 
         upcoming = reserved_for[slot_index]
         if upcoming is not None:
             start = datetime.fromisoformat(upcoming["start"])
-            _write_programme(
-                epg_data,
-                tvg_id,
-                program_id=f"{upcoming['league']}:{upcoming['start']}",
-                start=start,
-                end=start + PROGRAMME_DURATION,
-                title=upcoming["title"],
+            entries.append(
+                {"tvg_id": tvg_id, "name": name, "title": upcoming["title"], "start": start, "end": start + PROGRAMME_DURATION}
             )
             continue
 
-        _write_programme(
-            epg_data,
-            tvg_id,
-            program_id=f"offline:{tvg_id}",
-            start=now,
-            end=now + OFFLINE_PROGRAM_DURATION,
-            title=OFFLINE_PROGRAM_TITLE,
+        entries.append(
+            {"tvg_id": tvg_id, "name": name, "title": OFFLINE_PROGRAM_TITLE, "start": now, "end": now + OFFLINE_PROGRAM_DURATION}
         )
+
+    return entries
+
+
+def _build_guide_xmltv(entries: list[dict[str, Any]]) -> str:
+    tv = ElementTree.Element("tv", attrib={"generator-info-name": "esportsarr"})
+
+    seen_tvg_ids: set[str] = set()
+    for entry in entries:
+        if entry["tvg_id"] in seen_tvg_ids:
+            continue
+        seen_tvg_ids.add(entry["tvg_id"])
+        channel_el = ElementTree.SubElement(tv, "channel", attrib={"id": entry["tvg_id"]})
+        display_name_el = ElementTree.SubElement(channel_el, "display-name")
+        display_name_el.text = entry["name"]
+
+    for entry in entries:
+        programme_el = ElementTree.SubElement(
+            tv,
+            "programme",
+            attrib={
+                "start": entry["start"].strftime(GUIDE_TIME_FORMAT),
+                "stop": entry["end"].strftime(GUIDE_TIME_FORMAT),
+                "channel": entry["tvg_id"],
+            },
+        )
+        title_el = ElementTree.SubElement(programme_el, "title")
+        title_el.text = entry["title"]
+
+    ElementTree.indent(tv, space="  ")
+    xml_body = ElementTree.tostring(tv, encoding="unicode", xml_declaration=False)
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n{xml_body}\n'
+
+
+def write_guide(entries: list[dict[str, Any]]) -> None:
+    """Renders every game's guide entries (collected by the caller across
+    all apply_assignment calls this tick) into one XMLTV file and triggers
+    Dispatcharr's own local-file EPG refresh to parse it — see module
+    docstring for why this replaces writing ProgramData via the ORM."""
+    from apps.epg.tasks import refresh_epg_data
+
+    epg_source = _get_or_create_epg_source()
+
+    os.makedirs(os.path.dirname(GUIDE_FILE_PATH), exist_ok=True)
+    with open(GUIDE_FILE_PATH, "w", encoding="utf-8") as f:
+        f.write(_build_guide_xmltv(entries))
+
+    refresh_epg_data(epg_source.id, force=True)

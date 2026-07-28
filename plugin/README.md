@@ -156,8 +156,8 @@ policy and edge cases, including the near-vs-far distinction.
 
 ## What the guide shows for each slot
 
-`apply_assignment` (`channel_sync.py`) writes a guide entry for every slot on
-every tick, not just occupied ones — otherwise Dispatcharr's own generic
+`apply_assignment` (`channel_sync.py`) computes a guide entry for every slot
+on every tick, not just occupied ones — otherwise Dispatcharr's own generic
 placeholder filler ("Lunchtime Laziness...", "Evening Escapism...") shows
 through instead:
 
@@ -170,15 +170,33 @@ through instead:
   "No Match Scheduled" placeholder, refreshed every tick, instead of stale
   or generic filler content.
 
-### Gotcha: the EPGSource must NOT be `source_type="dummy"`
+### How the guide is actually written — a local XMLTV file, not raw ProgramData
 
-Despite the name suggesting "manually-managed, left alone", Dispatcharr's
-`EPGGridAPIView` (the actual guide-grid endpoint) unconditionally overlays
-**any** channel whose EPG source has `source_type="dummy"` with its own
-auto-generated humorous filler programmes — regardless of whether real
-`ProgramData` already exists for it. That's exactly where "Lunchtime
-Laziness"/"Evening Escapism" come from, and it silently wins over our real
-writes in the guide response. `_get_or_create_epg_source` uses
-`source_type="xmltv"` instead (with `is_active=False` so Dispatcharr never
-tries to actually fetch a URL for it), which avoids that code path entirely
-and self-heals an existing "dummy"-typed row from before this fix.
+An earlier version wrote `ProgramData` rows directly via the Django ORM.
+That works, but fighting Dispatcharr's own EPG machinery around it caused
+two real problems, both confirmed against Dispatcharr's actual source
+(2026-07-28):
+
+- `source_type="dummy"` (which sounds like "manually-managed, left alone")
+  actually makes `EPGGridAPIView`, the real guide-grid endpoint,
+  unconditionally overlay **any** channel on that source with its own
+  auto-generated humorous filler — regardless of real `ProgramData` already
+  existing for it. That's where "Lunchtime Laziness"/"Evening Escapism" come
+  from, and it silently wins over anything we write.
+- Switching to `source_type="xmltv"` avoids that, but then Dispatcharr's own
+  EPG pipeline reacts to a channel's `epg_data` link changing by trying to
+  fetch/parse a URL — which fails since we never set one, leaving the source
+  stuck showing "Error" in the UI forever (harmless to the data, but
+  fighting a status field that isn't ours to manage).
+
+The actual fix: `apply_assignment` no longer writes `ProgramData` at all —
+it returns this game's guide entries, and `_run_sync` (`plugin.py`) collects
+them across every game and calls `write_guide()` **once** per tick.
+`write_guide` renders one combined XMLTV file to `GUIDE_FILE_PATH` and sets
+`EPGSource.file_path` to it (no `url`) — Dispatcharr's own local-file EPG
+support (`file_path` set, `url` empty) parses a file directly with **no
+network fetch attempted at all**, so there's no error status to fight. It
+then calls `refresh_epg_data(epg_source.id, force=True)` — a real,
+callable Dispatcharr task, not a private API — which parses the file into
+`EPGData`/`ProgramData` atomically: a bad file never destroys existing
+guide data, it just fails and leaves the previous guide in place.
