@@ -183,7 +183,7 @@ def _run_sync(settings: dict) -> dict:
                 slots = int(settings["slots_per_game"])
                 previous = _last_assignment.get(game)
 
-                assignment, reserved_for = assign_slots(
+                assignment, reserved_for, overflow = assign_slots(
                     live_matches=live_by_game.get(game, []),
                     slots=slots,
                     league_priority=priority,
@@ -191,7 +191,9 @@ def _run_sync(settings: dict) -> dict:
                     upcoming_matches=upcoming_by_game.get(game, []),
                     far_upcoming_matches=far_upcoming_by_game.get(game, []),
                 )
-                guide_entries.extend(channel_sync.apply_assignment(settings, game, assignment, reserved_for))
+                guide_entries.extend(
+                    channel_sync.apply_assignment(settings, game, assignment, reserved_for, overflow)
+                )
                 _last_assignment[game] = assignment
                 results[game] = [match["title"] if match else None for match in assignment]
             except Exception as exc:

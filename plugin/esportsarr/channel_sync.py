@@ -85,10 +85,14 @@ PROGRAMME_DURATION = timedelta(hours=3)
 
 OFFLINE_PROGRAM_TITLE = "No Match Scheduled"
 # A genuinely idle slot gets this placeholder instead of Dispatcharr's own
-# generic dummy-EPG filler bleeding through. Short and re-written every tick
-# rather than left long, so a missed poll can't leave a block whose
-# end_time has already passed sitting there looking wrong.
-OFFLINE_PROGRAM_DURATION = timedelta(minutes=15)
+# generic dummy-EPG filler bleeding through. write_guide() fully replaces
+# every entry each tick (poll_interval_seconds, default 60s), so this window
+# just needs to comfortably outlast one poll interval to always cover
+# Dispatcharr's visible guide range with no gap — a short window (originally
+# 15 minutes) left most of that range showing "No program data" instead.
+# Bounded rather than unbounded so a dead scheduler doesn't leave a stale
+# "No Match Scheduled" block looking current for days.
+OFFLINE_PROGRAM_DURATION = timedelta(hours=6)
 
 GUIDE_FILE_PATH = "/app/data/plugins/esportsarr/.state/esportsarr-guide.xmltv"
 GUIDE_TIME_FORMAT = "%Y%m%d%H%M%S %z"
@@ -218,11 +222,35 @@ def _get_or_create_owned_stream(twitch_channel: str):
     return owned
 
 
+def _next_up_by_slot(assignment: list[dict[str, Any] | None], overflow: list[dict[str, Any]]) -> dict[int, dict[str, Any]]:
+    """Pairs each live slot with the next-best waiting candidate, ordered by
+    which live slot is expected to free up soonest. Riot never gives a match
+    end time, so this only picks *which slot* gets the preview, never its
+    displayed time: each live slot's end is estimated as start +
+    PROGRAMME_DURATION, purely to guess which slot is likely to free up
+    first; the highest-priority overflow candidate (already priority-ordered
+    by the allocator) goes to that slot, the next-best to the second-
+    soonest, and so on. Not a guarantee — a match running long or short can
+    make the actual freed slot different from the guess. Regardless of the
+    guess, the previewed entry always keeps its own real scheduled time
+    (see apply_assignment) — same as a real TV guide keeps "Antichambre" at
+    21h00 even when the game before it runs to 21h10; a schedule doesn't
+    get rewritten because of a delay, only the delay itself gets flagged."""
+    live_ends = {
+        i: datetime.fromisoformat(match["start"]) + PROGRAMME_DURATION
+        for i, match in enumerate(assignment)
+        if match is not None
+    }
+    soonest_first = sorted(live_ends, key=live_ends.get)
+    return dict(zip(soonest_first, overflow))
+
+
 def apply_assignment(
     settings: dict,
     game: str,
     assignment: list[dict[str, Any] | None],
     reserved_for: list[dict[str, Any] | None] | None = None,
+    overflow: list[dict[str, Any]] | None = None,
 ) -> list[dict[str, Any]]:
     """Given the allocator's output for one game, reassigns ChannelStream
     priority on the generic channels and returns this game's guide entries —
@@ -230,7 +258,13 @@ def apply_assignment(
     per tick, since all games' channels share one EPGSource/guide file.
 
     - Live match (`assignment[i]` is not None): its stream becomes `order=0`,
-      guide entry shows the match itself.
+      guide entry shows the match itself. If `overflow` has a candidate
+      waiting for a slot, the highest-priority one is also previewed on
+      whichever live slot is expected to free up soonest (see
+      `_next_up_by_slot`) — always at its own real scheduled/actual start
+      time, never shifted to after this match's estimated end. A guide
+      keeps its printed times even when the thing before it runs long; it
+      doesn't get silently rewritten, so entries can legitimately overlap.
     - No live match but `reserved_for[i]` is set: a "coming up" guide entry
       for the anticipated match. `ChannelStream` is left untouched — this
       plugin never clears a channel's last-known stream just because a slot
@@ -243,6 +277,7 @@ def apply_assignment(
     from apps.epg.models import EPGData
 
     reserved_for = reserved_for or [None] * len(assignment)
+    next_up_by_slot = _next_up_by_slot(assignment, overflow or [])
     epg_source = _get_or_create_epg_source()
     now = datetime.now(timezone.utc)
     entries: list[dict[str, Any]] = []
@@ -270,12 +305,36 @@ def apply_assignment(
         if match is not None:
             stream = _get_or_create_owned_stream(match["twitch_channel"])
             ChannelStream.objects.update_or_create(channel=channel, stream=stream, defaults={"order": 0})
-            ChannelStream.objects.filter(channel=channel).exclude(stream=stream).update(order=1)
+            # Delete, don't just demote to order=1: a channel that had been
+            # linked to a Twitcharr-owned Stream before this plugin switched
+            # to cloning its own (see _get_or_create_owned_stream) would
+            # otherwise keep that old link forever, order=1 or not — and
+            # Twitcharr's own prune query matches on *any* linked stream
+            # carrying its owner tag, not just the active one. We only ever
+            # need the current match's stream; nothing reads old links back.
+            ChannelStream.objects.filter(channel=channel).exclude(stream=stream).delete()
 
             start = datetime.fromisoformat(match["start"])
-            entries.append(
-                {"tvg_id": tvg_id, "name": name, "title": match["title"], "start": start, "end": start + PROGRAMME_DURATION}
-            )
+            end = start + PROGRAMME_DURATION
+            entries.append({"tvg_id": tvg_id, "name": name, "title": match["title"], "start": start, "end": end})
+
+            next_match = next_up_by_slot.get(slot_index)
+            if next_match is not None:
+                # Always its own real scheduled/actual start — never pushed
+                # later just because this match's estimated end runs past
+                # it. A guide keeps its printed time even when the thing
+                # before it overruns; the overlap is the honest picture, not
+                # something to hide by rewriting the next entry's time.
+                next_start = datetime.fromisoformat(next_match["start"])
+                entries.append(
+                    {
+                        "tvg_id": tvg_id,
+                        "name": name,
+                        "title": next_match["title"],
+                        "start": next_start,
+                        "end": next_start + PROGRAMME_DURATION,
+                    }
+                )
             continue
 
         upcoming = reserved_for[slot_index]

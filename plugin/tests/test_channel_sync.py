@@ -1,5 +1,5 @@
-"""Tests for channel_sync's pure guide-XML building — `_build_guide_xmltv`
-is the only function in this module with zero Django dependency (everything
+"""Tests for channel_sync's pure functions — `_build_guide_xmltv` and
+`_next_up_by_slot` are the only ones with zero Django dependency (everything
 else uses models deferred into function bodies, so it can't run without a
 real Dispatcharr instance; see channel_sync.py's module docstring)."""
 
@@ -8,7 +8,7 @@ from __future__ import annotations
 import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timezone
 
-from esportsarr.channel_sync import _build_guide_xmltv
+from esportsarr.channel_sync import _build_guide_xmltv, _next_up_by_slot
 
 
 def _entry(tvg_id: str, name: str, title: str, hour: int = 20) -> dict:
@@ -66,3 +66,42 @@ def test_build_guide_xmltv_on_empty_entries_produces_a_valid_empty_guide():
 
     assert root.findall("channel") == []
     assert root.findall("programme") == []
+
+
+def _live_match(start_hour: int, title: str) -> dict:
+    return {"start": f"2026-07-27T{start_hour:02d}:00:00+00:00", "title": title, "state": "in_progress"}
+
+
+def test_next_up_by_slot_pairs_the_soonest_ending_slot_with_the_top_overflow_candidate():
+    # Slot 0 started later (18:00) so its estimated end is later than slot 1
+    # (started 16:00) — slot 1 frees up first and must get the higher-
+    # priority overflow candidate, not slot 0, regardless of slot order.
+    assignment = [_live_match(18, "Slot 0's match"), _live_match(16, "Slot 1's match")]
+    top_candidate = {"start": "2026-07-27T20:00:00+00:00", "title": "Best overflow", "state": "unstarted"}
+    second_candidate = {"start": "2026-07-27T21:00:00+00:00", "title": "Second overflow", "state": "unstarted"}
+
+    result = _next_up_by_slot(assignment, [top_candidate, second_candidate])
+
+    assert result == {1: top_candidate, 0: second_candidate}
+
+
+def test_next_up_by_slot_never_assigns_a_candidate_to_an_empty_slot():
+    assignment = [None, _live_match(18, "Slot 1's match")]
+    candidate = {"start": "2026-07-27T20:00:00+00:00", "title": "Overflow", "state": "unstarted"}
+
+    result = _next_up_by_slot(assignment, [candidate])
+
+    assert result == {1: candidate}
+
+
+def test_next_up_by_slot_is_empty_when_there_is_no_overflow():
+    assignment = [_live_match(18, "Slot 0's match")]
+
+    assert _next_up_by_slot(assignment, []) == {}
+
+
+def test_next_up_by_slot_is_empty_when_nothing_is_live():
+    assignment = [None, None]
+    candidate = {"start": "2026-07-27T20:00:00+00:00", "title": "Overflow", "state": "unstarted"}
+
+    assert _next_up_by_slot(assignment, [candidate]) == {}

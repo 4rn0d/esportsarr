@@ -165,14 +165,44 @@ on every tick, not just occupied ones — otherwise Dispatcharr's own generic
 placeholder filler ("Lunchtime Laziness...", "Evening Escapism...") shows
 through instead:
 
-- **Live match**: the real match, same as the stream switch itself.
+- **Live match**: the real match, same as the stream switch itself. If a
+  higher-or-equal-priority match is waiting for a slot (more live matches
+  than slots, or a near/far reservation that lost out elsewhere), the guide
+  also previews it right after — see "What comes after a live match" below.
 - **Reserved slot** (an anticipated higher-priority match within
   `reservation_lookahead_minutes`, holding the slot per the section above):
   a "coming up" entry for that match, at its real start time. The stream
   itself is untouched — only the guide previews it.
 - **Genuinely idle** (nothing live, nothing anticipated): an explicit
-  "No Match Scheduled" placeholder, refreshed every tick, instead of stale
-  or generic filler content.
+  "No Match Scheduled" placeholder, refreshed every tick and sized to
+  comfortably outlast one poll interval (`OFFLINE_PROGRAM_DURATION`, 6h) so
+  Dispatcharr's guide grid never shows its own "No program data" gap next to
+  it — the whole point is to look honest and continuous, not just short.
+
+### What comes after a live match — "next up" previews
+
+Riot never gives a match an end time, so, the same way a real broadcaster
+handles a live event of unknown length, `PROGRAMME_DURATION` (3h) is used as
+an estimate of when a live slot will free up. `allocator.assign_slots`'s
+third return value, `overflow`, is every candidate (live or upcoming) that
+lost out on a slot or reservation, in priority order — a 3rd live match with
+only 2 slots, or a near/far reservation that couldn't unseat what's already
+there. `channel_sync._next_up_by_slot` pairs the *best* overflow candidate
+with whichever live slot is estimated to free up *soonest*, the next-best
+with the second-soonest, and so on — then `apply_assignment` appends that
+candidate's guide entry right after the live match's estimated end.
+
+This is a best-effort guess, not a guarantee: if a match runs long or short,
+the slot that actually frees up first can differ from the one predicted.
+The stream itself is never switched early because of this — only the guide
+preview is affected, same as a reservation.
+
+The estimate is only ever used to pick *which slot* shows the preview — the
+previewed entry's start time is always the match's own real scheduled/actual
+time, never shifted later to avoid overlapping the live match's estimated
+end. Same as a real TV guide: "Antichambre" stays printed at 21h00 even when
+the game before it runs to 21h10 — the schedule doesn't get rewritten, the
+overlap is just the honest picture of a delay.
 
 ### How the guide is actually written — a local XMLTV file, not raw ProgramData
 

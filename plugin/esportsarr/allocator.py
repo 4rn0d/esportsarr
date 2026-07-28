@@ -77,16 +77,26 @@ def assign_slots(
     previous_assignment: list[MatchDict | None] | None = None,
     upcoming_matches: list[MatchDict] | None = None,
     far_upcoming_matches: list[MatchDict] | None = None,
-) -> tuple[list[MatchDict | None], list[MatchDict | None]]:
-    """Returns `(assignment, reserved_for)`, both lists of length `slots`.
+) -> tuple[list[MatchDict | None], list[MatchDict | None], list[MatchDict]]:
+    """Returns `(assignment, reserved_for, overflow)`.
 
-    `assignment[i]` is the live match occupying slot i, or None.
+    `assignment[i]` is the live match occupying slot i, or None. Both
+    `assignment` and `reserved_for` have length `slots`.
 
     `reserved_for[i]` is only ever set when `assignment[i]` is None: the
     upcoming (not-yet-live) match that reserved this slot — exposed so the
     caller can still write a "coming up" guide entry for an empty slot
     instead of leaving it blank. None means the slot is genuinely idle,
     nothing live or anticipated.
+
+    `overflow` is every remaining candidate (live or upcoming) that lost out
+    on both a slot and a reservation, in priority order — e.g. a 3rd live
+    match with only 2 slots, or a near/far candidate that couldn't unseat
+    what's already live/reserved. This function has no concept of match end
+    times (Riot never gives one), so it can't say *which* live slot a given
+    overflow candidate will eventually land on — it only ranks them. The
+    caller (which does know estimated end times) can use this to preview
+    "what's next" once a live slot frees up.
 
     `live_matches` should already be filtered to one game and to
     state == "in_progress" — this function has no concept of "game" at all,
@@ -142,4 +152,6 @@ def assign_slots(
         else:
             reserved_for[slot_index] = match
 
-    return assignment, reserved_for
+    overflow = [match for match, _is_live in combined[len(empty_slot_indexes):]]
+
+    return assignment, reserved_for, overflow

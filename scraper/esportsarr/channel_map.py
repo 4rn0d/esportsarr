@@ -24,7 +24,7 @@ TRACKED_LEAGUES: tuple[League, ...] = (
 
     League(display_name="VCT Americas", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
     League(display_name="Game Changers NA", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
-    League(display_name="Last Chance Qualifier Americas", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
+    League(display_name="Last Chance Qualifier Americas", game=Game.VALORANT, epg_channel_id="twitch.VALORANT_NorthAmerica"),
 
     League(display_name="VCT EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
     League(display_name="Game Changers EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
