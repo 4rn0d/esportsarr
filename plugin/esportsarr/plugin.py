@@ -14,12 +14,14 @@ same problem.
 
 from __future__ import annotations
 
+import json
 import logging
 import os
 import sys
 import threading
 import time
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from typing import Any
 
 import requests
@@ -30,6 +32,14 @@ from .allocator import assign_slots
 logger = logging.getLogger(__name__)
 
 PLUGIN_KEY = "esportsarr"
+
+# name/version/description/author are read from plugin.json (same directory)
+# instead of being duplicated as literals here — release-please only patches
+# plugin.json's "version", so a second hardcoded copy would silently drift
+# out of sync with it (confirmed happening: Dispatcharr showed 0.4.0 for the
+# disabled-plugin card, sourced from plugin.json, but 0.1.0 once enabled,
+# sourced from what used to be this class's own hardcoded attribute).
+_PLUGIN_MANIFEST = json.loads((Path(__file__).parent / "plugin.json").read_text(encoding="utf-8"))
 
 DEFAULT_SETTINGS = {
     "schedule_url": "",
@@ -275,14 +285,10 @@ def _stop_scheduler() -> bool:
 
 
 class Plugin:
-    name = "Esportsarr"
-    version = "0.1.0"
-    description = (
-        "Consolidates per-league esports Twitch channels into a fixed number of "
-        "generic channels per game, switching the active stream to whichever "
-        "live match currently holds priority."
-    )
-    author = "4rn0d"
+    name = _PLUGIN_MANIFEST["name"]
+    version = _PLUGIN_MANIFEST["version"]
+    description = _PLUGIN_MANIFEST["description"]
+    author = _PLUGIN_MANIFEST["author"]
 
     def __init__(self):
         try:
