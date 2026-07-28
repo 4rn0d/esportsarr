@@ -11,13 +11,15 @@ https://github.com/vickz84259/lolesports-api-docs.
 
 from __future__ import annotations
 
+import logging
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 
 import requests
 
 from .models import RIOT_STATE_TO_MATCH_STATE, League, MatchEvent
-from .channel_map import UnknownLeagueError
+
+logger = logging.getLogger(__name__)
 
 # Widely-shared public read-only key that lolesports.com/valorantesports.com's
 # own web client embeds and sends on every request. Not a secret.
@@ -102,7 +104,14 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
 def fetch_matches_for_leagues(leagues: list[League], api_key: str = RIOT_ESPORTS_PUBLIC_API_KEY) -> list[MatchEvent]:
     """Fetch and normalize matches for every given league, grouped by host so
     `getLeagues` is only called once per host regardless of how many leagues
-    from that game we're tracking."""
+    from that game we're tracking.
+
+    A league not found via getLeagues (Riot renamed/retired it, or
+    TRACKED_LEAGUES has a typo) is logged and skipped rather than raised —
+    one bad entry shouldn't take down every other league in the same game.
+    Use `python -m esportsarr.list_leagues --game <game>` to find the exact
+    current name when adding or fixing a league.
+    """
     matches: list[MatchEvent] = []
 
     leagues_by_game: dict[str, list[League]] = {}
@@ -117,10 +126,13 @@ def fetch_matches_for_leagues(leagues: list[League], api_key: str = RIOT_ESPORTS
         for league in game_leagues:
             league_id = id_by_name.get(league.display_name)
             if league_id is None:
-                raise UnknownLeagueError(
-                    f"League {league.display_name!r} not found via getLeagues on "
-                    f"{host.base_url} — Riot may have renamed or retired it."
+                logger.warning(
+                    "League %r not found via getLeagues on %s — Riot may have renamed "
+                    "or retired it, or TRACKED_LEAGUES has a typo. Skipping it.",
+                    league.display_name,
+                    host.base_url,
                 )
+                continue
             events = get_schedule(host, league_id, api_key)
             matches.extend(_normalize_event(event, league) for event in events)
 

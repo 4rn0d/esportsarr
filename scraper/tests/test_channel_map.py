@@ -24,10 +24,20 @@ def test_leagues_for_game_splits_lol_and_valorant_correctly():
     valorant_leagues = {league.display_name for league in leagues_for_game(Game.VALORANT)}
 
     assert lol_leagues == {"LCS", "LEC", "LCK"}
-    assert valorant_leagues == {"VCT Americas", "VCT EMEA", "VCT Pacific"}
+    assert valorant_leagues == {
+        "VCT Americas",
+        "Game Changers NA",
+        "VCT EMEA",
+        "Game Changers EMEA",
+        "VCT Pacific",
+    }
     assert lol_leagues.isdisjoint(valorant_leagues)
 
 
-def test_every_tracked_league_has_a_unique_epg_channel_id():
-    channel_ids = [league.epg_channel_id for league in TRACKED_LEAGUES]
-    assert len(channel_ids) == len(set(channel_ids))
+def test_every_tracked_league_has_a_unique_display_name():
+    # find_league does an exact first-match lookup by display_name — a
+    # duplicate would silently shadow one of the two leagues. Multiple
+    # leagues CAN share the same epg_channel_id on purpose (e.g. Game
+    # Changers NA airing on the same Twitch channel as VCT Americas).
+    display_names = [league.display_name for league in TRACKED_LEAGUES]
+    assert len(display_names) == len(set(display_names))

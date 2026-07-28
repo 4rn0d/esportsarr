@@ -7,10 +7,8 @@ from __future__ import annotations
 
 from urllib.parse import parse_qs, urlparse
 
-import pytest
 import responses
 
-from esportsarr.channel_map import UnknownLeagueError
 from esportsarr.models import Game, League, MatchState
 from esportsarr.riot_api import (
     LOL_HOST,
@@ -132,16 +130,42 @@ def test_fetch_matches_uses_block_name_when_match_key_is_absent():
 
 
 @responses.activate
-def test_fetch_matches_raises_when_league_not_found():
+def test_fetch_matches_skips_unknown_league_but_keeps_others_in_the_same_game():
+    # Regression guard for a real incident: a typo'd/renamed league used to
+    # raise and abort every other league sharing its game host — a single bad
+    # TRACKED_LEAGUES entry shouldn't break leagues that still work fine.
+    renamed_league = League(display_name="LCK Challengers", game=Game.LOL, epg_channel_id="twitch.lck_challengers")
+
     responses.add(
         responses.GET,
         f"{LOL_HOST.base_url}/getLeagues",
-        json=_leagues_payload([{"id": "999", "name": "LCK Challengers", "slug": "lck_challengers_league"}]),
+        json=_leagues_payload([{"id": "111", "name": "LCS", "slug": "lcs"}]),
+        status=200,
+    )
+    responses.add(
+        responses.GET,
+        f"{LOL_HOST.base_url}/getSchedule",
+        json=_schedule_payload(
+            [
+                {
+                    "startTime": "2026-07-27T20:00:00Z",
+                    "state": "inProgress",
+                    "blockName": "Playoffs",
+                    "match": {"teams": [{"name": "Sentinels"}, {"name": "Cloud9"}]},
+                    "streams": [{"provider": "twitch", "parameter": "lcs", "locale": "en-US"}],
+                }
+            ]
+        ),
         status=200,
     )
 
-    with pytest.raises(UnknownLeagueError):
-        fetch_matches_for_leagues([LCS], api_key="test-key")
+    matches = fetch_matches_for_leagues([LCS, renamed_league], api_key="test-key")
+
+    # Only one getSchedule call: the unknown league is skipped before ever
+    # requesting its schedule, not just filtered out afterward.
+    assert len(responses.calls) == 2
+    assert len(matches) == 1
+    assert matches[0].league is LCS
 
 
 @responses.activate

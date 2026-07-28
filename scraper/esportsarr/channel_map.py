@@ -8,14 +8,31 @@ from __future__ import annotations
 from .models import Game, League
 
 TRACKED_LEAGUES: tuple[League, ...] = (
+    League(display_name="Worlds", game=Game.LOL, epg_channel_id="twitch.riotgames"),
+    League(display_name="MSI", game=Game.LOL, epg_channel_id="twitch.riotgames"),
+    League(display_name="First Stand", game=Game.LOL, epg_channel_id="twitch.riotgames"),
+
     League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs"),
     League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec"),
     League(display_name="LCK", game=Game.LOL, epg_channel_id="twitch.lck"),
+    League(display_name="LPL", game=Game.LOL, epg_channel_id="youtube.LPL_English"),
+
+
+    League(display_name="Champions", game=Game.VALORANT, epg_channel_id="twitch.VALORANT"),
+    League(display_name="Masters", game=Game.VALORANT, epg_channel_id="twitch.VALORANT"),
+    League(display_name="Game Changers Championship", game=Game.VALORANT, epg_channel_id="twitch.VALORANT"),
+
     League(display_name="VCT Americas", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
-    League(display_name="GC NA", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
+    League(display_name="Game Changers NA", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
+    League(display_name="Last Chance Qualifier Americas", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas"),
+
     League(display_name="VCT EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
-    League(display_name="GC EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
+    League(display_name="Game Changers EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
+    League(display_name="Last Chance Qualifier EMEA", game=Game.VALORANT, epg_channel_id="twitch.valorant_emea"),
+
     League(display_name="VCT Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
+    League(display_name="Game Changers Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
+    League(display_name="Last Chance Qualifier Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
 )
 
 
