@@ -20,7 +20,7 @@ without Django installed.
 
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Any
 
 GAME_DISPLAY_NAMES = {"lol": "LoL", "valorant": "Valorant"}
@@ -31,6 +31,13 @@ EPG_SOURCE_NAME = "Esportsarr"
 # block including pre/post-show reliably runs a few hours. Same estimate the
 # scraper uses for esports.xmltv (scraper/esportsarr/xmltv.py).
 PROGRAMME_DURATION = timedelta(hours=3)
+
+OFFLINE_PROGRAM_TITLE = "No Match Scheduled"
+# A genuinely idle slot gets this placeholder instead of Dispatcharr's own
+# generic dummy-EPG filler bleeding through. Short and re-written every tick
+# (see apply_assignment) rather than left long, so a missed poll can't leave
+# a block whose end_time has already passed sitting there looking wrong.
+OFFLINE_PROGRAM_DURATION = timedelta(minutes=15)
 
 
 class StreamNotFoundError(LookupError):
@@ -101,15 +108,46 @@ def _find_stream_for_twitch_channel(twitch_channel: str):
     return stream
 
 
-def apply_assignment(settings: dict, game: str, assignment: list[dict[str, Any] | None]) -> None:
-    """Given the allocator's output for one game, reassigns ChannelStream
-    priority on the generic channels and writes the matching EPGData/
-    ProgramData row. A None slot is left untouched (no live match currently
-    holds it) — this plugin never clears a channel's last-known stream."""
-    from apps.channels.models import Channel, ChannelStream
-    from apps.epg.models import EPGData, ProgramData
+def _write_programme(epg_data, tvg_id: str, program_id: str, start: datetime, end: datetime, title: str) -> None:
+    from apps.epg.models import ProgramData
 
+    ProgramData.objects.update_or_create(
+        epg=epg_data,
+        program_id=program_id,
+        defaults={
+            "start_time": start,
+            "end_time": end,
+            "title": title,
+            "tvg_id": tvg_id,
+        },
+    )
+
+
+def apply_assignment(
+    settings: dict,
+    game: str,
+    assignment: list[dict[str, Any] | None],
+    reserved_for: list[dict[str, Any] | None] | None = None,
+) -> None:
+    """Given the allocator's output for one game, reassigns ChannelStream
+    priority on the generic channels and writes a guide entry for every slot:
+
+    - Live match (`assignment[i]` is not None): existing behavior — its
+      stream becomes `order=0`, guide shows the match itself.
+    - No live match but `reserved_for[i]` is set: a "coming up" guide entry
+      for the anticipated match. `ChannelStream` is left untouched — this
+      plugin never clears a channel's last-known stream just because a slot
+      is reserved rather than occupied.
+    - Neither: an explicit "No Match Scheduled" placeholder, so a genuinely
+      idle slot shows something honest instead of Dispatcharr's own generic
+      dummy-EPG filler.
+    """
+    from apps.channels.models import Channel, ChannelStream
+    from apps.epg.models import EPGData
+
+    reserved_for = reserved_for or [None] * len(assignment)
     epg_source = _get_or_create_epg_source()
+    now = datetime.now(timezone.utc)
 
     for slot_index, match in enumerate(assignment):
         tvg_id = _generic_channel_tvg_id(game, slot_index)
@@ -121,13 +159,6 @@ def apply_assignment(settings: dict, game: str, assignment: list[dict[str, Any] 
                 "'Create Channels' action once before enabling the scheduler."
             ) from exc
 
-        if match is None:
-            continue
-
-        stream = _find_stream_for_twitch_channel(match["twitch_channel"])
-        ChannelStream.objects.update_or_create(channel=channel, stream=stream, defaults={"order": 0})
-        ChannelStream.objects.filter(channel=channel).exclude(stream=stream).update(order=1)
-
         epg_data, _ = EPGData.objects.get_or_create(
             tvg_id=tvg_id,
             epg_source=epg_source,
@@ -137,14 +168,40 @@ def apply_assignment(settings: dict, game: str, assignment: list[dict[str, Any] 
             channel.epg_data = epg_data
             channel.save(update_fields=["epg_data"])
 
-        start = datetime.fromisoformat(match["start"])
-        ProgramData.objects.update_or_create(
-            epg=epg_data,
-            program_id=f"{match['league']}:{match['start']}",
-            defaults={
-                "start_time": start,
-                "end_time": start + PROGRAMME_DURATION,
-                "title": match["title"],
-                "tvg_id": tvg_id,
-            },
+        if match is not None:
+            stream = _find_stream_for_twitch_channel(match["twitch_channel"])
+            ChannelStream.objects.update_or_create(channel=channel, stream=stream, defaults={"order": 0})
+            ChannelStream.objects.filter(channel=channel).exclude(stream=stream).update(order=1)
+
+            start = datetime.fromisoformat(match["start"])
+            _write_programme(
+                epg_data,
+                tvg_id,
+                program_id=f"{match['league']}:{match['start']}",
+                start=start,
+                end=start + PROGRAMME_DURATION,
+                title=match["title"],
+            )
+            continue
+
+        upcoming = reserved_for[slot_index]
+        if upcoming is not None:
+            start = datetime.fromisoformat(upcoming["start"])
+            _write_programme(
+                epg_data,
+                tvg_id,
+                program_id=f"{upcoming['league']}:{upcoming['start']}",
+                start=start,
+                end=start + PROGRAMME_DURATION,
+                title=upcoming["title"],
+            )
+            continue
+
+        _write_programme(
+            epg_data,
+            tvg_id,
+            program_id=f"offline:{tvg_id}",
+            start=now,
+            end=now + OFFLINE_PROGRAM_DURATION,
+            title=OFFLINE_PROGRAM_TITLE,
         )

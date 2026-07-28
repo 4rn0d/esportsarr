@@ -142,3 +142,18 @@ channel — it does not go blank while waiting.
 
 See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
 policy and edge cases.
+
+## What the guide shows for each slot
+
+`apply_assignment` (`channel_sync.py`) writes a guide entry for every slot on
+every tick, not just occupied ones — otherwise Dispatcharr's own generic
+dummy-EPG filler ("Lunchtime Laziness...") shows through instead:
+
+- **Live match**: the real match, same as the stream switch itself.
+- **Reserved slot** (an anticipated higher-priority match within
+  `reservation_lookahead_minutes`, holding the slot per the section above):
+  a "coming up" entry for that match, at its real start time. The stream
+  itself is untouched — only the guide previews it.
+- **Genuinely idle** (nothing live, nothing anticipated): an explicit
+  "No Match Scheduled" placeholder, refreshed every tick, instead of stale
+  or generic filler content.

@@ -32,7 +32,7 @@ def test_fills_empty_slots_by_priority_when_nothing_was_previously_assigned():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
-    assignment = assign_slots(
+    assignment, reserved_for = assign_slots(
         live_matches=[pacific, americas],  # deliberately out of priority order
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -40,6 +40,7 @@ def test_fills_empty_slots_by_priority_when_nothing_was_previously_assigned():
     )
 
     assert assignment == [americas, pacific]
+    assert reserved_for == [None, None]
 
 
 def test_sticky_keeps_existing_live_match_even_when_a_higher_priority_match_starts():
@@ -48,7 +49,7 @@ def test_sticky_keeps_existing_live_match_even_when_a_higher_priority_match_star
 
     # EMEA already holds the only slot; Americas (higher priority) starts later
     # while EMEA is still live — policy says Americas waits, it does not preempt.
-    assignment = assign_slots(
+    assignment, _ = assign_slots(
         live_matches=[emea, americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -63,7 +64,7 @@ def test_overflow_matches_beyond_available_slots_are_dropped_not_queued():
     emea = _match("VCT EMEA", "2026-07-27T18:00:00+00:00", "Fnatic vs Team Liquid", "valorant_emea")
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
-    assignment = assign_slots(
+    assignment, _ = assign_slots(
         live_matches=[pacific, emea, americas],
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -79,7 +80,7 @@ def test_match_ending_frees_its_slot_for_the_next_highest_priority_live_match():
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
     # EMEA held the slot last tick but is no longer in the live list (it ended).
-    assignment = assign_slots(
+    assignment, _ = assign_slots(
         live_matches=[pacific],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -92,7 +93,7 @@ def test_match_ending_frees_its_slot_for_the_next_highest_priority_live_match():
 def test_unranked_league_is_lowest_priority_but_still_fills_a_free_slot():
     unranked = _match("VCT Masters", "2026-07-27T18:00:00+00:00", "Team A vs Team B", "valorant_masters")
 
-    assignment = assign_slots(
+    assignment, _ = assign_slots(
         live_matches=[unranked],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -103,7 +104,7 @@ def test_unranked_league_is_lowest_priority_but_still_fills_a_free_slot():
 
 
 def test_empty_live_matches_produces_all_none_slots():
-    assignment = assign_slots(
+    assignment, reserved_for = assign_slots(
         live_matches=[],
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -111,12 +112,13 @@ def test_empty_live_matches_produces_all_none_slots():
     )
 
     assert assignment == [None, None]
+    assert reserved_for == [None, None]
 
 
 def test_previous_assignment_longer_than_slots_is_truncated_not_errored():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    assignment = assign_slots(
+    assignment, _ = assign_slots(
         live_matches=[americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -133,7 +135,7 @@ def test_upcoming_higher_priority_match_reserves_a_slot_instead_of_a_lower_prior
     # Two empty slots, one live regional match, one imminent international
     # not live yet. The international's reservation wins the higher-ranked
     # slot; the regional gets the other one rather than both being empty.
-    assignment = assign_slots(
+    assignment, reserved_for = assign_slots(
         live_matches=[americas],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -142,6 +144,9 @@ def test_upcoming_higher_priority_match_reserves_a_slot_instead_of_a_lower_prior
     )
 
     assert assignment == [None, americas]
+    # The reserved slot exposes exactly which match justified holding it open
+    # — that's what lets the caller write a "coming up" guide entry for it.
+    assert reserved_for == [champions, None]
 
 
 def test_reservation_never_preempts_an_already_live_match():
@@ -151,7 +156,7 @@ def test_reservation_never_preempts_an_already_live_match():
     # Americas already holds the only slot and is still live. Champions is
     # imminent but there are zero empty slots — the existing live match must
     # never be bumped out to make room for a reservation.
-    assignment = assign_slots(
+    assignment, reserved_for = assign_slots(
         live_matches=[americas],
         slots=1,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -160,6 +165,7 @@ def test_reservation_never_preempts_an_already_live_match():
     )
 
     assert assignment == [americas]
+    assert reserved_for == [None]
 
 
 def test_duplicate_upcoming_entries_for_the_same_match_only_reserve_one_slot():
@@ -169,7 +175,7 @@ def test_duplicate_upcoming_entries_for_the_same_match_only_reserve_one_slot():
     # Regression guard: a duplicate in the upcoming list (feed glitch, double
     # count) must not burn two reservation slots on the same anticipated
     # match — that would leave the live regional match with nowhere to go.
-    assignment = assign_slots(
+    assignment, reserved_for = assign_slots(
         live_matches=[americas],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -178,12 +184,13 @@ def test_duplicate_upcoming_entries_for_the_same_match_only_reserve_one_slot():
     )
 
     assert assignment == [None, americas]
+    assert reserved_for == [champions, None]
 
 
 def test_upcoming_matches_defaults_when_not_provided():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    assignment = assign_slots(
+    assignment, reserved_for = assign_slots(
         live_matches=[americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -191,3 +198,20 @@ def test_upcoming_matches_defaults_when_not_provided():
     )
 
     assert assignment == [americas]
+    assert reserved_for == [None]
+
+
+def test_idle_slot_with_nothing_live_or_upcoming_has_no_reservation_preview():
+    # Nothing live, nothing anticipated — reserved_for must stay None rather
+    # than pointing at something stale, so the caller knows to write an
+    # honest "no match scheduled" placeholder instead of a preview.
+    assignment, reserved_for = assign_slots(
+        live_matches=[],
+        slots=2,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        upcoming_matches=[],
+    )
+
+    assert assignment == [None, None]
+    assert reserved_for == [None, None]

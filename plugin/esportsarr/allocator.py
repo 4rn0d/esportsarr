@@ -43,9 +43,16 @@ def assign_slots(
     league_priority: list[str],
     previous_assignment: list[MatchDict | None] | None = None,
     upcoming_matches: list[MatchDict] | None = None,
-) -> list[MatchDict | None]:
-    """Returns a list of length `slots`; each entry is the match dict assigned
-    to that slot, or None if no live match currently holds it.
+) -> tuple[list[MatchDict | None], list[MatchDict | None]]:
+    """Returns `(assignment, reserved_for)`, both lists of length `slots`.
+
+    `assignment[i]` is the live match occupying slot i, or None.
+
+    `reserved_for[i]` is only ever set when `assignment[i]` is None: the
+    upcoming (not-yet-live) match that reserved this slot ahead of a
+    lower-priority live match — exposed so the caller can still write a
+    "coming up" guide entry for an empty slot instead of leaving it blank.
+    None means the slot is genuinely idle, nothing live or anticipated.
 
     `live_matches` should already be filtered to one game and to
     state == "in_progress" — this function has no concept of "game" at all,
@@ -53,9 +60,10 @@ def assign_slots(
 
     `upcoming_matches` (state == "unstarted", also pre-filtered to one game)
     can win an *empty* slot ahead of a lower-priority live match, reserving
-    it (left as None) until the anticipated match actually goes live — see
-    module docstring. This function does no date parsing; window-filtering
-    "upcoming" to something actually imminent is entirely the caller's job.
+    it (left as None in `assignment`) until the anticipated match actually
+    goes live — see module docstring. This function does no date parsing;
+    window-filtering "upcoming" to something actually imminent is entirely
+    the caller's job.
     """
     upcoming_matches = upcoming_matches or []
 
@@ -97,10 +105,14 @@ def assign_slots(
     # Fill empty slots, in slot order, from the top of that ranking. A live
     # candidate fills the slot; a reservation-only candidate leaves it None,
     # held for the anticipated match instead of being given to something
-    # lower-priority that's live right now.
+    # lower-priority that's live right now — but recorded in `reserved_for`
+    # so the caller can still preview it in the guide.
+    reserved_for: list[MatchDict | None] = [None] * slots
     empty_slot_indexes = [i for i, occupant in enumerate(assignment) if occupant is None]
     for slot_index, (match, is_live) in zip(empty_slot_indexes, combined):
         if is_live:
             assignment[slot_index] = match
+        else:
+            reserved_for[slot_index] = match
 
-    return assignment
+    return assignment, reserved_for

@@ -149,14 +149,14 @@ def _run_sync(settings: dict) -> dict:
             slots = int(settings["slots_per_game"])
             previous = _last_assignment.get(game)
 
-            assignment = assign_slots(
+            assignment, reserved_for = assign_slots(
                 live_matches=live_by_game.get(game, []),
                 slots=slots,
                 league_priority=priority,
                 previous_assignment=previous,
                 upcoming_matches=upcoming_by_game.get(game, []),
             )
-            channel_sync.apply_assignment(settings, game, assignment)
+            channel_sync.apply_assignment(settings, game, assignment, reserved_for)
             _last_assignment[game] = assignment
             results[game] = [match["title"] if match else None for match in assignment]
 
