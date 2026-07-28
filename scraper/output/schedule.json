@@ -1,6 +1,1358 @@
 {
-  "generated_at": "2026-07-28T11:50:19.738518+00:00",
+  "generated_at": "2026-07-28T13:56:06.105902+00:00",
   "matches": [
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T13:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T14:00:00+00:00",
+      "state": "completed",
+      "title": "WeiboGaming vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T15:00:00+00:00",
+      "state": "completed",
+      "title": "Dplus KIA vs Fnatic",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T16:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T17:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T18:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs GAM Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-03T19:00:00+00:00",
+      "state": "completed",
+      "title": "paiN Gaming vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T12:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T13:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T14:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T15:00:00+00:00",
+      "state": "completed",
+      "title": "WeiboGaming vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T16:00:00+00:00",
+      "state": "completed",
+      "title": "paiN Gaming vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T17:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs Dplus KIA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T18:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs Fnatic",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-04T19:00:00+00:00",
+      "state": "completed",
+      "title": "Movistar KOI vs PSG Talon",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-05T12:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs Dplus KIA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-05T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G Esports vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-06T12:00:00+00:00",
+      "state": "completed",
+      "title": "Fnatic vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-06T13:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-06T14:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-06T15:00:00+00:00",
+      "state": "completed",
+      "title": "WeiboGaming vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-07T12:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs Movistar KOI",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-07T15:00:00+00:00",
+      "state": "completed",
+      "title": "paiN Gaming vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-10T12:00:00+00:00",
+      "state": "completed",
+      "title": "Dplus KIA vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-10T15:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-11T12:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-11T15:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-12T12:00:00+00:00",
+      "state": "completed",
+      "title": "WeiboGaming vs Fnatic",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-12T15:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-13T12:00:00+00:00",
+      "state": "completed",
+      "title": "WeiboGaming vs Dplus KIA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-13T15:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-13T18:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-17T12:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs WeiboGaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-18T12:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-19T12:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-20T12:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-26T12:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs WeiboGaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-10-27T13:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G Esports vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2024-11-02T14:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-14T08:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Invictus Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T05:00:00+00:00",
+      "state": "completed",
+      "title": "Vivo Keyd Stars vs Team Secret Whales",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T06:00:00+00:00",
+      "state": "completed",
+      "title": "Fnatic vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T07:00:00+00:00",
+      "state": "completed",
+      "title": "Movistar KOI vs kt Rolster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T08:00:00+00:00",
+      "state": "completed",
+      "title": "100 Thieves vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T09:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T10:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T11:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-15T12:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T05:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs Vivo Keyd Stars",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T06:00:00+00:00",
+      "state": "completed",
+      "title": "Team Secret Whales vs kt Rolster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T07:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Movistar KOI",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T08:00:00+00:00",
+      "state": "completed",
+      "title": "100 Thieves vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T09:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T10:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T11:00:00+00:00",
+      "state": "completed",
+      "title": "Fnatic vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-16T12:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-17T08:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs kt Rolster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-17T11:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-18T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Secret Whales vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-18T09:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-18T10:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-18T11:00:00+00:00",
+      "state": "completed",
+      "title": "100 Thieves vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-19T08:00:00+00:00",
+      "state": "completed",
+      "title": "Fnatic vs Movistar KOI",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-19T11:00:00+00:00",
+      "state": "completed",
+      "title": "Vivo Keyd Stars vs PSG Talon",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-22T08:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-22T11:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-23T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Secret Whales vs Movistar KOI",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-23T11:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-24T08:00:00+00:00",
+      "state": "completed",
+      "title": "Vivo Keyd Stars vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-24T11:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs 100 Thieves",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-25T05:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-25T08:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-25T11:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Movistar KOI",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-28T07:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-29T07:00:00+00:00",
+      "state": "completed",
+      "title": "CTBC Flying Oyster vs kt Rolster",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-30T07:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-10-31T07:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-11-01T07:00:00+00:00",
+      "state": "completed",
+      "title": "kt Rolster vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-11-02T07:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2025-11-09T07:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs kt Rolster",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-01T08:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-01T11:00:00+00:00",
+      "state": "completed",
+      "title": "Estral Esports vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-02T08:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs Fnatic",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-02T11:00:00+00:00",
+      "state": "completed",
+      "title": "LOUD vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-03T08:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-03T11:00:00+00:00",
+      "state": "completed",
+      "title": "Fnatic vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-04T08:00:00+00:00",
+      "state": "completed",
+      "title": "Estral Esports vs PSG Talon",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-04T11:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs LOUD",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-05T08:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-05T11:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs Fnatic",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-07T09:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-08T09:00:00+00:00",
+      "state": "completed",
+      "title": "Fnatic vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-09T09:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-10T09:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-11T04:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs Fnatic",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-11T09:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-12T04:00:00+00:00",
+      "state": "completed",
+      "title": "PSG Talon vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-12T09:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-14T09:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-15T09:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-16T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-17T09:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-18T09:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2024-05-19T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-06-27T19:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs FURIA",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-06-28T00:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-06-28T19:00:00+00:00",
+      "state": "completed",
+      "title": "FURIA vs GAM Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-06-29T00:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-06-30T00:00:00+00:00",
+      "state": "completed",
+      "title": "GAM Esports vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-02T00:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-03T00:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-03T19:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Movistar KOI",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-04T00:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-04T19:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-05T00:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G Esports vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-05T19:00:00+00:00",
+      "state": "completed",
+      "title": "Movistar KOI vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-06T00:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-08T00:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-09T00:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs FlyQuest",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-10T00:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G Esports vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-11T00:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-12T00:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2025-07-13T00:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-06-28T03:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-06-28T08:00:00+00:00",
+      "state": "completed",
+      "title": "Relove Deep Cross Gaming vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-06-29T03:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-06-29T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs Relove Deep Cross Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-06-30T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-01T08:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-03T03:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs Team Secret Whales",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-03T08:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-04T03:00:00+00:00",
+      "state": "completed",
+      "title": "FURIA vs LYON",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-04T08:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-05T03:00:00+00:00",
+      "state": "completed",
+      "title": "Team Secret Whales vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-05T08:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-06T03:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs LYON",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-06T08:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs FURIA",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-08T03:00:00+00:00",
+      "state": "completed",
+      "title": "LYON vs Team Secret Whales",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-08T08:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-09T08:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-10T08:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs LYON",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-11T08:00:00+00:00",
+      "state": "completed",
+      "title": "LYON vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "MSI",
+      "game": "lol",
+      "start": "2026-07-12T06:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-10T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-10T11:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-11T08:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-11T11:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid Alienware vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-12T08:00:00+00:00",
+      "state": "completed",
+      "title": "CTBC Flying Oyster vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-12T11:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-13T08:00:00+00:00",
+      "state": "completed",
+      "title": "CTBC Flying Oyster vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-13T11:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-14T08:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-14T11:00:00+00:00",
+      "state": "completed",
+      "title": "Hanwha Life Esports vs Team Liquid Alienware",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-15T04:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs CTBC Flying Oyster",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-15T09:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2025-03-16T08:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs Hanwha Life Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-16T13:00:00+00:00",
+      "state": "completed",
+      "title": "BNK FEARX vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-16T18:00:00+00:00",
+      "state": "completed",
+      "title": "Team Secret Whales vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-17T13:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-17T18:00:00+00:00",
+      "state": "completed",
+      "title": "LYON vs LOUD",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-18T13:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-18T18:00:00+00:00",
+      "state": "completed",
+      "title": "Team Secret Whales vs BNK FEARX",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-19T13:00:00+00:00",
+      "state": "completed",
+      "title": "LYON vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-19T18:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs LOUD",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-20T13:00:00+00:00",
+      "state": "completed",
+      "title": "BNK FEARX vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs LYON",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-21T13:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Gen.G Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-21T18:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "First Stand",
+      "game": "lol",
+      "start": "2026-03-22T13:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
     {
       "league": "LCS",
       "game": "lol",
@@ -1922,6 +3274,2326 @@
       "twitch_channel": null
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-13T11:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-14T09:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-14T11:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs WeiboGaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-15T09:00:00+00:00",
+      "state": "completed",
+      "title": "Ultra Prime vs Oh My God",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-15T11:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-16T09:00:00+00:00",
+      "state": "completed",
+      "title": "THUNDER TALK GAMING vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-16T11:00:00+00:00",
+      "state": "completed",
+      "title": "Xi'an Team WE vs Shenzhen NINJAS IN PYJAMAS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-17T09:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs Invictus Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-17T11:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-23T06:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-23T09:00:00+00:00",
+      "state": "completed",
+      "title": "THUNDER TALK GAMING vs Invictus Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-24T06:00:00+00:00",
+      "state": "completed",
+      "title": "Shenzhen NINJAS IN PYJAMAS vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-24T09:00:00+00:00",
+      "state": "completed",
+      "title": "WeiboGaming vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-29T06:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-29T09:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-30T06:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-30T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-05-31T09:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-01T09:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-02T09:00:00+00:00",
+      "state": "completed",
+      "title": "THUNDER TALK GAMING vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-03T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-05T09:00:00+00:00",
+      "state": "completed",
+      "title": "LGD GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-06T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-07T09:00:00+00:00",
+      "state": "completed",
+      "title": "Xi'an Team WE vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-08T09:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-13T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-06-14T09:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-22T09:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD GAMING vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-22T11:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-23T09:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-23T11:00:00+00:00",
+      "state": "completed",
+      "title": "THUNDER TALK GAMING vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-24T07:00:00+00:00",
+      "state": "completed",
+      "title": "Anyone's Legend vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-24T09:00:00+00:00",
+      "state": "completed",
+      "title": "Beijing JDG Esports vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-24T11:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-25T07:00:00+00:00",
+      "state": "completed",
+      "title": "Xi'an Team WE vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-25T09:00:00+00:00",
+      "state": "completed",
+      "title": "Invictus Gaming vs WeiboGaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-25T11:00:00+00:00",
+      "state": "completed",
+      "title": "TOP ESPORTS vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-26T07:00:00+00:00",
+      "state": "completed",
+      "title": "Suzhou LNG Esports vs Shenzhen NINJAS IN PYJAMAS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-26T09:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD GAMING vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-26T11:00:00+00:00",
+      "state": "completed",
+      "title": "BILIBILI GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-29T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "TOP ESPORTS vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-29T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "BILIBILI GAMING vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-30T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "Shenzhen NINJAS IN PYJAMAS vs WeiboGaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-30T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "EDWARD GAMING vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-30T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "Beijing JDG Esports vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-31T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "Anyone's Legend vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-31T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Xi'an Team WE vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-01T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "THUNDER TALK GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-01T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "TOP ESPORTS vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-01T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "Beijing JDG Esports vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-02T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "THUNDER TALK GAMING vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-02T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Invictus Gaming vs Suzhou LNG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-02T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "TOP ESPORTS vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-05T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LGD GAMING vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-05T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "TOP ESPORTS vs EDWARD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-06T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "LGD GAMING vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-06T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Invictus Gaming vs Shenzhen NINJAS IN PYJAMAS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-06T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "Xi'an Team WE vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-07T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "EDWARD GAMING vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-07T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Xi'an Team WE vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-07T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "TOP ESPORTS vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-08T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "WeiboGaming vs Suzhou LNG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-08T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LGD GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-08T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "EDWARD GAMING vs BILIBILI GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-09T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "Suzhou LNG Esports vs Invictus Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-09T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "THUNDER TALK GAMING vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-09T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "Xi'an Team WE vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-12T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "EDWARD GAMING vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-12T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "BILIBILI GAMING vs Beijing JDG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-13T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "WeiboGaming vs Shenzhen NINJAS IN PYJAMAS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-13T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LGD GAMING vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-13T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "BILIBILI GAMING vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-14T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "EDWARD GAMING vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-14T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Xi'an Team WE vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-14T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "Beijing JDG Esports vs Anyone's Legend",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-15T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "Shenzhen NINJAS IN PYJAMAS vs Suzhou LNG Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-15T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Anyone's Legend vs THUNDER TALK GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-15T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "BILIBILI GAMING vs Xi'an Team WE",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-16T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "Beijing JDG Esports vs LGD GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-16T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "WeiboGaming vs Invictus Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-17T19:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Bilibili Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-17T22:00:00+00:00",
+      "state": "completed",
+      "title": "Evil Geniuses vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-18T19:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs FUT Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-18T22:00:00+00:00",
+      "state": "completed",
+      "title": "Bilibili Gaming vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-19T19:00:00+00:00",
+      "state": "completed",
+      "title": "LOUD vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-19T22:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Evil Geniuses",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-20T19:00:00+00:00",
+      "state": "completed",
+      "title": "LOUD vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-20T22:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-24T19:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Evil Geniuses",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-24T22:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs LOUD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-25T19:00:00+00:00",
+      "state": "completed",
+      "title": "Evil Geniuses vs LOUD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2023-08-26T19:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Evil Geniuses",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-01T08:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs Gen.G ",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-01T11:00:00+00:00",
+      "state": "completed",
+      "title": "FunPlus Phoenix vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-02T08:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs KR\u00dc Visa",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-02T11:00:00+00:00",
+      "state": "completed",
+      "title": "Bilibili Gaming vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-03T08:00:00+00:00",
+      "state": "completed",
+      "title": "Talon Esports vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-03T11:00:00+00:00",
+      "state": "completed",
+      "title": "Trace Esports vs Team Vitality",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-04T08:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-04T11:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs FUT Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-06T08:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G  vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-06T11:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs Kiwoom DRX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-07T08:00:00+00:00",
+      "state": "completed",
+      "title": "Trace Esports vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-07T11:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-08T08:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs FunPlus Phoenix",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-08T11:00:00+00:00",
+      "state": "completed",
+      "title": "Bilibili Gaming vs KR\u00dc Visa",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-09T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Vitality vs Talon Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-09T11:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs FUT Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-10T08:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs Gen.G ",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-10T11:00:00+00:00",
+      "state": "completed",
+      "title": "KR\u00dc Visa vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-11T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Vitality vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-11T11:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-14T08:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-14T11:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs Trace Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-15T08:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-15T11:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-16T08:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Trace Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-16T11:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-17T08:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-17T11:00:00+00:00",
+      "state": "completed",
+      "title": "Leviat\u00e1n Esports vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-18T08:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-18T11:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-23T07:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-23T10:00:00+00:00",
+      "state": "completed",
+      "title": "Team Heretics vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-24T07:00:00+00:00",
+      "state": "completed",
+      "title": "Leviat\u00e1n Esports vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2024-08-25T07:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-12T13:00:00+00:00",
+      "state": "completed",
+      "title": "Xi Lai Gaming vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-12T16:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-13T13:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-13T16:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Team Liquid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-14T13:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs DRAGON RANGER GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-14T16:00:00+00:00",
+      "state": "completed",
+      "title": "Team Heretics vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-15T13:00:00+00:00",
+      "state": "completed",
+      "title": "MIBR vs Bilibili Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-15T16:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs Rex Regum Qeon",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-17T13:00:00+00:00",
+      "state": "completed",
+      "title": "GIANTX vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-17T16:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs Kiwoom DRX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-18T13:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-18T16:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs MIBR",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-19T13:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-19T16:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-20T13:00:00+00:00",
+      "state": "completed",
+      "title": "Bilibili Gaming vs Rex Regum Qeon",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-20T16:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs DRAGON RANGER GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-21T13:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid vs Kiwoom DRX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-21T16:00:00+00:00",
+      "state": "completed",
+      "title": "Xi Lai Gaming vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-22T13:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-22T16:00:00+00:00",
+      "state": "completed",
+      "title": "MIBR vs Rex Regum Qeon",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-25T13:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-25T16:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-26T13:00:00+00:00",
+      "state": "completed",
+      "title": "MIBR vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-26T16:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-27T13:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Kiwoom DRX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-27T16:00:00+00:00",
+      "state": "completed",
+      "title": "GIANTX vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-28T13:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-28T16:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs MIBR",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-29T13:00:00+00:00",
+      "state": "completed",
+      "title": "Team Heretics vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-09-29T16:00:00+00:00",
+      "state": "completed",
+      "title": "MIBR vs Kiwoom DRX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-10-03T11:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-10-03T14:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-10-04T11:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs Kiwoom DRX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2025-10-05T11:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-02-24T10:00:00+00:00",
+      "state": "completed",
+      "title": "Kiwoom DRX vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-02-24T13:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-02-27T10:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-02-27T13:00:00+00:00",
+      "state": "completed",
+      "title": "Team Vitality vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-02-28T10:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-02-28T13:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Team Vitality",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-03-01T10:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-03-02T11:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-07T16:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-07T19:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid vs Bilibili Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-08T16:00:00+00:00",
+      "state": "completed",
+      "title": "WOLVES ESPORTS vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-08T19:00:00+00:00",
+      "state": "completed",
+      "title": "MIBR vs Gen.G ",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-09T16:00:00+00:00",
+      "state": "completed",
+      "title": "Bilibili Gaming vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-09T19:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G  vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-10T16:00:00+00:00",
+      "state": "completed",
+      "title": "Team Heretics vs WOLVES ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-10T19:00:00+00:00",
+      "state": "completed",
+      "title": "MIBR vs Team Liquid",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-11T16:00:00+00:00",
+      "state": "completed",
+      "title": "Bilibili Gaming vs WOLVES ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-11T19:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-13T16:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-13T19:00:00+00:00",
+      "state": "completed",
+      "title": "Sentinels vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-14T16:00:00+00:00",
+      "state": "completed",
+      "title": "WOLVES ESPORTS vs Rex Regum Qeon",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-14T19:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G  vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-15T16:00:00+00:00",
+      "state": "completed",
+      "title": "Xi Lai Gaming vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-15T19:00:00+00:00",
+      "state": "completed",
+      "title": "Rex Regum Qeon vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-16T16:00:00+00:00",
+      "state": "completed",
+      "title": "WOLVES ESPORTS vs Gen.G ",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-16T19:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-17T16:00:00+00:00",
+      "state": "completed",
+      "title": "Gen.G  vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-17T19:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs Sentinels",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-20T16:00:00+00:00",
+      "state": "completed",
+      "title": "WOLVES ESPORTS vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-20T19:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-21T16:00:00+00:00",
+      "state": "completed",
+      "title": "FNATIC vs WOLVES ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2025-06-22T17:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs FNATIC",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-02-28T17:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-02-28T20:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-01T17:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-01T20:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs Team Liquid",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-02T18:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-02T21:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-03T18:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs T1",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-03T21:00:00+00:00",
+      "state": "completed",
+      "title": "Xi Lai Gaming vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-04T18:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs Team Liquid",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-04T21:00:00+00:00",
+      "state": "completed",
+      "title": "T1 vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-06T18:00:00+00:00",
+      "state": "completed",
+      "title": "FURIA vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-06T21:00:00+00:00",
+      "state": "completed",
+      "title": "NONGSHIM REDFORCE vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-07T17:00:00+00:00",
+      "state": "completed",
+      "title": "BBL Esports vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-07T20:00:00+00:00",
+      "state": "completed",
+      "title": "ALL GAMERS vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-08T17:00:00+00:00",
+      "state": "completed",
+      "title": "BBL Esports vs FURIA",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-08T20:00:00+00:00",
+      "state": "completed",
+      "title": "ALL GAMERS vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-09T18:00:00+00:00",
+      "state": "completed",
+      "title": "NONGSHIM REDFORCE vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-09T21:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-10T18:00:00+00:00",
+      "state": "completed",
+      "title": "BBL Esports vs G2 Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-10T21:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs ALL GAMERS",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-13T17:00:00+00:00",
+      "state": "completed",
+      "title": "NONGSHIM REDFORCE vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-13T20:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Paper Rex",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-14T17:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-03-15T17:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs NONGSHIM REDFORCE",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-06T14:00:00+00:00",
+      "state": "completed",
+      "title": "Xi Lai Gaming vs NRG",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-06T17:00:00+00:00",
+      "state": "completed",
+      "title": "Team Vitality vs DRAGON RANGER GAMING",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-07T14:00:00+00:00",
+      "state": "completed",
+      "title": "FUT Esports vs FULL SENSE",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-07T17:00:00+00:00",
+      "state": "completed",
+      "title": "Leviat\u00e1n Esports vs GLOBAL ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-08T14:00:00+00:00",
+      "state": "completed",
+      "title": "FUT Esports vs Team Vitality",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-08T17:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-09T14:00:00+00:00",
+      "state": "completed",
+      "title": "DRAGON RANGER GAMING vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-09T17:00:00+00:00",
+      "state": "completed",
+      "title": "FULL SENSE vs GLOBAL ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-10T14:00:00+00:00",
+      "state": "completed",
+      "title": "NRG vs FUT Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-10T17:00:00+00:00",
+      "state": "completed",
+      "title": "GLOBAL ESPORTS vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-12T14:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-12T17:00:00+00:00",
+      "state": "completed",
+      "title": "Team Heretics vs Team Vitality",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-13T14:00:00+00:00",
+      "state": "completed",
+      "title": "EDWARD Gaming vs FUT Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-13T17:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-14T14:00:00+00:00",
+      "state": "completed",
+      "title": "Leviat\u00e1n Esports vs Team Heretics",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-14T17:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Esports vs FUT Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-15T14:00:00+00:00",
+      "state": "completed",
+      "title": "Xi Lai Gaming vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-15T17:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Team Vitality",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-16T14:00:00+00:00",
+      "state": "completed",
+      "title": "Leviat\u00e1n Esports vs Xi Lai Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-16T17:00:00+00:00",
+      "state": "completed",
+      "title": "FUT Esports vs Team Vitality",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-19T13:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-19T16:00:00+00:00",
+      "state": "completed",
+      "title": "Team Vitality vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-20T13:00:00+00:00",
+      "state": "completed",
+      "title": "Leviat\u00e1n Esports vs EDWARD Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "VALORANT Masters",
+      "game": "valorant",
+      "start": "2026-06-21T13:00:00+00:00",
+      "state": "completed",
+      "title": "Paper Rex vs Leviat\u00e1n Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-28T17:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid VISA vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-28T20:00:00+00:00",
+      "state": "completed",
+      "title": "Evil Geniuses GC vs Team SMG",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-29T17:00:00+00:00",
+      "state": "completed",
+      "title": "Chao Hui EDward Gaming vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-29T20:00:00+00:00",
+      "state": "completed",
+      "title": "VISA KR\u00dc Blaze vs BBL Queens",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-29T23:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs Team SMG",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-30T17:00:00+00:00",
+      "state": "completed",
+      "title": "Evil Geniuses GC vs Team Liquid VISA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-30T20:00:00+00:00",
+      "state": "completed",
+      "title": "VISA KR\u00dc Blaze vs Chao Hui EDward Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-11-30T23:00:00+00:00",
+      "state": "completed",
+      "title": "BBL Queens vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-12-01T17:00:00+00:00",
+      "state": "completed",
+      "title": "Team SMG vs VISA KR\u00dc Blaze",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-12-01T20:00:00+00:00",
+      "state": "completed",
+      "title": "BBL Queens vs Team Liquid VISA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-12-01T23:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-12-02T17:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid VISA vs Team SMG",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-12-02T20:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid VISA vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2023-12-03T17:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Team Liquid VISA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-08T12:00:00+00:00",
+      "state": "completed",
+      "title": "ZETA DIVISION GC vs VISA KR\u00dc Blaze",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-08T15:00:00+00:00",
+      "state": "completed",
+      "title": "Team Falcons Vega vs Ambitious Legend Gaming GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-08T18:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs XIPTO",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-09T12:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-09T15:00:00+00:00",
+      "state": "completed",
+      "title": "VISA KR\u00dc Blaze vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-09T18:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-10T15:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs ZETA DIVISION GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-10T18:00:00+00:00",
+      "state": "completed",
+      "title": "Ambitious Legend Gaming GC vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-11T15:00:00+00:00",
+      "state": "completed",
+      "title": "ZETA DIVISION GC vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-11T18:00:00+00:00",
+      "state": "completed",
+      "title": "VISA KR\u00dc Blaze vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-13T15:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-13T18:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs XIPTO",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-14T15:00:00+00:00",
+      "state": "completed",
+      "title": "ZETA DIVISION GC vs Made In Brazil",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-14T18:00:00+00:00",
+      "state": "completed",
+      "title": "XIPTO vs VISA KR\u00dc Blaze",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-15T15:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-15T18:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs XIPTO",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-16T15:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs Made In Brazil",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2024-11-17T15:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-20T08:00:00+00:00",
+      "state": "completed",
+      "title": "Ninetails vs Nova Esports GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-20T11:00:00+00:00",
+      "state": "completed",
+      "title": "GIANTX vs Made In Brazil",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-21T08:00:00+00:00",
+      "state": "completed",
+      "title": "Xipto Esports vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-21T11:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid VISA vs VISA KR\u00dc Blaze",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-22T08:00:00+00:00",
+      "state": "completed",
+      "title": "Nova Esports GC vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-22T11:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Made In Brazil",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-23T08:00:00+00:00",
+      "state": "completed",
+      "title": "Ninetails vs Xipto Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-23T11:00:00+00:00",
+      "state": "completed",
+      "title": "GIANTX vs VISA KR\u00dc Blaze",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-24T08:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs Ninetails",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-24T11:00:00+00:00",
+      "state": "completed",
+      "title": "VISA KR\u00dc Blaze vs Nova Esports GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-26T08:00:00+00:00",
+      "state": "completed",
+      "title": "Team Liquid VISA vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-26T11:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-27T08:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-27T11:00:00+00:00",
+      "state": "completed",
+      "title": "VISA KR\u00dc Blaze vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-28T08:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Team Liquid VISA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-28T11:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs VISA KR\u00dc Blaze",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-29T08:00:00+00:00",
+      "state": "completed",
+      "title": "Made In Brazil vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2025-11-30T08:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Team Liquid VISA",
+      "twitch_channel": null
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-04-26T21:00:00+00:00",
@@ -2557,6 +6229,678 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-30T00:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-18T21:00:00+00:00",
+      "state": "completed",
+      "title": "EMPIRE GC vs SEN Otters",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-18T23:30:00+00:00",
+      "state": "completed",
+      "title": "MVSK Secret vs Monarch-X GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-18T23:30:00+00:00",
+      "state": "completed",
+      "title": "SaD GC vs Wadadaa",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-18T23:30:00+00:00",
+      "state": "completed",
+      "title": ":3 vs Frost White",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-20T21:00:00+00:00",
+      "state": "completed",
+      "title": "Ghost Gaming vs SaD GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-20T23:30:00+00:00",
+      "state": "completed",
+      "title": "MVSK Secret vs :3",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-29T21:00:00+00:00",
+      "state": "completed",
+      "title": "Ghost Gaming vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-29T21:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs Wadadaa",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-29T23:30:00+00:00",
+      "state": "completed",
+      "title": "Puppy Thieves vs :3",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-29T23:30:00+00:00",
+      "state": "completed",
+      "title": "SwimTrek Blue vs SEN Otters",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-30T21:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs Ghost Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-30T21:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Wadadaa",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-30T23:30:00+00:00",
+      "state": "completed",
+      "title": "Puppy Thieves vs SwimTrek Blue",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-30T23:30:00+00:00",
+      "state": "completed",
+      "title": "SEN Otters vs :3",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-31T21:00:00+00:00",
+      "state": "completed",
+      "title": "Ghost Gaming vs SEN Otters",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-05-31T23:30:00+00:00",
+      "state": "completed",
+      "title": "Puppy Thieves vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-06-03T21:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs SwimTrek Blue",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-06-03T23:30:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs Ghost Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-06-04T21:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs FlyQuest RED",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-06-05T21:00:00+00:00",
+      "state": "completed",
+      "title": "SwimTrek Blue vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T20:59:00+00:00",
+      "state": "completed",
+      "title": "ROSO GC vs Cloud9 GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T21:00:00+00:00",
+      "state": "completed",
+      "title": "Revitalize GC vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T21:00:00+00:00",
+      "state": "completed",
+      "title": "The Spiders vs SEN Otters",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T21:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs Ora Temper",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T23:29:00+00:00",
+      "state": "completed",
+      "title": ":3 vs SaD GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T23:30:00+00:00",
+      "state": "completed",
+      "title": "Eternal Focus Amethyst vs SwimTrek Blue",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T23:30:00+00:00",
+      "state": "completed",
+      "title": "MVSK Secret vs HIMMERS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-13T23:30:00+00:00",
+      "state": "completed",
+      "title": "Axolotl vs Los Chudeles",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T21:00:00+00:00",
+      "state": "completed",
+      "title": "SEN Otters vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T21:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs Cloud9 GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T21:00:00+00:00",
+      "state": "completed",
+      "title": "Revitalize GC vs Ora Temper",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T21:00:00+00:00",
+      "state": "completed",
+      "title": "HIMMERS vs Eternal Focus Amethyst",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T23:30:00+00:00",
+      "state": "completed",
+      "title": "MVSK Secret vs Axolotl",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T23:30:00+00:00",
+      "state": "completed",
+      "title": "SwimTrek Blue vs SaD GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T23:30:00+00:00",
+      "state": "completed",
+      "title": ":3 vs The Spiders",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-20T23:30:00+00:00",
+      "state": "completed",
+      "title": "Los Chudeles vs ROSO GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T21:00:00+00:00",
+      "state": "completed",
+      "title": "Shopify Rebellion Gold vs SwimTrek Blue",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T21:00:00+00:00",
+      "state": "completed",
+      "title": "Ora Temper vs SaD GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T21:00:00+00:00",
+      "state": "completed",
+      "title": "The Spiders vs Cloud9 GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T21:00:00+00:00",
+      "state": "completed",
+      "title": "FlyQuest RED vs Axolotl",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T23:30:00+00:00",
+      "state": "completed",
+      "title": ":3 vs Revitalize GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T23:30:00+00:00",
+      "state": "completed",
+      "title": "Los Chudeles vs Eternal Focus Amethyst",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T23:30:00+00:00",
+      "state": "completed",
+      "title": "SEN Otters vs MVSK Secret",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-07-27T23:30:00+00:00",
+      "state": "completed",
+      "title": "ROSO GC vs HIMMERS",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "FlyQuest RED vs SwimTrek Blue",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Ora Temper vs Shopify Rebellion Gold",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Axolotl vs SEN Otters",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "HIMMERS vs The Spiders",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "Los Chudeles vs SaD GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "ROSO GC vs MVSK Secret",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "Revitalize GC vs Eternal Focus Amethyst",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "Cloud9 GC vs :3",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-12T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-12T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-12T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-12T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-12T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-17T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-17T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-01T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-01T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-01T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-01T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-02T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-02T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-02T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-02T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-03T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-03T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-08T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-08T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-09T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-17T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Americas",
+      "game": "valorant",
+      "start": "2026-07-28T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "Shopify Rebellion Black vs 2GAME",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Americas",
+      "game": "valorant",
+      "start": "2026-07-28T22:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bon Bon Bum Contra vs Shopify Rebellion Black",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Americas",
+      "game": "valorant",
+      "start": "2026-07-29T01:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bon Bon Bum Contra vs 2GAME",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Americas",
+      "game": "valorant",
+      "start": "2026-07-29T19:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
       "twitch_channel": null
@@ -3202,6 +7546,862 @@
       "twitch_channel": null
     },
     {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-11T15:00:00+00:00",
+      "state": "completed",
+      "title": "GIANTX vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-11T18:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-12T15:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-12T15:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs Bar\u00e7a eSports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-12T18:00:00+00:00",
+      "state": "completed",
+      "title": "ALTERNATE aTTaX Ruby vs FOKUS Sakura",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-12T18:00:00+00:00",
+      "state": "completed",
+      "title": "ZennIT Orange vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-13T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-13T15:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-13T18:00:00+00:00",
+      "state": "completed",
+      "title": "FOKUS Sakura vs Bar\u00e7a eSports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-13T18:00:00+00:00",
+      "state": "completed",
+      "title": "ALTERNATE aTTaX Ruby vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-14T15:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-14T15:00:00+00:00",
+      "state": "completed",
+      "title": "Bar\u00e7a eSports vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-14T18:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs ALTERNATE aTTaX Ruby",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-14T18:00:00+00:00",
+      "state": "completed",
+      "title": "FOKUS Sakura vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-20T15:00:00+00:00",
+      "state": "completed",
+      "title": "Twisted Minds Orchid vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs Bar\u00e7a eSports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-21T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-21T18:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-22T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-22T18:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-23T15:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-05-24T15:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-20T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-20T15:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "Karmine Corp vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-21T15:00:00+00:00",
+      "state": "completed",
+      "title": "Bar\u00e7a eSports vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-21T15:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs Habos Babos",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-21T18:00:00+00:00",
+      "state": "completed",
+      "title": "FOKUS Sakura vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-21T18:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-22T15:00:00+00:00",
+      "state": "completed",
+      "title": "SK Nebula vs Bar\u00e7a eSports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-22T15:00:00+00:00",
+      "state": "completed",
+      "title": "FOKUS Sakura vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-22T18:00:00+00:00",
+      "state": "completed",
+      "title": "Habos Babos vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-22T18:00:00+00:00",
+      "state": "completed",
+      "title": "ALTERNATE aTTaX Ruby vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-23T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs Habos Babos",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-23T15:00:00+00:00",
+      "state": "completed",
+      "title": "FOKUS Sakura vs Bar\u00e7a eSports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-23T18:00:00+00:00",
+      "state": "completed",
+      "title": "ALTERNATE aTTaX Ruby vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-23T18:00:00+00:00",
+      "state": "completed",
+      "title": "Twisted Minds Orchid vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-27T15:00:00+00:00",
+      "state": "completed",
+      "title": "Gentle Mates vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-27T15:00:00+00:00",
+      "state": "completed",
+      "title": "Bar\u00e7a eSports vs Habos Babos",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-27T18:00:00+00:00",
+      "state": "completed",
+      "title": "G2 Gozen vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-28T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "FOKUS Sakura vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-28T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bar\u00e7a eSports vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Habos Babos vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-29T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "SK Nebula vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-29T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "FOKUS Sakura vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-29T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Habos Babos vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-29T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs Bar\u00e7a eSports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bar\u00e7a eSports vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Habos Babos vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Twisted Minds Orchid vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-03T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "FOKUS Sakura vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-03T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Karmine Corp vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-03T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bar\u00e7a eSports vs Twisted Minds Orchid",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-03T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-04T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "FOKUS Sakura vs Karmine Corp",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-04T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bar\u00e7a eSports vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-04T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Twisted Minds Orchid vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-04T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs Habos Babos",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-05T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "GIANTX vs G2 Gozen",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-05T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Karmine Corp vs SK Nebula",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-05T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Twisted Minds Orchid vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-05T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs FOKUS Sakura",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-06T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "FOKUS Sakura vs Habos Babos",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-06T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Karmine Corp vs GIANTX",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-06T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "ALTERNATE aTTaX Ruby vs Gentle Mates",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-08T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-08T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-09T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-09T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-10T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-10T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-13T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-13T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-14T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-14T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-15T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-15T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-16T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T15:00:00+00:00",
+      "state": "completed",
+      "title": "Cilekler vs MISA Espo\u0131rts",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T15:00:00+00:00",
+      "state": "completed",
+      "title": "Formulation Gaming vs FOKUS Clan",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T15:00:00+00:00",
+      "state": "completed",
+      "title": "Fire Flux Esports vs MIR",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T15:00:00+00:00",
+      "state": "completed",
+      "title": "La Masia vs Mandatory",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T17:30:00+00:00",
+      "state": "completed",
+      "title": "Pixel Lumina vs Twisted Saints Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T17:30:00+00:00",
+      "state": "completed",
+      "title": "CGN Esports vs Be\u015fikta\u015f Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T17:30:00+00:00",
+      "state": "completed",
+      "title": "Eintracht Frankfurt vs UCAM Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-07T17:30:00+00:00",
+      "state": "completed",
+      "title": "Ghools Esports vs Bar\u00e7a Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T15:00:00+00:00",
+      "state": "completed",
+      "title": "Pixel Lumina vs FOKUS Clan",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T15:00:00+00:00",
+      "state": "completed",
+      "title": "CGN Esports vs Fire Flux Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T15:00:00+00:00",
+      "state": "completed",
+      "title": "Eintracht Frankfurt vs Mandatory",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T15:00:00+00:00",
+      "state": "completed",
+      "title": "Bar\u00e7a Esports vs Cilekler",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T17:30:00+00:00",
+      "state": "completed",
+      "title": "Twisted Saints Esports vs Formulation Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T17:30:00+00:00",
+      "state": "completed",
+      "title": "Be\u015fikta\u015f Esports vs MIR",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T17:30:00+00:00",
+      "state": "completed",
+      "title": "UCAM Esports vs La Masia",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-08T17:30:00+00:00",
+      "state": "completed",
+      "title": "Ghools Esports vs MISA Espo\u0131rts",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-09T15:00:00+00:00",
+      "state": "completed",
+      "title": "Twisted Saints Esports vs FOKUS Clan",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-09T15:00:00+00:00",
+      "state": "completed",
+      "title": "MIR vs CGN Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-09T17:30:00+00:00",
+      "state": "completed",
+      "title": "UCAM Esports vs Mandatory",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-09T17:30:00+00:00",
+      "state": "completed",
+      "title": "MISA Espo\u0131rts vs Cilekler",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-10T15:00:00+00:00",
+      "state": "completed",
+      "title": "CGN Esports vs Pixel Lumina",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-10T15:00:00+00:00",
+      "state": "completed",
+      "title": "Cilekler vs Fire Flux Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-10T17:30:00+00:00",
+      "state": "completed",
+      "title": "FOKUS Clan vs Eintracht Frankfurt",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-10T17:30:00+00:00",
+      "state": "completed",
+      "title": "Mandatory vs Bar\u00e7a Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-11T15:00:00+00:00",
+      "state": "completed",
+      "title": "Cilekler vs CGN Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-11T17:30:00+00:00",
+      "state": "completed",
+      "title": "Mandatory vs Eintracht Frankfurt",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier EMEA",
+      "game": "valorant",
+      "start": "2026-07-12T15:00:00+00:00",
+      "state": "completed",
+      "title": "Eintracht Frankfurt vs Cilekler",
+      "twitch_channel": null
+    },
+    {
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-04-24T08:00:00+00:00",
@@ -3839,6 +9039,270 @@
       "start": "2026-08-29T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-01T05:00:00+00:00",
+      "state": "completed",
+      "title": "Purr-fectionists vs Mir Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-01T08:00:00+00:00",
+      "state": "completed",
+      "title": "swaglord9000 vs SISU",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-02T05:00:00+00:00",
+      "state": "completed",
+      "title": "BOBA vs ZETA DIVISION GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-02T08:00:00+00:00",
+      "state": "completed",
+      "title": "FENNEL HOTELAVA vs XIPTO",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-02T11:00:00+00:00",
+      "state": "completed",
+      "title": "SISU vs Mir Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-03T05:00:00+00:00",
+      "state": "completed",
+      "title": "ZETA DIVISION GC vs XIPTO",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-03T08:00:00+00:00",
+      "state": "completed",
+      "title": "Purr-fectionists vs swaglord9000",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-03T11:00:00+00:00",
+      "state": "completed",
+      "title": "FENNEL HOTELAVA vs BOBA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-04T05:00:00+00:00",
+      "state": "completed",
+      "title": "swaglord9000 vs SISU",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-04T08:00:00+00:00",
+      "state": "completed",
+      "title": "ZETA DIVISION GC vs BOBA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-05T06:00:00+00:00",
+      "state": "completed",
+      "title": "XIPTO vs SISU",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-05T09:00:00+00:00",
+      "state": "completed",
+      "title": "Mir Gaming vs ZETA DIVISION GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2024-10-06T06:00:00+00:00",
+      "state": "completed",
+      "title": "XIPTO vs ZETA DIVISION GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-06T08:00:00+00:00",
+      "state": "completed",
+      "title": "Xipto Esports vs Rising Esports GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-06T10:00:00+00:00",
+      "state": "completed",
+      "title": "REIGNITE Lily vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-07T06:00:00+00:00",
+      "state": "completed",
+      "title": "HYPA HYPA Esports vs FENNEL HOTELAVA",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-07T08:00:00+00:00",
+      "state": "completed",
+      "title": "Asterisk Women vs Ninetails",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-07T10:00:00+00:00",
+      "state": "completed",
+      "title": "Xipto Esports vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-08T06:00:00+00:00",
+      "state": "completed",
+      "title": "FENNEL HOTELAVA vs Ninetails",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-08T08:00:00+00:00",
+      "state": "completed",
+      "title": "REIGNITE Lily vs Rising Esports GC",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-08T10:00:00+00:00",
+      "state": "completed",
+      "title": "Asterisk Women vs HYPA HYPA Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-09T08:00:00+00:00",
+      "state": "completed",
+      "title": "FENNEL HOTELAVA vs REIGNITE Lily",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-09T10:00:00+00:00",
+      "state": "completed",
+      "title": "HYPA HYPA Esports vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-10T08:00:00+00:00",
+      "state": "completed",
+      "title": "Ninetails vs Xipto Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-10T10:00:00+00:00",
+      "state": "completed",
+      "title": "FENNEL HOTELAVA vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-11T08:00:00+00:00",
+      "state": "completed",
+      "title": "Ninetails vs Team Falcons Vega",
+      "twitch_channel": null
+    },
+    {
+      "league": "Game Changers Pacific",
+      "game": "valorant",
+      "start": "2025-10-12T08:00:00+00:00",
+      "state": "completed",
+      "title": "Ninetails vs Xipto Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Pacific",
+      "game": "valorant",
+      "start": "2026-07-07T08:00:00+00:00",
+      "state": "completed",
+      "title": "555 vs No Salary Peek",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Pacific",
+      "game": "valorant",
+      "start": "2026-07-07T11:00:00+00:00",
+      "state": "completed",
+      "title": "Fancy United Esports vs YiJing",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Pacific",
+      "game": "valorant",
+      "start": "2026-07-08T08:00:00+00:00",
+      "state": "completed",
+      "title": "555 vs Fancy United Esports",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Pacific",
+      "game": "valorant",
+      "start": "2026-07-08T11:00:00+00:00",
+      "state": "completed",
+      "title": "YiJing vs No Salary Peek",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Pacific",
+      "game": "valorant",
+      "start": "2026-07-09T08:00:00+00:00",
+      "state": "completed",
+      "title": "555 vs YiJing",
+      "twitch_channel": null
+    },
+    {
+      "league": "Last Chance Qualifier Pacific",
+      "game": "valorant",
+      "start": "2026-07-10T08:00:00+00:00",
+      "state": "completed",
+      "title": "555 vs Fancy United Esports",
       "twitch_channel": null
     }
   ]
