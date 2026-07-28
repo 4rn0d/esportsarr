@@ -1,6 +1,6 @@
 {
   "name": "Esportsarr",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Consolidates per-league esports Twitch channels (LCS/LEC/LCK, VCT Americas/EMEA/Pacific) into a fixed number of generic channels per game, switching the active stream to whichever live match currently holds priority.",
   "author": "4rn0d",
   "license": "MIT",
