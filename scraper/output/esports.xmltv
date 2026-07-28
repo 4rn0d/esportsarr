@@ -678,6 +678,9 @@
   <programme start="20260917210000 +0000" stop="20260918000000 +0000" channel="twitch.valorant_americas">
     <title>TBD vs TBD</title>
   </programme>
+  <programme start="20260728182606 +0000" stop="20260728212606 +0000" channel="twitch.valorant_americas">
+    <title>Last Chance Qualifier Americas</title>
+  </programme>
   <programme start="20260728190000 +0000" stop="20260728220000 +0000" channel="twitch.valorant_americas">
     <title>Shopify Rebellion Black vs 2GAME</title>
   </programme>
@@ -937,6 +940,12 @@
     <title>TBD vs TBD</title>
   </programme>
   <programme start="20260817150000 +0000" stop="20260817180000 +0000" channel="twitch.valorant_emea">
+    <title>TBD vs TBD</title>
+  </programme>
+  <programme start="20260817180000 +0000" stop="20260817210000 +0000" channel="twitch.valorant_emea">
+    <title>TBD vs TBD</title>
+  </programme>
+  <programme start="20260818150000 +0000" stop="20260818180000 +0000" channel="twitch.valorant_emea">
     <title>TBD vs TBD</title>
   </programme>
   <programme start="20260730080000 +0000" stop="20260730110000 +0000" channel="twitch.valorant_pacific">
