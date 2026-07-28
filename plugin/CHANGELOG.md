@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/4rn0d/esportsarr/compare/esportsarr-v0.2.0...esportsarr-v0.3.0) (2026-07-28)
+
+
+### Features
+
+* refactored the slot allocation algorithm ([56a65fd](https://github.com/4rn0d/esportsarr/commit/56a65fd9220937392e6c2064519e225578f3fd18))
+
 ## [0.2.0](https://github.com/4rn0d/esportsarr/compare/esportsarr-v0.1.0...esportsarr-v0.2.0) (2026-07-28)
 
 
