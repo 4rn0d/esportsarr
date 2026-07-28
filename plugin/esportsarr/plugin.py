@@ -145,6 +145,13 @@ def _run_sync(settings: dict) -> dict:
         upcoming_by_game: dict[str, list[dict]] = {}  # "near": competes for contested slots
         far_upcoming_by_game: dict[str, list[dict]] = {}  # "far": preview-only, never displaces
         for match in matches:
+            # A match with no known Twitch channel (e.g. LPL, broadcast on
+            # YouTube only) has nothing for apply_assignment to switch the
+            # stream to — it must never win a slot over a match that's
+            # actually showable, live or anticipated.
+            if not match.get("twitch_channel"):
+                continue
+
             state = match.get("state")
             if state == "in_progress":
                 live_by_game.setdefault(match["game"], []).append(match)
@@ -155,25 +162,33 @@ def _run_sync(settings: dict) -> dict:
                 elif start <= now + wide_lookahead:
                     far_upcoming_by_game.setdefault(match["game"], []).append(match)
 
-        results: dict[str, list[str | None]] = {}
+        results: dict[str, list[str | None] | str] = {}
         for game, priority_key in GAME_PRIORITY_SETTING_KEYS.items():
-            priority = _parse_priority(settings[priority_key])
-            slots = int(settings["slots_per_game"])
-            previous = _last_assignment.get(game)
+            # One game's failure (a bad Stream lookup, a Django error, ...)
+            # must not prevent the other game from being synced this tick —
+            # each game is processed and reported independently.
+            try:
+                priority = _parse_priority(settings[priority_key])
+                slots = int(settings["slots_per_game"])
+                previous = _last_assignment.get(game)
 
-            assignment, reserved_for = assign_slots(
-                live_matches=live_by_game.get(game, []),
-                slots=slots,
-                league_priority=priority,
-                previous_assignment=previous,
-                upcoming_matches=upcoming_by_game.get(game, []),
-                far_upcoming_matches=far_upcoming_by_game.get(game, []),
-            )
-            channel_sync.apply_assignment(settings, game, assignment, reserved_for)
-            _last_assignment[game] = assignment
-            results[game] = [match["title"] if match else None for match in assignment]
+                assignment, reserved_for = assign_slots(
+                    live_matches=live_by_game.get(game, []),
+                    slots=slots,
+                    league_priority=priority,
+                    previous_assignment=previous,
+                    upcoming_matches=upcoming_by_game.get(game, []),
+                    far_upcoming_matches=far_upcoming_by_game.get(game, []),
+                )
+                channel_sync.apply_assignment(settings, game, assignment, reserved_for)
+                _last_assignment[game] = assignment
+                results[game] = [match["title"] if match else None for match in assignment]
+            except Exception as exc:
+                logger.exception("esportsarr: sync failed for game %r", game)
+                results[game] = f"error: {exc}"
 
-        return {"status": "ok", "assignment": results}
+        overall_status = "error" if any(isinstance(value, str) for value in results.values()) else "ok"
+        return {"status": overall_status, "assignment": results}
     except Exception as exc:
         logger.exception("esportsarr: sync failed")
         return {"status": "error", "message": str(exc)}
