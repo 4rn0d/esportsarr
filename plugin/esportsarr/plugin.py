@@ -42,7 +42,15 @@ DEFAULT_SETTINGS = {
         "VCT Americas,VCT EMEA,VCT Pacific,"
         "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
     ),
-    "reservation_lookahead_minutes": 45,
+    # Esports broadcasts typically go live on Twitch ~1h before the official
+    # match time (pre-show), not right at it — reservation_lookahead_minutes
+    # is that wide "consider it upcoming at all" window, used for slots
+    # nothing live wants anyway. reservation_priority_minutes is the
+    # narrower window within which an upcoming match actually competes for a
+    # slot a live regional match would otherwise keep — see allocator.py's
+    # module docstring for the near/far distinction.
+    "reservation_lookahead_minutes": 60,
+    "reservation_priority_minutes": 30,
 }
 
 GAME_PRIORITY_SETTING_KEYS = {
@@ -129,19 +137,23 @@ def _run_sync(settings: dict) -> dict:
     try:
         matches = _fetch_schedule(settings)
         now = datetime.now(timezone.utc)
-        lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
+        wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
+        narrow_lookahead = timedelta(minutes=int(settings["reservation_priority_minutes"]))
         grace = timedelta(minutes=RESERVATION_GRACE_MINUTES)
 
         live_by_game: dict[str, list[dict]] = {}
-        upcoming_by_game: dict[str, list[dict]] = {}
+        upcoming_by_game: dict[str, list[dict]] = {}  # "near": competes for contested slots
+        far_upcoming_by_game: dict[str, list[dict]] = {}  # "far": preview-only, never displaces
         for match in matches:
             state = match.get("state")
             if state == "in_progress":
                 live_by_game.setdefault(match["game"], []).append(match)
             elif state == "unstarted":
                 start = datetime.fromisoformat(match["start"])
-                if now - grace <= start <= now + lookahead:
+                if now - grace <= start <= now + narrow_lookahead:
                     upcoming_by_game.setdefault(match["game"], []).append(match)
+                elif start <= now + wide_lookahead:
+                    far_upcoming_by_game.setdefault(match["game"], []).append(match)
 
         results: dict[str, list[str | None]] = {}
         for game, priority_key in GAME_PRIORITY_SETTING_KEYS.items():
@@ -155,6 +167,7 @@ def _run_sync(settings: dict) -> dict:
                 league_priority=priority,
                 previous_assignment=previous,
                 upcoming_matches=upcoming_by_game.get(game, []),
+                far_upcoming_matches=far_upcoming_by_game.get(game, []),
             )
             channel_sync.apply_assignment(settings, game, assignment, reserved_for)
             _last_assignment[game] = assignment

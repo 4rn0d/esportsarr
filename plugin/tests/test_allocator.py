@@ -215,3 +215,82 @@ def test_idle_slot_with_nothing_live_or_upcoming_has_no_reservation_preview():
 
     assert assignment == [None, None]
     assert reserved_for == [None, None]
+
+
+def test_near_upcoming_match_displaces_a_live_match_for_the_only_contested_slot():
+    # Baseline for the contrast below: within the "near"/priority window, an
+    # international competes on equal footing by rank and can win the only
+    # slot away from a live regional match — Pacific gets nothing at all.
+    pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    assignment, reserved_for = assign_slots(
+        live_matches=[pacific],
+        slots=1,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        upcoming_matches=[champions],
+    )
+
+    assert assignment == [None]
+    assert reserved_for == [champions]
+
+
+def test_far_upcoming_match_does_not_displace_a_live_match_for_a_contested_slot():
+    # Same setup as above, but Champions is in the "far" bucket (outside the
+    # priority window, still inside the wider lookahead) — it must NOT be
+    # able to take Pacific's only slot just because it outranks Pacific.
+    # Only "near" reservations can do that; "far" ones can't touch a
+    # contested slot at all.
+    pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    assignment, reserved_for = assign_slots(
+        live_matches=[pacific],
+        slots=1,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        far_upcoming_matches=[champions],
+    )
+
+    assert assignment == [pacific]
+    assert reserved_for == [None]
+
+
+def test_far_upcoming_match_still_previews_a_slot_nothing_live_wants():
+    # Two slots, one live regional match takes one of them — the other is
+    # genuinely uncontested (no live match wants it), so a "far" reservation
+    # can still preview it even outside the priority window.
+    pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    assignment, reserved_for = assign_slots(
+        live_matches=[pacific],
+        slots=2,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        far_upcoming_matches=[champions],
+    )
+
+    assert assignment == [pacific, None]
+    assert reserved_for == [None, champions]
+
+
+def test_duplicate_match_across_near_and_far_buckets_only_reserves_once():
+    # Regression guard mirroring the within-bucket dedup test: the caller's
+    # near/far windows are meant to be mutually exclusive, but if the same
+    # match somehow ends up in both, it must still only ever claim one slot.
+    americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
+
+    assignment, reserved_for = assign_slots(
+        live_matches=[americas],
+        slots=2,
+        league_priority=VALORANT_PRIORITY_WITH_INTL,
+        previous_assignment=None,
+        upcoming_matches=[champions],
+        far_upcoming_matches=[dict(champions)],
+    )
+
+    assert assignment == [None, americas]
+    assert reserved_for == [champions, None]

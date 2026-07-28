@@ -132,16 +132,27 @@ scraper repo) — e.g. `"Game Changers NA"`, not `"Game Changers Americas"`.
 
 Assignment is sticky: a live match keeps its slot until it ends, even if a
 higher-priority match starts in the meantime — **this is never overridden,
-an already-live match is never bumped out of its slot.** What *does* happen:
-`reservation_lookahead_minutes` (default 45) lets a higher-priority match
-that's scheduled but not live yet claim an *empty* slot ahead of a
-lower-priority match that's already live, so a regional match starting first
-can't sticky-lock both slots and shut out an international that's about to
-start. A reserved slot keeps showing whatever stream was already on that
-channel — it does not go blank while waiting.
+an already-live match is never bumped out of its slot.** What *does* happen
+is reservation of *empty* slots, split into two windows because esports
+broadcasts typically go live on Twitch ~1h before the official match time
+(pre-show), not right at it:
+
+- `reservation_lookahead_minutes` (default 60): how far ahead an upcoming
+  match can preview/reserve a slot that's genuinely idle — nothing live
+  wants it either way, so there's no cost to previewing it from the full
+  pre-show window.
+- `reservation_priority_minutes` (default 30, must be <= the lookahead
+  above): how close to start an upcoming match has to be to actually take a
+  slot *away* from a lower-priority match that's already live there. Beyond
+  this window but still inside the wider lookahead, it can only preview an
+  uncontested slot — it never costs a live regional match its slot just
+  because an international happens to be scheduled sooner.
+
+Either way, a reserved/previewed slot keeps showing whatever stream was
+already on that channel — it does not go blank while waiting.
 
 See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
-policy and edge cases.
+policy and edge cases, including the near-vs-far distinction.
 
 ## What the guide shows for each slot
 
