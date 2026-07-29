@@ -27,8 +27,8 @@
       "id": "slots_per_game",
       "label": "Channels per game",
       "type": "number",
-      "default": 2,
-      "help_text": "How many generic channels (e.g. \"LoL 1\", \"LoL 2\") to consolidate each game's leagues into. Must match what you ran 'Create Channels' with."
+      "default": 3,
+      "help_text": "How many generic channels (e.g. \"LoL 1\", \"LoL 2\", \"LoL 3\") to consolidate each game's leagues into. More slots means fewer matches get dropped/delayed when several leagues overlap. Must match what you ran 'Create Channels' with."
     },
     {
       "id": "channel_group_name",
@@ -55,15 +55,15 @@
       "id": "reservation_lookahead_minutes",
       "label": "Reservation lookahead (minutes)",
       "type": "number",
-      "default": 60,
-      "help_text": "How far ahead a higher-priority match (e.g. an international) can preview/reserve a slot that's genuinely idle (nothing live wants it). Default 60 matches Twitch broadcasts typically going live ~1h before the official match time. Must be >= reservation_priority_minutes."
+      "default": 180,
+      "help_text": "How far ahead a higher-priority match can preview/reserve a slot that's genuinely idle (nothing live wants it). Must be >= reservation_priority_minutes."
     },
     {
       "id": "reservation_priority_minutes",
       "label": "Reservation priority window (minutes)",
       "type": "number",
-      "default": 30,
-      "help_text": "How close to start a higher-priority match must be to actually take a slot away from a lower-priority match that's already live there. Outside this window but still inside the lookahead above, it can only preview a slot nothing live wants. It never costs a live regional match its slot. This never preempts a match already occupying a slot; a reserved/previewed slot keeps showing its last stream, it doesn't go blank."
+      "default": 120,
+      "help_text": "How close to start a higher-priority match must be to actually compete for a slot that's about to free up. Wide enough to cover typical multi-hour gaps between back-to-back matches sharing a regional channel (e.g. VCT then Game Changers on the same Twitch channel). This never preempts a match already occupying a slot; a reserved/previewed slot keeps showing its last stream, it doesn't go blank."
     },
     {
       "id": "schedule_projection_days",

@@ -37,7 +37,7 @@ _PLUGIN_MANIFEST = json.loads((Path(__file__).parent / "plugin.json").read_text(
 DEFAULT_SETTINGS = {
     "schedule_url": "",
     "poll_interval_seconds": 60,
-    "slots_per_game": 2,
+    "slots_per_game": 3,
     "channel_group_name": "Esports Multiplex",
     "league_priority_lol": "Worlds,MSI,First Stand,LCS,LEC,LCK,LPL",
     "league_priority_valorant": (
@@ -46,11 +46,12 @@ DEFAULT_SETTINGS = {
         "Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,"
         "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
     ),
-    # Twitch broadcasts typically go live ~1h before the official match time.
     # lookahead: how far ahead a slot can be reserved at all. priority: how
     # close to start it actually competes for a contested slot (see allocator.py).
-    "reservation_lookahead_minutes": 60,
-    "reservation_priority_minutes": 30,
+    # Wide enough to cover typical multi-hour gaps between back-to-back
+    # matches on a shared regional channel (e.g. VCT then Game Changers).
+    "reservation_lookahead_minutes": 180,
+    "reservation_priority_minutes": 120,
     "schedule_projection_days": 7,
     # StreamProfile names are settings, not hardcoded, since they're external
     # identifiers this plugin doesn't own. YouTube's default is an unverified
@@ -71,6 +72,12 @@ PLUGIN_STATE_DIR = f"/app/data/plugins/{PLUGIN_KEY}/.state"
 # Caps how far a delayed "unstarted" match's start can slip into the past
 # and still count as a reservation candidate.
 RESERVATION_GRACE_MINUTES = 30
+
+# Riot's live-state flag isn't reliable for every league tier (Game Changers
+# events have been observed staying "unstarted" well past their real start
+# while actually airing). An "unstarted" match already past its start is
+# treated as live until this long after start, rather than trusting the flag.
+STALE_LIVE_GRACE_MINUTES = 240
 
 _last_assignment: dict[str, list[dict | None]] = {}  # in-memory, reset on process restart
 
@@ -130,6 +137,42 @@ def _fetch_schedule(settings: dict) -> list[dict[str, Any]]:
     return response.json()["matches"]
 
 
+def _classify_matches(
+    matches: list[dict[str, Any]],
+    now: datetime,
+    wide_lookahead: timedelta,
+    narrow_lookahead: timedelta,
+    grace: timedelta,
+    stale_live_grace: timedelta,
+    projection_end: datetime,
+) -> tuple[dict[str, list[dict]], dict[str, list[dict]], dict[str, list[dict]], dict[str, list[dict]]]:
+    """Buckets matches into live/near-upcoming/far-upcoming/projectable per game."""
+    live_by_game: dict[str, list[dict]] = {}
+    upcoming_by_game: dict[str, list[dict]] = {}  # "near": competes for contested slots
+    far_upcoming_by_game: dict[str, list[dict]] = {}  # "far": preview-only, never displaces
+    projectable_by_game: dict[str, list[dict]] = {}  # broader set fed to the week-ahead projection
+    for match in matches:
+        if not match.get("stream_platform") or not match.get("stream_channel"):
+            continue
+
+        state = match.get("state")
+        start = datetime.fromisoformat(match["start"]) if match.get("start") else None
+        already_live = state == "unstarted" and start is not None and start <= now <= start + stale_live_grace
+
+        if state == "in_progress" or already_live:
+            live_by_game.setdefault(match["game"], []).append(match)
+            projectable_by_game.setdefault(match["game"], []).append(match)
+        elif state == "unstarted":
+            if now - grace <= start <= now + narrow_lookahead:
+                upcoming_by_game.setdefault(match["game"], []).append(match)
+            elif now - grace <= start <= now + wide_lookahead:
+                far_upcoming_by_game.setdefault(match["game"], []).append(match)
+            if now - grace <= start < projection_end:
+                projectable_by_game.setdefault(match["game"], []).append(match)
+
+    return live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game
+
+
 def _run_sync(settings: dict) -> dict:
     lock_path = _job_lock("sync")
     if not lock_path:
@@ -141,28 +184,12 @@ def _run_sync(settings: dict) -> dict:
         wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
         narrow_lookahead = timedelta(minutes=int(settings["reservation_priority_minutes"]))
         grace = timedelta(minutes=RESERVATION_GRACE_MINUTES)
+        stale_live_grace = timedelta(minutes=STALE_LIVE_GRACE_MINUTES)
         projection_end = now + timedelta(days=int(settings["schedule_projection_days"]))
 
-        live_by_game: dict[str, list[dict]] = {}
-        upcoming_by_game: dict[str, list[dict]] = {}  # "near": competes for contested slots
-        far_upcoming_by_game: dict[str, list[dict]] = {}  # "far": preview-only, never displaces
-        projectable_by_game: dict[str, list[dict]] = {}  # broader set fed to the week-ahead projection
-        for match in matches:
-            if not match.get("stream_platform") or not match.get("stream_channel"):
-                continue
-
-            state = match.get("state")
-            if state == "in_progress":
-                live_by_game.setdefault(match["game"], []).append(match)
-                projectable_by_game.setdefault(match["game"], []).append(match)
-            elif state == "unstarted":
-                start = datetime.fromisoformat(match["start"])
-                if now - grace <= start <= now + narrow_lookahead:
-                    upcoming_by_game.setdefault(match["game"], []).append(match)
-                elif start <= now + wide_lookahead:
-                    far_upcoming_by_game.setdefault(match["game"], []).append(match)
-                if now - grace <= start < projection_end:
-                    projectable_by_game.setdefault(match["game"], []).append(match)
+        live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game = _classify_matches(
+            matches, now, wide_lookahead, narrow_lookahead, grace, stale_live_grace, projection_end
+        )
 
         results: dict[str, list[str | None] | str] = {}
         guide_entries: list[dict] = []

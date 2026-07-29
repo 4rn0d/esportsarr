@@ -71,37 +71,42 @@ def assign_slots(
     occupied_keys = {_match_key(m) for m in assignment if m is not None}
     unassigned_live = [m for m in live_matches if _match_key(m) not in occupied_keys]
 
-    # A freed slot's own continuing broadcast (same stream_channel) claims
-    # it back directly, so two slots freeing up in one tick can't swap which
-    # league lands on which generic channel.
-    for slot_index in freed_slots:
-        channel = previous_channel_by_slot.get(slot_index)
-        if channel is None:
-            continue
-        continuation = next((m for m in unassigned_live if m.get("stream_channel") == channel), None)
-        if continuation is not None:
-            assignment[slot_index] = continuation
-            unassigned_live.remove(continuation)
-            occupied_keys.add(_match_key(continuation))
-
     seen_upcoming_keys: set[tuple] = set()
     near_candidates = _dedupe_candidates(upcoming_matches, occupied_keys, live_by_key, seen_upcoming_keys)
     far_candidates = _dedupe_candidates(far_upcoming_matches, occupied_keys, live_by_key, seen_upcoming_keys)
 
+    # Who wins an empty slot is decided by priority alone. Same-channel
+    # continuity (below) only decides which specific slot number a winner
+    # lands on -- it must never let a lower-priority continuation take a
+    # freed slot ahead of a higher-priority candidate that's also waiting
+    # for one, live or reserved.
     primary = [(m, True) for m in unassigned_live] + [(m, False) for m in near_candidates]
     primary.sort(key=lambda pair: _priority_rank(pair[0], league_priority))
     secondary = [(m, False) for m in sorted(far_candidates, key=lambda m: _priority_rank(m, league_priority))]
     combined = primary + secondary
 
-    reserved_for: list[MatchDict | None] = [None] * slots
     empty_slot_indexes = [i for i, occupant in enumerate(assignment) if occupant is None]
-    for slot_index, (match, is_live) in zip(empty_slot_indexes, combined):
+    winners = combined[:len(empty_slot_indexes)]
+    overflow = [match for match, _is_live in combined[len(empty_slot_indexes):]]
+
+    remaining_slots = list(empty_slot_indexes)
+    remaining_winners = list(winners)
+    for slot_index in empty_slot_indexes:
+        channel = previous_channel_by_slot.get(slot_index)
+        if channel is None:
+            continue
+        match_pair = next((pair for pair in remaining_winners if pair[1] and pair[0].get("stream_channel") == channel), None)
+        if match_pair is not None:
+            assignment[slot_index] = match_pair[0]
+            remaining_slots.remove(slot_index)
+            remaining_winners.remove(match_pair)
+
+    reserved_for: list[MatchDict | None] = [None] * slots
+    for slot_index, (match, is_live) in zip(remaining_slots, remaining_winners):
         if is_live:
             assignment[slot_index] = match
         else:
             reserved_for[slot_index] = match
-
-    overflow = [match for match, _is_live in combined[len(empty_slot_indexes):]]
 
     return assignment, reserved_for, overflow
 

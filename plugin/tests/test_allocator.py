@@ -145,6 +145,40 @@ def test_same_stream_channel_continuation_does_not_block_a_genuinely_new_channel
     assert assignment == [new_pacific, new_americas]
 
 
+def test_same_channel_continuity_never_costs_a_higher_priority_candidate_its_slot():
+    # Regression test for a real bug (2026-07-30): slot 0 held VCT EMEA, slot
+    # 1 held Game Changers EMEA, both on the same Twitch channel. Both end in
+    # the same tick; a new VCT EMEA match continues on that channel (higher
+    # priority), a new Game Changers EMEA match also continues on it (lowest
+    # priority), and a Last Chance Qualifier Americas match (middle priority,
+    # different channel entirely) is also waiting. With only 2 slots, GC EMEA
+    # must lose the priority contest entirely and never get a slot back, even
+    # though it's "continuing its own channel" -- continuity only decides
+    # which slot a priority-contest winner lands on, never who wins.
+    priority = ["VCT EMEA", "Last Chance Qualifier Americas", "Game Changers EMEA"]
+    old_emea = _match("VCT EMEA", "2026-07-27T14:00:00+00:00", "GIANTX vs Team Liquid", "valorant_emea")
+    old_gc_emea = _match("Game Changers EMEA", "2026-07-27T14:00:00+00:00", "SK Nebula vs G2 Gozen", "valorant_emea")
+    new_emea = _match("VCT EMEA", "2026-07-27T17:00:00+00:00", "Gentle Mates vs Team Vitality", "valorant_emea")
+    new_gc_emea = _match(
+        "Game Changers EMEA", "2026-07-27T17:00:00+00:00", "ALTERNATE aTTaX Ruby vs Barca eSports", "valorant_emea"
+    )
+    lcq = _upcoming(
+        "Last Chance Qualifier Americas", "2026-07-27T18:00:00+00:00", "Shopify Rebellion Black vs 2GAME", "VALORANT_NorthAmerica"
+    )
+
+    assignment, reserved_for, overflow = assign_slots(
+        live_matches=[new_emea, new_gc_emea],
+        slots=2,
+        league_priority=priority,
+        previous_assignment=[old_emea, old_gc_emea],
+        upcoming_matches=[lcq],
+    )
+
+    assert assignment == [new_emea, None]
+    assert reserved_for == [None, lcq]
+    assert overflow == [new_gc_emea]
+
+
 def test_unranked_league_is_lowest_priority_but_still_fills_a_free_slot():
     unranked = _match("VCT Masters", "2026-07-27T18:00:00+00:00", "Team A vs Team B", "valorant_masters")
 

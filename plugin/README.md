@@ -165,29 +165,42 @@ broadcasts typically go live on Twitch ~1h before the official match time
 
 When a match ends and its league's broadcast immediately moves on to its
 next match on the exact same Twitch channel (a series continuing back to
-back), that new match claims the *same* generic channel it was already on,
-ahead of normal priority ranking. Otherwise, if another slot happens to
-free up in the same tick, priority/slot-index ordering could swap which
-league shows up on which generic channel even though neither stream actually
-changed. This only applies between two live matches; it doesn't (yet) extend
-to a near/far reservation on the same channel.
+back), that new match claims the *same* generic channel it was already on
+-- but only among matches that already won a slot by priority. Same-channel
+continuity decides *which* slot number a priority winner lands on, never
+*whether* it wins one: it can never cost a genuinely higher-priority match
+its slot just because a lower-priority match happens to share a channel
+with whatever used to be there (confirmed as a real bug, 2026-07-30: VCT
+EMEA and Game Changers EMEA air on the same regional Twitch channel, and a
+Last Chance Qualifier match on a completely different channel was losing
+out to a lower-priority Game Changers match purely because the latter
+"continued" the freed slot's previous channel).
 
-- `reservation_lookahead_minutes` (default 60): how far ahead an upcoming
+- `reservation_lookahead_minutes` (default 180): how far ahead an upcoming
   match can preview/reserve a slot that's genuinely idle. Nothing live
   wants it either way, so there's no cost to previewing it from the full
   pre-show window.
-- `reservation_priority_minutes` (default 30, must be <= the lookahead
-  above): how close to start an upcoming match has to be to actually take a
-  slot *away* from a lower-priority match that's already live there. Beyond
-  this window but still inside the wider lookahead, it can only preview an
-  uncontested slot. It never costs a live regional match its slot just
-  because an international happens to be scheduled sooner.
+- `reservation_priority_minutes` (default 120, must be <= the lookahead
+  above): how close to start an upcoming match has to be to actually
+  compete for a slot that's about to free up. Wide enough to cover typical
+  multi-hour gaps between back-to-back matches sharing a regional channel.
+  It never costs a live regional match its slot just because an
+  international happens to be scheduled sooner.
 
 Either way, a reserved/previewed slot keeps showing whatever stream was
 already on that channel. It does not go blank while waiting.
 
 See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
 policy and edge cases, including the near-vs-far distinction.
+
+Riot's `state` field isn't reliable for every league tier (confirmed as a
+real bug, 2026-07-29: Game Changers EMEA matches stayed `"unstarted"` in
+`schedule.json` more than 30 minutes after their real start while actually
+airing, so they were only ever reserved, never displayed). `plugin.py`'s
+`_classify_matches` also treats an `"unstarted"` match as live once its
+scheduled start has passed, up to `STALE_LIVE_GRACE_MINUTES` (4h) -- past
+that, it's presumed stale data rather than a genuinely long-running match
+and falls back to the ordinary near/far reservation buckets.
 
 ## What the guide shows, a week-ahead projection, not a one-tick snapshot
 
