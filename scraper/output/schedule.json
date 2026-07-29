@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:09:48.982254+00:00",
+  "generated_at": "2026-07-29T14:38:00.305121+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2914,6 +2914,16 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-07-29T14:31:33.119000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA"
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-07-29T15:00:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs Team Liquid",
@@ -3494,6 +3504,16 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
+      "start": "2026-07-29T14:27:57.779000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
       "start": "2026-07-29T15:00:00+00:00",
       "state": "unstarted",
       "title": "SK Nebula vs G2 Gozen",
@@ -3516,7 +3536,7 @@
       "game": "valorant",
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
-      "title": "Habos Babos vs GIANTX",
+      "title": "ALTERNATE aTTaX Ruby vs Bar\u00e7a eSports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "Game Changers EMEA: Week 2"
@@ -3526,17 +3546,7 @@
       "game": "valorant",
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
-      "title": "ALTERNATE aTTaX Ruby vs Bar\u00e7a eSports",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-30T15:00:00+00:00",
-      "state": "unstarted",
-      "title": "Bar\u00e7a eSports vs Gentle Mates",
+      "title": "Habos Babos vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "Game Changers EMEA: Week 2"
@@ -3547,6 +3557,16 @@
       "start": "2026-07-30T15:00:00+00:00",
       "state": "unstarted",
       "title": "Habos Babos vs SK Nebula",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Bar\u00e7a eSports vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "Game Changers EMEA: Week 2"

@@ -959,6 +959,11 @@
     <desc lang="en">Last Chance Qualifier Americas: Finals</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260729143133 +0000" stop="20260729173133 +0000" channel="twitch.valorant_emea">
+    <title lang="en">VCT EMEA</title>
+    <desc lang="en">VCT EMEA</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">GIANTX vs Team Liquid</title>
     <desc lang="en">VCT EMEA: Week 3</desc>
@@ -1139,6 +1144,11 @@
     <desc lang="en">VCT EMEA: Playoffs</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260729142757 +0000" stop="20260729172757 +0000" channel="twitch.valorant_emea">
+    <title lang="en">Game Changers EMEA</title>
+    <desc lang="en">Game Changers EMEA</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">SK Nebula vs G2 Gozen</title>
     <desc lang="en">Game Changers EMEA: Week 2</desc>
@@ -1150,22 +1160,22 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Habos Babos vs GIANTX</title>
-    <desc lang="en">Game Changers EMEA: Week 2</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">ALTERNATE aTTaX Ruby vs Barça eSports</title>
     <desc lang="en">Game Changers EMEA: Week 2</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Barça eSports vs Gentle Mates</title>
+  <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">Habos Babos vs GIANTX</title>
     <desc lang="en">Game Changers EMEA: Week 2</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Habos Babos vs SK Nebula</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">Barça eSports vs Gentle Mates</title>
     <desc lang="en">Game Changers EMEA: Week 2</desc>
     <category lang="en">Esports</category>
   </programme>
