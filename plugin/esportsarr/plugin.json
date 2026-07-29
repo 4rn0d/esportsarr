@@ -1,7 +1,7 @@
 {
   "name": "Esportsarr",
   "version": "0.4.0",
-  "description": "Consolidates per-league esports Twitch channels (LCS/LEC/LCK, VCT Americas/EMEA/Pacific) into a fixed number of generic channels per game, switching the active stream to whichever live match currently holds priority.",
+  "description": "Consolidates per-league esports channels (LCS/LEC/LCK/LPL, VCT Americas/EMEA/Pacific) into a fixed number of generic channels per game, switching the active stream to whichever live match currently holds priority.",
   "author": "4rn0d",
   "license": "MIT",
   "repo_url": "https://github.com/4rn0d/esportsarr",
@@ -49,7 +49,7 @@
       "label": "Valorant league priority (comma-separated, highest first, INTL will always come first)",
       "type": "string",
       "default": "Champions,VALORANT Masters,Game Changers Championship,VCT Americas,VCT EMEA,VCT Pacific,Game Changers NA,Game Changers EMEA,Game Changers Pacific",
-      "help_text": "Same as the LoL priority setting, for Valorant leagues. Must exactly match Riot's league name (run 'python -m esportsarr.list_leagues --game valorant' in the scraper repo) — e.g. 'Game Changers NA', not 'Game Changers Americas'."
+      "help_text": "Same as the LoL priority setting, for Valorant leagues. Must exactly match Riot's league name (run 'python -m esportsarr.list_leagues --game valorant' in the scraper repo), e.g. 'Game Changers NA', not 'Game Changers Americas'."
     },
     {
       "id": "reservation_lookahead_minutes",
@@ -63,7 +63,28 @@
       "label": "Reservation priority window (minutes)",
       "type": "number",
       "default": 30,
-      "help_text": "How close to start a higher-priority match must be to actually take a slot away from a lower-priority match that's already live there. Outside this window but still inside the lookahead above, it can only preview a slot nothing live wants — it never costs a live regional match its slot. This never preempts a match already occupying a slot; a reserved/previewed slot keeps showing its last stream, it doesn't go blank."
+      "help_text": "How close to start a higher-priority match must be to actually take a slot away from a lower-priority match that's already live there. Outside this window but still inside the lookahead above, it can only preview a slot nothing live wants. It never costs a live regional match its slot. This never preempts a match already occupying a slot; a reserved/previewed slot keeps showing its last stream, it doesn't go blank."
+    },
+    {
+      "id": "schedule_projection_days",
+      "label": "Guide lookahead (days)",
+      "type": "number",
+      "default": 7,
+      "help_text": "How many days ahead the guide shows real match data before falling back to \"No Match Scheduled\" filler. Overlapping matches across leagues are resolved the same way live sync is: the higher-priority one shows, the other is simply omitted for that window rather than queued."
+    },
+    {
+      "id": "twitch_stream_profile_name",
+      "label": "Twitch StreamProfile name",
+      "type": "string",
+      "default": "Twitcharr (ad-free, low-latency)",
+      "help_text": "Dispatcharr can't play a raw twitch.tv URL on its own. This must be the exact name of the streamlink-capable StreamProfile that makes it playable (Twitcharr installs one under this name; it only needs to have run once, it doesn't need to be tracking any specific league's channel). If Twitcharr renames its profile or you use a different one, update this to match."
+    },
+    {
+      "id": "youtube_stream_profile_name",
+      "label": "YouTube StreamProfile name",
+      "type": "string",
+      "default": "Twitcharr (ad-free, low-latency)",
+      "help_text": "For leagues that are YouTube-only (e.g. LPL). Dispatcharr can't play a raw youtube.com URL on its own either. The default here just tries the same profile as Twitch as an unverified guess, it has NOT been confirmed to actually work for YouTube. If it doesn't, set up a streamlink- or yt-dlp-capable StreamProfile yourself and point this at its exact name."
     }
   ],
   "actions": [

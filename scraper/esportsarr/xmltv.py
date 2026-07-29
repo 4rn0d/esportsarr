@@ -1,6 +1,6 @@
 """Builds an XMLTV feed for the individual per-league Twitcharr channels.
 
-Only upcoming/live matches go in the guide — completed matches aren't useful
+Only upcoming/live matches go in the guide. Completed matches aren't useful
 in a forward-looking EPG. Riot's API doesn't give an explicit match end time,
 so we estimate one; a Bo3/Bo5 broadcast block including pre/post-show
 commentary reliably runs a few hours.
@@ -16,6 +16,8 @@ from .models import MatchEvent, MatchState
 DEFAULT_MATCH_DURATION = timedelta(hours=3)
 
 XMLTV_TIME_FORMAT = "%Y%m%d%H%M%S %z"
+XMLTV_LANG = "en"
+CATEGORY = "Esports"
 
 GUIDE_STATES = (MatchState.UNSTARTED, MatchState.IN_PROGRESS)
 
@@ -46,8 +48,12 @@ def build_xmltv(matches: list[MatchEvent]) -> str:
                 "channel": match.league.epg_channel_id,
             },
         )
-        title_el = ElementTree.SubElement(programme_el, "title")
+        title_el = ElementTree.SubElement(programme_el, "title", attrib={"lang": XMLTV_LANG})
         title_el.text = match.title
+        desc_el = ElementTree.SubElement(programme_el, "desc", attrib={"lang": XMLTV_LANG})
+        desc_el.text = match.description
+        category_el = ElementTree.SubElement(programme_el, "category", attrib={"lang": XMLTV_LANG})
+        category_el.text = CATEGORY
 
     ElementTree.indent(tv, space="  ")
     xml_body = ElementTree.tostring(tv, encoding="unicode", xml_declaration=False)

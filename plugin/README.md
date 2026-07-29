@@ -1,9 +1,9 @@
 # esportsarr (Dispatcharr plugin)
 
-Consolidates per-league esports Twitch channels into a fixed number of
-generic channels per game, switching the active stream to whichever live
-match currently holds priority. See the top-level README for how this fits
-with the scraper.
+Consolidates per-league esports channels (Twitch, plus YouTube for
+YouTube-only leagues like LPL) into a fixed number of generic channels per
+game, switching the active stream to whichever live match currently holds
+priority. See the top-level README for how this fits with the scraper.
 
 ## Local testing (before touching the server)
 
@@ -17,12 +17,12 @@ pytest
 ```
 
 `channel_sync.py` and the scheduler thread in `plugin.py` can't be
-meaningfully unit-tested without a real Dispatcharr instance — see
+meaningfully unit-tested without a real Dispatcharr instance, see
 "Deploying" below for how to verify those instead.
 
 ## Deploying to the Debian server
 
-This project doesn't run any commands on your server directly — these are
+This project doesn't run any commands on your server directly. These are
 the steps to run yourself:
 
 1. Copy the plugin folder into the Dispatcharr container's plugin directory:
@@ -37,28 +37,47 @@ the steps to run yourself:
    `schedule_url` (the raw GitHub URL to `scraper/output/schedule.json` once
    the scraper repo is pushed and the workflow has run at least once).
 
-## First run — do this before enabling the automatic scheduler
+## First run, do this before enabling the automatic scheduler
 
-1. **Verify the Stream lookup assumption.** `channel_sync._find_source_stream_for_twitch_channel`
-   assumes Twitcharr's `Stream.url` contains `twitch.tv/<channel>`. Check one
-   real row (Django admin, or `docker exec` into the container and use
-   `python manage.py shell`):
+1. **Verify the StreamProfile settings.** This plugin builds its own Stream
+   rows directly (`https://twitch.tv/<channel>` or
+   `https://www.youtube.com/@<channel>/live`), but Dispatcharr can't play
+   either URL without a streamlink-capable `StreamProfile`.
+   - **Twitch**: Twitcharr installs one, and `twitch_stream_profile_name`
+     (default `"Twitcharr (ad-free, low-latency)"`) must match its exact
+     name. Twitcharr only needs to have run once, ever. It does **not** need
+     to be tracking any of the specific leagues/channels esportsarr manages.
+     Confirmed working (2026-07-29).
+   - **YouTube** (for LPL): nothing is confirmed to exist for this yet.
+     `youtube_stream_profile_name` defaults to the *same* profile as Twitch,
+     purely as an unverified guess (streamlink's YouTube plugin ships in the
+     same package, so it might resolve `/@handle/live` URLs fine, but this
+     has not been tested against a real LPL broadcast). If it gray-screens,
+     you'll need a streamlink- or yt-dlp-capable `StreamProfile` set up for
+     YouTube specifically, then point the setting at its exact name. See
+     "Why generic channels use their own Stream, not Twitcharr's" below for
+     the full reasoning, and channel_sync.py's module docstring for what was
+     checked (including why youtubearr's own approach doesn't transfer
+     directly).
+   Check the real names if unsure:
    ```python
-   from apps.channels.models import Stream
-   Stream.objects.filter(name__icontains="lcs").values("name", "url", "tvg_id")
+   from apps.channels.models import StreamProfile
+   StreamProfile.objects.values("name")
    ```
-   If none of `url`/`tvg_id`/`name` actually contain the plain Twitch channel
-   login (e.g. `lcs`, `valorant_americas`), update the three filters in
-   `_find_source_stream_for_twitch_channel` (`plugin/esportsarr/channel_sync.py`)
-   to match whatever Twitcharr actually stores before relying on this.
-
-   This lookup only ever reads Twitcharr's Stream to copy its playback
-   config (url/stream_profile/m3u_account) — see "Why generic channels use
-   their own cloned Stream" below for why we never attach that row directly.
 
 2. **Run "Create Channels"** (the plugin action in the Dispatcharr UI). This
-   creates the channel group + generic channels + EPG source. Idempotent —
-   safe to run again later if you change `slots_per_game`.
+   creates the channel group + generic channels + EPG source, and sets each
+   channel's own `stream_profile` to the Twitch-capable one above (the
+   default assumption; `apply_assignment` switches it to whichever
+   platform's profile is actually live on a slot once a real match airs
+   there, e.g. LPL vs LCS on the same "LoL 1" channel over time).
+   Idempotent, safe to run again later if you change `slots_per_game` or
+   either profile-name setting. **Required, not optional**: a channel's own
+   `stream_profile` is separate from whatever profile its active Stream has,
+   takes priority when the channel itself is played, and falls back to
+   Dispatcharr's system-default (non-Twitch-capable) profile if never set,
+   confirmed as the cause of a channel gray-screening even though its Stream
+   played fine standalone (2026-07-28).
 
 3. **Run "Sync Now" manually** during a window when a tracked league has a
    known live match, then check in the Dispatcharr UI (Channels screen, same
@@ -67,9 +86,12 @@ the steps to run yourself:
      channel (e.g. "Valorant 1").
    - The channel's EPG guide entry shows the match title/time, not just
      Online/Offline.
+   - The channel actually plays. Do this once for a Twitch league and,
+     separately, once during an LPL match specifically, since the YouTube
+     side is unverified, see step 1.
 
 4. Only once that looks right, leave `poll_interval_seconds` at its default
-   (60s) — the background scheduler thread starts automatically whenever the
+   (60s). The background scheduler thread starts automatically whenever the
    plugin loads in the Celery worker process (not the web-server process,
    same split Twitcharr uses) and will keep re-running "Sync Now" on its own
    from then on.
@@ -82,14 +104,14 @@ submitted to their repo. `plugin.json` here already has `license`, `author`
 (`4rn0d`), `source_type: "external"`, `source_url`, and `repo_url` filled in.
 
 Zipping, tagging, and releasing are now automated by
-`.github/workflows/release-please.yml` (see that section below) — once this
+`.github/workflows/release-please.yml` (see that section below). Once this
 repo is pushed, everything except the actual GitHub-account actions is
 hands-off:
 
 1. Push this repo to `github.com/4rn0d/esportsarr`, writing
    commits as [Conventional Commits](https://www.conventionalcommits.org/)
    (`fix: ...`, `feat: ...`, `feat!: ...` or a `BREAKING CHANGE:` footer for a
-   major bump) from here on — release-please reads these to decide the next
+   major bump) from here on. release-please reads these to decide the next
    version.
 2. release-please opens a "release PR" on its own after any `fix:`/`feat:`
    commit lands on `main`, showing the computed version bump. Merge it when
@@ -117,7 +139,7 @@ and `.github/workflows/release-please.yml` do the following on every push to
   `source_url` placeholder exactly), create the GitHub Release, zip
   `plugin/esportsarr/`, and attach it as `esportsarr.zip`.
 
-Uses the default `GITHUB_TOKEN` (no extra secret needed) — the one tradeoff
+Uses the default `GITHUB_TOKEN` (no extra secret needed). The one tradeoff
 is that commits made by release-please itself won't trigger other workflows
 in this repo (a GitHub Actions limitation to prevent infinite loops), which
 doesn't matter here since `scraper/`'s cron workflow is independent of this
@@ -127,84 +149,100 @@ one.
 
 `league_priority_lol` / `league_priority_valorant` (plugin settings, no code
 change needed) control which league keeps a slot when more matches are live
-simultaneously than there are slots. Earlier in the list = higher priority —
-by default the international/global events (Worlds/MSI/First Stand,
+simultaneously than there are slots. Earlier in the list = higher priority.
+By default the international/global events (Worlds/MSI/First Stand,
 Champions/VALORANT Masters/Game Changers Championship) are listed first, so
 they always outrank regional leagues. The string must match Riot's league
 `name` exactly (`python -m esportsarr.list_leagues --game <game>` in the
-scraper repo) — e.g. `"Game Changers NA"`, not `"Game Changers Americas"`.
+scraper repo), e.g. `"Game Changers NA"`, not `"Game Changers Americas"`.
 
 Assignment is sticky: a live match keeps its slot until it ends, even if a
-higher-priority match starts in the meantime — **this is never overridden,
+higher-priority match starts in the meantime. **This is never overridden,
 an already-live match is never bumped out of its slot.** What *does* happen
 is reservation of *empty* slots, split into two windows because esports
 broadcasts typically go live on Twitch ~1h before the official match time
 (pre-show), not right at it:
 
+When a match ends and its league's broadcast immediately moves on to its
+next match on the exact same Twitch channel (a series continuing back to
+back), that new match claims the *same* generic channel it was already on,
+ahead of normal priority ranking. Otherwise, if another slot happens to
+free up in the same tick, priority/slot-index ordering could swap which
+league shows up on which generic channel even though neither stream actually
+changed. This only applies between two live matches; it doesn't (yet) extend
+to a near/far reservation on the same channel.
+
 - `reservation_lookahead_minutes` (default 60): how far ahead an upcoming
-  match can preview/reserve a slot that's genuinely idle — nothing live
+  match can preview/reserve a slot that's genuinely idle. Nothing live
   wants it either way, so there's no cost to previewing it from the full
   pre-show window.
 - `reservation_priority_minutes` (default 30, must be <= the lookahead
   above): how close to start an upcoming match has to be to actually take a
   slot *away* from a lower-priority match that's already live there. Beyond
   this window but still inside the wider lookahead, it can only preview an
-  uncontested slot — it never costs a live regional match its slot just
+  uncontested slot. It never costs a live regional match its slot just
   because an international happens to be scheduled sooner.
 
 Either way, a reserved/previewed slot keeps showing whatever stream was
-already on that channel — it does not go blank while waiting.
+already on that channel. It does not go blank while waiting.
 
 See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
 policy and edge cases, including the near-vs-far distinction.
 
-## What the guide shows for each slot
+## What the guide shows, a week-ahead projection, not a one-tick snapshot
 
-`apply_assignment` (`channel_sync.py`) computes a guide entry for every slot
-on every tick, not just occupied ones — otherwise Dispatcharr's own generic
-placeholder filler ("Lunchtime Laziness...", "Evening Escapism...") shows
-through instead:
+The guide covers `schedule_projection_days` (default 7) into the future,
+built fresh every tick, with zero gaps. Otherwise Dispatcharr's own generic
+placeholder filler ("Lunchtime Laziness...", "Evening Escapism...") would
+show through instead. This used to be a purely reactive, one-entry-per-slot
+guess at "what's happening right now plus maybe one preview"; it's now a
+genuine forward simulation:
 
-- **Live match**: the real match, same as the stream switch itself. If a
-  higher-or-equal-priority match is waiting for a slot (more live matches
-  than slots, or a near/far reservation that lost out elsewhere), the guide
-  also previews it right after — see "What comes after a live match" below.
-- **Reserved slot** (an anticipated higher-priority match within
-  `reservation_lookahead_minutes`, holding the slot per the section above):
-  a "coming up" entry for that match, at its real start time. The stream
-  itself is untouched — only the guide previews it.
-- **Genuinely idle** (nothing live, nothing anticipated): an explicit
-  "No Match Scheduled" placeholder, refreshed every tick and sized to
-  comfortably outlast one poll interval (`OFFLINE_PROGRAM_DURATION`, 6h) so
-  Dispatcharr's guide grid never shows its own "No program data" gap next to
-  it — the whole point is to look honest and continuous, not just short.
+- `allocator.project_schedule` replays the exact same `assign_slots` policy
+  (priority ranking, sticky live matches, same-channel continuity) forward
+  across every known future match, seeded with this tick's real, current
+  assignment so the projected future picks up exactly where "right now"
+  left off. Two matches from different leagues that overlap in time and
+  both want the same slot are resolved exactly like live sync: the
+  higher-priority one shows, the lower-priority one is simply **absent**
+  from the guide for that window, never queued or shown after the fact.
+- `channel_sync.build_guide_entries` turns that per-slot match sequence
+  into actual guide entries, filling every gap (before the first known
+  match, between two consecutive ones, and after the last one through to
+  the end of the projection window) with an explicit "No Match Scheduled"
+  placeholder. Only the very first placeholder's start (right at "now") is
+  rounded down to the nearest :00/:15/:30/:45 (`_round_down_to_quarter_hour`).
+  A guide reads oddly with a block starting at 3:53pm. Every other
+  boundary is already an exact real timestamp (a match's own start, or the
+  projection window's edge), so nothing else needs rounding.
+- Every real entry's displayed time is always the match's own real
+  scheduled/actual start, never rewritten to avoid overlapping a
+  neighboring entry. Same as a real TV guide: "Antichambre" stays printed
+  at 21h00 even when the game before it runs to 21h10. The schedule
+  doesn't get rewritten, the overlap is just the honest picture of a delay.
+- A match reported as currently live whose 3h duration estimate has already
+  technically elapsed (e.g. a best-of-5 running long) can get dropped from
+  the *projected future* portion of the guide slightly earlier than it
+  actually ends in reality, the same "Riot gives no real end time, 3h is
+  just an estimate" limitation this whole plugin already accepts, and it
+  self-corrects on the very next tick since the guide is fully rebuilt every
+  time from the latest known state. It never affects the actual live stream
+  switch, which is decided separately and correctly by `assign_slots`'s own
+  real, current-tick evaluation.
+- Every real entry also carries a `description` (competition + stage/matchday
+  context, e.g. "LCS: Playoffs", "VCT Americas: Week 3") straight through
+  from the scraper's `schedule.json` into the XMLTV `<desc>` element, so the
+  guide shows what's actually being played, not just the two team names.
+  Filler ("No Match Scheduled") entries have none. There's no match to
+  describe.
 
-### What comes after a live match — "next up" previews
+`apply_assignment` no longer builds guide content at all. It only handles
+`ChannelStream`/`EPGData` linking for the actual, current-tick live match.
+See `allocator.py`'s and `channel_sync.py`'s own docstrings, plus
+`tests/test_allocator.py`/`tests/test_channel_sync.py`, for the exact policy
+and edge cases.
 
-Riot never gives a match an end time, so, the same way a real broadcaster
-handles a live event of unknown length, `PROGRAMME_DURATION` (3h) is used as
-an estimate of when a live slot will free up. `allocator.assign_slots`'s
-third return value, `overflow`, is every candidate (live or upcoming) that
-lost out on a slot or reservation, in priority order — a 3rd live match with
-only 2 slots, or a near/far reservation that couldn't unseat what's already
-there. `channel_sync._next_up_by_slot` pairs the *best* overflow candidate
-with whichever live slot is estimated to free up *soonest*, the next-best
-with the second-soonest, and so on — then `apply_assignment` appends that
-candidate's guide entry right after the live match's estimated end.
-
-This is a best-effort guess, not a guarantee: if a match runs long or short,
-the slot that actually frees up first can differ from the one predicted.
-The stream itself is never switched early because of this — only the guide
-preview is affected, same as a reservation.
-
-The estimate is only ever used to pick *which slot* shows the preview — the
-previewed entry's start time is always the match's own real scheduled/actual
-time, never shifted later to avoid overlapping the live match's estimated
-end. Same as a real TV guide: "Antichambre" stays printed at 21h00 even when
-the game before it runs to 21h10 — the schedule doesn't get rewritten, the
-overlap is just the honest picture of a delay.
-
-### How the guide is actually written — a local XMLTV file, not raw ProgramData
+### How the guide is actually written, a local XMLTV file, not raw ProgramData
 
 An earlier version wrote `ProgramData` rows directly via the Django ORM.
 That works, but fighting Dispatcharr's own EPG machinery around it caused
@@ -214,21 +252,21 @@ two real problems, both confirmed against Dispatcharr's actual source
 - `source_type="dummy"` (which sounds like "manually-managed, left alone")
   actually makes `EPGGridAPIView`, the real guide-grid endpoint,
   unconditionally overlay **any** channel on that source with its own
-  auto-generated humorous filler — regardless of real `ProgramData` already
+  auto-generated humorous filler, regardless of real `ProgramData` already
   existing for it. That's where "Lunchtime Laziness"/"Evening Escapism" come
   from, and it silently wins over anything we write.
 - Switching to `source_type="xmltv"` avoids that, but then Dispatcharr's own
   EPG pipeline reacts to a channel's `epg_data` link changing by trying to
-  fetch/parse a URL — which fails since we never set one, leaving the source
+  fetch/parse a URL, which fails since we never set one, leaving the source
   stuck showing "Error" in the UI forever (harmless to the data, but
   fighting a status field that isn't ours to manage).
 
-### Why generic channels use their own cloned Stream, not Twitcharr's
+### Why generic channels use their own Stream, not Twitcharr's
 
 An earlier version attached Twitcharr's own Stream row directly to our
 generic channels via `ChannelStream`. That caused our "Valorant 1"/
 "Valorant 2" channels to get created successfully by "Create Channels" and
-then deleted again within minutes, with no error and no manual action —
+then deleted again within minutes, with no error and no manual action,
 confirmed against Twitcharr's actual `streamlink_setup.py` source
 (2026-07-28) as `sync_channels()`'s own cleanup step:
 
@@ -244,28 +282,59 @@ stale_channels.delete()
 Twitcharr deletes any Channel linked to a Stream *it* owns, unless that
 Channel's `tvg_id` is one of its own tracked ones. Our channel is linked to
 one of its Streams (because we reused the row) but our `tvg_id`
-(`esportsarr.valorant.1`) obviously isn't in Twitcharr's own list — so its
+(`esportsarr.valorant.1`) obviously isn't in Twitcharr's own list, so its
 next periodic sync deletes our channel as "stale." LoL channels never hit
 this during testing purely because no LoL match had gone live yet, so
 they'd never actually been linked to any stream.
 
-The fix: `_get_or_create_owned_stream` copies the working playback config
-(`url`, `stream_profile`, `m3u_account`, `logo_url`) from whatever Stream
-Twitcharr already set up into a **separate** Stream row this plugin creates
-and owns (`custom_properties={"owner": "esportsarr"}`, stable
-`tvg_id=esportsarr.stream.<channel>` so repeat ticks update the same clone
-instead of multiplying rows). Only that clone is ever attached via
-`ChannelStream` — Twitcharr's ownership-based prune query can never match
-one of our channels again.
+A first fix cloned the working playback config (`url`, `stream_profile`,
+`m3u_account`, `logo_url`) from whatever Stream Twitcharr already had for
+that Twitch channel into a separate row this plugin owns, safe from the
+prune query, but it still required Twitcharr to already be *tracking* that
+exact channel just so a Stream existed to copy from. Adding a new league
+meant configuring Twitcharr for a channel it otherwise had no reason to
+manage.
 
-The actual fix: `apply_assignment` no longer writes `ProgramData` at all —
-it returns this game's guide entries, and `_run_sync` (`plugin.py`) collects
-them across every game and calls `write_guide()` **once** per tick.
+The actual constraint turned out to be narrower: confirmed against
+Dispatcharr's own `StreamProfile` model and Twitcharr's source (2026-07-28),
+Dispatcharr has no built-in way to play a raw twitch.tv URL at all. Twitch
+playback only works because Twitcharr installs its own streamlink-based
+`StreamProfile` and attaches it to every Stream it creates. That profile is
+one system-wide object, unrelated to which channels Twitcharr tracks. So
+`_get_or_create_owned_stream` now builds the Stream itself
+(`PLATFORM_URL_BUILDERS[platform](stream_channel)`, the channel/handle
+already known from the scraper's `epg_channel_id` mapping) and only borrows
+the shared profile by name (`twitch_stream_profile_name`/
+`youtube_stream_profile_name` settings), tagged
+`custom_properties={"owner": "esportsarr"}`, stable
+`tvg_id=esportsarr.stream.<platform>.<channel>` so repeat ticks update the
+same row. Twitcharr now only needs to have run once, ever, never to track
+any specific league's channel, and its ownership-based prune query still
+can never match one of our channels.
+
+LPL is YouTube-only (no Twitch stream exists for it), so this same pattern
+was extended to a second platform (`stream_platform`/`stream_channel` on
+every match, derived from `epg_channel_id`'s prefix in
+`scraper/esportsarr/riot_api.py`'s `_stream_identity_for_league`). Checked
+`youtubearr` (github.com/jeff-gooch/youtubearr) as a possible reference for
+the YouTube side, 2026-07-29: it doesn't install a reusable StreamProfile at
+all. It resolves a temporary direct media URL via `yt-dlp` itself and plays
+that through Dispatcharr's stock "proxy" profile, refreshing the resolved
+URL periodically since it expires. That's a fundamentally different
+mechanism from Twitcharr's (a stable page URL resolved at play time by a
+streamlink-based profile), so nothing there could be borrowed directly.
+`youtube_stream_profile_name` defaults to the same profile as Twitch as an
+untested guess instead, see the "First run" section above.
+
+The actual fix: guide content is never written as `ProgramData` rows
+directly. `build_guide_entries` (see "What the guide shows" above) builds
+this game's guide entries, and `_run_sync` (`plugin.py`) collects them
+across every game and calls `write_guide()` **once** per tick.
 `write_guide` renders one combined XMLTV file to `GUIDE_FILE_PATH` and sets
-`EPGSource.file_path` to it (no `url`) — Dispatcharr's own local-file EPG
+`EPGSource.file_path` to it (no `url`). Dispatcharr's own local-file EPG
 support (`file_path` set, `url` empty) parses a file directly with **no
 network fetch attempted at all**, so there's no error status to fight. It
-then calls `refresh_epg_data(epg_source.id, force=True)` — a real,
-callable Dispatcharr task, not a private API — which parses the file into
+then calls `refresh_epg_data(epg_source.id, force=True)`, a real,
+callable Dispatcharr task, not a private API, which parses the file into
 `EPGData`/`ProgramData` atomically: a bad file never destroys existing
 guide data, it just fails and leaves the previous guide in place.

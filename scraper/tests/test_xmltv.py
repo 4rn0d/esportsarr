@@ -3,20 +3,22 @@ from __future__ import annotations
 import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timezone
 
-from esportsarr.models import Game, League, MatchEvent, MatchState
-from esportsarr.xmltv import DEFAULT_MATCH_DURATION, build_xmltv
+from esportsarr.models import Game, League, MatchEvent, MatchState, StreamPlatform
+from esportsarr.xmltv import CATEGORY, DEFAULT_MATCH_DURATION, XMLTV_LANG, build_xmltv
 
 LCS = League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs")
 LEC = League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec")
 
 
-def _match(league: League, state: MatchState, title: str, hour: int = 20) -> MatchEvent:
+def _match(league: League, state: MatchState, title: str, hour: int = 20, description: str = "LCS: Playoffs") -> MatchEvent:
     return MatchEvent(
         league=league,
         start=datetime(2026, 7, 27, hour, 0, tzinfo=timezone.utc),
         state=state,
         title=title,
-        twitch_channel="lcs",
+        stream_platform=StreamPlatform.TWITCH,
+        stream_channel="lcs",
+        description=description,
     )
 
 
@@ -52,10 +54,37 @@ def test_build_xmltv_escapes_special_characters_in_titles():
     matches = [_match(LCS, MatchState.UNSTARTED, "Team <A> & \"B\"'s Squad")]
 
     xml_text = build_xmltv(matches)
-    # Must parse without raising — a naive string-concat XML builder would
+    # Must parse without raising. A naive string-concat XML builder would
     # produce invalid XML here and ElementTree.fromstring would blow up.
     root = ElementTree.fromstring(xml_text)
     assert root.find("programme/title").text == "Team <A> & \"B\"'s Squad"
+
+
+def test_build_xmltv_includes_description_with_competition_and_stage():
+    match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9", description="LCS: Playoffs")
+    xml_text = build_xmltv([match])
+    root = ElementTree.fromstring(xml_text)
+
+    assert root.find("programme/desc").text == "LCS: Playoffs"
+
+
+def test_build_xmltv_includes_category():
+    match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9")
+    xml_text = build_xmltv([match])
+    root = ElementTree.fromstring(xml_text)
+
+    assert root.find("programme/category").text == CATEGORY
+
+
+def test_build_xmltv_tags_title_desc_and_category_with_lang():
+    match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9")
+    xml_text = build_xmltv([match])
+    root = ElementTree.fromstring(xml_text)
+    programme = root.find("programme")
+
+    assert programme.find("title").get("lang") == XMLTV_LANG
+    assert programme.find("desc").get("lang") == XMLTV_LANG
+    assert programme.find("category").get("lang") == XMLTV_LANG
 
 
 def test_build_xmltv_stop_time_is_start_plus_default_duration():

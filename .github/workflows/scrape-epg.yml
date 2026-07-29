@@ -4,7 +4,7 @@ on:
   schedule:
     # Every 15 minutes. Match state (live/completed) needs to be fresher than
     # the schedule itself, since the Dispatcharr plugin's stream-switching
-    # reacts to schedule.json — see plugin/README.md.
+    # reacts to schedule.json. See plugin/README.md.
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 

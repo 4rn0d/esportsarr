@@ -1,11 +1,12 @@
-"""Dispatcharr plugin: consolidates per-league esports Twitch channels into a
-fixed number of generic channels per game, switching the active stream to
-whichever live match currently holds priority (see allocator.py for the
-policy, channel_sync.py for the Dispatcharr-side writes).
+"""Dispatcharr plugin: consolidates per-league esports channels (Twitch,
+plus YouTube for leagues like LPL) into a fixed number of generic channels
+per game, switching the active stream to whichever live match currently
+holds priority (see allocator.py for the policy, channel_sync.py for the
+Dispatcharr-side writes).
 
 Dispatcharr's plugin framework has no native periodic-task hook (confirmed
 against https://github.com/Dispatcharr/Dispatcharr/blob/main/Plugins.md,
-2026-07-27) — actions only run in response to a UI button click. The
+2026-07-27). Actions only run in response to a UI button click. The
 background scheduler thread pattern here (self-rolled thread, DB-backed
 settings loading, file-based job lock, web-process detection) mirrors the
 Twitcharr plugin (github.com/eliasbruno124-dev/Twitcharr), which solves the
@@ -27,14 +28,14 @@ from typing import Any
 import requests
 
 from . import channel_sync
-from .allocator import assign_slots
+from .allocator import assign_slots, project_schedule
 
 logger = logging.getLogger(__name__)
 
 PLUGIN_KEY = "esportsarr"
 
 # name/version/description/author are read from plugin.json (same directory)
-# instead of being duplicated as literals here — release-please only patches
+# instead of being duplicated as literals here, release-please only patches
 # plugin.json's "version", so a second hardcoded copy would silently drift
 # out of sync with it (confirmed happening: Dispatcharr showed 0.4.0 for the
 # disabled-plugin card, sourced from plugin.json, but 0.1.0 once enabled,
@@ -53,14 +54,42 @@ DEFAULT_SETTINGS = {
         "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
     ),
     # Esports broadcasts typically go live on Twitch ~1h before the official
-    # match time (pre-show), not right at it — reservation_lookahead_minutes
+    # match time (pre-show), not right at it, reservation_lookahead_minutes
     # is that wide "consider it upcoming at all" window, used for slots
     # nothing live wants anyway. reservation_priority_minutes is the
     # narrower window within which an upcoming match actually competes for a
-    # slot a live regional match would otherwise keep — see allocator.py's
+    # slot a live regional match would otherwise keep, see allocator.py's
     # module docstring for the near/far distinction.
     "reservation_lookahead_minutes": 60,
     "reservation_priority_minutes": 30,
+    # How far ahead the guide shows real match data (see
+    # allocator.project_schedule) before falling back to "No Match
+    # Scheduled" filler, independent of poll_interval_seconds, since the
+    # whole window is rebuilt fresh every tick regardless of how far out it
+    # reaches. A setting, not a constant, since how far ahead someone wants
+    # to see their guide is a genuine preference, not a safety-net value.
+    "schedule_projection_days": 7,
+    # Dispatcharr has no built-in way to play a raw twitch.tv URL. This is
+    # the name of the StreamProfile Twitcharr installs (a streamlink-based
+    # command/parameters template) that actually makes it playable, confirmed
+    # against Twitcharr's source (2026-07-28). A setting rather than a
+    # hardcoded name since it's an external identifier this plugin doesn't
+    # own. It can drift if Twitcharr renames it, or a different install
+    # uses its own Twitch-capable profile under a different name. Twitcharr
+    # only needs to have run once, ever, to create it, see channel_sync.py's
+    # module docstring for why this plugin no longer needs Twitcharr to be
+    # tracking any specific league's channel.
+    "twitch_stream_profile_name": "Twitcharr (ad-free, low-latency)",
+    # Same idea for YouTube (LPL is YouTube-only). Unlike Twitch, no plugin
+    # is confirmed to install a working streamlink/yt-dlp StreamProfile for
+    # YouTube automatically (checked youtubearr's source, 2026-07-29: it
+    # resolves and stores a temporary direct media URL via yt-dlp itself,
+    # playing it through Dispatcharr's stock "proxy" profile, a different
+    # mechanism entirely). This default just tries the same profile as
+    # Twitch as an unverified first guess (streamlink's YouTube plugin ships
+    # in the same package, so it might work); see channel_sync.py's module
+    # docstring and plugin/README.md before trusting it against a real match.
+    "youtube_stream_profile_name": "Twitcharr (ad-free, low-latency)",
 }
 
 GAME_PRIORITY_SETTING_KEYS = {
@@ -78,7 +107,7 @@ PLUGIN_STATE_DIR = f"/app/data/plugins/{PLUGIN_KEY}/.state"
 RESERVATION_GRACE_MINUTES = 30
 
 # In-memory only: which match currently occupies each slot, per game. Reset
-# on process restart — worst case is one tick where a match that was live
+# on process restart. Worst case is one tick where a match that was live
 # before the restart gets treated as new (no functional difference, since a
 # newly-seen match just gets ranked and assigned like any other).
 _last_assignment: dict[str, list[dict | None]] = {}
@@ -150,40 +179,52 @@ def _run_sync(settings: dict) -> dict:
         wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
         narrow_lookahead = timedelta(minutes=int(settings["reservation_priority_minutes"]))
         grace = timedelta(minutes=RESERVATION_GRACE_MINUTES)
+        projection_end = now + timedelta(days=int(settings["schedule_projection_days"]))
 
         live_by_game: dict[str, list[dict]] = {}
         upcoming_by_game: dict[str, list[dict]] = {}  # "near": competes for contested slots
         far_upcoming_by_game: dict[str, list[dict]] = {}  # "far": preview-only, never displaces
+        # Every match relevant to the week-ahead guide projection, broader
+        # than live/upcoming/far above (those exist only to decide *right
+        # now*'s ChannelStream/reservation state). An in_progress match is
+        # always included regardless of its estimated end, so
+        # project_schedule never drops it before the projection even starts
+        # (see its docstring), an unstarted one is included by real
+        # scheduled start falling in [now - grace, projection_end).
+        projectable_by_game: dict[str, list[dict]] = {}
         for match in matches:
-            # A match with no known Twitch channel (e.g. LPL, broadcast on
-            # YouTube only) has nothing for apply_assignment to switch the
-            # stream to — it must never win a slot over a match that's
-            # actually showable, live or anticipated.
-            if not match.get("twitch_channel"):
+            # A match with no known stream platform/channel (a league on
+            # neither Twitch nor YouTube) has nothing for apply_assignment to
+            # switch the stream to. It must never win a slot over a match
+            # that's actually showable, live or anticipated.
+            if not match.get("stream_platform") or not match.get("stream_channel"):
                 continue
 
             state = match.get("state")
             if state == "in_progress":
                 live_by_game.setdefault(match["game"], []).append(match)
+                projectable_by_game.setdefault(match["game"], []).append(match)
             elif state == "unstarted":
                 start = datetime.fromisoformat(match["start"])
                 if now - grace <= start <= now + narrow_lookahead:
                     upcoming_by_game.setdefault(match["game"], []).append(match)
                 elif start <= now + wide_lookahead:
                     far_upcoming_by_game.setdefault(match["game"], []).append(match)
+                if now - grace <= start < projection_end:
+                    projectable_by_game.setdefault(match["game"], []).append(match)
 
         results: dict[str, list[str | None] | str] = {}
         guide_entries: list[dict] = []
         for game, priority_key in GAME_PRIORITY_SETTING_KEYS.items():
             # One game's failure (a bad Stream lookup, a Django error, ...)
-            # must not prevent the other game from being synced this tick —
+            # must not prevent the other game from being synced this tick,
             # each game is processed and reported independently.
             try:
                 priority = _parse_priority(settings[priority_key])
                 slots = int(settings["slots_per_game"])
                 previous = _last_assignment.get(game)
 
-                assignment, reserved_for, overflow = assign_slots(
+                assignment, _reserved_for, _overflow = assign_slots(
                     live_matches=live_by_game.get(game, []),
                     slots=slots,
                     league_priority=priority,
@@ -191,23 +232,35 @@ def _run_sync(settings: dict) -> dict:
                     upcoming_matches=upcoming_by_game.get(game, []),
                     far_upcoming_matches=far_upcoming_by_game.get(game, []),
                 )
-                guide_entries.extend(
-                    channel_sync.apply_assignment(settings, game, assignment, reserved_for, overflow)
-                )
+                channel_sync.apply_assignment(settings, game, assignment)
                 _last_assignment[game] = assignment
+
+                # Seeded with this same tick's real assignment so the
+                # projected future picks up exactly where "right now" left
+                # off, rather than starting cold.
+                projected_by_slot = project_schedule(
+                    matches=projectable_by_game.get(game, []),
+                    slots=slots,
+                    league_priority=priority,
+                    duration=channel_sync.PROGRAMME_DURATION,
+                    initial_assignment=assignment,
+                )
+                guide_entries.extend(channel_sync.build_guide_entries(game, projected_by_slot, now, projection_end))
+
                 results[game] = [match["title"] if match else None for match in assignment]
             except Exception as exc:
                 logger.exception("esportsarr: sync failed for game %r", game)
                 results[game] = f"error: {exc}"
 
         # One guide file/refresh covering every game's channels, not one per
-        # game — apply_assignment no longer writes ProgramData itself, so a
-        # game that failed above just contributes no entries this tick
-        # rather than blocking the games that succeeded from updating. If
-        # every game failed, guide_entries is empty — skip the write/refresh
-        # entirely rather than parse a technically-valid empty XMLTV file,
-        # which would successfully wipe the last good guide data instead of
-        # leaving it in place.
+        # game, a game that failed above just contributes no entries this
+        # tick rather than blocking the games that succeeded from updating.
+        # A game that succeeded always contributes at least one entry per
+        # slot (build_guide_entries never returns nothing for a slot), so
+        # guide_entries is only empty if every game failed, skip the
+        # write/refresh entirely rather than parse a technically-valid empty
+        # XMLTV file, which would successfully wipe the last good guide data
+        # instead of leaving it in place.
         if guide_entries:
             try:
                 channel_sync.write_guide(guide_entries)
@@ -231,7 +284,7 @@ _scheduler_thread: threading.Thread | None = None
 
 
 def _is_web_server_process() -> bool:
-    """True inside Dispatcharr's uWSGI/Daphne/Gunicorn web workers — the
+    """True inside Dispatcharr's uWSGI/Daphne/Gunicorn web workers, the
     scheduler should only run in the Celery worker process, same as Twitcharr."""
     if "uwsgi" in sys.modules:
         return True

@@ -1,4 +1,4 @@
-"""Serializes the full match list to schedule.json — the single source of
+"""Serializes the full match list to schedule.json, the single source of
 truth the Dispatcharr plugin (piece 2) polls to decide stream priority.
 Unlike xmltv.py this includes every state (including completed), since the
 plugin needs to know when a live match has just ended, not only what's next.
@@ -19,7 +19,9 @@ def _match_to_dict(match: MatchEvent) -> dict:
         "start": match.start.isoformat(),
         "state": match.state.value,
         "title": match.title,
-        "twitch_channel": match.twitch_channel,
+        "stream_platform": match.stream_platform.value if match.stream_platform else None,
+        "stream_channel": match.stream_channel,
+        "description": match.description,
     }
 
 

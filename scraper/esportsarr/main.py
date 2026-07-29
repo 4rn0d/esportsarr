@@ -21,7 +21,7 @@ SCHEDULE_FILENAME = "schedule.json"
 
 # Riot's schedule endpoints return a league's entire history (observed:
 # matches going back to 2023) plus placeholder "TBD vs TBD" entries months
-# out — unbounded, and schedule.json balloons to thousands of entries with
+# out, unbounded, and schedule.json balloons to thousands of entries with
 # it. Neither the guide nor the plugin's reservation logic ever needs
 # anything outside a one-month window either side of "now".
 SCHEDULE_WINDOW = timedelta(days=30)

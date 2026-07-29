@@ -1,5 +1,5 @@
 """Which leagues we track and which existing Dispatcharr/Twitcharr EPG channel
-each one feeds. Matching is by exact Riot API league `name` (not substring —
+each one feeds. Matching is by exact Riot API league `name` (not substring,
 e.g. "LCK" vs "LCK Challengers" must not collide).
 """
 
@@ -49,6 +49,6 @@ def find_league(display_name: str) -> League:
         if league.display_name == display_name:
             return league
     raise UnknownLeagueError(
-        f"{display_name!r} is not in TRACKED_LEAGUES — add it to channel_map.py "
+        f"{display_name!r} is not in TRACKED_LEAGUES. Add it to channel_map.py "
         "with its Dispatcharr EPG channel id before scraping it."
     )
