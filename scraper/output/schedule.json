@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:55:29.504913+00:00",
+  "generated_at": "2026-07-29T15:07:57.461379+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -740,6 +740,16 @@
       "stream_platform": "twitch",
       "stream_channel": "lec",
       "description": "LEC: Week 5"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-28T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Team Heretics vs Shifters",
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 6"
     },
     {
       "league": "LCK",
@@ -2914,18 +2924,8 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-29T14:31:33.119000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "VCT EMEA"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-29T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "GIANTX vs Team Liquid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -3275,6 +3275,16 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-23T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
+      "start": "2026-08-28T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
@@ -3905,6 +3915,26 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-18T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-18T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-19T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
       "stream_platform": "twitch",

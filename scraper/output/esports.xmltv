@@ -264,6 +264,11 @@
     <desc lang="en">LEC: Week 5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260828150000 +0000" stop="20260828180000 +0000" channel="twitch.lec">
+    <title lang="en">Team Heretics vs Shifters</title>
+    <desc lang="en">LEC: Week 6</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260730080000 +0000" stop="20260730110000 +0000" channel="twitch.lck">
     <title lang="en">BNK FEARX vs DN SOOPers</title>
     <desc lang="en">LCK: Week 10</desc>
@@ -959,11 +964,6 @@
     <desc lang="en">Last Chance Qualifier Americas: Finals</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260729143133 +0000" stop="20260729173133 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">VCT EMEA</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">GIANTX vs Team Liquid</title>
     <desc lang="en">VCT EMEA: Week 3</desc>
@@ -1144,9 +1144,9 @@
     <desc lang="en">VCT EMEA: Playoffs</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260729142757 +0000" stop="20260729172757 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Game Changers EMEA</desc>
+  <programme start="20260828150000 +0000" stop="20260828180000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
@@ -1345,6 +1345,16 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260818150000 +0000" stop="20260818180000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260818180000 +0000" stop="20260818210000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260819150000 +0000" stop="20260819180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">TBD vs TBD</title>
     <desc lang="en">Game Changers EMEA: Playoffs</desc>
     <category lang="en">Esports</category>
