@@ -13,10 +13,6 @@ class Game(str, Enum):
 
 
 class StreamPlatform(str, Enum):
-    """Which platform a league's broadcast lives on. Most leagues are Twitch;
-    LPL is YouTube-only (see channel_map.py's `epg_channel_id` prefix, which
-    riot_api.py's `_stream_identity_for_league` reads this from)."""
-
     TWITCH = "twitch"
     YOUTUBE = "youtube"
 
@@ -42,9 +38,7 @@ class League:
 
     display_name: str
     game: Game
-    # Dispatcharr EPG channel id for the existing per-league Twitcharr channel,
-    # e.g. "twitch.lcs". Used by xmltv.py to attach programme data.
-    epg_channel_id: str
+    epg_channel_id: str  # Dispatcharr EPG channel id, e.g. "twitch.lcs"
 
 
 @dataclass(frozen=True)
@@ -55,11 +49,6 @@ class MatchEvent:
     start: datetime
     state: MatchState
     title: str
-    # Which platform (if any) this league's broadcast is on, and the
-    # channel/handle on that platform. Both None for a league with no known
-    # streamable source. See riot_api.py's _stream_identity_for_league.
-    stream_platform: StreamPlatform | None
+    stream_platform: StreamPlatform | None  # None if the league has no known streamable source
     stream_channel: str | None
-    # Competition/stage context (e.g. "LCS, Playoffs", "VCT Americas, Week 3")
-    # for the guide's description field, see riot_api._match_description.
-    description: str
+    description: str  # e.g. "LCS: Playoffs"
