@@ -168,9 +168,6 @@
   <programme start="20260824171500 +0000" stop="20260824201500 +0000" channel="twitch.lec">
     <title>GIANTX vs G2 Esports</title>
   </programme>
-  <programme start="20260729080000 +0000" stop="20260729110000 +0000" channel="twitch.lck">
-    <title>KIWOOM DRX vs NONGSHIM RED FORCE</title>
-  </programme>
   <programme start="20260729100000 +0000" stop="20260729130000 +0000" channel="twitch.lck">
     <title>T1 vs kt Rolster</title>
   </programme>
@@ -288,11 +285,11 @@
   <programme start="20260823100000 +0000" stop="20260823130000 +0000" channel="twitch.lck">
     <title>BNK FEARX vs NONGSHIM RED FORCE</title>
   </programme>
-  <programme start="20260729090000 +0000" stop="20260729120000 +0000" channel="youtube.LPL_English">
-    <title>TOP ESPORTS vs Anyone's Legend</title>
+  <programme start="20260826080000 +0000" stop="20260826110000 +0000" channel="twitch.lck">
+    <title>TBD vs TBD</title>
   </programme>
-  <programme start="20260729110000 +0000" stop="20260729140000 +0000" channel="youtube.LPL_English">
-    <title>BILIBILI GAMING vs LGD GAMING</title>
+  <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.lck">
+    <title>TBD vs TBD</title>
   </programme>
   <programme start="20260730070000 +0000" stop="20260730100000 +0000" channel="youtube.LPL_English">
     <title>Shenzhen NINJAS IN PYJAMAS vs WeiboGaming</title>
@@ -407,6 +404,9 @@
   </programme>
   <programme start="20260816090000 +0000" stop="20260816120000 +0000" channel="youtube.LPL_English">
     <title>WeiboGaming vs Invictus Gaming</title>
+  </programme>
+  <programme start="20260816110000 +0000" stop="20260816140000 +0000" channel="youtube.LPL_English">
+    <title>EDWARD GAMING vs TOP ESPORTS</title>
   </programme>
   <programme start="20260730210000 +0000" stop="20260731000000 +0000" channel="twitch.valorant_americas">
     <title>KRÜ Visa vs G2 Esports</title>
@@ -919,6 +919,12 @@
     <title>TBD vs TBD</title>
   </programme>
   <programme start="20260827100000 +0000" stop="20260827130000 +0000" channel="twitch.valorant_pacific">
+    <title>TBD vs TBD</title>
+  </programme>
+  <programme start="20260828080000 +0000" stop="20260828110000 +0000" channel="twitch.valorant_pacific">
+    <title>TBD vs TBD</title>
+  </programme>
+  <programme start="20260828100000 +0000" stop="20260828130000 +0000" channel="twitch.valorant_pacific">
     <title>TBD vs TBD</title>
   </programme>
 </tv>

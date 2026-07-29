@@ -1,14 +1,6 @@
 {
-  "generated_at": "2026-07-29T07:18:01.545352+00:00",
+  "generated_at": "2026-07-29T10:03:34.427688+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-06-29T08:00:00+00:00",
-      "state": "completed",
-      "title": "Team Liquid Alienware vs Relove Deep Cross Gaming",
-      "twitch_channel": "riotgames"
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -605,7 +597,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-29T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "KIWOOM DRX vs NONGSHIM RED FORCE",
       "twitch_channel": "lck"
     },
@@ -613,7 +605,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-29T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "T1 vs kt Rolster",
       "twitch_channel": "lck"
     },
@@ -922,6 +914,22 @@
       "twitch_channel": "lck"
     },
     {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-26T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": "lck"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-27T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": "lck"
+    },
+    {
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-22T09:00:00+00:00",
@@ -1029,15 +1037,15 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-29T09:00:00+00:00",
-      "state": "unstarted",
-      "title": "TOP ESPORTS vs Anyone's Legend",
+      "state": "completed",
+      "title": "Anyone's Legend vs TOP ESPORTS",
       "twitch_channel": null
     },
     {
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-29T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "BILIBILI GAMING vs LGD GAMING",
       "twitch_channel": null
     },
@@ -1343,6 +1351,14 @@
       "start": "2026-08-16T09:00:00+00:00",
       "state": "unstarted",
       "title": "WeiboGaming vs Invictus Gaming",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-16T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "EDWARD GAMING vs TOP ESPORTS",
       "twitch_channel": null
     },
     {
@@ -3717,6 +3733,22 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-27T10:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": "valorant_pacific"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-28T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": "valorant_pacific"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-28T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
       "twitch_channel": "valorant_pacific"
