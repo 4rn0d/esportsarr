@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T15:07:57.461379+00:00",
+  "generated_at": "2026-07-29T15:37:06.639301+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2926,7 +2926,7 @@
       "game": "valorant",
       "start": "2026-07-29T15:00:00+00:00",
       "state": "in_progress",
-      "title": "GIANTX vs Team Liquid",
+      "title": "Team Liquid vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "VCT EMEA: Week 3"
@@ -3536,7 +3536,7 @@
       "game": "valorant",
       "start": "2026-07-29T15:00:00+00:00",
       "state": "unstarted",
-      "title": "FOKUS Sakura vs Gentle Mates",
+      "title": "Gentle Mates vs FOKUS Sakura",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "Game Changers EMEA: Week 2"

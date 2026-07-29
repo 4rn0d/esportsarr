@@ -965,7 +965,7 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">GIANTX vs Team Liquid</title>
+    <title lang="en">Team Liquid vs GIANTX</title>
     <desc lang="en">VCT EMEA: Week 3</desc>
     <category lang="en">Esports</category>
   </programme>
@@ -1155,7 +1155,7 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">FOKUS Sakura vs Gentle Mates</title>
+    <title lang="en">Gentle Mates vs FOKUS Sakura</title>
     <desc lang="en">Game Changers EMEA: Week 2</desc>
     <category lang="en">Esports</category>
   </programme>
