@@ -894,11 +894,6 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260729190000 +0000" stop="20260729200000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Joblife vs Karmine Corp Blue · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260729200000 +0000" stop="20260729210000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">Galions vs Skillcamp · Week 2 · Bo1</desc>
@@ -927,11 +922,6 @@
   <programme start="20260730200000 +0000" stop="20260730210000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">TLN Pirates vs Esprit Shonen · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729204500 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Brod &amp; Friends vs Sørby Esports · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803160000 +0000" stop="20260803184500 +0000" channel="twitch.NLCLoL">
@@ -1527,26 +1517,6 @@
   <programme start="20260828180000 +0000" stop="20260828204500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729150000 +0000" stop="20260729174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">SK Nebula vs G2 Gozen · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729150000 +0000" stop="20260729174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Gentle Mates vs FOKUS Sakura · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729204500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Barça eSports vs ALTERNATE aTTaX Ruby · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729204500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Habos Babos vs GIANTX · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
