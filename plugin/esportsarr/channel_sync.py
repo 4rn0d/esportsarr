@@ -361,28 +361,42 @@ def apply_assignment(settings: dict, game: str, assignment: list[dict[str, Any] 
 
 def build_guide_entries(
     game: str,
-    projected_by_slot: list[list[dict[str, Any]]],
+    projected_by_slot: list[list[tuple[datetime, dict[str, Any]]]],
     now: datetime,
     projection_end: datetime,
 ) -> list[dict[str, Any]]:
-    """Converts `allocator.project_schedule`'s per-slot chronological match
-    lists into XMLTV-ready guide entries covering `[now, projection_end)`
-    with zero gaps: before the first known match, between two consecutive
-    ones, and after the last one, an explicit "No Match Scheduled"
-    placeholder fills the space. Otherwise Dispatcharr's guide grid would
-    show its own "No program data" gap or auto-generated filler instead.
-    This is the sole source of guide *content*; `apply_assignment` only
-    handles ChannelStream/EPGData linking now (see its docstring). Pure, no
-    Django dependency, every displayed time is either a match's own real
-    scheduled/actual start (never rewritten, even if that means two
-    consecutive entries end up implying an overrun) or an exact boundary
-    already known from a neighboring real entry; only the very first filler
-    segment's start is rounded (see `_round_down_to_quarter_hour`), since
-    `now` is the one boundary that's inherently an arbitrary instant. Each
-    real match entry also carries its `description` (competition/stage
-    context, e.g. "LCS: Playoffs" from the scraper's riot_api.py) straight
-    through into the XMLTV `<desc>` element (see `_build_guide_xmltv`).
-    Filler entries have none, there's no match to describe.
+    """Converts `allocator.project_schedule`'s per-slot chronological
+    `(claimed_at, match)` lists into XMLTV-ready guide entries covering
+    `[now, projection_end)` with zero gaps: before the first known match,
+    between two consecutive ones, and after the last one, an explicit
+    "No Match Scheduled" placeholder fills the space. Otherwise Dispatcharr's
+    guide grid would show its own "No program data" gap or auto-generated
+    filler instead. This is the sole source of guide *content*;
+    `apply_assignment` only handles ChannelStream/EPGData linking now (see
+    its docstring).
+
+    A real entry's displayed start is `claimed_at`, not the match's own
+    `start` -- confirmed as a real bug, 2026-07-30: a match that has to wait
+    for a slot to free up (because a higher- or equal-ranked match already
+    held it) still has its own independent real start time, but that's not
+    when *this channel* actually started showing it. Displaying the match's
+    own `start` regardless produced a real, visible overlap with whatever
+    the slot was still showing at that point. `claimed_at` is never earlier
+    than the match's own `start` (see project_schedule's docstring), so this
+    never contradicts the "never rewrite scheduled times" principle for the
+    normal, uncontested case -- it only matters when a match had to wait,
+    and in that case showing the wait is the honest thing to do. The
+    displayed *end*, however, still comes from the match's own `start` (not
+    `claimed_at`) plus the fixed estimate -- joining a broadcast late
+    doesn't make it run any longer, just show less of what's left of it.
+    Pure, no Django dependency. Only the very first filler segment's start
+    is rounded (see `_round_down_to_quarter_hour`), since `now` is the one
+    boundary that's inherently an arbitrary instant; every other boundary is
+    already an exact real timestamp. Each real match entry also carries its
+    `description` (competition/stage context, e.g. "LCS: Playoffs" from the
+    scraper's riot_api.py) straight through into the XMLTV `<desc>` element
+    (see `_build_guide_xmltv`). Filler entries have none, there's no match
+    to describe.
     """
     entries: list[dict[str, Any]] = []
     for slot_index, projected in enumerate(projected_by_slot):
@@ -390,9 +404,9 @@ def build_guide_entries(
         name = _generic_channel_name(game, slot_index)
         cursor = _round_down_to_quarter_hour(now)
 
-        for match in projected:
-            start = datetime.fromisoformat(match["start"])
-            end = start + PROGRAMME_DURATION
+        for claimed_at, match in projected:
+            start = claimed_at
+            end = datetime.fromisoformat(match["start"]) + PROGRAMME_DURATION
             if start > cursor:
                 entries.append(
                     {

@@ -5,9 +5,15 @@ would actually be caught."""
 
 from __future__ import annotations
 
-from datetime import timedelta
+from datetime import datetime, timedelta
 
 from esportsarr.allocator import assign_slots, project_schedule
+
+
+def _at(match: dict) -> datetime:
+    """The expected `claimed_at` for a match that wins its slot with no
+    contention, i.e. exactly its own real start."""
+    return datetime.fromisoformat(match["start"])
 
 VALORANT_PRIORITY = ["VCT Americas", "VCT EMEA", "VCT Pacific"]
 
@@ -390,7 +396,7 @@ def test_project_schedule_returns_a_single_future_match_covering_its_own_slot():
 
     projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS)
 
-    assert projected == [[americas]]
+    assert projected == [[(_at(americas), americas)]]
 
 
 def test_project_schedule_orders_back_to_back_matches_on_one_slot_chronologically():
@@ -406,7 +412,7 @@ def test_project_schedule_orders_back_to_back_matches_on_one_slot_chronologicall
         duration=THREE_HOURS,
     )
 
-    assert projected == [[first, second]]
+    assert projected == [[(_at(first), first), (_at(second), second)]]
 
 
 def test_project_schedule_drops_the_losing_match_entirely_when_two_leagues_start_at_the_same_time_with_only_one_slot():
@@ -420,7 +426,7 @@ def test_project_schedule_drops_the_losing_match_entirely_when_two_leagues_start
         matches=[americas, pacific], slots=1, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS
     )
 
-    assert projected == [[americas]]
+    assert projected == [[(_at(americas), americas)]]
 
 
 def test_project_schedule_keeps_a_seeded_live_match_until_it_ends_even_if_a_higher_priority_match_starts_meanwhile():
@@ -442,7 +448,10 @@ def test_project_schedule_keeps_a_seeded_live_match_until_it_ends_even_if_a_high
         initial_assignment=[live_emea],
     )
 
-    assert projected == [[live_emea, champions]]
+    # Champions is only actually claimed once EMEA's own interval ends
+    # (17:00), an hour after Champions' own real start (15:00) -- it had to
+    # wait, since EMEA was sticky-occupying the only slot until then.
+    assert projected == [[(_at(live_emea), live_emea), (datetime.fromisoformat("2026-07-27T17:00:00+00:00"), champions)]]
 
 
 def test_project_schedule_defaults_initial_assignment_to_empty_when_not_provided():
@@ -450,7 +459,68 @@ def test_project_schedule_defaults_initial_assignment_to_empty_when_not_provided
 
     projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS)
 
-    assert projected == [[americas]]
+    assert projected == [[(_at(americas), americas)]]
+
+
+def test_project_schedule_claims_a_contended_match_only_once_its_slot_actually_frees_up():
+    # Regression test for a real bug (2026-07-30), reconstructed from the
+    # exact match data that triggered it: 3 matches share one Twitch channel
+    # (valorant_emea) at both 15:00 and 18:00 -- VCT EMEA and Game Changers
+    # EMEA air on the same regional channel -- so with only 2 slots, one
+    # loses the contest each time but stays live until its own 3h estimate
+    # ends. A 4th match (Shopify, a different channel entirely) starts at
+    # 19:00, while both slots are still showing 18:00-started EMEA matches
+    # until 21:00. It must not be displayed as claiming a slot at its own
+    # 19:00 start -- that slot is still genuinely showing something else
+    # until 21:00. The bug: displaying it at 19:00 anyway made it look like
+    # it was overlapping whatever was still on-air.
+    giantx_vs_liquid = _match("VCT EMEA", "2026-07-27T15:00:00+00:00", "GIANTX vs Team Liquid", "valorant_emea")
+    gentle_mates_vs_vitality = _match("VCT EMEA", "2026-07-27T18:00:00+00:00", "Gentle Mates vs Team Vitality", "valorant_emea")
+    sk_nebula_vs_g2_gozen = _match("Game Changers EMEA", "2026-07-27T15:00:00+00:00", "SK Nebula vs G2 Gozen", "valorant_emea")
+    fokus_vs_gentle_mates = _match(
+        "Game Changers EMEA", "2026-07-27T15:00:00+00:00", "FOKUS Sakura vs Gentle Mates", "valorant_emea"
+    )
+    habos_babos_vs_giantx = _match("Game Changers EMEA", "2026-07-27T18:00:00+00:00", "Habos Babos vs GIANTX", "valorant_emea")
+    alternate_vs_barca = _match(
+        "Game Changers EMEA", "2026-07-27T18:00:00+00:00", "ALTERNATE aTTaX Ruby vs Barca eSports", "valorant_emea"
+    )
+    # Unranked league (not in `priority` below), matching the real case --
+    # sorts last on priority, but that's irrelevant once it's the only
+    # candidate left for the only slot still open.
+    shopify_vs_2game = _match(
+        "Last Chance Qualifier Americas", "2026-07-27T19:00:00+00:00", "Shopify Rebellion Black vs 2GAME", "VALORANT_NorthAmerica"
+    )
+
+    priority = ["VCT EMEA", "Game Changers EMEA"]
+    projected = project_schedule(
+        matches=[
+            giantx_vs_liquid,
+            gentle_mates_vs_vitality,
+            sk_nebula_vs_g2_gozen,
+            fokus_vs_gentle_mates,
+            habos_babos_vs_giantx,
+            alternate_vs_barca,
+            shopify_vs_2game,
+        ],
+        slots=2,
+        league_priority=priority,
+        duration=THREE_HOURS,
+    )
+
+    all_claims = [claim for slot in projected for claim in slot]
+    shopify_claims = [claimed_at for claimed_at, match in all_claims if match is shopify_vs_2game]
+    # Claimed exactly once, only once a slot genuinely frees up at 21:00 --
+    # never at its own 19:00 start, while both slots are still showing
+    # 18:00-started matches that don't end until 21:00.
+    assert shopify_claims == [datetime.fromisoformat("2026-07-27T21:00:00+00:00")]
+
+    # And no slot's entries ever overlap in time -- the actual guarantee
+    # this bug broke. A slot's Nth entry must claim no earlier than the
+    # (N-1)th entry's own real end.
+    for slot in projected:
+        for (_prev_claimed_at, prev_match), (claimed_at, _next_match) in zip(slot, slot[1:]):
+            prev_end = datetime.fromisoformat(prev_match["start"]) + THREE_HOURS
+            assert claimed_at >= prev_end
 
 
 def test_project_schedule_on_no_matches_returns_empty_lists_per_slot():

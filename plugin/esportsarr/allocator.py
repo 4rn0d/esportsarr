@@ -213,13 +213,19 @@ def project_schedule(
     league_priority: list[str],
     duration: timedelta,
     initial_assignment: list[MatchDict | None] | None = None,
-) -> list[list[MatchDict]]:
+) -> list[list[tuple[datetime, MatchDict]]]:
     """Deterministically projects assign_slots's priority and same-channel-
     continuity rules forward across a known future schedule. Returns, per
-    slot, the chronological list of matches it will show. Two matches whose
-    intervals overlap and both want the same slot are resolved exactly like
-    a real sync tick would (priority wins, the loser is simply omitted for
-    that window entirely, never queued or interleaved).
+    slot, the chronological list of `(claimed_at, match)` pairs it will show.
+    Two matches whose intervals overlap and both want the same slot are
+    resolved exactly like a real sync tick would (priority wins, the loser
+    is simply omitted for that window entirely, never queued or interleaved)
+    -- but "omitted" doesn't mean "gone forever": a match that lost a
+    contested slot is still "live" for the rest of its own interval, and can
+    still claim a *different* slot once one frees up, at whatever point that
+    actually happens. `claimed_at` is that real point, which can be later
+    than the match's own `start` -- see the caller-facing note below on why
+    that matters.
 
     Each match's interval is `[start, start + duration)`. Works by replaying
     assign_slots() at every point where some match starts or ends, nothing
@@ -241,6 +247,18 @@ def project_schedule(
     end time" limitation this codebase already accepts everywhere else, and
     it self-corrects on the very next sync tick once matches update, since
     the guide is fully rebuilt every tick from the latest known state.
+
+    Why `claimed_at` exists (confirmed as a real bug, 2026-07-30, against a
+    real 3-way conflict on one Twitch channel): a match that loses a
+    contested slot doesn't vanish -- it's still live and can win a
+    *different* slot once one frees up, possibly well after its own `start`.
+    If the caller displayed that match at its own `start` regardless, it
+    would show as still occupying a slot the *previous* match hasn't
+    actually finished yet by our own duration estimate -- a real, visible
+    overlap in the guide. A match's `claimed_at` is never earlier than its
+    own `start` (it can only be picked up once it's actually live), so using
+    it as the displayed start instead is always safe and always at least as
+    accurate.
     """
     intervals = [
         (datetime.fromisoformat(m["start"]), datetime.fromisoformat(m["start"]) + duration, m) for m in matches
@@ -248,7 +266,7 @@ def project_schedule(
     event_points = sorted({start for start, _end, _m in intervals} | {end for _start, end, _m in intervals})
 
     running_assignment: list[MatchDict | None] = list(initial_assignment or [None] * slots)
-    per_slot_history: list[list[MatchDict | None]] = [[] for _ in range(slots)]
+    per_slot_history: list[list[tuple[datetime, MatchDict | None]]] = [[] for _ in range(slots)]
 
     for point in event_points:
         live_now = [m for start, end, m in intervals if start <= point < end]
@@ -259,20 +277,21 @@ def project_schedule(
             previous_assignment=running_assignment,
         )
         for slot_index, match in enumerate(running_assignment):
-            per_slot_history[slot_index].append(match)
+            per_slot_history[slot_index].append((point, match))
 
     # A match occupying a slot across several consecutive event points (other
     # slots changing around it doesn't affect it, per the sticky rule) must
-    # appear once in the result, not fragmented into repeated entries.
-    projected: list[list[MatchDict]] = []
+    # appear once in the result, not fragmented into repeated entries -- kept
+    # at the point it *first* claimed the slot, not every point it held it.
+    projected: list[list[tuple[datetime, MatchDict]]] = []
     for history in per_slot_history:
-        chronological: list[MatchDict] = []
+        chronological: list[tuple[datetime, MatchDict]] = []
         last_key: object = object()
-        for match in history:
+        for point, match in history:
             key = _match_key(match) if match is not None else None
             if key != last_key:
                 if match is not None:
-                    chronological.append(match)
+                    chronological.append((point, match))
                 last_key = key
         projected.append(chronological)
     return projected

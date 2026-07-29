@@ -131,9 +131,15 @@ NOW = datetime(2026, 7, 28, 15, 53, tzinfo=timezone.utc)  # deliberately not on 
 PROJECTION_END = NOW + timedelta(days=7)
 
 
+def _claim(match: dict, at: datetime | None = None) -> tuple[datetime, dict]:
+    """A match claimed with no contention, i.e. at its own real start,
+    unless `at` says otherwise (a match that had to wait for its slot)."""
+    return (at or datetime.fromisoformat(match["start"]), match)
+
+
 def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():
     match = _future_match("Sentinels vs 100T", NOW + timedelta(hours=2))
-    entries = build_guide_entries("valorant", [[match]], NOW, PROJECTION_END)
+    entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
     assert len(entries) == 3
     leading, real, trailing = entries
@@ -154,16 +160,32 @@ def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():
 def test_build_guide_entries_has_no_leading_filler_for_an_already_live_match():
     # Match started in the past (relative to `now`). Nothing to fill before it.
     match = _future_match("Sentinels vs 100T", NOW - timedelta(hours=1))
-    entries = build_guide_entries("valorant", [[match]], NOW, PROJECTION_END)
+    entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
     assert entries[0]["title"] == "Sentinels vs 100T"
     assert entries[0]["start"] == datetime.fromisoformat(match["start"])
 
 
+def test_build_guide_entries_displays_a_contended_match_at_its_actual_claim_time_not_its_own_start():
+    # A match that had to wait for its slot to free up (allocator.py's
+    # `claimed_at`) must be displayed starting when it actually took over
+    # the slot, not its own independent real start -- otherwise it looks
+    # like it overlaps whatever the slot was still showing.
+    match = _future_match("Shopify Rebellion Black vs 2GAME", NOW + timedelta(hours=1))
+    claimed_at = NOW + timedelta(hours=3)  # had to wait 2 extra hours for the slot
+    entries = build_guide_entries("valorant", [[_claim(match, at=claimed_at)]], NOW, PROJECTION_END)
+
+    real = entries[1]
+    assert real["start"] == claimed_at
+    # End still comes from the match's own real start + estimate, not
+    # claimed_at -- joining late doesn't make the broadcast run any longer.
+    assert real["end"] == datetime.fromisoformat(match["start"]) + PROGRAMME_DURATION
+
+
 def test_build_guide_entries_fills_the_gap_between_two_consecutive_matches():
     first = _future_match("Sentinels vs 100T", NOW + timedelta(hours=1))
     second = _future_match("LOUD vs NRG", NOW + timedelta(hours=6))  # starts well after `first` ends
-    entries = build_guide_entries("valorant", [[first, second]], NOW, PROJECTION_END)
+    entries = build_guide_entries("valorant", [[_claim(first), _claim(second)]], NOW, PROJECTION_END)
 
     titles = [e["title"] for e in entries]
     assert titles == [
@@ -180,7 +202,7 @@ def test_build_guide_entries_fills_the_gap_between_two_consecutive_matches():
 
 def test_build_guide_entries_carries_the_match_description_through_but_not_the_filler():
     match = _future_match("Sentinels vs 100T", NOW + timedelta(hours=1), description="VCT Americas: Week 3")
-    entries = build_guide_entries("valorant", [[match]], NOW, PROJECTION_END)
+    entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
     leading_filler, real, trailing_filler = entries
     assert real["description"] == "VCT Americas: Week 3"
