@@ -1214,6 +1214,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260828210000 +0000" stop="20260828234500 +0000" channel="twitch.valorant_americas">
+    <title lang="en">VCT Americas</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260803210000 +0000" stop="20260803234500 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">FlyQuest RED vs SwimTrek Blue · Swiss · Bo3</desc>
