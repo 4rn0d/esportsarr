@@ -23,6 +23,7 @@ def _match(start: datetime) -> MatchEvent:
         stream_platform=StreamPlatform.TWITCH,
         stream_channel="lcs",
         description="LCS",
+        has_real_content=True,
     )
 
 

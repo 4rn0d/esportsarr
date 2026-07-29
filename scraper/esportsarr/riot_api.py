@@ -96,8 +96,9 @@ def _stream_identity_for_league(league: League) -> tuple[StreamPlatform | None, 
 
 def _normalize_event(event: dict, league: League) -> MatchEvent:
     start = datetime.fromisoformat(event["startTime"].replace("Z", "+00:00")).astimezone(timezone.utc)
+    has_real_content = _has_real_content(event)
     stream_platform, stream_channel = _stream_identity_for_league(league)
-    if not _has_real_content(event):
+    if not has_real_content:
         # No team names and no stage name -- just the bare league name, not
         # worth blocking a slot from a real match over.
         stream_platform, stream_channel = None, None
@@ -109,6 +110,7 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
         stream_platform=stream_platform,
         stream_channel=stream_channel,
         description=_match_description(event, league),
+        has_real_content=has_real_content,
     )
 
 

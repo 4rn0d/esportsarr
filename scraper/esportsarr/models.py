@@ -52,3 +52,4 @@ class MatchEvent:
     stream_platform: StreamPlatform | None  # None if the league has no known streamable source
     stream_channel: str | None
     description: str  # e.g. "LCS: Playoffs"
+    has_real_content: bool  # False if Riot gave neither team names nor a stage name

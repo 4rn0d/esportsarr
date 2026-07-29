@@ -20,6 +20,7 @@ MATCH = MatchEvent(
     stream_platform=StreamPlatform.TWITCH,
     stream_channel="lcs",
     description="LCS: Playoffs",
+    has_real_content=True,
 )
 
 
@@ -48,6 +49,7 @@ def test_build_schedule_json_serializes_no_stream_platform_as_null():
         stream_platform=None,
         stream_channel=None,
         description="LCS: Playoffs",
+        has_real_content=True,
     )
 
     [match_dict] = json.loads(build_schedule_json([unstreamable]))["matches"]

@@ -10,7 +10,14 @@ LCS = League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs")
 LEC = League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec")
 
 
-def _match(league: League, state: MatchState, title: str, hour: int = 20, description: str = "LCS: Playoffs") -> MatchEvent:
+def _match(
+    league: League,
+    state: MatchState,
+    title: str,
+    hour: int = 20,
+    description: str = "LCS: Playoffs",
+    has_real_content: bool = True,
+) -> MatchEvent:
     return MatchEvent(
         league=league,
         start=datetime(2026, 7, 27, hour, 0, tzinfo=timezone.utc),
@@ -19,6 +26,7 @@ def _match(league: League, state: MatchState, title: str, hour: int = 20, descri
         stream_platform=StreamPlatform.TWITCH,
         stream_channel="lcs",
         description=description,
+        has_real_content=has_real_content,
     )
 
 
@@ -58,6 +66,16 @@ def test_build_xmltv_escapes_special_characters_in_titles():
     # produce invalid XML here and ElementTree.fromstring would blow up.
     root = ElementTree.fromstring(xml_text)
     assert root.find("programme/title").text == "Team <A> & \"B\"'s Squad"
+
+
+def test_build_xmltv_excludes_matches_with_no_real_content():
+    matches = [_match(LCS, MatchState.UNSTARTED, "LCS", has_real_content=False)]
+
+    xml_text = build_xmltv(matches)
+    root = ElementTree.fromstring(xml_text)
+
+    assert root.findall("programme") == []
+    assert root.findall("channel") == []
 
 
 def test_build_xmltv_includes_description_with_competition_and_stage():
