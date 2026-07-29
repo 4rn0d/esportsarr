@@ -60,6 +60,11 @@ def get_schedule(host: RiotHost, league_id: str, api_key: str = RIOT_ESPORTS_PUB
     return payload["data"]["schedule"]["events"]
 
 
+def _has_real_content(event: dict) -> bool:
+    teams = (event.get("match") or {}).get("teams") or []
+    return len(teams) == 2 or bool(event.get("blockName"))
+
+
 def _match_title(event: dict, league: League) -> str:
     teams = (event.get("match") or {}).get("teams") or []
     team_names = [team.get("name", "TBD") for team in teams]
@@ -92,6 +97,10 @@ def _stream_identity_for_league(league: League) -> tuple[StreamPlatform | None, 
 def _normalize_event(event: dict, league: League) -> MatchEvent:
     start = datetime.fromisoformat(event["startTime"].replace("Z", "+00:00")).astimezone(timezone.utc)
     stream_platform, stream_channel = _stream_identity_for_league(league)
+    if not _has_real_content(event):
+        # No team names and no stage name -- just the bare league name, not
+        # worth blocking a slot from a real match over.
+        stream_platform, stream_channel = None, None
     return MatchEvent(
         league=league,
         start=start,

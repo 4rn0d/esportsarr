@@ -306,8 +306,8 @@ def _build_guide_xmltv(entries: list[dict[str, Any]]) -> str:
         if description:
             desc_el = ElementTree.SubElement(programme_el, "desc", attrib={"lang": GUIDE_LANG})
             desc_el.text = description
-        category_el = ElementTree.SubElement(programme_el, "category", attrib={"lang": GUIDE_LANG})
-        category_el.text = GUIDE_CATEGORY
+            category_el = ElementTree.SubElement(programme_el, "category", attrib={"lang": GUIDE_LANG})
+            category_el.text = GUIDE_CATEGORY
 
     ElementTree.indent(tv, space="  ")
     xml_body = ElementTree.tostring(tv, encoding="unicode", xml_declaration=False)

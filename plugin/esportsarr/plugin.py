@@ -43,6 +43,7 @@ DEFAULT_SETTINGS = {
     "league_priority_valorant": (
         "Champions,VALORANT Masters,Game Changers Championship,"
         "VCT Americas,VCT EMEA,VCT Pacific,"
+        "Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,"
         "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
     ),
     # Twitch broadcasts typically go live ~1h before the official match time.

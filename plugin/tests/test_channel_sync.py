@@ -80,14 +80,16 @@ def test_build_guide_xmltv_on_empty_entries_produces_a_valid_empty_guide():
     assert root.findall("programme") == []
 
 
-def test_build_guide_xmltv_includes_category_on_every_programme():
-    entries = [_entry("esportsarr.lol.1", "LoL 1", "T1 vs Gen.G"), _entry("esportsarr.lol.1", "LoL 1", "No Match Scheduled")]
+def test_build_guide_xmltv_includes_category_only_for_real_matches_not_filler():
+    real = _entry("esportsarr.lol.1", "LoL 1", "T1 vs Gen.G", description="LCS: Playoffs")
+    filler = _entry("esportsarr.lol.1", "LoL 1", "No Match Scheduled")  # no description
 
-    xml_text = _build_guide_xmltv(entries)
+    xml_text = _build_guide_xmltv([real, filler])
     root = ElementTree.fromstring(xml_text)
 
-    categories = [p.find("category").text for p in root.findall("programme")]
-    assert categories == [GUIDE_CATEGORY, GUIDE_CATEGORY]
+    programmes = root.findall("programme")
+    assert programmes[0].find("category").text == GUIDE_CATEGORY
+    assert programmes[1].find("category") is None
 
 
 def test_build_guide_xmltv_tags_title_desc_and_category_with_lang():

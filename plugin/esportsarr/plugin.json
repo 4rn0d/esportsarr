@@ -48,7 +48,7 @@
       "id": "league_priority_valorant",
       "label": "Valorant league priority (comma-separated, highest first, INTL will always come first)",
       "type": "string",
-      "default": "Champions,VALORANT Masters,Game Changers Championship,VCT Americas,VCT EMEA,VCT Pacific,Game Changers NA,Game Changers EMEA,Game Changers Pacific",
+      "default": "Champions,VALORANT Masters,Game Changers Championship,VCT Americas,VCT EMEA,VCT Pacific,Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,Game Changers NA,Game Changers EMEA,Game Changers Pacific",
       "help_text": "Same as the LoL priority setting, for Valorant leagues. Must exactly match Riot's league name (run 'python -m esportsarr.list_leagues --game valorant' in the scraper repo), e.g. 'Game Changers NA', not 'Game Changers Americas'."
     },
     {

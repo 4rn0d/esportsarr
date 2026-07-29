@@ -13,6 +13,7 @@ from esportsarr.models import Game, League, MatchState, StreamPlatform
 from esportsarr.riot_api import (
     LOL_HOST,
     VALORANT_HOST,
+    _has_real_content,
     _match_description,
     _stream_identity_for_league,
     fetch_matches_for_leagues,
@@ -43,6 +44,18 @@ def test_stream_identity_for_league_strips_the_youtube_prefix():
 def test_stream_identity_for_league_returns_none_none_for_an_unrecognized_source():
     league = League(display_name="Made Up League", game=Game.LOL, epg_channel_id="dailymotion.whatever")
     assert _stream_identity_for_league(league) == (None, None)
+
+
+def test_has_real_content_is_true_for_a_two_team_match():
+    assert _has_real_content({"match": {"teams": [{"name": "T1"}, {"name": "Gen.G"}]}}) is True
+
+
+def test_has_real_content_is_true_for_a_block_name_with_no_teams():
+    assert _has_real_content({"blockName": "Playoffs"}) is True
+
+
+def test_has_real_content_is_false_with_neither_teams_nor_block_name():
+    assert _has_real_content({}) is False
 
 
 def test_match_description_combines_league_and_block_name():
@@ -87,9 +100,29 @@ def test_fetch_matches_normalizes_two_team_match():
     assert match.stream_platform == StreamPlatform.TWITCH
     assert match.stream_channel == "lcs"
     assert match.start.year == 2026 and match.start.hour == 20
-    # Title uses "vs" since it's a real 2-team match, but the description
-    # still surfaces the competition/stage context separately either way.
     assert match.description == "LCS: Playoffs"
+
+
+@responses.activate
+def test_fetch_matches_marks_a_contentless_event_unstreamable_even_on_a_streamable_league():
+    responses.add(
+        responses.GET,
+        f"{LOL_HOST.base_url}/getLeagues",
+        json=_leagues_payload([{"id": "111", "name": "LCS", "slug": "lcs"}]),
+        status=200,
+    )
+    responses.add(
+        responses.GET,
+        f"{LOL_HOST.base_url}/getSchedule",
+        json=_schedule_payload([{"startTime": "2026-07-27T20:00:00Z", "state": "unstarted"}]),
+        status=200,
+    )
+
+    [match] = fetch_matches_for_leagues([LCS], api_key="test-key")
+
+    assert match.title == "LCS"
+    assert match.stream_platform is None
+    assert match.stream_channel is None
 
 
 @responses.activate
