@@ -24,6 +24,7 @@ def _match(start: datetime) -> MatchEvent:
         stream_channel="lcs",
         description="LCS",
         has_real_content=True,
+        best_of=None,
     )
 
 

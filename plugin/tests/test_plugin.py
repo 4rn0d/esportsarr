@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
 
+from esportsarr.channel_sync import GUIDE_LOOKBACK_HOURS
 from esportsarr.plugin import (
     RESERVATION_GRACE_MINUTES,
     STALE_LIVE_GRACE_MINUTES,
@@ -20,6 +21,7 @@ GRACE = timedelta(minutes=RESERVATION_GRACE_MINUTES)
 STALE_LIVE_GRACE = timedelta(minutes=STALE_LIVE_GRACE_MINUTES)
 WIDE_LOOKAHEAD = timedelta(minutes=180)
 NARROW_LOOKAHEAD = timedelta(minutes=120)
+HISTORY_WINDOW = timedelta(hours=GUIDE_LOOKBACK_HOURS)
 
 
 def _match(league: str, game: str, start: str, state: str, title: str, stream_channel: str) -> dict:
@@ -36,7 +38,9 @@ def _match(league: str, game: str, start: str, state: str, title: str, stream_ch
 
 
 def _classify(matches: list[dict], now: datetime):
-    return _classify_matches(matches, now, WIDE_LOOKAHEAD, NARROW_LOOKAHEAD, GRACE, STALE_LIVE_GRACE, now + timedelta(days=7))
+    return _classify_matches(
+        matches, now, WIDE_LOOKAHEAD, NARROW_LOOKAHEAD, GRACE, STALE_LIVE_GRACE, now + timedelta(days=7), HISTORY_WINDOW
+    )
 
 
 def test_in_progress_match_is_classified_live():
@@ -82,7 +86,7 @@ def test_unstarted_match_stuck_past_the_stale_live_grace_window_is_dropped_entir
     near/far reservation buckets (both share the same grace lower bound)."""
     now = datetime(2026, 7, 29, 15, 37, tzinfo=timezone.utc)
     stale = _match(
-        "Game Changers EMEA", "valorant", "2026-07-29T10:00:00+00:00", "unstarted", "Stale Match A vs Stale Match B", "valorant_emea"
+        "Game Changers EMEA", "valorant", "2026-07-28T20:00:00+00:00", "unstarted", "Stale Match A vs Stale Match B", "valorant_emea"
     )
 
     live, upcoming, far_upcoming, projectable = _classify([stale], now)
@@ -124,6 +128,35 @@ def test_unstarted_match_beyond_narrow_but_within_wide_lookahead_is_a_far_candid
     assert "valorant" not in upcoming
     assert far_upcoming["valorant"] == [playoffs]
     assert projectable["valorant"] == [playoffs]
+
+
+def test_completed_match_within_the_history_window_is_projectable_but_never_live_or_upcoming():
+    # Regression test for a real bug (2026-07-29): completed matches were
+    # never fed to the guide projection at all, so once a match ended, the
+    # slot it occupied had zero historical record -- the guide couldn't
+    # reconstruct what had actually aired there, only that nothing is live
+    # there now.
+    now = datetime(2026, 7, 29, 15, 0, tzinfo=timezone.utc)
+    rich_gang = _match("NLC", "lol", "2026-07-29T09:00:00+00:00", "completed", "Rich Gang vs Lund Esports Organization", "nlc")
+
+    live, upcoming, far_upcoming, projectable = _classify([rich_gang], now)
+
+    assert "lol" not in live
+    assert "lol" not in upcoming
+    assert "lol" not in far_upcoming
+    assert projectable["lol"] == [rich_gang]
+
+
+def test_completed_match_older_than_the_history_window_is_dropped_entirely():
+    now = datetime(2026, 7, 29, 15, 0, tzinfo=timezone.utc)
+    stale = _match("NLC", "lol", "2026-07-28T20:00:00+00:00", "completed", "Old Match A vs Old Match B", "nlc")
+
+    live, upcoming, far_upcoming, projectable = _classify([stale], now)
+
+    assert "lol" not in live
+    assert "lol" not in upcoming
+    assert "lol" not in far_upcoming
+    assert "lol" not in projectable
 
 
 def test_match_missing_stream_channel_is_excluded_entirely():

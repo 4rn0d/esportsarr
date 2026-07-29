@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timezone
 
 from esportsarr.models import Game, League, MatchEvent, MatchState, StreamPlatform
-from esportsarr.xmltv import CATEGORY, DEFAULT_MATCH_DURATION, XMLTV_LANG, build_xmltv
+from esportsarr.xmltv import BEST_OF_DURATIONS, CATEGORY, DEFAULT_MATCH_DURATION, XMLTV_LANG, build_xmltv
 
 LCS = League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs")
 LEC = League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec")
@@ -17,6 +17,7 @@ def _match(
     hour: int = 20,
     description: str = "LCS: Playoffs",
     has_real_content: bool = True,
+    best_of: int | None = None,
 ) -> MatchEvent:
     return MatchEvent(
         league=league,
@@ -27,6 +28,7 @@ def _match(
         stream_channel="lcs",
         description=description,
         has_real_content=has_real_content,
+        best_of=best_of,
     )
 
 
@@ -105,8 +107,8 @@ def test_build_xmltv_tags_title_desc_and_category_with_lang():
     assert programme.find("category").get("lang") == XMLTV_LANG
 
 
-def test_build_xmltv_stop_time_is_start_plus_default_duration():
-    match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9")
+def test_build_xmltv_stop_time_is_start_plus_default_duration_when_format_is_unknown():
+    match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9", best_of=None)
     xml_text = build_xmltv([match])
     root = ElementTree.fromstring(xml_text)
 
@@ -114,3 +116,15 @@ def test_build_xmltv_stop_time_is_start_plus_default_duration():
     start = datetime.strptime(programme.get("start"), "%Y%m%d%H%M%S %z")
     stop = datetime.strptime(programme.get("stop"), "%Y%m%d%H%M%S %z")
     assert stop - start == DEFAULT_MATCH_DURATION
+
+
+def test_build_xmltv_stop_time_uses_the_duration_for_the_match_format():
+    for best_of, expected_duration in BEST_OF_DURATIONS.items():
+        match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9", best_of=best_of)
+        xml_text = build_xmltv([match])
+        root = ElementTree.fromstring(xml_text)
+
+        programme = root.find("programme")
+        start = datetime.strptime(programme.get("start"), "%Y%m%d%H%M%S %z")
+        stop = datetime.strptime(programme.get("stop"), "%Y%m%d%H%M%S %z")
+        assert stop - start == expected_duration

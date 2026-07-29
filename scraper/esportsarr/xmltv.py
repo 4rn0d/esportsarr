@@ -15,11 +15,27 @@ from .models import MatchEvent, MatchState
 
 DEFAULT_MATCH_DURATION = timedelta(hours=3)
 
+# Riot gives no match end time. A broadcast block runs roughly this long
+# depending on format, including pre/post-show; unrecognized/missing formats
+# (e.g. no "strategy" reported) fall back to DEFAULT_MATCH_DURATION. Bo7
+# isn't used by any league we track yet (Rocket League, planned) -- this
+# estimate is an unvalidated placeholder until then.
+BEST_OF_DURATIONS = {
+    1: timedelta(hours=1),
+    3: timedelta(hours=2, minutes=45),
+    5: timedelta(hours=5, minutes=30),
+    7: timedelta(hours=7, minutes=30),
+}
+
 XMLTV_TIME_FORMAT = "%Y%m%d%H%M%S %z"
 XMLTV_LANG = "en"
 CATEGORY = "Esports"
 
 GUIDE_STATES = (MatchState.UNSTARTED, MatchState.IN_PROGRESS)
+
+
+def _duration_for_match(match: MatchEvent) -> timedelta:
+    return BEST_OF_DURATIONS.get(match.best_of, DEFAULT_MATCH_DURATION)
 
 
 def build_xmltv(matches: list[MatchEvent]) -> str:
@@ -38,7 +54,7 @@ def build_xmltv(matches: list[MatchEvent]) -> str:
         display_name_el.text = match.league.display_name
 
     for match in guide_matches:
-        stop = match.start + DEFAULT_MATCH_DURATION
+        stop = match.start + _duration_for_match(match)
         programme_el = ElementTree.SubElement(
             tv,
             "programme",

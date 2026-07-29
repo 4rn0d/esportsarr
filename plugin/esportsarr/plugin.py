@@ -87,7 +87,7 @@ RESERVATION_GRACE_MINUTES = 30
 # events have been observed staying "unstarted" well past their real start
 # while actually airing). An "unstarted" match already past its start is
 # treated as live until this long after start, rather than trusting the flag.
-STALE_LIVE_GRACE_MINUTES = 240
+STALE_LIVE_GRACE_MINUTES = 720
 
 _last_assignment: dict[str, list[dict | None]] = {}  # in-memory, reset on process restart
 
@@ -171,6 +171,7 @@ def _classify_matches(
     grace: timedelta,
     stale_live_grace: timedelta,
     projection_end: datetime,
+    history_window: timedelta,
 ) -> tuple[dict[str, list[dict]], dict[str, list[dict]], dict[str, list[dict]], dict[str, list[dict]]]:
     """Buckets matches into live/near-upcoming/far-upcoming/projectable per game."""
     live_by_game: dict[str, list[dict]] = {}
@@ -195,6 +196,14 @@ def _classify_matches(
                 far_upcoming_by_game.setdefault(match["game"], []).append(match)
             if now - grace <= start < projection_end:
                 projectable_by_game.setdefault(match["game"], []).append(match)
+        elif state == "completed":
+            # Otherwise the guide has zero record of what actually aired in a
+            # slot once its match ends, so the historical portion of the
+            # guide degrades to a giant "No Match Scheduled" the moment
+            # nothing's currently live there -- confirmed as a real bug,
+            # 2026-07-29 -- even though real matches did air there.
+            if now - history_window <= start < projection_end:
+                projectable_by_game.setdefault(match["game"], []).append(match)
 
     return live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game
 
@@ -212,9 +221,13 @@ def _run_sync(settings: dict) -> dict:
         grace = timedelta(minutes=RESERVATION_GRACE_MINUTES)
         stale_live_grace = timedelta(minutes=STALE_LIVE_GRACE_MINUTES)
         projection_end = now + timedelta(days=int(settings["schedule_projection_days"]))
+        # Same window the guide itself renders before "now" (channel_sync.py)
+        # -- no point knowing about completed matches further back than the
+        # guide would ever display them.
+        history_window = timedelta(hours=channel_sync.GUIDE_LOOKBACK_HOURS)
 
         live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game = _classify_matches(
-            matches, now, wide_lookahead, narrow_lookahead, grace, stale_live_grace, projection_end
+            matches, now, wide_lookahead, narrow_lookahead, grace, stale_live_grace, projection_end, history_window
         )
 
         results: dict[str, list[str | None] | str] = {}
@@ -244,7 +257,7 @@ def _run_sync(settings: dict) -> dict:
                     matches=projectable_by_game.get(game, []),
                     slots=slots,
                     league_priority=priority,
-                    duration=channel_sync.PROGRAMME_DURATION,
+                    duration_fn=channel_sync.duration_for_match,
                     initial_assignment=assignment,
                     narrow_lookahead=narrow_lookahead,
                     wide_lookahead=wide_lookahead,

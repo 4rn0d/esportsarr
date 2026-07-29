@@ -19,8 +19,9 @@ MATCH = MatchEvent(
     title="Sentinels vs Cloud9",
     stream_platform=StreamPlatform.TWITCH,
     stream_channel="lcs",
-    description="LCS: Playoffs",
+    description="LCS: Playoffs · Bo3",
     has_real_content=True,
+    best_of=3,
 )
 
 
@@ -36,7 +37,8 @@ def test_build_schedule_json_includes_every_field_the_plugin_reads():
         "title": "Sentinels vs Cloud9",
         "stream_platform": "twitch",
         "stream_channel": "lcs",
-        "description": "LCS: Playoffs",
+        "description": "LCS: Playoffs · Bo3",
+        "best_of": 3,
     }
 
 
@@ -50,6 +52,7 @@ def test_build_schedule_json_serializes_no_stream_platform_as_null():
         stream_channel=None,
         description="LCS: Playoffs",
         has_real_content=True,
+        best_of=None,
     )
 
     [match_dict] = json.loads(build_schedule_json([unstreamable]))["matches"]

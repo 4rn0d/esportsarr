@@ -22,6 +22,7 @@ def _match_to_dict(match: MatchEvent) -> dict:
         "stream_platform": match.stream_platform.value if match.stream_platform else None,
         "stream_channel": match.stream_channel,
         "description": match.description,
+        "best_of": match.best_of,
     }
 
 

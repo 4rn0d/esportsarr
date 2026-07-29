@@ -46,9 +46,31 @@ PLATFORM_URL_BUILDERS = {
 
 OWNED_STREAM_TAG = "esportsarr"
 
-# Riot gives no match end time; a Bo3/Bo5 broadcast block reliably runs a
-# few hours. Same estimate the scraper uses for esports.xmltv.
+# Riot gives no match end time. Fallback for a match with no reported (or
+# unrecognized) best-of format. Same estimate the scraper uses for
+# esports.xmltv.
 PROGRAMME_DURATION = timedelta(hours=3)
+
+# Same table as scraper/esportsarr/xmltv.py -- kept in sync manually, the two
+# packages don't share code. Bo7 isn't used by any league we track yet
+# (Rocket League, planned) -- this estimate is an unvalidated placeholder.
+BEST_OF_DURATIONS = {
+    1: timedelta(hours=1),
+    3: timedelta(hours=2, minutes=45),
+    5: timedelta(hours=5, minutes=30),
+    7: timedelta(hours=7, minutes=30),
+}
+
+
+def duration_for_match(match: dict[str, Any]) -> timedelta:
+    return BEST_OF_DURATIONS.get(match.get("best_of"), PROGRAMME_DURATION)
+
+# The guide used to start exactly at "now" and never earlier, so a slot idle
+# for a while before "now" had zero programme data for that stretch --
+# Dispatcharr's grid renders that as a blank hole instead of "No Match
+# Scheduled" (confirmed as a real bug, 2026-07-29). Starting the guide this
+# far before "now" instead guarantees continuous coverage.
+GUIDE_LOOKBACK_HOURS = 12
 
 OFFLINE_PROGRAM_TITLE = "No Match Scheduled"
 
@@ -226,20 +248,22 @@ def build_guide_entries(
     projection_end: datetime,
 ) -> list[dict[str, Any]]:
     """Converts project_schedule's `(claimed_at, match)` lists into
-    XMLTV-ready guide entries covering `[now, projection_end)` with no gaps,
-    filling idle stretches with an explicit "No Match Scheduled" entry.
-    Displayed start is `claimed_at` (when the slot actually started showing
-    the match), not the match's own start, so a match delayed by slot
-    contention never appears to overlap what the slot was still showing."""
+    XMLTV-ready guide entries covering `[now - GUIDE_LOOKBACK_HOURS,
+    projection_end)` with no gaps, filling idle stretches (including before
+    "now") with an explicit "No Match Scheduled" entry so the guide never
+    has a stretch with zero programme data. Displayed start is `claimed_at`
+    (when the slot actually started showing the match), not the match's own
+    start, so a match delayed by slot contention never appears to overlap
+    what the slot was still showing."""
     entries: list[dict[str, Any]] = []
     for slot_index, projected in enumerate(projected_by_slot):
         tvg_id = _generic_channel_tvg_id(game, slot_index)
         name = _generic_channel_name(game, slot_index)
-        cursor = _round_down_to_quarter_hour(now)
+        cursor = _round_down_to_quarter_hour(now - timedelta(hours=GUIDE_LOOKBACK_HOURS))
 
         for claimed_at, match in projected:
             start = claimed_at
-            end = datetime.fromisoformat(match["start"]) + PROGRAMME_DURATION
+            end = datetime.fromisoformat(match["start"]) + duration_for_match(match)
             if start > cursor:
                 entries.append(
                     {

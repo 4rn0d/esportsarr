@@ -13,6 +13,7 @@ from esportsarr.models import Game, League, MatchState, StreamPlatform
 from esportsarr.riot_api import (
     LOL_HOST,
     VALORANT_HOST,
+    _best_of,
     _has_real_content,
     _match_description,
     _stream_identity_for_league,
@@ -59,11 +60,31 @@ def test_has_real_content_is_false_with_neither_teams_nor_block_name():
 
 
 def test_match_description_combines_league_and_block_name():
-    assert _match_description({"blockName": "Playoffs"}, LCS) == "LCS: Playoffs"
+    assert _match_description({"blockName": "Playoffs"}, LCS, None) == "LCS: Playoffs"
 
 
 def test_match_description_falls_back_to_league_name_when_block_name_is_absent():
-    assert _match_description({}, LCS) == "LCS"
+    assert _match_description({}, LCS, None) == "LCS"
+
+
+def test_match_description_appends_best_of_when_present():
+    assert _match_description({"blockName": "Playoffs"}, LCS, 3) == "LCS: Playoffs · Bo3"
+
+
+def test_match_description_appends_best_of_even_with_no_block_name():
+    assert _match_description({}, LCS, 5) == "LCS · Bo5"
+
+
+def test_best_of_reads_the_strategy_count():
+    assert _best_of({"match": {"strategy": {"type": "bestOf", "count": 3}}}) == 3
+
+
+def test_best_of_is_none_when_match_key_is_absent():
+    assert _best_of({}) is None
+
+
+def test_best_of_is_none_for_a_non_best_of_strategy_type():
+    assert _best_of({"match": {"strategy": {"type": "playAll", "count": 2}}}) is None
 
 
 @responses.activate
@@ -83,7 +104,10 @@ def test_fetch_matches_normalizes_two_team_match():
                     "startTime": "2026-07-27T20:00:00Z",
                     "state": "inProgress",
                     "blockName": "Playoffs",
-                    "match": {"teams": [{"name": "Sentinels"}, {"name": "Cloud9"}]},
+                    "match": {
+                        "teams": [{"name": "Sentinels"}, {"name": "Cloud9"}],
+                        "strategy": {"type": "bestOf", "count": 3},
+                    },
                 }
             ]
         ),
@@ -100,7 +124,8 @@ def test_fetch_matches_normalizes_two_team_match():
     assert match.stream_platform == StreamPlatform.TWITCH
     assert match.stream_channel == "lcs"
     assert match.start.year == 2026 and match.start.hour == 20
-    assert match.description == "LCS: Playoffs"
+    assert match.best_of == 3
+    assert match.description == "LCS: Playoffs · Bo3"
 
 
 @responses.activate

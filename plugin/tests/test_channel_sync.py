@@ -10,13 +10,16 @@ import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timedelta, timezone
 
 from esportsarr.channel_sync import (
+    BEST_OF_DURATIONS,
     GUIDE_CATEGORY,
     GUIDE_LANG,
+    GUIDE_LOOKBACK_HOURS,
     OFFLINE_PROGRAM_TITLE,
     PROGRAMME_DURATION,
     _build_guide_xmltv,
     _round_down_to_quarter_hour,
     build_guide_entries,
+    duration_for_match,
 )
 
 
@@ -122,8 +125,8 @@ def test_build_guide_xmltv_omits_desc_element_when_description_is_absent():
     assert root.find("programme/desc") is None
 
 
-def _future_match(title: str, start: datetime, description: str = "") -> dict:
-    match = {"start": start.isoformat(), "title": title, "state": "unstarted"}
+def _future_match(title: str, start: datetime, description: str = "", best_of: int | None = None) -> dict:
+    match = {"start": start.isoformat(), "title": title, "state": "unstarted", "best_of": best_of}
     if description:
         match["description"] = description
     return match
@@ -131,12 +134,31 @@ def _future_match(title: str, start: datetime, description: str = "") -> dict:
 
 NOW = datetime(2026, 7, 28, 15, 53, tzinfo=timezone.utc)  # deliberately not on a quarter-hour
 PROJECTION_END = NOW + timedelta(days=7)
+GUIDE_START = _round_down_to_quarter_hour(NOW - timedelta(hours=GUIDE_LOOKBACK_HOURS))
 
 
 def _claim(match: dict, at: datetime | None = None) -> tuple[datetime, dict]:
     """A match claimed with no contention, i.e. at its own real start,
     unless `at` says otherwise (a match that had to wait for its slot)."""
     return (at or datetime.fromisoformat(match["start"]), match)
+
+
+def test_duration_for_match_uses_the_estimate_for_the_reported_best_of_format():
+    for best_of, expected_duration in BEST_OF_DURATIONS.items():
+        assert duration_for_match({"best_of": best_of}) == expected_duration
+
+
+def test_duration_for_match_falls_back_to_the_default_when_format_is_unknown():
+    assert duration_for_match({"best_of": None}) == PROGRAMME_DURATION
+    assert duration_for_match({}) == PROGRAMME_DURATION
+
+
+def test_build_guide_entries_end_time_reflects_the_match_format():
+    match = _future_match("Sentinels vs 100T", NOW + timedelta(hours=1), best_of=1)
+    entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
+
+    real = entries[1]
+    assert real["end"] == datetime.fromisoformat(match["start"]) + BEST_OF_DURATIONS[1]
 
 
 def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():
@@ -147,7 +169,7 @@ def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():
     leading, real, trailing = entries
 
     assert leading["title"] == OFFLINE_PROGRAM_TITLE
-    assert leading["start"] == _round_down_to_quarter_hour(NOW)
+    assert leading["start"] == GUIDE_START
     assert leading["end"] == datetime.fromisoformat(match["start"])
 
     assert real["title"] == "Sentinels vs 100T"
@@ -159,13 +181,31 @@ def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():
     assert trailing["end"] == PROJECTION_END
 
 
-def test_build_guide_entries_has_no_leading_filler_for_an_already_live_match():
-    # Match started in the past (relative to `now`). Nothing to fill before it.
-    match = _future_match("Sentinels vs 100T", NOW - timedelta(hours=1))
+def test_build_guide_entries_has_no_leading_filler_when_a_match_already_covers_the_full_lookback_window():
+    # Match started before the lookback window even begins -- nothing left
+    # to fill before it.
+    match = _future_match("Sentinels vs 100T", NOW - timedelta(hours=GUIDE_LOOKBACK_HOURS, minutes=30))
     entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
     assert entries[0]["title"] == "Sentinels vs 100T"
     assert entries[0]["start"] == datetime.fromisoformat(match["start"])
+
+
+def test_build_guide_entries_fills_the_gap_before_a_match_that_started_within_the_lookback_window():
+    # Regression test for a real bug (2026-07-29): a slot idle for a while
+    # before "now" had zero programme data for that stretch, so Dispatcharr's
+    # grid rendered a blank hole there instead of "No Match Scheduled" --
+    # unlike slots where a still-live match happened to already cover that
+    # time. The guide must always have an explicit filler back to
+    # GUIDE_LOOKBACK_HOURS before "now", not just from "now" onward.
+    match = _future_match("SK Nebula vs G2 Gozen", NOW - timedelta(hours=1))
+    entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
+
+    leading, real = entries[0], entries[1]
+    assert leading["title"] == OFFLINE_PROGRAM_TITLE
+    assert leading["start"] == GUIDE_START
+    assert leading["end"] == datetime.fromisoformat(match["start"])
+    assert real["title"] == "SK Nebula vs G2 Gozen"
 
 
 def test_build_guide_entries_displays_a_contended_match_at_its_actual_claim_time_not_its_own_start():
@@ -217,7 +257,7 @@ def test_build_guide_entries_produces_one_continuous_filler_when_nothing_is_proj
 
     assert len(entries) == 1
     assert entries[0]["title"] == OFFLINE_PROGRAM_TITLE
-    assert entries[0]["start"] == _round_down_to_quarter_hour(NOW)
+    assert entries[0]["start"] == GUIDE_START
     assert entries[0]["end"] == PROJECTION_END
 
 

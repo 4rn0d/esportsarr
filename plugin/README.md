@@ -216,18 +216,33 @@ real bug, 2026-07-29: Game Changers EMEA matches stayed `"unstarted"` in
 `schedule.json` more than 30 minutes after their real start while actually
 airing, so they were only ever reserved, never displayed). `plugin.py`'s
 `_classify_matches` also treats an `"unstarted"` match as live once its
-scheduled start has passed, up to `STALE_LIVE_GRACE_MINUTES` (4h) -- past
+scheduled start has passed, up to `STALE_LIVE_GRACE_MINUTES` (12h) -- past
 that, it's presumed stale data rather than a genuinely long-running match
 and falls back to the ordinary near/far reservation buckets.
 
 ## What the guide shows, a week-ahead projection, not a one-tick snapshot
 
-The guide covers `schedule_projection_days` (default 7) into the future,
-built fresh every tick, with zero gaps. Otherwise Dispatcharr's own generic
-placeholder filler ("Lunchtime Laziness...", "Evening Escapism...") would
-show through instead. This used to be a purely reactive, one-entry-per-slot
-guess at "what's happening right now plus maybe one preview"; it's now a
-genuine forward simulation:
+The guide covers `GUIDE_LOOKBACK_HOURS` (12h, `channel_sync.py`) before "now"
+through `schedule_projection_days` (default 7) into the future, built fresh
+every tick, with zero gaps -- including before "now". Otherwise Dispatcharr's
+own generic placeholder filler ("Lunchtime Laziness...", "Evening
+Escapism...") would show through instead, and a slot idle for a while
+before "now" would have zero programme data for that stretch, which
+Dispatcharr's grid renders as a blank hole rather than "No Match Scheduled"
+(confirmed as a real bug, 2026-07-29 -- a slot with a still-live match
+happened to already cover the time before "now" and looked fine, while an
+idle one right next to it was visibly blank). This used to be a purely
+reactive, one-entry-per-slot guess at "what's happening right now plus
+maybe one preview"; it's now a genuine forward simulation:
+
+`_classify_matches` (`plugin.py`) also feeds recently-`completed` matches
+into the projection, not just live/upcoming ones, as long as they started
+within `GUIDE_LOOKBACK_HOURS` -- otherwise the guide has zero record of what
+actually aired in a slot once its match ends, and the historical portion
+degrades to one giant "No Match Scheduled" the moment nothing's currently
+live there, even though real matches did air (same 2026-07-29 bug: only
+slots with something *still* live looked right, everything else showed a
+12h-wide filler instead of the real history).
 
 - `allocator.project_schedule` replays the exact same `assign_slots` policy
   (priority ranking, sticky live matches, same-channel continuity) forward
@@ -251,17 +266,24 @@ genuine forward simulation:
   neighboring entry. Same as a real TV guide: "Antichambre" stays printed
   at 21h00 even when the game before it runs to 21h10. The schedule
   doesn't get rewritten, the overlap is just the honest picture of a delay.
-- A match reported as currently live whose 3h duration estimate has already
+- A match reported as currently live whose duration estimate has already
   technically elapsed (e.g. a best-of-5 running long) can get dropped from
   the *projected future* portion of the guide slightly earlier than it
-  actually ends in reality, the same "Riot gives no real end time, 3h is
+  actually ends in reality, the same "Riot gives no real end time, this is
   just an estimate" limitation this whole plugin already accepts, and it
   self-corrects on the very next tick since the guide is fully rebuilt every
   time from the latest known state. It never affects the actual live stream
   switch, which is decided separately and correctly by `assign_slots`'s own
-  real, current-tick evaluation.
+  real, current-tick evaluation. `channel_sync.duration_for_match` estimates
+  by best-of format (`BEST_OF_DURATIONS`) rather than one flat 3h for every
+  match -- Bo1 ~1h, Bo3 ~2h45, Bo5 ~5h30 -- so this caveat is smaller than it
+  used to be, not eliminated. Bo7 has an entry too (~7h30) even though no
+  league we track uses it yet (Rocket League, planned); that estimate is an
+  unvalidated placeholder. Must be kept in sync manually with the identical
+  table in `scraper/esportsarr/xmltv.py` -- the two packages don't share code.
 - Every real entry also carries a `description` (competition + stage/matchday
-  context, e.g. "LCS: Playoffs", "VCT Americas: Week 3") straight through
+  context plus the best-of format when Riot reports one, e.g. "LCS: Playoffs
+  · Bo3", "VCT Americas: Week 3 · Bo3") straight through
   from the scraper's `schedule.json` into the XMLTV `<desc>` element, so the
   guide shows what's actually being played, not just the two team names.
   Filler ("No Match Scheduled") entries have none. There's no match to

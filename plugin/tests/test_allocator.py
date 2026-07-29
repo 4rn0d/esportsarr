@@ -425,10 +425,14 @@ def test_duplicate_match_across_near_and_far_buckets_only_reserves_once():
 THREE_HOURS = timedelta(hours=3)
 
 
+def _three_hours(_match: dict) -> timedelta:
+    return THREE_HOURS
+
+
 def test_project_schedule_returns_a_single_future_match_covering_its_own_slot():
     americas = _upcoming("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS)
+    projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours)
 
     assert projected == [[(_at(americas), americas)]]
 
@@ -443,7 +447,7 @@ def test_project_schedule_orders_back_to_back_matches_on_one_slot_chronologicall
         matches=[second, first],  # deliberately out of chronological order
         slots=1,
         league_priority=VALORANT_PRIORITY,
-        duration=THREE_HOURS,
+        duration_fn=_three_hours,
     )
 
     assert projected == [[(_at(first), first), (_at(second), second)]]
@@ -457,7 +461,7 @@ def test_project_schedule_drops_the_losing_match_entirely_when_two_leagues_start
     pacific = _upcoming("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
     projected = project_schedule(
-        matches=[americas, pacific], slots=1, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS
+        matches=[americas, pacific], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours
     )
 
     assert projected == [[(_at(americas), americas)]]
@@ -478,7 +482,7 @@ def test_project_schedule_keeps_a_seeded_live_match_until_it_ends_even_if_a_high
         matches=[live_emea, champions],
         slots=1,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
-        duration=THREE_HOURS,
+        duration_fn=_three_hours,
         initial_assignment=[live_emea],
     )
 
@@ -491,7 +495,7 @@ def test_project_schedule_keeps_a_seeded_live_match_until_it_ends_even_if_a_high
 def test_project_schedule_defaults_initial_assignment_to_empty_when_not_provided():
     americas = _upcoming("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS)
+    projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours)
 
     assert projected == [[(_at(americas), americas)]]
 
@@ -538,7 +542,7 @@ def test_project_schedule_claims_a_contended_match_only_once_its_slot_actually_f
         ],
         slots=2,
         league_priority=priority,
-        duration=THREE_HOURS,
+        duration_fn=_three_hours,
     )
 
     all_claims = [claim for slot in projected for claim in slot]
@@ -558,7 +562,25 @@ def test_project_schedule_claims_a_contended_match_only_once_its_slot_actually_f
 
 
 def test_project_schedule_on_no_matches_returns_empty_lists_per_slot():
-    assert project_schedule(matches=[], slots=2, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS) == [[], []]
+    assert project_schedule(matches=[], slots=2, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours) == [[], []]
+
+
+def test_project_schedule_uses_duration_fn_per_match_not_one_flat_value():
+    # A Bo1 (short) and a Bo5 (long) sharing one slot back to back: the Bo1
+    # frees the slot much sooner than a flat 3h estimate would, and the Bo5
+    # occupies it much longer. duration_fn must be consulted per-match, not
+    # applied once for the whole projection.
+    def duration_by_best_of(match: dict) -> timedelta:
+        return {1: timedelta(hours=1), 5: timedelta(hours=5)}[match["best_of"]]
+
+    bo1 = {**_upcoming("VCT Americas", "2026-07-27T14:00:00+00:00", "Sentinels vs 100T", "valorant_americas"), "best_of": 1}
+    bo5 = {**_upcoming("VCT Americas", "2026-07-27T15:00:00+00:00", "LOUD vs NRG", "valorant_americas"), "best_of": 5}
+
+    projected = project_schedule(
+        matches=[bo1, bo5], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=duration_by_best_of
+    )
+
+    assert projected == [[(_at(bo1), bo1), (_at(bo5), bo5)]]
 
 
 def test_project_schedule_without_lookahead_windows_starves_a_higher_priority_match_that_starts_mid_stream():
@@ -594,7 +616,7 @@ def test_project_schedule_without_lookahead_windows_starves_a_higher_priority_ma
         ],
         slots=3,
         league_priority=priority,
-        duration=THREE_HOURS,
+        duration_fn=_three_hours,
     )
 
     all_claims = [claim for slot in projected for claim in slot]
@@ -640,7 +662,7 @@ def test_project_schedule_reserves_a_slot_ahead_of_time_so_a_higher_priority_mat
         ],
         slots=3,
         league_priority=priority,
-        duration=THREE_HOURS,
+        duration_fn=_three_hours,
         narrow_lookahead=timedelta(hours=2),
         wide_lookahead=timedelta(hours=3),
     )

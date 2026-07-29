@@ -74,9 +74,15 @@ def _match_title(event: dict, league: League) -> str:
     return f"{league.display_name}: {block_name}" if block_name else league.display_name
 
 
-def _match_description(event: dict, league: League) -> str:
+def _best_of(event: dict) -> int | None:
+    strategy = (event.get("match") or {}).get("strategy") or {}
+    return strategy.get("count") if strategy.get("type") == "bestOf" else None
+
+
+def _match_description(event: dict, league: League, best_of: int | None) -> str:
     block_name = event.get("blockName")
-    return f"{league.display_name}: {block_name}" if block_name else league.display_name
+    base = f"{league.display_name}: {block_name}" if block_name else league.display_name
+    return f"{base} · Bo{best_of}" if best_of else base
 
 
 STREAM_PLATFORM_PREFIXES: dict[str, StreamPlatform] = {
@@ -97,6 +103,7 @@ def _stream_identity_for_league(league: League) -> tuple[StreamPlatform | None, 
 def _normalize_event(event: dict, league: League) -> MatchEvent:
     start = datetime.fromisoformat(event["startTime"].replace("Z", "+00:00")).astimezone(timezone.utc)
     has_real_content = _has_real_content(event)
+    best_of = _best_of(event)
     stream_platform, stream_channel = _stream_identity_for_league(league)
     if not has_real_content:
         # No team names and no stage name -- just the bare league name, not
@@ -109,8 +116,9 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
         title=_match_title(event, league),
         stream_platform=stream_platform,
         stream_channel=stream_channel,
-        description=_match_description(event, league),
+        description=_match_description(event, league, best_of),
         has_real_content=has_real_content,
+        best_of=best_of,
     )
 
 

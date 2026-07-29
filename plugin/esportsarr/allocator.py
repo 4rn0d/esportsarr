@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from datetime import datetime, timedelta
-from typing import Any
+from typing import Any, Callable
 
 MatchDict = dict[str, Any]
 
@@ -115,7 +115,7 @@ def project_schedule(
     matches: list[MatchDict],
     slots: int,
     league_priority: list[str],
-    duration: timedelta,
+    duration_fn: Callable[[MatchDict], timedelta],
     initial_assignment: list[MatchDict | None] | None = None,
     narrow_lookahead: timedelta = timedelta(),
     wide_lookahead: timedelta = timedelta(),
@@ -125,13 +125,13 @@ def project_schedule(
     uses at each simulated point in time -- otherwise a match starting
     mid-stream, after lower-priority matches already sticky-locked every
     slot, would show starved in the guide even though it's high enough
-    priority to have reserved a slot ahead of time. Returns, per slot,
-    `(claimed_at, match)` pairs -- claimed_at is when the slot actually
-    started showing that match, which can be later than the match's own
-    start if it had to wait out a contested slot."""
-    intervals = [
-        (datetime.fromisoformat(m["start"]), datetime.fromisoformat(m["start"]) + duration, m) for m in matches
-    ]
+    priority to have reserved a slot ahead of time. `duration_fn` gives each
+    match's own estimated length (e.g. by best-of format) rather than one
+    flat duration for every match. Returns, per slot, `(claimed_at, match)`
+    pairs -- claimed_at is when the slot actually started showing that
+    match, which can be later than the match's own start if it had to wait
+    out a contested slot."""
+    intervals = [(datetime.fromisoformat(m["start"]), datetime.fromisoformat(m["start"]) + duration_fn(m), m) for m in matches]
     event_points = sorted({start for start, _end, _m in intervals} | {end for _start, end, _m in intervals})
 
     running_assignment: list[MatchDict | None] = list(initial_assignment or [None] * slots)
