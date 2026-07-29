@@ -894,11 +894,6 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260729200000 +0000" stop="20260729210000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Galions vs Skillcamp · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260730160000 +0000" stop="20260730170000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">Karmine Corp Blue vs Ici Japon Corp · Week 2 · Bo1</desc>
@@ -1332,11 +1327,6 @@
   <programme start="20260729190000 +0000" stop="20260730003000 +0000" channel="twitch.VALORANT_NorthAmerica">
     <title lang="en">Last Chance Qualifier Americas</title>
     <desc lang="en">Shopify Rebellion Black vs 2GAME · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260729180000 +0000" stop="20260729204500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">Gentle Mates vs Team Vitality · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
