@@ -65,13 +65,10 @@ def _has_real_content(event: dict) -> bool:
     return len(teams) == 2 or bool(event.get("blockName"))
 
 
-def _match_title(event: dict, league: League) -> str:
+def _match_participants(event: dict) -> str | None:
     teams = (event.get("match") or {}).get("teams") or []
     team_names = [team.get("name", "TBD") for team in teams]
-    if len(team_names) == 2:
-        return f"{team_names[0]} vs {team_names[1]}"
-    block_name = event.get("blockName")
-    return f"{league.display_name}: {block_name}" if block_name else league.display_name
+    return f"{team_names[0]} vs {team_names[1]}" if len(team_names) == 2 else None
 
 
 def _best_of(event: dict) -> int | None:
@@ -79,10 +76,13 @@ def _best_of(event: dict) -> int | None:
     return strategy.get("count") if strategy.get("type") == "bestOf" else None
 
 
-def _match_description(event: dict, league: League, best_of: int | None) -> str:
-    block_name = event.get("blockName")
-    base = f"{league.display_name}: {block_name}" if block_name else league.display_name
-    return f"{base} · Bo{best_of}" if best_of else base
+def _match_description(event: dict, best_of: int | None) -> str:
+    # Title is always just the league name, so this is where the actual
+    # match info lives: participants first, then stage, then format.
+    parts = [part for part in (_match_participants(event), event.get("blockName")) if part]
+    if best_of:
+        parts.append(f"Bo{best_of}")
+    return " · ".join(parts)
 
 
 STREAM_PLATFORM_PREFIXES: dict[str, StreamPlatform] = {
@@ -113,10 +113,10 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
         league=league,
         start=start,
         state=RIOT_STATE_TO_MATCH_STATE[event["state"]],
-        title=_match_title(event, league),
+        title=league.display_name,
         stream_platform=stream_platform,
         stream_channel=stream_channel,
-        description=_match_description(event, league, best_of),
+        description=_match_description(event, best_of),
         has_real_content=has_real_content,
         best_of=best_of,
     )

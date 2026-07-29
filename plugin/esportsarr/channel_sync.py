@@ -74,6 +74,30 @@ GUIDE_LOOKBACK_HOURS = 12
 
 OFFLINE_PROGRAM_TITLE = "No Match Scheduled"
 
+# A single filler entry spanning hours/days looks broken in most EPG grids
+# (one giant unbroken block); chunking it keeps the grid looking like a real
+# programming schedule instead.
+MAX_FILLER_BLOCK = timedelta(minutes=45)
+
+
+def _filler_entries(tvg_id: str, name: str, start: datetime, end: datetime) -> list[dict[str, Any]]:
+    entries: list[dict[str, Any]] = []
+    block_start = start
+    while block_start < end:
+        block_end = min(block_start + MAX_FILLER_BLOCK, end)
+        entries.append(
+            {
+                "tvg_id": tvg_id,
+                "name": name,
+                "title": OFFLINE_PROGRAM_TITLE,
+                "description": "",
+                "start": block_start,
+                "end": block_end,
+            }
+        )
+        block_start = block_end
+    return entries
+
 GUIDE_FILE_PATH = "/app/data/plugins/esportsarr/.state/esportsarr-guide.xmltv"
 GUIDE_TIME_FORMAT = "%Y%m%d%H%M%S %z"
 GUIDE_LANG = "en"
@@ -264,17 +288,7 @@ def build_guide_entries(
         for claimed_at, match in projected:
             start = claimed_at
             end = datetime.fromisoformat(match["start"]) + duration_for_match(match)
-            if start > cursor:
-                entries.append(
-                    {
-                        "tvg_id": tvg_id,
-                        "name": name,
-                        "title": OFFLINE_PROGRAM_TITLE,
-                        "description": "",
-                        "start": cursor,
-                        "end": start,
-                    }
-                )
+            entries.extend(_filler_entries(tvg_id, name, cursor, start))
             entries.append(
                 {
                     "tvg_id": tvg_id,
@@ -287,17 +301,7 @@ def build_guide_entries(
             )
             cursor = end
 
-        if cursor < projection_end:
-            entries.append(
-                {
-                    "tvg_id": tvg_id,
-                    "name": name,
-                    "title": OFFLINE_PROGRAM_TITLE,
-                    "description": "",
-                    "start": cursor,
-                    "end": projection_end,
-                }
-            )
+        entries.extend(_filler_entries(tvg_id, name, cursor, projection_end))
 
     return entries
 

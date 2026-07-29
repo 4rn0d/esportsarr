@@ -59,20 +59,30 @@ def test_has_real_content_is_false_with_neither_teams_nor_block_name():
     assert _has_real_content({}) is False
 
 
-def test_match_description_combines_league_and_block_name():
-    assert _match_description({"blockName": "Playoffs"}, LCS, None) == "LCS: Playoffs"
+def test_match_description_includes_block_name_when_no_participants():
+    assert _match_description({"blockName": "Playoffs"}, None) == "Playoffs"
 
 
-def test_match_description_falls_back_to_league_name_when_block_name_is_absent():
-    assert _match_description({}, LCS, None) == "LCS"
+def test_match_description_is_empty_when_nothing_is_available():
+    assert _match_description({}, None) == ""
 
 
 def test_match_description_appends_best_of_when_present():
-    assert _match_description({"blockName": "Playoffs"}, LCS, 3) == "LCS: Playoffs · Bo3"
+    assert _match_description({"blockName": "Playoffs"}, 3) == "Playoffs · Bo3"
 
 
 def test_match_description_appends_best_of_even_with_no_block_name():
-    assert _match_description({}, LCS, 5) == "LCS · Bo5"
+    assert _match_description({}, 5) == "Bo5"
+
+
+def test_match_description_leads_with_participants_when_present():
+    event = {"blockName": "Playoffs", "match": {"teams": [{"name": "Sentinels"}, {"name": "Cloud9"}]}}
+    assert _match_description(event, 3) == "Sentinels vs Cloud9 · Playoffs · Bo3"
+
+
+def test_match_description_with_only_participants():
+    event = {"match": {"teams": [{"name": "Sentinels"}, {"name": "Cloud9"}]}}
+    assert _match_description(event, None) == "Sentinels vs Cloud9"
 
 
 def test_best_of_reads_the_strategy_count():
@@ -118,14 +128,14 @@ def test_fetch_matches_normalizes_two_team_match():
 
     assert match.league is LCS
     assert match.state == MatchState.IN_PROGRESS
-    assert match.title == "Sentinels vs Cloud9"
+    assert match.title == "LCS"
     # Derived from LCS.epg_channel_id ("twitch.lcs"), not from Riot's own
     # (unreliable, see _stream_identity_for_league) per-event stream data.
     assert match.stream_platform == StreamPlatform.TWITCH
     assert match.stream_channel == "lcs"
     assert match.start.year == 2026 and match.start.hour == 20
     assert match.best_of == 3
-    assert match.description == "LCS: Playoffs · Bo3"
+    assert match.description == "Sentinels vs Cloud9 · Playoffs · Bo3"
 
 
 @responses.activate
@@ -146,12 +156,13 @@ def test_fetch_matches_marks_a_contentless_event_unstreamable_even_on_a_streamab
     [match] = fetch_matches_for_leagues([LCS], api_key="test-key")
 
     assert match.title == "LCS"
+    assert match.description == ""
     assert match.stream_platform is None
     assert match.stream_channel is None
 
 
 @responses.activate
-def test_fetch_matches_titles_tbd_placeholder_teams_normally():
+def test_fetch_matches_describes_tbd_placeholder_teams_normally():
     responses.add(
         responses.GET,
         f"{LOL_HOST.base_url}/getLeagues",
@@ -176,15 +187,17 @@ def test_fetch_matches_titles_tbd_placeholder_teams_normally():
 
     [match] = fetch_matches_for_leagues([LCS], api_key="test-key")
 
-    # Title-building keys off whether exactly 2 team entries are present, not
-    # on the team names' content. "TBD" placeholders still produce a normal
-    # "X vs Y" title. The blockName fallback (tested below) only kicks in when
+    # Participant-building keys off whether exactly 2 team entries are
+    # present, not on the team names' content. "TBD" placeholders still
+    # produce a normal "X vs Y" description, alongside the stage name. The
+    # blockName-only fallback (tested below) only kicks in when
     # `match.teams` itself is missing or not exactly 2 entries.
-    assert match.title == "TBD vs TBD"
+    assert match.title == "LCS"
+    assert match.description == "TBD vs TBD · Swiss"
 
 
 @responses.activate
-def test_fetch_matches_uses_block_name_when_match_key_is_absent():
+def test_fetch_matches_describes_block_name_when_match_key_is_absent():
     responses.add(
         responses.GET,
         f"{LOL_HOST.base_url}/getLeagues",
@@ -208,7 +221,8 @@ def test_fetch_matches_uses_block_name_when_match_key_is_absent():
 
     [match] = fetch_matches_for_leagues([LCS], api_key="test-key")
 
-    assert match.title == "LCS: Pre-Show"
+    assert match.title == "LCS"
+    assert match.description == "Pre-Show"
 
 
 @responses.activate

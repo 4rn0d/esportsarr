@@ -255,12 +255,17 @@ slots with something *still* live looked right, everything else showed a
 - `channel_sync.build_guide_entries` turns that per-slot match sequence
   into actual guide entries, filling every gap (before the first known
   match, between two consecutive ones, and after the last one through to
-  the end of the projection window) with an explicit "No Match Scheduled"
-  placeholder. Only the very first placeholder's start (right at "now") is
-  rounded down to the nearest :00/:15/:30/:45 (`_round_down_to_quarter_hour`).
-  A guide reads oddly with a block starting at 3:53pm. Every other
-  boundary is already an exact real timestamp (a match's own start, or the
-  projection window's edge), so nothing else needs rounding.
+  the end of the projection window) with "No Match Scheduled" placeholders.
+  A gap is chunked into consecutive `MAX_FILLER_BLOCK` (45min) entries
+  rather than one placeholder spanning the whole gap -- a single block
+  spanning hours or days reads as broken/frozen in most EPG grids, the same
+  way real TV guides never show one program title stretching across an
+  entire idle overnight slot. Only the very first chunk's start (right at
+  "now") is rounded down to the nearest :00/:15/:30/:45
+  (`_round_down_to_quarter_hour`). A guide reads oddly with a block starting
+  at 3:53pm. Every other boundary is already an exact real timestamp (a
+  match's own start, a 45min chunk boundary, or the projection window's
+  edge), so nothing else needs rounding.
 - Every real entry's displayed time is always the match's own real
   scheduled/actual start, never rewritten to avoid overlapping a
   neighboring entry. Same as a real TV guide: "Antichambre" stays printed

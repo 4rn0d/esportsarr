@@ -14,6 +14,7 @@ from esportsarr.channel_sync import (
     GUIDE_CATEGORY,
     GUIDE_LANG,
     GUIDE_LOOKBACK_HOURS,
+    MAX_FILLER_BLOCK,
     OFFLINE_PROGRAM_TITLE,
     PROGRAMME_DURATION,
     _build_guide_xmltv,
@@ -143,6 +144,25 @@ def _claim(match: dict, at: datetime | None = None) -> tuple[datetime, dict]:
     return (at or datetime.fromisoformat(match["start"]), match)
 
 
+def _take_filler_run(entries: list[dict], index: int) -> tuple[list[dict], int]:
+    """Consumes consecutive filler entries for one slot starting at `index`,
+    verifying each is <= MAX_FILLER_BLOCK and the run is contiguous with no
+    gaps."""
+    chunks = []
+    while (
+        index < len(entries)
+        and entries[index]["title"] == OFFLINE_PROGRAM_TITLE
+        and (not chunks or entries[index]["tvg_id"] == chunks[-1]["tvg_id"])
+    ):
+        chunk = entries[index]
+        assert chunk["end"] - chunk["start"] <= MAX_FILLER_BLOCK
+        if chunks:
+            assert chunk["start"] == chunks[-1]["end"]
+        chunks.append(chunk)
+        index += 1
+    return chunks, index
+
+
 def test_duration_for_match_uses_the_estimate_for_the_reported_best_of_format():
     for best_of, expected_duration in BEST_OF_DURATIONS.items():
         assert duration_for_match({"best_of": best_of}) == expected_duration
@@ -157,7 +177,8 @@ def test_build_guide_entries_end_time_reflects_the_match_format():
     match = _future_match("Sentinels vs 100T", NOW + timedelta(hours=1), best_of=1)
     entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
-    real = entries[1]
+    _leading_chunks, index = _take_filler_run(entries, 0)
+    real = entries[index]
     assert real["end"] == datetime.fromisoformat(match["start"]) + BEST_OF_DURATIONS[1]
 
 
@@ -165,20 +186,19 @@ def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():
     match = _future_match("Sentinels vs 100T", NOW + timedelta(hours=2))
     entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
-    assert len(entries) == 3
-    leading, real, trailing = entries
+    leading_chunks, index = _take_filler_run(entries, 0)
+    assert leading_chunks[0]["start"] == GUIDE_START
+    assert leading_chunks[-1]["end"] == datetime.fromisoformat(match["start"])
 
-    assert leading["title"] == OFFLINE_PROGRAM_TITLE
-    assert leading["start"] == GUIDE_START
-    assert leading["end"] == datetime.fromisoformat(match["start"])
-
+    real = entries[index]
     assert real["title"] == "Sentinels vs 100T"
     assert real["start"] == datetime.fromisoformat(match["start"])
     assert real["end"] == datetime.fromisoformat(match["start"]) + PROGRAMME_DURATION
 
-    assert trailing["title"] == OFFLINE_PROGRAM_TITLE
-    assert trailing["start"] == real["end"]
-    assert trailing["end"] == PROJECTION_END
+    trailing_chunks, index = _take_filler_run(entries, index + 1)
+    assert trailing_chunks[0]["start"] == real["end"]
+    assert trailing_chunks[-1]["end"] == PROJECTION_END
+    assert index == len(entries)
 
 
 def test_build_guide_entries_has_no_leading_filler_when_a_match_already_covers_the_full_lookback_window():
@@ -201,11 +221,10 @@ def test_build_guide_entries_fills_the_gap_before_a_match_that_started_within_th
     match = _future_match("SK Nebula vs G2 Gozen", NOW - timedelta(hours=1))
     entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
-    leading, real = entries[0], entries[1]
-    assert leading["title"] == OFFLINE_PROGRAM_TITLE
-    assert leading["start"] == GUIDE_START
-    assert leading["end"] == datetime.fromisoformat(match["start"])
-    assert real["title"] == "SK Nebula vs G2 Gozen"
+    leading_chunks, index = _take_filler_run(entries, 0)
+    assert leading_chunks[0]["start"] == GUIDE_START
+    assert leading_chunks[-1]["end"] == datetime.fromisoformat(match["start"])
+    assert entries[index]["title"] == "SK Nebula vs G2 Gozen"
 
 
 def test_build_guide_entries_displays_a_contended_match_at_its_actual_claim_time_not_its_own_start():
@@ -217,7 +236,8 @@ def test_build_guide_entries_displays_a_contended_match_at_its_actual_claim_time
     claimed_at = NOW + timedelta(hours=3)  # had to wait 2 extra hours for the slot
     entries = build_guide_entries("valorant", [[_claim(match, at=claimed_at)]], NOW, PROJECTION_END)
 
-    real = entries[1]
+    _leading_chunks, index = _take_filler_run(entries, 0)
+    real = entries[index]
     assert real["start"] == claimed_at
     # End still comes from the match's own real start + estimate, not
     # claimed_at -- joining late doesn't make the broadcast run any longer.
@@ -229,43 +249,50 @@ def test_build_guide_entries_fills_the_gap_between_two_consecutive_matches():
     second = _future_match("LOUD vs NRG", NOW + timedelta(hours=6))  # starts well after `first` ends
     entries = build_guide_entries("valorant", [[_claim(first), _claim(second)]], NOW, PROJECTION_END)
 
-    titles = [e["title"] for e in entries]
-    assert titles == [
-        OFFLINE_PROGRAM_TITLE,
-        "Sentinels vs 100T",
-        OFFLINE_PROGRAM_TITLE,
-        "LOUD vs NRG",
-        OFFLINE_PROGRAM_TITLE,
-    ]
-    gap_filler = entries[2]
-    assert gap_filler["start"] == datetime.fromisoformat(first["start"]) + PROGRAMME_DURATION
-    assert gap_filler["end"] == datetime.fromisoformat(second["start"])
+    _leading_chunks, index = _take_filler_run(entries, 0)
+    assert entries[index]["title"] == "Sentinels vs 100T"
+    index += 1
+
+    gap_chunks, index = _take_filler_run(entries, index)
+    assert gap_chunks[0]["start"] == datetime.fromisoformat(first["start"]) + PROGRAMME_DURATION
+    assert gap_chunks[-1]["end"] == datetime.fromisoformat(second["start"])
+
+    assert entries[index]["title"] == "LOUD vs NRG"
 
 
 def test_build_guide_entries_carries_the_match_description_through_but_not_the_filler():
     match = _future_match("Sentinels vs 100T", NOW + timedelta(hours=1), description="VCT Americas: Week 3")
     entries = build_guide_entries("valorant", [[_claim(match)]], NOW, PROJECTION_END)
 
-    leading_filler, real, trailing_filler = entries
+    leading_chunks, index = _take_filler_run(entries, 0)
+    real = entries[index]
+    trailing_chunks, _index = _take_filler_run(entries, index + 1)
+
     assert real["description"] == "VCT Americas: Week 3"
-    assert leading_filler["description"] == ""
-    assert trailing_filler["description"] == ""
+    assert all(chunk["description"] == "" for chunk in leading_chunks)
+    assert all(chunk["description"] == "" for chunk in trailing_chunks)
 
 
-def test_build_guide_entries_produces_one_continuous_filler_when_nothing_is_projected():
+def test_build_guide_entries_chunks_a_continuous_filler_into_max_45_minute_blocks_when_nothing_is_projected():
     entries = build_guide_entries("valorant", [[]], NOW, PROJECTION_END)
 
-    assert len(entries) == 1
-    assert entries[0]["title"] == OFFLINE_PROGRAM_TITLE
-    assert entries[0]["start"] == GUIDE_START
-    assert entries[0]["end"] == PROJECTION_END
+    chunks, index = _take_filler_run(entries, 0)
+    assert index == len(entries)
+    assert chunks[0]["start"] == GUIDE_START
+    assert chunks[-1]["end"] == PROJECTION_END
 
 
 def test_build_guide_entries_uses_the_right_tvg_id_and_name_per_game_and_slot():
     entries = build_guide_entries("lol", [[], []], NOW, PROJECTION_END)
 
-    assert [e["tvg_id"] for e in entries] == ["esportsarr.lol.1", "esportsarr.lol.2"]
-    assert [e["name"] for e in entries] == ["LoL 1", "LoL 2"]
+    slot_one_chunks, index = _take_filler_run(entries, 0)
+    slot_two_chunks, index = _take_filler_run(entries, index)
+    assert index == len(entries)
+
+    assert {chunk["tvg_id"] for chunk in slot_one_chunks} == {"esportsarr.lol.1"}
+    assert {chunk["name"] for chunk in slot_one_chunks} == {"LoL 1"}
+    assert {chunk["tvg_id"] for chunk in slot_two_chunks} == {"esportsarr.lol.2"}
+    assert {chunk["name"] for chunk in slot_two_chunks} == {"LoL 2"}
 
 
 def test_round_down_to_quarter_hour_rounds_mid_quarter_moments_down():

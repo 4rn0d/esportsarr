@@ -48,9 +48,9 @@ class MatchEvent:
     league: League
     start: datetime
     state: MatchState
-    title: str
+    title: str  # always the league's display_name, e.g. "LCS"
     stream_platform: StreamPlatform | None  # None if the league has no known streamable source
     stream_channel: str | None
-    description: str  # e.g. "LCS: Playoffs · Bo3"
+    description: str  # e.g. "Sentinels vs Cloud9 · Playoffs · Bo3"
     has_real_content: bool  # False if Riot gave neither team names nor a stage name
     best_of: int | None  # e.g. 3 for a Bo3; None if Riot didn't report a format

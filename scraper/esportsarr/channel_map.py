@@ -11,18 +11,17 @@ TRACKED_LEAGUES: tuple[League, ...] = (
     League(display_name="Worlds", game=Game.LOL, epg_channel_id="twitch.riotgames"),
     League(display_name="MSI", game=Game.LOL, epg_channel_id="twitch.riotgames"),
     League(display_name="First Stand", game=Game.LOL, epg_channel_id="twitch.riotgames"),
+    League(display_name="EMEA Masters", game=Game.LOL, epg_channel_id="twitch.emeamasters"),
 
     League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs"),
     League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec"),
     League(display_name="LCK", game=Game.LOL, epg_channel_id="twitch.lck"),
     League(display_name="LPL", game=Game.LOL, epg_channel_id="youtube.LPL_English"),
     League(display_name="CBLOL", game=Game.LOL, epg_channel_id="twitch.cblol"),
-    League(display_name="LJL", game=Game.LOL, epg_channel_id="twitch.leagueoflegendsjp"),
     League(display_name="LCP", game=Game.LOL, epg_channel_id="twitch.lolpacificen"),
 
-    League(display_name="EMEA Masters", game=Game.LOL, epg_channel_id="twitch.emeamasters"),
-    League(display_name="LFL", game=Game.LOL, epg_channel_id="twitch.otplol_"),
-    League(display_name="Nexus League", game=Game.LOL, epg_channel_id="twitch.TeamTSKOfficiel"),
+    League(display_name="LJL", game=Game.LOL, epg_channel_id="twitch.leagueoflegendsjp"),
+    League(display_name="La Ligue Française", game=Game.LOL, epg_channel_id="twitch.otplol_"),
     League(display_name="NLC", game=Game.LOL, epg_channel_id="twitch.NLCLoL"),
 
 

@@ -20,13 +20,14 @@ Two things worth knowing about the raw data before it's touched:
   unbounded, and `schedule.json` balloons to thousands of entries without
   this. Neither the guide nor the plugin's reservation logic ever needs
   anything outside that window.
-- **`description` carries competition/stage context, separately from the
-  title.** `riot_api.py`'s `_match_description` combines the league name with
-  Riot's `blockName` (e.g. "LCS: Playoffs", "VCT Americas: Week 3", falling
-  back to just the league name if `blockName` is absent). This always gets
-  set regardless of whether the title itself is a real "Team A vs Team B" or
-  the `blockName` fallback (`_match_title`), so the guide always shows what
-  stage a match belongs to, not just who's playing.
+- **`title` is always the league, `description` is always the match.**
+  `title` is just `league.display_name` (e.g. "LCS"), so a guide/EPG's
+  programme name is stable and never blank. `riot_api.py`'s
+  `_match_description` carries the actual match info instead: participants
+  first (e.g. "Sentinels vs Cloud9"), then Riot's `blockName` (stage), then
+  the Bo-format, joined with " · " and skipping any part that's missing
+  (e.g. "Sentinels vs Cloud9 · Playoffs · Bo3", or just "Playoffs" if no
+  team names are known yet).
 
 ## Setup
 
