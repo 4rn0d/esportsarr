@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:38:00.305121+00:00",
+  "generated_at": "2026-07-29T14:55:29.504913+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2917,8 +2917,8 @@
       "start": "2026-07-29T14:31:33.119000+00:00",
       "state": "in_progress",
       "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
+      "stream_platform": null,
+      "stream_channel": null,
       "description": "VCT EMEA"
     },
     {
@@ -3507,8 +3507,8 @@
       "start": "2026-07-29T14:27:57.779000+00:00",
       "state": "in_progress",
       "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
+      "stream_platform": null,
+      "stream_channel": null,
       "description": "Game Changers EMEA"
     },
     {
