@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:35:18.270533+00:00",
+  "generated_at": "2026-07-29T18:27:42.772724+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -9,7 +9,8 @@
       "title": "Team Liquid Alienware vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Play In Knockouts"
+      "description": "MSI: Play In Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -19,7 +20,8 @@
       "title": "T1 vs Team Liquid Alienware",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Play In Knockouts"
+      "description": "MSI: Play In Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -29,7 +31,8 @@
       "title": "Hanwha Life Esports vs Team Secret Whales",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -39,7 +42,8 @@
       "title": "TOP ESPORTS vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -49,7 +53,8 @@
       "title": "FURIA vs LYON",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -59,7 +64,8 @@
       "title": "T1 vs BILIBILI GAMING",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -69,7 +75,8 @@
       "title": "Team Secret Whales vs TOP ESPORTS",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -79,7 +86,8 @@
       "title": "Hanwha Life Esports vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -89,7 +97,8 @@
       "title": "BILIBILI GAMING vs LYON",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -99,7 +108,8 @@
       "title": "T1 vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -109,7 +119,8 @@
       "title": "LYON vs Team Secret Whales",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -119,7 +130,8 @@
       "title": "G2 Esports vs T1",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -129,7 +141,8 @@
       "title": "BILIBILI GAMING vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -139,7 +152,8 @@
       "title": "G2 Esports vs LYON",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -149,7 +163,8 @@
       "title": "LYON vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Knockouts"
+      "description": "MSI: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "MSI",
@@ -159,7 +174,8 @@
       "title": "BILIBILI GAMING vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "MSI: Finals"
+      "description": "MSI: Finals \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCS",
@@ -169,7 +185,8 @@
       "title": "FlyQuest vs LYON",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 1"
+      "description": "LCS: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -179,7 +196,8 @@
       "title": "Sentinels vs Dignitas",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 1"
+      "description": "LCS: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -189,7 +207,8 @@
       "title": "Team Liquid Alienware vs Cloud9 Kia",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 1"
+      "description": "LCS: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -199,7 +218,8 @@
       "title": "Shopify Rebellion vs Disguised",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 1"
+      "description": "LCS: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -209,7 +229,8 @@
       "title": "Cloud9 Kia vs Dignitas",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 2"
+      "description": "LCS: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -219,7 +240,8 @@
       "title": "Disguised vs FlyQuest",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 2"
+      "description": "LCS: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -229,7 +251,8 @@
       "title": "LYON vs Shopify Rebellion",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 2"
+      "description": "LCS: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -239,7 +262,8 @@
       "title": "Team Liquid Alienware vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 2"
+      "description": "LCS: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -249,7 +273,8 @@
       "title": "Cloud9 Kia vs Disguised",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 3"
+      "description": "LCS: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -259,7 +284,8 @@
       "title": "Sentinels vs Shopify Rebellion",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 3"
+      "description": "LCS: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -269,7 +295,8 @@
       "title": "Dignitas vs LYON",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 3"
+      "description": "LCS: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -279,7 +306,8 @@
       "title": "FlyQuest vs Team Liquid Alienware",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 3"
+      "description": "LCS: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -289,7 +317,8 @@
       "title": "Disguised vs Team Liquid Alienware",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 4"
+      "description": "LCS: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -299,7 +328,8 @@
       "title": "Dignitas vs Shopify Rebellion",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 4"
+      "description": "LCS: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -309,7 +339,8 @@
       "title": "Cloud9 Kia vs FlyQuest",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 4"
+      "description": "LCS: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -319,7 +350,8 @@
       "title": "LYON vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 4"
+      "description": "LCS: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -329,7 +361,8 @@
       "title": "Sentinels vs FlyQuest",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 5"
+      "description": "LCS: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -339,7 +372,8 @@
       "title": "Dignitas vs Disguised",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 5"
+      "description": "LCS: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -349,7 +383,8 @@
       "title": "Disguised vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 5"
+      "description": "LCS: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCS",
@@ -359,7 +394,8 @@
       "title": "Dignitas vs FlyQuest",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LCS: Week 5"
+      "description": "LCS: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -369,7 +405,8 @@
       "title": "Movistar KOI vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 1"
+      "description": "LEC: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -379,7 +416,8 @@
       "title": "Karmine Corp vs Team Vitality",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 1"
+      "description": "LEC: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -389,7 +427,8 @@
       "title": "G2 Esports vs Team Vitality",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 1"
+      "description": "LEC: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -399,7 +438,8 @@
       "title": "Movistar KOI vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 1"
+      "description": "LEC: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -409,7 +449,8 @@
       "title": "Team Vitality vs Movistar KOI",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 1"
+      "description": "LEC: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -419,7 +460,8 @@
       "title": "G2 Esports vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 1"
+      "description": "LEC: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -429,7 +471,8 @@
       "title": "Team Heretics vs Team Vitality",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -439,7 +482,8 @@
       "title": "Shifters vs Movistar KOI",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -449,7 +493,8 @@
       "title": "GIANTX vs SK Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -459,7 +504,8 @@
       "title": "Natus Vincere vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -469,7 +515,8 @@
       "title": "SK Gaming vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -479,7 +526,8 @@
       "title": "Movistar KOI vs Fnatic",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -489,7 +537,8 @@
       "title": "Natus Vincere vs Shifters",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -499,7 +548,8 @@
       "title": "Team Heretics vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 2"
+      "description": "LEC: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -509,7 +559,8 @@
       "title": "Shifters vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -519,7 +570,8 @@
       "title": "Team Heretics vs Fnatic",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -529,7 +581,8 @@
       "title": "Natus Vincere vs SK Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -539,7 +592,8 @@
       "title": "GIANTX vs Movistar KOI",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -549,7 +603,8 @@
       "title": "Team Heretics vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -559,7 +614,8 @@
       "title": "Fnatic vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -569,7 +625,8 @@
       "title": "Team Vitality vs SK Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -579,7 +636,8 @@
       "title": "Natus Vincere vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 3"
+      "description": "LEC: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -589,7 +647,8 @@
       "title": "Shifters vs SK Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -599,7 +658,8 @@
       "title": "Team Vitality vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -609,7 +669,8 @@
       "title": "SK Gaming vs Fnatic",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -619,7 +680,8 @@
       "title": "Shifters vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -629,7 +691,8 @@
       "title": "Natus Vincere vs Movistar KOI",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -639,7 +702,8 @@
       "title": "Fnatic vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -649,7 +713,8 @@
       "title": "Team Heretics vs Natus Vincere",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -659,7 +724,8 @@
       "title": "GIANTX vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 4"
+      "description": "LEC: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -669,7 +735,8 @@
       "title": "Team Heretics vs SK Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -679,7 +746,8 @@
       "title": "Natus Vincere vs Team Vitality",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -689,7 +757,8 @@
       "title": "Shifters vs Fnatic",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -699,7 +768,8 @@
       "title": "SK Gaming vs Movistar KOI",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -709,7 +779,8 @@
       "title": "Team Heretics vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -719,7 +790,8 @@
       "title": "Shifters vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -729,7 +801,8 @@
       "title": "Natus Vincere vs Fnatic",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -739,7 +812,8 @@
       "title": "GIANTX vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 5"
+      "description": "LEC: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -749,7 +823,8 @@
       "title": "Team Heretics vs Shifters",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 6"
+      "description": "LEC: Week 6 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LEC",
@@ -759,7 +834,8 @@
       "title": "Team Vitality vs Fnatic",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "LEC: Week 6"
+      "description": "LEC: Week 6 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -769,7 +845,8 @@
       "title": "KIWOOM DRX vs NONGSHIM RED FORCE",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -779,7 +856,8 @@
       "title": "T1 vs kt Rolster",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -789,7 +867,8 @@
       "title": "BNK FEARX vs DN SOOPers",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -799,7 +878,8 @@
       "title": "Hanwha Life Esports vs Dplus KIA",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -809,7 +889,8 @@
       "title": "Gen.G Esports vs T1",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -819,7 +900,8 @@
       "title": "HANJIN BRION vs KIWOOM DRX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -829,7 +911,8 @@
       "title": "NONGSHIM RED FORCE vs BNK FEARX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -839,7 +922,8 @@
       "title": "Gen.G Esports vs Dplus KIA",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -849,7 +933,8 @@
       "title": "DN SOOPers vs HANJIN BRION",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -859,7 +944,8 @@
       "title": "kt Rolster vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 10"
+      "description": "LCK: Week 10 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -869,7 +955,8 @@
       "title": "HANJIN BRION vs NONGSHIM RED FORCE",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -879,7 +966,8 @@
       "title": "Hanwha Life Esports vs Gen.G Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -889,7 +977,8 @@
       "title": "KIWOOM DRX vs DN SOOPers",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -899,7 +988,8 @@
       "title": "Dplus KIA vs T1",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -909,7 +999,8 @@
       "title": "kt Rolster vs Gen.G Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -919,7 +1010,8 @@
       "title": "BNK FEARX vs HANJIN BRION",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -929,7 +1021,8 @@
       "title": "T1 vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -939,7 +1032,8 @@
       "title": "NONGSHIM RED FORCE vs DN SOOPers",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -949,7 +1043,8 @@
       "title": "Dplus KIA vs kt Rolster",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -959,7 +1054,8 @@
       "title": "BNK FEARX vs KIWOOM DRX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 11"
+      "description": "LCK: Week 11 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -969,7 +1065,8 @@
       "title": "DN SOOPers vs NONGSHIM RED FORCE",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -979,7 +1076,8 @@
       "title": "kt Rolster vs Dplus KIA",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -989,7 +1087,8 @@
       "title": "KIWOOM DRX vs BNK FEARX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -999,7 +1098,8 @@
       "title": "Gen.G Esports vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1009,7 +1109,8 @@
       "title": "T1 vs Dplus KIA",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1019,7 +1120,8 @@
       "title": "NONGSHIM RED FORCE vs HANJIN BRION",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1029,7 +1131,8 @@
       "title": "Hanwha Life Esports vs kt Rolster",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1039,7 +1142,8 @@
       "title": "BNK FEARX vs DN SOOPers",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1049,7 +1153,8 @@
       "title": "T1 vs Gen.G Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1059,7 +1164,8 @@
       "title": "KIWOOM DRX vs HANJIN BRION",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 12"
+      "description": "LCK: Week 12 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1069,7 +1175,8 @@
       "title": "Gen.G Esports vs kt Rolster",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1079,7 +1186,8 @@
       "title": "HANJIN BRION vs DN SOOPers",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1089,7 +1197,8 @@
       "title": "Dplus KIA vs Hanwha Life Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1099,7 +1208,8 @@
       "title": "NONGSHIM RED FORCE vs KIWOOM DRX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1109,7 +1219,8 @@
       "title": "HANJIN BRION vs BNK FEARX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1119,7 +1230,8 @@
       "title": "kt Rolster vs T1",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1129,7 +1241,8 @@
       "title": "Dplus KIA vs Gen.G Esports",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1139,7 +1252,8 @@
       "title": "DN SOOPers vs KIWOOM DRX",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1149,7 +1263,8 @@
       "title": "Hanwha Life Esports vs T1",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1159,7 +1274,8 @@
       "title": "BNK FEARX vs NONGSHIM RED FORCE",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Week 13"
+      "description": "LCK: Week 13 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCK",
@@ -1169,7 +1285,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Play-Ins"
+      "description": "LCK: Play-Ins \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCK",
@@ -1179,7 +1296,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "LCK: Play-Ins"
+      "description": "LCK: Play-Ins \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LPL",
@@ -1189,7 +1307,8 @@
       "title": "EDWARD GAMING vs LGD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1199,7 +1318,8 @@
       "title": "TOP ESPORTS vs Xi'an Team WE",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1209,7 +1329,8 @@
       "title": "Anyone's Legend vs Beijing JDG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1219,7 +1340,8 @@
       "title": "THUNDER TALK GAMING vs BILIBILI GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1229,7 +1351,8 @@
       "title": "Anyone's Legend vs LGD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1239,7 +1362,8 @@
       "title": "Beijing JDG Esports vs Xi'an Team WE",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1249,7 +1373,8 @@
       "title": "BILIBILI GAMING vs EDWARD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1259,7 +1384,8 @@
       "title": "Xi'an Team WE vs LGD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1269,7 +1395,8 @@
       "title": "Invictus Gaming vs WeiboGaming",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1279,7 +1406,8 @@
       "title": "TOP ESPORTS vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1289,7 +1417,8 @@
       "title": "Suzhou LNG Esports vs Shenzhen NINJAS IN PYJAMAS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1299,7 +1428,8 @@
       "title": "EDWARD GAMING vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1309,7 +1439,8 @@
       "title": "BILIBILI GAMING vs Anyone's Legend",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 1"
+      "description": "LPL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1319,7 +1450,8 @@
       "title": "Anyone's Legend vs TOP ESPORTS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1329,7 +1461,8 @@
       "title": "LGD GAMING vs BILIBILI GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1339,7 +1472,8 @@
       "title": "Shenzhen NINJAS IN PYJAMAS vs WeiboGaming",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1349,7 +1483,8 @@
       "title": "EDWARD GAMING vs Xi'an Team WE",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1359,7 +1494,8 @@
       "title": "Beijing JDG Esports vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1369,7 +1505,8 @@
       "title": "Anyone's Legend vs EDWARD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1379,7 +1516,8 @@
       "title": "Xi'an Team WE vs BILIBILI GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1389,7 +1527,8 @@
       "title": "THUNDER TALK GAMING vs Anyone's Legend",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1399,7 +1538,8 @@
       "title": "TOP ESPORTS vs LGD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1409,7 +1549,8 @@
       "title": "Beijing JDG Esports vs BILIBILI GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1419,7 +1560,8 @@
       "title": "THUNDER TALK GAMING vs Xi'an Team WE",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1429,7 +1571,8 @@
       "title": "Invictus Gaming vs Suzhou LNG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1439,7 +1582,8 @@
       "title": "TOP ESPORTS vs Beijing JDG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 2"
+      "description": "LPL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1449,7 +1593,8 @@
       "title": "LGD GAMING vs Beijing JDG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1459,7 +1604,8 @@
       "title": "TOP ESPORTS vs EDWARD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1469,7 +1615,8 @@
       "title": "LGD GAMING vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1479,7 +1626,8 @@
       "title": "Invictus Gaming vs Shenzhen NINJAS IN PYJAMAS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1489,7 +1637,8 @@
       "title": "Xi'an Team WE vs Anyone's Legend",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1499,7 +1648,8 @@
       "title": "EDWARD GAMING vs Beijing JDG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1509,7 +1659,8 @@
       "title": "Xi'an Team WE vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1519,7 +1670,8 @@
       "title": "TOP ESPORTS vs BILIBILI GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1529,7 +1681,8 @@
       "title": "WeiboGaming vs Suzhou LNG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1539,7 +1692,8 @@
       "title": "LGD GAMING vs Anyone's Legend",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1549,7 +1703,8 @@
       "title": "EDWARD GAMING vs BILIBILI GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1559,7 +1714,8 @@
       "title": "Suzhou LNG Esports vs Invictus Gaming",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1569,7 +1725,8 @@
       "title": "THUNDER TALK GAMING vs TOP ESPORTS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1579,7 +1736,8 @@
       "title": "Xi'an Team WE vs Beijing JDG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 3"
+      "description": "LPL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1589,7 +1747,8 @@
       "title": "EDWARD GAMING vs Anyone's Legend",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1599,7 +1758,8 @@
       "title": "BILIBILI GAMING vs Beijing JDG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1609,7 +1769,8 @@
       "title": "WeiboGaming vs Shenzhen NINJAS IN PYJAMAS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1619,7 +1780,8 @@
       "title": "LGD GAMING vs TOP ESPORTS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1629,7 +1791,8 @@
       "title": "BILIBILI GAMING vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1639,7 +1802,8 @@
       "title": "EDWARD GAMING vs LGD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1649,7 +1813,8 @@
       "title": "Xi'an Team WE vs TOP ESPORTS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1659,7 +1824,8 @@
       "title": "Beijing JDG Esports vs Anyone's Legend",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1669,7 +1835,8 @@
       "title": "Shenzhen NINJAS IN PYJAMAS vs Suzhou LNG Esports",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1679,7 +1846,8 @@
       "title": "Anyone's Legend vs THUNDER TALK GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1689,7 +1857,8 @@
       "title": "BILIBILI GAMING vs Xi'an Team WE",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1699,7 +1868,8 @@
       "title": "Beijing JDG Esports vs LGD GAMING",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1709,7 +1879,8 @@
       "title": "WeiboGaming vs Invictus Gaming",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1719,7 +1890,8 @@
       "title": "EDWARD GAMING vs TOP ESPORTS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 4"
+      "description": "LPL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LPL",
@@ -1729,7 +1901,8 @@
       "title": "Anyone's Legend vs TOP ESPORTS",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "LPL: Week 5"
+      "description": "LPL: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1739,7 +1912,8 @@
       "title": "FURIA vs LOS",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 1"
+      "description": "CBLOL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1749,7 +1923,8 @@
       "title": "paiN Gaming vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 1"
+      "description": "CBLOL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1759,7 +1934,8 @@
       "title": "LEVIAT\u00c1N vs Fluxo W7M",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 1"
+      "description": "CBLOL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1769,7 +1945,8 @@
       "title": "Vivo Keyd Stars vs RED Kalunga",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 1"
+      "description": "CBLOL: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1779,7 +1956,8 @@
       "title": "Vivo Keyd Stars vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 2"
+      "description": "CBLOL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1789,7 +1967,8 @@
       "title": "LEVIAT\u00c1N vs paiN Gaming",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 2"
+      "description": "CBLOL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1799,7 +1978,8 @@
       "title": "Fluxo W7M vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 2"
+      "description": "CBLOL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1809,7 +1989,8 @@
       "title": "LOS vs RED Kalunga",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 2"
+      "description": "CBLOL: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1819,7 +2000,8 @@
       "title": "Vivo Keyd Stars vs Fluxo W7M",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1829,7 +2011,8 @@
       "title": "FURIA vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1839,7 +2022,8 @@
       "title": "RED Kalunga vs paiN Gaming",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1849,7 +2033,8 @@
       "title": "LOS vs LEVIAT\u00c1N",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1859,7 +2044,8 @@
       "title": "LOUD vs Vivo Keyd Stars",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1869,7 +2055,8 @@
       "title": "Fluxo W7M vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1879,7 +2066,8 @@
       "title": "LEVIAT\u00c1N vs RED Kalunga",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1889,7 +2077,8 @@
       "title": "LOS vs paiN Gaming",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 3"
+      "description": "CBLOL: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1899,7 +2088,8 @@
       "title": "FURIA vs RED Kalunga",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 4"
+      "description": "CBLOL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1909,7 +2099,8 @@
       "title": "Vivo Keyd Stars vs LOS",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 4"
+      "description": "CBLOL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1919,7 +2110,8 @@
       "title": "LOUD vs LEVIAT\u00c1N",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 4"
+      "description": "CBLOL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1929,7 +2121,8 @@
       "title": "paiN Gaming vs Fluxo W7M",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 4"
+      "description": "CBLOL: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1939,7 +2132,8 @@
       "title": "LEVIAT\u00c1N vs Vivo Keyd Stars",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 5"
+      "description": "CBLOL: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1949,7 +2143,8 @@
       "title": "paiN Gaming vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 5"
+      "description": "CBLOL: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1959,7 +2154,8 @@
       "title": "RED Kalunga vs Fluxo W7M",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 5"
+      "description": "CBLOL: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "CBLOL",
@@ -1969,7 +2165,8 @@
       "title": "LOS vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "CBLOL: Week 5"
+      "description": "CBLOL: Week 5 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LJL",
@@ -1979,7 +2176,8 @@
       "title": "RAYN Clocks vs L Guide Gaming",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -1989,7 +2187,8 @@
       "title": "New Meta vs Arneb",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -1999,7 +2198,8 @@
       "title": "FENNEL vs L Guide Gaming",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -2009,7 +2209,8 @@
       "title": "New Meta vs UWinks",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -2019,7 +2220,8 @@
       "title": "Arneb vs RAYN Clocks",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -2029,7 +2231,8 @@
       "title": "L Guide Gaming vs Arneb",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -2039,7 +2242,8 @@
       "title": "FENNEL vs New Meta",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LJL",
@@ -2049,7 +2253,8 @@
       "title": "L Guide Gaming vs UWinks",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "LJL: Playoffs"
+      "description": "LJL: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2059,7 +2264,8 @@
       "title": "MVK Esports vs Ground Zero Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2069,7 +2275,8 @@
       "title": "Team Secret Whales vs Fukuoka SoftBank HAWKS gaming",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2079,7 +2286,8 @@
       "title": "DetonatioN FocusMe vs GAM Esports",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2089,7 +2297,8 @@
       "title": "Relove Deep Cross Gaming vs CTBC Flying Oyster",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2099,7 +2308,8 @@
       "title": "Fukuoka SoftBank HAWKS gaming vs DetonatioN FocusMe",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2109,7 +2319,8 @@
       "title": "Relove Deep Cross Gaming vs Ground Zero Gaming",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2119,7 +2330,8 @@
       "title": "Team Secret Whales vs MVK Esports",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2129,7 +2341,8 @@
       "title": "CTBC Flying Oyster vs GAM Esports",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2139,7 +2352,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2149,7 +2363,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "LCP",
@@ -2159,7 +2374,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2169,7 +2385,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2179,7 +2396,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2189,7 +2407,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2199,7 +2418,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2209,7 +2429,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Swiss"
+      "description": "LCP: Swiss \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2219,7 +2440,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Play-Ins"
+      "description": "LCP: Play-Ins \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2229,7 +2451,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Play-Ins"
+      "description": "LCP: Play-Ins \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2239,7 +2462,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Play-Ins"
+      "description": "LCP: Play-Ins \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2249,7 +2473,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Playoffs"
+      "description": "LCP: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2259,7 +2484,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Playoffs"
+      "description": "LCP: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2269,7 +2495,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Playoffs"
+      "description": "LCP: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "LCP",
@@ -2279,7 +2506,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "LCP: Playoffs"
+      "description": "LCP: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "NLC",
@@ -2289,7 +2517,8 @@
       "title": "Brod & Friends vs Bulldog Esports",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2299,7 +2528,8 @@
       "title": "Verdant vs Absolved",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2309,7 +2539,8 @@
       "title": "Bardicted to U vs Lundqvist Lightside",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2319,7 +2550,8 @@
       "title": "Arctic Pandas vs S\u00f8rby Esports",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2329,7 +2561,8 @@
       "title": "DMG Esports vs Epic Avalanche",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2339,7 +2572,8 @@
       "title": "Rich Gang vs Ruddy Corporation",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2349,7 +2583,8 @@
       "title": "Deer Gaming vs 2 Massive",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2359,7 +2594,8 @@
       "title": "VES vs Lund Esports Organization",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2369,7 +2605,8 @@
       "title": "Ruddy Corporation vs VES",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2379,7 +2616,8 @@
       "title": "Deer Gaming vs Epic Avalanche",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2389,7 +2627,8 @@
       "title": "Verdant vs Lundqvist Lightside",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2399,7 +2638,8 @@
       "title": "Arctic Pandas vs Bulldog Esports",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2409,7 +2649,8 @@
       "title": "Bardicted to U vs Absolved",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2419,7 +2660,8 @@
       "title": "Rich Gang vs Lund Esports Organization",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2429,7 +2671,8 @@
       "title": "DMG Esports vs 2 Massive",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2439,7 +2682,8 @@
       "title": "Brod & Friends vs S\u00f8rby Esports",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2449,7 +2693,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2459,7 +2704,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2469,7 +2715,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2479,7 +2726,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2489,7 +2737,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2499,7 +2748,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2509,7 +2759,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2519,7 +2770,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2529,7 +2781,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2539,7 +2792,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2549,7 +2803,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2559,7 +2814,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2569,7 +2825,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2579,7 +2836,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2589,7 +2847,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2599,7 +2858,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2609,7 +2869,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Swiss"
+      "description": "NLC: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2619,7 +2880,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Playoffs"
+      "description": "NLC: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2629,7 +2891,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Playoffs"
+      "description": "NLC: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2639,7 +2902,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Playoffs"
+      "description": "NLC: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2649,7 +2913,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Playoffs"
+      "description": "NLC: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2659,7 +2924,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Playoffs"
+      "description": "NLC: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "NLC",
@@ -2669,7 +2935,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "NLC: Playoffs"
+      "description": "NLC: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2679,7 +2946,8 @@
       "title": "FURIA vs Leviat\u00e1n Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 1"
+      "description": "VCT Americas: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2689,7 +2957,8 @@
       "title": "Sentinels vs Cloud9",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 1"
+      "description": "VCT Americas: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2699,7 +2968,8 @@
       "title": "ENVY vs Evil Geniuses",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 1"
+      "description": "VCT Americas: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2709,7 +2979,8 @@
       "title": "KR\u00dc Visa vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 1"
+      "description": "VCT Americas: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2719,7 +2990,8 @@
       "title": "G2 Esports vs 100 Thieves",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 1"
+      "description": "VCT Americas: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2729,7 +3001,8 @@
       "title": "NRG vs MIBR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 1"
+      "description": "VCT Americas: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2739,7 +3012,8 @@
       "title": "Leviat\u00e1n Esports vs Evil Geniuses",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2749,7 +3023,8 @@
       "title": "ENVY vs MIBR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2759,7 +3034,8 @@
       "title": "NRG vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2769,7 +3045,8 @@
       "title": "100 Thieves vs KR\u00dc Visa",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2779,7 +3056,8 @@
       "title": "G2 Esports vs Cloud9",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2789,7 +3067,8 @@
       "title": "LOUD vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2799,7 +3078,8 @@
       "title": "Leviat\u00e1n Esports vs ENVY",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2809,7 +3089,8 @@
       "title": "FURIA vs MIBR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 2"
+      "description": "VCT Americas: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2819,7 +3100,8 @@
       "title": "KR\u00dc Visa vs G2 Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2829,7 +3111,8 @@
       "title": "100 Thieves vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2839,7 +3122,8 @@
       "title": "Cloud9 vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2849,7 +3133,8 @@
       "title": "Evil Geniuses vs MIBR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2859,7 +3144,8 @@
       "title": "ENVY vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2869,7 +3155,8 @@
       "title": "Leviat\u00e1n Esports vs NRG",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2879,7 +3166,8 @@
       "title": "Cloud9 vs KR\u00dc Visa",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2889,7 +3177,8 @@
       "title": "G2 Esports vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 3"
+      "description": "VCT Americas: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2899,7 +3188,8 @@
       "title": "Evil Geniuses vs FURIA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2909,7 +3199,8 @@
       "title": "ENVY vs NRG",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2919,7 +3210,8 @@
       "title": "100 Thieves vs Cloud9",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2929,7 +3221,8 @@
       "title": "G2 Esports vs LOUD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2939,7 +3232,8 @@
       "title": "KR\u00dc Visa vs Sentinels",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2949,7 +3243,8 @@
       "title": "Leviat\u00e1n Esports vs MIBR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2959,7 +3254,8 @@
       "title": "Evil Geniuses vs NRG",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2969,7 +3265,8 @@
       "title": "LOUD vs 100 Thieves",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Week 4"
+      "description": "VCT Americas: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2979,7 +3276,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2989,7 +3287,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -2999,7 +3298,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3009,7 +3309,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3019,7 +3320,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3029,7 +3331,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3039,7 +3342,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3049,7 +3353,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3059,7 +3364,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3069,7 +3375,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3079,7 +3386,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3089,7 +3397,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3099,7 +3408,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3109,7 +3419,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3119,7 +3430,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3129,7 +3441,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3139,7 +3452,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3149,7 +3463,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Play-Ins"
+      "description": "VCT Americas: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3159,7 +3474,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Playoffs"
+      "description": "VCT Americas: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Americas",
@@ -3169,7 +3485,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "VCT Americas: Playoffs"
+      "description": "VCT Americas: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3179,7 +3496,8 @@
       "title": "ROSO GC vs Cloud9 GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3189,7 +3507,8 @@
       "title": "Revitalize GC vs Shopify Rebellion Gold",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3199,7 +3518,8 @@
       "title": "The Spiders vs SEN Otters",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3209,7 +3529,8 @@
       "title": "FlyQuest RED vs Ora Temper",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3219,7 +3540,8 @@
       "title": ":3 vs SaD GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3229,7 +3551,8 @@
       "title": "Eternal Focus Amethyst vs SwimTrek Blue",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3239,7 +3562,8 @@
       "title": "MVSK Secret vs HIMMERS",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3249,7 +3573,8 @@
       "title": "Axolotl vs Los Chudeles",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3259,7 +3584,8 @@
       "title": "SEN Otters vs Shopify Rebellion Gold",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3269,7 +3595,8 @@
       "title": "FlyQuest RED vs Cloud9 GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3279,7 +3606,8 @@
       "title": "Revitalize GC vs Ora Temper",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3289,7 +3617,8 @@
       "title": "HIMMERS vs Eternal Focus Amethyst",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3299,7 +3628,8 @@
       "title": "MVSK Secret vs Axolotl",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3309,7 +3639,8 @@
       "title": "SwimTrek Blue vs SaD GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3319,7 +3650,8 @@
       "title": ":3 vs The Spiders",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3329,7 +3661,8 @@
       "title": "Los Chudeles vs ROSO GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3339,7 +3672,8 @@
       "title": "Shopify Rebellion Gold vs SwimTrek Blue",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3349,7 +3683,8 @@
       "title": "Ora Temper vs SaD GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3359,7 +3694,8 @@
       "title": "The Spiders vs Cloud9 GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3369,7 +3705,8 @@
       "title": "FlyQuest RED vs Axolotl",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3379,7 +3716,8 @@
       "title": ":3 vs Revitalize GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3389,7 +3727,8 @@
       "title": "Los Chudeles vs Eternal Focus Amethyst",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3399,7 +3738,8 @@
       "title": "SEN Otters vs MVSK Secret",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3409,7 +3749,8 @@
       "title": "ROSO GC vs HIMMERS",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3419,7 +3760,8 @@
       "title": "FlyQuest RED vs SwimTrek Blue",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3429,7 +3771,8 @@
       "title": "Ora Temper vs Shopify Rebellion Gold",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3439,7 +3782,8 @@
       "title": "Axolotl vs SEN Otters",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3449,7 +3793,8 @@
       "title": "HIMMERS vs The Spiders",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3459,7 +3804,8 @@
       "title": "Los Chudeles vs SaD GC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3469,7 +3815,8 @@
       "title": "ROSO GC vs MVSK Secret",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3479,7 +3826,8 @@
       "title": "Revitalize GC vs Eternal Focus Amethyst",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3489,7 +3837,8 @@
       "title": "Cloud9 GC vs :3",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3499,7 +3848,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3509,7 +3859,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3519,7 +3870,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3529,7 +3881,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3539,7 +3892,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3549,7 +3903,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3559,7 +3914,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3569,7 +3925,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3579,7 +3936,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3589,7 +3947,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3599,7 +3958,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3609,7 +3969,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3619,7 +3980,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers NA",
@@ -3629,7 +3991,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Game Changers NA: Swiss"
+      "description": "Game Changers NA: Swiss \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -3639,7 +4002,8 @@
       "title": "Shopify Rebellion Black vs 2GAME",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Last Chance Qualifier Americas: Round 1"
+      "description": "Last Chance Qualifier Americas: Round 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -3649,7 +4013,8 @@
       "title": "Shopify Rebellion Black vs Bon Bon Bum Contra",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Last Chance Qualifier Americas: Round 1"
+      "description": "Last Chance Qualifier Americas: Round 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -3659,7 +4024,8 @@
       "title": "2GAME vs Bon Bon Bum Contra",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Last Chance Qualifier Americas: Round 1"
+      "description": "Last Chance Qualifier Americas: Round 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -3669,7 +4035,8 @@
       "title": "Shopify Rebellion Black vs 2GAME",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Last Chance Qualifier Americas: Finals"
+      "description": "Last Chance Qualifier Americas: Finals \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "VCT EMEA",
@@ -3679,7 +4046,8 @@
       "title": "FUT Esports vs NAVI",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3689,7 +4057,8 @@
       "title": "Team Liquid vs Eternal Fire",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3699,7 +4068,8 @@
       "title": "FNATIC vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3709,7 +4079,8 @@
       "title": "Gentle Mates vs PCIFIC Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3719,7 +4090,8 @@
       "title": "Eternal Fire vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3729,7 +4101,8 @@
       "title": "Team Vitality vs NAVI",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3739,7 +4112,8 @@
       "title": "FUT Esports vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3749,7 +4123,8 @@
       "title": "Team Heretics vs Team Liquid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3759,7 +4134,8 @@
       "title": "Karmine Corp vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3769,7 +4145,8 @@
       "title": "Team Vitality vs BBL Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 1"
+      "description": "VCT EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3779,7 +4156,8 @@
       "title": "PCIFIC Esports vs FUT Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3789,7 +4167,8 @@
       "title": "FNATIC vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3799,7 +4178,8 @@
       "title": "Eternal Fire vs Team Heretics",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3809,7 +4189,8 @@
       "title": "Gentle Mates vs NAVI",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3819,7 +4200,8 @@
       "title": "FUT Esports vs BBL Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3829,7 +4211,8 @@
       "title": "FNATIC vs Team Liquid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3839,7 +4222,8 @@
       "title": "Team Vitality vs PCIFIC Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3849,7 +4233,8 @@
       "title": "Eternal Fire vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3859,7 +4244,8 @@
       "title": "NAVI vs BBL Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3869,7 +4255,8 @@
       "title": "Team Heretics vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 2"
+      "description": "VCT EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3879,7 +4266,8 @@
       "title": "Team Liquid vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3889,7 +4277,8 @@
       "title": "Gentle Mates vs Team Vitality",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3899,7 +4288,8 @@
       "title": "NAVI vs PCIFIC Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3909,7 +4299,8 @@
       "title": "Eternal Fire vs FNATIC",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3919,7 +4310,8 @@
       "title": "BBL Esports vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3929,7 +4321,8 @@
       "title": "GIANTX vs Team Heretics",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3939,7 +4332,8 @@
       "title": "FUT Esports vs Team Vitality",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3949,7 +4343,8 @@
       "title": "Karmine Corp vs Team Liquid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3959,7 +4354,8 @@
       "title": "BBL Esports vs PCIFIC Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3969,7 +4365,8 @@
       "title": "FNATIC vs Team Heretics",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Week 3"
+      "description": "VCT EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3979,7 +4376,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3989,7 +4387,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -3999,7 +4398,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4009,7 +4409,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4019,7 +4420,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4029,7 +4431,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4039,7 +4442,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4049,7 +4453,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4059,7 +4464,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4069,7 +4475,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4079,7 +4486,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4089,7 +4497,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4099,7 +4508,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4109,7 +4519,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4119,7 +4530,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4129,7 +4541,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4139,7 +4552,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4149,7 +4563,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Play-Ins"
+      "description": "VCT EMEA: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4159,7 +4574,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4169,7 +4585,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4179,7 +4596,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4189,7 +4607,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4199,7 +4618,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4209,7 +4629,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4219,7 +4640,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4229,7 +4651,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT EMEA",
@@ -4239,7 +4662,19 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "VCT EMEA: Playoffs"
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
+      "start": "2026-08-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4249,7 +4684,8 @@
       "title": "Gentle Mates vs G2 Gozen",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4259,7 +4695,8 @@
       "title": "SK Nebula vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4269,7 +4706,8 @@
       "title": "Karmine Corp vs Twisted Minds Orchid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4279,7 +4717,8 @@
       "title": "Bar\u00e7a eSports vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4289,7 +4728,8 @@
       "title": "G2 Gozen vs Habos Babos",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4299,7 +4739,8 @@
       "title": "FOKUS Sakura vs Twisted Minds Orchid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4309,7 +4750,8 @@
       "title": "SK Nebula vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4319,7 +4761,8 @@
       "title": "SK Nebula vs Bar\u00e7a eSports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4329,7 +4772,8 @@
       "title": "FOKUS Sakura vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4339,7 +4783,8 @@
       "title": "Habos Babos vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4349,7 +4794,8 @@
       "title": "ALTERNATE aTTaX Ruby vs Twisted Minds Orchid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4359,7 +4805,8 @@
       "title": "Gentle Mates vs Habos Babos",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4369,7 +4816,8 @@
       "title": "FOKUS Sakura vs Bar\u00e7a eSports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4379,7 +4827,8 @@
       "title": "ALTERNATE aTTaX Ruby vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4389,7 +4838,8 @@
       "title": "Twisted Minds Orchid vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 1"
+      "description": "Game Changers EMEA: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4399,7 +4849,8 @@
       "title": "Gentle Mates vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4409,7 +4860,8 @@
       "title": "Bar\u00e7a eSports vs Habos Babos",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4419,7 +4871,8 @@
       "title": "G2 Gozen vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4429,7 +4882,8 @@
       "title": "G2 Gozen vs FOKUS Sakura",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4439,7 +4893,8 @@
       "title": "Karmine Corp vs Bar\u00e7a eSports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4449,7 +4904,8 @@
       "title": "Twisted Minds Orchid vs Habos Babos",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4459,7 +4915,8 @@
       "title": "SK Nebula vs ALTERNATE aTTaX Ruby",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4469,7 +4926,8 @@
       "title": "Game Changers EMEA",
       "stream_platform": null,
       "stream_channel": null,
-      "description": "Game Changers EMEA"
+      "description": "Game Changers EMEA",
+      "best_of": null
     },
     {
       "league": "Game Changers EMEA",
@@ -4479,7 +4937,8 @@
       "title": "SK Nebula vs G2 Gozen",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4489,7 +4948,8 @@
       "title": "Gentle Mates vs FOKUS Sakura",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4499,7 +4959,8 @@
       "title": "Bar\u00e7a eSports vs ALTERNATE aTTaX Ruby",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4509,7 +4970,8 @@
       "title": "Habos Babos vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4519,7 +4981,8 @@
       "title": "Habos Babos vs SK Nebula",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4529,7 +4992,8 @@
       "title": "Bar\u00e7a eSports vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4539,7 +5003,8 @@
       "title": "ALTERNATE aTTaX Ruby vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4549,7 +5014,8 @@
       "title": "Twisted Minds Orchid vs G2 Gozen",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 2"
+      "description": "Game Changers EMEA: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4559,7 +5025,8 @@
       "title": "FOKUS Sakura vs SK Nebula",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4569,7 +5036,8 @@
       "title": "Karmine Corp vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4579,7 +5047,8 @@
       "title": "Bar\u00e7a eSports vs Twisted Minds Orchid",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4589,7 +5058,8 @@
       "title": "ALTERNATE aTTaX Ruby vs G2 Gozen",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4599,7 +5069,8 @@
       "title": "FOKUS Sakura vs Karmine Corp",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4609,7 +5080,8 @@
       "title": "Bar\u00e7a eSports vs G2 Gozen",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4619,7 +5091,8 @@
       "title": "Twisted Minds Orchid vs SK Nebula",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4629,7 +5102,8 @@
       "title": "ALTERNATE aTTaX Ruby vs Habos Babos",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4639,7 +5113,8 @@
       "title": "GIANTX vs G2 Gozen",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4649,7 +5124,8 @@
       "title": "Karmine Corp vs SK Nebula",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4659,7 +5135,8 @@
       "title": "Twisted Minds Orchid vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4669,7 +5146,8 @@
       "title": "ALTERNATE aTTaX Ruby vs FOKUS Sakura",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4679,7 +5157,8 @@
       "title": "FOKUS Sakura vs Habos Babos",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4689,7 +5168,8 @@
       "title": "Karmine Corp vs GIANTX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4699,7 +5179,8 @@
       "title": "ALTERNATE aTTaX Ruby vs Gentle Mates",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Week 3"
+      "description": "Game Changers EMEA: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4709,7 +5190,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Play In Knockouts"
+      "description": "Game Changers EMEA: Play In Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4719,7 +5201,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Play In Knockouts"
+      "description": "Game Changers EMEA: Play In Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4729,7 +5212,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Play In Knockouts"
+      "description": "Game Changers EMEA: Play In Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4739,7 +5223,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Play In Knockouts"
+      "description": "Game Changers EMEA: Play In Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4749,7 +5234,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Play In Knockouts"
+      "description": "Game Changers EMEA: Play In Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4759,7 +5245,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Play In Knockouts"
+      "description": "Game Changers EMEA: Play In Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4769,7 +5256,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4779,7 +5267,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4789,7 +5278,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4799,7 +5289,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4809,7 +5300,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4819,7 +5311,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4829,7 +5322,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4839,7 +5333,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4849,7 +5344,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4859,7 +5355,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4869,7 +5366,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4879,7 +5377,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
@@ -4889,7 +5388,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Game Changers EMEA: Playoffs"
+      "description": "Game Changers EMEA: Playoffs \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4899,7 +5399,8 @@
       "title": "Cilekler vs MISA Espo\u0131rts",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4909,7 +5410,8 @@
       "title": "Formulation Gaming vs FOKUS Clan",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4919,7 +5421,8 @@
       "title": "Fire Flux Esports vs MIR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4929,7 +5432,8 @@
       "title": "La Masia vs Mandatory",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4939,7 +5443,8 @@
       "title": "Pixel Lumina vs Twisted Saints Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4949,7 +5454,8 @@
       "title": "CGN Esports vs Be\u015fikta\u015f Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4959,7 +5465,8 @@
       "title": "Eintracht Frankfurt vs UCAM Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4969,7 +5476,8 @@
       "title": "Ghools Esports vs Bar\u00e7a Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4979,7 +5487,8 @@
       "title": "Pixel Lumina vs FOKUS Clan",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4989,7 +5498,8 @@
       "title": "CGN Esports vs Fire Flux Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -4999,7 +5509,8 @@
       "title": "Eintracht Frankfurt vs Mandatory",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5009,7 +5520,8 @@
       "title": "Bar\u00e7a Esports vs Cilekler",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5019,7 +5531,8 @@
       "title": "Twisted Saints Esports vs Formulation Gaming",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5029,7 +5542,8 @@
       "title": "Be\u015fikta\u015f Esports vs MIR",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5039,7 +5553,8 @@
       "title": "UCAM Esports vs La Masia",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5049,7 +5564,8 @@
       "title": "Ghools Esports vs MISA Espo\u0131rts",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5059,7 +5575,8 @@
       "title": "Twisted Saints Esports vs FOKUS Clan",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5069,7 +5586,8 @@
       "title": "MIR vs CGN Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5079,7 +5597,8 @@
       "title": "UCAM Esports vs Mandatory",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5089,7 +5608,8 @@
       "title": "MISA Espo\u0131rts vs Cilekler",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Groups"
+      "description": "Last Chance Qualifier EMEA: Groups \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5099,7 +5619,8 @@
       "title": "CGN Esports vs Pixel Lumina",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Quarterfinals"
+      "description": "Last Chance Qualifier EMEA: Quarterfinals \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5109,7 +5630,8 @@
       "title": "Cilekler vs Fire Flux Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Quarterfinals"
+      "description": "Last Chance Qualifier EMEA: Quarterfinals \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5119,7 +5641,8 @@
       "title": "FOKUS Clan vs Eintracht Frankfurt",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Quarterfinals"
+      "description": "Last Chance Qualifier EMEA: Quarterfinals \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5129,7 +5652,8 @@
       "title": "Mandatory vs Bar\u00e7a Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Quarterfinals"
+      "description": "Last Chance Qualifier EMEA: Quarterfinals \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5139,7 +5663,8 @@
       "title": "Cilekler vs CGN Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Semifinals"
+      "description": "Last Chance Qualifier EMEA: Semifinals \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5149,7 +5674,8 @@
       "title": "Mandatory vs Eintracht Frankfurt",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Semifinals"
+      "description": "Last Chance Qualifier EMEA: Semifinals \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -5159,7 +5685,8 @@
       "title": "Eintracht Frankfurt vs Cilekler",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Last Chance Qualifier EMEA: Finals"
+      "description": "Last Chance Qualifier EMEA: Finals \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "VCT Pacific",
@@ -5169,7 +5696,8 @@
       "title": "Gen.G  vs ZETA DIVISION",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5179,7 +5707,8 @@
       "title": "VARREL vs Team Secret",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5189,7 +5718,8 @@
       "title": "FULL SENSE vs NONGSHIM REDFORCE",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5199,7 +5729,8 @@
       "title": "Kiwoom DRX vs DetonatioN FocusMe",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5209,7 +5740,8 @@
       "title": "GLOBAL ESPORTS vs Rex Regum Qeon",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5219,7 +5751,8 @@
       "title": "Paper Rex vs T1",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5229,7 +5762,8 @@
       "title": "NONGSHIM REDFORCE vs Gen.G ",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5239,7 +5773,8 @@
       "title": "Team Secret vs Kiwoom DRX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 1"
+      "description": "VCT Pacific: Week 1 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5249,7 +5784,8 @@
       "title": "GLOBAL ESPORTS vs FULL SENSE",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5259,7 +5795,8 @@
       "title": "T1 vs VARREL",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5269,7 +5806,8 @@
       "title": "Rex Regum Qeon vs ZETA DIVISION",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5279,7 +5817,8 @@
       "title": "DetonatioN FocusMe vs Paper Rex",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5289,7 +5828,8 @@
       "title": "GLOBAL ESPORTS vs NONGSHIM REDFORCE",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5299,7 +5839,8 @@
       "title": "Team Secret vs T1",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5309,7 +5850,8 @@
       "title": "Paper Rex vs Kiwoom DRX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5319,7 +5861,8 @@
       "title": "Gen.G  vs Rex Regum Qeon",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 2"
+      "description": "VCT Pacific: Week 2 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5329,7 +5872,8 @@
       "title": "VARREL vs DetonatioN FocusMe",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5339,7 +5883,8 @@
       "title": "FULL SENSE vs ZETA DIVISION",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5349,7 +5894,8 @@
       "title": "Team Secret vs Paper Rex",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5359,7 +5905,8 @@
       "title": "GLOBAL ESPORTS vs Gen.G ",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5369,7 +5916,8 @@
       "title": "T1 vs DetonatioN FocusMe",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5379,7 +5927,8 @@
       "title": "FULL SENSE vs Rex Regum Qeon",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5389,7 +5938,8 @@
       "title": "VARREL vs Kiwoom DRX",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5399,7 +5949,8 @@
       "title": "ZETA DIVISION vs NONGSHIM REDFORCE",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 3"
+      "description": "VCT Pacific: Week 3 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5409,7 +5960,8 @@
       "title": "Team Secret vs DetonatioN FocusMe",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 4"
+      "description": "VCT Pacific: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5419,7 +5971,8 @@
       "title": "Gen.G  vs FULL SENSE",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 4"
+      "description": "VCT Pacific: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5429,7 +5982,8 @@
       "title": "Kiwoom DRX vs T1",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 4"
+      "description": "VCT Pacific: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5439,7 +5993,8 @@
       "title": "GLOBAL ESPORTS vs ZETA DIVISION",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 4"
+      "description": "VCT Pacific: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5449,7 +6004,8 @@
       "title": "VARREL vs Paper Rex",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 4"
+      "description": "VCT Pacific: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5459,7 +6015,8 @@
       "title": "NONGSHIM REDFORCE vs Rex Regum Qeon",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Week 4"
+      "description": "VCT Pacific: Week 4 \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5469,7 +6026,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5479,7 +6037,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5489,7 +6048,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5499,7 +6059,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5509,7 +6070,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5519,7 +6081,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5529,7 +6092,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5539,7 +6103,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5549,7 +6114,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5559,7 +6125,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5569,7 +6136,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5579,7 +6147,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5589,7 +6158,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5599,7 +6169,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5609,7 +6180,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5619,7 +6191,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5629,7 +6202,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5639,7 +6213,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Play-Ins"
+      "description": "VCT Pacific: Play-Ins \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5649,7 +6224,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Playoffs"
+      "description": "VCT Pacific: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5659,7 +6235,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Playoffs"
+      "description": "VCT Pacific: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5669,7 +6246,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Playoffs"
+      "description": "VCT Pacific: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5679,7 +6257,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Playoffs"
+      "description": "VCT Pacific: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5689,7 +6268,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Playoffs"
+      "description": "VCT Pacific: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "VCT Pacific",
@@ -5699,7 +6279,8 @@
       "title": "TBD vs TBD",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VCT Pacific: Playoffs"
+      "description": "VCT Pacific: Playoffs \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -5709,7 +6290,8 @@
       "title": "555 vs No Salary Peek",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Last Chance Qualifier Pacific: Knockouts"
+      "description": "Last Chance Qualifier Pacific: Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -5719,7 +6301,8 @@
       "title": "Fancy United Esports vs YiJing",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Last Chance Qualifier Pacific: Knockouts"
+      "description": "Last Chance Qualifier Pacific: Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -5729,7 +6312,8 @@
       "title": "555 vs Fancy United Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Last Chance Qualifier Pacific: Knockouts"
+      "description": "Last Chance Qualifier Pacific: Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -5739,7 +6323,8 @@
       "title": "YiJing vs No Salary Peek",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Last Chance Qualifier Pacific: Knockouts"
+      "description": "Last Chance Qualifier Pacific: Knockouts \u00b7 Bo3",
+      "best_of": 3
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -5749,7 +6334,8 @@
       "title": "555 vs YiJing",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Last Chance Qualifier Pacific: Knockouts"
+      "description": "Last Chance Qualifier Pacific: Knockouts \u00b7 Bo5",
+      "best_of": 5
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -5759,7 +6345,8 @@
       "title": "555 vs Fancy United Esports",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Last Chance Qualifier Pacific: Finals"
+      "description": "Last Chance Qualifier Pacific: Finals \u00b7 Bo5",
+      "best_of": 5
     }
   ]
 }
