@@ -1,12 +1,20 @@
-"""Tests for plugin._classify_matches, the live/upcoming bucketing that feeds
-allocator.assign_slots. Every test uses real-shaped match dicts (as they'd
-appear after JSON-decoding schedule.json) rather than stripped-down stand-ins."""
+"""Tests for plugin.py's pure helpers: _classify_matches (the live/upcoming
+bucketing that feeds allocator.assign_slots), _combined_priority (tiered
+priority settings), and _unranked_live_leagues (priority-list validation).
+Every test uses real-shaped match dicts (as they'd appear after
+JSON-decoding schedule.json) rather than stripped-down stand-ins."""
 
 from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
 
-from esportsarr.plugin import RESERVATION_GRACE_MINUTES, STALE_LIVE_GRACE_MINUTES, _classify_matches
+from esportsarr.plugin import (
+    RESERVATION_GRACE_MINUTES,
+    STALE_LIVE_GRACE_MINUTES,
+    _classify_matches,
+    _combined_priority,
+    _unranked_live_leagues,
+)
 
 GRACE = timedelta(minutes=RESERVATION_GRACE_MINUTES)
 STALE_LIVE_GRACE = timedelta(minutes=STALE_LIVE_GRACE_MINUTES)
@@ -148,3 +156,81 @@ def test_matches_across_multiple_games_are_bucketed_separately():
 
     assert live["lol"] == [lol_match]
     assert live["valorant"] == [valorant_match]
+
+
+def test_combined_priority_concatenates_tiers_in_order():
+    settings = {
+        "league_priority_valorant_international": "Champions,VALORANT Masters",
+        "league_priority_valorant_regional": "VCT Americas,VCT EMEA,VCT Pacific",
+        "league_priority_valorant_qualifiers": "Last Chance Qualifier Americas",
+    }
+    tier_keys = [
+        "league_priority_valorant_international",
+        "league_priority_valorant_regional",
+        "league_priority_valorant_qualifiers",
+    ]
+
+    assert _combined_priority(settings, tier_keys) == [
+        "Champions",
+        "VALORANT Masters",
+        "VCT Americas",
+        "VCT EMEA",
+        "VCT Pacific",
+        "Last Chance Qualifier Americas",
+    ]
+
+
+def test_combined_priority_skips_a_blank_tier():
+    settings = {
+        "league_priority_lol_international": "Worlds,MSI,First Stand",
+        "league_priority_lol_regional": "LCS,LEC,LCK,LPL",
+        "league_priority_lol_qualifiers": "",
+    }
+    tier_keys = ["league_priority_lol_international", "league_priority_lol_regional", "league_priority_lol_qualifiers"]
+
+    assert _combined_priority(settings, tier_keys) == ["Worlds", "MSI", "First Stand", "LCS", "LEC", "LCK", "LPL"]
+
+
+def test_unranked_live_leagues_is_empty_when_every_live_league_is_ranked():
+    matches = [
+        _match("VCT EMEA", "valorant", "2026-07-29T15:00:00+00:00", "in_progress", "Team Liquid vs GIANTX", "valorant_emea"),
+    ]
+    priority = ["VCT EMEA", "VCT Americas"]
+
+    assert _unranked_live_leagues(matches, "valorant", priority) == []
+
+
+def test_unranked_live_leagues_flags_a_typo_in_the_priority_list():
+    # Regression test for the real bug: "Game Changers Americas" was typed
+    # into the priority setting instead of Riot's actual league name "Game
+    # Changers NA". The typo itself never appears in schedule.json, but the
+    # correct name does -- and since it's absent from `priority`, it's
+    # exactly what should be flagged here.
+    matches = [
+        _match(
+            "Game Changers NA", "valorant", "2026-07-27T21:00:00+00:00", "in_progress", "Shopify Rebellion Gold vs SwimTrek Blue", "valorant_americas"
+        ),
+    ]
+    priority = ["VCT Americas", "Game Changers Americas"]
+
+    assert _unranked_live_leagues(matches, "valorant", priority) == ["Game Changers NA"]
+
+
+def test_unranked_live_leagues_ignores_matches_from_a_different_game():
+    matches = [
+        _match("LPL", "lol", "2026-07-29T09:00:00+00:00", "in_progress", "TOP ESPORTS vs LGD GAMING", "LPL_English"),
+    ]
+
+    assert _unranked_live_leagues(matches, "valorant", []) == []
+
+
+def test_unranked_live_leagues_deduplicates_and_sorts_multiple_unranked_leagues():
+    matches = [
+        _match("Game Changers EMEA", "valorant", "2026-07-29T15:00:00+00:00", "in_progress", "SK Nebula vs G2 Gozen", "valorant_emea"),
+        _match(
+            "Game Changers EMEA", "valorant", "2026-07-29T15:00:00+00:00", "in_progress", "Gentle Mates vs FOKUS Sakura", "valorant_emea"
+        ),
+        _match("Last Chance Qualifier EMEA", "valorant", "2026-07-08T15:00:00+00:00", "completed", "Cilekler vs MISA", "valorant_emea"),
+    ]
+
+    assert _unranked_live_leagues(matches, "valorant", []) == ["Game Changers EMEA", "Last Chance Qualifier EMEA"]

@@ -559,3 +559,97 @@ def test_project_schedule_claims_a_contended_match_only_once_its_slot_actually_f
 
 def test_project_schedule_on_no_matches_returns_empty_lists_per_slot():
     assert project_schedule(matches=[], slots=2, league_priority=VALORANT_PRIORITY, duration=THREE_HOURS) == [[], []]
+
+
+def test_project_schedule_without_lookahead_windows_starves_a_higher_priority_match_that_starts_mid_stream():
+    # Same scenario as the reservation-aware test below, but with the
+    # lookahead windows left at their zero defaults -- documents the bug
+    # the next test fixes: without reservation, a match arriving after
+    # lower-priority ones already sticky-locked every slot has to wait for
+    # one to naturally end, even though it outranks them.
+    giantx_vs_liquid = _match("VCT EMEA", "2026-07-29T15:00:00+00:00", "GIANTX vs Team Liquid", "valorant_emea")
+    sk_nebula_vs_g2_gozen = _match("Game Changers EMEA", "2026-07-29T15:00:00+00:00", "SK Nebula vs G2 Gozen", "valorant_emea")
+    fokus_vs_gentle_mates = _match(
+        "Game Changers EMEA", "2026-07-29T15:00:00+00:00", "FOKUS Sakura vs Gentle Mates", "valorant_emea"
+    )
+    gentle_mates_vs_vitality = _match("VCT EMEA", "2026-07-29T18:00:00+00:00", "Gentle Mates vs Team Vitality", "valorant_emea")
+    habos_babos_vs_giantx = _match("Game Changers EMEA", "2026-07-29T18:00:00+00:00", "Habos Babos vs GIANTX", "valorant_emea")
+    alternate_vs_barca = _match(
+        "Game Changers EMEA", "2026-07-29T18:00:00+00:00", "ALTERNATE aTTaX Ruby vs Barca eSports", "valorant_emea"
+    )
+    shopify_vs_2game = _match(
+        "Last Chance Qualifier Americas", "2026-07-29T19:00:00+00:00", "Shopify Rebellion Black vs 2GAME", "VALORANT_NorthAmerica"
+    )
+    priority = ["VCT EMEA", "Last Chance Qualifier Americas", "Game Changers EMEA"]
+
+    projected = project_schedule(
+        matches=[
+            giantx_vs_liquid,
+            sk_nebula_vs_g2_gozen,
+            fokus_vs_gentle_mates,
+            gentle_mates_vs_vitality,
+            habos_babos_vs_giantx,
+            alternate_vs_barca,
+            shopify_vs_2game,
+        ],
+        slots=3,
+        league_priority=priority,
+        duration=THREE_HOURS,
+    )
+
+    all_claims = [claim for slot in projected for claim in slot]
+    shopify_claims = [claimed_at for claimed_at, match in all_claims if match is shopify_vs_2game]
+    assert shopify_claims == [datetime.fromisoformat("2026-07-29T21:00:00+00:00")]
+
+
+def test_project_schedule_reserves_a_slot_ahead_of_time_so_a_higher_priority_match_is_not_starved_by_sticky_lower_priority_ones():
+    # Regression test for a real bug (2026-07-29): the guide showed "Shopify
+    # Rebellion Black vs 2GAME" (Last Chance Qualifier Americas) only from
+    # 17:00-18:00 EDT (21:00-22:00 UTC) instead of its real 15:00-18:00 EDT
+    # (19:00-22:00 UTC) window. At 18:00 UTC, VCT EMEA and two Game Changers
+    # EMEA matches all start at once and sticky-lock all 3 slots; LCQ, which
+    # outranks Game Changers EMEA, doesn't start until 19:00 and previously
+    # had nowhere to go until a slot naturally freed at 21:00. With the
+    # lookahead windows passed through (matching the real sync's settings),
+    # LCQ reserves a slot at the 18:00 tick and claims it the moment it
+    # actually goes live at its own real start, 19:00.
+    giantx_vs_liquid = _match("VCT EMEA", "2026-07-29T15:00:00+00:00", "GIANTX vs Team Liquid", "valorant_emea")
+    sk_nebula_vs_g2_gozen = _match("Game Changers EMEA", "2026-07-29T15:00:00+00:00", "SK Nebula vs G2 Gozen", "valorant_emea")
+    fokus_vs_gentle_mates = _match(
+        "Game Changers EMEA", "2026-07-29T15:00:00+00:00", "FOKUS Sakura vs Gentle Mates", "valorant_emea"
+    )
+    gentle_mates_vs_vitality = _match("VCT EMEA", "2026-07-29T18:00:00+00:00", "Gentle Mates vs Team Vitality", "valorant_emea")
+    habos_babos_vs_giantx = _match("Game Changers EMEA", "2026-07-29T18:00:00+00:00", "Habos Babos vs GIANTX", "valorant_emea")
+    alternate_vs_barca = _match(
+        "Game Changers EMEA", "2026-07-29T18:00:00+00:00", "ALTERNATE aTTaX Ruby vs Barca eSports", "valorant_emea"
+    )
+    shopify_vs_2game = _match(
+        "Last Chance Qualifier Americas", "2026-07-29T19:00:00+00:00", "Shopify Rebellion Black vs 2GAME", "VALORANT_NorthAmerica"
+    )
+    priority = ["VCT EMEA", "Last Chance Qualifier Americas", "Game Changers EMEA"]
+
+    projected = project_schedule(
+        matches=[
+            giantx_vs_liquid,
+            sk_nebula_vs_g2_gozen,
+            fokus_vs_gentle_mates,
+            gentle_mates_vs_vitality,
+            habos_babos_vs_giantx,
+            alternate_vs_barca,
+            shopify_vs_2game,
+        ],
+        slots=3,
+        league_priority=priority,
+        duration=THREE_HOURS,
+        narrow_lookahead=timedelta(hours=2),
+        wide_lookahead=timedelta(hours=3),
+    )
+
+    all_claims = [claim for slot in projected for claim in slot]
+    shopify_claims = [claimed_at for claimed_at, match in all_claims if match is shopify_vs_2game]
+    assert shopify_claims == [_at(shopify_vs_2game)]
+
+    for slot in projected:
+        for (_prev_claimed_at, prev_match), (claimed_at, _next_match) in zip(slot, slot[1:]):
+            prev_end = datetime.fromisoformat(prev_match["start"]) + THREE_HOURS
+            assert claimed_at >= prev_end

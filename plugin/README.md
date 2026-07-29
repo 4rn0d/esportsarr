@@ -147,14 +147,23 @@ one.
 
 ## Adjusting overflow/priority behavior
 
-`league_priority_lol` / `league_priority_valorant` (plugin settings, no code
-change needed) control which league keeps a slot when more matches are live
-simultaneously than there are slots. Earlier in the list = higher priority.
-By default the international/global events (Worlds/MSI/First Stand,
-Champions/VALORANT Masters/Game Changers Championship) are listed first, so
-they always outrank regional leagues. The string must match Riot's league
-`name` exactly (`python -m esportsarr.list_leagues --game <game>` in the
-scraper repo), e.g. `"Game Changers NA"`, not `"Game Changers Americas"`.
+Priority is split into three tiered settings per game -- e.g.
+`league_priority_lol_international` / `_regional` / `_qualifiers` (and the
+same three for Valorant) -- rather than one long comma list, so each field
+stays short and readable as leagues get added. Tiers rank International >
+Regional > Qualifiers; within a tier, earlier in that tier's list = higher
+priority. All three tiers are concatenated, in that order, before being fed
+to the allocator, so this is a pure UI reorganization -- the resulting
+priority order is identical to the old single-field layout. A league name
+must match Riot's `league` field exactly (`python -m esportsarr.list_leagues
+--game <game>` in the scraper repo), e.g. `"Game Changers NA"`, not
+`"Game Changers Americas"`.
+
+`sync_now`'s result includes a `priority_warnings` entry per game listing
+any league it saw live in this fetch that isn't in any of that game's three
+tiers -- catching both a forgotten entry and a typo'd one (a typo means the
+*correct* name shows up here as unranked, since it never matched what you
+typed).
 
 Assignment is sticky: a live match keeps its slot until it ends, even if a
 higher-priority match starts in the meantime. **This is never overridden,
@@ -192,6 +201,15 @@ already on that channel. It does not go blank while waiting.
 
 See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
 policy and edge cases, including the near-vs-far distinction.
+
+The week-ahead guide projection (`project_schedule`) replays these same
+near/far reservation windows at every simulated point in time, not just
+"now" -- confirmed as a real bug, 2026-07-29: Last Chance Qualifier Americas
+outranks Game Changers EMEA, but a match starting at 19:00 lost its first
+two hours in the guide because three lower-and-equal-priority matches had
+already sticky-locked all 3 slots at 18:00, an hour before LCQ's own start.
+Without replaying the reservation windows, the projection has no way to
+know LCQ deserved one of those slots before the fact.
 
 Riot's `state` field isn't reliable for every league tier (confirmed as a
 real bug, 2026-07-29: Game Changers EMEA matches stayed `"unstarted"` in

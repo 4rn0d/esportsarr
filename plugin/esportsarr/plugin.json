@@ -38,18 +38,58 @@
       "help_text": "Dispatcharr channel group the generic channels are created under."
     },
     {
-      "id": "league_priority_lol",
-      "label": "LoL league priority (comma-separated, highest first, INTL will always come first)",
-      "type": "string",
-      "default": "Worlds,MSI,First Stand,LCS,LEC,LCK,LPL",
-      "help_text": "When more LoL matches are live than there are slots, leagues earlier in this list keep a slot; later ones wait for a slot to free up."
+      "id": "_section_lol_priority",
+      "label": "League of Legends Priority",
+      "type": "info",
+      "help_text": "Each tier below is a comma-separated list of league names, highest priority first. Tiers themselves rank International > Regional > Qualifiers, so it's rarely necessary to move a league between tiers, only to reorder within one. A league name must exactly match Riot's (run 'python -m esportsarr.list_leagues --game lol' in the scraper repo). 'Sync Now' will warn about leagues it saw live that aren't listed in any tier."
     },
     {
-      "id": "league_priority_valorant",
-      "label": "Valorant league priority (comma-separated, highest first, INTL will always come first)",
+      "id": "league_priority_lol_international",
+      "label": "LoL: International leagues",
       "type": "string",
-      "default": "Champions,VALORANT Masters,Game Changers Championship,VCT Americas,VCT EMEA,VCT Pacific,Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,Game Changers NA,Game Changers EMEA,Game Changers Pacific",
-      "help_text": "Same as the LoL priority setting, for Valorant leagues. Must exactly match Riot's league name (run 'python -m esportsarr.list_leagues --game valorant' in the scraper repo), e.g. 'Game Changers NA', not 'Game Changers Americas'."
+      "default": "Worlds,MSI,First Stand",
+      "help_text": "Highest priority first. These always outrank every regional/qualifier league below."
+    },
+    {
+      "id": "league_priority_lol_regional",
+      "label": "LoL: Regional leagues",
+      "type": "string",
+      "default": "LCS,LEC,LCK,LPL",
+      "help_text": "Highest priority first, ranks below all International leagues and above all Qualifiers."
+    },
+    {
+      "id": "league_priority_lol_qualifiers",
+      "label": "LoL: Qualifiers / secondary leagues",
+      "type": "string",
+      "default": "",
+      "help_text": "Highest priority first, lowest tier overall. Leave blank if not applicable."
+    },
+    {
+      "id": "_section_valorant_priority",
+      "label": "Valorant Priority",
+      "type": "info",
+      "help_text": "Same structure as the LoL priority above: International > Regional > Qualifiers, each tier a comma-separated list ranked highest-first within itself."
+    },
+    {
+      "id": "league_priority_valorant_international",
+      "label": "Valorant: International leagues",
+      "type": "string",
+      "default": "Champions,VALORANT Masters,Game Changers Championship",
+      "help_text": "Highest priority first. These always outrank every regional/qualifier league below."
+    },
+    {
+      "id": "league_priority_valorant_regional",
+      "label": "Valorant: Regional leagues",
+      "type": "string",
+      "default": "VCT Americas,VCT EMEA,VCT Pacific",
+      "help_text": "Highest priority first, ranks below all International leagues and above all Qualifiers."
+    },
+    {
+      "id": "league_priority_valorant_qualifiers",
+      "label": "Valorant: Qualifiers / secondary leagues",
+      "type": "string",
+      "default": "Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,Game Changers NA,Game Changers EMEA,Game Changers Pacific",
+      "help_text": "Highest priority first, lowest tier overall. Must exactly match Riot's league name (run 'python -m esportsarr.list_leagues --game valorant' in the scraper repo), e.g. 'Game Changers NA', not 'Game Changers Americas'."
     },
     {
       "id": "reservation_lookahead_minutes",

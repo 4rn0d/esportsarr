@@ -117,11 +117,18 @@ def project_schedule(
     league_priority: list[str],
     duration: timedelta,
     initial_assignment: list[MatchDict | None] | None = None,
+    narrow_lookahead: timedelta = timedelta(),
+    wide_lookahead: timedelta = timedelta(),
 ) -> list[list[tuple[datetime, MatchDict]]]:
     """Replays assign_slots across a known future schedule instead of just
-    "now". Returns, per slot, `(claimed_at, match)` pairs -- claimed_at is
-    when the slot actually started showing that match, which can be later
-    than the match's own start if it had to wait out a contested slot."""
+    "now", applying the same near/far reservation windows the live sync
+    uses at each simulated point in time -- otherwise a match starting
+    mid-stream, after lower-priority matches already sticky-locked every
+    slot, would show starved in the guide even though it's high enough
+    priority to have reserved a slot ahead of time. Returns, per slot,
+    `(claimed_at, match)` pairs -- claimed_at is when the slot actually
+    started showing that match, which can be later than the match's own
+    start if it had to wait out a contested slot."""
     intervals = [
         (datetime.fromisoformat(m["start"]), datetime.fromisoformat(m["start"]) + duration, m) for m in matches
     ]
@@ -132,11 +139,15 @@ def project_schedule(
 
     for point in event_points:
         live_now = [m for start, end, m in intervals if start <= point < end]
+        near_upcoming = [m for start, _end, m in intervals if point < start <= point + narrow_lookahead]
+        far_upcoming = [m for start, _end, m in intervals if point < start <= point + wide_lookahead]
         running_assignment, _reserved_for, _overflow = assign_slots(
             live_matches=live_now,
             slots=slots,
             league_priority=league_priority,
             previous_assignment=running_assignment,
+            upcoming_matches=near_upcoming,
+            far_upcoming_matches=far_upcoming,
         )
         for slot_index, match in enumerate(running_assignment):
             per_slot_history[slot_index].append((point, match))

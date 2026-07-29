@@ -39,10 +39,12 @@ DEFAULT_SETTINGS = {
     "poll_interval_seconds": 60,
     "slots_per_game": 3,
     "channel_group_name": "Esports Multiplex",
-    "league_priority_lol": "Worlds,MSI,First Stand,LCS,LEC,LCK,LPL",
-    "league_priority_valorant": (
-        "Champions,VALORANT Masters,Game Changers Championship,"
-        "VCT Americas,VCT EMEA,VCT Pacific,"
+    "league_priority_lol_international": "Worlds,MSI,First Stand",
+    "league_priority_lol_regional": "LCS,LEC,LCK,LPL",
+    "league_priority_lol_qualifiers": "",
+    "league_priority_valorant_international": "Champions,VALORANT Masters,Game Changers Championship",
+    "league_priority_valorant_regional": "VCT Americas,VCT EMEA,VCT Pacific",
+    "league_priority_valorant_qualifiers": (
         "Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,"
         "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
     ),
@@ -60,9 +62,17 @@ DEFAULT_SETTINGS = {
     "youtube_stream_profile_name": "Twitcharr (ad-free, low-latency)",
 }
 
-GAME_PRIORITY_SETTING_KEYS = {
-    "lol": "league_priority_lol",
-    "valorant": "league_priority_valorant",
+# Priority is tiered (International > Regional > Qualifiers) across separate
+# settings fields rather than one long comma list, so growing either list
+# stays readable in the settings UI. Order within a tier still matters; order
+# across tiers is fixed by this key order, concatenated by _combined_priority.
+GAME_PRIORITY_TIER_KEYS = {
+    "lol": ["league_priority_lol_international", "league_priority_lol_regional", "league_priority_lol_qualifiers"],
+    "valorant": [
+        "league_priority_valorant_international",
+        "league_priority_valorant_regional",
+        "league_priority_valorant_qualifiers",
+    ],
 }
 
 REQUEST_TIMEOUT_SECONDS = 10
@@ -102,6 +112,22 @@ def _load_settings() -> dict:
 
 def _parse_priority(value: str) -> list[str]:
     return [item.strip() for item in value.split(",") if item.strip()]
+
+
+def _combined_priority(settings: dict, tier_keys: list[str]) -> list[str]:
+    combined: list[str] = []
+    for key in tier_keys:
+        combined.extend(_parse_priority(settings[key]))
+    return combined
+
+
+def _unranked_live_leagues(matches: list[dict[str, Any]], game: str, priority: list[str]) -> list[str]:
+    """Leagues seen live for `game` in this fetch that aren't in any priority
+    tier, so they're silently sorting last -- either a forgotten entry or a
+    typo elsewhere in the list (e.g. 'Game Changers Americas' instead of the
+    real 'Game Changers NA')."""
+    seen = {match["league"] for match in matches if match.get("game") == game and match.get("league")}
+    return sorted(seen - set(priority))
 
 
 def _job_lock(name: str, ttl_seconds: int = JOB_LOCK_TTL_SECONDS) -> str:
@@ -192,10 +218,14 @@ def _run_sync(settings: dict) -> dict:
         )
 
         results: dict[str, list[str | None] | str] = {}
+        priority_warnings: dict[str, list[str]] = {}
         guide_entries: list[dict] = []
-        for game, priority_key in GAME_PRIORITY_SETTING_KEYS.items():
+        for game, tier_keys in GAME_PRIORITY_TIER_KEYS.items():
             try:
-                priority = _parse_priority(settings[priority_key])
+                priority = _combined_priority(settings, tier_keys)
+                unranked_live = _unranked_live_leagues(matches, game, priority)
+                if unranked_live:
+                    priority_warnings[game] = unranked_live
                 slots = int(settings["slots_per_game"])
                 previous = _last_assignment.get(game)
 
@@ -216,6 +246,8 @@ def _run_sync(settings: dict) -> dict:
                     league_priority=priority,
                     duration=channel_sync.PROGRAMME_DURATION,
                     initial_assignment=assignment,
+                    narrow_lookahead=narrow_lookahead,
+                    wide_lookahead=wide_lookahead,
                 )
                 guide_entries.extend(channel_sync.build_guide_entries(game, projected_by_slot, now, projection_end))
 
@@ -233,7 +265,10 @@ def _run_sync(settings: dict) -> dict:
                 logger.exception("esportsarr: failed to write/refresh the guide")
 
         overall_status = "error" if any(isinstance(value, str) for value in results.values()) else "ok"
-        return {"status": overall_status, "assignment": results}
+        response = {"status": overall_status, "assignment": results}
+        if priority_warnings:
+            response["priority_warnings"] = priority_warnings
+        return response
     except Exception as exc:
         logger.exception("esportsarr: sync failed")
         return {"status": "error", "message": str(exc)}

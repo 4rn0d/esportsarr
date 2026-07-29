@@ -16,6 +16,14 @@ TRACKED_LEAGUES: tuple[League, ...] = (
     League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec"),
     League(display_name="LCK", game=Game.LOL, epg_channel_id="twitch.lck"),
     League(display_name="LPL", game=Game.LOL, epg_channel_id="youtube.LPL_English"),
+    League(display_name="CBLOL", game=Game.LOL, epg_channel_id="twitch.cblol"),
+    League(display_name="LJL", game=Game.LOL, epg_channel_id="twitch.leagueoflegendsjp"),
+    League(display_name="LCP", game=Game.LOL, epg_channel_id="twitch.lolpacificen"),
+
+    League(display_name="EMEA Masters", game=Game.LOL, epg_channel_id="twitch.emeamasters"),
+    League(display_name="LFL", game=Game.LOL, epg_channel_id="twitch.otplol_"),
+    League(display_name="Nexus League", game=Game.LOL, epg_channel_id="twitch.TeamTSKOfficiel"),
+    League(display_name="NLC", game=Game.LOL, epg_channel_id="twitch.NLCLoL"),
 
 
     League(display_name="Champions", game=Game.VALORANT, epg_channel_id="twitch.VALORANT"),
@@ -33,6 +41,8 @@ TRACKED_LEAGUES: tuple[League, ...] = (
     League(display_name="VCT Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
     League(display_name="Game Changers Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
     League(display_name="Last Chance Qualifier Pacific", game=Game.VALORANT, epg_channel_id="twitch.valorant_pacific"),
+
+    League(display_name="VCT China", game=Game.VALORANT, epg_channel_id="twitch.valorant_cn"),
 )
 
 
