@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T18:27:42.772724+00:00",
+  "generated_at": "2026-07-29T18:38:58.456991+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -4026,6 +4026,17 @@
       "stream_channel": "VALORANT_NorthAmerica",
       "description": "Last Chance Qualifier Americas: Round 1 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "Last Chance Qualifier Americas",
+      "game": "valorant",
+      "start": "2026-07-29T18:25:40.738000+00:00",
+      "state": "in_progress",
+      "title": "Last Chance Qualifier Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "Last Chance Qualifier Americas",
+      "best_of": null
     },
     {
       "league": "Last Chance Qualifier Americas",
