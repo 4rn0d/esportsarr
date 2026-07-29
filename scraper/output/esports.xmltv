@@ -25,906 +25,1508 @@
     <display-name>VCT Pacific</display-name>
   </channel>
   <programme start="20260801200000 +0000" stop="20260801230000 +0000" channel="twitch.lcs">
-    <title>Cloud9 Kia vs Dignitas</title>
+    <title lang="en">Cloud9 Kia vs Dignitas</title>
+    <desc lang="en">LCS: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801230000 +0000" stop="20260802020000 +0000" channel="twitch.lcs">
-    <title>Disguised vs FlyQuest</title>
+    <title lang="en">Disguised vs FlyQuest</title>
+    <desc lang="en">LCS: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802200000 +0000" stop="20260802230000 +0000" channel="twitch.lcs">
-    <title>LYON vs Shopify Rebellion</title>
+    <title lang="en">LYON vs Shopify Rebellion</title>
+    <desc lang="en">LCS: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802230000 +0000" stop="20260803020000 +0000" channel="twitch.lcs">
-    <title>Team Liquid Alienware vs Sentinels</title>
+    <title lang="en">Team Liquid Alienware vs Sentinels</title>
+    <desc lang="en">LCS: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808200000 +0000" stop="20260808230000 +0000" channel="twitch.lcs">
-    <title>Cloud9 Kia vs Disguised</title>
+    <title lang="en">Cloud9 Kia vs Disguised</title>
+    <desc lang="en">LCS: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808230000 +0000" stop="20260809020000 +0000" channel="twitch.lcs">
-    <title>Sentinels vs Shopify Rebellion</title>
+    <title lang="en">Sentinels vs Shopify Rebellion</title>
+    <desc lang="en">LCS: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809200000 +0000" stop="20260809230000 +0000" channel="twitch.lcs">
-    <title>Dignitas vs LYON</title>
+    <title lang="en">Dignitas vs LYON</title>
+    <desc lang="en">LCS: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809230000 +0000" stop="20260810020000 +0000" channel="twitch.lcs">
-    <title>FlyQuest vs Team Liquid Alienware</title>
+    <title lang="en">FlyQuest vs Team Liquid Alienware</title>
+    <desc lang="en">LCS: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815200000 +0000" stop="20260815230000 +0000" channel="twitch.lcs">
-    <title>Disguised vs Team Liquid Alienware</title>
+    <title lang="en">Disguised vs Team Liquid Alienware</title>
+    <desc lang="en">LCS: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815230000 +0000" stop="20260816020000 +0000" channel="twitch.lcs">
-    <title>Dignitas vs Shopify Rebellion</title>
+    <title lang="en">Dignitas vs Shopify Rebellion</title>
+    <desc lang="en">LCS: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816200000 +0000" stop="20260816230000 +0000" channel="twitch.lcs">
-    <title>Cloud9 Kia vs FlyQuest</title>
+    <title lang="en">Cloud9 Kia vs FlyQuest</title>
+    <desc lang="en">LCS: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816230000 +0000" stop="20260817020000 +0000" channel="twitch.lcs">
-    <title>LYON vs Sentinels</title>
+    <title lang="en">LYON vs Sentinels</title>
+    <desc lang="en">LCS: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822200000 +0000" stop="20260822230000 +0000" channel="twitch.lcs">
-    <title>Sentinels vs FlyQuest</title>
+    <title lang="en">Sentinels vs FlyQuest</title>
+    <desc lang="en">LCS: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822230000 +0000" stop="20260823020000 +0000" channel="twitch.lcs">
-    <title>Dignitas vs Disguised</title>
+    <title lang="en">Dignitas vs Disguised</title>
+    <desc lang="en">LCS: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823200000 +0000" stop="20260823230000 +0000" channel="twitch.lcs">
-    <title>Disguised vs Sentinels</title>
+    <title lang="en">Disguised vs Sentinels</title>
+    <desc lang="en">LCS: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823230000 +0000" stop="20260824020000 +0000" channel="twitch.lcs">
-    <title>Dignitas vs FlyQuest</title>
+    <title lang="en">Dignitas vs FlyQuest</title>
+    <desc lang="en">LCS: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731150000 +0000" stop="20260731180000 +0000" channel="twitch.lec">
-    <title>Team Heretics vs Team Vitality</title>
+    <title lang="en">Team Heretics vs Team Vitality</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731171500 +0000" stop="20260731201500 +0000" channel="twitch.lec">
-    <title>Shifters vs Movistar KOI</title>
+    <title lang="en">Shifters vs Movistar KOI</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801150000 +0000" stop="20260801180000 +0000" channel="twitch.lec">
-    <title>GIANTX vs SK Gaming</title>
+    <title lang="en">GIANTX vs SK Gaming</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801171500 +0000" stop="20260801201500 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs Karmine Corp</title>
+    <title lang="en">Natus Vincere vs Karmine Corp</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802150000 +0000" stop="20260802180000 +0000" channel="twitch.lec">
-    <title>SK Gaming vs G2 Esports</title>
+    <title lang="en">SK Gaming vs G2 Esports</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802171500 +0000" stop="20260802201500 +0000" channel="twitch.lec">
-    <title>Movistar KOI vs Fnatic</title>
+    <title lang="en">Movistar KOI vs Fnatic</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803150000 +0000" stop="20260803180000 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs Shifters</title>
+    <title lang="en">Natus Vincere vs Shifters</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803171500 +0000" stop="20260803201500 +0000" channel="twitch.lec">
-    <title>Team Heretics vs Karmine Corp</title>
+    <title lang="en">Team Heretics vs Karmine Corp</title>
+    <desc lang="en">LEC: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807150000 +0000" stop="20260807180000 +0000" channel="twitch.lec">
-    <title>Shifters vs GIANTX</title>
+    <title lang="en">Shifters vs GIANTX</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807171500 +0000" stop="20260807201500 +0000" channel="twitch.lec">
-    <title>Team Heretics vs Fnatic</title>
+    <title lang="en">Team Heretics vs Fnatic</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808150000 +0000" stop="20260808180000 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs SK Gaming</title>
+    <title lang="en">Natus Vincere vs SK Gaming</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808171500 +0000" stop="20260808201500 +0000" channel="twitch.lec">
-    <title>GIANTX vs Movistar KOI</title>
+    <title lang="en">GIANTX vs Movistar KOI</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809150000 +0000" stop="20260809180000 +0000" channel="twitch.lec">
-    <title>Team Heretics vs G2 Esports</title>
+    <title lang="en">Team Heretics vs G2 Esports</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809171500 +0000" stop="20260809201500 +0000" channel="twitch.lec">
-    <title>Fnatic vs Karmine Corp</title>
+    <title lang="en">Fnatic vs Karmine Corp</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810150000 +0000" stop="20260810180000 +0000" channel="twitch.lec">
-    <title>Team Vitality vs SK Gaming</title>
+    <title lang="en">Team Vitality vs SK Gaming</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810171500 +0000" stop="20260810201500 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs G2 Esports</title>
+    <title lang="en">Natus Vincere vs G2 Esports</title>
+    <desc lang="en">LEC: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814150000 +0000" stop="20260814180000 +0000" channel="twitch.lec">
-    <title>Shifters vs SK Gaming</title>
+    <title lang="en">Shifters vs SK Gaming</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814171500 +0000" stop="20260814201500 +0000" channel="twitch.lec">
-    <title>Team Vitality vs GIANTX</title>
+    <title lang="en">Team Vitality vs GIANTX</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815150000 +0000" stop="20260815180000 +0000" channel="twitch.lec">
-    <title>SK Gaming vs Fnatic</title>
+    <title lang="en">SK Gaming vs Fnatic</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815171500 +0000" stop="20260815201500 +0000" channel="twitch.lec">
-    <title>Shifters vs G2 Esports</title>
+    <title lang="en">Shifters vs G2 Esports</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs Movistar KOI</title>
+    <title lang="en">Natus Vincere vs Movistar KOI</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816171500 +0000" stop="20260816201500 +0000" channel="twitch.lec">
-    <title>Fnatic vs G2 Esports</title>
+    <title lang="en">Fnatic vs G2 Esports</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817150000 +0000" stop="20260817180000 +0000" channel="twitch.lec">
-    <title>Team Heretics vs Natus Vincere</title>
+    <title lang="en">Team Heretics vs Natus Vincere</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817171500 +0000" stop="20260817201500 +0000" channel="twitch.lec">
-    <title>GIANTX vs Karmine Corp</title>
+    <title lang="en">GIANTX vs Karmine Corp</title>
+    <desc lang="en">LEC: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="twitch.lec">
-    <title>Team Heretics vs SK Gaming</title>
+    <title lang="en">Team Heretics vs SK Gaming</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821171500 +0000" stop="20260821201500 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs Team Vitality</title>
+    <title lang="en">Natus Vincere vs Team Vitality</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="twitch.lec">
-    <title>Shifters vs Fnatic</title>
+    <title lang="en">Shifters vs Fnatic</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822171500 +0000" stop="20260822201500 +0000" channel="twitch.lec">
-    <title>SK Gaming vs Movistar KOI</title>
+    <title lang="en">SK Gaming vs Movistar KOI</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="twitch.lec">
-    <title>Team Heretics vs GIANTX</title>
+    <title lang="en">Team Heretics vs GIANTX</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823171500 +0000" stop="20260823201500 +0000" channel="twitch.lec">
-    <title>Shifters vs Karmine Corp</title>
+    <title lang="en">Shifters vs Karmine Corp</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260824150000 +0000" stop="20260824180000 +0000" channel="twitch.lec">
-    <title>Natus Vincere vs Fnatic</title>
+    <title lang="en">Natus Vincere vs Fnatic</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260824171500 +0000" stop="20260824201500 +0000" channel="twitch.lec">
-    <title>GIANTX vs G2 Esports</title>
+    <title lang="en">GIANTX vs G2 Esports</title>
+    <desc lang="en">LEC: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730080000 +0000" stop="20260730110000 +0000" channel="twitch.lck">
-    <title>BNK FEARX vs DN SOOPers</title>
+    <title lang="en">BNK FEARX vs DN SOOPers</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730100000 +0000" stop="20260730130000 +0000" channel="twitch.lck">
-    <title>Hanwha Life Esports vs Dplus KIA</title>
+    <title lang="en">Hanwha Life Esports vs Dplus KIA</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731080000 +0000" stop="20260731110000 +0000" channel="twitch.lck">
-    <title>Gen.G Esports vs T1</title>
+    <title lang="en">Gen.G Esports vs T1</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731100000 +0000" stop="20260731130000 +0000" channel="twitch.lck">
-    <title>HANJIN BRION vs KIWOOM DRX</title>
+    <title lang="en">HANJIN BRION vs KIWOOM DRX</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801080000 +0000" stop="20260801110000 +0000" channel="twitch.lck">
-    <title>NONGSHIM RED FORCE vs BNK FEARX</title>
+    <title lang="en">NONGSHIM RED FORCE vs BNK FEARX</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801100000 +0000" stop="20260801130000 +0000" channel="twitch.lck">
-    <title>Gen.G Esports vs Dplus KIA</title>
+    <title lang="en">Gen.G Esports vs Dplus KIA</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802080000 +0000" stop="20260802110000 +0000" channel="twitch.lck">
-    <title>DN SOOPers vs HANJIN BRION</title>
+    <title lang="en">DN SOOPers vs HANJIN BRION</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802100000 +0000" stop="20260802130000 +0000" channel="twitch.lck">
-    <title>kt Rolster vs Hanwha Life Esports</title>
+    <title lang="en">kt Rolster vs Hanwha Life Esports</title>
+    <desc lang="en">LCK: Week 10</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805080000 +0000" stop="20260805110000 +0000" channel="twitch.lck">
-    <title>HANJIN BRION vs NONGSHIM RED FORCE</title>
+    <title lang="en">HANJIN BRION vs NONGSHIM RED FORCE</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805100000 +0000" stop="20260805130000 +0000" channel="twitch.lck">
-    <title>Hanwha Life Esports vs Gen.G Esports</title>
+    <title lang="en">Hanwha Life Esports vs Gen.G Esports</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806080000 +0000" stop="20260806110000 +0000" channel="twitch.lck">
-    <title>KIWOOM DRX vs DN SOOPers</title>
+    <title lang="en">KIWOOM DRX vs DN SOOPers</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806100000 +0000" stop="20260806130000 +0000" channel="twitch.lck">
-    <title>Dplus KIA vs T1</title>
+    <title lang="en">Dplus KIA vs T1</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807080000 +0000" stop="20260807110000 +0000" channel="twitch.lck">
-    <title>kt Rolster vs Gen.G Esports</title>
+    <title lang="en">kt Rolster vs Gen.G Esports</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807100000 +0000" stop="20260807130000 +0000" channel="twitch.lck">
-    <title>BNK FEARX vs HANJIN BRION</title>
+    <title lang="en">BNK FEARX vs HANJIN BRION</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808080000 +0000" stop="20260808110000 +0000" channel="twitch.lck">
-    <title>T1 vs Hanwha Life Esports</title>
+    <title lang="en">T1 vs Hanwha Life Esports</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808100000 +0000" stop="20260808130000 +0000" channel="twitch.lck">
-    <title>NONGSHIM RED FORCE vs DN SOOPers</title>
+    <title lang="en">NONGSHIM RED FORCE vs DN SOOPers</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809080000 +0000" stop="20260809110000 +0000" channel="twitch.lck">
-    <title>Dplus KIA vs kt Rolster</title>
+    <title lang="en">Dplus KIA vs kt Rolster</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809100000 +0000" stop="20260809130000 +0000" channel="twitch.lck">
-    <title>BNK FEARX vs KIWOOM DRX</title>
+    <title lang="en">BNK FEARX vs KIWOOM DRX</title>
+    <desc lang="en">LCK: Week 11</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812080000 +0000" stop="20260812110000 +0000" channel="twitch.lck">
-    <title>DN SOOPers vs NONGSHIM RED FORCE</title>
+    <title lang="en">DN SOOPers vs NONGSHIM RED FORCE</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812100000 +0000" stop="20260812130000 +0000" channel="twitch.lck">
-    <title>kt Rolster vs Dplus KIA</title>
+    <title lang="en">kt Rolster vs Dplus KIA</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813080000 +0000" stop="20260813110000 +0000" channel="twitch.lck">
-    <title>KIWOOM DRX vs BNK FEARX</title>
+    <title lang="en">KIWOOM DRX vs BNK FEARX</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813100000 +0000" stop="20260813130000 +0000" channel="twitch.lck">
-    <title>Gen.G Esports vs Hanwha Life Esports</title>
+    <title lang="en">Gen.G Esports vs Hanwha Life Esports</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814080000 +0000" stop="20260814110000 +0000" channel="twitch.lck">
-    <title>T1 vs Dplus KIA</title>
+    <title lang="en">T1 vs Dplus KIA</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814100000 +0000" stop="20260814130000 +0000" channel="twitch.lck">
-    <title>NONGSHIM RED FORCE vs HANJIN BRION</title>
+    <title lang="en">NONGSHIM RED FORCE vs HANJIN BRION</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815080000 +0000" stop="20260815110000 +0000" channel="twitch.lck">
-    <title>Hanwha Life Esports vs kt Rolster</title>
+    <title lang="en">Hanwha Life Esports vs kt Rolster</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815100000 +0000" stop="20260815130000 +0000" channel="twitch.lck">
-    <title>BNK FEARX vs DN SOOPers</title>
+    <title lang="en">BNK FEARX vs DN SOOPers</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816080000 +0000" stop="20260816110000 +0000" channel="twitch.lck">
-    <title>T1 vs Gen.G Esports</title>
+    <title lang="en">T1 vs Gen.G Esports</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816100000 +0000" stop="20260816130000 +0000" channel="twitch.lck">
-    <title>KIWOOM DRX vs HANJIN BRION</title>
+    <title lang="en">KIWOOM DRX vs HANJIN BRION</title>
+    <desc lang="en">LCK: Week 12</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260819080000 +0000" stop="20260819110000 +0000" channel="twitch.lck">
-    <title>Gen.G Esports vs kt Rolster</title>
+    <title lang="en">Gen.G Esports vs kt Rolster</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="twitch.lck">
-    <title>HANJIN BRION vs DN SOOPers</title>
+    <title lang="en">HANJIN BRION vs DN SOOPers</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820080000 +0000" stop="20260820110000 +0000" channel="twitch.lck">
-    <title>Dplus KIA vs Hanwha Life Esports</title>
+    <title lang="en">Dplus KIA vs Hanwha Life Esports</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820100000 +0000" stop="20260820130000 +0000" channel="twitch.lck">
-    <title>NONGSHIM RED FORCE vs KIWOOM DRX</title>
+    <title lang="en">NONGSHIM RED FORCE vs KIWOOM DRX</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821080000 +0000" stop="20260821110000 +0000" channel="twitch.lck">
-    <title>HANJIN BRION vs BNK FEARX</title>
+    <title lang="en">HANJIN BRION vs BNK FEARX</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821100000 +0000" stop="20260821130000 +0000" channel="twitch.lck">
-    <title>kt Rolster vs T1</title>
+    <title lang="en">kt Rolster vs T1</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822080000 +0000" stop="20260822110000 +0000" channel="twitch.lck">
-    <title>Dplus KIA vs Gen.G Esports</title>
+    <title lang="en">Dplus KIA vs Gen.G Esports</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822100000 +0000" stop="20260822130000 +0000" channel="twitch.lck">
-    <title>DN SOOPers vs KIWOOM DRX</title>
+    <title lang="en">DN SOOPers vs KIWOOM DRX</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823080000 +0000" stop="20260823110000 +0000" channel="twitch.lck">
-    <title>Hanwha Life Esports vs T1</title>
+    <title lang="en">Hanwha Life Esports vs T1</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823100000 +0000" stop="20260823130000 +0000" channel="twitch.lck">
-    <title>BNK FEARX vs NONGSHIM RED FORCE</title>
+    <title lang="en">BNK FEARX vs NONGSHIM RED FORCE</title>
+    <desc lang="en">LCK: Week 13</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260826080000 +0000" stop="20260826110000 +0000" channel="twitch.lck">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">LCK: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.lck">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">LCK: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730070000 +0000" stop="20260730100000 +0000" channel="youtube.LPL_English">
-    <title>Shenzhen NINJAS IN PYJAMAS vs WeiboGaming</title>
+    <title lang="en">Shenzhen NINJAS IN PYJAMAS vs WeiboGaming</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730090000 +0000" stop="20260730120000 +0000" channel="youtube.LPL_English">
-    <title>EDWARD GAMING vs Xi'an Team WE</title>
+    <title lang="en">EDWARD GAMING vs Xi'an Team WE</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730110000 +0000" stop="20260730140000 +0000" channel="youtube.LPL_English">
-    <title>Beijing JDG Esports vs THUNDER TALK GAMING</title>
+    <title lang="en">Beijing JDG Esports vs THUNDER TALK GAMING</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731070000 +0000" stop="20260731100000 +0000" channel="youtube.LPL_English">
-    <title>Anyone's Legend vs EDWARD GAMING</title>
+    <title lang="en">Anyone's Legend vs EDWARD GAMING</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731090000 +0000" stop="20260731120000 +0000" channel="youtube.LPL_English">
-    <title>Xi'an Team WE vs BILIBILI GAMING</title>
+    <title lang="en">Xi'an Team WE vs BILIBILI GAMING</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801070000 +0000" stop="20260801100000 +0000" channel="youtube.LPL_English">
-    <title>THUNDER TALK GAMING vs Anyone's Legend</title>
+    <title lang="en">THUNDER TALK GAMING vs Anyone's Legend</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801090000 +0000" stop="20260801120000 +0000" channel="youtube.LPL_English">
-    <title>TOP ESPORTS vs LGD GAMING</title>
+    <title lang="en">TOP ESPORTS vs LGD GAMING</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801110000 +0000" stop="20260801140000 +0000" channel="youtube.LPL_English">
-    <title>Beijing JDG Esports vs BILIBILI GAMING</title>
+    <title lang="en">Beijing JDG Esports vs BILIBILI GAMING</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802070000 +0000" stop="20260802100000 +0000" channel="youtube.LPL_English">
-    <title>THUNDER TALK GAMING vs Xi'an Team WE</title>
+    <title lang="en">THUNDER TALK GAMING vs Xi'an Team WE</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802090000 +0000" stop="20260802120000 +0000" channel="youtube.LPL_English">
-    <title>Invictus Gaming vs Suzhou LNG Esports</title>
+    <title lang="en">Invictus Gaming vs Suzhou LNG Esports</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802110000 +0000" stop="20260802140000 +0000" channel="youtube.LPL_English">
-    <title>TOP ESPORTS vs Beijing JDG Esports</title>
+    <title lang="en">TOP ESPORTS vs Beijing JDG Esports</title>
+    <desc lang="en">LPL: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805090000 +0000" stop="20260805120000 +0000" channel="youtube.LPL_English">
-    <title>LGD GAMING vs Beijing JDG Esports</title>
+    <title lang="en">LGD GAMING vs Beijing JDG Esports</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805110000 +0000" stop="20260805140000 +0000" channel="youtube.LPL_English">
-    <title>TOP ESPORTS vs EDWARD GAMING</title>
+    <title lang="en">TOP ESPORTS vs EDWARD GAMING</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806070000 +0000" stop="20260806100000 +0000" channel="youtube.LPL_English">
-    <title>LGD GAMING vs THUNDER TALK GAMING</title>
+    <title lang="en">LGD GAMING vs THUNDER TALK GAMING</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806090000 +0000" stop="20260806120000 +0000" channel="youtube.LPL_English">
-    <title>Invictus Gaming vs Shenzhen NINJAS IN PYJAMAS</title>
+    <title lang="en">Invictus Gaming vs Shenzhen NINJAS IN PYJAMAS</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806110000 +0000" stop="20260806140000 +0000" channel="youtube.LPL_English">
-    <title>Xi'an Team WE vs Anyone's Legend</title>
+    <title lang="en">Xi'an Team WE vs Anyone's Legend</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807070000 +0000" stop="20260807100000 +0000" channel="youtube.LPL_English">
-    <title>EDWARD GAMING vs Beijing JDG Esports</title>
+    <title lang="en">EDWARD GAMING vs Beijing JDG Esports</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807090000 +0000" stop="20260807120000 +0000" channel="youtube.LPL_English">
-    <title>Xi'an Team WE vs THUNDER TALK GAMING</title>
+    <title lang="en">Xi'an Team WE vs THUNDER TALK GAMING</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807110000 +0000" stop="20260807140000 +0000" channel="youtube.LPL_English">
-    <title>TOP ESPORTS vs BILIBILI GAMING</title>
+    <title lang="en">TOP ESPORTS vs BILIBILI GAMING</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808070000 +0000" stop="20260808100000 +0000" channel="youtube.LPL_English">
-    <title>WeiboGaming vs Suzhou LNG Esports</title>
+    <title lang="en">WeiboGaming vs Suzhou LNG Esports</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808090000 +0000" stop="20260808120000 +0000" channel="youtube.LPL_English">
-    <title>LGD GAMING vs Anyone's Legend</title>
+    <title lang="en">LGD GAMING vs Anyone's Legend</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808110000 +0000" stop="20260808140000 +0000" channel="youtube.LPL_English">
-    <title>EDWARD GAMING vs BILIBILI GAMING</title>
+    <title lang="en">EDWARD GAMING vs BILIBILI GAMING</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809070000 +0000" stop="20260809100000 +0000" channel="youtube.LPL_English">
-    <title>Suzhou LNG Esports vs Invictus Gaming</title>
+    <title lang="en">Suzhou LNG Esports vs Invictus Gaming</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809090000 +0000" stop="20260809120000 +0000" channel="youtube.LPL_English">
-    <title>THUNDER TALK GAMING vs TOP ESPORTS</title>
+    <title lang="en">THUNDER TALK GAMING vs TOP ESPORTS</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809110000 +0000" stop="20260809140000 +0000" channel="youtube.LPL_English">
-    <title>Xi'an Team WE vs Beijing JDG Esports</title>
+    <title lang="en">Xi'an Team WE vs Beijing JDG Esports</title>
+    <desc lang="en">LPL: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812090000 +0000" stop="20260812120000 +0000" channel="youtube.LPL_English">
-    <title>EDWARD GAMING vs Anyone's Legend</title>
+    <title lang="en">EDWARD GAMING vs Anyone's Legend</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812110000 +0000" stop="20260812140000 +0000" channel="youtube.LPL_English">
-    <title>BILIBILI GAMING vs Beijing JDG Esports</title>
+    <title lang="en">BILIBILI GAMING vs Beijing JDG Esports</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813070000 +0000" stop="20260813100000 +0000" channel="youtube.LPL_English">
-    <title>WeiboGaming vs Shenzhen NINJAS IN PYJAMAS</title>
+    <title lang="en">WeiboGaming vs Shenzhen NINJAS IN PYJAMAS</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813090000 +0000" stop="20260813120000 +0000" channel="youtube.LPL_English">
-    <title>LGD GAMING vs TOP ESPORTS</title>
+    <title lang="en">LGD GAMING vs TOP ESPORTS</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813110000 +0000" stop="20260813140000 +0000" channel="youtube.LPL_English">
-    <title>BILIBILI GAMING vs THUNDER TALK GAMING</title>
+    <title lang="en">BILIBILI GAMING vs THUNDER TALK GAMING</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814070000 +0000" stop="20260814100000 +0000" channel="youtube.LPL_English">
-    <title>EDWARD GAMING vs LGD GAMING</title>
+    <title lang="en">EDWARD GAMING vs LGD GAMING</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814090000 +0000" stop="20260814120000 +0000" channel="youtube.LPL_English">
-    <title>Xi'an Team WE vs TOP ESPORTS</title>
+    <title lang="en">Xi'an Team WE vs TOP ESPORTS</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814110000 +0000" stop="20260814140000 +0000" channel="youtube.LPL_English">
-    <title>Beijing JDG Esports vs Anyone's Legend</title>
+    <title lang="en">Beijing JDG Esports vs Anyone's Legend</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815070000 +0000" stop="20260815100000 +0000" channel="youtube.LPL_English">
-    <title>Shenzhen NINJAS IN PYJAMAS vs Suzhou LNG Esports</title>
+    <title lang="en">Shenzhen NINJAS IN PYJAMAS vs Suzhou LNG Esports</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815090000 +0000" stop="20260815120000 +0000" channel="youtube.LPL_English">
-    <title>Anyone's Legend vs THUNDER TALK GAMING</title>
+    <title lang="en">Anyone's Legend vs THUNDER TALK GAMING</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815110000 +0000" stop="20260815140000 +0000" channel="youtube.LPL_English">
-    <title>BILIBILI GAMING vs Xi'an Team WE</title>
+    <title lang="en">BILIBILI GAMING vs Xi'an Team WE</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816070000 +0000" stop="20260816100000 +0000" channel="youtube.LPL_English">
-    <title>Beijing JDG Esports vs LGD GAMING</title>
+    <title lang="en">Beijing JDG Esports vs LGD GAMING</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816090000 +0000" stop="20260816120000 +0000" channel="youtube.LPL_English">
-    <title>WeiboGaming vs Invictus Gaming</title>
+    <title lang="en">WeiboGaming vs Invictus Gaming</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816110000 +0000" stop="20260816140000 +0000" channel="youtube.LPL_English">
-    <title>EDWARD GAMING vs TOP ESPORTS</title>
+    <title lang="en">EDWARD GAMING vs TOP ESPORTS</title>
+    <desc lang="en">LPL: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260819080000 +0000" stop="20260819110000 +0000" channel="youtube.LPL_English">
-    <title>Anyone's Legend vs TOP ESPORTS</title>
+    <title lang="en">Anyone's Legend vs TOP ESPORTS</title>
+    <desc lang="en">LPL: Week 5</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730210000 +0000" stop="20260731000000 +0000" channel="twitch.valorant_americas">
-    <title>KRÜ Visa vs G2 Esports</title>
+    <title lang="en">KRÜ Visa vs G2 Esports</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731000000 +0000" stop="20260731030000 +0000" channel="twitch.valorant_americas">
-    <title>100 Thieves vs Sentinels</title>
+    <title lang="en">100 Thieves vs Sentinels</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731210000 +0000" stop="20260801000000 +0000" channel="twitch.valorant_americas">
-    <title>Cloud9 vs LOUD</title>
+    <title lang="en">Cloud9 vs LOUD</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801000000 +0000" stop="20260801030000 +0000" channel="twitch.valorant_americas">
-    <title>Evil Geniuses vs MIBR</title>
+    <title lang="en">Evil Geniuses vs MIBR</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801210000 +0000" stop="20260802000000 +0000" channel="twitch.valorant_americas">
-    <title>ENVY vs FURIA</title>
+    <title lang="en">ENVY vs FURIA</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802000000 +0000" stop="20260802030000 +0000" channel="twitch.valorant_americas">
-    <title>Leviatán Esports vs NRG</title>
+    <title lang="en">Leviatán Esports vs NRG</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802210000 +0000" stop="20260803000000 +0000" channel="twitch.valorant_americas">
-    <title>Cloud9 vs KRÜ Visa</title>
+    <title lang="en">Cloud9 vs KRÜ Visa</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803000000 +0000" stop="20260803030000 +0000" channel="twitch.valorant_americas">
-    <title>G2 Esports vs Sentinels</title>
+    <title lang="en">G2 Esports vs Sentinels</title>
+    <desc lang="en">VCT Americas: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806210000 +0000" stop="20260807000000 +0000" channel="twitch.valorant_americas">
-    <title>Evil Geniuses vs FURIA</title>
+    <title lang="en">Evil Geniuses vs FURIA</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807000000 +0000" stop="20260807030000 +0000" channel="twitch.valorant_americas">
-    <title>ENVY vs NRG</title>
+    <title lang="en">ENVY vs NRG</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807210000 +0000" stop="20260808000000 +0000" channel="twitch.valorant_americas">
-    <title>100 Thieves vs Cloud9</title>
+    <title lang="en">100 Thieves vs Cloud9</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808000000 +0000" stop="20260808030000 +0000" channel="twitch.valorant_americas">
-    <title>G2 Esports vs LOUD</title>
+    <title lang="en">G2 Esports vs LOUD</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808210000 +0000" stop="20260809000000 +0000" channel="twitch.valorant_americas">
-    <title>KRÜ Visa vs Sentinels</title>
+    <title lang="en">KRÜ Visa vs Sentinels</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809000000 +0000" stop="20260809030000 +0000" channel="twitch.valorant_americas">
-    <title>Leviatán Esports vs MIBR</title>
+    <title lang="en">Leviatán Esports vs MIBR</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809210000 +0000" stop="20260810000000 +0000" channel="twitch.valorant_americas">
-    <title>Evil Geniuses vs NRG</title>
+    <title lang="en">Evil Geniuses vs NRG</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810000000 +0000" stop="20260810030000 +0000" channel="twitch.valorant_americas">
-    <title>LOUD vs 100 Thieves</title>
+    <title lang="en">LOUD vs 100 Thieves</title>
+    <desc lang="en">VCT Americas: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813210000 +0000" stop="20260814000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814000000 +0000" stop="20260814030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814210000 +0000" stop="20260815000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815000000 +0000" stop="20260815030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815210000 +0000" stop="20260816000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816000000 +0000" stop="20260816030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816210000 +0000" stop="20260817000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817000000 +0000" stop="20260817030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260819210000 +0000" stop="20260820000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820000000 +0000" stop="20260820030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820210000 +0000" stop="20260821000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822210000 +0000" stop="20260823000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260824000000 +0000" stop="20260824030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260828000000 +0000" stop="20260828030000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Americas: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
-    <title>FlyQuest RED vs SwimTrek Blue</title>
+    <title lang="en">FlyQuest RED vs SwimTrek Blue</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
-    <title>Ora Temper vs Shopify Rebellion Gold</title>
+    <title lang="en">Ora Temper vs Shopify Rebellion Gold</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
-    <title>Axolotl vs SEN Otters</title>
+    <title lang="en">Axolotl vs SEN Otters</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
-    <title>HIMMERS vs The Spiders</title>
+    <title lang="en">HIMMERS vs The Spiders</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title>Los Chudeles vs SaD GC</title>
+    <title lang="en">Los Chudeles vs SaD GC</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title>ROSO GC vs MVSK Secret</title>
+    <title lang="en">ROSO GC vs MVSK Secret</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title>Revitalize GC vs Eternal Focus Amethyst</title>
+    <title lang="en">Revitalize GC vs Eternal Focus Amethyst</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title>Cloud9 GC vs :3</title>
+    <title lang="en">Cloud9 GC vs :3</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810233000 +0000" stop="20260811023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810233000 +0000" stop="20260811023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810233000 +0000" stop="20260811023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812210000 +0000" stop="20260813000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812210000 +0000" stop="20260813000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812233000 +0000" stop="20260813023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812233000 +0000" stop="20260813023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812233000 +0000" stop="20260813023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817210000 +0000" stop="20260818000000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817233000 +0000" stop="20260818023000 +0000" channel="twitch.valorant_americas">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers NA: Swiss</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729190000 +0000" stop="20260729220000 +0000" channel="twitch.VALORANT_NorthAmerica">
-    <title>Shopify Rebellion Black vs 2GAME</title>
+    <title lang="en">Shopify Rebellion Black vs 2GAME</title>
+    <desc lang="en">Last Chance Qualifier Americas: Finals</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
-    <title>GIANTX vs Team Liquid</title>
+    <title lang="en">GIANTX vs Team Liquid</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
-    <title>Gentle Mates vs Team Vitality</title>
+    <title lang="en">Gentle Mates vs Team Vitality</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
-    <title>NAVI vs PCIFIC Esports</title>
+    <title lang="en">NAVI vs PCIFIC Esports</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730180000 +0000" stop="20260730210000 +0000" channel="twitch.valorant_emea">
-    <title>Eternal Fire vs FNATIC</title>
+    <title lang="en">Eternal Fire vs FNATIC</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731150000 +0000" stop="20260731180000 +0000" channel="twitch.valorant_emea">
-    <title>BBL Esports vs Gentle Mates</title>
+    <title lang="en">BBL Esports vs Gentle Mates</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731180000 +0000" stop="20260731210000 +0000" channel="twitch.valorant_emea">
-    <title>GIANTX vs Team Heretics</title>
+    <title lang="en">GIANTX vs Team Heretics</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801150000 +0000" stop="20260801180000 +0000" channel="twitch.valorant_emea">
-    <title>FUT Esports vs Team Vitality</title>
+    <title lang="en">FUT Esports vs Team Vitality</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801180000 +0000" stop="20260801210000 +0000" channel="twitch.valorant_emea">
-    <title>Karmine Corp vs Team Liquid</title>
+    <title lang="en">Karmine Corp vs Team Liquid</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802150000 +0000" stop="20260802180000 +0000" channel="twitch.valorant_emea">
-    <title>BBL Esports vs PCIFIC Esports</title>
+    <title lang="en">BBL Esports vs PCIFIC Esports</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802180000 +0000" stop="20260802210000 +0000" channel="twitch.valorant_emea">
-    <title>FNATIC vs Team Heretics</title>
+    <title lang="en">FNATIC vs Team Heretics</title>
+    <desc lang="en">VCT EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806150000 +0000" stop="20260806180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806180000 +0000" stop="20260806210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807150000 +0000" stop="20260807180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807180000 +0000" stop="20260807210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808150000 +0000" stop="20260808180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808180000 +0000" stop="20260808210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809150000 +0000" stop="20260809180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809180000 +0000" stop="20260809210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812150000 +0000" stop="20260812180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260812180000 +0000" stop="20260812210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813150000 +0000" stop="20260813180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813180000 +0000" stop="20260813210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814150000 +0000" stop="20260814180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814180000 +0000" stop="20260814210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815150000 +0000" stop="20260815180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815180000 +0000" stop="20260815210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816180000 +0000" stop="20260816210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820150000 +0000" stop="20260820180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820180000 +0000" stop="20260820210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821150000 +0000" stop="20260821180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822150000 +0000" stop="20260822180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822180000 +0000" stop="20260822210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823150000 +0000" stop="20260823180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823180000 +0000" stop="20260823210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
-    <title>SK Nebula vs G2 Gozen</title>
+    <title lang="en">SK Nebula vs G2 Gozen</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729150000 +0000" stop="20260729180000 +0000" channel="twitch.valorant_emea">
-    <title>FOKUS Sakura vs Gentle Mates</title>
+    <title lang="en">FOKUS Sakura vs Gentle Mates</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
-    <title>Habos Babos vs GIANTX</title>
+    <title lang="en">Habos Babos vs GIANTX</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260729180000 +0000" stop="20260729210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs Barça eSports</title>
+    <title lang="en">ALTERNATE aTTaX Ruby vs Barça eSports</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
-    <title>Barça eSports vs Gentle Mates</title>
+    <title lang="en">Barça eSports vs Gentle Mates</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730180000 +0000" channel="twitch.valorant_emea">
-    <title>Habos Babos vs SK Nebula</title>
+    <title lang="en">Habos Babos vs SK Nebula</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730180000 +0000" stop="20260730210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs GIANTX</title>
+    <title lang="en">ALTERNATE aTTaX Ruby vs GIANTX</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730180000 +0000" stop="20260730210000 +0000" channel="twitch.valorant_emea">
-    <title>Twisted Minds Orchid vs G2 Gozen</title>
+    <title lang="en">Twisted Minds Orchid vs G2 Gozen</title>
+    <desc lang="en">Game Changers EMEA: Week 2</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803150000 +0000" stop="20260803180000 +0000" channel="twitch.valorant_emea">
-    <title>FOKUS Sakura vs SK Nebula</title>
+    <title lang="en">FOKUS Sakura vs SK Nebula</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803150000 +0000" stop="20260803180000 +0000" channel="twitch.valorant_emea">
-    <title>Karmine Corp vs Gentle Mates</title>
+    <title lang="en">Karmine Corp vs Gentle Mates</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803180000 +0000" stop="20260803210000 +0000" channel="twitch.valorant_emea">
-    <title>Barça eSports vs Twisted Minds Orchid</title>
+    <title lang="en">Barça eSports vs Twisted Minds Orchid</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260803180000 +0000" stop="20260803210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs G2 Gozen</title>
+    <title lang="en">ALTERNATE aTTaX Ruby vs G2 Gozen</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260804150000 +0000" stop="20260804180000 +0000" channel="twitch.valorant_emea">
-    <title>FOKUS Sakura vs Karmine Corp</title>
+    <title lang="en">FOKUS Sakura vs Karmine Corp</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260804150000 +0000" stop="20260804180000 +0000" channel="twitch.valorant_emea">
-    <title>Barça eSports vs G2 Gozen</title>
+    <title lang="en">Barça eSports vs G2 Gozen</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260804180000 +0000" stop="20260804210000 +0000" channel="twitch.valorant_emea">
-    <title>Twisted Minds Orchid vs SK Nebula</title>
+    <title lang="en">Twisted Minds Orchid vs SK Nebula</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260804180000 +0000" stop="20260804210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs Habos Babos</title>
+    <title lang="en">ALTERNATE aTTaX Ruby vs Habos Babos</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805150000 +0000" stop="20260805180000 +0000" channel="twitch.valorant_emea">
-    <title>GIANTX vs G2 Gozen</title>
+    <title lang="en">GIANTX vs G2 Gozen</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805150000 +0000" stop="20260805180000 +0000" channel="twitch.valorant_emea">
-    <title>Karmine Corp vs SK Nebula</title>
+    <title lang="en">Karmine Corp vs SK Nebula</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805180000 +0000" stop="20260805210000 +0000" channel="twitch.valorant_emea">
-    <title>Twisted Minds Orchid vs Gentle Mates</title>
+    <title lang="en">Twisted Minds Orchid vs Gentle Mates</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260805180000 +0000" stop="20260805210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs FOKUS Sakura</title>
+    <title lang="en">ALTERNATE aTTaX Ruby vs FOKUS Sakura</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806150000 +0000" stop="20260806180000 +0000" channel="twitch.valorant_emea">
-    <title>FOKUS Sakura vs Habos Babos</title>
+    <title lang="en">FOKUS Sakura vs Habos Babos</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806150000 +0000" stop="20260806180000 +0000" channel="twitch.valorant_emea">
-    <title>Karmine Corp vs GIANTX</title>
+    <title lang="en">Karmine Corp vs GIANTX</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260806180000 +0000" stop="20260806210000 +0000" channel="twitch.valorant_emea">
-    <title>ALTERNATE aTTaX Ruby vs Gentle Mates</title>
+    <title lang="en">ALTERNATE aTTaX Ruby vs Gentle Mates</title>
+    <desc lang="en">Game Changers EMEA: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808150000 +0000" stop="20260808180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Play In Knockouts</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808180000 +0000" stop="20260808210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Play In Knockouts</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809150000 +0000" stop="20260809180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Play In Knockouts</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809180000 +0000" stop="20260809210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Play In Knockouts</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810150000 +0000" stop="20260810180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Play In Knockouts</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260810180000 +0000" stop="20260810210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Play In Knockouts</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813150000 +0000" stop="20260813180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813180000 +0000" stop="20260813210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814150000 +0000" stop="20260814180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814180000 +0000" stop="20260814210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815150000 +0000" stop="20260815180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815180000 +0000" stop="20260815210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816180000 +0000" stop="20260816210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817150000 +0000" stop="20260817180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260817180000 +0000" stop="20260817210000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260818150000 +0000" stop="20260818180000 +0000" channel="twitch.valorant_emea">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">Game Changers EMEA: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730080000 +0000" stop="20260730110000 +0000" channel="twitch.valorant_pacific">
-    <title>VARREL vs DetonatioN FocusMe</title>
+    <title lang="en">VARREL vs DetonatioN FocusMe</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260730100000 +0000" stop="20260730130000 +0000" channel="twitch.valorant_pacific">
-    <title>FULL SENSE vs ZETA DIVISION</title>
+    <title lang="en">FULL SENSE vs ZETA DIVISION</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731080000 +0000" stop="20260731110000 +0000" channel="twitch.valorant_pacific">
-    <title>Team Secret vs Paper Rex</title>
+    <title lang="en">Team Secret vs Paper Rex</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260731100000 +0000" stop="20260731130000 +0000" channel="twitch.valorant_pacific">
-    <title>GLOBAL ESPORTS vs Gen.G </title>
+    <title lang="en">GLOBAL ESPORTS vs Gen.G </title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801080000 +0000" stop="20260801110000 +0000" channel="twitch.valorant_pacific">
-    <title>T1 vs DetonatioN FocusMe</title>
+    <title lang="en">T1 vs DetonatioN FocusMe</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260801100000 +0000" stop="20260801130000 +0000" channel="twitch.valorant_pacific">
-    <title>FULL SENSE vs Rex Regum Qeon</title>
+    <title lang="en">FULL SENSE vs Rex Regum Qeon</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802080000 +0000" stop="20260802110000 +0000" channel="twitch.valorant_pacific">
-    <title>VARREL vs Kiwoom DRX</title>
+    <title lang="en">VARREL vs Kiwoom DRX</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260802100000 +0000" stop="20260802130000 +0000" channel="twitch.valorant_pacific">
-    <title>ZETA DIVISION vs NONGSHIM REDFORCE</title>
+    <title lang="en">ZETA DIVISION vs NONGSHIM REDFORCE</title>
+    <desc lang="en">VCT Pacific: Week 3</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807080000 +0000" stop="20260807110000 +0000" channel="twitch.valorant_pacific">
-    <title>Team Secret vs DetonatioN FocusMe</title>
+    <title lang="en">Team Secret vs DetonatioN FocusMe</title>
+    <desc lang="en">VCT Pacific: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260807100000 +0000" stop="20260807130000 +0000" channel="twitch.valorant_pacific">
-    <title>Gen.G  vs FULL SENSE</title>
+    <title lang="en">Gen.G  vs FULL SENSE</title>
+    <desc lang="en">VCT Pacific: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808080000 +0000" stop="20260808110000 +0000" channel="twitch.valorant_pacific">
-    <title>Kiwoom DRX vs T1</title>
+    <title lang="en">Kiwoom DRX vs T1</title>
+    <desc lang="en">VCT Pacific: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260808100000 +0000" stop="20260808130000 +0000" channel="twitch.valorant_pacific">
-    <title>GLOBAL ESPORTS vs ZETA DIVISION</title>
+    <title lang="en">GLOBAL ESPORTS vs ZETA DIVISION</title>
+    <desc lang="en">VCT Pacific: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809080000 +0000" stop="20260809110000 +0000" channel="twitch.valorant_pacific">
-    <title>VARREL vs Paper Rex</title>
+    <title lang="en">VARREL vs Paper Rex</title>
+    <desc lang="en">VCT Pacific: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260809100000 +0000" stop="20260809130000 +0000" channel="twitch.valorant_pacific">
-    <title>NONGSHIM REDFORCE vs Rex Regum Qeon</title>
+    <title lang="en">NONGSHIM REDFORCE vs Rex Regum Qeon</title>
+    <desc lang="en">VCT Pacific: Week 4</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813080000 +0000" stop="20260813110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260813100000 +0000" stop="20260813130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814080000 +0000" stop="20260814110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260814100000 +0000" stop="20260814130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815080000 +0000" stop="20260815110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260815100000 +0000" stop="20260815130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816080000 +0000" stop="20260816110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260816100000 +0000" stop="20260816130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260819080000 +0000" stop="20260819110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820080000 +0000" stop="20260820110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260820100000 +0000" stop="20260820130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821080000 +0000" stop="20260821110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260821100000 +0000" stop="20260821130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822080000 +0000" stop="20260822110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260822100000 +0000" stop="20260822130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823080000 +0000" stop="20260823110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260823100000 +0000" stop="20260823130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Play-Ins</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260826080000 +0000" stop="20260826110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260826100000 +0000" stop="20260826130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260827100000 +0000" stop="20260827130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260828080000 +0000" stop="20260828110000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
   <programme start="20260828100000 +0000" stop="20260828130000 +0000" channel="twitch.valorant_pacific">
-    <title>TBD vs TBD</title>
+    <title lang="en">TBD vs TBD</title>
+    <desc lang="en">VCT Pacific: Playoffs</desc>
+    <category lang="en">Esports</category>
   </programme>
 </tv>

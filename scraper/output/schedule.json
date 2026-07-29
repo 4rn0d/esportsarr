@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:17:30.749882+00:00",
+  "generated_at": "2026-07-29T14:09:48.982254+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -7,7 +7,9 @@
       "start": "2026-06-30T08:00:00+00:00",
       "state": "completed",
       "title": "Team Liquid Alienware vs Karmine Corp",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Play In Knockouts"
     },
     {
       "league": "MSI",
@@ -15,7 +17,9 @@
       "start": "2026-07-01T08:00:00+00:00",
       "state": "completed",
       "title": "T1 vs Team Liquid Alienware",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Play In Knockouts"
     },
     {
       "league": "MSI",
@@ -23,7 +27,9 @@
       "start": "2026-07-03T03:00:00+00:00",
       "state": "completed",
       "title": "Hanwha Life Esports vs Team Secret Whales",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -31,7 +37,9 @@
       "start": "2026-07-03T08:00:00+00:00",
       "state": "completed",
       "title": "TOP ESPORTS vs G2 Esports",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -39,7 +47,9 @@
       "start": "2026-07-04T03:00:00+00:00",
       "state": "completed",
       "title": "FURIA vs LYON",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -47,7 +57,9 @@
       "start": "2026-07-04T08:00:00+00:00",
       "state": "completed",
       "title": "T1 vs BILIBILI GAMING",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -55,7 +67,9 @@
       "start": "2026-07-05T03:00:00+00:00",
       "state": "completed",
       "title": "Team Secret Whales vs TOP ESPORTS",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -63,7 +77,9 @@
       "start": "2026-07-05T08:00:00+00:00",
       "state": "completed",
       "title": "Hanwha Life Esports vs G2 Esports",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -71,7 +87,9 @@
       "start": "2026-07-06T03:00:00+00:00",
       "state": "completed",
       "title": "BILIBILI GAMING vs LYON",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -79,7 +97,9 @@
       "start": "2026-07-06T08:00:00+00:00",
       "state": "completed",
       "title": "T1 vs FURIA",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -87,7 +107,9 @@
       "start": "2026-07-08T03:00:00+00:00",
       "state": "completed",
       "title": "LYON vs Team Secret Whales",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -95,7 +117,9 @@
       "start": "2026-07-08T08:00:00+00:00",
       "state": "completed",
       "title": "G2 Esports vs T1",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -103,7 +127,9 @@
       "start": "2026-07-09T08:00:00+00:00",
       "state": "completed",
       "title": "BILIBILI GAMING vs Hanwha Life Esports",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -111,7 +137,9 @@
       "start": "2026-07-10T08:00:00+00:00",
       "state": "completed",
       "title": "G2 Esports vs LYON",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -119,7 +147,9 @@
       "start": "2026-07-11T08:00:00+00:00",
       "state": "completed",
       "title": "LYON vs Hanwha Life Esports",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Knockouts"
     },
     {
       "league": "MSI",
@@ -127,7 +157,9 @@
       "start": "2026-07-12T06:00:00+00:00",
       "state": "completed",
       "title": "BILIBILI GAMING vs Hanwha Life Esports",
-      "twitch_channel": "riotgames"
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "MSI: Finals"
     },
     {
       "league": "LCS",
@@ -135,7 +167,9 @@
       "start": "2026-07-25T20:00:00+00:00",
       "state": "completed",
       "title": "FlyQuest vs LYON",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 1"
     },
     {
       "league": "LCS",
@@ -143,7 +177,9 @@
       "start": "2026-07-25T23:00:00+00:00",
       "state": "completed",
       "title": "Sentinels vs Dignitas",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 1"
     },
     {
       "league": "LCS",
@@ -151,7 +187,9 @@
       "start": "2026-07-26T20:00:00+00:00",
       "state": "completed",
       "title": "Team Liquid Alienware vs Cloud9 Kia",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 1"
     },
     {
       "league": "LCS",
@@ -159,7 +197,9 @@
       "start": "2026-07-26T23:00:00+00:00",
       "state": "completed",
       "title": "Shopify Rebellion vs Disguised",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 1"
     },
     {
       "league": "LCS",
@@ -167,7 +207,9 @@
       "start": "2026-08-01T20:00:00+00:00",
       "state": "unstarted",
       "title": "Cloud9 Kia vs Dignitas",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 2"
     },
     {
       "league": "LCS",
@@ -175,7 +217,9 @@
       "start": "2026-08-01T23:00:00+00:00",
       "state": "unstarted",
       "title": "Disguised vs FlyQuest",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 2"
     },
     {
       "league": "LCS",
@@ -183,7 +227,9 @@
       "start": "2026-08-02T20:00:00+00:00",
       "state": "unstarted",
       "title": "LYON vs Shopify Rebellion",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 2"
     },
     {
       "league": "LCS",
@@ -191,7 +237,9 @@
       "start": "2026-08-02T23:00:00+00:00",
       "state": "unstarted",
       "title": "Team Liquid Alienware vs Sentinels",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 2"
     },
     {
       "league": "LCS",
@@ -199,7 +247,9 @@
       "start": "2026-08-08T20:00:00+00:00",
       "state": "unstarted",
       "title": "Cloud9 Kia vs Disguised",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 3"
     },
     {
       "league": "LCS",
@@ -207,7 +257,9 @@
       "start": "2026-08-08T23:00:00+00:00",
       "state": "unstarted",
       "title": "Sentinels vs Shopify Rebellion",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 3"
     },
     {
       "league": "LCS",
@@ -215,7 +267,9 @@
       "start": "2026-08-09T20:00:00+00:00",
       "state": "unstarted",
       "title": "Dignitas vs LYON",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 3"
     },
     {
       "league": "LCS",
@@ -223,7 +277,9 @@
       "start": "2026-08-09T23:00:00+00:00",
       "state": "unstarted",
       "title": "FlyQuest vs Team Liquid Alienware",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 3"
     },
     {
       "league": "LCS",
@@ -231,7 +287,9 @@
       "start": "2026-08-15T20:00:00+00:00",
       "state": "unstarted",
       "title": "Disguised vs Team Liquid Alienware",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 4"
     },
     {
       "league": "LCS",
@@ -239,7 +297,9 @@
       "start": "2026-08-15T23:00:00+00:00",
       "state": "unstarted",
       "title": "Dignitas vs Shopify Rebellion",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 4"
     },
     {
       "league": "LCS",
@@ -247,7 +307,9 @@
       "start": "2026-08-16T20:00:00+00:00",
       "state": "unstarted",
       "title": "Cloud9 Kia vs FlyQuest",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 4"
     },
     {
       "league": "LCS",
@@ -255,7 +317,9 @@
       "start": "2026-08-16T23:00:00+00:00",
       "state": "unstarted",
       "title": "LYON vs Sentinels",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 4"
     },
     {
       "league": "LCS",
@@ -263,7 +327,9 @@
       "start": "2026-08-22T20:00:00+00:00",
       "state": "unstarted",
       "title": "Sentinels vs FlyQuest",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 5"
     },
     {
       "league": "LCS",
@@ -271,7 +337,9 @@
       "start": "2026-08-22T23:00:00+00:00",
       "state": "unstarted",
       "title": "Dignitas vs Disguised",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 5"
     },
     {
       "league": "LCS",
@@ -279,7 +347,9 @@
       "start": "2026-08-23T20:00:00+00:00",
       "state": "unstarted",
       "title": "Disguised vs Sentinels",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 5"
     },
     {
       "league": "LCS",
@@ -287,7 +357,9 @@
       "start": "2026-08-23T23:00:00+00:00",
       "state": "unstarted",
       "title": "Dignitas vs FlyQuest",
-      "twitch_channel": "lcs"
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LCS: Week 5"
     },
     {
       "league": "LEC",
@@ -295,7 +367,9 @@
       "start": "2026-07-24T14:30:00+00:00",
       "state": "completed",
       "title": "Movistar KOI vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 1"
     },
     {
       "league": "LEC",
@@ -303,7 +377,9 @@
       "start": "2026-07-24T17:30:00+00:00",
       "state": "completed",
       "title": "Karmine Corp vs Team Vitality",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 1"
     },
     {
       "league": "LEC",
@@ -311,7 +387,9 @@
       "start": "2026-07-25T14:30:00+00:00",
       "state": "completed",
       "title": "G2 Esports vs Team Vitality",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 1"
     },
     {
       "league": "LEC",
@@ -319,7 +397,9 @@
       "start": "2026-07-25T17:30:00+00:00",
       "state": "completed",
       "title": "Movistar KOI vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 1"
     },
     {
       "league": "LEC",
@@ -327,7 +407,9 @@
       "start": "2026-07-26T14:30:00+00:00",
       "state": "completed",
       "title": "Team Vitality vs Movistar KOI",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 1"
     },
     {
       "league": "LEC",
@@ -335,7 +417,9 @@
       "start": "2026-07-26T17:30:00+00:00",
       "state": "completed",
       "title": "G2 Esports vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 1"
     },
     {
       "league": "LEC",
@@ -343,7 +427,9 @@
       "start": "2026-07-31T15:00:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs Team Vitality",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -351,7 +437,9 @@
       "start": "2026-07-31T17:15:00+00:00",
       "state": "unstarted",
       "title": "Shifters vs Movistar KOI",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -359,7 +447,9 @@
       "start": "2026-08-01T15:00:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs SK Gaming",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -367,7 +457,9 @@
       "start": "2026-08-01T17:15:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -375,7 +467,9 @@
       "start": "2026-08-02T15:00:00+00:00",
       "state": "unstarted",
       "title": "SK Gaming vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -383,7 +477,9 @@
       "start": "2026-08-02T17:15:00+00:00",
       "state": "unstarted",
       "title": "Movistar KOI vs Fnatic",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -391,7 +487,9 @@
       "start": "2026-08-03T15:00:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs Shifters",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -399,7 +497,9 @@
       "start": "2026-08-03T17:15:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 2"
     },
     {
       "league": "LEC",
@@ -407,7 +507,9 @@
       "start": "2026-08-07T15:00:00+00:00",
       "state": "unstarted",
       "title": "Shifters vs GIANTX",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -415,7 +517,9 @@
       "start": "2026-08-07T17:15:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs Fnatic",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -423,7 +527,9 @@
       "start": "2026-08-08T15:00:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs SK Gaming",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -431,7 +537,9 @@
       "start": "2026-08-08T17:15:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs Movistar KOI",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -439,7 +547,9 @@
       "start": "2026-08-09T15:00:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -447,7 +557,9 @@
       "start": "2026-08-09T17:15:00+00:00",
       "state": "unstarted",
       "title": "Fnatic vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -455,7 +567,9 @@
       "start": "2026-08-10T15:00:00+00:00",
       "state": "unstarted",
       "title": "Team Vitality vs SK Gaming",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -463,7 +577,9 @@
       "start": "2026-08-10T17:15:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 3"
     },
     {
       "league": "LEC",
@@ -471,7 +587,9 @@
       "start": "2026-08-14T15:00:00+00:00",
       "state": "unstarted",
       "title": "Shifters vs SK Gaming",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -479,7 +597,9 @@
       "start": "2026-08-14T17:15:00+00:00",
       "state": "unstarted",
       "title": "Team Vitality vs GIANTX",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -487,7 +607,9 @@
       "start": "2026-08-15T15:00:00+00:00",
       "state": "unstarted",
       "title": "SK Gaming vs Fnatic",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -495,7 +617,9 @@
       "start": "2026-08-15T17:15:00+00:00",
       "state": "unstarted",
       "title": "Shifters vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -503,7 +627,9 @@
       "start": "2026-08-16T15:00:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs Movistar KOI",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -511,7 +637,9 @@
       "start": "2026-08-16T17:15:00+00:00",
       "state": "unstarted",
       "title": "Fnatic vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -519,7 +647,9 @@
       "start": "2026-08-17T15:00:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs Natus Vincere",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -527,7 +657,9 @@
       "start": "2026-08-17T17:15:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 4"
     },
     {
       "league": "LEC",
@@ -535,7 +667,9 @@
       "start": "2026-08-21T15:00:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs SK Gaming",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -543,7 +677,9 @@
       "start": "2026-08-21T17:15:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs Team Vitality",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -551,7 +687,9 @@
       "start": "2026-08-22T15:00:00+00:00",
       "state": "unstarted",
       "title": "Shifters vs Fnatic",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -559,7 +697,9 @@
       "start": "2026-08-22T17:15:00+00:00",
       "state": "unstarted",
       "title": "SK Gaming vs Movistar KOI",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -567,7 +707,9 @@
       "start": "2026-08-23T15:00:00+00:00",
       "state": "unstarted",
       "title": "Team Heretics vs GIANTX",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -575,7 +717,9 @@
       "start": "2026-08-23T17:15:00+00:00",
       "state": "unstarted",
       "title": "Shifters vs Karmine Corp",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -583,7 +727,9 @@
       "start": "2026-08-24T15:00:00+00:00",
       "state": "unstarted",
       "title": "Natus Vincere vs Fnatic",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LEC",
@@ -591,7 +737,9 @@
       "start": "2026-08-24T17:15:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs G2 Esports",
-      "twitch_channel": "lec"
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "LEC: Week 5"
     },
     {
       "league": "LCK",
@@ -599,7 +747,9 @@
       "start": "2026-07-29T08:00:00+00:00",
       "state": "completed",
       "title": "KIWOOM DRX vs NONGSHIM RED FORCE",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -607,7 +757,9 @@
       "start": "2026-07-29T10:00:00+00:00",
       "state": "completed",
       "title": "T1 vs kt Rolster",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -615,7 +767,9 @@
       "start": "2026-07-30T08:00:00+00:00",
       "state": "unstarted",
       "title": "BNK FEARX vs DN SOOPers",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -623,7 +777,9 @@
       "start": "2026-07-30T10:00:00+00:00",
       "state": "unstarted",
       "title": "Hanwha Life Esports vs Dplus KIA",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -631,7 +787,9 @@
       "start": "2026-07-31T08:00:00+00:00",
       "state": "unstarted",
       "title": "Gen.G Esports vs T1",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -639,7 +797,9 @@
       "start": "2026-07-31T10:00:00+00:00",
       "state": "unstarted",
       "title": "HANJIN BRION vs KIWOOM DRX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -647,7 +807,9 @@
       "start": "2026-08-01T08:00:00+00:00",
       "state": "unstarted",
       "title": "NONGSHIM RED FORCE vs BNK FEARX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -655,7 +817,9 @@
       "start": "2026-08-01T10:00:00+00:00",
       "state": "unstarted",
       "title": "Gen.G Esports vs Dplus KIA",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -663,7 +827,9 @@
       "start": "2026-08-02T08:00:00+00:00",
       "state": "unstarted",
       "title": "DN SOOPers vs HANJIN BRION",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -671,7 +837,9 @@
       "start": "2026-08-02T10:00:00+00:00",
       "state": "unstarted",
       "title": "kt Rolster vs Hanwha Life Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 10"
     },
     {
       "league": "LCK",
@@ -679,7 +847,9 @@
       "start": "2026-08-05T08:00:00+00:00",
       "state": "unstarted",
       "title": "HANJIN BRION vs NONGSHIM RED FORCE",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -687,7 +857,9 @@
       "start": "2026-08-05T10:00:00+00:00",
       "state": "unstarted",
       "title": "Hanwha Life Esports vs Gen.G Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -695,7 +867,9 @@
       "start": "2026-08-06T08:00:00+00:00",
       "state": "unstarted",
       "title": "KIWOOM DRX vs DN SOOPers",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -703,7 +877,9 @@
       "start": "2026-08-06T10:00:00+00:00",
       "state": "unstarted",
       "title": "Dplus KIA vs T1",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -711,7 +887,9 @@
       "start": "2026-08-07T08:00:00+00:00",
       "state": "unstarted",
       "title": "kt Rolster vs Gen.G Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -719,7 +897,9 @@
       "start": "2026-08-07T10:00:00+00:00",
       "state": "unstarted",
       "title": "BNK FEARX vs HANJIN BRION",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -727,7 +907,9 @@
       "start": "2026-08-08T08:00:00+00:00",
       "state": "unstarted",
       "title": "T1 vs Hanwha Life Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -735,7 +917,9 @@
       "start": "2026-08-08T10:00:00+00:00",
       "state": "unstarted",
       "title": "NONGSHIM RED FORCE vs DN SOOPers",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -743,7 +927,9 @@
       "start": "2026-08-09T08:00:00+00:00",
       "state": "unstarted",
       "title": "Dplus KIA vs kt Rolster",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -751,7 +937,9 @@
       "start": "2026-08-09T10:00:00+00:00",
       "state": "unstarted",
       "title": "BNK FEARX vs KIWOOM DRX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 11"
     },
     {
       "league": "LCK",
@@ -759,7 +947,9 @@
       "start": "2026-08-12T08:00:00+00:00",
       "state": "unstarted",
       "title": "DN SOOPers vs NONGSHIM RED FORCE",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -767,7 +957,9 @@
       "start": "2026-08-12T10:00:00+00:00",
       "state": "unstarted",
       "title": "kt Rolster vs Dplus KIA",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -775,7 +967,9 @@
       "start": "2026-08-13T08:00:00+00:00",
       "state": "unstarted",
       "title": "KIWOOM DRX vs BNK FEARX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -783,7 +977,9 @@
       "start": "2026-08-13T10:00:00+00:00",
       "state": "unstarted",
       "title": "Gen.G Esports vs Hanwha Life Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -791,7 +987,9 @@
       "start": "2026-08-14T08:00:00+00:00",
       "state": "unstarted",
       "title": "T1 vs Dplus KIA",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -799,7 +997,9 @@
       "start": "2026-08-14T10:00:00+00:00",
       "state": "unstarted",
       "title": "NONGSHIM RED FORCE vs HANJIN BRION",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -807,7 +1007,9 @@
       "start": "2026-08-15T08:00:00+00:00",
       "state": "unstarted",
       "title": "Hanwha Life Esports vs kt Rolster",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -815,7 +1017,9 @@
       "start": "2026-08-15T10:00:00+00:00",
       "state": "unstarted",
       "title": "BNK FEARX vs DN SOOPers",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -823,7 +1027,9 @@
       "start": "2026-08-16T08:00:00+00:00",
       "state": "unstarted",
       "title": "T1 vs Gen.G Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -831,7 +1037,9 @@
       "start": "2026-08-16T10:00:00+00:00",
       "state": "unstarted",
       "title": "KIWOOM DRX vs HANJIN BRION",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 12"
     },
     {
       "league": "LCK",
@@ -839,7 +1047,9 @@
       "start": "2026-08-19T08:00:00+00:00",
       "state": "unstarted",
       "title": "Gen.G Esports vs kt Rolster",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -847,7 +1057,9 @@
       "start": "2026-08-19T10:00:00+00:00",
       "state": "unstarted",
       "title": "HANJIN BRION vs DN SOOPers",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -855,7 +1067,9 @@
       "start": "2026-08-20T08:00:00+00:00",
       "state": "unstarted",
       "title": "Dplus KIA vs Hanwha Life Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -863,7 +1077,9 @@
       "start": "2026-08-20T10:00:00+00:00",
       "state": "unstarted",
       "title": "NONGSHIM RED FORCE vs KIWOOM DRX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -871,7 +1087,9 @@
       "start": "2026-08-21T08:00:00+00:00",
       "state": "unstarted",
       "title": "HANJIN BRION vs BNK FEARX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -879,7 +1097,9 @@
       "start": "2026-08-21T10:00:00+00:00",
       "state": "unstarted",
       "title": "kt Rolster vs T1",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -887,7 +1107,9 @@
       "start": "2026-08-22T08:00:00+00:00",
       "state": "unstarted",
       "title": "Dplus KIA vs Gen.G Esports",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -895,7 +1117,9 @@
       "start": "2026-08-22T10:00:00+00:00",
       "state": "unstarted",
       "title": "DN SOOPers vs KIWOOM DRX",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -903,7 +1127,9 @@
       "start": "2026-08-23T08:00:00+00:00",
       "state": "unstarted",
       "title": "Hanwha Life Esports vs T1",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -911,7 +1137,9 @@
       "start": "2026-08-23T10:00:00+00:00",
       "state": "unstarted",
       "title": "BNK FEARX vs NONGSHIM RED FORCE",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Week 13"
     },
     {
       "league": "LCK",
@@ -919,7 +1147,9 @@
       "start": "2026-08-26T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Play-Ins"
     },
     {
       "league": "LCK",
@@ -927,7 +1157,9 @@
       "start": "2026-08-27T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "lck"
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "LCK: Play-Ins"
     },
     {
       "league": "LPL",
@@ -935,7 +1167,9 @@
       "start": "2026-07-22T09:00:00+00:00",
       "state": "completed",
       "title": "EDWARD GAMING vs LGD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -943,7 +1177,9 @@
       "start": "2026-07-22T11:00:00+00:00",
       "state": "completed",
       "title": "TOP ESPORTS vs Xi'an Team WE",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -951,7 +1187,9 @@
       "start": "2026-07-23T09:00:00+00:00",
       "state": "completed",
       "title": "Anyone's Legend vs Beijing JDG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -959,7 +1197,9 @@
       "start": "2026-07-23T11:00:00+00:00",
       "state": "completed",
       "title": "THUNDER TALK GAMING vs BILIBILI GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -967,7 +1207,9 @@
       "start": "2026-07-24T07:00:00+00:00",
       "state": "completed",
       "title": "Anyone's Legend vs LGD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -975,7 +1217,9 @@
       "start": "2026-07-24T09:00:00+00:00",
       "state": "completed",
       "title": "Beijing JDG Esports vs Xi'an Team WE",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -983,7 +1227,9 @@
       "start": "2026-07-24T11:00:00+00:00",
       "state": "completed",
       "title": "BILIBILI GAMING vs EDWARD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -991,7 +1237,9 @@
       "start": "2026-07-25T07:00:00+00:00",
       "state": "completed",
       "title": "Xi'an Team WE vs LGD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -999,7 +1247,9 @@
       "start": "2026-07-25T09:00:00+00:00",
       "state": "completed",
       "title": "Invictus Gaming vs WeiboGaming",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -1007,7 +1257,9 @@
       "start": "2026-07-25T11:00:00+00:00",
       "state": "completed",
       "title": "TOP ESPORTS vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -1015,7 +1267,9 @@
       "start": "2026-07-26T07:00:00+00:00",
       "state": "completed",
       "title": "Suzhou LNG Esports vs Shenzhen NINJAS IN PYJAMAS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -1023,7 +1277,9 @@
       "start": "2026-07-26T09:00:00+00:00",
       "state": "completed",
       "title": "EDWARD GAMING vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -1031,7 +1287,9 @@
       "start": "2026-07-26T11:00:00+00:00",
       "state": "completed",
       "title": "BILIBILI GAMING vs Anyone's Legend",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 1"
     },
     {
       "league": "LPL",
@@ -1039,7 +1297,9 @@
       "start": "2026-07-29T09:00:00+00:00",
       "state": "completed",
       "title": "Anyone's Legend vs TOP ESPORTS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1047,7 +1307,9 @@
       "start": "2026-07-29T11:00:00+00:00",
       "state": "completed",
       "title": "LGD GAMING vs BILIBILI GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1055,7 +1317,9 @@
       "start": "2026-07-30T07:00:00+00:00",
       "state": "unstarted",
       "title": "Shenzhen NINJAS IN PYJAMAS vs WeiboGaming",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1063,7 +1327,9 @@
       "start": "2026-07-30T09:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs Xi'an Team WE",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1071,7 +1337,9 @@
       "start": "2026-07-30T11:00:00+00:00",
       "state": "unstarted",
       "title": "Beijing JDG Esports vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1079,7 +1347,9 @@
       "start": "2026-07-31T07:00:00+00:00",
       "state": "unstarted",
       "title": "Anyone's Legend vs EDWARD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1087,7 +1357,9 @@
       "start": "2026-07-31T09:00:00+00:00",
       "state": "unstarted",
       "title": "Xi'an Team WE vs BILIBILI GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1095,7 +1367,9 @@
       "start": "2026-08-01T07:00:00+00:00",
       "state": "unstarted",
       "title": "THUNDER TALK GAMING vs Anyone's Legend",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1103,7 +1377,9 @@
       "start": "2026-08-01T09:00:00+00:00",
       "state": "unstarted",
       "title": "TOP ESPORTS vs LGD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1111,7 +1387,9 @@
       "start": "2026-08-01T11:00:00+00:00",
       "state": "unstarted",
       "title": "Beijing JDG Esports vs BILIBILI GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1119,7 +1397,9 @@
       "start": "2026-08-02T07:00:00+00:00",
       "state": "unstarted",
       "title": "THUNDER TALK GAMING vs Xi'an Team WE",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1127,7 +1407,9 @@
       "start": "2026-08-02T09:00:00+00:00",
       "state": "unstarted",
       "title": "Invictus Gaming vs Suzhou LNG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1135,7 +1417,9 @@
       "start": "2026-08-02T11:00:00+00:00",
       "state": "unstarted",
       "title": "TOP ESPORTS vs Beijing JDG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 2"
     },
     {
       "league": "LPL",
@@ -1143,7 +1427,9 @@
       "start": "2026-08-05T09:00:00+00:00",
       "state": "unstarted",
       "title": "LGD GAMING vs Beijing JDG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1151,7 +1437,9 @@
       "start": "2026-08-05T11:00:00+00:00",
       "state": "unstarted",
       "title": "TOP ESPORTS vs EDWARD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1159,7 +1447,9 @@
       "start": "2026-08-06T07:00:00+00:00",
       "state": "unstarted",
       "title": "LGD GAMING vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1167,7 +1457,9 @@
       "start": "2026-08-06T09:00:00+00:00",
       "state": "unstarted",
       "title": "Invictus Gaming vs Shenzhen NINJAS IN PYJAMAS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1175,7 +1467,9 @@
       "start": "2026-08-06T11:00:00+00:00",
       "state": "unstarted",
       "title": "Xi'an Team WE vs Anyone's Legend",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1183,7 +1477,9 @@
       "start": "2026-08-07T07:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs Beijing JDG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1191,7 +1487,9 @@
       "start": "2026-08-07T09:00:00+00:00",
       "state": "unstarted",
       "title": "Xi'an Team WE vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1199,7 +1497,9 @@
       "start": "2026-08-07T11:00:00+00:00",
       "state": "unstarted",
       "title": "TOP ESPORTS vs BILIBILI GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1207,7 +1507,9 @@
       "start": "2026-08-08T07:00:00+00:00",
       "state": "unstarted",
       "title": "WeiboGaming vs Suzhou LNG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1215,7 +1517,9 @@
       "start": "2026-08-08T09:00:00+00:00",
       "state": "unstarted",
       "title": "LGD GAMING vs Anyone's Legend",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1223,7 +1527,9 @@
       "start": "2026-08-08T11:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs BILIBILI GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1231,7 +1537,9 @@
       "start": "2026-08-09T07:00:00+00:00",
       "state": "unstarted",
       "title": "Suzhou LNG Esports vs Invictus Gaming",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1239,7 +1547,9 @@
       "start": "2026-08-09T09:00:00+00:00",
       "state": "unstarted",
       "title": "THUNDER TALK GAMING vs TOP ESPORTS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1247,7 +1557,9 @@
       "start": "2026-08-09T11:00:00+00:00",
       "state": "unstarted",
       "title": "Xi'an Team WE vs Beijing JDG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 3"
     },
     {
       "league": "LPL",
@@ -1255,7 +1567,9 @@
       "start": "2026-08-12T09:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs Anyone's Legend",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1263,7 +1577,9 @@
       "start": "2026-08-12T11:00:00+00:00",
       "state": "unstarted",
       "title": "BILIBILI GAMING vs Beijing JDG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1271,7 +1587,9 @@
       "start": "2026-08-13T07:00:00+00:00",
       "state": "unstarted",
       "title": "WeiboGaming vs Shenzhen NINJAS IN PYJAMAS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1279,7 +1597,9 @@
       "start": "2026-08-13T09:00:00+00:00",
       "state": "unstarted",
       "title": "LGD GAMING vs TOP ESPORTS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1287,7 +1607,9 @@
       "start": "2026-08-13T11:00:00+00:00",
       "state": "unstarted",
       "title": "BILIBILI GAMING vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1295,7 +1617,9 @@
       "start": "2026-08-14T07:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs LGD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1303,7 +1627,9 @@
       "start": "2026-08-14T09:00:00+00:00",
       "state": "unstarted",
       "title": "Xi'an Team WE vs TOP ESPORTS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1311,7 +1637,9 @@
       "start": "2026-08-14T11:00:00+00:00",
       "state": "unstarted",
       "title": "Beijing JDG Esports vs Anyone's Legend",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1319,7 +1647,9 @@
       "start": "2026-08-15T07:00:00+00:00",
       "state": "unstarted",
       "title": "Shenzhen NINJAS IN PYJAMAS vs Suzhou LNG Esports",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1327,7 +1657,9 @@
       "start": "2026-08-15T09:00:00+00:00",
       "state": "unstarted",
       "title": "Anyone's Legend vs THUNDER TALK GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1335,7 +1667,9 @@
       "start": "2026-08-15T11:00:00+00:00",
       "state": "unstarted",
       "title": "BILIBILI GAMING vs Xi'an Team WE",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1343,7 +1677,9 @@
       "start": "2026-08-16T07:00:00+00:00",
       "state": "unstarted",
       "title": "Beijing JDG Esports vs LGD GAMING",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1351,7 +1687,9 @@
       "start": "2026-08-16T09:00:00+00:00",
       "state": "unstarted",
       "title": "WeiboGaming vs Invictus Gaming",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1359,7 +1697,9 @@
       "start": "2026-08-16T11:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs TOP ESPORTS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 4"
     },
     {
       "league": "LPL",
@@ -1367,7 +1707,9 @@
       "start": "2026-08-19T08:00:00+00:00",
       "state": "unstarted",
       "title": "Anyone's Legend vs TOP ESPORTS",
-      "twitch_channel": null
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LPL: Week 5"
     },
     {
       "league": "VCT Americas",
@@ -1375,7 +1717,9 @@
       "start": "2026-07-16T21:00:00+00:00",
       "state": "completed",
       "title": "FURIA vs Leviat\u00e1n Esports",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 1"
     },
     {
       "league": "VCT Americas",
@@ -1383,7 +1727,9 @@
       "start": "2026-07-17T00:00:00+00:00",
       "state": "completed",
       "title": "Sentinels vs Cloud9",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 1"
     },
     {
       "league": "VCT Americas",
@@ -1391,7 +1737,9 @@
       "start": "2026-07-17T21:00:00+00:00",
       "state": "completed",
       "title": "ENVY vs Evil Geniuses",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 1"
     },
     {
       "league": "VCT Americas",
@@ -1399,7 +1747,9 @@
       "start": "2026-07-18T00:00:00+00:00",
       "state": "completed",
       "title": "KR\u00dc Visa vs LOUD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 1"
     },
     {
       "league": "VCT Americas",
@@ -1407,7 +1757,9 @@
       "start": "2026-07-18T21:00:00+00:00",
       "state": "completed",
       "title": "G2 Esports vs 100 Thieves",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 1"
     },
     {
       "league": "VCT Americas",
@@ -1415,7 +1767,9 @@
       "start": "2026-07-19T00:00:00+00:00",
       "state": "completed",
       "title": "NRG vs MIBR",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 1"
     },
     {
       "league": "VCT Americas",
@@ -1423,7 +1777,9 @@
       "start": "2026-07-23T21:00:00+00:00",
       "state": "completed",
       "title": "Leviat\u00e1n Esports vs Evil Geniuses",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1431,7 +1787,9 @@
       "start": "2026-07-24T00:00:00+00:00",
       "state": "completed",
       "title": "ENVY vs MIBR",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1439,7 +1797,9 @@
       "start": "2026-07-24T21:00:00+00:00",
       "state": "completed",
       "title": "NRG vs FURIA",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1447,7 +1807,9 @@
       "start": "2026-07-25T00:00:00+00:00",
       "state": "completed",
       "title": "100 Thieves vs KR\u00dc Visa",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1455,7 +1817,9 @@
       "start": "2026-07-25T21:00:00+00:00",
       "state": "completed",
       "title": "G2 Esports vs Cloud9",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1463,7 +1827,9 @@
       "start": "2026-07-26T00:00:00+00:00",
       "state": "completed",
       "title": "LOUD vs Sentinels",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1471,7 +1837,9 @@
       "start": "2026-07-26T21:00:00+00:00",
       "state": "completed",
       "title": "Leviat\u00e1n Esports vs ENVY",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1479,7 +1847,9 @@
       "start": "2026-07-27T00:00:00+00:00",
       "state": "completed",
       "title": "FURIA vs MIBR",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 2"
     },
     {
       "league": "VCT Americas",
@@ -1487,7 +1857,9 @@
       "start": "2026-07-30T21:00:00+00:00",
       "state": "unstarted",
       "title": "KR\u00dc Visa vs G2 Esports",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1495,7 +1867,9 @@
       "start": "2026-07-31T00:00:00+00:00",
       "state": "unstarted",
       "title": "100 Thieves vs Sentinels",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1503,7 +1877,9 @@
       "start": "2026-07-31T21:00:00+00:00",
       "state": "unstarted",
       "title": "Cloud9 vs LOUD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1511,7 +1887,9 @@
       "start": "2026-08-01T00:00:00+00:00",
       "state": "unstarted",
       "title": "Evil Geniuses vs MIBR",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1519,7 +1897,9 @@
       "start": "2026-08-01T21:00:00+00:00",
       "state": "unstarted",
       "title": "ENVY vs FURIA",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1527,7 +1907,9 @@
       "start": "2026-08-02T00:00:00+00:00",
       "state": "unstarted",
       "title": "Leviat\u00e1n Esports vs NRG",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1535,7 +1917,9 @@
       "start": "2026-08-02T21:00:00+00:00",
       "state": "unstarted",
       "title": "Cloud9 vs KR\u00dc Visa",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1543,7 +1927,9 @@
       "start": "2026-08-03T00:00:00+00:00",
       "state": "unstarted",
       "title": "G2 Esports vs Sentinels",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 3"
     },
     {
       "league": "VCT Americas",
@@ -1551,7 +1937,9 @@
       "start": "2026-08-06T21:00:00+00:00",
       "state": "unstarted",
       "title": "Evil Geniuses vs FURIA",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1559,7 +1947,9 @@
       "start": "2026-08-07T00:00:00+00:00",
       "state": "unstarted",
       "title": "ENVY vs NRG",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1567,7 +1957,9 @@
       "start": "2026-08-07T21:00:00+00:00",
       "state": "unstarted",
       "title": "100 Thieves vs Cloud9",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1575,7 +1967,9 @@
       "start": "2026-08-08T00:00:00+00:00",
       "state": "unstarted",
       "title": "G2 Esports vs LOUD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1583,7 +1977,9 @@
       "start": "2026-08-08T21:00:00+00:00",
       "state": "unstarted",
       "title": "KR\u00dc Visa vs Sentinels",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1591,7 +1987,9 @@
       "start": "2026-08-09T00:00:00+00:00",
       "state": "unstarted",
       "title": "Leviat\u00e1n Esports vs MIBR",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1599,7 +1997,9 @@
       "start": "2026-08-09T21:00:00+00:00",
       "state": "unstarted",
       "title": "Evil Geniuses vs NRG",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1607,7 +2007,9 @@
       "start": "2026-08-10T00:00:00+00:00",
       "state": "unstarted",
       "title": "LOUD vs 100 Thieves",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Week 4"
     },
     {
       "league": "VCT Americas",
@@ -1615,7 +2017,9 @@
       "start": "2026-08-13T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1623,7 +2027,9 @@
       "start": "2026-08-14T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1631,7 +2037,9 @@
       "start": "2026-08-14T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1639,7 +2047,9 @@
       "start": "2026-08-15T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1647,7 +2057,9 @@
       "start": "2026-08-15T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1655,7 +2067,9 @@
       "start": "2026-08-16T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1663,7 +2077,9 @@
       "start": "2026-08-16T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1671,7 +2087,9 @@
       "start": "2026-08-17T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1679,7 +2097,9 @@
       "start": "2026-08-19T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1687,7 +2107,9 @@
       "start": "2026-08-20T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1695,7 +2117,9 @@
       "start": "2026-08-20T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1703,7 +2127,9 @@
       "start": "2026-08-21T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1711,7 +2137,9 @@
       "start": "2026-08-21T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1719,7 +2147,9 @@
       "start": "2026-08-22T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1727,7 +2157,9 @@
       "start": "2026-08-22T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1735,7 +2167,9 @@
       "start": "2026-08-23T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1743,7 +2177,9 @@
       "start": "2026-08-23T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1751,7 +2187,9 @@
       "start": "2026-08-24T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Play-Ins"
     },
     {
       "league": "VCT Americas",
@@ -1759,7 +2197,9 @@
       "start": "2026-08-27T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Playoffs"
     },
     {
       "league": "VCT Americas",
@@ -1767,7 +2207,9 @@
       "start": "2026-08-28T00:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "VCT Americas: Playoffs"
     },
     {
       "league": "Game Changers NA",
@@ -1775,7 +2217,9 @@
       "start": "2026-07-13T20:59:00+00:00",
       "state": "completed",
       "title": "ROSO GC vs Cloud9 GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1783,7 +2227,9 @@
       "start": "2026-07-13T21:00:00+00:00",
       "state": "completed",
       "title": "Revitalize GC vs Shopify Rebellion Gold",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1791,7 +2237,9 @@
       "start": "2026-07-13T21:00:00+00:00",
       "state": "completed",
       "title": "The Spiders vs SEN Otters",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1799,7 +2247,9 @@
       "start": "2026-07-13T21:00:00+00:00",
       "state": "completed",
       "title": "FlyQuest RED vs Ora Temper",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1807,7 +2257,9 @@
       "start": "2026-07-13T23:29:00+00:00",
       "state": "completed",
       "title": ":3 vs SaD GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1815,7 +2267,9 @@
       "start": "2026-07-13T23:30:00+00:00",
       "state": "completed",
       "title": "Eternal Focus Amethyst vs SwimTrek Blue",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1823,7 +2277,9 @@
       "start": "2026-07-13T23:30:00+00:00",
       "state": "completed",
       "title": "MVSK Secret vs HIMMERS",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1831,7 +2287,9 @@
       "start": "2026-07-13T23:30:00+00:00",
       "state": "completed",
       "title": "Axolotl vs Los Chudeles",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1839,7 +2297,9 @@
       "start": "2026-07-20T21:00:00+00:00",
       "state": "completed",
       "title": "SEN Otters vs Shopify Rebellion Gold",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1847,7 +2307,9 @@
       "start": "2026-07-20T21:00:00+00:00",
       "state": "completed",
       "title": "FlyQuest RED vs Cloud9 GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1855,7 +2317,9 @@
       "start": "2026-07-20T21:00:00+00:00",
       "state": "completed",
       "title": "Revitalize GC vs Ora Temper",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1863,7 +2327,9 @@
       "start": "2026-07-20T21:00:00+00:00",
       "state": "completed",
       "title": "HIMMERS vs Eternal Focus Amethyst",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1871,7 +2337,9 @@
       "start": "2026-07-20T23:30:00+00:00",
       "state": "completed",
       "title": "MVSK Secret vs Axolotl",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1879,7 +2347,9 @@
       "start": "2026-07-20T23:30:00+00:00",
       "state": "completed",
       "title": "SwimTrek Blue vs SaD GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1887,7 +2357,9 @@
       "start": "2026-07-20T23:30:00+00:00",
       "state": "completed",
       "title": ":3 vs The Spiders",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1895,7 +2367,9 @@
       "start": "2026-07-20T23:30:00+00:00",
       "state": "completed",
       "title": "Los Chudeles vs ROSO GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1903,7 +2377,9 @@
       "start": "2026-07-27T21:00:00+00:00",
       "state": "completed",
       "title": "Shopify Rebellion Gold vs SwimTrek Blue",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1911,7 +2387,9 @@
       "start": "2026-07-27T21:00:00+00:00",
       "state": "completed",
       "title": "Ora Temper vs SaD GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1919,7 +2397,9 @@
       "start": "2026-07-27T21:00:00+00:00",
       "state": "completed",
       "title": "The Spiders vs Cloud9 GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1927,7 +2407,9 @@
       "start": "2026-07-27T21:00:00+00:00",
       "state": "completed",
       "title": "FlyQuest RED vs Axolotl",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1935,7 +2417,9 @@
       "start": "2026-07-27T23:30:00+00:00",
       "state": "completed",
       "title": ":3 vs Revitalize GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1943,7 +2427,9 @@
       "start": "2026-07-27T23:30:00+00:00",
       "state": "completed",
       "title": "Los Chudeles vs Eternal Focus Amethyst",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1951,7 +2437,9 @@
       "start": "2026-07-27T23:30:00+00:00",
       "state": "completed",
       "title": "SEN Otters vs MVSK Secret",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1959,7 +2447,9 @@
       "start": "2026-07-27T23:30:00+00:00",
       "state": "completed",
       "title": "ROSO GC vs HIMMERS",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1967,7 +2457,9 @@
       "start": "2026-08-03T21:00:00+00:00",
       "state": "unstarted",
       "title": "FlyQuest RED vs SwimTrek Blue",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1975,7 +2467,9 @@
       "start": "2026-08-03T21:00:00+00:00",
       "state": "unstarted",
       "title": "Ora Temper vs Shopify Rebellion Gold",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1983,7 +2477,9 @@
       "start": "2026-08-03T21:00:00+00:00",
       "state": "unstarted",
       "title": "Axolotl vs SEN Otters",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1991,7 +2487,9 @@
       "start": "2026-08-03T21:00:00+00:00",
       "state": "unstarted",
       "title": "HIMMERS vs The Spiders",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -1999,7 +2497,9 @@
       "start": "2026-08-03T23:30:00+00:00",
       "state": "unstarted",
       "title": "Los Chudeles vs SaD GC",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2007,7 +2507,9 @@
       "start": "2026-08-03T23:30:00+00:00",
       "state": "unstarted",
       "title": "ROSO GC vs MVSK Secret",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2015,7 +2517,9 @@
       "start": "2026-08-03T23:30:00+00:00",
       "state": "unstarted",
       "title": "Revitalize GC vs Eternal Focus Amethyst",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2023,7 +2527,9 @@
       "start": "2026-08-03T23:30:00+00:00",
       "state": "unstarted",
       "title": "Cloud9 GC vs :3",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2031,7 +2537,9 @@
       "start": "2026-08-10T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2039,7 +2547,9 @@
       "start": "2026-08-10T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2047,7 +2557,9 @@
       "start": "2026-08-10T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2055,7 +2567,9 @@
       "start": "2026-08-10T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2063,7 +2577,9 @@
       "start": "2026-08-10T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2071,7 +2587,9 @@
       "start": "2026-08-10T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2079,7 +2597,9 @@
       "start": "2026-08-10T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2087,7 +2607,9 @@
       "start": "2026-08-12T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2095,7 +2617,9 @@
       "start": "2026-08-12T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2103,7 +2627,9 @@
       "start": "2026-08-12T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2111,7 +2637,9 @@
       "start": "2026-08-12T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2119,7 +2647,9 @@
       "start": "2026-08-12T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2127,7 +2657,9 @@
       "start": "2026-08-17T21:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Game Changers NA",
@@ -2135,7 +2667,9 @@
       "start": "2026-08-17T23:30:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_americas"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Game Changers NA: Swiss"
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -2143,7 +2677,9 @@
       "start": "2026-07-28T19:00:00+00:00",
       "state": "completed",
       "title": "Shopify Rebellion Black vs 2GAME",
-      "twitch_channel": "VALORANT_NorthAmerica"
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT_NorthAmerica",
+      "description": "Last Chance Qualifier Americas: Round 1"
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -2151,7 +2687,9 @@
       "start": "2026-07-28T22:00:00+00:00",
       "state": "completed",
       "title": "Shopify Rebellion Black vs Bon Bon Bum Contra",
-      "twitch_channel": "VALORANT_NorthAmerica"
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT_NorthAmerica",
+      "description": "Last Chance Qualifier Americas: Round 1"
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -2159,7 +2697,9 @@
       "start": "2026-07-29T01:00:00+00:00",
       "state": "completed",
       "title": "2GAME vs Bon Bon Bum Contra",
-      "twitch_channel": "VALORANT_NorthAmerica"
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT_NorthAmerica",
+      "description": "Last Chance Qualifier Americas: Round 1"
     },
     {
       "league": "Last Chance Qualifier Americas",
@@ -2167,7 +2707,9 @@
       "start": "2026-07-29T19:00:00+00:00",
       "state": "unstarted",
       "title": "Shopify Rebellion Black vs 2GAME",
-      "twitch_channel": "VALORANT_NorthAmerica"
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT_NorthAmerica",
+      "description": "Last Chance Qualifier Americas: Finals"
     },
     {
       "league": "VCT EMEA",
@@ -2175,7 +2717,9 @@
       "start": "2026-07-15T15:00:00+00:00",
       "state": "completed",
       "title": "FUT Esports vs NAVI",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2183,7 +2727,9 @@
       "start": "2026-07-15T18:00:00+00:00",
       "state": "completed",
       "title": "Team Liquid vs Eternal Fire",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2191,7 +2737,9 @@
       "start": "2026-07-16T15:00:00+00:00",
       "state": "completed",
       "title": "FNATIC vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2199,7 +2747,9 @@
       "start": "2026-07-16T18:00:00+00:00",
       "state": "completed",
       "title": "Gentle Mates vs PCIFIC Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2207,7 +2757,9 @@
       "start": "2026-07-17T15:00:00+00:00",
       "state": "completed",
       "title": "Eternal Fire vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2215,7 +2767,9 @@
       "start": "2026-07-17T18:00:00+00:00",
       "state": "completed",
       "title": "Team Vitality vs NAVI",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2223,7 +2777,9 @@
       "start": "2026-07-18T15:00:00+00:00",
       "state": "completed",
       "title": "FUT Esports vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2231,7 +2787,9 @@
       "start": "2026-07-18T18:00:00+00:00",
       "state": "completed",
       "title": "Team Heretics vs Team Liquid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2239,7 +2797,9 @@
       "start": "2026-07-19T15:00:00+00:00",
       "state": "completed",
       "title": "Karmine Corp vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2247,7 +2807,9 @@
       "start": "2026-07-19T18:00:00+00:00",
       "state": "completed",
       "title": "Team Vitality vs BBL Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 1"
     },
     {
       "league": "VCT EMEA",
@@ -2255,7 +2817,9 @@
       "start": "2026-07-22T15:00:00+00:00",
       "state": "completed",
       "title": "PCIFIC Esports vs FUT Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2263,7 +2827,9 @@
       "start": "2026-07-22T18:00:00+00:00",
       "state": "completed",
       "title": "FNATIC vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2271,7 +2837,9 @@
       "start": "2026-07-23T15:00:00+00:00",
       "state": "completed",
       "title": "Eternal Fire vs Team Heretics",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2279,7 +2847,9 @@
       "start": "2026-07-23T18:00:00+00:00",
       "state": "completed",
       "title": "Gentle Mates vs NAVI",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2287,7 +2857,9 @@
       "start": "2026-07-24T15:00:00+00:00",
       "state": "completed",
       "title": "FUT Esports vs BBL Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2295,7 +2867,9 @@
       "start": "2026-07-24T18:00:00+00:00",
       "state": "completed",
       "title": "FNATIC vs Team Liquid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2303,7 +2877,9 @@
       "start": "2026-07-25T15:00:00+00:00",
       "state": "completed",
       "title": "Team Vitality vs PCIFIC Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2311,7 +2887,9 @@
       "start": "2026-07-25T18:00:00+00:00",
       "state": "completed",
       "title": "Eternal Fire vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2319,7 +2897,9 @@
       "start": "2026-07-26T15:00:00+00:00",
       "state": "completed",
       "title": "NAVI vs BBL Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2327,7 +2907,9 @@
       "start": "2026-07-26T18:00:00+00:00",
       "state": "completed",
       "title": "Team Heretics vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 2"
     },
     {
       "league": "VCT EMEA",
@@ -2335,7 +2917,9 @@
       "start": "2026-07-29T15:00:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs Team Liquid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2343,7 +2927,9 @@
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
       "title": "Gentle Mates vs Team Vitality",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2351,7 +2937,9 @@
       "start": "2026-07-30T15:00:00+00:00",
       "state": "unstarted",
       "title": "NAVI vs PCIFIC Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2359,7 +2947,9 @@
       "start": "2026-07-30T18:00:00+00:00",
       "state": "unstarted",
       "title": "Eternal Fire vs FNATIC",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2367,7 +2957,9 @@
       "start": "2026-07-31T15:00:00+00:00",
       "state": "unstarted",
       "title": "BBL Esports vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2375,7 +2967,9 @@
       "start": "2026-07-31T18:00:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs Team Heretics",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2383,7 +2977,9 @@
       "start": "2026-08-01T15:00:00+00:00",
       "state": "unstarted",
       "title": "FUT Esports vs Team Vitality",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2391,7 +2987,9 @@
       "start": "2026-08-01T18:00:00+00:00",
       "state": "unstarted",
       "title": "Karmine Corp vs Team Liquid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2399,7 +2997,9 @@
       "start": "2026-08-02T15:00:00+00:00",
       "state": "unstarted",
       "title": "BBL Esports vs PCIFIC Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2407,7 +3007,9 @@
       "start": "2026-08-02T18:00:00+00:00",
       "state": "unstarted",
       "title": "FNATIC vs Team Heretics",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Week 3"
     },
     {
       "league": "VCT EMEA",
@@ -2415,7 +3017,9 @@
       "start": "2026-08-06T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2423,7 +3027,9 @@
       "start": "2026-08-06T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2431,7 +3037,9 @@
       "start": "2026-08-07T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2439,7 +3047,9 @@
       "start": "2026-08-07T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2447,7 +3057,9 @@
       "start": "2026-08-08T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2455,7 +3067,9 @@
       "start": "2026-08-08T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2463,7 +3077,9 @@
       "start": "2026-08-09T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2471,7 +3087,9 @@
       "start": "2026-08-09T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2479,7 +3097,9 @@
       "start": "2026-08-12T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2487,7 +3107,9 @@
       "start": "2026-08-12T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2495,7 +3117,9 @@
       "start": "2026-08-13T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2503,7 +3127,9 @@
       "start": "2026-08-13T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2511,7 +3137,9 @@
       "start": "2026-08-14T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2519,7 +3147,9 @@
       "start": "2026-08-14T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2527,7 +3157,9 @@
       "start": "2026-08-15T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2535,7 +3167,9 @@
       "start": "2026-08-15T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2543,7 +3177,9 @@
       "start": "2026-08-16T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2551,7 +3187,9 @@
       "start": "2026-08-16T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Play-Ins"
     },
     {
       "league": "VCT EMEA",
@@ -2559,7 +3197,9 @@
       "start": "2026-08-20T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2567,7 +3207,9 @@
       "start": "2026-08-20T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2575,7 +3217,9 @@
       "start": "2026-08-21T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2583,7 +3227,9 @@
       "start": "2026-08-21T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2591,7 +3237,9 @@
       "start": "2026-08-22T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2599,7 +3247,9 @@
       "start": "2026-08-22T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2607,7 +3257,9 @@
       "start": "2026-08-23T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "VCT EMEA",
@@ -2615,7 +3267,9 @@
       "start": "2026-08-23T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "VCT EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -2623,7 +3277,9 @@
       "start": "2026-07-20T15:00:00+00:00",
       "state": "completed",
       "title": "Gentle Mates vs G2 Gozen",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2631,7 +3287,9 @@
       "start": "2026-07-20T15:00:00+00:00",
       "state": "completed",
       "title": "SK Nebula vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2639,7 +3297,9 @@
       "start": "2026-07-20T18:00:00+00:00",
       "state": "completed",
       "title": "Karmine Corp vs Twisted Minds Orchid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2647,7 +3307,9 @@
       "start": "2026-07-21T15:00:00+00:00",
       "state": "completed",
       "title": "Bar\u00e7a eSports vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2655,7 +3317,9 @@
       "start": "2026-07-21T15:00:00+00:00",
       "state": "completed",
       "title": "G2 Gozen vs Habos Babos",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2663,7 +3327,9 @@
       "start": "2026-07-21T18:00:00+00:00",
       "state": "completed",
       "title": "FOKUS Sakura vs Twisted Minds Orchid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2671,7 +3337,9 @@
       "start": "2026-07-21T18:00:00+00:00",
       "state": "completed",
       "title": "SK Nebula vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2679,7 +3347,9 @@
       "start": "2026-07-22T15:00:00+00:00",
       "state": "completed",
       "title": "SK Nebula vs Bar\u00e7a eSports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2687,7 +3357,9 @@
       "start": "2026-07-22T15:00:00+00:00",
       "state": "completed",
       "title": "FOKUS Sakura vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2695,7 +3367,9 @@
       "start": "2026-07-22T18:00:00+00:00",
       "state": "completed",
       "title": "Habos Babos vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2703,7 +3377,9 @@
       "start": "2026-07-22T18:00:00+00:00",
       "state": "completed",
       "title": "ALTERNATE aTTaX Ruby vs Twisted Minds Orchid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2711,7 +3387,9 @@
       "start": "2026-07-23T15:00:00+00:00",
       "state": "completed",
       "title": "Gentle Mates vs Habos Babos",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2719,7 +3397,9 @@
       "start": "2026-07-23T15:00:00+00:00",
       "state": "completed",
       "title": "FOKUS Sakura vs Bar\u00e7a eSports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2727,7 +3407,9 @@
       "start": "2026-07-23T18:00:00+00:00",
       "state": "completed",
       "title": "ALTERNATE aTTaX Ruby vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2735,7 +3417,9 @@
       "start": "2026-07-23T18:00:00+00:00",
       "state": "completed",
       "title": "Twisted Minds Orchid vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 1"
     },
     {
       "league": "Game Changers EMEA",
@@ -2743,7 +3427,9 @@
       "start": "2026-07-27T15:00:00+00:00",
       "state": "completed",
       "title": "Gentle Mates vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2751,7 +3437,9 @@
       "start": "2026-07-27T15:00:00+00:00",
       "state": "completed",
       "title": "Bar\u00e7a eSports vs Habos Babos",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2759,7 +3447,9 @@
       "start": "2026-07-27T18:00:00+00:00",
       "state": "completed",
       "title": "G2 Gozen vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2767,7 +3457,9 @@
       "start": "2026-07-28T15:00:00+00:00",
       "state": "completed",
       "title": "G2 Gozen vs FOKUS Sakura",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2775,7 +3467,9 @@
       "start": "2026-07-28T15:00:00+00:00",
       "state": "completed",
       "title": "Karmine Corp vs Bar\u00e7a eSports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2783,7 +3477,9 @@
       "start": "2026-07-28T18:00:00+00:00",
       "state": "completed",
       "title": "Twisted Minds Orchid vs Habos Babos",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2791,7 +3487,9 @@
       "start": "2026-07-28T18:00:00+00:00",
       "state": "completed",
       "title": "SK Nebula vs ALTERNATE aTTaX Ruby",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2799,7 +3497,9 @@
       "start": "2026-07-29T15:00:00+00:00",
       "state": "unstarted",
       "title": "SK Nebula vs G2 Gozen",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2807,7 +3507,9 @@
       "start": "2026-07-29T15:00:00+00:00",
       "state": "unstarted",
       "title": "FOKUS Sakura vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2815,7 +3517,9 @@
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
       "title": "Habos Babos vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2823,7 +3527,9 @@
       "start": "2026-07-29T18:00:00+00:00",
       "state": "unstarted",
       "title": "ALTERNATE aTTaX Ruby vs Bar\u00e7a eSports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2831,7 +3537,9 @@
       "start": "2026-07-30T15:00:00+00:00",
       "state": "unstarted",
       "title": "Bar\u00e7a eSports vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2839,7 +3547,9 @@
       "start": "2026-07-30T15:00:00+00:00",
       "state": "unstarted",
       "title": "Habos Babos vs SK Nebula",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2847,7 +3557,9 @@
       "start": "2026-07-30T18:00:00+00:00",
       "state": "unstarted",
       "title": "ALTERNATE aTTaX Ruby vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2855,7 +3567,9 @@
       "start": "2026-07-30T18:00:00+00:00",
       "state": "unstarted",
       "title": "Twisted Minds Orchid vs G2 Gozen",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 2"
     },
     {
       "league": "Game Changers EMEA",
@@ -2863,7 +3577,9 @@
       "start": "2026-08-03T15:00:00+00:00",
       "state": "unstarted",
       "title": "FOKUS Sakura vs SK Nebula",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2871,7 +3587,9 @@
       "start": "2026-08-03T15:00:00+00:00",
       "state": "unstarted",
       "title": "Karmine Corp vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2879,7 +3597,9 @@
       "start": "2026-08-03T18:00:00+00:00",
       "state": "unstarted",
       "title": "Bar\u00e7a eSports vs Twisted Minds Orchid",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2887,7 +3607,9 @@
       "start": "2026-08-03T18:00:00+00:00",
       "state": "unstarted",
       "title": "ALTERNATE aTTaX Ruby vs G2 Gozen",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2895,7 +3617,9 @@
       "start": "2026-08-04T15:00:00+00:00",
       "state": "unstarted",
       "title": "FOKUS Sakura vs Karmine Corp",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2903,7 +3627,9 @@
       "start": "2026-08-04T15:00:00+00:00",
       "state": "unstarted",
       "title": "Bar\u00e7a eSports vs G2 Gozen",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2911,7 +3637,9 @@
       "start": "2026-08-04T18:00:00+00:00",
       "state": "unstarted",
       "title": "Twisted Minds Orchid vs SK Nebula",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2919,7 +3647,9 @@
       "start": "2026-08-04T18:00:00+00:00",
       "state": "unstarted",
       "title": "ALTERNATE aTTaX Ruby vs Habos Babos",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2927,7 +3657,9 @@
       "start": "2026-08-05T15:00:00+00:00",
       "state": "unstarted",
       "title": "GIANTX vs G2 Gozen",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2935,7 +3667,9 @@
       "start": "2026-08-05T15:00:00+00:00",
       "state": "unstarted",
       "title": "Karmine Corp vs SK Nebula",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2943,7 +3677,9 @@
       "start": "2026-08-05T18:00:00+00:00",
       "state": "unstarted",
       "title": "Twisted Minds Orchid vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2951,7 +3687,9 @@
       "start": "2026-08-05T18:00:00+00:00",
       "state": "unstarted",
       "title": "ALTERNATE aTTaX Ruby vs FOKUS Sakura",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2959,7 +3697,9 @@
       "start": "2026-08-06T15:00:00+00:00",
       "state": "unstarted",
       "title": "FOKUS Sakura vs Habos Babos",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2967,7 +3707,9 @@
       "start": "2026-08-06T15:00:00+00:00",
       "state": "unstarted",
       "title": "Karmine Corp vs GIANTX",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2975,7 +3717,9 @@
       "start": "2026-08-06T18:00:00+00:00",
       "state": "unstarted",
       "title": "ALTERNATE aTTaX Ruby vs Gentle Mates",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Week 3"
     },
     {
       "league": "Game Changers EMEA",
@@ -2983,7 +3727,9 @@
       "start": "2026-08-08T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Play In Knockouts"
     },
     {
       "league": "Game Changers EMEA",
@@ -2991,7 +3737,9 @@
       "start": "2026-08-08T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Play In Knockouts"
     },
     {
       "league": "Game Changers EMEA",
@@ -2999,7 +3747,9 @@
       "start": "2026-08-09T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Play In Knockouts"
     },
     {
       "league": "Game Changers EMEA",
@@ -3007,7 +3757,9 @@
       "start": "2026-08-09T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Play In Knockouts"
     },
     {
       "league": "Game Changers EMEA",
@@ -3015,7 +3767,9 @@
       "start": "2026-08-10T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Play In Knockouts"
     },
     {
       "league": "Game Changers EMEA",
@@ -3023,7 +3777,9 @@
       "start": "2026-08-10T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Play In Knockouts"
     },
     {
       "league": "Game Changers EMEA",
@@ -3031,7 +3787,9 @@
       "start": "2026-08-13T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3039,7 +3797,9 @@
       "start": "2026-08-13T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3047,7 +3807,9 @@
       "start": "2026-08-14T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3055,7 +3817,9 @@
       "start": "2026-08-14T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3063,7 +3827,9 @@
       "start": "2026-08-15T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3071,7 +3837,9 @@
       "start": "2026-08-15T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3079,7 +3847,9 @@
       "start": "2026-08-16T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3087,7 +3857,9 @@
       "start": "2026-08-16T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3095,7 +3867,9 @@
       "start": "2026-08-17T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3103,7 +3877,9 @@
       "start": "2026-08-17T18:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Game Changers EMEA",
@@ -3111,7 +3887,9 @@
       "start": "2026-08-18T15:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Game Changers EMEA: Playoffs"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3119,7 +3897,9 @@
       "start": "2026-07-07T15:00:00+00:00",
       "state": "completed",
       "title": "Cilekler vs MISA Espo\u0131rts",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3127,7 +3907,9 @@
       "start": "2026-07-07T15:00:00+00:00",
       "state": "completed",
       "title": "Formulation Gaming vs FOKUS Clan",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3135,7 +3917,9 @@
       "start": "2026-07-07T15:00:00+00:00",
       "state": "completed",
       "title": "Fire Flux Esports vs MIR",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3143,7 +3927,9 @@
       "start": "2026-07-07T15:00:00+00:00",
       "state": "completed",
       "title": "La Masia vs Mandatory",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3151,7 +3937,9 @@
       "start": "2026-07-07T17:30:00+00:00",
       "state": "completed",
       "title": "Pixel Lumina vs Twisted Saints Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3159,7 +3947,9 @@
       "start": "2026-07-07T17:30:00+00:00",
       "state": "completed",
       "title": "CGN Esports vs Be\u015fikta\u015f Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3167,7 +3957,9 @@
       "start": "2026-07-07T17:30:00+00:00",
       "state": "completed",
       "title": "Eintracht Frankfurt vs UCAM Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3175,7 +3967,9 @@
       "start": "2026-07-07T17:30:00+00:00",
       "state": "completed",
       "title": "Ghools Esports vs Bar\u00e7a Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3183,7 +3977,9 @@
       "start": "2026-07-08T15:00:00+00:00",
       "state": "completed",
       "title": "Pixel Lumina vs FOKUS Clan",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3191,7 +3987,9 @@
       "start": "2026-07-08T15:00:00+00:00",
       "state": "completed",
       "title": "CGN Esports vs Fire Flux Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3199,7 +3997,9 @@
       "start": "2026-07-08T15:00:00+00:00",
       "state": "completed",
       "title": "Eintracht Frankfurt vs Mandatory",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3207,7 +4007,9 @@
       "start": "2026-07-08T15:00:00+00:00",
       "state": "completed",
       "title": "Bar\u00e7a Esports vs Cilekler",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3215,7 +4017,9 @@
       "start": "2026-07-08T17:30:00+00:00",
       "state": "completed",
       "title": "Twisted Saints Esports vs Formulation Gaming",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3223,7 +4027,9 @@
       "start": "2026-07-08T17:30:00+00:00",
       "state": "completed",
       "title": "Be\u015fikta\u015f Esports vs MIR",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3231,7 +4037,9 @@
       "start": "2026-07-08T17:30:00+00:00",
       "state": "completed",
       "title": "UCAM Esports vs La Masia",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3239,7 +4047,9 @@
       "start": "2026-07-08T17:30:00+00:00",
       "state": "completed",
       "title": "Ghools Esports vs MISA Espo\u0131rts",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3247,7 +4057,9 @@
       "start": "2026-07-09T15:00:00+00:00",
       "state": "completed",
       "title": "Twisted Saints Esports vs FOKUS Clan",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3255,7 +4067,9 @@
       "start": "2026-07-09T15:00:00+00:00",
       "state": "completed",
       "title": "MIR vs CGN Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3263,7 +4077,9 @@
       "start": "2026-07-09T17:30:00+00:00",
       "state": "completed",
       "title": "UCAM Esports vs Mandatory",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3271,7 +4087,9 @@
       "start": "2026-07-09T17:30:00+00:00",
       "state": "completed",
       "title": "MISA Espo\u0131rts vs Cilekler",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Groups"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3279,7 +4097,9 @@
       "start": "2026-07-10T15:00:00+00:00",
       "state": "completed",
       "title": "CGN Esports vs Pixel Lumina",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Quarterfinals"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3287,7 +4107,9 @@
       "start": "2026-07-10T15:00:00+00:00",
       "state": "completed",
       "title": "Cilekler vs Fire Flux Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Quarterfinals"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3295,7 +4117,9 @@
       "start": "2026-07-10T17:30:00+00:00",
       "state": "completed",
       "title": "FOKUS Clan vs Eintracht Frankfurt",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Quarterfinals"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3303,7 +4127,9 @@
       "start": "2026-07-10T17:30:00+00:00",
       "state": "completed",
       "title": "Mandatory vs Bar\u00e7a Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Quarterfinals"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3311,7 +4137,9 @@
       "start": "2026-07-11T15:00:00+00:00",
       "state": "completed",
       "title": "Cilekler vs CGN Esports",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Semifinals"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3319,7 +4147,9 @@
       "start": "2026-07-11T17:30:00+00:00",
       "state": "completed",
       "title": "Mandatory vs Eintracht Frankfurt",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Semifinals"
     },
     {
       "league": "Last Chance Qualifier EMEA",
@@ -3327,7 +4157,9 @@
       "start": "2026-07-12T15:00:00+00:00",
       "state": "completed",
       "title": "Eintracht Frankfurt vs Cilekler",
-      "twitch_channel": "valorant_emea"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Last Chance Qualifier EMEA: Finals"
     },
     {
       "league": "VCT Pacific",
@@ -3335,7 +4167,9 @@
       "start": "2026-07-16T08:00:00+00:00",
       "state": "completed",
       "title": "Gen.G  vs ZETA DIVISION",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3343,7 +4177,9 @@
       "start": "2026-07-16T10:00:00+00:00",
       "state": "completed",
       "title": "VARREL vs Team Secret",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3351,7 +4187,9 @@
       "start": "2026-07-17T08:00:00+00:00",
       "state": "completed",
       "title": "FULL SENSE vs NONGSHIM REDFORCE",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3359,7 +4197,9 @@
       "start": "2026-07-17T10:00:00+00:00",
       "state": "completed",
       "title": "Kiwoom DRX vs DetonatioN FocusMe",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3367,7 +4207,9 @@
       "start": "2026-07-18T08:00:00+00:00",
       "state": "completed",
       "title": "GLOBAL ESPORTS vs Rex Regum Qeon",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3375,7 +4217,9 @@
       "start": "2026-07-18T10:00:00+00:00",
       "state": "completed",
       "title": "Paper Rex vs T1",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3383,7 +4227,9 @@
       "start": "2026-07-19T08:00:00+00:00",
       "state": "completed",
       "title": "NONGSHIM REDFORCE vs Gen.G ",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3391,7 +4237,9 @@
       "start": "2026-07-19T10:00:00+00:00",
       "state": "completed",
       "title": "Team Secret vs Kiwoom DRX",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 1"
     },
     {
       "league": "VCT Pacific",
@@ -3399,7 +4247,9 @@
       "start": "2026-07-23T08:00:00+00:00",
       "state": "completed",
       "title": "GLOBAL ESPORTS vs FULL SENSE",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3407,7 +4257,9 @@
       "start": "2026-07-23T10:00:00+00:00",
       "state": "completed",
       "title": "T1 vs VARREL",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3415,7 +4267,9 @@
       "start": "2026-07-24T08:00:00+00:00",
       "state": "completed",
       "title": "Rex Regum Qeon vs ZETA DIVISION",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3423,7 +4277,9 @@
       "start": "2026-07-24T10:00:00+00:00",
       "state": "completed",
       "title": "DetonatioN FocusMe vs Paper Rex",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3431,7 +4287,9 @@
       "start": "2026-07-25T08:00:00+00:00",
       "state": "completed",
       "title": "GLOBAL ESPORTS vs NONGSHIM REDFORCE",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3439,7 +4297,9 @@
       "start": "2026-07-25T10:00:00+00:00",
       "state": "completed",
       "title": "Team Secret vs T1",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3447,7 +4307,9 @@
       "start": "2026-07-26T08:00:00+00:00",
       "state": "completed",
       "title": "Paper Rex vs Kiwoom DRX",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3455,7 +4317,9 @@
       "start": "2026-07-26T10:00:00+00:00",
       "state": "completed",
       "title": "Gen.G  vs Rex Regum Qeon",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 2"
     },
     {
       "league": "VCT Pacific",
@@ -3463,7 +4327,9 @@
       "start": "2026-07-30T08:00:00+00:00",
       "state": "unstarted",
       "title": "VARREL vs DetonatioN FocusMe",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3471,7 +4337,9 @@
       "start": "2026-07-30T10:00:00+00:00",
       "state": "unstarted",
       "title": "FULL SENSE vs ZETA DIVISION",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3479,7 +4347,9 @@
       "start": "2026-07-31T08:00:00+00:00",
       "state": "unstarted",
       "title": "Team Secret vs Paper Rex",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3487,7 +4357,9 @@
       "start": "2026-07-31T10:00:00+00:00",
       "state": "unstarted",
       "title": "GLOBAL ESPORTS vs Gen.G ",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3495,7 +4367,9 @@
       "start": "2026-08-01T08:00:00+00:00",
       "state": "unstarted",
       "title": "T1 vs DetonatioN FocusMe",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3503,7 +4377,9 @@
       "start": "2026-08-01T10:00:00+00:00",
       "state": "unstarted",
       "title": "FULL SENSE vs Rex Regum Qeon",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3511,7 +4387,9 @@
       "start": "2026-08-02T08:00:00+00:00",
       "state": "unstarted",
       "title": "VARREL vs Kiwoom DRX",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3519,7 +4397,9 @@
       "start": "2026-08-02T10:00:00+00:00",
       "state": "unstarted",
       "title": "ZETA DIVISION vs NONGSHIM REDFORCE",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 3"
     },
     {
       "league": "VCT Pacific",
@@ -3527,7 +4407,9 @@
       "start": "2026-08-07T08:00:00+00:00",
       "state": "unstarted",
       "title": "Team Secret vs DetonatioN FocusMe",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 4"
     },
     {
       "league": "VCT Pacific",
@@ -3535,7 +4417,9 @@
       "start": "2026-08-07T10:00:00+00:00",
       "state": "unstarted",
       "title": "Gen.G  vs FULL SENSE",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 4"
     },
     {
       "league": "VCT Pacific",
@@ -3543,7 +4427,9 @@
       "start": "2026-08-08T08:00:00+00:00",
       "state": "unstarted",
       "title": "Kiwoom DRX vs T1",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 4"
     },
     {
       "league": "VCT Pacific",
@@ -3551,7 +4437,9 @@
       "start": "2026-08-08T10:00:00+00:00",
       "state": "unstarted",
       "title": "GLOBAL ESPORTS vs ZETA DIVISION",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 4"
     },
     {
       "league": "VCT Pacific",
@@ -3559,7 +4447,9 @@
       "start": "2026-08-09T08:00:00+00:00",
       "state": "unstarted",
       "title": "VARREL vs Paper Rex",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 4"
     },
     {
       "league": "VCT Pacific",
@@ -3567,7 +4457,9 @@
       "start": "2026-08-09T10:00:00+00:00",
       "state": "unstarted",
       "title": "NONGSHIM REDFORCE vs Rex Regum Qeon",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Week 4"
     },
     {
       "league": "VCT Pacific",
@@ -3575,7 +4467,9 @@
       "start": "2026-08-13T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3583,7 +4477,9 @@
       "start": "2026-08-13T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3591,7 +4487,9 @@
       "start": "2026-08-14T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3599,7 +4497,9 @@
       "start": "2026-08-14T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3607,7 +4507,9 @@
       "start": "2026-08-15T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3615,7 +4517,9 @@
       "start": "2026-08-15T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3623,7 +4527,9 @@
       "start": "2026-08-16T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3631,7 +4537,9 @@
       "start": "2026-08-16T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3639,7 +4547,9 @@
       "start": "2026-08-19T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3647,7 +4557,9 @@
       "start": "2026-08-19T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3655,7 +4567,9 @@
       "start": "2026-08-20T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3663,7 +4577,9 @@
       "start": "2026-08-20T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3671,7 +4587,9 @@
       "start": "2026-08-21T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3679,7 +4597,9 @@
       "start": "2026-08-21T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3687,7 +4607,9 @@
       "start": "2026-08-22T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3695,7 +4617,9 @@
       "start": "2026-08-22T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3703,7 +4627,9 @@
       "start": "2026-08-23T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3711,7 +4637,9 @@
       "start": "2026-08-23T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Play-Ins"
     },
     {
       "league": "VCT Pacific",
@@ -3719,7 +4647,9 @@
       "start": "2026-08-26T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Playoffs"
     },
     {
       "league": "VCT Pacific",
@@ -3727,7 +4657,9 @@
       "start": "2026-08-26T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Playoffs"
     },
     {
       "league": "VCT Pacific",
@@ -3735,7 +4667,9 @@
       "start": "2026-08-27T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Playoffs"
     },
     {
       "league": "VCT Pacific",
@@ -3743,7 +4677,9 @@
       "start": "2026-08-27T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Playoffs"
     },
     {
       "league": "VCT Pacific",
@@ -3751,7 +4687,9 @@
       "start": "2026-08-28T08:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Playoffs"
     },
     {
       "league": "VCT Pacific",
@@ -3759,7 +4697,9 @@
       "start": "2026-08-28T10:00:00+00:00",
       "state": "unstarted",
       "title": "TBD vs TBD",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "VCT Pacific: Playoffs"
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -3767,7 +4707,9 @@
       "start": "2026-07-07T08:00:00+00:00",
       "state": "completed",
       "title": "555 vs No Salary Peek",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "Last Chance Qualifier Pacific: Knockouts"
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -3775,7 +4717,9 @@
       "start": "2026-07-07T11:00:00+00:00",
       "state": "completed",
       "title": "Fancy United Esports vs YiJing",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "Last Chance Qualifier Pacific: Knockouts"
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -3783,7 +4727,9 @@
       "start": "2026-07-08T08:00:00+00:00",
       "state": "completed",
       "title": "555 vs Fancy United Esports",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "Last Chance Qualifier Pacific: Knockouts"
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -3791,7 +4737,9 @@
       "start": "2026-07-08T11:00:00+00:00",
       "state": "completed",
       "title": "YiJing vs No Salary Peek",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "Last Chance Qualifier Pacific: Knockouts"
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -3799,7 +4747,9 @@
       "start": "2026-07-09T08:00:00+00:00",
       "state": "completed",
       "title": "555 vs YiJing",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "Last Chance Qualifier Pacific: Knockouts"
     },
     {
       "league": "Last Chance Qualifier Pacific",
@@ -3807,7 +4757,9 @@
       "start": "2026-07-10T08:00:00+00:00",
       "state": "completed",
       "title": "555 vs Fancy United Esports",
-      "twitch_channel": "valorant_pacific"
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "Last Chance Qualifier Pacific: Finals"
     }
   ]
 }
