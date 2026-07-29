@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:03:34.427688+00:00",
+  "generated_at": "2026-07-29T12:17:30.749882+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -605,7 +605,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-29T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "T1 vs kt Rolster",
       "twitch_channel": "lck"
     },
@@ -1046,7 +1046,7 @@
       "game": "lol",
       "start": "2026-07-29T11:00:00+00:00",
       "state": "completed",
-      "title": "BILIBILI GAMING vs LGD GAMING",
+      "title": "LGD GAMING vs BILIBILI GAMING",
       "twitch_channel": null
     },
     {
@@ -1359,6 +1359,14 @@
       "start": "2026-08-16T11:00:00+00:00",
       "state": "unstarted",
       "title": "EDWARD GAMING vs TOP ESPORTS",
+      "twitch_channel": null
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-19T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "Anyone's Legend vs TOP ESPORTS",
       "twitch_channel": null
     },
     {
