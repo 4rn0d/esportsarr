@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T23:37:32.204286+00:00",
+  "generated_at": "2026-07-29T01:06:38.035309+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1746,6 +1746,14 @@
       "twitch_channel": "valorant_americas"
     },
     {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-08-28T00:00:00+00:00",
+      "state": "unstarted",
+      "title": "TBD vs TBD",
+      "twitch_channel": "valorant_americas"
+    },
+    {
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-07-13T20:59:00+00:00",
@@ -2125,7 +2133,7 @@
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
       "start": "2026-07-28T22:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Shopify Rebellion Black vs Bon Bon Bum Contra",
       "twitch_channel": "VALORANT_NorthAmerica"
     },
@@ -2133,8 +2141,8 @@
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
       "start": "2026-07-29T01:00:00+00:00",
-      "state": "unstarted",
-      "title": "Bon Bon Bum Contra vs 2GAME",
+      "state": "in_progress",
+      "title": "2GAME vs Bon Bon Bum Contra",
       "twitch_channel": "VALORANT_NorthAmerica"
     },
     {

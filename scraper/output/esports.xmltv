@@ -513,6 +513,9 @@
   <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="twitch.valorant_americas">
     <title>TBD vs TBD</title>
   </programme>
+  <programme start="20260828000000 +0000" stop="20260828030000 +0000" channel="twitch.valorant_americas">
+    <title>TBD vs TBD</title>
+  </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
     <title>FlyQuest RED vs SwimTrek Blue</title>
   </programme>
@@ -579,11 +582,8 @@
   <programme start="20260817233000 +0000" stop="20260818023000 +0000" channel="twitch.valorant_americas">
     <title>TBD vs TBD</title>
   </programme>
-  <programme start="20260728220000 +0000" stop="20260729010000 +0000" channel="twitch.VALORANT_NorthAmerica">
-    <title>Shopify Rebellion Black vs Bon Bon Bum Contra</title>
-  </programme>
   <programme start="20260729010000 +0000" stop="20260729040000 +0000" channel="twitch.VALORANT_NorthAmerica">
-    <title>Bon Bon Bum Contra vs 2GAME</title>
+    <title>2GAME vs Bon Bon Bum Contra</title>
   </programme>
   <programme start="20260729190000 +0000" stop="20260729220000 +0000" channel="twitch.VALORANT_NorthAmerica">
     <title>TBD vs TBD</title>
