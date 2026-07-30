@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:39:25.838903+00:00",
+  "generated_at": "2026-07-30T11:32:16.877330+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -852,7 +852,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-30T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -863,7 +863,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-30T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1297,6 +1297,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lck",
       "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-29T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -1924,6 +1935,17 @@
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
       "description": "THUNDER TALK GAMING vs Beijing JDG Esports \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-20T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LGD GAMING vs BILIBILI GAMING \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -4415,8 +4437,8 @@
     {
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
-      "start": "2026-07-30T01:15:00+00:00",
-      "state": "completed",
+      "start": "2026-07-30T22:00:00+00:00",
+      "state": "unstarted",
       "title": "Last Chance Qualifier Americas",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
@@ -6242,7 +6264,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-30T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6253,7 +6275,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-30T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6660,6 +6682,17 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-29T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT Pacific",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-29T10:00:00+00:00",
       "state": "unstarted",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
