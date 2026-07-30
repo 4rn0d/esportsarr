@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T01:24:47.418808+00:00",
+  "generated_at": "2026-07-30T04:27:03.420014+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -4383,7 +4383,7 @@
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
       "start": "2026-07-30T01:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Last Chance Qualifier Americas",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
