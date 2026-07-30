@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-07-30T07:09:49.599705+00:00",
+  "generated_at": "2026-07-30T09:39:25.838903+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-06-30T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Team Liquid Alienware vs Karmine Corp \u00b7 Play In Knockouts \u00b7 Bo5",
-      "best_of": 5
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -863,7 +852,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-30T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1292,6 +1281,17 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-27T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-28T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
       "stream_platform": "twitch",
@@ -1916,6 +1916,17 @@
       "best_of": 3
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-20T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "THUNDER TALK GAMING vs Beijing JDG Esports \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2227,11 +2238,11 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-30T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "Fukuoka SoftBank HAWKS gaming vs DetonatioN FocusMe \u00b7 Swiss \u00b7 Bo3",
+      "description": "DetonatioN FocusMe vs Fukuoka SoftBank HAWKS gaming \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2425,6 +2436,17 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-23T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCP",
+      "stream_platform": "twitch",
+      "stream_channel": "lolpacificen",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
+      "league": "LCP",
+      "game": "lol",
+      "start": "2026-08-29T09:00:00+00:00",
       "state": "unstarted",
       "title": "LCP",
       "stream_platform": "twitch",
@@ -6219,23 +6241,12 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-07-30T07:03:03.747000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-07-30T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VARREL vs DetonatioN FocusMe \u00b7 Week 3 \u00b7 Bo3",
+      "description": "DetonatioN FocusMe vs VARREL \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -6638,6 +6649,17 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-28T10:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT Pacific",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_pacific",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-29T08:00:00+00:00",
       "state": "unstarted",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
