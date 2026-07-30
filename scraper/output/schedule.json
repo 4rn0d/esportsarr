@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T19:51:20.365763+00:00",
+  "generated_at": "2026-07-30T20:55:49.689273+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -384,6 +384,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lcs",
       "description": "Dignitas vs FlyQuest \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-29T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "Shopify Rebellion vs Team Liquid Alienware \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2886,6 +2897,17 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
+      "start": "2026-07-30T15:00:02.425000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
       "start": "2026-07-30T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -2931,7 +2953,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-07-30T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3520,6 +3542,17 @@
       "stream_channel": "valorant_americas",
       "description": "FURIA vs MIBR \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-07-30T20:32:09.921000+00:00",
+      "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "VCT Americas",
@@ -4746,7 +4779,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-30T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5410,7 +5443,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Habos Babos vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Bar\u00e7a eSports vs ALTERNATE aTTaX Ruby \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -5421,36 +5454,14 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs ALTERNATE aTTaX Ruby \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-30T14:33:24.726000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-30T15:00:00+00:00",
-      "state": "unstarted",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs Bar\u00e7a eSports \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Habos Babos vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-07-30T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5460,8 +5471,19 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
+      "start": "2026-07-30T15:00:00+00:00",
+      "state": "completed",
+      "title": "Game Changers EMEA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Gentle Mates vs Bar\u00e7a eSports \u00b7 Week 2 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
       "start": "2026-07-30T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5472,7 +5494,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-07-30T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",

@@ -21,9 +21,6 @@
   <channel id="twitch.leagueoflegendsjp">
     <display-name>LJL</display-name>
   </channel>
-  <channel id="twitch.otplol_">
-    <display-name>La Ligue Française</display-name>
-  </channel>
   <channel id="twitch.NLCLoL">
     <display-name>NLC</display-name>
   </channel>
@@ -117,6 +114,11 @@
   <programme start="20260823230000 +0000" stop="20260824014500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Dignitas vs FlyQuest · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260829200000 +0000" stop="20260829224500 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">Shopify Rebellion vs Team Liquid Alienware · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731150000 +0000" stop="20260731174500 +0000" channel="twitch.lec">
@@ -909,11 +911,6 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730200000 +0000" stop="20260730210000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Esprit Shonen vs TLN Pirates · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260803160000 +0000" stop="20260803184500 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
@@ -1334,11 +1331,6 @@
     <desc lang="en">Shopify Rebellion Black vs 2GAME · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730180000 +0000" stop="20260730204500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">FNATIC vs Eternal Fire · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260731150000 +0000" stop="20260731174500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">BBL Esports vs Gentle Mates · Week 3 · Bo3</desc>
@@ -1512,26 +1504,6 @@
   <programme start="20260829150000 +0000" stop="20260829203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Gentle Mates vs Barça eSports · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">SK Nebula vs Habos Babos · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730180000 +0000" stop="20260730204500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">ALTERNATE aTTaX Ruby vs GIANTX · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730180000 +0000" stop="20260730204500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Twisted Minds Orchid vs G2 Gozen · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803150000 +0000" stop="20260803174500 +0000" channel="twitch.valorant_emea">
