@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T20:55:49.689273+00:00",
+  "generated_at": "2026-07-30T22:00:09.715716+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2897,17 +2897,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-07-30T15:00:02.425000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-07-30T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3546,23 +3535,12 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-30T20:32:09.921000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-30T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "KR\u00dc Visa vs G2 Esports \u00b7 Week 3 \u00b7 Bo3",
+      "description": "G2 Esports vs KR\u00dc Visa \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -3965,6 +3943,17 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-29T00:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT Americas",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-08-29T21:00:00+00:00",
       "state": "unstarted",
       "title": "VCT Americas",
       "stream_platform": "twitch",
@@ -4515,7 +4504,7 @@
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
       "start": "2026-07-30T22:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Last Chance Qualifier Americas",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",

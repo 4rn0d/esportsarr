@@ -1028,7 +1028,7 @@
   </programme>
   <programme start="20260730210000 +0000" stop="20260730234500 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">KRÜ Visa vs G2 Esports · Week 3 · Bo3</desc>
+    <desc lang="en">G2 Esports vs KRÜ Visa · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731000000 +0000" stop="20260731024500 +0000" channel="twitch.valorant_americas">
@@ -1212,6 +1212,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829000000 +0000" stop="20260829024500 +0000" channel="twitch.valorant_americas">
+    <title lang="en">VCT Americas</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260829210000 +0000" stop="20260829234500 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
