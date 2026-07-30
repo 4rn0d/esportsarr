@@ -794,6 +794,11 @@
     <desc lang="en">LOS vs LOUD · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260829160000 +0000" stop="20260829184500 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">LOUD vs RED Kalunga · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260731090000 +0000" stop="20260731114500 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">Team Secret Whales vs MVK Esports · Swiss · Bo3</desc>
@@ -892,11 +897,6 @@
   <programme start="20260811080000 +0000" stop="20260811133000 +0000" channel="twitch.leagueoflegendsjp">
     <title lang="en">LJL</title>
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730160000 +0000" stop="20260730170000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Karmine Corp Blue vs Ici Japon Corp · Week 2 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730170000 +0000" stop="20260730180000 +0000" channel="twitch.otplol_">
@@ -1517,6 +1517,11 @@
   <programme start="20260828180000 +0000" stop="20260828204500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260829160000 +0000" stop="20260829213000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">VCT EMEA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
