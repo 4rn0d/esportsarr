@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T11:32:16.877330+00:00",
+  "generated_at": "2026-07-30T13:13:47.480636+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -863,7 +863,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-30T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2260,7 +2260,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-30T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2271,11 +2271,11 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-30T11:30:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "Relove Deep Cross Gaming vs Ground Zero Gaming \u00b7 Swiss \u00b7 Bo3",
+      "description": "Ground Zero Gaming vs Relove Deep Cross Gaming \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3
     },
     {

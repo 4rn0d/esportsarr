@@ -289,11 +289,6 @@
     <desc lang="en">Team Vitality vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730100000 +0000" stop="20260730124500 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs Dplus KIA · Week 10 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260731080000 +0000" stop="20260731104500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Gen.G Esports vs T1 · Week 10 · Bo3</desc>
@@ -794,14 +789,9 @@
     <desc lang="en">LOS vs LOUD · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730090000 +0000" stop="20260730114500 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">DetonatioN FocusMe vs Fukuoka SoftBank HAWKS gaming · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260730113000 +0000" stop="20260730141500 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">Relove Deep Cross Gaming vs Ground Zero Gaming · Swiss · Bo3</desc>
+    <desc lang="en">Ground Zero Gaming vs Relove Deep Cross Gaming · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731090000 +0000" stop="20260731114500 +0000" channel="twitch.lolpacificen">
