@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T22:00:09.715716+00:00",
+  "generated_at": "2026-07-30T23:10:44.199571+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -395,6 +395,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lcs",
       "description": "Shopify Rebellion vs Team Liquid Alienware \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-29T23:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "Cloud9 Kia vs LYON \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3
     },
     {
