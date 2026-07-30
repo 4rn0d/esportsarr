@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T04:27:03.420014+00:00",
+  "generated_at": "2026-07-30T07:09:49.599705+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1468,7 +1468,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-30T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1479,7 +1479,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-30T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1490,7 +1490,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-30T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1902,6 +1902,17 @@
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
       "description": "Anyone's Legend vs TOP ESPORTS \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-19T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Xi'an Team WE vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -4383,7 +4394,7 @@
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
       "start": "2026-07-30T01:15:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Last Chance Qualifier Americas",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
@@ -6204,6 +6215,17 @@
       "stream_channel": "valorant_pacific",
       "description": "Gen.G  vs Rex Regum Qeon \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-07-30T07:03:03.747000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "VCT Pacific",

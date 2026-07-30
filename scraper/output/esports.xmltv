@@ -30,9 +30,6 @@
   <channel id="twitch.valorant_americas">
     <display-name>VCT Americas</display-name>
   </channel>
-  <channel id="twitch.VALORANT_NorthAmerica">
-    <display-name>Last Chance Qualifier Americas</display-name>
-  </channel>
   <channel id="twitch.valorant_emea">
     <display-name>VCT EMEA</display-name>
   </channel>
@@ -489,21 +486,6 @@
     <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730070000 +0000" stop="20260730094500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Shenzhen NINJAS IN PYJAMAS vs WeiboGaming · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730090000 +0000" stop="20260730114500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">EDWARD GAMING vs Xi'an Team WE · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730110000 +0000" stop="20260730134500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Beijing JDG Esports vs THUNDER TALK GAMING · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260731070000 +0000" stop="20260731094500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">Anyone's Legend vs EDWARD GAMING · Week 2 · Bo3</desc>
@@ -687,6 +669,11 @@
   <programme start="20260819080000 +0000" stop="20260819104500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">Anyone's Legend vs TOP ESPORTS · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260819090000 +0000" stop="20260819114500 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">Xi'an Team WE vs EDWARD GAMING · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801160000 +0000" stop="20260801184500 +0000" channel="twitch.cblol">
@@ -1332,11 +1319,6 @@
   <programme start="20260817233000 +0000" stop="20260818021500 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730011500 +0000" stop="20260730064500 +0000" channel="twitch.VALORANT_NorthAmerica">
-    <title lang="en">Last Chance Qualifier Americas</title>
-    <desc lang="en">Shopify Rebellion Black vs 2GAME · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
