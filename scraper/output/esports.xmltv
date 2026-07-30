@@ -289,6 +289,11 @@
     <desc lang="en">Team Vitality vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260829150000 +0000" stop="20260829174500 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">SK Gaming vs Karmine Corp · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260731080000 +0000" stop="20260731104500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Gen.G Esports vs T1 · Week 10 · Bo3</desc>
@@ -787,11 +792,6 @@
   <programme start="20260823190000 +0000" stop="20260823214500 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">LOS vs LOUD · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730113000 +0000" stop="20260730141500 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Ground Zero Gaming vs Relove Deep Cross Gaming · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731090000 +0000" stop="20260731114500 +0000" channel="twitch.lolpacificen">
@@ -1521,12 +1521,12 @@
   </programme>
   <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Habos Babos vs SK Nebula · Week 2 · Bo3</desc>
+    <desc lang="en">Gentle Mates vs Barça eSports · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Barça eSports vs Gentle Mates · Week 2 · Bo3</desc>
+    <desc lang="en">SK Nebula vs Habos Babos · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730180000 +0000" stop="20260730204500 +0000" channel="twitch.valorant_emea">
@@ -1707,11 +1707,6 @@
   <programme start="20260819150000 +0000" stop="20260819203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730100000 +0000" stop="20260730124500 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">FULL SENSE vs ZETA DIVISION · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731080000 +0000" stop="20260731104500 +0000" channel="twitch.valorant_pacific">

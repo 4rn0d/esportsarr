@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T13:13:47.480636+00:00",
+  "generated_at": "2026-07-30T15:23:25.474659+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -824,6 +824,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lec",
       "description": "Team Vitality vs Fnatic \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-29T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "LEC",
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "SK Gaming vs Karmine Corp \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2271,7 +2282,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-30T11:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2838,6 +2849,17 @@
       "stream_channel": "otplol_",
       "description": "Galions vs Skillcamp \u00b7 Week 2 \u00b7 Bo1",
       "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-07-30T15:00:02.425000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -4691,7 +4713,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-30T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5355,7 +5377,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs ALTERNATE aTTaX Ruby \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Habos Babos vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -5366,7 +5388,29 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Habos Babos vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Bar\u00e7a eSports vs ALTERNATE aTTaX Ruby \u00b7 Week 2 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T14:33:24.726000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-07-30T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers EMEA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "Gentle Mates vs Bar\u00e7a eSports \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -5377,18 +5421,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Habos Babos vs SK Nebula \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-30T15:00:00+00:00",
-      "state": "unstarted",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs Gentle Mates \u00b7 Week 2 \u00b7 Bo3",
+      "description": "SK Nebula vs Habos Babos \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -6275,7 +6308,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-30T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
