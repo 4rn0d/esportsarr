@@ -294,6 +294,11 @@
     <desc lang="en">SK Gaming vs Karmine Corp · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260829171500 +0000" stop="20260829200000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">Natus Vincere vs GIANTX · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260731080000 +0000" stop="20260731104500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Gen.G Esports vs T1 · Week 10 · Bo3</desc>
@@ -899,14 +904,9 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730170000 +0000" stop="20260730180000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Solary vs Vitality.Bee · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260730180000 +0000" stop="20260730190000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">Joblife vs Skillcamp · Week 2 · Bo1</desc>
+    <desc lang="en">Skillcamp vs Joblife · Week 2 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260730190000 +0000" stop="20260730200000 +0000" channel="twitch.otplol_">
@@ -1339,14 +1339,9 @@
     <desc lang="en">Shopify Rebellion Black vs 2GAME · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730150000 +0000" stop="20260730174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">NAVI vs PCIFIC Esports · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260730180000 +0000" stop="20260730204500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">Eternal Fire vs FNATIC · Week 3 · Bo3</desc>
+    <desc lang="en">FNATIC vs Eternal Fire · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731150000 +0000" stop="20260731174500 +0000" channel="twitch.valorant_emea">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T16:57:32.387468+00:00",
+  "generated_at": "2026-07-30T18:13:21.725370+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -835,6 +835,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lec",
       "description": "SK Gaming vs Karmine Corp \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-29T17:15:00+00:00",
+      "state": "unstarted",
+      "title": "LEC",
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "Natus Vincere vs GIANTX \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2876,7 +2887,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-07-30T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -2887,11 +2898,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-07-30T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Joblife vs Skillcamp \u00b7 Week 2 \u00b7 Bo1",
+      "description": "Skillcamp vs Joblife \u00b7 Week 2 \u00b7 Bo1",
       "best_of": 1
     },
     {
@@ -4713,7 +4724,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-30T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -4724,11 +4735,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-30T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Eternal Fire vs FNATIC \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FNATIC vs Eternal Fire \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
