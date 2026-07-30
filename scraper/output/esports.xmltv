@@ -804,6 +804,11 @@
     <desc lang="en">LOUD vs RED Kalunga · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260829190000 +0000" stop="20260829214500 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">Fluxo W7M vs LOS · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260731090000 +0000" stop="20260731114500 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">Team Secret Whales vs MVK Esports · Swiss · Bo3</desc>
@@ -904,19 +909,9 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260730180000 +0000" stop="20260730190000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Skillcamp vs Joblife · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260730190000 +0000" stop="20260730200000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">ZYB vs Galions · Week 2 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260730200000 +0000" stop="20260730210000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">TLN Pirates vs Esprit Shonen · Week 2 · Bo1</desc>
+    <desc lang="en">Esprit Shonen vs TLN Pirates · Week 2 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803160000 +0000" stop="20260803184500 +0000" channel="twitch.NLCLoL">
@@ -1504,17 +1499,17 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260828150000 +0000" stop="20260828174500 +0000" channel="twitch.valorant_emea">
+  <programme start="20260828140000 +0000" stop="20260828164500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260828180000 +0000" stop="20260828204500 +0000" channel="twitch.valorant_emea">
+  <programme start="20260828170000 +0000" stop="20260828194500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260829160000 +0000" stop="20260829213000 +0000" channel="twitch.valorant_emea">
+  <programme start="20260829150000 +0000" stop="20260829203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:13:21.725370+00:00",
+  "generated_at": "2026-07-30T19:51:20.365763+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2246,6 +2246,17 @@
       "best_of": 3
     },
     {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-29T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "Fluxo W7M vs LOS \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-25T09:00:00+00:00",
@@ -2898,7 +2909,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-07-30T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -2909,7 +2920,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-07-30T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -2920,11 +2931,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-07-30T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TLN Pirates vs Esprit Shonen \u00b7 Week 2 \u00b7 Bo1",
+      "description": "Esprit Shonen vs TLN Pirates \u00b7 Week 2 \u00b7 Bo1",
       "best_of": 1
     },
     {
@@ -5097,7 +5108,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-28T15:00:00+00:00",
+      "start": "2026-08-28T14:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
@@ -5108,7 +5119,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-28T18:00:00+00:00",
+      "start": "2026-08-28T17:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
@@ -5119,7 +5130,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-29T16:00:00+00:00",
+      "start": "2026-08-29T15:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
