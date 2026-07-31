@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T23:10:44.199571+00:00",
+  "generated_at": "2026-07-31T00:14:32.759967+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3547,7 +3547,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-07-30T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3558,7 +3558,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-07-31T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3965,6 +3965,17 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-29T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT Americas",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-08-30T00:00:00+00:00",
       "state": "unstarted",
       "title": "VCT Americas",
       "stream_platform": "twitch",
