@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:46:55.510757+00:00",
+  "generated_at": "2026-07-31T13:39:58.345570+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -860,6 +860,17 @@
       "best_of": 3
     },
     {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-30T12:00:00+00:00",
+      "state": "unstarted",
+      "title": "LEC",
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "Team Vitality vs Shifters \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-29T08:00:00+00:00",
@@ -918,7 +929,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-31T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -6417,6 +6428,17 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
+      "start": "2026-07-31T07:03:41.761000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
       "start": "2026-07-31T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -6429,7 +6451,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-31T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
