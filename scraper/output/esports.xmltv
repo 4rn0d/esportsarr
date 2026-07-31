@@ -126,14 +126,9 @@
     <desc lang="en">Cloud9 Kia vs LYON · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260731150000 +0000" stop="20260731174500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Team Heretics vs Team Vitality · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260731171500 +0000" stop="20260731200000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">Shifters vs Movistar KOI · Week 2 · Bo3</desc>
+    <desc lang="en">Movistar KOI vs Shifters · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801150000 +0000" stop="20260801174500 +0000" channel="twitch.lec">
@@ -314,6 +309,11 @@
   <programme start="20260830141500 +0000" stop="20260830170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs Movistar KOI · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260830163000 +0000" stop="20260830191500 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801080000 +0000" stop="20260801104500 +0000" channel="twitch.lck">
@@ -819,6 +819,11 @@
   <programme start="20260829190000 +0000" stop="20260829214500 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">Fluxo W7M vs LOS · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260830160000 +0000" stop="20260830184500 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">paiN Gaming vs Vivo Keyd Stars · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801090000 +0000" stop="20260801114500 +0000" channel="twitch.lolpacificen">
