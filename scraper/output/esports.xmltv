@@ -303,14 +303,9 @@
     <desc lang="en">Natus Vincere vs GIANTX · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260731080000 +0000" stop="20260731104500 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs T1 · Week 10 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260731100000 +0000" stop="20260731124500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">HANJIN BRION vs KIWOOM DRX · Week 10 · Bo3</desc>
+    <desc lang="en">KIWOOM DRX vs HANJIN BRION · Week 10 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801080000 +0000" stop="20260801104500 +0000" channel="twitch.lck">
@@ -816,11 +811,6 @@
   <programme start="20260829190000 +0000" stop="20260829214500 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">Fluxo W7M vs LOS · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260731090000 +0000" stop="20260731114500 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Team Secret Whales vs MVK Esports · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731113000 +0000" stop="20260731141500 +0000" channel="twitch.lolpacificen">
@@ -1681,11 +1671,6 @@
   <programme start="20260819150000 +0000" stop="20260819203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260731080000 +0000" stop="20260731104500 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Team Secret vs Paper Rex · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731100000 +0000" stop="20260731124500 +0000" channel="twitch.valorant_pacific">

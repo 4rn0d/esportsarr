@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:31:53.093578+00:00",
+  "generated_at": "2026-07-31T11:46:55.510757+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -907,7 +907,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-31T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -918,11 +918,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-31T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "HANJIN BRION vs KIWOOM DRX \u00b7 Week 10 \u00b7 Bo3",
+      "description": "KIWOOM DRX vs HANJIN BRION \u00b7 Week 10 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -1550,6 +1550,17 @@
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
       "description": "Beijing JDG Esports vs THUNDER TALK GAMING \u00b7 Week 2 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-07-31T07:00:00+00:00",
+      "state": "completed",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Anyone's Legend vs EDWARD GAMING \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2358,19 +2369,8 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-07-31T08:32:23.720000+00:00",
-      "state": "in_progress",
-      "title": "LCP",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
       "start": "2026-07-31T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2381,7 +2381,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-31T11:30:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -6418,7 +6418,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-31T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6429,7 +6429,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-31T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
