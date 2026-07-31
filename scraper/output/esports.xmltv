@@ -21,6 +21,9 @@
   <channel id="twitch.leagueoflegendsjp">
     <display-name>LJL</display-name>
   </channel>
+  <channel id="twitch.otplol_">
+    <display-name>La Ligue Française</display-name>
+  </channel>
   <channel id="twitch.NLCLoL">
     <display-name>NLC</display-name>
   </channel>
@@ -306,6 +309,11 @@
   <programme start="20260830120000 +0000" stop="20260830144500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Vitality vs Shifters · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260830141500 +0000" stop="20260830170000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">Team Heretics vs Movistar KOI · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801080000 +0000" stop="20260801104500 +0000" channel="twitch.lck">
@@ -813,29 +821,24 @@
     <desc lang="en">Fluxo W7M vs LOS · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260731113000 +0000" stop="20260731141500 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">CTBC Flying Oyster vs GAM Esports · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260801090000 +0000" stop="20260801114500 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">Relove Deep Cross Gaming vs DetonatioN FocusMe · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801113000 +0000" stop="20260801141500 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">MVK Esports vs GAM Esports · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802090000 +0000" stop="20260802143000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo5</desc>
+    <desc lang="en">Team Secret Whales vs CTBC Flying Oyster · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260806090000 +0000" stop="20260806143000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo5</desc>
+    <desc lang="en">Fukuoka SoftBank HAWKS gaming vs Ground Zero Gaming · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807090000 +0000" stop="20260807143000 +0000" channel="twitch.lolpacificen">
@@ -911,6 +914,81 @@
   <programme start="20260811080000 +0000" stop="20260811133000 +0000" channel="twitch.leagueoflegendsjp">
     <title lang="en">LJL</title>
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260804160000 +0000" stop="20260804170000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Ici Japon Corp vs Skillcamp · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260804170000 +0000" stop="20260804180000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Galions vs Esprit Shonen · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260804180000 +0000" stop="20260804190000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">ZYB vs Joblife · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260804190000 +0000" stop="20260804200000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">TLN Pirates vs Solary · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260804200000 +0000" stop="20260804210000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Karmine Corp Blue vs Vitality.Bee · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260805160000 +0000" stop="20260805170000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">TLN Pirates vs Galions · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260805170000 +0000" stop="20260805180000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Esprit Shonen vs Joblife · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260805180000 +0000" stop="20260805190000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Karmine Corp Blue vs Solary · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260805190000 +0000" stop="20260805200000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">ZYB vs Ici Japon Corp · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260805200000 +0000" stop="20260805210000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Vitality.Bee vs Skillcamp · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260806160000 +0000" stop="20260806170000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Ici Japon Corp vs Esprit Shonen · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260806170000 +0000" stop="20260806180000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Karmine Corp Blue vs Skillcamp · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260806180000 +0000" stop="20260806190000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">TLN Pirates vs Joblife · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260806190000 +0000" stop="20260806200000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Solary vs Galions · Week 3 · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260806200000 +0000" stop="20260806210000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">ZYB vs Vitality.Bee · Week 3 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803160000 +0000" stop="20260803184500 +0000" channel="twitch.NLCLoL">
@@ -1330,7 +1408,7 @@
   </programme>
   <programme start="20260731150000 +0000" stop="20260731174500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">BBL Esports vs Gentle Mates · Week 3 · Bo3</desc>
+    <desc lang="en">Gentle Mates vs BBL Esports · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260731180000 +0000" stop="20260731204500 +0000" channel="twitch.valorant_emea">
@@ -1501,6 +1579,11 @@
   <programme start="20260829150000 +0000" stop="20260829203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260830150000 +0000" stop="20260830203000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">VCT EMEA</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803150000 +0000" stop="20260803174500 +0000" channel="twitch.valorant_emea">

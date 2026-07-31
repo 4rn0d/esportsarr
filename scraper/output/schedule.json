@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T13:39:58.345570+00:00",
+  "generated_at": "2026-07-31T15:47:56.478823+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -467,7 +467,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-07-31T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -868,6 +868,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lec",
       "description": "Team Vitality vs Shifters \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-30T14:15:00+00:00",
+      "state": "unstarted",
+      "title": "LEC",
+      "stream_platform": "twitch",
+      "stream_channel": "lec",
+      "description": "Team Heretics vs Movistar KOI \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2392,7 +2403,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-31T11:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2407,7 +2418,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Relove Deep Cross Gaming vs DetonatioN FocusMe \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2418,7 +2429,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "MVK Esports vs GAM Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2429,7 +2440,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo5",
+      "description": "Team Secret Whales vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -2440,7 +2451,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo5",
+      "description": "Fukuoka SoftBank HAWKS gaming vs Ground Zero Gaming \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -3002,6 +3013,171 @@
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
       "description": "Esprit Shonen vs TLN Pirates \u00b7 Week 2 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-04T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Ici Japon Corp vs Skillcamp \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-04T17:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Galions vs Esprit Shonen \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-04T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "ZYB vs Joblife \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-04T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "TLN Pirates vs Solary \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-04T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Karmine Corp Blue vs Vitality.Bee \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-05T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "TLN Pirates vs Galions \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-05T17:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Esprit Shonen vs Joblife \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-05T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Karmine Corp Blue vs Solary \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-05T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "ZYB vs Ici Japon Corp \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-05T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Vitality.Bee vs Skillcamp \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-06T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Ici Japon Corp vs Esprit Shonen \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-06T17:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Karmine Corp Blue vs Skillcamp \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-06T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "TLN Pirates vs Joblife \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-06T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Solary vs Galions \u00b7 Week 3 \u00b7 Bo1",
+      "best_of": 1
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-06T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "ZYB vs Vitality.Bee \u00b7 Week 3 \u00b7 Bo1",
       "best_of": 1
     },
     {
@@ -4845,11 +5021,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-31T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "BBL Esports vs Gentle Mates \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Gentle Mates vs BBL Esports \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -5224,6 +5400,17 @@
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
+      "start": "2026-08-30T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT EMEA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_emea",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -6424,17 +6611,6 @@
       "stream_channel": "valorant_pacific",
       "description": "FULL SENSE vs ZETA DIVISION \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-31T07:03:41.761000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
     },
     {
       "league": "VCT Pacific",
