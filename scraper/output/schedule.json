@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T00:14:32.759967+00:00",
+  "generated_at": "2026-07-31T03:51:16.663557+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3558,7 +3558,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-07-31T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4526,7 +4526,7 @@
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
       "start": "2026-07-30T22:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Last Chance Qualifier Americas",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT_NorthAmerica",
