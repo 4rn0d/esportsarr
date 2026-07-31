@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:49:58.687160+00:00",
+  "generated_at": "2026-07-31T20:14:21.762480+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -398,6 +398,17 @@
       "best_of": 3
     },
     {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-30T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "LYON vs Team Liquid Alienware \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "LEC",
       "game": "lol",
       "start": "2026-07-24T14:30:00+00:00",
@@ -478,7 +489,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-07-31T17:15:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2342,6 +2353,17 @@
       "stream_platform": "twitch",
       "stream_channel": "cblol",
       "description": "paiN Gaming vs Vivo Keyd Stars \u00b7 Week 6 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-30T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "FURIA vs LEVIAT\u00c1N \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -5043,7 +5065,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-31T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5054,11 +5076,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-31T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "GIANTX vs Team Heretics \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Team Heretics vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
