@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-07-31T06:36:54.650303+00:00",
+  "generated_at": "2026-07-31T09:31:53.093578+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-01T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "T1 vs Team Liquid Alienware \u00b7 Play In Knockouts \u00b7 Bo5",
-      "best_of": 5
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -918,7 +907,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-07-31T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1355,6 +1344,17 @@
       "best_of": 5
     },
     {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-30T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-22T09:00:00+00:00",
@@ -1555,19 +1555,8 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-07-31T07:00:00+00:00",
-      "state": "unstarted",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs EDWARD GAMING \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-07-31T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1993,6 +1982,28 @@
       "best_of": 3
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-21T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "THUNDER TALK GAMING vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-21T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Anyone's Legend vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2347,6 +2358,17 @@
     {
       "league": "LCP",
       "game": "lol",
+      "start": "2026-07-31T08:32:23.720000+00:00",
+      "state": "in_progress",
+      "title": "LCP",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "LCP",
+      "game": "lol",
       "start": "2026-07-31T09:00:00+00:00",
       "state": "unstarted",
       "title": "LCP",
@@ -2540,6 +2562,17 @@
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
+      "league": "LCP",
+      "game": "lol",
+      "start": "2026-08-30T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCP",
+      "stream_platform": "twitch",
+      "stream_channel": "lolpacificen",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -6385,7 +6418,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-07-31T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
