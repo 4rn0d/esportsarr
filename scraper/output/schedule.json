@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T21:28:54.970303+00:00",
+  "generated_at": "2026-07-31T22:32:40.410153+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -5071,17 +5071,6 @@
       "stream_channel": "valorant_emea",
       "description": "FNATIC vs Eternal Fire \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-31T14:31:01.422000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
     },
     {
       "league": "VCT EMEA",
