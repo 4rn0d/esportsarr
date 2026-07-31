@@ -131,6 +131,11 @@
     <desc lang="en">LYON vs Team Liquid Alienware · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260830230000 +0000" stop="20260831014500 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">Cloud9 Kia vs Shopify Rebellion · Week 6 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260801150000 +0000" stop="20260801174500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">GIANTX vs SK Gaming · Week 2 · Bo3</desc>
