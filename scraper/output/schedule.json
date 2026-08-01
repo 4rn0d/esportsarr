@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T07:12:47.818007+00:00",
+  "generated_at": "2026-08-01T09:20:29.692578+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -983,19 +983,8 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-01T07:02:21.002000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-01T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2092,6 +2081,17 @@
       "best_of": 3
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-22T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "LGD GAMING vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2491,7 +2491,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-01T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -6736,23 +6736,12 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-01T07:00:13.186000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-01T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "T1 vs DetonatioN FocusMe \u00b7 Week 3 \u00b7 Bo3",
+      "description": "DetonatioN FocusMe vs T1 \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {

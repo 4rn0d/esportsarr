@@ -706,6 +706,11 @@
     <desc lang="en">BILIBILI GAMING vs TOP ESPORTS · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260822070000 +0000" stop="20260822094500 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">LGD GAMING vs Xi'an Team WE · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260801160000 +0000" stop="20260801184500 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">Vivo Keyd Stars vs FURIA · Week 2 · Bo3</desc>
@@ -1753,7 +1758,7 @@
   </programme>
   <programme start="20260801080000 +0000" stop="20260801104500 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">T1 vs DetonatioN FocusMe · Week 3 · Bo3</desc>
+    <desc lang="en">DetonatioN FocusMe vs T1 · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801100000 +0000" stop="20260801124500 +0000" channel="twitch.valorant_pacific">
