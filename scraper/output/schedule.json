@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T12:59:17.711521+00:00",
+  "generated_at": "2026-08-01T14:27:02.285116+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -510,6 +510,17 @@
     {
       "league": "LEC",
       "game": "lol",
+      "start": "2026-08-01T14:15:09.974000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
       "start": "2026-08-01T15:00:00+00:00",
       "state": "unstarted",
       "title": "LEC",
@@ -979,17 +990,6 @@
       "stream_channel": "lck",
       "description": "KIWOOM DRX vs HANJIN BRION \u00b7 Week 10 \u00b7 Bo3",
       "best_of": 3
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-01T07:02:21.002000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
     },
     {
       "league": "LCK",
@@ -2524,7 +2524,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-01T11:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -5163,6 +5163,17 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-01T14:14:48.723000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-01T15:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
@@ -6758,6 +6769,17 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
+      "start": "2026-08-01T07:00:13.186000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
       "start": "2026-08-01T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -6770,7 +6792,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-01T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
