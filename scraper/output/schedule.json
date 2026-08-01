@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T20:40:09.269212+00:00",
+  "generated_at": "2026-08-01T21:34:25.384386+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3920,19 +3920,8 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-01T20:37:24.900000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-01T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5197,7 +5186,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-01T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
