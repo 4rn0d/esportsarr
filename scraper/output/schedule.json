@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T14:27:02.285116+00:00",
+  "generated_at": "2026-08-01T15:35:10.177396+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -510,19 +510,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-01T14:15:09.974000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-01T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2156,6 +2145,17 @@
       "stream_channel": "cblol",
       "description": "Vivo Keyd Stars vs RED Kalunga \u00b7 Week 1 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-01T14:59:00.097000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "CBLOL",
@@ -5163,19 +5163,8 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-01T14:14:48.723000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-01T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6765,17 +6754,6 @@
       "stream_channel": "valorant_pacific",
       "description": "GLOBAL ESPORTS vs Gen.G  \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-01T07:00:13.186000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
     },
     {
       "league": "VCT Pacific",
