@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T15:35:10.177396+00:00",
+  "generated_at": "2026-08-01T16:36:23.993058+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2149,19 +2149,8 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-01T14:59:00.097000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-01T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -3701,6 +3690,17 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-26T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-08-31T16:00:00+00:00",
       "state": "unstarted",
       "title": "NLC",
       "stream_platform": "twitch",
