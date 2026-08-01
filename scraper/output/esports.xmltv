@@ -38,7 +38,7 @@
   </channel>
   <programme start="20260801200000 +0000" stop="20260801224500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Cloud9 Kia vs Dignitas · Week 2 · Bo3</desc>
+    <desc lang="en">Dignitas vs Cloud9 Kia · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801230000 +0000" stop="20260802014500 +0000" channel="twitch.lcs">
@@ -134,11 +134,6 @@
   <programme start="20260830230000 +0000" stop="20260831014500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Cloud9 Kia vs Shopify Rebellion · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260801171500 +0000" stop="20260801200000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Karmine Corp vs Natus Vincere · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802150000 +0000" stop="20260802174500 +0000" channel="twitch.lec">
