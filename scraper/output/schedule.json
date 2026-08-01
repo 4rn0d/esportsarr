@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T11:55:41.536229+00:00",
+  "generated_at": "2026-08-01T12:59:17.711521+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -983,6 +983,17 @@
     {
       "league": "LCK",
       "game": "lol",
+      "start": "2026-08-01T07:02:21.002000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
       "start": "2026-08-01T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -995,7 +1006,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-01T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
