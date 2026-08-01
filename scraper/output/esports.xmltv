@@ -321,11 +321,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260801080000 +0000" stop="20260801104500 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">NONGSHIM RED FORCE vs BNK FEARX · Week 10 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260801100000 +0000" stop="20260801124500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Gen.G Esports vs Dplus KIA · Week 10 · Bo3</desc>
@@ -833,7 +828,7 @@
   </programme>
   <programme start="20260801090000 +0000" stop="20260801114500 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">Relove Deep Cross Gaming vs DetonatioN FocusMe · Swiss · Bo3</desc>
+    <desc lang="en">DetonatioN FocusMe vs Relove Deep Cross Gaming · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801113000 +0000" stop="20260801141500 +0000" channel="twitch.lolpacificen">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T09:20:29.692578+00:00",
+  "generated_at": "2026-08-01T10:54:43.748960+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -984,7 +984,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-01T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -995,7 +995,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-01T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2495,7 +2495,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "Relove Deep Cross Gaming vs DetonatioN FocusMe \u00b7 Swiss \u00b7 Bo3",
+      "description": "DetonatioN FocusMe vs Relove Deep Cross Gaming \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3
     },
     {
