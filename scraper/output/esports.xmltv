@@ -516,21 +516,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260801070000 +0000" stop="20260801094500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">THUNDER TALK GAMING vs Anyone's Legend · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260801090000 +0000" stop="20260801114500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">TOP ESPORTS vs LGD GAMING · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260801110000 +0000" stop="20260801134500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Beijing JDG Esports vs BILIBILI GAMING · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260802070000 +0000" stop="20260802094500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">THUNDER TALK GAMING vs Xi'an Team WE · Week 2 · Bo3</desc>
@@ -714,6 +699,11 @@
   <programme start="20260821090000 +0000" stop="20260821114500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">Anyone's Legend vs Xi'an Team WE · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260821110000 +0000" stop="20260821134500 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">BILIBILI GAMING vs TOP ESPORTS · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801160000 +0000" stop="20260801184500 +0000" channel="twitch.cblol">
