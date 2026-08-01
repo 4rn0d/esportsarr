@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:54:43.748960+00:00",
+  "generated_at": "2026-08-01T11:55:41.536229+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2092,6 +2092,17 @@
       "best_of": 3
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-22T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Shenzhen NINJAS IN PYJAMAS vs Invictus Gaming \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2491,7 +2502,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-01T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2502,7 +2513,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-01T11:30:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -6737,7 +6748,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-01T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6748,11 +6759,11 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-01T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "FULL SENSE vs Rex Regum Qeon \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Rex Regum Qeon vs FULL SENSE \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
