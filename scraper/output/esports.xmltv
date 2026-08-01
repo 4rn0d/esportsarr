@@ -136,14 +136,9 @@
     <desc lang="en">Cloud9 Kia vs Shopify Rebellion · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260801150000 +0000" stop="20260801174500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">GIANTX vs SK Gaming · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260801171500 +0000" stop="20260801200000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">Natus Vincere vs Karmine Corp · Week 2 · Bo3</desc>
+    <desc lang="en">Karmine Corp vs Natus Vincere · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802150000 +0000" stop="20260802174500 +0000" channel="twitch.lec">
@@ -706,14 +701,9 @@
     <desc lang="en">Shenzhen NINJAS IN PYJAMAS vs Invictus Gaming · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260801160000 +0000" stop="20260801184500 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">Vivo Keyd Stars vs FURIA · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260801190000 +0000" stop="20260801214500 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">LEVIATÁN vs paiN Gaming · Week 2 · Bo3</desc>
+    <desc lang="en">paiN Gaming vs LEVIATÁN · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802160000 +0000" stop="20260802184500 +0000" channel="twitch.cblol">
@@ -1106,6 +1096,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260831180000 +0000" stop="20260831204500 +0000" channel="twitch.NLCLoL">
+    <title lang="en">NLC</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260801210000 +0000" stop="20260801234500 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">ENVY vs FURIA · Week 3 · Bo3</desc>
@@ -1404,11 +1399,6 @@
   <programme start="20260817233000 +0000" stop="20260818021500 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260801150000 +0000" stop="20260801174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">FUT Esports vs Team Vitality · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260801180000 +0000" stop="20260801204500 +0000" channel="twitch.valorant_emea">

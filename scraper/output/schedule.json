@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T17:41:33.262810+00:00",
+  "generated_at": "2026-08-01T18:38:02.991030+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -511,7 +511,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-01T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -522,11 +522,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-01T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Natus Vincere vs Karmine Corp \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Karmine Corp vs Natus Vincere \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2150,7 +2150,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-01T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2161,11 +2161,11 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-01T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "LEVIAT\u00c1N vs paiN Gaming \u00b7 Week 2 \u00b7 Bo3",
+      "description": "paiN Gaming vs LEVIAT\u00c1N \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -3709,6 +3709,17 @@
       "best_of": 3
     },
     {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-08-31T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-07-16T21:00:00+00:00",
@@ -5164,7 +5175,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-01T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5175,7 +5186,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-01T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
