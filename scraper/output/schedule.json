@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T18:38:02.991030+00:00",
+  "generated_at": "2026-08-01T19:51:50.705185+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -198,6 +198,17 @@
       "stream_channel": "lcs",
       "description": "Shopify Rebellion vs Disguised \u00b7 Week 1 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-01T19:08:49.785000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "LCS",
@@ -2161,7 +2172,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-01T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
