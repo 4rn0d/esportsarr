@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260801200000 +0000" stop="20260801224500 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Dignitas vs Cloud9 Kia · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260801230000 +0000" stop="20260802014500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Disguised vs FlyQuest · Week 2 · Bo3</desc>
