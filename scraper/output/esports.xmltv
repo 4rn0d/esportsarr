@@ -303,7 +303,7 @@
   </programme>
   <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">kt Rolster vs Hanwha Life Esports · Week 10 · Bo3</desc>
+    <desc lang="en">Hanwha Life Esports vs kt Rolster · Week 10 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260805080000 +0000" stop="20260805104500 +0000" channel="twitch.lck">
@@ -681,6 +681,11 @@
     <desc lang="en">THUNDER TALK GAMING vs LGD GAMING · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260823090000 +0000" stop="20260823114500 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">Beijing JDG Esports vs EDWARD GAMING · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260802160000 +0000" stop="20260802184500 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">Fluxo W7M vs LOUD · Week 2 · Bo3</desc>
@@ -791,11 +796,6 @@
     <desc lang="en">FURIA vs LEVIATÁN · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260802090000 +0000" stop="20260802143000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Team Secret Whales vs CTBC Flying Oyster · Swiss · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260806090000 +0000" stop="20260806143000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">Fukuoka SoftBank HAWKS gaming vs Ground Zero Gaming · Swiss · Bo5</desc>
@@ -803,17 +803,17 @@
   </programme>
   <programme start="20260807090000 +0000" stop="20260807143000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo5</desc>
+    <desc lang="en">DetonatioN FocusMe vs GAM Esports · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260808090000 +0000" stop="20260808143000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo5</desc>
+    <desc lang="en">Relove Deep Cross Gaming vs MVK Esports · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260809090000 +0000" stop="20260809143000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo5</desc>
+    <desc lang="en">TBD vs CTBC Flying Oyster · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813090000 +0000" stop="20260813143000 +0000" channel="twitch.lolpacificen">
@@ -1698,7 +1698,7 @@
   </programme>
   <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">ZETA DIVISION vs NONGSHIM REDFORCE · Week 3 · Bo3</desc>
+    <desc lang="en">NONGSHIM REDFORCE vs ZETA DIVISION · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807080000 +0000" stop="20260807104500 +0000" channel="twitch.valorant_pacific">

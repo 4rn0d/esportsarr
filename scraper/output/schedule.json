@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T10:59:59.089385+00:00",
+  "generated_at": "2026-08-02T12:04:51.301077+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -999,7 +999,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "kt Rolster vs Hanwha Life Esports \u00b7 Week 10 \u00b7 Bo3",
+      "description": "Hanwha Life Esports vs kt Rolster \u00b7 Week 10 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2114,6 +2114,17 @@
       "best_of": 3
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-23T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Beijing JDG Esports vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2535,7 +2546,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-02T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2561,7 +2572,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo5",
+      "description": "DetonatioN FocusMe vs GAM Esports \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -2572,7 +2583,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo5",
+      "description": "Relove Deep Cross Gaming vs MVK Esports \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -2583,7 +2594,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo5",
+      "description": "TBD vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5
     },
     {
@@ -6818,7 +6829,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "ZETA DIVISION vs NONGSHIM REDFORCE \u00b7 Week 3 \u00b7 Bo3",
+      "description": "NONGSHIM REDFORCE vs ZETA DIVISION \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
