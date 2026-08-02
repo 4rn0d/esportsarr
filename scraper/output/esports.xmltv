@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260802200000 +0000" stop="20260802224500 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Shopify Rebellion vs LYON · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260802230000 +0000" stop="20260803014500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Team Liquid Alienware vs Sentinels · Week 2 · Bo3</desc>
