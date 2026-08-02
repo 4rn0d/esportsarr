@@ -486,21 +486,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260802070000 +0000" stop="20260802094500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">THUNDER TALK GAMING vs Xi'an Team WE · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260802090000 +0000" stop="20260802114500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Invictus Gaming vs Suzhou LNG Esports · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260802110000 +0000" stop="20260802134500 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">TOP ESPORTS vs Beijing JDG Esports · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260805090000 +0000" stop="20260805114500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">LGD GAMING vs Beijing JDG Esports · Week 3 · Bo3</desc>
@@ -684,6 +669,11 @@
   <programme start="20260822090000 +0000" stop="20260822114500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">Shenzhen NINJAS IN PYJAMAS vs Invictus Gaming · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260822110000 +0000" stop="20260822134500 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">Beijing JDG Esports vs TOP ESPORTS · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802160000 +0000" stop="20260802184500 +0000" channel="twitch.cblol">

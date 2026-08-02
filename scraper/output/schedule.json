@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T04:37:11.300504+00:00",
+  "generated_at": "2026-08-02T07:15:55.111531+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1655,7 +1655,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-02T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1666,7 +1666,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-02T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1677,7 +1677,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-02T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2089,6 +2089,17 @@
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
       "description": "Shenzhen NINJAS IN PYJAMAS vs Invictus Gaming \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-22T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Beijing JDG Esports vs TOP ESPORTS \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -6776,6 +6787,17 @@
       "stream_channel": "valorant_pacific",
       "description": "Rex Regum Qeon vs FULL SENSE \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-02T06:58:00.887000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "VCT Pacific",
