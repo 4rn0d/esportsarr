@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260801230000 +0000" stop="20260802014500 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Disguised vs FlyQuest · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260802200000 +0000" stop="20260802224500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">LYON vs Shopify Rebellion · Week 2 · Bo3</desc>
@@ -1084,11 +1079,6 @@
   <programme start="20260831180000 +0000" stop="20260831204500 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260801210000 +0000" stop="20260801234500 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">ENVY vs FURIA · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802000000 +0000" stop="20260802024500 +0000" channel="twitch.valorant_americas">
