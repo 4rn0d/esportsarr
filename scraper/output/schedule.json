@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:46:24.020087+00:00",
+  "generated_at": "2026-08-02T17:53:06.293676+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -511,7 +511,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-02T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -522,7 +522,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-02T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2194,7 +2194,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-02T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2205,7 +2205,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-02T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
