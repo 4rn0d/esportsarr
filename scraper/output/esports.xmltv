@@ -303,7 +303,7 @@
   </programme>
   <programme start="20260802080000 +0000" stop="20260802104500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">DN SOOPers vs HANJIN BRION · Week 10 · Bo3</desc>
+    <desc lang="en">HANJIN BRION vs DN SOOPers · Week 10 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.lck">
@@ -482,6 +482,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830080000 +0000" stop="20260830133000 +0000" channel="twitch.lck">
+    <title lang="en">LCK</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260901080000 +0000" stop="20260901133000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
@@ -674,6 +679,11 @@
   <programme start="20260822110000 +0000" stop="20260822134500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">Beijing JDG Esports vs TOP ESPORTS · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260823070000 +0000" stop="20260823094500 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">THUNDER TALK GAMING vs LGD GAMING · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802160000 +0000" stop="20260802184500 +0000" channel="twitch.cblol">
@@ -1693,7 +1703,7 @@
   </programme>
   <programme start="20260802080000 +0000" stop="20260802104500 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">VARREL vs Kiwoom DRX · Week 3 · Bo3</desc>
+    <desc lang="en">Kiwoom DRX vs VARREL · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.valorant_pacific">

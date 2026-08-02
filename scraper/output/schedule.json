@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-08-02T07:15:55.111531+00:00",
+  "generated_at": "2026-08-02T09:29:19.782850+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-03T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "TOP ESPORTS vs G2 Esports \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -995,11 +984,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-02T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "DN SOOPers vs HANJIN BRION \u00b7 Week 10 \u00b7 Bo3",
+      "description": "HANJIN BRION vs DN SOOPers \u00b7 Week 10 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -1391,6 +1380,17 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-30T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-09-01T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
       "stream_platform": "twitch",
@@ -2103,6 +2103,17 @@
       "best_of": 3
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-23T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "THUNDER TALK GAMING vs LGD GAMING \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2524,7 +2535,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-02T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -6791,23 +6802,12 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-02T06:58:00.887000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-02T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VARREL vs Kiwoom DRX \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Kiwoom DRX vs VARREL \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
