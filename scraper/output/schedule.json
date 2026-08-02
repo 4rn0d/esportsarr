@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T17:53:06.293676+00:00",
+  "generated_at": "2026-08-02T18:54:53.112246+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -198,6 +198,17 @@
       "stream_channel": "lcs",
       "description": "Disguised vs FlyQuest \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-02T18:31:03.914000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "LCS",
@@ -5219,7 +5230,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-02T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5230,11 +5241,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-02T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FNATIC vs Team Heretics \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Team Heretics vs FNATIC \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {

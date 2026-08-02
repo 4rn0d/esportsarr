@@ -1351,14 +1351,9 @@
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260802150000 +0000" stop="20260802174500 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">PCIFIC Esports vs BBL Esports · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260802180000 +0000" stop="20260802204500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">FNATIC vs Team Heretics · Week 3 · Bo3</desc>
+    <desc lang="en">Team Heretics vs FNATIC · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260806150000 +0000" stop="20260806174500 +0000" channel="twitch.valorant_emea">
