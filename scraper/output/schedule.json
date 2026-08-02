@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:54:10.216811+00:00",
+  "generated_at": "2026-08-02T15:53:03.907899+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -510,23 +510,12 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-02T14:03:13.787000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-02T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "SK Gaming vs G2 Esports \u00b7 Week 2 \u00b7 Bo3",
+      "description": "G2 Esports vs SK Gaming \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -2200,6 +2189,17 @@
       "stream_channel": "cblol",
       "description": "paiN Gaming vs LEVIAT\u00c1N \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-02T15:06:15.403000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "CBLOL",
@@ -5229,23 +5229,12 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-02T14:15:45.214000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-02T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "BBL Esports vs PCIFIC Esports \u00b7 Week 3 \u00b7 Bo3",
+      "description": "PCIFIC Esports vs BBL Esports \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {

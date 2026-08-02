@@ -128,7 +128,7 @@
   </programme>
   <programme start="20260802150000 +0000" stop="20260802174500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">SK Gaming vs G2 Esports · Week 2 · Bo3</desc>
+    <desc lang="en">G2 Esports vs SK Gaming · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802171500 +0000" stop="20260802200000 +0000" channel="twitch.lec">
@@ -1363,7 +1363,7 @@
   </programme>
   <programme start="20260802150000 +0000" stop="20260802174500 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">BBL Esports vs PCIFIC Esports · Week 3 · Bo3</desc>
+    <desc lang="en">PCIFIC Esports vs BBL Esports · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802180000 +0000" stop="20260802204500 +0000" channel="twitch.valorant_emea">
