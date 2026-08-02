@@ -38,7 +38,7 @@
   </channel>
   <programme start="20260802200000 +0000" stop="20260802224500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">LYON vs Shopify Rebellion · Week 2 · Bo3</desc>
+    <desc lang="en">Shopify Rebellion vs LYON · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802230000 +0000" stop="20260803014500 +0000" channel="twitch.lcs">
@@ -299,11 +299,6 @@
   <programme start="20260830163000 +0000" stop="20260830191500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs kt Rolster · Week 10 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260805080000 +0000" stop="20260805104500 +0000" channel="twitch.lck">
@@ -1694,11 +1689,6 @@
   <programme start="20260819150000 +0000" stop="20260819203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">NONGSHIM REDFORCE vs ZETA DIVISION · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807080000 +0000" stop="20260807104500 +0000" channel="twitch.valorant_pacific">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T13:51:08.321823+00:00",
+  "generated_at": "2026-08-02T14:54:10.216811+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -207,7 +207,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LYON vs Shopify Rebellion \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Shopify Rebellion vs LYON \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -506,6 +506,17 @@
       "stream_channel": "lec",
       "description": "Karmine Corp vs Natus Vincere \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-02T14:03:13.787000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "LEC",
@@ -995,7 +1006,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-02T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -5218,6 +5229,17 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-02T14:15:45.214000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-02T15:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
@@ -6825,7 +6847,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-02T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
