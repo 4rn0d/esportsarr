@@ -301,11 +301,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260802080000 +0000" stop="20260802104500 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">HANJIN BRION vs DN SOOPers · Week 10 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">kt Rolster vs Hanwha Life Esports · Week 10 · Bo3</desc>
@@ -1699,11 +1694,6 @@
   <programme start="20260819150000 +0000" stop="20260819203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260802080000 +0000" stop="20260802104500 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Kiwoom DRX vs VARREL · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260802100000 +0000" stop="20260802124500 +0000" channel="twitch.valorant_pacific">

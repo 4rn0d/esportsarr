@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T09:29:19.782850+00:00",
+  "generated_at": "2026-08-02T10:59:59.089385+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -984,7 +984,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-02T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -995,7 +995,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-02T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -6803,7 +6803,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-02T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6814,7 +6814,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-02T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
