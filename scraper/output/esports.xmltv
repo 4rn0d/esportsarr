@@ -126,11 +126,6 @@
     <desc lang="en">Cloud9 Kia vs Shopify Rebellion · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260802171500 +0000" stop="20260802200000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Movistar KOI vs Fnatic · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260803150000 +0000" stop="20260803174500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Natus Vincere vs Shifters · Week 2 · Bo3</desc>
@@ -674,11 +669,6 @@
   <programme start="20260823090000 +0000" stop="20260823114500 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">Beijing JDG Esports vs EDWARD GAMING · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260802190000 +0000" stop="20260802214500 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">LOS vs RED Kalunga · Week 2 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807210000 +0000" stop="20260807234500 +0000" channel="twitch.cblol">
