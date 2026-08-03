@@ -1203,7 +1203,7 @@
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
-    <desc lang="en">Ora Temper vs Shopify Rebellion Gold · Swiss · Bo3</desc>
+    <desc lang="en">Shopify Rebellion Gold vs Ora Temper · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
@@ -1213,7 +1213,17 @@
   </programme>
   <programme start="20260803210000 +0000" stop="20260804000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
-    <desc lang="en">HIMMERS vs The Spiders · Swiss · Bo3</desc>
+    <desc lang="en">The Spiders vs HIMMERS · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">ROSO GC vs MVSK Secret · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">Los Chudeles vs SaD GC · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
@@ -1224,16 +1234,6 @@
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">Revitalize GC vs Eternal Focus Amethyst · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">Game Changers NA</title>
-    <desc lang="en">Los Chudeles vs SaD GC · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">Game Changers NA</title>
-    <desc lang="en">ROSO GC vs MVSK Secret · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
@@ -1322,6 +1322,16 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260901233000 +0000" stop="20260902023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260902210000 +0000" stop="20260903000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
