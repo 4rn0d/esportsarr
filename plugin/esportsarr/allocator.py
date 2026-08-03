@@ -43,12 +43,20 @@ def assign_slots(
     previous_assignment: list[MatchDict | None] | None = None,
     upcoming_matches: list[MatchDict] | None = None,
     far_upcoming_matches: list[MatchDict] | None = None,
-) -> tuple[list[MatchDict | None], list[MatchDict | None], list[MatchDict]]:
-    """Returns `(assignment, reserved_for, overflow)`. Sticky: a live match
-    keeps its slot until it ends, never preempted by a higher-priority
-    arrival. `upcoming_matches`/`far_upcoming_matches` are unstarted matches
-    that can claim an empty slot ahead of time (near competes for contested
-    slots, far only takes an uncontested one) -- see tests for exact policy."""
+    last_channel_by_slot: dict[int, str] | None = None,
+) -> tuple[list[MatchDict | None], list[MatchDict | None], list[MatchDict], dict[int, str]]:
+    """Returns `(assignment, reserved_for, overflow, channel_by_slot)`.
+    Sticky: a live match keeps its slot until it ends, never preempted by a
+    higher-priority arrival. `upcoming_matches`/`far_upcoming_matches` are
+    unstarted matches that can claim an empty slot ahead of time (near
+    competes for contested slots, far only takes an uncontested one) -- see
+    tests for exact policy. `channel_by_slot` remembers each slot's last
+    real Twitch/YouTube channel even through a gap where the slot sits idle
+    -- two leagues airing back-to-back (not simultaneously) on the same
+    physical channel land on the same generic slot even if there's a break
+    in between, not just when the handoff is instant. Pass the returned
+    dict back in as `last_channel_by_slot` on the next call to keep this
+    working across ticks."""
     upcoming_matches = upcoming_matches or []
     far_upcoming_matches = far_upcoming_matches or []
 
@@ -58,9 +66,10 @@ def assign_slots(
 
     live_by_key = {_match_key(match): match for match in live_matches}
 
-    previous_channel_by_slot = {
-        i: occupant.get("stream_channel") for i, occupant in enumerate(assignment) if occupant is not None
-    }
+    channel_by_slot: dict[int, str] = dict(last_channel_by_slot or {})
+    for i, occupant in enumerate(assignment):
+        if occupant is not None and occupant.get("stream_channel") is not None:
+            channel_by_slot[i] = occupant["stream_channel"]
 
     freed_slots = [
         i for i, occupant in enumerate(assignment) if occupant is not None and _match_key(occupant) not in live_by_key
@@ -92,12 +101,13 @@ def assign_slots(
     remaining_slots = list(empty_slot_indexes)
     remaining_winners = list(winners)
     for slot_index in empty_slot_indexes:
-        channel = previous_channel_by_slot.get(slot_index)
+        channel = channel_by_slot.get(slot_index)
         if channel is None:
             continue
         match_pair = next((pair for pair in remaining_winners if pair[1] and pair[0].get("stream_channel") == channel), None)
         if match_pair is not None:
             assignment[slot_index] = match_pair[0]
+            channel_by_slot[slot_index] = match_pair[0].get("stream_channel")
             remaining_slots.remove(slot_index)
             remaining_winners.remove(match_pair)
 
@@ -105,10 +115,12 @@ def assign_slots(
     for slot_index, (match, is_live) in zip(remaining_slots, remaining_winners):
         if is_live:
             assignment[slot_index] = match
+            if match.get("stream_channel") is not None:
+                channel_by_slot[slot_index] = match["stream_channel"]
         else:
             reserved_for[slot_index] = match
 
-    return assignment, reserved_for, overflow
+    return assignment, reserved_for, overflow, channel_by_slot
 
 
 def project_schedule(
@@ -116,9 +128,11 @@ def project_schedule(
     slots: int,
     league_priority: list[str],
     duration_fn: Callable[[MatchDict], timedelta],
+    now: datetime,
     initial_assignment: list[MatchDict | None] | None = None,
     narrow_lookahead: timedelta = timedelta(),
     wide_lookahead: timedelta = timedelta(),
+    initial_channel_by_slot: dict[int, str] | None = None,
 ) -> list[list[tuple[datetime, MatchDict]]]:
     """Replays assign_slots across a known future schedule instead of just
     "now", applying the same near/far reservation windows the live sync
@@ -127,28 +141,43 @@ def project_schedule(
     slot, would show starved in the guide even though it's high enough
     priority to have reserved a slot ahead of time. `duration_fn` gives each
     match's own estimated length (e.g. by best-of format) rather than one
-    flat duration for every match. Returns, per slot, `(claimed_at, match)`
-    pairs -- claimed_at is when the slot actually started showing that
-    match, which can be later than the match's own start if it had to wait
-    out a contested slot."""
+    flat duration for every match. `initial_assignment`/`initial_channel_by_slot`
+    are forced in exactly at `now`, not just at the start of the whole replay
+    -- `matches` can include a lookback window of recently-completed matches
+    (see plugin.py's GUIDE_LOOKBACK_HOURS use), and simulating that historical
+    stretch purely from schedule timing (no access to the live sync's real
+    `state`-flag corrections) can compute a different answer for "now" than
+    what's actually live (confirmed as a real bug, 2026-07-30: the guide
+    displayed a stale league at "now" while the real applied stream was
+    correct, because the accurate live assignment was only used to seed the
+    replay's *earliest* point, hours before "now", not "now" itself).
+    Returns, per slot, `(claimed_at, match)` pairs -- claimed_at is when the
+    slot actually started showing that match, which can be later than the
+    match's own start if it had to wait out a contested slot."""
     intervals = [(datetime.fromisoformat(m["start"]), datetime.fromisoformat(m["start"]) + duration_fn(m), m) for m in matches]
-    event_points = sorted({start for start, _end, _m in intervals} | {end for _start, end, _m in intervals})
+    event_points = sorted({start for start, _end, _m in intervals} | {end for _start, end, _m in intervals} | {now})
 
-    running_assignment: list[MatchDict | None] = list(initial_assignment or [None] * slots)
+    running_assignment: list[MatchDict | None] = [None] * slots
+    running_channel_by_slot: dict[int, str] = {}
     per_slot_history: list[list[tuple[datetime, MatchDict | None]]] = [[] for _ in range(slots)]
 
     for point in event_points:
-        live_now = [m for start, end, m in intervals if start <= point < end]
-        near_upcoming = [m for start, _end, m in intervals if point < start <= point + narrow_lookahead]
-        far_upcoming = [m for start, _end, m in intervals if point < start <= point + wide_lookahead]
-        running_assignment, _reserved_for, _overflow = assign_slots(
-            live_matches=live_now,
-            slots=slots,
-            league_priority=league_priority,
-            previous_assignment=running_assignment,
-            upcoming_matches=near_upcoming,
-            far_upcoming_matches=far_upcoming,
-        )
+        if point == now:
+            running_assignment = list(initial_assignment or [None] * slots)
+            running_channel_by_slot = dict(initial_channel_by_slot or {})
+        else:
+            live_now = [m for start, end, m in intervals if start <= point < end]
+            near_upcoming = [m for start, _end, m in intervals if point < start <= point + narrow_lookahead]
+            far_upcoming = [m for start, _end, m in intervals if point < start <= point + wide_lookahead]
+            running_assignment, _reserved_for, _overflow, running_channel_by_slot = assign_slots(
+                live_matches=live_now,
+                slots=slots,
+                league_priority=league_priority,
+                previous_assignment=running_assignment,
+                upcoming_matches=near_upcoming,
+                far_upcoming_matches=far_upcoming,
+                last_channel_by_slot=running_channel_by_slot,
+            )
         for slot_index, match in enumerate(running_assignment):
             per_slot_history[slot_index].append((point, match))
 

@@ -1,4 +1,4 @@
-"""Tests for allocator.assign_slots, the core stream-switching policy.
+﻿"""Tests for allocator.assign_slots, the core stream-switching policy.
 Every test uses real-shaped match dicts (as they'd appear after JSON-decoding
 schedule.json) rather than stripped-down stand-ins, so a field-name typo here
 would actually be caught."""
@@ -40,7 +40,7 @@ def test_fills_empty_slots_by_priority_when_nothing_was_previously_assigned():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific, americas],  # deliberately out of priority order
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -57,7 +57,7 @@ def test_sticky_keeps_existing_live_match_even_when_a_higher_priority_match_star
 
     # EMEA already holds the only slot; Americas (higher priority) starts later
     # while EMEA is still live. Policy says Americas waits, it does not preempt.
-    assignment, _, _overflow = assign_slots(
+    assignment, _, _overflow, _channel_by_slot = assign_slots(
         live_matches=[emea, americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -72,7 +72,7 @@ def test_overflow_matches_beyond_available_slots_are_dropped_not_queued():
     emea = _match("VCT EMEA", "2026-07-27T18:00:00+00:00", "Fnatic vs Team Liquid", "valorant_emea")
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
-    assignment, _, overflow = assign_slots(
+    assignment, _, overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific, emea, americas],
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -91,7 +91,7 @@ def test_match_ending_frees_its_slot_for_the_next_highest_priority_live_match():
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
     # EMEA held the slot last tick but is no longer in the live list (it ended).
-    assignment, _, _overflow = assign_slots(
+    assignment, _, _overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -114,7 +114,7 @@ def test_same_stream_channel_continuation_keeps_its_original_slot_even_when_anot
     new_emea = _match("VCT EMEA", "2026-07-27T16:00:00+00:00", "Team Heretics vs KOI", "valorant_emea")
     new_americas = _match("VCT Americas", "2026-07-27T16:00:00+00:00", "LOUD vs NRG", "valorant_americas")
 
-    assignment, _, _overflow = assign_slots(
+    assignment, _, _overflow, _channel_by_slot = assign_slots(
         live_matches=[new_emea, new_americas],
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -135,7 +135,7 @@ def test_same_stream_channel_continuation_does_not_block_a_genuinely_new_channel
     new_americas = _match("VCT Americas", "2026-07-27T16:00:00+00:00", "LOUD vs NRG", "valorant_americas")
     new_pacific = _match("VCT Pacific", "2026-07-27T16:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
-    assignment, _, _overflow = assign_slots(
+    assignment, _, _overflow, _channel_by_slot = assign_slots(
         live_matches=[new_pacific, new_americas],
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -166,7 +166,7 @@ def test_same_channel_continuity_never_costs_a_higher_priority_candidate_its_slo
         "Last Chance Qualifier Americas", "2026-07-27T18:00:00+00:00", "Shopify Rebellion Black vs 2GAME", "VALORANT_NorthAmerica"
     )
 
-    assignment, reserved_for, overflow = assign_slots(
+    assignment, reserved_for, overflow, _channel_by_slot = assign_slots(
         live_matches=[new_emea, new_gc_emea],
         slots=2,
         league_priority=priority,
@@ -182,7 +182,7 @@ def test_same_channel_continuity_never_costs_a_higher_priority_candidate_its_slo
 def test_unranked_league_is_lowest_priority_but_still_fills_a_free_slot():
     unranked = _match("VCT Masters", "2026-07-27T18:00:00+00:00", "Team A vs Team B", "valorant_masters")
 
-    assignment, _, _overflow = assign_slots(
+    assignment, _, _overflow, _channel_by_slot = assign_slots(
         live_matches=[unranked],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -193,7 +193,7 @@ def test_unranked_league_is_lowest_priority_but_still_fills_a_free_slot():
 
 
 def test_empty_live_matches_produces_all_none_slots():
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[],
         slots=2,
         league_priority=VALORANT_PRIORITY,
@@ -207,7 +207,7 @@ def test_empty_live_matches_produces_all_none_slots():
 def test_previous_assignment_longer_than_slots_is_truncated_not_errored():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    assignment, _, _overflow = assign_slots(
+    assignment, _, _overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -224,7 +224,7 @@ def test_upcoming_higher_priority_match_reserves_a_slot_instead_of_a_lower_prior
     # Two empty slots, one live regional match, one imminent international
     # not live yet. The international's reservation wins the higher-ranked
     # slot; the regional gets the other one rather than both being empty.
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -245,7 +245,7 @@ def test_reservation_never_preempts_an_already_live_match():
     # Americas already holds the only slot and is still live. Champions is
     # imminent but there are zero empty slots. The existing live match must
     # never be bumped out to make room for a reservation.
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=1,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -264,7 +264,7 @@ def test_duplicate_upcoming_entries_for_the_same_match_only_reserve_one_slot():
     # Regression guard: a duplicate in the upcoming list (feed glitch, double
     # count) must not burn two reservation slots on the same anticipated
     # match. That would leave the live regional match with nowhere to go.
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -279,7 +279,7 @@ def test_duplicate_upcoming_entries_for_the_same_match_only_reserve_one_slot():
 def test_upcoming_matches_defaults_when_not_provided():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -294,7 +294,7 @@ def test_idle_slot_with_nothing_live_or_upcoming_has_no_reservation_preview():
     # Nothing live, nothing anticipated. reserved_for must stay None rather
     # than pointing at something stale, so the caller knows to write an
     # honest "no match scheduled" placeholder instead of a preview.
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -313,7 +313,7 @@ def test_near_upcoming_match_displaces_a_live_match_for_the_only_contested_slot(
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
     champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
 
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific],
         slots=1,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -334,7 +334,7 @@ def test_far_upcoming_match_does_not_displace_a_live_match_for_a_contested_slot(
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
     champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
 
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific],
         slots=1,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -353,7 +353,7 @@ def test_far_upcoming_match_still_previews_a_slot_nothing_live_wants():
     pacific = _match("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
     champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
 
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -369,7 +369,7 @@ def test_overflow_is_empty_when_every_candidate_gets_a_slot_or_a_reservation():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
     champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
 
-    assignment, reserved_for, overflow = assign_slots(
+    assignment, reserved_for, overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -391,7 +391,7 @@ def test_overflow_orders_multiple_leftover_candidates_by_priority():
     # that lose out must come back in priority order (EMEA before Pacific),
     # not feed order, so the caller can preview the *best* leftover first
     # once the slot frees up.
-    assignment, _, overflow = assign_slots(
+    assignment, _, overflow, _channel_by_slot = assign_slots(
         live_matches=[pacific, emea, americas],
         slots=1,
         league_priority=VALORANT_PRIORITY,
@@ -409,7 +409,7 @@ def test_duplicate_match_across_near_and_far_buckets_only_reserves_once():
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
     champions = _upcoming("Champions", "2026-07-27T19:00:00+00:00", "Grand Final", "valorant")
 
-    assignment, reserved_for, _overflow = assign_slots(
+    assignment, reserved_for, _overflow, _channel_by_slot = assign_slots(
         live_matches=[americas],
         slots=2,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
@@ -422,7 +422,60 @@ def test_duplicate_match_across_near_and_far_buckets_only_reserves_once():
     assert reserved_for == [champions, None]
 
 
+def test_channel_by_slot_survives_an_idle_gap_so_a_later_match_on_the_same_channel_reclaims_its_slot():
+    # Two leagues airing back-to-back (not simultaneously) on the same
+    # physical Twitch channel must land on the same generic slot even when
+    # there's a real gap between them (the broadcast going dark for a break,
+    # not an instant handoff). Without persisting channel_by_slot across the
+    # idle tick, this info is lost the moment a slot goes empty, so the next
+    # arrival on that channel lands wherever priority/order happens to put
+    # it instead of reclaiming its channel's usual slot.
+    americas = _match("VCT Americas", "2026-07-27T15:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    pacific = _match("VCT Pacific", "2026-07-27T15:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
+
+    assignment, _reserved_for, _overflow, channel_by_slot = assign_slots(
+        live_matches=[americas, pacific],
+        slots=2,
+        league_priority=VALORANT_PRIORITY,
+        previous_assignment=None,
+    )
+    assert assignment == [americas, pacific]
+
+    # Both matches end; nothing live for a tick (the gap).
+    assignment, _reserved_for, _overflow, channel_by_slot = assign_slots(
+        live_matches=[],
+        slots=2,
+        league_priority=VALORANT_PRIORITY,
+        previous_assignment=assignment,
+        last_channel_by_slot=channel_by_slot,
+    )
+    assert assignment == [None, None]
+
+    # New matches on the SAME two channels go live, listed in the OPPOSITE
+    # order from before -- without channel memory, naive fill-order would
+    # put the Pacific-channel match in slot 0 and the Americas-channel match
+    # in slot 1, the reverse of what continuity requires.
+    next_pacific = _match("VCT Pacific", "2026-07-27T17:00:00+00:00", "GLOBAL ESPORTS vs T1", "valorant_pacific")
+    next_americas = _match("VCT Americas", "2026-07-27T17:00:00+00:00", "LOUD vs NRG", "valorant_americas")
+
+    assignment, _reserved_for, _overflow, _channel_by_slot = assign_slots(
+        live_matches=[next_pacific, next_americas],
+        slots=2,
+        league_priority=VALORANT_PRIORITY,
+        previous_assignment=assignment,
+        last_channel_by_slot=channel_by_slot,
+    )
+
+    assert assignment == [next_americas, next_pacific]
+
+
 THREE_HOURS = timedelta(hours=3)
+
+# For tests that aren't specifically exercising the "now" anchor, "now"
+# before every event point in the test reproduces the old behavior exactly:
+# the override at "now" just seeds the (usually absent) initial_assignment,
+# and every real event point after it replays normally.
+EARLY_NOW = datetime.fromisoformat("2020-01-01T00:00:00+00:00")
 
 
 def _three_hours(_match: dict) -> timedelta:
@@ -432,7 +485,9 @@ def _three_hours(_match: dict) -> timedelta:
 def test_project_schedule_returns_a_single_future_match_covering_its_own_slot():
     americas = _upcoming("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours)
+    projected = project_schedule(
+        matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours, now=EARLY_NOW
+    )
 
     assert projected == [[(_at(americas), americas)]]
 
@@ -448,6 +503,7 @@ def test_project_schedule_orders_back_to_back_matches_on_one_slot_chronologicall
         slots=1,
         league_priority=VALORANT_PRIORITY,
         duration_fn=_three_hours,
+        now=EARLY_NOW,
     )
 
     assert projected == [[(_at(first), first), (_at(second), second)]]
@@ -461,7 +517,7 @@ def test_project_schedule_drops_the_losing_match_entirely_when_two_leagues_start
     pacific = _upcoming("VCT Pacific", "2026-07-27T18:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
 
     projected = project_schedule(
-        matches=[americas, pacific], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours
+        matches=[americas, pacific], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours, now=EARLY_NOW
     )
 
     assert projected == [[(_at(americas), americas)]]
@@ -477,12 +533,16 @@ def test_project_schedule_keeps_a_seeded_live_match_until_it_ends_even_if_a_high
     # live_emea must be in `matches` too (mirroring how the real caller always
     # includes a currently in_progress match). project_schedule needs its own
     # interval to know when it actually ends; initial_assignment alone only
-    # seeds the very first replay, it doesn't keep a match alive forever.
+    # overrides the state exactly at `now`, it doesn't keep a match alive
+    # forever. `now` is live_emea's own real start here -- matching
+    # production, where "now" is never earlier than an already-live seeded
+    # match's start, only ever at or after it.
     projected = project_schedule(
         matches=[live_emea, champions],
         slots=1,
         league_priority=VALORANT_PRIORITY_WITH_INTL,
         duration_fn=_three_hours,
+        now=_at(live_emea),
         initial_assignment=[live_emea],
     )
 
@@ -492,10 +552,51 @@ def test_project_schedule_keeps_a_seeded_live_match_until_it_ends_even_if_a_high
     assert projected == [[(_at(live_emea), live_emea), (datetime.fromisoformat("2026-07-27T17:00:00+00:00"), champions)]]
 
 
+def test_project_schedule_snaps_to_the_real_accurate_state_at_now_when_the_lookback_replay_drifted():
+    # Regression test for a real bug (2026-07-30): the guide displayed a
+    # stale league at "now" (LPL) while the actually-applied live stream was
+    # a different, correct one (LCK). `matches` now includes a lookback
+    # window of recently-completed matches (see plugin.py's
+    # GUIDE_LOOKBACK_HOURS), and replaying that history purely from schedule
+    # timing -- with no access to the live sync's real `state`-flag
+    # corrections -- can compute a different answer for "now" than what's
+    # actually live. `initial_assignment` must be forced in exactly at
+    # `now`, correcting the drift, not just used to seed the replay's
+    # earliest (hours-in-the-past) point.
+    #
+    # americas' 3h estimated block (15:00-18:00) hasn't ended yet per pure
+    # schedule timing when `now` (17:30) arrives, so a naive replay would
+    # still show it occupying the only slot. In reality the live sync
+    # determined `pacific` (a real match, started 17:00, still within its
+    # own window) is what's actually live now -- `initial_assignment`
+    # reflects that accurate reality and must override the naive replay's
+    # stale answer.
+    americas = _match("VCT Americas", "2026-07-27T15:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    pacific = _match("VCT Pacific", "2026-07-27T17:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
+    now = datetime.fromisoformat("2026-07-27T17:30:00+00:00")
+
+    projected = project_schedule(
+        matches=[americas, pacific],
+        slots=1,
+        league_priority=VALORANT_PRIORITY,
+        duration_fn=_three_hours,
+        now=now,
+        initial_assignment=[pacific],
+    )
+
+    # Historical reconstruction before "now" is untouched (americas really
+    # did claim the slot at its own real start), but the guide corrects to
+    # the real accurate match exactly at "now", not at americas' stale
+    # 18:00 estimated end.
+    assert projected == [[(_at(americas), americas), (now, pacific)]]
+
+
 def test_project_schedule_defaults_initial_assignment_to_empty_when_not_provided():
     americas = _upcoming("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
 
-    projected = project_schedule(matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours)
+    projected = project_schedule(
+        matches=[americas], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours, now=EARLY_NOW
+    )
 
     assert projected == [[(_at(americas), americas)]]
 
@@ -543,6 +644,7 @@ def test_project_schedule_claims_a_contended_match_only_once_its_slot_actually_f
         slots=2,
         league_priority=priority,
         duration_fn=_three_hours,
+        now=EARLY_NOW,
     )
 
     all_claims = [claim for slot in projected for claim in slot]
@@ -562,7 +664,42 @@ def test_project_schedule_claims_a_contended_match_only_once_its_slot_actually_f
 
 
 def test_project_schedule_on_no_matches_returns_empty_lists_per_slot():
-    assert project_schedule(matches=[], slots=2, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours) == [[], []]
+    assert (
+        project_schedule(matches=[], slots=2, league_priority=VALORANT_PRIORITY, duration_fn=_three_hours, now=EARLY_NOW)
+        == [[], []]
+    )
+
+
+def test_project_schedule_keeps_back_to_back_leagues_on_the_same_channel_across_a_real_gap():
+    # Two leagues sharing one physical Twitch channel, airing one after the
+    # other with a genuine break in between (not simultaneously) -- the
+    # projected guide must keep them on the same generic slot the whole
+    # time, exactly as if it were one continuous broadcast, since viewers
+    # watching that slot are really just watching one Twitch channel.
+    americas = _match("VCT Americas", "2026-07-27T15:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
+    pacific = _match("VCT Pacific", "2026-07-27T15:00:00+00:00", "Paper Rex vs DRX", "valorant_pacific")
+    # Both end at 18:00 (start + THREE_HOURS). A 1h dead air gap follows --
+    # the next matches on each channel don't start until 19:00, not 18:00.
+    next_pacific = _match("VCT Pacific", "2026-07-27T19:00:00+00:00", "GLOBAL ESPORTS vs T1", "valorant_pacific")
+    next_americas = _match("VCT Americas", "2026-07-27T19:00:00+00:00", "LOUD vs NRG", "valorant_americas")
+
+    projected = project_schedule(
+        # Deliberately listed so naive fill-order would put next_pacific in
+        # slot 0 and next_americas in slot 1 -- the opposite of continuity.
+        # Both leagues tied (rank 0, neither is in an empty priority list),
+        # so a stable sort by priority alone preserves that listing order --
+        # isolating continuity's effect from priority ordering.
+        matches=[americas, pacific, next_pacific, next_americas],
+        slots=2,
+        league_priority=[],
+        duration_fn=_three_hours,
+        now=EARLY_NOW,
+    )
+
+    americas_slot = [match["league"] for _claimed_at, match in projected[0]]
+    pacific_slot = [match["league"] for _claimed_at, match in projected[1]]
+    assert americas_slot == ["VCT Americas", "VCT Americas"]
+    assert pacific_slot == ["VCT Pacific", "VCT Pacific"]
 
 
 def test_project_schedule_uses_duration_fn_per_match_not_one_flat_value():
@@ -577,7 +714,7 @@ def test_project_schedule_uses_duration_fn_per_match_not_one_flat_value():
     bo5 = {**_upcoming("VCT Americas", "2026-07-27T15:00:00+00:00", "LOUD vs NRG", "valorant_americas"), "best_of": 5}
 
     projected = project_schedule(
-        matches=[bo1, bo5], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=duration_by_best_of
+        matches=[bo1, bo5], slots=1, league_priority=VALORANT_PRIORITY, duration_fn=duration_by_best_of, now=EARLY_NOW
     )
 
     assert projected == [[(_at(bo1), bo1), (_at(bo5), bo5)]]
@@ -617,6 +754,7 @@ def test_project_schedule_without_lookahead_windows_starves_a_higher_priority_ma
         slots=3,
         league_priority=priority,
         duration_fn=_three_hours,
+        now=EARLY_NOW,
     )
 
     all_claims = [claim for slot in projected for claim in slot]
@@ -663,6 +801,7 @@ def test_project_schedule_reserves_a_slot_ahead_of_time_so_a_higher_priority_mat
         slots=3,
         league_priority=priority,
         duration_fn=_three_hours,
+        now=EARLY_NOW,
         narrow_lookahead=timedelta(hours=2),
         wide_lookahead=timedelta(hours=3),
     )

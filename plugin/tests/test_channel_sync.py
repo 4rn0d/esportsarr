@@ -10,13 +10,14 @@ import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timedelta, timezone
 
 from esportsarr.channel_sync import (
-    BEST_OF_DURATIONS,
     GUIDE_CATEGORY,
     GUIDE_LANG,
     GUIDE_LOOKBACK_HOURS,
+    LOL_BEST_OF_DURATIONS,
     MAX_FILLER_BLOCK,
     OFFLINE_PROGRAM_TITLE,
     PROGRAMME_DURATION,
+    VALORANT_BEST_OF_DURATIONS,
     _build_guide_xmltv,
     _round_down_to_quarter_hour,
     build_guide_entries,
@@ -127,7 +128,7 @@ def test_build_guide_xmltv_omits_desc_element_when_description_is_absent():
 
 
 def _future_match(title: str, start: datetime, description: str = "", best_of: int | None = None) -> dict:
-    match = {"start": start.isoformat(), "title": title, "state": "unstarted", "best_of": best_of}
+    match = {"start": start.isoformat(), "title": title, "state": "unstarted", "game": "valorant", "best_of": best_of}
     if description:
         match["description"] = description
     return match
@@ -163,14 +164,32 @@ def _take_filler_run(entries: list[dict], index: int) -> tuple[list[dict], int]:
     return chunks, index
 
 
-def test_duration_for_match_uses_the_estimate_for_the_reported_best_of_format():
-    for best_of, expected_duration in BEST_OF_DURATIONS.items():
-        assert duration_for_match({"best_of": best_of}) == expected_duration
+def test_duration_for_match_uses_the_lol_estimate_for_the_reported_best_of_format():
+    for best_of, expected_duration in LOL_BEST_OF_DURATIONS.items():
+        assert duration_for_match({"game": "lol", "best_of": best_of}) == expected_duration
+
+
+def test_duration_for_match_uses_the_valorant_estimate_for_the_reported_best_of_format():
+    for best_of, expected_duration in VALORANT_BEST_OF_DURATIONS.items():
+        assert duration_for_match({"game": "valorant", "best_of": best_of}) == expected_duration
+
+
+def test_duration_for_match_uses_a_different_duration_for_the_same_best_of_across_games():
+    # Same Bo3 count, different games -- LoL games run shorter than
+    # Valorant maps, so the estimate must differ.
+    assert duration_for_match({"game": "lol", "best_of": 3}) == LOL_BEST_OF_DURATIONS[3]
+    assert duration_for_match({"game": "valorant", "best_of": 3}) == VALORANT_BEST_OF_DURATIONS[3]
+    assert LOL_BEST_OF_DURATIONS[3] != VALORANT_BEST_OF_DURATIONS[3]
 
 
 def test_duration_for_match_falls_back_to_the_default_when_format_is_unknown():
-    assert duration_for_match({"best_of": None}) == PROGRAMME_DURATION
-    assert duration_for_match({}) == PROGRAMME_DURATION
+    assert duration_for_match({"game": "valorant", "best_of": None}) == PROGRAMME_DURATION
+    assert duration_for_match({"game": "valorant"}) == PROGRAMME_DURATION
+
+
+def test_duration_for_match_falls_back_to_the_default_when_game_is_unknown():
+    assert duration_for_match({"game": "rocket_league", "best_of": 3}) == PROGRAMME_DURATION
+    assert duration_for_match({"best_of": 3}) == PROGRAMME_DURATION
 
 
 def test_build_guide_entries_end_time_reflects_the_match_format():
@@ -179,7 +198,7 @@ def test_build_guide_entries_end_time_reflects_the_match_format():
 
     _leading_chunks, index = _take_filler_run(entries, 0)
     real = entries[index]
-    assert real["end"] == datetime.fromisoformat(match["start"]) + BEST_OF_DURATIONS[1]
+    assert real["end"] == datetime.fromisoformat(match["start"]) + VALORANT_BEST_OF_DURATIONS[1]
 
 
 def test_build_guide_entries_fills_the_gap_before_a_future_match_and_after_it():

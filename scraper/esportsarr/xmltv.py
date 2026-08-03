@@ -11,20 +11,33 @@ from __future__ import annotations
 import xml.etree.ElementTree as ElementTree
 from datetime import timedelta
 
-from .models import MatchEvent, MatchState
+from .models import Game, MatchEvent, MatchState
 
 DEFAULT_MATCH_DURATION = timedelta(hours=3)
 
 # Riot gives no match end time. A broadcast block runs roughly this long
-# depending on format, including pre/post-show; unrecognized/missing formats
-# (e.g. no "strategy" reported) fall back to DEFAULT_MATCH_DURATION. Bo7
-# isn't used by any league we track yet (Rocket League, planned) -- this
-# estimate is an unvalidated placeholder until then.
-BEST_OF_DURATIONS = {
+# depending on format, including pre/post-show. Per-game since individual
+# games/maps run a different length in each: a LoL game is ~30-40min, a
+# Valorant map ~40-45min, so the same best-of count adds up to a
+# meaningfully different broadcast length per game. Unrecognized/missing
+# formats (e.g. no "strategy" reported) fall back to DEFAULT_MATCH_DURATION.
+LOL_BEST_OF_DURATIONS = {
     1: timedelta(hours=1),
-    3: timedelta(hours=2, minutes=45),
+    3: timedelta(hours=2),
+    5: timedelta(hours=3, minutes=20),
+}
+# Bo7 isn't used by any Valorant league we track yet (Rocket League, planned
+# for a different game entirely) -- this estimate is an unvalidated
+# placeholder until then.
+VALORANT_BEST_OF_DURATIONS = {
+    1: timedelta(hours=1),
+    3: timedelta(hours=3),
     5: timedelta(hours=5, minutes=30),
     7: timedelta(hours=7, minutes=30),
+}
+BEST_OF_DURATIONS_BY_GAME = {
+    Game.LOL: LOL_BEST_OF_DURATIONS,
+    Game.VALORANT: VALORANT_BEST_OF_DURATIONS,
 }
 
 XMLTV_TIME_FORMAT = "%Y%m%d%H%M%S %z"
@@ -35,7 +48,8 @@ GUIDE_STATES = (MatchState.UNSTARTED, MatchState.IN_PROGRESS)
 
 
 def _duration_for_match(match: MatchEvent) -> timedelta:
-    return BEST_OF_DURATIONS.get(match.best_of, DEFAULT_MATCH_DURATION)
+    durations = BEST_OF_DURATIONS_BY_GAME.get(match.league.game, {})
+    return durations.get(match.best_of, DEFAULT_MATCH_DURATION)
 
 
 def build_xmltv(matches: list[MatchEvent]) -> str:

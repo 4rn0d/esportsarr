@@ -4,10 +4,18 @@ import xml.etree.ElementTree as ElementTree
 from datetime import datetime, timezone
 
 from esportsarr.models import Game, League, MatchEvent, MatchState, StreamPlatform
-from esportsarr.xmltv import BEST_OF_DURATIONS, CATEGORY, DEFAULT_MATCH_DURATION, XMLTV_LANG, build_xmltv
+from esportsarr.xmltv import (
+    CATEGORY,
+    DEFAULT_MATCH_DURATION,
+    LOL_BEST_OF_DURATIONS,
+    VALORANT_BEST_OF_DURATIONS,
+    XMLTV_LANG,
+    build_xmltv,
+)
 
 LCS = League(display_name="LCS", game=Game.LOL, epg_channel_id="twitch.lcs")
 LEC = League(display_name="LEC", game=Game.LOL, epg_channel_id="twitch.lec")
+VCT_AMERICAS = League(display_name="VCT Americas", game=Game.VALORANT, epg_channel_id="twitch.valorant_americas")
 
 
 def _match(
@@ -118,8 +126,8 @@ def test_build_xmltv_stop_time_is_start_plus_default_duration_when_format_is_unk
     assert stop - start == DEFAULT_MATCH_DURATION
 
 
-def test_build_xmltv_stop_time_uses_the_duration_for_the_match_format():
-    for best_of, expected_duration in BEST_OF_DURATIONS.items():
+def test_build_xmltv_stop_time_uses_the_lol_duration_for_the_match_format():
+    for best_of, expected_duration in LOL_BEST_OF_DURATIONS.items():
         match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9", best_of=best_of)
         xml_text = build_xmltv([match])
         root = ElementTree.fromstring(xml_text)
@@ -128,3 +136,35 @@ def test_build_xmltv_stop_time_uses_the_duration_for_the_match_format():
         start = datetime.strptime(programme.get("start"), "%Y%m%d%H%M%S %z")
         stop = datetime.strptime(programme.get("stop"), "%Y%m%d%H%M%S %z")
         assert stop - start == expected_duration
+
+
+def test_build_xmltv_stop_time_uses_the_valorant_duration_for_the_match_format():
+    for best_of, expected_duration in VALORANT_BEST_OF_DURATIONS.items():
+        match = _match(VCT_AMERICAS, MatchState.UNSTARTED, "Sentinels vs 100T", best_of=best_of)
+        xml_text = build_xmltv([match])
+        root = ElementTree.fromstring(xml_text)
+
+        programme = root.find("programme")
+        start = datetime.strptime(programme.get("start"), "%Y%m%d%H%M%S %z")
+        stop = datetime.strptime(programme.get("stop"), "%Y%m%d%H%M%S %z")
+        assert stop - start == expected_duration
+
+
+def test_build_xmltv_uses_a_different_duration_for_the_same_best_of_across_games():
+    # The same Bo3 count means a meaningfully different broadcast length
+    # depending on the game (LoL games run shorter than Valorant maps).
+    lol_match = _match(LCS, MatchState.UNSTARTED, "Sentinels vs Cloud9", best_of=3)
+    valorant_match = _match(VCT_AMERICAS, MatchState.UNSTARTED, "Sentinels vs 100T", hour=22, best_of=3)
+
+    xml_text = build_xmltv([lol_match, valorant_match])
+    root = ElementTree.fromstring(xml_text)
+
+    durations = {}
+    for programme in root.findall("programme"):
+        start = datetime.strptime(programme.get("start"), "%Y%m%d%H%M%S %z")
+        stop = datetime.strptime(programme.get("stop"), "%Y%m%d%H%M%S %z")
+        durations[programme.get("channel")] = stop - start
+
+    assert durations["twitch.lcs"] == LOL_BEST_OF_DURATIONS[3]
+    assert durations["twitch.valorant_americas"] == VALORANT_BEST_OF_DURATIONS[3]
+    assert durations["twitch.lcs"] != durations["twitch.valorant_americas"]

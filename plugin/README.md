@@ -185,6 +185,17 @@ Last Chance Qualifier match on a completely different channel was losing
 out to a lower-priority Game Changers match purely because the latter
 "continued" the freed slot's previous channel).
 
+Continuity survives a real gap between two matches on the same channel, not
+just an instant handoff. `assign_slots` returns `channel_by_slot`
+(`allocator.py`), remembering each slot's last real channel even while the
+slot sits idle for a while (a broadcast going dark for a break between
+matches); the caller passes it back in as `last_channel_by_slot` on the next
+call. Without this, the memory of "this slot was showing channel X" was lost
+the instant the slot went empty, so the next match on that same channel
+landed wherever priority/order happened to put it instead of reclaiming its
+usual slot -- confirmed as a real bug, 2026-07-30 (Arnaud: two leagues
+airing back-to-back, not simultaneously, on the same Twitch channel).
+
 - `reservation_lookahead_minutes` (default 180): how far ahead an upcoming
   match can preview/reserve a slot that's genuinely idle. Nothing live
   wants it either way, so there's no cost to previewing it from the full
@@ -245,13 +256,25 @@ slots with something *still* live looked right, everything else showed a
 12h-wide filler instead of the real history).
 
 - `allocator.project_schedule` replays the exact same `assign_slots` policy
-  (priority ranking, sticky live matches, same-channel continuity) forward
-  across every known future match, seeded with this tick's real, current
-  assignment so the projected future picks up exactly where "right now"
-  left off. Two matches from different leagues that overlap in time and
-  both want the same slot are resolved exactly like live sync: the
-  higher-priority one shows, the lower-priority one is simply **absent**
-  from the guide for that window, never queued or shown after the fact.
+  (priority ranking, sticky live matches, same-channel continuity) across
+  the whole lookback-to-future window. It takes a required `now` and forces
+  `initial_assignment`/`initial_channel_by_slot` (this tick's real, accurate
+  assignment) in **exactly at `now`**, not just at the start of the whole
+  replay. Before `GUIDE_LOOKBACK_HOURS` added recently-completed matches to
+  the replay, "the start of the whole replay" and "now" were the same
+  instant, so this distinction didn't matter -- once the replay's earliest
+  point became hours in the past, it did: replaying that history purely
+  from schedule timing (`start` + `duration_fn`, with no access to the live
+  sync's real Riot `state`-flag corrections) can compute a different answer
+  for "now" than what's actually live (confirmed as a real bug, 2026-07-30:
+  the guide displayed a stale league at "now" while the actually-applied
+  live stream was a different, correct one). Anything before `now` is an
+  untouched historical reconstruction from schedule timing alone; anything
+  at or after `now` is guaranteed consistent with the real accurate state.
+  Two matches from different leagues that overlap in time and both want the
+  same slot are resolved exactly like live sync: the higher-priority one
+  shows, the lower-priority one is simply **absent** from the guide for
+  that window, never queued or shown after the fact.
 - `channel_sync.build_guide_entries` turns that per-slot match sequence
   into actual guide entries, filling every gap (before the first known
   match, between two consecutive ones, and after the last one through to
@@ -280,19 +303,25 @@ slots with something *still* live looked right, everything else showed a
   time from the latest known state. It never affects the actual live stream
   switch, which is decided separately and correctly by `assign_slots`'s own
   real, current-tick evaluation. `channel_sync.duration_for_match` estimates
-  by best-of format (`BEST_OF_DURATIONS`) rather than one flat 3h for every
-  match -- Bo1 ~1h, Bo3 ~2h45, Bo5 ~5h30 -- so this caveat is smaller than it
-  used to be, not eliminated. Bo7 has an entry too (~7h30) even though no
-  league we track uses it yet (Rocket League, planned); that estimate is an
-  unvalidated placeholder. Must be kept in sync manually with the identical
-  table in `scraper/esportsarr/xmltv.py` -- the two packages don't share code.
-- Every real entry also carries a `description` (competition + stage/matchday
-  context plus the best-of format when Riot reports one, e.g. "LCS: Playoffs
-  · Bo3", "VCT Americas: Week 3 · Bo3") straight through
-  from the scraper's `schedule.json` into the XMLTV `<desc>` element, so the
-  guide shows what's actually being played, not just the two team names.
-  Filler ("No Match Scheduled") entries have none. There's no match to
-  describe.
+  by best-of format, per game -- `LOL_BEST_OF_DURATIONS` (Bo1 ~1h, Bo3 ~2h,
+  Bo5 ~3h20) vs `VALORANT_BEST_OF_DURATIONS` (Bo1 ~1h, Bo3 ~3h, Bo5 ~5h30) --
+  rather than one flat 3h for every match, since a LoL game (~30-40min) runs
+  noticeably shorter than a Valorant map (~40-45min), so the same best-of
+  count adds up to a meaningfully different real broadcast length depending
+  on the game (Arnaud, 2026-07-30). Bo7 has an entry in Valorant's table too
+  (~7h30) even though no league we track uses it yet (Rocket League,
+  planned, a third game entirely -- it'll need its own table); that estimate
+  is an unvalidated placeholder. Must be kept in sync manually with the
+  identical tables in `scraper/esportsarr/xmltv.py` -- the two packages
+  don't share code.
+- Every real entry also carries a `description` (match participants first,
+  e.g. "Sentinels vs Cloud9", then stage/matchday context, then the best-of
+  format when Riot reports one -- e.g. "Sentinels vs Cloud9 · Playoffs · Bo3")
+  straight through from the scraper's `schedule.json` into the XMLTV `<desc>`
+  element. `title` is always just the league name (e.g. "LCS") so the
+  programme name is stable and never blank; `description` is where the
+  actual match info lives. Filler ("No Match Scheduled") entries have none.
+  There's no match to describe.
 
 `apply_assignment` no longer builds guide content at all. It only handles
 `ChannelStream`/`EPGData` linking for the actual, current-tick live match.

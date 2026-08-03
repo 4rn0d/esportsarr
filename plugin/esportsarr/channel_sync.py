@@ -51,19 +51,34 @@ OWNED_STREAM_TAG = "esportsarr"
 # esports.xmltv.
 PROGRAMME_DURATION = timedelta(hours=3)
 
-# Same table as scraper/esportsarr/xmltv.py -- kept in sync manually, the two
-# packages don't share code. Bo7 isn't used by any league we track yet
-# (Rocket League, planned) -- this estimate is an unvalidated placeholder.
-BEST_OF_DURATIONS = {
+# Same tables as scraper/esportsarr/xmltv.py -- kept in sync manually, the
+# two packages don't share code. Per-game since individual games/maps run a
+# different length in each: a LoL game is ~30-40min, a Valorant map
+# ~40-45min, so the same best-of count adds up to a meaningfully different
+# broadcast length per game.
+LOL_BEST_OF_DURATIONS = {
     1: timedelta(hours=1),
-    3: timedelta(hours=2, minutes=45),
+    3: timedelta(hours=2),
+    5: timedelta(hours=3, minutes=20),
+}
+# Bo7 isn't used by any Valorant league we track yet (Rocket League, planned
+# for a different game entirely) -- this estimate is an unvalidated
+# placeholder until then.
+VALORANT_BEST_OF_DURATIONS = {
+    1: timedelta(hours=1),
+    3: timedelta(hours=3),
     5: timedelta(hours=5, minutes=30),
     7: timedelta(hours=7, minutes=30),
+}
+BEST_OF_DURATIONS_BY_GAME = {
+    "lol": LOL_BEST_OF_DURATIONS,
+    "valorant": VALORANT_BEST_OF_DURATIONS,
 }
 
 
 def duration_for_match(match: dict[str, Any]) -> timedelta:
-    return BEST_OF_DURATIONS.get(match.get("best_of"), PROGRAMME_DURATION)
+    durations = BEST_OF_DURATIONS_BY_GAME.get(match.get("game"), {})
+    return durations.get(match.get("best_of"), PROGRAMME_DURATION)
 
 # The guide used to start exactly at "now" and never earlier, so a slot idle
 # for a while before "now" had zero programme data for that stretch --

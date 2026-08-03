@@ -90,6 +90,7 @@ RESERVATION_GRACE_MINUTES = 30
 STALE_LIVE_GRACE_MINUTES = 720
 
 _last_assignment: dict[str, list[dict | None]] = {}  # in-memory, reset on process restart
+_last_channel_by_slot: dict[str, dict[int, str]] = {}  # per game, survives a slot sitting idle between two matches
 
 
 def _merge_defaults(settings: dict) -> dict:
@@ -241,26 +242,31 @@ def _run_sync(settings: dict) -> dict:
                     priority_warnings[game] = unranked_live
                 slots = int(settings["slots_per_game"])
                 previous = _last_assignment.get(game)
+                previous_channel_by_slot = _last_channel_by_slot.get(game)
 
-                assignment, _reserved_for, _overflow = assign_slots(
+                assignment, _reserved_for, _overflow, channel_by_slot = assign_slots(
                     live_matches=live_by_game.get(game, []),
                     slots=slots,
                     league_priority=priority,
                     previous_assignment=previous,
                     upcoming_matches=upcoming_by_game.get(game, []),
                     far_upcoming_matches=far_upcoming_by_game.get(game, []),
+                    last_channel_by_slot=previous_channel_by_slot,
                 )
                 channel_sync.apply_assignment(settings, game, assignment)
                 _last_assignment[game] = assignment
+                _last_channel_by_slot[game] = channel_by_slot
 
                 projected_by_slot = project_schedule(
                     matches=projectable_by_game.get(game, []),
                     slots=slots,
                     league_priority=priority,
                     duration_fn=channel_sync.duration_for_match,
+                    now=now,
                     initial_assignment=assignment,
                     narrow_lookahead=narrow_lookahead,
                     wide_lookahead=wide_lookahead,
+                    initial_channel_by_slot=channel_by_slot,
                 )
                 guide_entries.extend(channel_sync.build_guide_entries(game, projected_by_slot, now, projection_end))
 
