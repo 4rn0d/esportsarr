@@ -911,16 +911,6 @@
     <desc lang="en">ZYB vs Vitality.Bee · Week 3 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260803180000 +0000" stop="20260803200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Ruddy Corporation vs Deer Gaming · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260803180000 +0000" stop="20260803200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Lund Esports Organization vs Lundqvist Lightside · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260805160000 +0000" stop="20260805180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">Sørby Esports vs Absolved · Swiss · Bo3</desc>
@@ -1228,12 +1218,7 @@
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
-    <desc lang="en">Los Chudeles vs SaD GC · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">Game Changers NA</title>
-    <desc lang="en">ROSO GC vs MVSK Secret · Swiss · Bo3</desc>
+    <desc lang="en">Cloud9 GC vs :3 · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
@@ -1243,7 +1228,12 @@
   </programme>
   <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
-    <desc lang="en">Cloud9 GC vs :3 · Swiss · Bo3</desc>
+    <desc lang="en">Los Chudeles vs SaD GC · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260803233000 +0000" stop="20260804023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">ROSO GC vs MVSK Secret · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
