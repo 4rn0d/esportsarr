@@ -38,10 +38,13 @@ EPG_SOURCE_NAME = "Esportsarr"
 PLATFORM_STREAM_PROFILE_SETTINGS = {
     "twitch": "twitch_stream_profile_name",
     "youtube": "youtube_stream_profile_name",
+    # A replay VOD is still a plain youtube.com URL, played the same way.
+    "youtube_vod": "youtube_stream_profile_name",
 }
 PLATFORM_URL_BUILDERS = {
     "twitch": lambda channel: f"https://twitch.tv/{channel}",
     "youtube": lambda channel: f"https://www.youtube.com/@{channel}/live",
+    "youtube_vod": lambda video_id: f"https://www.youtube.com/watch?v={video_id}",
 }
 
 OWNED_STREAM_TAG = "esportsarr"
@@ -77,6 +80,12 @@ BEST_OF_DURATIONS_BY_GAME = {
 
 
 def duration_for_match(match: dict[str, Any]) -> timedelta:
+    # Supplemental content (supplemental_content.py) knows its own real
+    # duration (an exact VOD length, or the Plat Chat estimate) up front,
+    # rather than needing the best-of table at all.
+    duration_seconds = match.get("duration_seconds")
+    if duration_seconds is not None:
+        return timedelta(seconds=duration_seconds)
     durations = BEST_OF_DURATIONS_BY_GAME.get(match.get("game"), {})
     return durations.get(match.get("best_of"), PROGRAMME_DURATION)
 
@@ -310,6 +319,8 @@ def build_guide_entries(
                     "name": name,
                     "title": match["title"],
                     "description": match.get("description", ""),
+                    "category": match.get("category", GUIDE_CATEGORY),
+                    "icon": match.get("icon"),
                     "start": start,
                     "end": end,
                 }
@@ -350,7 +361,10 @@ def _build_guide_xmltv(entries: list[dict[str, Any]]) -> str:
             desc_el = ElementTree.SubElement(programme_el, "desc", attrib={"lang": GUIDE_LANG})
             desc_el.text = description
             category_el = ElementTree.SubElement(programme_el, "category", attrib={"lang": GUIDE_LANG})
-            category_el.text = GUIDE_CATEGORY
+            category_el.text = entry.get("category", GUIDE_CATEGORY)
+            icon = entry.get("icon")
+            if icon:
+                ElementTree.SubElement(programme_el, "icon", attrib={"src": icon})
 
     ElementTree.indent(tv, space="  ")
     xml_body = ElementTree.tostring(tv, encoding="unicode", xml_declaration=False)

@@ -19,11 +19,11 @@ import threading
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Callable
 
 import requests
 
-from . import channel_sync
+from . import channel_sync, stream_verification, supplemental_content
 from .allocator import assign_slots, project_schedule
 
 logger = logging.getLogger(__name__)
@@ -60,6 +60,19 @@ DEFAULT_SETTINGS = {
     # guess (no equivalent to Twitcharr exists for it yet) -- see plugin/README.md.
     "twitch_stream_profile_name": "Twitcharr (ad-free, low-latency)",
     "youtube_stream_profile_name": "Twitcharr (ad-free, low-latency)",
+    # Off by default: needs yt-dlp installed in the Dispatcharr environment,
+    # a new dependency this plugin didn't previously need -- see plugin/README.md.
+    "enable_supplemental_content": False,
+    "replay_channels_lol": "https://www.youtube.com/@lolesportsvods/videos",
+    "replay_channels_valorant": (
+        "https://www.youtube.com/@VCTPacific/videos,"
+        "https://www.youtube.com/channel/UCifCesg-EUkjKyQedaB3hRg/videos,"
+        "https://www.youtube.com/channel/UCp6n8d8Y8r3MwKNw_MMaouQ/videos"
+    ),
+}
+REPLAY_CHANNELS_SETTING_BY_GAME = {
+    "lol": "replay_channels_lol",
+    "valorant": "replay_channels_valorant",
 }
 
 # Priority is tiered (International > Regional > Qualifiers) across separate
@@ -209,6 +222,45 @@ def _classify_matches(
     return live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game
 
 
+def _fill_supplemental_content(
+    game: str,
+    assignment: list[dict | None],
+    now: datetime,
+    settings: dict,
+    fetch_plat_chat: Callable[[datetime], dict | None] = supplemental_content.fetch_plat_chat_live_info,
+    fetch_replays: Callable[[str], list[dict]] = supplemental_content.fetch_replay_candidates,
+) -> list[dict | None]:
+    """Fills whatever `assignment` slots are still empty after real
+    esports-match assignment with Plat Chat VALORANT (if genuinely live) or
+    an official match replay -- never competes with or bumps a real match,
+    since it only ever touches a slot `assign_slots` already left `None`."""
+    if not settings.get("enable_supplemental_content"):
+        return assignment
+
+    filled = list(assignment)
+    remaining_slots = [i for i, occupant in enumerate(filled) if occupant is None]
+    if not remaining_slots:
+        return filled
+
+    if game == "valorant":
+        plat_chat = fetch_plat_chat(now)
+        if plat_chat is not None:
+            filled[remaining_slots.pop(0)] = plat_chat
+
+    if remaining_slots:
+        channel_setting = REPLAY_CHANNELS_SETTING_BY_GAME.get(game)
+        channel_urls = _parse_priority(settings.get(channel_setting, "")) if channel_setting else []
+        candidates: list[dict] = []
+        for channel_url in channel_urls:
+            candidates.extend(fetch_replays(channel_url))
+        for slot_index in remaining_slots:
+            candidate = supplemental_content.pick_replay(candidates, seed=f"{now.date().isoformat()}-{game}-{slot_index}")
+            if candidate is not None:
+                filled[slot_index] = supplemental_content.build_replay_match(game, "Replay", candidate, now)
+
+    return filled
+
+
 def _run_sync(settings: dict) -> dict:
     lock_path = _job_lock("sync")
     if not lock_path:
@@ -216,6 +268,17 @@ def _run_sync(settings: dict) -> dict:
 
     try:
         matches = _fetch_schedule(settings)
+        # Only genuinely live matches in a league known to sometimes split
+        # concurrent games onto a secondary channel (see
+        # stream_verification.LIVE_CHANNEL_CANDIDATES) are worth a live
+        # Twitch title check -- nothing to verify against before a match
+        # actually starts airing.
+        matches = [
+            stream_verification.verify_stream_channel(match, stream_verification.fetch_twitch_stream_title)
+            if match.get("state") == "in_progress" and match.get("league") in stream_verification.LIVE_CHANNEL_CANDIDATES
+            else match
+            for match in matches
+        ]
         now = datetime.now(timezone.utc)
         wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
         narrow_lookahead = timedelta(minutes=int(settings["reservation_priority_minutes"]))
@@ -253,6 +316,17 @@ def _run_sync(settings: dict) -> dict:
                     far_upcoming_matches=far_upcoming_by_game.get(game, []),
                     last_channel_by_slot=previous_channel_by_slot,
                 )
+
+                augmented_assignment = _fill_supplemental_content(game, assignment, now, settings)
+                for slot_index, occupant in enumerate(augmented_assignment):
+                    if assignment[slot_index] is None and occupant is not None:
+                        # Newly filled by supplemental content this tick --
+                        # add its own interval so project_schedule's future
+                        # ticks keep it sticky until its own real end.
+                        channel_by_slot[slot_index] = occupant.get("stream_channel")
+                        projectable_by_game.setdefault(game, []).append(occupant)
+                assignment = augmented_assignment
+
                 channel_sync.apply_assignment(settings, game, assignment)
                 _last_assignment[game] = assignment
                 _last_channel_by_slot[game] = channel_by_slot

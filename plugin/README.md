@@ -96,6 +96,15 @@ the steps to run yourself:
    same split Twitcharr uses) and will keep re-running "Sync Now" on its own
    from then on.
 
+5. **Optional: enable supplemental content.** `enable_supplemental_content`
+   is off by default because it needs `yt-dlp` installed in the Dispatcharr
+   Python environment (`pip install yt-dlp` there, or confirm it's already
+   present -- it's a real dependency of this plugin per `pyproject.toml`,
+   not bundled). Once installed, turn the setting on and configure
+   `replay_channels_lol`/`replay_channels_valorant` if the defaults don't
+   suit you. See "Filling idle time with supplemental content" below for
+   what this actually does.
+
 ## Publishing to the official Dispatcharr Plugins repo
 
 Listed as an "external" plugin per `github.com/Dispatcharr/Plugins`'s own
@@ -230,6 +239,100 @@ airing, so they were only ever reserved, never displayed). `plugin.py`'s
 scheduled start has passed, up to `STALE_LIVE_GRACE_MINUTES` (12h) -- past
 that, it's presumed stale data rather than a genuinely long-running match
 and falls back to the ordinary near/far reservation buckets.
+
+## Verifying the live stream actually matches the schedule
+
+Riot's schedule declares one fixed Twitch channel per league, but some
+broadcasts split concurrent games onto a secondary channel that the
+schedule has no way to reflect -- Game Changers especially, where multiple
+games commonly air at once (Arnaud, 2026-07-30). Without a check, the
+plugin would confidently point a slot at the schedule's declared channel
+even when that channel is actually showing a *different* concurrent match.
+
+`stream_verification.py` cross-checks this for any currently-live match
+whose league is in `LIVE_CHANNEL_CANDIDATES` (Game Changers NA and EMEA
+today) against every known candidate channel for that league, in order
+(the schedule's own declared channel is listed first, so the common case
+of nothing having split still costs exactly one lookup). It fetches each
+candidate's live title via Twitch's public, unauthenticated GQL endpoint
+(`gql.twitch.tv/gql`) with the same shared client-id Streamlink and the
+Twitcharr plugin use (`kimne78kx3ncx6brgo4mv6wki5h1ko`) -- no Twitch
+Developer app or credentials needed -- and checks whether both of the
+match's own participant team names (parsed from its `description`, e.g.
+"SK Nebula vs G2 Gozen") appear in that title. The first candidate whose
+title actually matches wins; if none do (or every candidate is offline/the
+request fails), the match is marked unstreamable for that tick
+(`stream_platform`/`stream_channel` cleared to `None`) rather than risk
+showing the wrong game -- it simply won't compete for a slot until a later
+tick can verify it, same treatment as a contentless placeholder event.
+
+This only runs for matches with `state == "in_progress"` -- there's nothing
+real to check against before a match actually starts airing, and checking
+every tick regardless (rather than only when genuinely ambiguous) keeps the
+logic simple at the cost of a modest handful of extra HTTP requests per
+poll. Adding a new league to `LIVE_CHANNEL_CANDIDATES` needs no other code
+changes; adding a YouTube-based one would need a `yt-dlp`-based equivalent
+of `fetch_twitch_stream_title` (see youtubearr's plugin for the pattern --
+"Zero API Quota: uses yt-dlp instead of the YouTube Data API").
+
+## Filling idle time with supplemental content
+
+Off by default (`enable_supplemental_content`). When on, `_fill_supplemental_content`
+(`plugin.py`) runs after `assign_slots` and only ever touches a slot that's
+already `None` -- it never competes with or bumps a real esports match,
+same guarantee as everything else in the priority system (Arnaud,
+2026-07-30).
+
+- **Plat Chat VALORANT**: a live weekly VALORANT talk show
+  (`youtube.com/@PlatChatVALORANT`), checked first for any empty Valorant
+  slot. `supplemental_content.fetch_plat_chat_live_info` lists the
+  channel's streams via yt-dlp (metadata only, no JS runtime needed --
+  we never resolve a playable format ourselves, same as the real leagues)
+  and looks for one that's genuinely airing (`live_status` is `is_upcoming`
+  with a `release_timestamp` at or before "now", or already `is_live`).
+  Episode number is parsed straight from the video's own title -- their
+  format is reliably `"{topic} — Plat Chat VALORANT Ep. {N}"` (confirmed
+  against real titles, e.g. "The BEST teams in VCT right now are..? — Plat
+  Chat VALORANT Ep. 274"). Duration is a fixed 3.5h estimate (the middle of
+  Arnaud's stated "three to four hours" range) since it's live and the real
+  end is unknown, same caveat as esports match duration estimates. Only
+  ever fills one slot, even if several are empty.
+- **Replays**: any Valorant/LoL slot still empty after Plat Chat gets an
+  official match replay instead. `fetch_replay_candidates` lists recent
+  uploads (with a real, exact duration from yt-dlp, not an estimate) from
+  the channels configured in `replay_channels_lol`/`replay_channels_valorant`
+  (comma-separated YouTube URLs -- defaults to Riot's own
+  `@lolesportsvods` for LoL; VCT has no single central VOD channel like
+  LoL does, so Valorant defaults to rotating across the three official
+  regional channels). `pick_replay` chooses deterministically from a seed
+  including the date, game, and slot index, so the same replay holds for a
+  whole idle stretch instead of changing every 60s poll tick, but still
+  varies day to day and across slots.
+
+Both are just another match-shaped dict fed through the exact same
+pipeline real matches use (`stream_platform`/`stream_channel`,
+`duration_for_match`, `project_schedule`) -- a replay's `stream_platform`
+is `"youtube_vod"` (a plain `youtube.com/watch?v=...` URL, distinct from
+`"youtube"`'s `/@handle/live` for genuinely live channels), and
+`duration_for_match` prefers an explicit `duration_seconds` field on the
+match dict over the best-of tables when present, which is how supplemental
+content gets its exact/estimated duration without needing a fake
+`best_of` value.
+
+One honest limitation: the virtual match's `start` is always regenerated
+as "now" on the tick it's created, not the real moment the idle stretch
+actually began, since that isn't tracked separately. In practice this
+mostly means the guide's displayed start time for supplemental content is
+approximate, not the precise instant a real match ended and the slot went
+idle.
+
+Guide entries also carry a `category` -- `"Live"` for Plat Chat, `"Replay"`
+for replays, `"Esports"` (unchanged) for real matches -- and an `icon`
+(the video's own YouTube thumbnail, `i.ytimg.com/vi/<id>/maxresdefault.jpg`,
+no extra fetch needed since that URL pattern is universal).
+
+**Requires `yt-dlp` installed in the Dispatcharr Python environment** (a
+real dependency in `pyproject.toml`, not bundled) -- see "First run" above.
 
 ## What the guide shows, a week-ahead projection, not a one-tick snapshot
 

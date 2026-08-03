@@ -14,6 +14,7 @@ from esportsarr.plugin import (
     STALE_LIVE_GRACE_MINUTES,
     _classify_matches,
     _combined_priority,
+    _fill_supplemental_content,
     _unranked_live_leagues,
 )
 
@@ -22,6 +23,7 @@ STALE_LIVE_GRACE = timedelta(minutes=STALE_LIVE_GRACE_MINUTES)
 WIDE_LOOKAHEAD = timedelta(minutes=180)
 NARROW_LOOKAHEAD = timedelta(minutes=120)
 HISTORY_WINDOW = timedelta(hours=GUIDE_LOOKBACK_HOURS)
+NOW = datetime(2026, 7, 29, 15, 37, tzinfo=timezone.utc)
 
 
 def _match(league: str, game: str, start: str, state: str, title: str, stream_channel: str) -> dict:
@@ -267,3 +269,145 @@ def test_unranked_live_leagues_deduplicates_and_sorts_multiple_unranked_leagues(
     ]
 
     assert _unranked_live_leagues(matches, "valorant", []) == ["Game Changers EMEA", "Last Chance Qualifier EMEA"]
+
+
+def _replay_candidate(video_id: str, title: str = "GIANTX vs Team Liquid") -> dict:
+    return {"id": video_id, "title": title, "duration_seconds": 9000}
+
+
+def test_fill_supplemental_content_does_nothing_when_disabled():
+    assignment = [None, None]
+    settings = {"enable_supplemental_content": False}
+
+    result = _fill_supplemental_content(
+        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: {"league": "should not be called"}
+    )
+
+    assert result == [None, None]
+
+
+def test_fill_supplemental_content_leaves_a_real_match_untouched():
+    real_match = {"league": "VCT Americas", "title": "VCT Americas"}
+    assignment = [real_match, None]
+    settings = {"enable_supplemental_content": True, "replay_channels_valorant": ""}
+
+    result = _fill_supplemental_content(
+        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: []
+    )
+
+    assert result[0] is real_match
+
+
+def test_fill_supplemental_content_prefers_plat_chat_for_an_empty_valorant_slot():
+    plat_chat_match = {"league": "Plat Chat VALORANT", "title": "Plat Chat VALORANT"}
+    assignment = [None]
+    settings = {"enable_supplemental_content": True, "replay_channels_valorant": ""}
+
+    result = _fill_supplemental_content(
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        fetch_plat_chat=lambda now: plat_chat_match,
+        fetch_replays=lambda url: [_replay_candidate("should-not-be-picked")],
+    )
+
+    assert result[0] is plat_chat_match
+
+
+def test_fill_supplemental_content_only_fills_one_slot_with_plat_chat_even_with_several_empty():
+    plat_chat_match = {"league": "Plat Chat VALORANT", "title": "Plat Chat VALORANT"}
+    assignment = [None, None]
+    settings = {"enable_supplemental_content": True, "replay_channels_valorant": "https://example.com/videos"}
+
+    result = _fill_supplemental_content(
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        fetch_plat_chat=lambda now: plat_chat_match,
+        fetch_replays=lambda url: [_replay_candidate("replay-1")],
+    )
+
+    assert result[0] is plat_chat_match
+    assert result[1]["league"] == "Replay"
+    assert result[1]["stream_channel"] == "replay-1"
+
+
+def test_fill_supplemental_content_falls_back_to_a_replay_when_plat_chat_is_not_live():
+    assignment = [None]
+    settings = {"enable_supplemental_content": True, "replay_channels_valorant": "https://example.com/videos"}
+
+    result = _fill_supplemental_content(
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        fetch_plat_chat=lambda now: None,
+        fetch_replays=lambda url: [_replay_candidate("replay-1")],
+    )
+
+    assert result[0]["league"] == "Replay"
+    assert result[0]["game"] == "valorant"
+    assert result[0]["stream_platform"] == "youtube_vod"
+    assert result[0]["stream_channel"] == "replay-1"
+
+
+def test_fill_supplemental_content_never_tries_plat_chat_for_lol():
+    assignment = [None]
+    settings = {"enable_supplemental_content": True, "replay_channels_lol": "https://example.com/videos"}
+
+    result = _fill_supplemental_content(
+        "lol",
+        assignment,
+        NOW,
+        settings,
+        fetch_plat_chat=lambda now: (_ for _ in ()).throw(AssertionError("should never be called for lol")),
+        fetch_replays=lambda url: [_replay_candidate("replay-1")],
+    )
+
+    assert result[0]["league"] == "Replay"
+
+
+def test_fill_supplemental_content_reads_channels_from_the_right_game_setting():
+    assignment = [None]
+    settings = {
+        "enable_supplemental_content": True,
+        "replay_channels_lol": "https://example.com/lol-videos",
+        "replay_channels_valorant": "https://example.com/valorant-videos",
+    }
+    seen_urls: list[str] = []
+
+    def fetch_replays(url: str) -> list[dict]:
+        seen_urls.append(url)
+        return [_replay_candidate("replay-1")]
+
+    _fill_supplemental_content("lol", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=fetch_replays)
+
+    assert seen_urls == ["https://example.com/lol-videos"]
+
+
+def test_fill_supplemental_content_stays_stable_for_the_same_day_and_slot():
+    assignment = [None]
+    settings = {"enable_supplemental_content": True, "replay_channels_valorant": "https://example.com/videos"}
+    candidates = [_replay_candidate("a"), _replay_candidate("b"), _replay_candidate("c"), _replay_candidate("d")]
+
+    first = _fill_supplemental_content(
+        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: candidates
+    )
+    second = _fill_supplemental_content(
+        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: candidates
+    )
+
+    assert first[0]["stream_channel"] == second[0]["stream_channel"]
+
+
+def test_fill_supplemental_content_returns_none_for_a_slot_when_no_replays_are_available():
+    assignment = [None]
+    settings = {"enable_supplemental_content": True, "replay_channels_valorant": "https://example.com/videos"}
+
+    result = _fill_supplemental_content(
+        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: []
+    )
+
+    assert result == [None]
