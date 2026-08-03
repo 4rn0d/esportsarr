@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T13:42:39.330423+00:00",
+  "generated_at": "2026-08-03T14:39:50.664919+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -506,6 +506,17 @@
       "stream_channel": "lec",
       "description": "Movistar KOI vs Fnatic \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-03T13:47:49.090000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
     },
     {
       "league": "LEC",
@@ -5933,6 +5944,17 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
+      "start": "2026-08-03T14:23:43.254000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
       "start": "2026-08-03T15:00:00+00:00",
       "state": "unstarted",
       "title": "Game Changers EMEA",
@@ -5982,7 +6004,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Bar\u00e7a eSports vs G2 Gozen \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
@@ -5993,7 +6015,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs G2 Gozen \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3
     },
     {
