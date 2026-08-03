@@ -25,11 +25,26 @@ from esportsarr.channel_sync import (
 )
 
 
-def _entry(tvg_id: str, name: str, title: str, hour: int = 20, description: str = "") -> dict:
+def _entry(
+    tvg_id: str,
+    name: str,
+    title: str,
+    hour: int = 20,
+    description: str = "",
+    categories: list[str] | None = None,
+    is_replay: bool = False,
+    episode_num: int | None = None,
+) -> dict:
     start = datetime(2026, 7, 28, hour, 0, tzinfo=timezone.utc)
     entry = {"tvg_id": tvg_id, "name": name, "title": title, "start": start, "end": start.replace(hour=hour + 1)}
     if description:
         entry["description"] = description
+    if categories is not None:
+        entry["categories"] = categories
+    if is_replay:
+        entry["is_replay"] = is_replay
+    if episode_num is not None:
+        entry["episode_num"] = episode_num
     return entry
 
 
@@ -93,8 +108,72 @@ def test_build_guide_xmltv_includes_category_only_for_real_matches_not_filler():
     root = ElementTree.fromstring(xml_text)
 
     programmes = root.findall("programme")
-    assert programmes[0].find("category").text == GUIDE_CATEGORY
-    assert programmes[1].find("category") is None
+    assert [el.text for el in programmes[0].findall("category")] == [GUIDE_CATEGORY, "Sports"]
+    assert programmes[1].findall("category") == []
+
+
+def test_build_guide_xmltv_uses_the_entrys_own_categories_when_given():
+    # Supplemental content (supplemental_content.py) sets its own narrower
+    # categories list instead of the real-match default.
+    entry = _entry("esportsarr.valorant.1", "Valorant 1", "Replay video", description="x", categories=["Esports"])
+
+    xml_text = _build_guide_xmltv([entry])
+    root = ElementTree.fromstring(xml_text)
+
+    assert [el.text for el in root.find("programme").findall("category")] == ["Esports"]
+
+
+def test_build_guide_xmltv_tags_a_real_match_as_live_not_previously_shown():
+    entry = _entry("esportsarr.lol.1", "LoL 1", "T1 vs Gen.G", description="LCS: Playoffs")
+
+    xml_text = _build_guide_xmltv([entry])
+    root = ElementTree.fromstring(xml_text)
+    programme = root.find("programme")
+
+    assert programme.find("live") is not None
+    assert programme.find("previously-shown") is None
+
+
+def test_build_guide_xmltv_tags_a_replay_as_previously_shown_not_live():
+    entry = _entry("esportsarr.valorant.1", "Valorant 1", "Replay video", description="x", is_replay=True)
+
+    xml_text = _build_guide_xmltv([entry])
+    root = ElementTree.fromstring(xml_text)
+    programme = root.find("programme")
+
+    assert programme.find("previously-shown") is not None
+    assert programme.find("live") is None
+
+
+def test_build_guide_xmltv_omits_live_and_previously_shown_for_filler():
+    filler = _entry("esportsarr.lol.1", "LoL 1", "No Match Scheduled")  # no description
+
+    xml_text = _build_guide_xmltv([filler])
+    root = ElementTree.fromstring(xml_text)
+    programme = root.find("programme")
+
+    assert programme.find("live") is None
+    assert programme.find("previously-shown") is None
+
+
+def test_build_guide_xmltv_includes_episode_num_when_present():
+    entry = _entry("esportsarr.valorant.1", "Valorant 1", "Plat Chat VALORANT", description="x", episode_num=274)
+
+    xml_text = _build_guide_xmltv([entry])
+    root = ElementTree.fromstring(xml_text)
+    episode_el = root.find("programme/episode-num")
+
+    assert episode_el.text == "Episode 274"
+    assert episode_el.get("system") == "onscreen"
+
+
+def test_build_guide_xmltv_omits_episode_num_when_absent():
+    entry = _entry("esportsarr.lol.1", "LoL 1", "T1 vs Gen.G", description="LCS: Playoffs")
+
+    xml_text = _build_guide_xmltv([entry])
+    root = ElementTree.fromstring(xml_text)
+
+    assert root.find("programme/episode-num") is None
 
 
 def test_build_guide_xmltv_tags_title_desc_and_category_with_lang():

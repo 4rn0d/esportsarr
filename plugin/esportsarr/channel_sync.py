@@ -126,6 +126,11 @@ GUIDE_FILE_PATH = "/app/data/plugins/esportsarr/.state/esportsarr-guide.xmltv"
 GUIDE_TIME_FORMAT = "%Y%m%d%H%M%S %z"
 GUIDE_LANG = "en"
 GUIDE_CATEGORY = "Esports"
+# A real esports match gets both -- Arnaud, 2026-07-30: "make sure to add
+# the sports category to the live matches". Supplemental content
+# (supplemental_content.py) explicitly sets its own narrower `categories`
+# list instead of using this default.
+DEFAULT_CATEGORIES = [GUIDE_CATEGORY, "Sports"]
 
 
 class StreamProfileNotFoundError(LookupError):
@@ -319,8 +324,10 @@ def build_guide_entries(
                     "name": name,
                     "title": match["title"],
                     "description": match.get("description", ""),
-                    "category": match.get("category", GUIDE_CATEGORY),
+                    "categories": match.get("categories", DEFAULT_CATEGORIES),
                     "icon": match.get("icon"),
+                    "is_replay": match.get("is_replay", False),
+                    "episode_num": match.get("episode_num"),
                     "start": start,
                     "end": end,
                 }
@@ -360,11 +367,20 @@ def _build_guide_xmltv(entries: list[dict[str, Any]]) -> str:
         if description:
             desc_el = ElementTree.SubElement(programme_el, "desc", attrib={"lang": GUIDE_LANG})
             desc_el.text = description
-            category_el = ElementTree.SubElement(programme_el, "category", attrib={"lang": GUIDE_LANG})
-            category_el.text = entry.get("category", GUIDE_CATEGORY)
+            for category in entry.get("categories") or DEFAULT_CATEGORIES:
+                category_el = ElementTree.SubElement(programme_el, "category", attrib={"lang": GUIDE_LANG})
+                category_el.text = category
+            episode_num = entry.get("episode_num")
+            if episode_num:
+                episode_el = ElementTree.SubElement(programme_el, "episode-num", attrib={"system": "onscreen"})
+                episode_el.text = f"Episode {episode_num}"
             icon = entry.get("icon")
             if icon:
                 ElementTree.SubElement(programme_el, "icon", attrib={"src": icon})
+            if entry.get("is_replay"):
+                ElementTree.SubElement(programme_el, "previously-shown")
+            else:
+                ElementTree.SubElement(programme_el, "live")
 
     ElementTree.indent(tv, space="  ")
     xml_body = ElementTree.tostring(tv, encoding="unicode", xml_declaration=False)

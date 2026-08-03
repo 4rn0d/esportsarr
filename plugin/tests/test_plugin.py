@@ -15,6 +15,7 @@ from esportsarr.plugin import (
     _classify_matches,
     _combined_priority,
     _fill_supplemental_content,
+    _is_genuinely_live,
     _unranked_live_leagues,
 )
 
@@ -43,6 +44,48 @@ def _classify(matches: list[dict], now: datetime):
     return _classify_matches(
         matches, now, WIDE_LOOKAHEAD, NARROW_LOOKAHEAD, GRACE, STALE_LIVE_GRACE, now + timedelta(days=7), HISTORY_WINDOW
     )
+
+
+def test_is_genuinely_live_is_true_for_state_in_progress():
+    match = _match("VCT EMEA", "valorant", "2026-07-29T15:00:00+00:00", "in_progress", "Team Liquid vs GIANTX", "valorant_emea")
+    assert _is_genuinely_live(match, NOW, STALE_LIVE_GRACE) is True
+
+
+def test_is_genuinely_live_is_true_for_unstarted_past_its_start_within_grace():
+    # Regression test for a real bug (2026-07-30): a stream-verification
+    # gate that checked state == "in_progress" directly (instead of this
+    # shared helper) never ran for a Game Changers match stuck on
+    # "unstarted" past its real start -- exactly the case this correction
+    # exists for -- silently leaving it on the schedule's default declared
+    # channel, identical to a different concurrent match on the same league
+    # that verified correctly.
+    match = _match(
+        "Game Changers EMEA", "valorant", "2026-07-29T15:00:00+00:00", "unstarted", "Karmine Corp vs Gentle Mates", "valorant_emea"
+    )
+    now = datetime(2026, 7, 29, 15, 37, tzinfo=timezone.utc)  # 37 minutes past its own start
+    assert _is_genuinely_live(match, now, STALE_LIVE_GRACE) is True
+
+
+def test_is_genuinely_live_is_false_for_unstarted_before_its_start():
+    match = _match("Game Changers EMEA", "valorant", "2026-07-29T15:00:00+00:00", "unstarted", "Karmine Corp vs Gentle Mates", "valorant_emea")
+    now = datetime(2026, 7, 29, 14, 59, tzinfo=timezone.utc)
+    assert _is_genuinely_live(match, now, STALE_LIVE_GRACE) is False
+
+
+def test_is_genuinely_live_is_false_once_past_the_stale_grace_window():
+    match = _match("Game Changers EMEA", "valorant", "2026-07-29T15:00:00+00:00", "unstarted", "Karmine Corp vs Gentle Mates", "valorant_emea")
+    now = datetime(2026, 7, 29, 15, 0, tzinfo=timezone.utc) + STALE_LIVE_GRACE + timedelta(minutes=1)
+    assert _is_genuinely_live(match, now, STALE_LIVE_GRACE) is False
+
+
+def test_is_genuinely_live_is_false_for_completed():
+    match = _match("VCT EMEA", "valorant", "2026-07-29T15:00:00+00:00", "completed", "Team Liquid vs GIANTX", "valorant_emea")
+    assert _is_genuinely_live(match, NOW, STALE_LIVE_GRACE) is False
+
+
+def test_is_genuinely_live_is_false_when_start_is_missing():
+    match = {"league": "Game Changers EMEA", "state": "unstarted"}
+    assert _is_genuinely_live(match, NOW, STALE_LIVE_GRACE) is False
 
 
 def test_in_progress_match_is_classified_live():
@@ -275,12 +318,22 @@ def _replay_candidate(video_id: str, title: str = "GIANTX vs Team Liquid") -> di
     return {"id": video_id, "title": title, "duration_seconds": 9000}
 
 
+def _live_plat_chat_schedule(now: datetime) -> dict:
+    """A schedule dict (as returned by get_cached_plat_chat_schedule) that's
+    genuinely airing right at `now`."""
+    return {"video_id": "abc123", "topic": "Some topic", "episode": 274, "real_start": now.isoformat()}
+
+
 def test_fill_supplemental_content_does_nothing_when_disabled():
     assignment = [None, None]
     settings = {"enable_supplemental_content": False}
 
     result = _fill_supplemental_content(
-        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: {"league": "should not be called"}
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        get_plat_chat_schedule=lambda now: (_ for _ in ()).throw(AssertionError("should never be called")),
     )
 
     assert result == [None, None]
@@ -292,14 +345,18 @@ def test_fill_supplemental_content_leaves_a_real_match_untouched():
     settings = {"enable_supplemental_content": True, "replay_channels_valorant": ""}
 
     result = _fill_supplemental_content(
-        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: []
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        get_plat_chat_schedule=lambda now: None,
+        get_replay_candidates=lambda game, urls, now: [],
     )
 
     assert result[0] is real_match
 
 
 def test_fill_supplemental_content_prefers_plat_chat_for_an_empty_valorant_slot():
-    plat_chat_match = {"league": "Plat Chat VALORANT", "title": "Plat Chat VALORANT"}
     assignment = [None]
     settings = {"enable_supplemental_content": True, "replay_channels_valorant": ""}
 
@@ -308,15 +365,14 @@ def test_fill_supplemental_content_prefers_plat_chat_for_an_empty_valorant_slot(
         assignment,
         NOW,
         settings,
-        fetch_plat_chat=lambda now: plat_chat_match,
-        fetch_replays=lambda url: [_replay_candidate("should-not-be-picked")],
+        get_plat_chat_schedule=_live_plat_chat_schedule,
+        get_replay_candidates=lambda game, urls, now: [_replay_candidate("should-not-be-picked")],
     )
 
-    assert result[0] is plat_chat_match
+    assert result[0]["league"] == "Plat Chat VALORANT"
 
 
 def test_fill_supplemental_content_only_fills_one_slot_with_plat_chat_even_with_several_empty():
-    plat_chat_match = {"league": "Plat Chat VALORANT", "title": "Plat Chat VALORANT"}
     assignment = [None, None]
     settings = {"enable_supplemental_content": True, "replay_channels_valorant": "https://example.com/videos"}
 
@@ -325,11 +381,11 @@ def test_fill_supplemental_content_only_fills_one_slot_with_plat_chat_even_with_
         assignment,
         NOW,
         settings,
-        fetch_plat_chat=lambda now: plat_chat_match,
-        fetch_replays=lambda url: [_replay_candidate("replay-1")],
+        get_plat_chat_schedule=_live_plat_chat_schedule,
+        get_replay_candidates=lambda game, urls, now: [_replay_candidate("replay-1")],
     )
 
-    assert result[0] is plat_chat_match
+    assert result[0]["league"] == "Plat Chat VALORANT"
     assert result[1]["league"] == "Replay"
     assert result[1]["stream_channel"] == "replay-1"
 
@@ -343,8 +399,8 @@ def test_fill_supplemental_content_falls_back_to_a_replay_when_plat_chat_is_not_
         assignment,
         NOW,
         settings,
-        fetch_plat_chat=lambda now: None,
-        fetch_replays=lambda url: [_replay_candidate("replay-1")],
+        get_plat_chat_schedule=lambda now: None,
+        get_replay_candidates=lambda game, urls, now: [_replay_candidate("replay-1")],
     )
 
     assert result[0]["league"] == "Replay"
@@ -362,8 +418,8 @@ def test_fill_supplemental_content_never_tries_plat_chat_for_lol():
         assignment,
         NOW,
         settings,
-        fetch_plat_chat=lambda now: (_ for _ in ()).throw(AssertionError("should never be called for lol")),
-        fetch_replays=lambda url: [_replay_candidate("replay-1")],
+        get_plat_chat_schedule=lambda now: (_ for _ in ()).throw(AssertionError("should never be called for lol")),
+        get_replay_candidates=lambda game, urls, now: [_replay_candidate("replay-1")],
     )
 
     assert result[0]["league"] == "Replay"
@@ -376,15 +432,17 @@ def test_fill_supplemental_content_reads_channels_from_the_right_game_setting():
         "replay_channels_lol": "https://example.com/lol-videos",
         "replay_channels_valorant": "https://example.com/valorant-videos",
     }
-    seen_urls: list[str] = []
+    seen: list[tuple[str, list[str]]] = []
 
-    def fetch_replays(url: str) -> list[dict]:
-        seen_urls.append(url)
+    def get_replay_candidates(game: str, channel_urls: list[str], now: datetime) -> list[dict]:
+        seen.append((game, channel_urls))
         return [_replay_candidate("replay-1")]
 
-    _fill_supplemental_content("lol", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=fetch_replays)
+    _fill_supplemental_content(
+        "lol", assignment, NOW, settings, get_plat_chat_schedule=lambda now: None, get_replay_candidates=get_replay_candidates
+    )
 
-    assert seen_urls == ["https://example.com/lol-videos"]
+    assert seen == [("lol", ["https://example.com/lol-videos"])]
 
 
 def test_fill_supplemental_content_stays_stable_for_the_same_day_and_slot():
@@ -393,10 +451,20 @@ def test_fill_supplemental_content_stays_stable_for_the_same_day_and_slot():
     candidates = [_replay_candidate("a"), _replay_candidate("b"), _replay_candidate("c"), _replay_candidate("d")]
 
     first = _fill_supplemental_content(
-        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: candidates
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        get_plat_chat_schedule=lambda now: None,
+        get_replay_candidates=lambda game, urls, now: candidates,
     )
     second = _fill_supplemental_content(
-        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: candidates
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        get_plat_chat_schedule=lambda now: None,
+        get_replay_candidates=lambda game, urls, now: candidates,
     )
 
     assert first[0]["stream_channel"] == second[0]["stream_channel"]
@@ -407,7 +475,12 @@ def test_fill_supplemental_content_returns_none_for_a_slot_when_no_replays_are_a
     settings = {"enable_supplemental_content": True, "replay_channels_valorant": "https://example.com/videos"}
 
     result = _fill_supplemental_content(
-        "valorant", assignment, NOW, settings, fetch_plat_chat=lambda now: None, fetch_replays=lambda url: []
+        "valorant",
+        assignment,
+        NOW,
+        settings,
+        get_plat_chat_schedule=lambda now: None,
+        get_replay_candidates=lambda game, urls, now: []
     )
 
     assert result == [None]

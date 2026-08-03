@@ -177,6 +177,28 @@ def _fetch_schedule(settings: dict) -> list[dict[str, Any]]:
     return response.json()["matches"]
 
 
+def _is_genuinely_live(match: dict[str, Any], now: datetime, stale_live_grace: timedelta) -> bool:
+    """True if `state` says so, or if it's stuck `"unstarted"` past its own
+    real start within `stale_live_grace` -- Riot's `state` flag isn't
+    reliable for every league tier (Game Changers especially), so anything
+    that treats "is this live right now" as equivalent to "state ==
+    in_progress" alone will systematically miss exactly the matches most
+    likely to need this correction. Shared by `_classify_matches` and the
+    stream_verification gate in `_run_sync` so both agree (confirmed as a
+    real bug, 2026-07-30: the verification gate used the weaker check
+    directly, so it never ran for a live-but-state-stuck Game Changers
+    match, silently leaving it on the schedule's default declared channel
+    -- identical to whatever other concurrent match on the same league
+    happened to verify correctly)."""
+    state = match.get("state")
+    if state == "in_progress":
+        return True
+    if state != "unstarted" or not match.get("start"):
+        return False
+    start = datetime.fromisoformat(match["start"])
+    return start <= now <= start + stale_live_grace
+
+
 def _classify_matches(
     matches: list[dict[str, Any]],
     now: datetime,
@@ -198,9 +220,8 @@ def _classify_matches(
 
         state = match.get("state")
         start = datetime.fromisoformat(match["start"]) if match.get("start") else None
-        already_live = state == "unstarted" and start is not None and start <= now <= start + stale_live_grace
 
-        if state == "in_progress" or already_live:
+        if _is_genuinely_live(match, now, stale_live_grace):
             live_by_game.setdefault(match["game"], []).append(match)
             projectable_by_game.setdefault(match["game"], []).append(match)
         elif state == "unstarted":
@@ -227,13 +248,16 @@ def _fill_supplemental_content(
     assignment: list[dict | None],
     now: datetime,
     settings: dict,
-    fetch_plat_chat: Callable[[datetime], dict | None] = supplemental_content.fetch_plat_chat_live_info,
-    fetch_replays: Callable[[str], list[dict]] = supplemental_content.fetch_replay_candidates,
+    get_plat_chat_schedule: Callable[[datetime], dict | None] = supplemental_content.get_cached_plat_chat_schedule,
+    get_replay_candidates: Callable[[str, list[str], datetime], list[dict]] = supplemental_content.get_cached_replay_candidates,
 ) -> list[dict | None]:
     """Fills whatever `assignment` slots are still empty after real
     esports-match assignment with Plat Chat VALORANT (if genuinely live) or
     an official match replay -- never competes with or bumps a real match,
-    since it only ever touches a slot `assign_slots` already left `None`."""
+    since it only ever touches a slot `assign_slots` already left `None`.
+    `get_plat_chat_schedule`/`get_replay_candidates` are cached on disk
+    (see supplemental_content.py's CACHE_TTL) rather than hitting yt-dlp on
+    every sync tick."""
     if not settings.get("enable_supplemental_content"):
         return assignment
 
@@ -243,19 +267,27 @@ def _fill_supplemental_content(
         return filled
 
     if game == "valorant":
-        plat_chat = fetch_plat_chat(now)
+        schedule = get_plat_chat_schedule(now)
+        plat_chat = supplemental_content.plat_chat_match_if_live(schedule, now)
         if plat_chat is not None:
             filled[remaining_slots.pop(0)] = plat_chat
 
     if remaining_slots:
         channel_setting = REPLAY_CHANNELS_SETTING_BY_GAME.get(game)
         channel_urls = _parse_priority(settings.get(channel_setting, "")) if channel_setting else []
-        candidates: list[dict] = []
-        for channel_url in channel_urls:
-            candidates.extend(fetch_replays(channel_url))
+        candidates = get_replay_candidates(game, channel_urls, now)
+        # A slot must never show the exact same VOD another slot is already
+        # showing -- if the candidate pool is smaller than the number of
+        # empty slots (e.g. a replay-fetch failure leaves only one or two
+        # usable candidates), later slots correctly get nothing rather than
+        # a confusing duplicate stream (confirmed as a real bug, 2026-07-30:
+        # two Valorant slots both showing the identical replay).
+        used_ids: set[str] = set()
         for slot_index in remaining_slots:
-            candidate = supplemental_content.pick_replay(candidates, seed=f"{now.date().isoformat()}-{game}-{slot_index}")
+            available = [candidate for candidate in candidates if candidate["id"] not in used_ids]
+            candidate = supplemental_content.pick_replay(available, seed=f"{now.date().isoformat()}-{game}-{slot_index}")
             if candidate is not None:
+                used_ids.add(candidate["id"])
                 filled[slot_index] = supplemental_content.build_replay_match(game, "Replay", candidate, now)
 
     return filled
@@ -268,17 +300,6 @@ def _run_sync(settings: dict) -> dict:
 
     try:
         matches = _fetch_schedule(settings)
-        # Only genuinely live matches in a league known to sometimes split
-        # concurrent games onto a secondary channel (see
-        # stream_verification.LIVE_CHANNEL_CANDIDATES) are worth a live
-        # Twitch title check -- nothing to verify against before a match
-        # actually starts airing.
-        matches = [
-            stream_verification.verify_stream_channel(match, stream_verification.fetch_twitch_stream_title)
-            if match.get("state") == "in_progress" and match.get("league") in stream_verification.LIVE_CHANNEL_CANDIDATES
-            else match
-            for match in matches
-        ]
         now = datetime.now(timezone.utc)
         wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
         narrow_lookahead = timedelta(minutes=int(settings["reservation_priority_minutes"]))
@@ -289,6 +310,21 @@ def _run_sync(settings: dict) -> dict:
         # -- no point knowing about completed matches further back than the
         # guide would ever display them.
         history_window = timedelta(hours=channel_sync.GUIDE_LOOKBACK_HOURS)
+
+        # Only genuinely live matches in a league known to sometimes split
+        # concurrent games onto a secondary channel (see
+        # stream_verification.LIVE_CHANNEL_CANDIDATES) are worth a live
+        # Twitch title check -- nothing to verify against before a match
+        # actually starts airing. Uses the same live-detection _classify_matches
+        # relies on, not the raw "state" field directly -- Riot's state flag
+        # is exactly as unreliable for these leagues as the matches this
+        # verification exists to correct in the first place.
+        matches = [
+            stream_verification.verify_stream_channel(match, stream_verification.fetch_twitch_stream_title)
+            if _is_genuinely_live(match, now, stale_live_grace) and match.get("league") in stream_verification.LIVE_CHANNEL_CANDIDATES
+            else match
+            for match in matches
+        ]
 
         live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game = _classify_matches(
             matches, now, wide_lookahead, narrow_lookahead, grace, stale_live_grace, projection_end, history_window

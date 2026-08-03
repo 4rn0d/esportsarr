@@ -266,13 +266,23 @@ request fails), the match is marked unstreamable for that tick
 showing the wrong game -- it simply won't compete for a slot until a later
 tick can verify it, same treatment as a contentless placeholder event.
 
-This only runs for matches with `state == "in_progress"` -- there's nothing
-real to check against before a match actually starts airing, and checking
-every tick regardless (rather than only when genuinely ambiguous) keeps the
-logic simple at the cost of a modest handful of extra HTTP requests per
-poll. Adding a new league to `LIVE_CHANNEL_CANDIDATES` needs no other code
-changes; adding a YouTube-based one would need a `yt-dlp`-based equivalent
-of `fetch_twitch_stream_title` (see youtubearr's plugin for the pattern --
+This only runs for matches genuinely live right now -- there's nothing real
+to check against before a match actually starts airing -- using
+`plugin._is_genuinely_live`, the same shared helper `_classify_matches`
+uses, not the raw `state` field directly. Checking `state == "in_progress"`
+directly here was a real bug (confirmed 2026-07-30): Riot's `state` flag is
+exactly as unreliable for Game Changers matches as the whole reason this
+verification exists in the first place, so a match stuck on `"unstarted"`
+past its real start never got verified at all, silently keeping the
+schedule's default declared channel -- identical to whatever *other*
+concurrent match on the same league happened to verify correctly, since
+Game Changers NA/EMEA only have one static `epg_channel_id` regardless of
+which specific match it is. Checking every tick regardless (rather than
+only when genuinely ambiguous) keeps the logic simple at the cost of a
+modest handful of extra HTTP requests per poll. Adding a new league to
+`LIVE_CHANNEL_CANDIDATES` needs no other code changes; adding a
+YouTube-based one would need a `yt-dlp`-based equivalent of
+`fetch_twitch_stream_title` (see youtubearr's plugin for the pattern --
 "Zero API Quota: uses yt-dlp instead of the YouTube Data API").
 
 ## Filling idle time with supplemental content
@@ -285,18 +295,24 @@ same guarantee as everything else in the priority system (Arnaud,
 
 - **Plat Chat VALORANT**: a live weekly VALORANT talk show
   (`youtube.com/@PlatChatVALORANT`), checked first for any empty Valorant
-  slot. `supplemental_content.fetch_plat_chat_live_info` lists the
-  channel's streams via yt-dlp (metadata only, no JS runtime needed --
-  we never resolve a playable format ourselves, same as the real leagues)
-  and looks for one that's genuinely airing (`live_status` is `is_upcoming`
-  with a `release_timestamp` at or before "now", or already `is_live`).
-  Episode number is parsed straight from the video's own title -- their
-  format is reliably `"{topic} — Plat Chat VALORANT Ep. {N}"` (confirmed
-  against real titles, e.g. "The BEST teams in VCT right now are..? — Plat
-  Chat VALORANT Ep. 274"). Duration is a fixed 3.5h estimate (the middle of
-  Arnaud's stated "three to four hours" range) since it's live and the real
-  end is unknown, same caveat as esports match duration estimates. Only
-  ever fills one slot, even if several are empty.
+  slot. `fetch_plat_chat_schedule` lists the channel's streams via yt-dlp
+  (metadata only, no JS runtime needed -- we never resolve a playable
+  format ourselves, same as the real leagues) and looks for the next
+  upcoming/live episode, returning its schedule (video id, topic, episode
+  number, real start time) independent of "now" so it's cacheable. The
+  separate, pure `plat_chat_match_if_live(schedule, now)` decides whether
+  it's actually airing at `now` -- derived purely from `real_start` +
+  `PLAT_CHAT_DURATION_SECONDS`, deliberately not from YouTube's own
+  `live_status` flag, which can be stale once `schedule` came from a cache
+  read hours earlier (same principle as trusting Riot's schedule timing
+  over its own unreliable state flag elsewhere in this plugin). Episode
+  number is parsed straight from the video's own title -- their format is
+  reliably `"{topic} — Plat Chat VALORANT Ep. {N}"` (confirmed against real
+  titles, e.g. "The BEST teams in VCT right now are..? — Plat Chat VALORANT
+  Ep. 274"). Duration is a fixed 3.5h estimate (the middle of Arnaud's
+  stated "three to four hours" range) since it's live and the real end is
+  unknown, same caveat as esports match duration estimates. Only ever fills
+  one slot, even if several are empty.
 - **Replays**: any Valorant/LoL slot still empty after Plat Chat gets an
   official match replay instead. `fetch_replay_candidates` lists recent
   uploads (with a real, exact duration from yt-dlp, not an estimate) from
@@ -307,7 +323,20 @@ same guarantee as everything else in the priority system (Arnaud,
   regional channels). `pick_replay` chooses deterministically from a seed
   including the date, game, and slot index, so the same replay holds for a
   whole idle stretch instead of changing every 60s poll tick, but still
-  varies day to day and across slots.
+  varies day to day and across slots. A replay VOD's own title is
+  free-text and inconsistent across leagues (confirmed against real
+  titles: "FLY v C9 - PLAYOFFS 2025 LTA North Split 2 - W11D2 - Game 05"
+  vs "G2 v MKOI | 2025 LEC Spring Playoffs | Grand..." -- different
+  separators, different wording, same channel), so rather than parse that
+  structure, `_extract_replay_league` searches the title for a known
+  league name (`KNOWN_REPLAY_LEAGUES`, not exhaustive -- extend as new
+  replay sources surface leagues not covered) and uses it as the short
+  guide title, moving the full original title into the description; with
+  no recognized league it falls back to the full title with no separate
+  description (Arnaud, 2026-07-30: "the title of lol1 should only be LTA
+  North and the rest be the description"). "Replay" itself (`league_name`)
+  is an internal identifier only, never shown -- "this is a rerun" is the
+  `<previously-shown/>` tag, not a category string or title text.
 
 Both are just another match-shaped dict fed through the exact same
 pipeline real matches use (`stream_platform`/`stream_channel`,
@@ -326,10 +355,58 @@ mostly means the guide's displayed start time for supplemental content is
 approximate, not the precise instant a real match ended and the slot went
 idle.
 
-Guide entries also carry a `category` -- `"Live"` for Plat Chat, `"Replay"`
-for replays, `"Esports"` (unchanged) for real matches -- and an `icon`
-(the video's own YouTube thumbnail, `i.ytimg.com/vi/<id>/maxresdefault.jpg`,
-no extra fetch needed since that URL pattern is universal).
+**Fetches are cached, not repeated every 60s tick.** A replay candidate
+list and Plat Chat's schedule barely change within a day, but the live
+sync tick runs every `poll_interval_seconds` (default 60s) -- hitting
+yt-dlp fresh on every single tick was wasteful and needlessly fragile
+(Arnaud, 2026-07-30: "preselect it... instead of doing constant fetches").
+`get_cached_replay_candidates`/`get_cached_plat_chat_schedule` reuse a
+fetch from a local JSON file (`supplemental_content.CACHE_FILE_PATH`)
+until it's older than `CACHE_TTL` (24h), so yt-dlp only actually runs
+roughly once a day per game/schedule rather than ~1,440 times. This is a
+lazy TTL cache, not a precomputed plan -- the *pick* for a given day/slot
+is still made live (deterministically, via `pick_replay`'s seed), only the
+expensive *candidate discovery* is cached. Deciding whether Plat Chat is
+airing right now still happens fresh every tick (a cheap comparison
+against the cached schedule's `real_start`), so caching never risks
+showing Plat Chat as "live" long after a cached schedule's episode
+actually ended.
+
+Whether something is live or a rerun is the standard XMLTV `<live/>` /
+`<previously-shown/>` empty tag, not a category string (Arnaud, 2026-07-30,
+pointing at a real third-party guide's XML: "it has a episode-num tag and a
+previously-shown tag... also a live tag. That's what I'm looking for.").
+Every real match and Plat Chat entry gets `<live/>`; every replay gets
+`<previously-shown/>` instead; filler ("No Match Scheduled") gets neither.
+`<category>` supports multiple elements per programme (also confirmed
+against that same real guide's XML, which had four): a real match gets
+both `"Esports"` and `"Sports"` (`channel_sync.DEFAULT_CATEGORIES` --
+"make sure to add the sports category to the live matches"); Plat Chat and
+replays get just `"Esports"` (`supplemental_content.SUPPLEMENTAL_CATEGORIES`)
+since neither is itself a live sports match. Plat Chat also gets an
+`<episode-num system="onscreen">Episode 274</episode-num>` from its parsed
+episode number. Guide entries also carry an `icon` (the video's own
+YouTube thumbnail, `i.ytimg.com/vi/<id>/maxresdefault.jpg`, no extra fetch
+needed since that URL pattern is universal).
+
+**A "nothing found" result is cached much more briefly than a real find.**
+`get_cached_plat_chat_schedule`/`get_cached_replay_candidates` trust a
+genuine result (a real schedule, a non-empty candidate list) for the full
+`CACHE_TTL` (24h), but a `None`/empty result only for `NEGATIVE_CACHE_TTL`
+(1h). Without this split, a check that happens to run before an episode is
+announced or goes live would cache "nothing" for the entire day, silently
+hiding Plat Chat even after it does get scheduled an hour later (confirmed
+as a real bug, 2026-07-30 -- Plat Chat never appeared because the first,
+cold-cache check found nothing and that null result was then trusted all
+day).
+
+**Replay candidates below `MIN_REPLAY_DURATION_SECONDS` (30 minutes) are
+excluded.** `fetch_replay_candidates` previously only skipped entries with
+no duration at all (still-live/upcoming uploads), which let short clips and
+highlight reels into the replay pool alongside full match VODs (confirmed
+as a real bug, 2026-07-30 -- clips as short as ~12 minutes were shown as
+full replay blocks in the guide). A full match VOD reliably runs well past
+half an hour, so anything shorter is treated as a clip, not a candidate.
 
 **Requires `yt-dlp` installed in the Dispatcharr Python environment** (a
 real dependency in `pyproject.toml`, not bundled) -- see "First run" above.
