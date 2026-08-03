@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T16:43:06.744527+00:00",
+  "generated_at": "2026-08-03T18:02:53.873756+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -557,7 +557,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-03T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -569,11 +569,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-03T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Team Heretics vs Karmine Corp \u00b7 Week 2 \u00b7 Bo3",
+      "description": "Karmine Corp vs Team Heretics \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406139"
     },
@@ -4082,6 +4082,18 @@
       "match_id": "116878159559860097"
     },
     {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-09-02T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116878159559860101"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-07-16T21:00:00+00:00",
@@ -6485,7 +6497,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-03T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6497,7 +6509,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-03T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6509,11 +6521,11 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-03T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs Twisted Minds Orchid \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Twisted Minds Orchid vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173175"
     },
@@ -6537,9 +6549,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Bar\u00e7a eSports vs G2 Gozen \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173199"
+      "match_id": "116849606242173103"
     },
     {
       "league": "Game Changers EMEA",
@@ -6549,9 +6561,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs G2 Gozen \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173103"
+      "match_id": "116849606242173199"
     },
     {
       "league": "Game Changers EMEA",
