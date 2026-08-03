@@ -9,7 +9,15 @@ MatchDict = dict[str, Any]
 
 
 def _match_key(match: MatchDict) -> tuple:
-    return (match.get("league"), match.get("start"))
+    # match_id (Riot's own event.match.id) comes first since it's the only
+    # thing that reliably tells two matches apart when they share both a
+    # league and a start time -- confirmed as a real bug, 2026-08-03: Game
+    # Changers EMEA regularly schedules multiple concurrent matches at the
+    # exact same startTime, and (league, start) alone collided, silently
+    # dropping one match even when a slot was free. Falls back to
+    # (league, start) alone for any match missing match_id (older cached
+    # schedule.json data, or supplemental content) -- no worse than before.
+    return (match.get("match_id"), match.get("league"), match.get("start"))
 
 
 def _priority_rank(match: MatchDict, league_priority: list[str]) -> int:

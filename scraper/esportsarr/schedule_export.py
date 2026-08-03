@@ -23,6 +23,7 @@ def _match_to_dict(match: MatchEvent) -> dict:
         "stream_channel": match.stream_channel,
         "description": match.description,
         "best_of": match.best_of,
+        "match_id": match.match_id,
     }
 
 

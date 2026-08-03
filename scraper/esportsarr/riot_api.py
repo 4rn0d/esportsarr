@@ -119,6 +119,7 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
         description=_match_description(event, best_of),
         has_real_content=has_real_content,
         best_of=best_of,
+        match_id=(event.get("match") or {}).get("id"),
     )
 
 

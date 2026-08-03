@@ -115,6 +115,7 @@ def test_fetch_matches_normalizes_two_team_match():
                     "state": "inProgress",
                     "blockName": "Playoffs",
                     "match": {
+                        "id": "116356613203243841",
                         "teams": [{"name": "Sentinels"}, {"name": "Cloud9"}],
                         "strategy": {"type": "bestOf", "count": 3},
                     },
@@ -136,6 +137,27 @@ def test_fetch_matches_normalizes_two_team_match():
     assert match.start.year == 2026 and match.start.hour == 20
     assert match.best_of == 3
     assert match.description == "Sentinels vs Cloud9 · Playoffs · Bo3"
+    assert match.match_id == "116356613203243841"
+
+
+@responses.activate
+def test_fetch_matches_leaves_match_id_none_when_riot_does_not_report_one():
+    responses.add(
+        responses.GET,
+        f"{LOL_HOST.base_url}/getLeagues",
+        json=_leagues_payload([{"id": "111", "name": "LCS", "slug": "lcs"}]),
+        status=200,
+    )
+    responses.add(
+        responses.GET,
+        f"{LOL_HOST.base_url}/getSchedule",
+        json=_schedule_payload([{"startTime": "2026-07-27T20:00:00Z", "state": "unstarted"}]),
+        status=200,
+    )
+
+    [match] = fetch_matches_for_leagues([LCS], api_key="test-key")
+
+    assert match.match_id is None
 
 
 @responses.activate

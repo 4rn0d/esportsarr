@@ -54,3 +54,11 @@ class MatchEvent:
     description: str  # e.g. "Sentinels vs Cloud9 · Playoffs · Bo3"
     has_real_content: bool  # False if Riot gave neither team names nor a stage name
     best_of: int | None  # e.g. 3 for a Bo3; None if Riot didn't report a format
+    # Riot's own event["match"]["id"], e.g. "116356613203243841". None if Riot
+    # didn't report one. The only thing that reliably tells two matches apart
+    # when they share both a league and a start time -- confirmed as a real
+    # bug, 2026-08-03: Game Changers EMEA regularly schedules multiple
+    # concurrent matches at the exact same startTime, and without this, the
+    # plugin's slot allocator had no way to distinguish them and silently
+    # dropped one even when a slot was free.
+    match_id: str | None

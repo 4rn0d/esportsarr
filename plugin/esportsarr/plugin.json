@@ -21,7 +21,14 @@
       "label": "Poll interval (seconds)",
       "type": "number",
       "default": 60,
-      "help_text": "How often the background scheduler re-fetches schedule.json and re-evaluates stream priority."
+      "help_text": "How often the background scheduler applies the current stored plan to Dispatcharr and re-checks live reality (Twitch stream-title verification, cancelled/completed matches). Does NOT re-run allocation itself -- see 'Plan refresh interval' below."
+    },
+    {
+      "id": "plan_refresh_interval_hours",
+      "label": "Plan refresh interval (hours)",
+      "type": "number",
+      "default": 24,
+      "help_text": "How often the full week-ahead schedule (which league/match plays on which channel, including Plat Chat/replay filler) gets recomputed from scratch. Every poll tick in between just applies that stored plan rather than re-deciding it, so the guide and the live stream can't drift apart from each other. 'Sync Now' always rebuilds immediately regardless of this setting."
     },
     {
       "id": "slots_per_game",
@@ -165,7 +172,7 @@
     {
       "id": "sync_now",
       "label": "Sync Now",
-      "description": "Runs one allocation pass immediately (fetch schedule.json, reassign stream priority) without waiting for the next poll tick. Use this to verify behavior against a known live match before trusting the automatic scheduler.",
+      "description": "Rebuilds the full week-ahead plan immediately (ignoring the plan refresh interval) and applies it, without waiting for the next poll tick. Use this to verify behavior against a known live match before trusting the automatic scheduler.",
       "button_label": "Sync Now",
       "button_variant": "filled",
       "button_color": "blue"

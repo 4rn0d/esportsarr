@@ -4,6 +4,14 @@ per game, switching the active stream to whichever live match currently
 holds priority (see allocator.py for the policy, channel_sync.py for the
 Dispatcharr-side writes).
 
+The live 60s tick does NOT run the allocation policy itself -- it applies
+whatever `plan_builder.build_weekly_plan` decided, rebuilding that plan only
+once a day (see `plan_refresh_interval_hours`). The tick's own job is
+narrower: look up what the stored plan says is current right now, and
+reconcile it against live reality (a match ending early/getting cancelled,
+Twitch stream-title verification for Game Changers). See plan_builder.py's
+docstring for why this split exists.
+
 Dispatcharr has no periodic-task hook for plugins, so the background
 scheduler thread here (self-rolled, DB-backed settings, file-based job lock,
 web-process detection) mirrors the Twitcharr plugin's own pattern.
@@ -19,12 +27,11 @@ import threading
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any
 
 import requests
 
-from . import channel_sync, stream_verification, supplemental_content
-from .allocator import assign_slots, project_schedule
+from . import channel_sync, plan_builder, stream_verification
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +44,7 @@ _PLUGIN_MANIFEST = json.loads((Path(__file__).parent / "plugin.json").read_text(
 DEFAULT_SETTINGS = {
     "schedule_url": "",
     "poll_interval_seconds": 60,
+    "plan_refresh_interval_hours": 24,
     "slots_per_game": 3,
     "channel_group_name": "Esports Multiplex",
     "league_priority_lol_international": "Worlds,MSI,First Stand",
@@ -70,40 +78,11 @@ DEFAULT_SETTINGS = {
         "https://www.youtube.com/channel/UCp6n8d8Y8r3MwKNw_MMaouQ/videos"
     ),
 }
-REPLAY_CHANNELS_SETTING_BY_GAME = {
-    "lol": "replay_channels_lol",
-    "valorant": "replay_channels_valorant",
-}
-
-# Priority is tiered (International > Regional > Qualifiers) across separate
-# settings fields rather than one long comma list, so growing either list
-# stays readable in the settings UI. Order within a tier still matters; order
-# across tiers is fixed by this key order, concatenated by _combined_priority.
-GAME_PRIORITY_TIER_KEYS = {
-    "lol": ["league_priority_lol_international", "league_priority_lol_regional", "league_priority_lol_qualifiers"],
-    "valorant": [
-        "league_priority_valorant_international",
-        "league_priority_valorant_regional",
-        "league_priority_valorant_qualifiers",
-    ],
-}
 
 REQUEST_TIMEOUT_SECONDS = 10
 JOB_LOCK_TTL_SECONDS = 300  # a stuck tick shouldn't block the scheduler forever
 PLUGIN_STATE_DIR = f"/app/data/plugins/{PLUGIN_KEY}/.state"
-
-# Caps how far a delayed "unstarted" match's start can slip into the past
-# and still count as a reservation candidate.
-RESERVATION_GRACE_MINUTES = 30
-
-# Riot's live-state flag isn't reliable for every league tier (Game Changers
-# events have been observed staying "unstarted" well past their real start
-# while actually airing). An "unstarted" match already past its start is
-# treated as live until this long after start, rather than trusting the flag.
-STALE_LIVE_GRACE_MINUTES = 720
-
-_last_assignment: dict[str, list[dict | None]] = {}  # in-memory, reset on process restart
-_last_channel_by_slot: dict[str, dict[int, str]] = {}  # per game, survives a slot sitting idle between two matches
+PLAN_FILE_PATH = f"{PLUGIN_STATE_DIR}/weekly-plan.json"
 
 
 def _merge_defaults(settings: dict) -> dict:
@@ -122,26 +101,6 @@ def _load_settings() -> dict:
     except Exception:
         logger.exception("esportsarr: failed to load settings from DB")
     return _merge_defaults({})
-
-
-def _parse_priority(value: str) -> list[str]:
-    return [item.strip() for item in value.split(",") if item.strip()]
-
-
-def _combined_priority(settings: dict, tier_keys: list[str]) -> list[str]:
-    combined: list[str] = []
-    for key in tier_keys:
-        combined.extend(_parse_priority(settings[key]))
-    return combined
-
-
-def _unranked_live_leagues(matches: list[dict[str, Any]], game: str, priority: list[str]) -> list[str]:
-    """Leagues seen live for `game` in this fetch that aren't in any priority
-    tier, so they're silently sorting last -- either a forgotten entry or a
-    typo elsewhere in the list (e.g. 'Game Changers Americas' instead of the
-    real 'Game Changers NA')."""
-    seen = {match["league"] for match in matches if match.get("game") == game and match.get("league")}
-    return sorted(seen - set(priority))
 
 
 def _job_lock(name: str, ttl_seconds: int = JOB_LOCK_TTL_SECONDS) -> str:
@@ -177,209 +136,85 @@ def _fetch_schedule(settings: dict) -> list[dict[str, Any]]:
     return response.json()["matches"]
 
 
-def _is_genuinely_live(match: dict[str, Any], now: datetime, stale_live_grace: timedelta) -> bool:
-    """True if `state` says so, or if it's stuck `"unstarted"` past its own
-    real start within `stale_live_grace` -- Riot's `state` flag isn't
-    reliable for every league tier (Game Changers especially), so anything
-    that treats "is this live right now" as equivalent to "state ==
-    in_progress" alone will systematically miss exactly the matches most
-    likely to need this correction. Shared by `_classify_matches` and the
-    stream_verification gate in `_run_sync` so both agree (confirmed as a
-    real bug, 2026-07-30: the verification gate used the weaker check
-    directly, so it never ran for a live-but-state-stuck Game Changers
-    match, silently leaving it on the schedule's default declared channel
-    -- identical to whatever other concurrent match on the same league
-    happened to verify correctly)."""
-    state = match.get("state")
-    if state == "in_progress":
-        return True
-    if state != "unstarted" or not match.get("start"):
-        return False
-    start = datetime.fromisoformat(match["start"])
-    return start <= now <= start + stale_live_grace
+def _current_occupant(history: list[tuple[datetime, dict]], now: datetime) -> dict | None:
+    """What the stored plan says a slot is showing at `now` -- the last
+    entry whose `claimed_at <= now`, but only while that match's own real
+    end hasn't passed yet. A gap `plan_builder` left unfilled (supplemental
+    content disabled, or its candidate pool ran out) correctly falls through
+    to `None` here instead of showing a long-finished match forever."""
+    current = None
+    for claimed_at, match in history:
+        if claimed_at > now:
+            break
+        current = match
+    if current is None:
+        return None
+    match_end = datetime.fromisoformat(current["start"]) + channel_sync.duration_for_match(current)
+    return current if now < match_end else None
 
 
-def _classify_matches(
-    matches: list[dict[str, Any]],
+def _reconcile_with_reality(
+    occupant: dict | None,
+    matches_by_key: dict[tuple, dict],
     now: datetime,
-    wide_lookahead: timedelta,
-    narrow_lookahead: timedelta,
-    grace: timedelta,
     stale_live_grace: timedelta,
-    projection_end: datetime,
-    history_window: timedelta,
-) -> tuple[dict[str, list[dict]], dict[str, list[dict]], dict[str, list[dict]], dict[str, list[dict]]]:
-    """Buckets matches into live/near-upcoming/far-upcoming/projectable per game."""
-    live_by_game: dict[str, list[dict]] = {}
-    upcoming_by_game: dict[str, list[dict]] = {}  # "near": competes for contested slots
-    far_upcoming_by_game: dict[str, list[dict]] = {}  # "far": preview-only, never displaces
-    projectable_by_game: dict[str, list[dict]] = {}  # broader set fed to the week-ahead projection
-    for match in matches:
-        if not match.get("stream_platform") or not match.get("stream_channel"):
-            continue
+) -> dict | None:
+    """The plan was built once, up to `plan_refresh_interval_hours` ago --
+    this is where the live tick corrects it against what's actually true
+    right now, without re-deciding *which* match should be playing (that's
+    still entirely the stored plan's call). Plat Chat/replay entries have no
+    schedule.json counterpart, so they pass through untouched. A real match
+    that's vanished from the schedule (cancelled) or already completed
+    clearly isn't happening -- the slot goes unstreamable rather than
+    keep showing something stale. A genuinely live Game Changers match still
+    gets the same Twitch stream-title verification it always did."""
+    if occupant is None or plan_builder.is_supplemental(occupant):
+        return occupant
 
-        state = match.get("state")
-        start = datetime.fromisoformat(match["start"]) if match.get("start") else None
+    key = (occupant.get("match_id"), occupant.get("league"), occupant.get("start"))
+    fresh = matches_by_key.get(key)
+    if fresh is None or fresh.get("state") == "completed":
+        return None
 
-        if _is_genuinely_live(match, now, stale_live_grace):
-            live_by_game.setdefault(match["game"], []).append(match)
-            projectable_by_game.setdefault(match["game"], []).append(match)
-        elif state == "unstarted":
-            if now - grace <= start <= now + narrow_lookahead:
-                upcoming_by_game.setdefault(match["game"], []).append(match)
-            elif now - grace <= start <= now + wide_lookahead:
-                far_upcoming_by_game.setdefault(match["game"], []).append(match)
-            if now - grace <= start < projection_end:
-                projectable_by_game.setdefault(match["game"], []).append(match)
-        elif state == "completed":
-            # Otherwise the guide has zero record of what actually aired in a
-            # slot once its match ends, so the historical portion of the
-            # guide degrades to a giant "No Match Scheduled" the moment
-            # nothing's currently live there -- confirmed as a real bug,
-            # 2026-07-29 -- even though real matches did air there.
-            if now - history_window <= start < projection_end:
-                projectable_by_game.setdefault(match["game"], []).append(match)
-
-    return live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game
+    if (
+        plan_builder.is_genuinely_live(fresh, now, stale_live_grace)
+        and fresh.get("league") in stream_verification.LIVE_CHANNEL_CANDIDATES
+    ):
+        return stream_verification.verify_stream_channel(fresh, stream_verification.fetch_twitch_stream_title)
+    return fresh
 
 
-def _fill_supplemental_content(
-    game: str,
-    assignment: list[dict | None],
-    now: datetime,
-    settings: dict,
-    get_plat_chat_schedule: Callable[[datetime], dict | None] = supplemental_content.get_cached_plat_chat_schedule,
-    get_replay_candidates: Callable[[str, list[str], datetime], list[dict]] = supplemental_content.get_cached_replay_candidates,
-) -> list[dict | None]:
-    """Fills whatever `assignment` slots are still empty after real
-    esports-match assignment with Plat Chat VALORANT (if genuinely live) or
-    an official match replay -- never competes with or bumps a real match,
-    since it only ever touches a slot `assign_slots` already left `None`.
-    `get_plat_chat_schedule`/`get_replay_candidates` are cached on disk
-    (see supplemental_content.py's CACHE_TTL) rather than hitting yt-dlp on
-    every sync tick."""
-    if not settings.get("enable_supplemental_content"):
-        return assignment
-
-    filled = list(assignment)
-    remaining_slots = [i for i, occupant in enumerate(filled) if occupant is None]
-    if not remaining_slots:
-        return filled
-
-    if game == "valorant":
-        schedule = get_plat_chat_schedule(now)
-        plat_chat = supplemental_content.plat_chat_match_if_live(schedule, now)
-        if plat_chat is not None:
-            filled[remaining_slots.pop(0)] = plat_chat
-
-    if remaining_slots:
-        channel_setting = REPLAY_CHANNELS_SETTING_BY_GAME.get(game)
-        channel_urls = _parse_priority(settings.get(channel_setting, "")) if channel_setting else []
-        candidates = get_replay_candidates(game, channel_urls, now)
-        # A slot must never show the exact same VOD another slot is already
-        # showing -- if the candidate pool is smaller than the number of
-        # empty slots (e.g. a replay-fetch failure leaves only one or two
-        # usable candidates), later slots correctly get nothing rather than
-        # a confusing duplicate stream (confirmed as a real bug, 2026-07-30:
-        # two Valorant slots both showing the identical replay).
-        used_ids: set[str] = set()
-        for slot_index in remaining_slots:
-            available = [candidate for candidate in candidates if candidate["id"] not in used_ids]
-            candidate = supplemental_content.pick_replay(available, seed=f"{now.date().isoformat()}-{game}-{slot_index}")
-            if candidate is not None:
-                used_ids.add(candidate["id"])
-                filled[slot_index] = supplemental_content.build_replay_match(game, "Replay", candidate, now)
-
-    return filled
-
-
-def _run_sync(settings: dict) -> dict:
+def _run_sync(settings: dict, force_rebuild: bool = False) -> dict:
     lock_path = _job_lock("sync")
     if not lock_path:
         return {"status": "skipped", "message": "Another sync is already running."}
 
     try:
-        matches = _fetch_schedule(settings)
         now = datetime.now(timezone.utc)
-        wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
-        narrow_lookahead = timedelta(minutes=int(settings["reservation_priority_minutes"]))
-        grace = timedelta(minutes=RESERVATION_GRACE_MINUTES)
-        stale_live_grace = timedelta(minutes=STALE_LIVE_GRACE_MINUTES)
+        stale_live_grace = timedelta(minutes=plan_builder.STALE_LIVE_GRACE_MINUTES)
+
+        plan = None if force_rebuild else plan_builder.load_plan(PLAN_FILE_PATH)
+        max_age = timedelta(hours=int(settings["plan_refresh_interval_hours"]))
+        matches = _fetch_schedule(settings)
+        if plan_builder.plan_is_stale(plan, now, max_age):
+            plan = plan_builder.build_weekly_plan(matches, now, settings)
+            plan_builder.save_plan(plan, PLAN_FILE_PATH)
+
+        matches_by_key = {
+            (match.get("match_id"), match.get("league"), match.get("start")): match for match in matches
+        }
         projection_end = now + timedelta(days=int(settings["schedule_projection_days"]))
-        # Same window the guide itself renders before "now" (channel_sync.py)
-        # -- no point knowing about completed matches further back than the
-        # guide would ever display them.
-        history_window = timedelta(hours=channel_sync.GUIDE_LOOKBACK_HOURS)
-
-        # Only genuinely live matches in a league known to sometimes split
-        # concurrent games onto a secondary channel (see
-        # stream_verification.LIVE_CHANNEL_CANDIDATES) are worth a live
-        # Twitch title check -- nothing to verify against before a match
-        # actually starts airing. Uses the same live-detection _classify_matches
-        # relies on, not the raw "state" field directly -- Riot's state flag
-        # is exactly as unreliable for these leagues as the matches this
-        # verification exists to correct in the first place.
-        matches = [
-            stream_verification.verify_stream_channel(match, stream_verification.fetch_twitch_stream_title)
-            if _is_genuinely_live(match, now, stale_live_grace) and match.get("league") in stream_verification.LIVE_CHANNEL_CANDIDATES
-            else match
-            for match in matches
-        ]
-
-        live_by_game, upcoming_by_game, far_upcoming_by_game, projectable_by_game = _classify_matches(
-            matches, now, wide_lookahead, narrow_lookahead, grace, stale_live_grace, projection_end, history_window
-        )
 
         results: dict[str, list[str | None] | str] = {}
-        priority_warnings: dict[str, list[str]] = {}
         guide_entries: list[dict] = []
-        for game, tier_keys in GAME_PRIORITY_TIER_KEYS.items():
+        for game, per_slot_history in plan["games"].items():
             try:
-                priority = _combined_priority(settings, tier_keys)
-                unranked_live = _unranked_live_leagues(matches, game, priority)
-                if unranked_live:
-                    priority_warnings[game] = unranked_live
-                slots = int(settings["slots_per_game"])
-                previous = _last_assignment.get(game)
-                previous_channel_by_slot = _last_channel_by_slot.get(game)
-
-                assignment, _reserved_for, _overflow, channel_by_slot = assign_slots(
-                    live_matches=live_by_game.get(game, []),
-                    slots=slots,
-                    league_priority=priority,
-                    previous_assignment=previous,
-                    upcoming_matches=upcoming_by_game.get(game, []),
-                    far_upcoming_matches=far_upcoming_by_game.get(game, []),
-                    last_channel_by_slot=previous_channel_by_slot,
-                )
-
-                augmented_assignment = _fill_supplemental_content(game, assignment, now, settings)
-                for slot_index, occupant in enumerate(augmented_assignment):
-                    if assignment[slot_index] is None and occupant is not None:
-                        # Newly filled by supplemental content this tick --
-                        # add its own interval so project_schedule's future
-                        # ticks keep it sticky until its own real end.
-                        channel_by_slot[slot_index] = occupant.get("stream_channel")
-                        projectable_by_game.setdefault(game, []).append(occupant)
-                assignment = augmented_assignment
-
+                occupants = [_current_occupant(history, now) for history in per_slot_history]
+                assignment = [
+                    _reconcile_with_reality(occupant, matches_by_key, now, stale_live_grace) for occupant in occupants
+                ]
                 channel_sync.apply_assignment(settings, game, assignment)
-                _last_assignment[game] = assignment
-                _last_channel_by_slot[game] = channel_by_slot
-
-                projected_by_slot = project_schedule(
-                    matches=projectable_by_game.get(game, []),
-                    slots=slots,
-                    league_priority=priority,
-                    duration_fn=channel_sync.duration_for_match,
-                    now=now,
-                    initial_assignment=assignment,
-                    narrow_lookahead=narrow_lookahead,
-                    wide_lookahead=wide_lookahead,
-                    initial_channel_by_slot=channel_by_slot,
-                )
-                guide_entries.extend(channel_sync.build_guide_entries(game, projected_by_slot, now, projection_end))
-
+                guide_entries.extend(channel_sync.build_guide_entries(game, per_slot_history, now, projection_end))
                 results[game] = [match["title"] if match else None for match in assignment]
             except Exception as exc:
                 logger.exception("esportsarr: sync failed for game %r", game)
@@ -395,8 +230,8 @@ def _run_sync(settings: dict) -> dict:
 
         overall_status = "error" if any(isinstance(value, str) for value in results.values()) else "ok"
         response = {"status": overall_status, "assignment": results}
-        if priority_warnings:
-            response["priority_warnings"] = priority_warnings
+        if plan.get("priority_warnings"):
+            response["priority_warnings"] = plan["priority_warnings"]
         return response
     except Exception as exc:
         logger.exception("esportsarr: sync failed")
@@ -505,7 +340,10 @@ class Plugin:
                 return {"status": "error", "message": str(exc)}
 
         if action == "sync_now":
-            return _run_sync(settings)
+            # Manual trigger: always rebuild the plan fresh rather than
+            # trusting whatever's on disk, so it's actually useful for
+            # verifying behavior against a known live match right now.
+            return _run_sync(settings, force_rebuild=True)
 
         return {"status": "error", "message": f"Unknown action {action!r}"}
 

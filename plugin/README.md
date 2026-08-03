@@ -5,10 +5,37 @@ YouTube-only leagues like LPL) into a fixed number of generic channels per
 game, switching the active stream to whichever live match currently holds
 priority. See the top-level README for how this fits with the scraper.
 
+## How the sync works: one daily plan, applied every tick
+
+The live 60s tick does **not** decide which match plays where. Once a day
+(`plan_refresh_interval_hours`, default 24), `plan_builder.build_weekly_plan`
+runs the actual allocation policy (`allocator.assign_slots`/
+`project_schedule`, plus supplemental-content gap-filling) once, over the
+whole `schedule_projection_days` window, and the result is persisted to
+`.state/weekly-plan.json`. Every 60s tick in between just looks up what that
+stored plan says is current right now (`plugin._current_occupant`) and
+reconciles it against live reality -- a match cancelled/ended earlier than
+planned, Twitch stream-title verification for Game Changers
+(`plugin._reconcile_with_reality`) -- it never re-runs the allocator itself.
+
+This replaced an earlier design where the live tick called
+`assign_slots` for "right now" and separately called `project_schedule` to
+preview the week ahead for the guide -- two independent live simulations of
+the same policy that could disagree (the root cause of several bugs: a
+guide showing a stale league while the live stream was actually correct,
+supplemental-content picks only ever decided the instant a tick happened to
+reach an empty slot rather than something inspectable in advance). Now
+there's one plan, computed once, and everything else reads from it.
+
+`sync_now` always rebuilds the plan immediately (ignoring the refresh
+interval) before applying it, so it's actually useful for verifying
+behavior against a known live match right now.
+
 ## Local testing (before touching the server)
 
-Only `allocator.py` has zero Django/Dispatcharr dependency and can run
-outside the real environment:
+`allocator.py`, `plan_builder.py`, `stream_verification.py`, and
+`supplemental_content.py` have zero Django/Dispatcharr dependency and can
+run outside the real environment:
 
 ```bash
 cd plugin
@@ -219,6 +246,17 @@ airing back-to-back, not simultaneously, on the same Twitch channel).
 Either way, a reserved/previewed slot keeps showing whatever stream was
 already on that channel. It does not go blank while waiting.
 
+Matches are told apart by `match_id` (Riot's own `event.match.id`, added to
+`schedule.json` for exactly this) first, falling back to `(league, start)`
+only when it's missing. Game Changers events regularly schedule multiple
+concurrent matches with the identical start time -- confirmed against real
+Riot data, 2026-08-03: two separate Game Changers EMEA matches both starting
+at `2026-05-13T15:00:00Z`. Without `match_id`, `(league, start)` alone
+couldn't tell them apart, so the allocator treated the second one as already
+accounted for by the first and never gave it a slot, even with one sitting
+empty -- it simply vanished from the guide with no trace, not even shown as
+dropped for lack of capacity.
+
 See `allocator.py`'s docstring and `tests/test_allocator.py` for the exact
 policy and edge cases, including the near-vs-far distinction.
 
@@ -234,7 +272,7 @@ know LCQ deserved one of those slots before the fact.
 Riot's `state` field isn't reliable for every league tier (confirmed as a
 real bug, 2026-07-29: Game Changers EMEA matches stayed `"unstarted"` in
 `schedule.json` more than 30 minutes after their real start while actually
-airing, so they were only ever reserved, never displayed). `plugin.py`'s
+airing, so they were only ever reserved, never displayed). `plan_builder.py`'s
 `_classify_matches` also treats an `"unstarted"` match as live once its
 scheduled start has passed, up to `STALE_LIVE_GRACE_MINUTES` (12h) -- past
 that, it's presumed stale data rather than a genuinely long-running match
@@ -266,32 +304,39 @@ request fails), the match is marked unstreamable for that tick
 showing the wrong game -- it simply won't compete for a slot until a later
 tick can verify it, same treatment as a contentless placeholder event.
 
-This only runs for matches genuinely live right now -- there's nothing real
-to check against before a match actually starts airing -- using
-`plugin._is_genuinely_live`, the same shared helper `_classify_matches`
-uses, not the raw `state` field directly. Checking `state == "in_progress"`
-directly here was a real bug (confirmed 2026-07-30): Riot's `state` flag is
-exactly as unreliable for Game Changers matches as the whole reason this
-verification exists in the first place, so a match stuck on `"unstarted"`
-past its real start never got verified at all, silently keeping the
-schedule's default declared channel -- identical to whatever *other*
-concurrent match on the same league happened to verify correctly, since
-Game Changers NA/EMEA only have one static `epg_channel_id` regardless of
-which specific match it is. Checking every tick regardless (rather than
-only when genuinely ambiguous) keeps the logic simple at the cost of a
-modest handful of extra HTTP requests per poll. Adding a new league to
-`LIVE_CHANNEL_CANDIDATES` needs no other code changes; adding a
-YouTube-based one would need a `yt-dlp`-based equivalent of
-`fetch_twitch_stream_title` (see youtubearr's plugin for the pattern --
+This runs twice, for two different reasons: once inside
+`plan_builder.build_weekly_plan` (so the plan itself already reflects
+reality at build time), and again every live tick inside
+`plugin._reconcile_with_reality` (so a channel split that starts *after*
+the plan was last built still gets caught within a tick, not a full day
+later). Both use `plan_builder.is_genuinely_live`, the same shared helper
+`_classify_matches` uses, not the raw `state` field directly -- there's
+nothing real to check against before a match actually starts airing.
+Checking `state == "in_progress"` directly here was a real bug (confirmed
+2026-07-30): Riot's `state` flag is exactly as unreliable for Game Changers
+matches as the whole reason this verification exists in the first place, so
+a match stuck on `"unstarted"` past its real start never got verified at
+all, silently keeping the schedule's default declared channel -- identical
+to whatever *other* concurrent match on the same league happened to verify
+correctly, since Game Changers NA/EMEA only have one static
+`epg_channel_id` regardless of which specific match it is. Checking every
+tick regardless (rather than only when genuinely ambiguous) keeps the logic
+simple at the cost of a modest handful of extra HTTP requests per poll.
+Adding a new league to `LIVE_CHANNEL_CANDIDATES` needs no other code
+changes; adding a YouTube-based one would need a `yt-dlp`-based equivalent
+of `fetch_twitch_stream_title` (see youtubearr's plugin for the pattern --
 "Zero API Quota: uses yt-dlp instead of the YouTube Data API").
 
 ## Filling idle time with supplemental content
 
-Off by default (`enable_supplemental_content`). When on, `_fill_supplemental_content`
-(`plugin.py`) runs after `assign_slots` and only ever touches a slot that's
-already `None` -- it never competes with or bumps a real esports match,
-same guarantee as everything else in the priority system (Arnaud,
-2026-07-30).
+Off by default (`enable_supplemental_content`). When on,
+`plan_builder._fill_game_projection_gaps` runs once, at plan-build time,
+against every idle stretch across the *whole* week-ahead plan -- not just
+"whatever's empty this tick" -- so Plat Chat/replay picks are decided up
+front and inspectable in the stored plan, the same way real matches are. It
+only ever touches a stretch `assign_slots`/`project_schedule` already left
+empty -- it never competes with or bumps a real esports match, same
+guarantee as everything else in the priority system (Arnaud, 2026-07-30).
 
 - **Plat Chat VALORANT**: a live weekly VALORANT talk show
   (`youtube.com/@PlatChatVALORANT`), checked first for any empty Valorant
@@ -355,22 +400,19 @@ mostly means the guide's displayed start time for supplemental content is
 approximate, not the precise instant a real match ended and the slot went
 idle.
 
-**Fetches are cached, not repeated every 60s tick.** A replay candidate
-list and Plat Chat's schedule barely change within a day, but the live
-sync tick runs every `poll_interval_seconds` (default 60s) -- hitting
-yt-dlp fresh on every single tick was wasteful and needlessly fragile
-(Arnaud, 2026-07-30: "preselect it... instead of doing constant fetches").
+**Fetches are cached, not repeated every plan rebuild.** A replay candidate
+list and Plat Chat's schedule barely change within a day, and now that
+picks are only made once a day anyway (see "How the sync works" above),
 `get_cached_replay_candidates`/`get_cached_plat_chat_schedule` reuse a
-fetch from a local JSON file (`supplemental_content.CACHE_FILE_PATH`)
-until it's older than `CACHE_TTL` (24h), so yt-dlp only actually runs
-roughly once a day per game/schedule rather than ~1,440 times. This is a
-lazy TTL cache, not a precomputed plan -- the *pick* for a given day/slot
-is still made live (deterministically, via `pick_replay`'s seed), only the
-expensive *candidate discovery* is cached. Deciding whether Plat Chat is
-airing right now still happens fresh every tick (a cheap comparison
-against the cached schedule's `real_start`), so caching never risks
-showing Plat Chat as "live" long after a cached schedule's episode
-actually ended.
+fetch from a local JSON file (`supplemental_content.CACHE_FILE_PATH`) until
+it's older than `CACHE_TTL` (24h), so yt-dlp doesn't necessarily run again
+on every single plan rebuild either (Arnaud, 2026-07-30: "preselect it...
+instead of doing constant fetches"). Every *pick* for the whole week is
+made once, at plan-build time (deterministically, via `pick_replay`'s
+seed) -- unlike the old per-tick design, whether Plat Chat is airing at a
+given moment is decided once per plan too (`plat_chat_match_if_live`
+against the cached schedule's `real_start`), not re-checked live every
+tick, since the live tick only applies whatever the plan already decided.
 
 Whether something is live or a rerun is the standard XMLTV `<live/>` /
 `<previously-shown/>` empty tag, not a category string (Arnaud, 2026-07-30,
@@ -414,8 +456,11 @@ real dependency in `pyproject.toml`, not bundled) -- see "First run" above.
 ## What the guide shows, a week-ahead projection, not a one-tick snapshot
 
 The guide covers `GUIDE_LOOKBACK_HOURS` (12h, `channel_sync.py`) before "now"
-through `schedule_projection_days` (default 7) into the future, built fresh
-every tick, with zero gaps -- including before "now". Otherwise Dispatcharr's
+through `schedule_projection_days` (default 7) into the future. The guide
+*file* is rewritten every tick (cheap -- it's just formatting the already-
+computed stored plan into XMLTV), but the underlying match data only
+changes when the plan itself is rebuilt, once a day. Either way there are
+zero gaps -- including before "now". Otherwise Dispatcharr's
 own generic placeholder filler ("Lunchtime Laziness...", "Evening
 Escapism...") would show through instead, and a slot idle for a while
 before "now" would have zero programme data for that stretch, which
@@ -426,7 +471,7 @@ idle one right next to it was visibly blank). This used to be a purely
 reactive, one-entry-per-slot guess at "what's happening right now plus
 maybe one preview"; it's now a genuine forward simulation:
 
-`_classify_matches` (`plugin.py`) also feeds recently-`completed` matches
+`_classify_matches` (`plan_builder.py`) also feeds recently-`completed` matches
 into the projection, not just live/upcoming ones, as long as they started
 within `GUIDE_LOOKBACK_HOURS` -- otherwise the guide has zero record of what
 actually aired in a slot once its match ends, and the historical portion
@@ -479,10 +524,12 @@ slots with something *still* live looked right, everything else showed a
   the *projected future* portion of the guide slightly earlier than it
   actually ends in reality, the same "Riot gives no real end time, this is
   just an estimate" limitation this whole plugin already accepts, and it
-  self-corrects on the very next tick since the guide is fully rebuilt every
-  time from the latest known state. It never affects the actual live stream
-  switch, which is decided separately and correctly by `assign_slots`'s own
-  real, current-tick evaluation. `channel_sync.duration_for_match` estimates
+  self-corrects on the next plan rebuild (or immediately via "Sync Now").
+  It never affects the actual live stream switch: `_current_occupant`
+  (`plugin.py`) independently checks the same real end estimate every tick
+  when deciding what the plan says is current, so a slot correctly goes
+  idle once its match's real estimated end passes even between rebuilds.
+  `channel_sync.duration_for_match` estimates
   by best-of format, per game -- `LOL_BEST_OF_DURATIONS` (Bo1 ~1h, Bo3 ~2h,
   Bo5 ~3h20) vs `VALORANT_BEST_OF_DURATIONS` (Bo1 ~1h, Bo3 ~3h, Bo5 ~5h30) --
   rather than one flat 3h for every match, since a LoL game (~30-40min) runs

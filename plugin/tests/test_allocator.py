@@ -51,6 +51,35 @@ def test_fills_empty_slots_by_priority_when_nothing_was_previously_assigned():
     assert reserved_for == [None, None]
 
 
+def test_two_concurrent_matches_in_the_same_league_at_the_same_start_time_both_get_a_slot():
+    # Confirmed as a real bug, 2026-08-03, against real Riot data: Game
+    # Changers EMEA regularly schedules multiple concurrent matches with the
+    # identical startTime (e.g. two real events both at "2026-05-13T15:00:00Z",
+    # match.id "116356613203243841" and "116356613203243981"). Without a
+    # per-match id, (league, start) alone can't tell them apart, so the
+    # second one was silently treated as already accounted for by the first
+    # and never won a slot -- even with an empty slot free.
+    gentle_mates_vs_twisted_minds = {
+        **_match("Game Changers EMEA", "2026-05-13T15:00:00+00:00", "Gentle Mates vs Twisted Minds Orchid", "valorant_emea"),
+        "match_id": "116356613203243841",
+    }
+    sk_nebula_vs_karmine_corp = {
+        **_match("Game Changers EMEA", "2026-05-13T15:00:00+00:00", "SK Nebula vs Karmine Corp", "valorant_emea"),
+        "match_id": "116356613203243981",
+    }
+
+    assignment, _reserved_for, overflow, _channel_by_slot = assign_slots(
+        live_matches=[gentle_mates_vs_twisted_minds, sk_nebula_vs_karmine_corp],
+        slots=3,
+        league_priority=["Game Changers EMEA"],
+        previous_assignment=None,
+    )
+
+    assert gentle_mates_vs_twisted_minds in assignment
+    assert sk_nebula_vs_karmine_corp in assignment
+    assert overflow == []
+
+
 def test_sticky_keeps_existing_live_match_even_when_a_higher_priority_match_starts():
     emea = _match("VCT EMEA", "2026-07-27T14:00:00+00:00", "Fnatic vs Team Liquid", "valorant_emea")
     americas = _match("VCT Americas", "2026-07-27T18:00:00+00:00", "Sentinels vs 100T", "valorant_americas")
