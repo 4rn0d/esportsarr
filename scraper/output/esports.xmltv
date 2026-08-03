@@ -1041,11 +1041,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260803000000 +0000" stop="20260803024500 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">G2 Esports vs Sentinels · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260806210000 +0000" stop="20260806234500 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">Evil Geniuses vs FURIA · Week 4 · Bo3</desc>

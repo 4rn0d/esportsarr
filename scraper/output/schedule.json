@@ -1,17 +1,6 @@
 {
-  "generated_at": "2026-08-03T00:09:43.939232+00:00",
+  "generated_at": "2026-08-03T03:51:04.432896+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-04T03:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "FURIA vs LYON \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -3976,7 +3965,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-03T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
