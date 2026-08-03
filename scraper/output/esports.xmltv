@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260802230000 +0000" stop="20260803014500 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Team Liquid Alienware vs Sentinels · Week 2 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260808200000 +0000" stop="20260808224500 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Cloud9 Kia vs Disguised · Week 3 · Bo3</desc>
@@ -1337,6 +1332,16 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260901210000 +0000" stop="20260901234500 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260901233000 +0000" stop="20260902021500 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260901233000 +0000" stop="20260902021500 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
