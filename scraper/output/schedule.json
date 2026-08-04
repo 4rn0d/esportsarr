@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-04T06:14:31.393435+00:00",
+  "generated_at": "2026-08-04T09:08:29.185581+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-05T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Hanwha Life Esports vs G2 Esports \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614557"
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -1500,6 +1488,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841607"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-09-03T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117030752644841613"
     },
     {
       "league": "LPL",

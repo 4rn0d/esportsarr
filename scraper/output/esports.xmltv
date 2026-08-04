@@ -456,6 +456,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260903080000 +0000" stop="20260903112000 +0000" channel="twitch.lck">
+    <title lang="en">LCK</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260805090000 +0000" stop="20260805110000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">LGD GAMING vs Beijing JDG Esports · Week 3 · Bo3</desc>
