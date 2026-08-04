@@ -841,14 +841,9 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260804170000 +0000" stop="20260804180000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Galions vs Esprit Shonen · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260804180000 +0000" stop="20260804190000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">ZYB vs Joblife · Week 3 · Bo1</desc>
+    <desc lang="en">Joblife vs ZYB · Week 3 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260804190000 +0000" stop="20260804200000 +0000" channel="twitch.otplol_">
@@ -1468,7 +1463,7 @@
   </programme>
   <programme start="20260804180000 +0000" stop="20260804210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Twisted Minds Orchid vs SK Nebula · Week 3 · Bo3</desc>
+    <desc lang="en">SK Nebula vs Twisted Minds Orchid · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260804180000 +0000" stop="20260804210000 +0000" channel="twitch.valorant_emea">

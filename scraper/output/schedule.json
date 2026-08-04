@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T17:20:37.657175+00:00",
+  "generated_at": "2026-08-04T19:03:05.868134+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3401,7 +3401,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-04T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3413,11 +3413,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-04T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "ZYB vs Joblife \u00b7 Week 3 \u00b7 Bo1",
+      "description": "Joblife vs ZYB \u00b7 Week 3 \u00b7 Bo1",
       "best_of": 1,
       "match_id": "116912368900055682"
     },
@@ -6621,7 +6621,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs SK Nebula \u00b7 Week 3 \u00b7 Bo3",
+      "description": "SK Nebula vs Twisted Minds Orchid \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173123"
     },
