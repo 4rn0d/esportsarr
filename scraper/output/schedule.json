@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T20:42:13.733141+00:00",
+  "generated_at": "2026-08-04T21:53:50.601036+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3437,7 +3437,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-04T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -5400,6 +5400,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193631"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-03T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595958259175"
     },
     {
       "league": "Last Chance Qualifier Americas",

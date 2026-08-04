@@ -841,11 +841,6 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260804200000 +0000" stop="20260804210000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Karmine Corp Blue vs Vitality.Bee · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260805160000 +0000" stop="20260805170000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">TLN Pirates vs Galions · Week 3 · Bo1</desc>
@@ -1287,6 +1282,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902233000 +0000" stop="20260903023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260903210000 +0000" stop="20260904000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
