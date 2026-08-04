@@ -841,16 +841,6 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260804180000 +0000" stop="20260804190000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Joblife vs ZYB · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260804190000 +0000" stop="20260804200000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">TLN Pirates vs Solary · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260804200000 +0000" stop="20260804210000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">Karmine Corp Blue vs Vitality.Bee · Week 3 · Bo1</desc>
@@ -1449,26 +1439,6 @@
   <programme start="20260830150000 +0000" stop="20260830203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260804150000 +0000" stop="20260804180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">G2 Gozen vs Barça eSports · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260804150000 +0000" stop="20260804180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">FOKUS Sakura vs Karmine Corp · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260804180000 +0000" stop="20260804210000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">SK Nebula vs Twisted Minds Orchid · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260804180000 +0000" stop="20260804210000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">ALTERNATE aTTaX Ruby vs Habos Babos · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260805150000 +0000" stop="20260805180000 +0000" channel="twitch.valorant_emea">
