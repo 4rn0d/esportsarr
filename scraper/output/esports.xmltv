@@ -1291,6 +1291,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260903233000 +0000" stop="20260904023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260806150000 +0000" stop="20260806180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">GIANTX vs Eintracht Frankfurt · Play-Ins · Bo3</desc>
