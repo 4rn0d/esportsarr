@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T15:42:58.269112+00:00",
+  "generated_at": "2026-08-04T17:20:37.657175+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3388,20 +3388,8 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-04T15:01:48.134000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-04T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3413,7 +3401,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-04T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -4797,9 +4785,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
+      "description": "The Spiders vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931283"
+      "match_id": "116888595957931287"
     },
     {
       "league": "Game Changers NA",
@@ -4809,9 +4797,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "The Spiders vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
+      "description": "FlyQuest RED vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931287"
+      "match_id": "116888595957931283"
     },
     {
       "league": "Game Changers NA",
@@ -4977,9 +4965,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs Axolotl \u00b7 Swiss \u00b7 Bo3",
+      "description": "Ora Temper vs SaD GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931343"
+      "match_id": "116888595957931351"
     },
     {
       "league": "Game Changers NA",
@@ -5001,9 +4989,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Ora Temper vs SaD GC \u00b7 Swiss \u00b7 Bo3",
+      "description": "FlyQuest RED vs Axolotl \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931351"
+      "match_id": "116888595957931343"
     },
     {
       "league": "Game Changers NA",
@@ -5109,21 +5097,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
+      "description": "ROSO GC vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957996923"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Revitalize GC vs Eternal Focus Amethyst \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062471"
+      "match_id": "116888595957996927"
     },
     {
       "league": "Game Changers NA",
@@ -5145,9 +5121,21 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "ROSO GC vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
+      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957996927"
+      "match_id": "116888595957996923"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "completed",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Revitalize GC vs Eternal Focus Amethyst \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595958062471"
     },
     {
       "league": "Game Changers NA",
@@ -5157,9 +5145,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Axolotl vs Shopify Rebellion Gold \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595958062479"
+      "match_id": "116888595958062475"
     },
     {
       "league": "Game Changers NA",
@@ -5169,19 +5157,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062487"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-10T21:00:00+00:00",
-      "state": "unstarted",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": ":3 vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958062483"
     },
@@ -5193,9 +5169,21 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "The Spiders vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595958062475"
+      "match_id": "116888595958062487"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "HIMMERS vs SwimTrek Blue \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595958062479"
     },
     {
       "league": "Game Changers NA",
@@ -5205,19 +5193,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062491"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-10T23:30:00+00:00",
-      "state": "unstarted",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Revitalize GC vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958062495"
     },
@@ -5229,7 +5205,19 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Los Chudeles vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595958062491"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-10T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "ROSO GC vs SaD GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958062499"
     },
