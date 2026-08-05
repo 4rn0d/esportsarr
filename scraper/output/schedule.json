@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-08-04T23:54:48.959537+00:00",
+  "generated_at": "2026-08-05T10:15:05.257152+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-06T03:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "BILIBILI GAMING vs LYON \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614551"
-    },
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-06T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "T1 vs FURIA \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614563"
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -1049,11 +1025,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-05T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "HANJIN BRION vs NONGSHIM RED FORCE \u00b7 Week 11 \u00b7 Bo3",
+      "description": "NONGSHIM RED FORCE vs HANJIN BRION \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900684641"
     },
@@ -1502,6 +1478,18 @@
       "match_id": "117030752644841613"
     },
     {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-09-04T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117030752644841625"
+    },
+    {
       "league": "LPL",
       "game": "lol",
       "start": "2026-07-22T09:00:00+00:00",
@@ -1817,7 +1805,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-05T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1829,7 +1817,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-05T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2292,6 +2280,18 @@
       "description": "THUNDER TALK GAMING vs LGD GAMING \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116566854547835296"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-23T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Beijing JDG Esports vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116566854547769748"
     },
     {
       "league": "CBLOL",
@@ -3005,11 +3005,11 @@
       "league": "LJL",
       "game": "lol",
       "start": "2026-08-05T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "FENNEL vs New Meta \u00b7 Playoffs \u00b7 Bo5",
+      "description": "New Meta vs FENNEL \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783735"
     },
