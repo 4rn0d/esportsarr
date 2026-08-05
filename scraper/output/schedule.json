@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:21:21.882014+00:00",
+  "generated_at": "2026-08-05T18:00:03.815774+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3461,7 +3461,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3473,7 +3473,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-05T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3585,9 +3585,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
+      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794395"
+      "match_id": "116878159559794391"
     },
     {
       "league": "NLC",
@@ -3597,21 +3597,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794391"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-20T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bardicted to U vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794403"
+      "match_id": "116878159559794395"
     },
     {
       "league": "NLC",
@@ -3624,6 +3612,18 @@
       "description": "Arctic Pandas vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559794399"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-07-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "Bardicted to U vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116878159559794403"
     },
     {
       "league": "NLC",
@@ -3821,7 +3821,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3833,7 +3833,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3849,9 +3849,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
+      "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559860011"
+      "match_id": "116878159559860019"
     },
     {
       "league": "NLC",
@@ -3861,9 +3861,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559860019"
+      "match_id": "116878159559860011"
     },
     {
       "league": "NLC",
@@ -4764,6 +4764,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515784"
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-09-04T17:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT Americas",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115581239610515776"
     },
     {
       "league": "Game Changers NA",
@@ -6621,9 +6633,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173199"
+      "match_id": "116849606242173103"
     },
     {
       "league": "Game Changers EMEA",
@@ -6633,9 +6645,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173103"
+      "match_id": "116849606242173199"
     },
     {
       "league": "Game Changers EMEA",
@@ -6665,7 +6677,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-05T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6677,7 +6689,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-05T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6689,11 +6701,11 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-05T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs Gentle Mates \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Gentle Mates vs Twisted Minds Orchid \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242041991"
     },
@@ -6705,7 +6717,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "ALTERNATE aTTaX Ruby vs FOKUS Sakura \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs ALTERNATE aTTaX Ruby \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173227"
     },
