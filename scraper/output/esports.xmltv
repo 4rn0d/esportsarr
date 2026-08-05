@@ -833,7 +833,7 @@
   </programme>
   <programme start="20260805160000 +0000" stop="20260805170000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">TLN Pirates vs Galions · Week 3 · Bo1</desc>
+    <desc lang="en">Galions vs TLN Pirates · Week 3 · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260805170000 +0000" stop="20260805180000 +0000" channel="twitch.otplol_">
@@ -888,7 +888,7 @@
   </programme>
   <programme start="20260805160000 +0000" stop="20260805180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">DMG Esports vs Arctic Pandas · Swiss · Bo3</desc>
+    <desc lang="en">Arctic Pandas vs DMG Esports · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260805180000 +0000" stop="20260805200000 +0000" channel="twitch.NLCLoL">
@@ -1438,7 +1438,7 @@
   </programme>
   <programme start="20260805150000 +0000" stop="20260805180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">GIANTX vs G2 Gozen · Week 3 · Bo3</desc>
+    <desc lang="en">G2 Gozen vs GIANTX · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260805150000 +0000" stop="20260805180000 +0000" channel="twitch.valorant_emea">

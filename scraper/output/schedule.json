@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:43:05.159697+00:00",
+  "generated_at": "2026-08-05T16:21:21.882014+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3461,11 +3461,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TLN Pirates vs Galions \u00b7 Week 3 \u00b7 Bo1",
+      "description": "Galions vs TLN Pirates \u00b7 Week 3 \u00b7 Bo1",
       "best_of": 1,
       "match_id": "116912368900055716"
     },
@@ -3821,7 +3821,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3837,7 +3837,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "DMG Esports vs Arctic Pandas \u00b7 Swiss \u00b7 Bo3",
+      "description": "Arctic Pandas vs DMG Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860007"
     },
@@ -6621,9 +6621,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173103"
+      "match_id": "116849606242173199"
     },
     {
       "league": "Game Changers EMEA",
@@ -6633,9 +6633,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173199"
+      "match_id": "116849606242173103"
     },
     {
       "league": "Game Changers EMEA",
@@ -6664,24 +6664,12 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-05T14:29:10.868000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-05T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "GIANTX vs G2 Gozen \u00b7 Week 3 \u00b7 Bo3",
+      "description": "G2 Gozen vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173091"
     },
