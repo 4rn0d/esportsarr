@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:15:05.257152+00:00",
+  "generated_at": "2026-08-05T12:17:31.805363+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1025,7 +1025,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-05T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1037,11 +1037,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-05T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Week 11 \u00b7 Bo3",
+      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900553445"
     },
@@ -2294,6 +2294,18 @@
       "match_id": "116566854547769748"
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-23T11:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Anyone's Legend vs BILIBILI GAMING \u00b7 Week 5 \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116566854547769664"
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -3005,7 +3017,7 @@
       "league": "LJL",
       "game": "lol",
       "start": "2026-08-05T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",

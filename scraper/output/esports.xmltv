@@ -271,14 +271,9 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260805080000 +0000" stop="20260805100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">NONGSHIM RED FORCE vs HANJIN BRION · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260805100000 +0000" stop="20260805120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs Gen.G Esports · Week 11 · Bo3</desc>
+    <desc lang="en">Gen.G Esports vs Hanwha Life Esports · Week 11 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260806080000 +0000" stop="20260806100000 +0000" channel="twitch.lck">
@@ -661,6 +656,11 @@
     <desc lang="en">Beijing JDG Esports vs EDWARD GAMING · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260823110000 +0000" stop="20260823130000 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">Anyone's Legend vs BILIBILI GAMING · Week 5 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260807210000 +0000" stop="20260807230000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">Vivo Keyd Stars vs Fluxo W7M · Week 3 · Bo3</desc>
@@ -829,11 +829,6 @@
   <programme start="20260830090000 +0000" stop="20260830122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260805080000 +0000" stop="20260805112000 +0000" channel="twitch.leagueoflegendsjp">
-    <title lang="en">LJL</title>
-    <desc lang="en">New Meta vs FENNEL · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260811080000 +0000" stop="20260811112000 +0000" channel="twitch.leagueoflegendsjp">
