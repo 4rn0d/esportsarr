@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:00:03.815774+00:00",
+  "generated_at": "2026-08-05T19:38:52.732801+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3473,7 +3473,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-05T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3485,7 +3485,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-05T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3497,7 +3497,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-05T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3585,9 +3585,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794391"
+      "match_id": "116878159559794395"
     },
     {
       "league": "NLC",
@@ -3597,21 +3597,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
+      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794395"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-20T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Arctic Pandas vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794399"
+      "match_id": "116878159559794391"
     },
     {
       "league": "NLC",
@@ -3624,6 +3612,18 @@
       "description": "Bardicted to U vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559794403"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-07-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "Arctic Pandas vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116878159559794399"
     },
     {
       "league": "NLC",
@@ -3833,13 +3833,25 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
       "description": "Arctic Pandas vs DMG Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860007"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-08-05T18:00:00+00:00",
+      "state": "in_progress",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116878159559860011"
     },
     {
       "league": "NLC",
@@ -3852,18 +3864,6 @@
       "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860019"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-05T18:00:00+00:00",
-      "state": "unstarted",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860011"
     },
     {
       "league": "NLC",
@@ -6701,7 +6701,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-05T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6713,7 +6713,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-05T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
