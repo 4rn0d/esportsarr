@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T20:46:16.709777+00:00",
+  "generated_at": "2026-08-05T22:05:52.828467+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3456,18 +3456,6 @@
       "description": "Karmine Corp Blue vs Vitality.Bee \u00b7 Week 3 \u00b7 Bo1",
       "best_of": 1,
       "match_id": "116912368899990138"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-05T15:25:59.640000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "La Ligue Fran\u00e7aise",
