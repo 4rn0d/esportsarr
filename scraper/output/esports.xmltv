@@ -831,16 +831,6 @@
     <desc lang="en">L Guide Gaming vs UWinks · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260805190000 +0000" stop="20260805200000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">ZYB vs Ici Japon Corp · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260805200000 +0000" stop="20260805210000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Vitality.Bee vs Skillcamp · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260806160000 +0000" stop="20260806170000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">Ici Japon Corp vs Esprit Shonen · Week 3 · Bo1</desc>
@@ -864,16 +854,6 @@
   <programme start="20260806200000 +0000" stop="20260806210000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">ZYB vs Vitality.Bee · Week 3 · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260805180000 +0000" stop="20260805200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Brod &amp; Friends vs Epic Avalanche · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260805180000 +0000" stop="20260805200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">2 Massive vs Rich Gang · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810160000 +0000" stop="20260810180000 +0000" channel="twitch.NLCLoL">
@@ -1142,6 +1122,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904170000 +0000" stop="20260904200000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">VCT Americas</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260904200000 +0000" stop="20260904230000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
