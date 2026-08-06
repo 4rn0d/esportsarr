@@ -271,14 +271,9 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260806080000 +0000" stop="20260806100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">KIWOOM DRX vs DN SOOPers · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260806100000 +0000" stop="20260806120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Dplus KIA vs T1 · Week 11 · Bo3</desc>
+    <desc lang="en">T1 vs Dplus KIA · Week 11 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807080000 +0000" stop="20260807100000 +0000" channel="twitch.lck">
@@ -654,6 +649,11 @@
   <programme start="20260828090000 +0000" stop="20260828122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">TBD vs TBD · Play In Knockouts · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260829090000 +0000" stop="20260829122000 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807210000 +0000" stop="20260807230000 +0000" channel="twitch.cblol">

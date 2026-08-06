@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T09:19:20.950243+00:00",
+  "generated_at": "2026-08-06T11:38:40.513307+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1049,7 +1049,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-06T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1061,11 +1061,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-06T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Dplus KIA vs T1 \u00b7 Week 11 \u00b7 Bo3",
+      "description": "T1 vs Dplus KIA \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900553465"
     },
@@ -2340,6 +2340,18 @@
       "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116566921179204478"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-29T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824691"
     },
     {
       "league": "CBLOL",
@@ -8040,18 +8052,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044721"
-    },
-    {
-      "league": "Last Chance Qualifier Pacific",
-      "game": "valorant",
-      "start": "2026-07-07T11:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Fancy United Esports vs YiJing \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116810285110343178"
     },
     {
       "league": "Last Chance Qualifier Pacific",
