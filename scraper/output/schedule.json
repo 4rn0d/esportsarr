@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T13:16:58.759797+00:00",
+  "generated_at": "2026-08-06T15:37:03.173311+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3580,6 +3580,18 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
+      "start": "2026-08-06T15:26:14.868000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
       "start": "2026-08-06T16:00:00+00:00",
       "state": "unstarted",
       "title": "La Ligue Fran\u00e7aise",
@@ -5933,11 +5945,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-06T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "GIANTX vs Eintracht Frankfurt \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Eintracht Frankfurt vs GIANTX \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721706985"
     },
@@ -6705,9 +6717,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173103"
+      "match_id": "116849606242173199"
     },
     {
       "league": "Game Changers EMEA",
@@ -6717,9 +6729,9 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116849606242173199"
+      "match_id": "116849606242173103"
     },
     {
       "league": "Game Changers EMEA",
@@ -6792,6 +6804,18 @@
       "description": "FOKUS Sakura vs ALTERNATE aTTaX Ruby \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173227"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-06T14:35:09.956000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "Game Changers EMEA",
@@ -7056,54 +7080,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-07T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Cilekler vs MISA Espo\u0131rts \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058982"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-07T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Formulation Gaming vs FOKUS Clan \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107665706"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-07T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Fire Flux Esports vs MIR \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107731262"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-07T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "La Masia vs Mandatory \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058962"
     },
     {
       "league": "Last Chance Qualifier EMEA",
