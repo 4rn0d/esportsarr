@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T03:47:45.092896+00:00",
+  "generated_at": "2026-08-06T06:22:02.985151+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1829,7 +1829,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-06T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1841,7 +1841,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-06T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1853,7 +1853,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-06T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -3036,6 +3036,18 @@
       "description": "L Guide Gaming vs UWinks \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783747"
+    },
+    {
+      "league": "LJL",
+      "game": "lol",
+      "start": "2026-09-05T05:00:00+00:00",
+      "state": "unstarted",
+      "title": "LJL",
+      "stream_platform": "twitch",
+      "stream_channel": "leagueoflegendsjp",
+      "description": "TBD vs New Meta \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116917034792783753"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
