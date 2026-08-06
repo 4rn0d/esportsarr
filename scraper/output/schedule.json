@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T11:38:40.513307+00:00",
+  "generated_at": "2026-08-06T13:16:58.759797+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1061,7 +1061,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-06T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2825,7 +2825,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-06T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -2865,7 +2865,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo5",
+      "description": "CTBC Flying Oyster vs Ground Zero Gaming \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115570814727903879"
     },

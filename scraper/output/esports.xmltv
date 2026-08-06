@@ -271,11 +271,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260806100000 +0000" stop="20260806120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">T1 vs Dplus KIA · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260807080000 +0000" stop="20260807100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">kt Rolster vs Gen.G Esports · Week 11 · Bo3</desc>
@@ -756,11 +751,6 @@
     <desc lang="en">FURIA vs LEVIATÁN · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260806090000 +0000" stop="20260806122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Ground Zero Gaming vs Fukuoka SoftBank HAWKS gaming · Swiss · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260807090000 +0000" stop="20260807122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">DetonatioN FocusMe vs GAM Esports · Swiss · Bo5</desc>
@@ -773,7 +763,7 @@
   </programme>
   <programme start="20260809090000 +0000" stop="20260809122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs CTBC Flying Oyster · Swiss · Bo5</desc>
+    <desc lang="en">CTBC Flying Oyster vs Ground Zero Gaming · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813090000 +0000" stop="20260813122000 +0000" channel="twitch.lolpacificen">
