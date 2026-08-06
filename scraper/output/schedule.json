@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T06:22:02.985151+00:00",
+  "generated_at": "2026-08-06T09:19:20.950243+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1049,7 +1049,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-06T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1488,6 +1488,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841625"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-09-05T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117030752644841619"
     },
     {
       "league": "LPL",
@@ -2306,6 +2318,30 @@
       "match_id": "116566854547769664"
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-28T06:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116566921179138936"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-28T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116566921179204478"
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2777,11 +2813,11 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-06T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "Fukuoka SoftBank HAWKS gaming vs Ground Zero Gaming \u00b7 Swiss \u00b7 Bo5",
+      "description": "Ground Zero Gaming vs Fukuoka SoftBank HAWKS gaming \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115570814727903867"
     },
@@ -8004,18 +8040,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044721"
-    },
-    {
-      "league": "Last Chance Qualifier Pacific",
-      "game": "valorant",
-      "start": "2026-07-07T08:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "555 vs No Salary Peek \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116810285110343174"
     },
     {
       "league": "Last Chance Qualifier Pacific",
