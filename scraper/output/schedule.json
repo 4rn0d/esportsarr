@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:55:30.040486+00:00",
+  "generated_at": "2026-08-07T09:51:55.456089+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1073,7 +1073,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-07T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1085,7 +1085,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-07T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2376,6 +2376,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125824697"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-03T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824703"
     },
     {
       "league": "CBLOL",

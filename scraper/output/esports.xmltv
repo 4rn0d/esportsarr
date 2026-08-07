@@ -278,11 +278,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807080000 +0000" stop="20260807100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs kt Rolster · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260807100000 +0000" stop="20260807120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">BNK FEARX vs HANJIN BRION · Week 11 · Bo3</desc>
@@ -649,6 +644,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830090000 +0000" stop="20260830122000 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260903090000 +0000" stop="20260903122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
