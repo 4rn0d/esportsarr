@@ -128,11 +128,6 @@
     <desc lang="en">FlyQuest vs Shopify Rebellion · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807171500 +0000" stop="20260807191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Team Heretics vs Fnatic · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260808150000 +0000" stop="20260808170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Natus Vincere vs SK Gaming · Week 3 · Bo3</desc>
@@ -1233,11 +1228,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807180000 +0000" stop="20260807210000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">Enterprise Esports vs FNATIC · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260808150000 +0000" stop="20260808180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">GIANTX vs FUT Esports · Play-Ins · Bo3</desc>
@@ -1255,7 +1245,7 @@
   </programme>
   <programme start="20260809180000 +0000" stop="20260809210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">TBD vs Gentle Mates · Play-Ins · Bo3</desc>
+    <desc lang="en">Enterprise Esports vs Gentle Mates · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812150000 +0000" stop="20260812180000 +0000" channel="twitch.valorant_emea">
@@ -1275,7 +1265,7 @@
   </programme>
   <programme start="20260813180000 +0000" stop="20260813210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs FNATIC · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260814150000 +0000" stop="20260814180000 +0000" channel="twitch.valorant_emea">
