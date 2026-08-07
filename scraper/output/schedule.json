@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:29:04.465538+00:00",
+  "generated_at": "2026-08-07T20:05:24.958946+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -360,6 +360,18 @@
       "description": "Dignitas vs Team Liquid Alienware \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886779"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-06T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "FlyQuest vs Shopify Rebellion \u00b7 Week 7 \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115564797164345555"
     },
     {
       "league": "LEC",
