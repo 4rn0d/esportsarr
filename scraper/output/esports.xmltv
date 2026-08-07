@@ -933,11 +933,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807000000 +0000" stop="20260807030000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">NRG vs ENVY · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260807210000 +0000" stop="20260808000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">100 Thieves vs Cloud9 · Week 4 · Bo3</desc>

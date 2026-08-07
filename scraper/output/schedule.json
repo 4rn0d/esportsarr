@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-07T00:36:13.221377+00:00",
+  "generated_at": "2026-08-07T03:37:34.990879+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-08T03:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "LYON vs Team Secret Whales \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614587"
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -4469,7 +4457,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-07T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
