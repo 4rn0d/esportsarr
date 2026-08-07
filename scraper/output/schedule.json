@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:47:39.142987+00:00",
+  "generated_at": "2026-08-07T14:44:58.281179+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -528,6 +528,18 @@
       "description": "Karmine Corp vs Team Heretics \u00b7 Week 2 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406139"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-07T14:04:32.996000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
@@ -6041,7 +6053,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-07T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
