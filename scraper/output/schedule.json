@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T06:41:00.190056+00:00",
+  "generated_at": "2026-08-07T07:57:40.667433+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1085,7 +1085,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-07T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2364,6 +2364,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125824691"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-30T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824697"
     },
     {
       "league": "CBLOL",
@@ -6885,7 +6897,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "Karmine Corp vs Joblife GC \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173231"
     },
@@ -6897,7 +6909,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "ALTERNATE aTTaX Ruby vs Lost Puppies \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173235"
     },
@@ -6909,7 +6921,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "Bar\u00e7a eSports vs Mom Said No \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173239"
     },
@@ -6921,7 +6933,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "GIANTX vs Falke Venom \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173243"
     },
@@ -6957,7 +6969,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173255"
     },
@@ -6969,7 +6981,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Gentle Mates \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173259"
     },
@@ -6981,7 +6993,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Habos Babos \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173263"
     },
@@ -6993,7 +7005,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Twisted Minds Orchid vs SK Nebula \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173267"
     },
@@ -7625,7 +7637,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-07T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
