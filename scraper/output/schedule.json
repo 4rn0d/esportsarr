@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:42:21.640382+00:00",
+  "generated_at": "2026-08-07T11:30:44.385196+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2388,6 +2388,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125824703"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-04T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824709"
     },
     {
       "league": "CBLOL",
@@ -8028,18 +8040,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044721"
-    },
-    {
-      "league": "Last Chance Qualifier Pacific",
-      "game": "valorant",
-      "start": "2026-07-08T11:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "YiJing vs No Salary Peek \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116810285110343186"
     },
     {
       "league": "Last Chance Qualifier Pacific",
