@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:56:11.893893+00:00",
+  "generated_at": "2026-08-07T21:31:29.487382+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2512,20 +2512,8 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-07T20:32:21.719000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-07T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -4552,20 +4540,8 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-07T20:49:19.038000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-07T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
