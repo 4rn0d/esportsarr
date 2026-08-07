@@ -280,7 +280,7 @@
   </programme>
   <programme start="20260807100000 +0000" stop="20260807120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">BNK FEARX vs HANJIN BRION · Week 11 · Bo3</desc>
+    <desc lang="en">HANJIN BRION vs BNK FEARX · Week 11 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260808080000 +0000" stop="20260808100000 +0000" channel="twitch.lck">
@@ -1461,11 +1461,6 @@
   <programme start="20260819150000 +0000" stop="20260819203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260807080000 +0000" stop="20260807110000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Team Secret vs DetonatioN FocusMe · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260807100000 +0000" stop="20260807130000 +0000" channel="twitch.valorant_pacific">

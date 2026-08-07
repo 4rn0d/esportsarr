@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:51:55.456089+00:00",
+  "generated_at": "2026-08-07T10:42:21.640382+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1089,7 +1089,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "BNK FEARX vs HANJIN BRION \u00b7 Week 11 \u00b7 Bo3",
+      "description": "HANJIN BRION vs BNK FEARX \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900684633"
     },
@@ -7649,7 +7649,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-07T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7661,7 +7661,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-07T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
