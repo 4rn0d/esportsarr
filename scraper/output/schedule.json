@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:44:58.281179+00:00",
+  "generated_at": "2026-08-07T15:37:27.132220+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -532,20 +532,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-07T14:04:32.996000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-07T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -6057,7 +6045,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "PCIFIC Esports vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Fire Flux Esports vs PCIFIC Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721706993"
     },
@@ -7152,54 +7140,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Pixel Lumina vs FOKUS Clan \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107731250"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "CGN Esports vs Fire Flux Esports \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107731270"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eintracht Frankfurt vs Mandatory \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058970"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a Esports vs Cilekler \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058990"
     },
     {
       "league": "Last Chance Qualifier EMEA",
