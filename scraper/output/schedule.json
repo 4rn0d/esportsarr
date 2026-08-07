@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T23:02:18.369751+00:00",
+  "generated_at": "2026-08-07T23:46:01.848699+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2525,7 +2525,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-07T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2537,11 +2537,11 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-08T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "FURIA vs LOUD \u00b7 Week 3 \u00b7 Bo3",
+      "description": "LOUD vs FURIA \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402949"
     },
@@ -4553,7 +4553,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-07T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4565,7 +4565,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-08T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
