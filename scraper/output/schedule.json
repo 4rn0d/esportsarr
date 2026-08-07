@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T03:37:34.990879+00:00",
+  "generated_at": "2026-08-07T05:21:52.010468+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3120,6 +3120,18 @@
       "description": "TBD vs New Meta \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783753"
+    },
+    {
+      "league": "LJL",
+      "game": "lol",
+      "start": "2026-09-06T05:00:00+00:00",
+      "state": "unstarted",
+      "title": "LJL",
+      "stream_platform": "twitch",
+      "stream_channel": "leagueoflegendsjp",
+      "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116917034792783759"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
