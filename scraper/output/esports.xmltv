@@ -123,11 +123,6 @@
     <desc lang="en">Dignitas vs Team Liquid Alienware · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807150000 +0000" stop="20260807170000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Shifters vs GIANTX · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260807171500 +0000" stop="20260807191500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs Fnatic · Week 3 · Bo3</desc>
