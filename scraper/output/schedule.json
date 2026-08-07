@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:37:27.132220+00:00",
+  "generated_at": "2026-08-07T16:31:56.071418+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2748,6 +2748,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403057"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-06T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565671526403063"
     },
     {
       "league": "LCP",
