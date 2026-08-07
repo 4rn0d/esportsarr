@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:30:44.385196+00:00",
+  "generated_at": "2026-08-07T12:26:31.427144+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1085,7 +1085,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-07T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2897,7 +2897,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-07T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",

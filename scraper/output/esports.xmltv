@@ -278,11 +278,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807100000 +0000" stop="20260807120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">HANJIN BRION vs BNK FEARX · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260808080000 +0000" stop="20260808100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">T1 vs Hanwha Life Esports · Week 11 · Bo3</desc>
@@ -761,11 +756,6 @@
   <programme start="20260905160000 +0000" stop="20260905192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260807090000 +0000" stop="20260807122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">DetonatioN FocusMe vs GAM Esports · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260808090000 +0000" stop="20260808122000 +0000" channel="twitch.lolpacificen">
