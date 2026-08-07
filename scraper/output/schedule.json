@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-07T07:57:40.667433+00:00",
+  "generated_at": "2026-08-07T08:55:30.040486+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-08T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "G2 Esports vs T1 \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614581"
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -1089,7 +1077,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "kt Rolster vs Gen.G Esports \u00b7 Week 11 \u00b7 Bo3",
+      "description": "Gen.G Esports vs kt Rolster \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900553469"
     },
@@ -1512,6 +1500,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841619"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-09-06T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117030752644841631"
     },
     {
       "league": "LPL",
@@ -2873,7 +2873,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-07T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -8016,18 +8016,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044721"
-    },
-    {
-      "league": "Last Chance Qualifier Pacific",
-      "game": "valorant",
-      "start": "2026-07-08T08:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "555 vs Fancy United Esports \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116810285110343182"
     },
     {
       "league": "Last Chance Qualifier Pacific",
