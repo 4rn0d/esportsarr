@@ -128,6 +128,11 @@
     <desc lang="en">FlyQuest vs Shopify Rebellion · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260906230000 +0000" stop="20260907010000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260808150000 +0000" stop="20260808170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Natus Vincere vs SK Gaming · Week 3 · Bo3</desc>
