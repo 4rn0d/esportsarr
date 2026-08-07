@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T16:31:56.071418+00:00",
+  "generated_at": "2026-08-07T17:31:29.880868+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -4946,6 +4946,18 @@
       "match_id": "115581239610515792"
     },
     {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-09-06T17:00:00+00:00",
+      "state": "unstarted",
+      "title": "VCT Americas",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115581239610581334"
+    },
+    {
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-07-13T20:59:00+00:00",
@@ -6053,7 +6065,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-07T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6065,11 +6077,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-07T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FNATIC vs Enterprise Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Enterprise Esports vs FNATIC \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721706997"
     },
@@ -6105,7 +6117,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Team Heretics \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Fire Flux Esports vs Team Heretics \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707009"
     },
@@ -6153,7 +6165,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs PCIFIC Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707033"
     },
@@ -7152,54 +7164,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Saints Esports vs Formulation Gaming \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107731254"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Be\u015fikta\u015f Esports vs MIR \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107993418"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "UCAM Esports vs La Masia \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058974"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-08T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Ghools Esports vs MISA Espo\u0131rts \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058994"
     },
     {
       "league": "Last Chance Qualifier EMEA",
