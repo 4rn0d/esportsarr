@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:21:52.010468+00:00",
+  "generated_at": "2026-08-07T06:41:00.190056+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1889,7 +1889,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-07T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1901,7 +1901,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-07T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1913,7 +1913,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-07T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",

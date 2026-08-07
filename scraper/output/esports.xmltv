@@ -458,21 +458,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260807070000 +0000" stop="20260807090000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">EDWARD GAMING vs Beijing JDG Esports · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260807090000 +0000" stop="20260807110000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Xi'an Team WE vs THUNDER TALK GAMING · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260807110000 +0000" stop="20260807130000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">TOP ESPORTS vs BILIBILI GAMING · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260808070000 +0000" stop="20260808090000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">WeiboGaming vs Suzhou LNG Esports · Week 3 · Bo3</desc>
