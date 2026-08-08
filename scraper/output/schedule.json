@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:02:09.652837+00:00",
+  "generated_at": "2026-08-08T18:55:42.877291+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -136,12 +136,24 @@
     {
       "league": "LCS",
       "game": "lol",
+      "start": "2026-08-08T18:44:33.420000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
       "start": "2026-08-08T20:00:00+00:00",
       "state": "unstarted",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Cloud9 Kia vs Disguised \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Disguised vs Cloud9 Kia \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886743"
     },
@@ -153,7 +165,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Sentinels vs Shopify Rebellion \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Shopify Rebellion vs Sentinels \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163821195"
     },
