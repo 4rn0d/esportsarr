@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T19:50:21.161241+00:00",
+  "generated_at": "2026-08-08T20:17:05.588148+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -568,18 +568,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-08T14:02:14.741000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-08T15:00:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -621,7 +609,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Fnatic vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Karmine Corp vs Fnatic \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406279"
     },
@@ -6160,6 +6148,18 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-08T14:31:47.371000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-08T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -6173,7 +6173,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-08T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6237,7 +6237,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs PCIFIC Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Joblife vs PCIFIC Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707033"
     },
@@ -6285,7 +6285,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs FUT Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Eternal Fire vs FUT Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707017"
     },
