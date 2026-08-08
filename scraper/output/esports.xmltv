@@ -278,11 +278,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260808080000 +0000" stop="20260808100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">T1 vs Hanwha Life Esports · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260808100000 +0000" stop="20260808120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">NONGSHIM RED FORCE vs DN SOOPers · Week 11 · Bo3</desc>
