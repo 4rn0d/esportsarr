@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:53:49.424057+00:00",
+  "generated_at": "2026-08-08T16:20:18.406569+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2572,20 +2572,8 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-08T15:01:29.775000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-08T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -4296,6 +4284,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860101"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-09-07T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116878159559860091"
     },
     {
       "league": "VCT Americas",
@@ -7001,7 +7001,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-08T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7013,7 +7013,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-08T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
