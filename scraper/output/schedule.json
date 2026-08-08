@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T20:17:05.588148+00:00",
+  "generated_at": "2026-08-08T20:54:57.797396+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -4613,7 +4613,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-08T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -6144,18 +6144,6 @@
       "description": "Enterprise Esports vs FNATIC \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721706997"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-08T14:31:47.371000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT EMEA",
