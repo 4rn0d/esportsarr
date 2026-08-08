@@ -133,14 +133,9 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260808171500 +0000" stop="20260808191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">GIANTX vs Movistar KOI · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260809150000 +0000" stop="20260809170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">Team Heretics vs G2 Esports · Week 3 · Bo3</desc>
+    <desc lang="en">G2 Esports vs Team Heretics · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260809171500 +0000" stop="20260809191500 +0000" channel="twitch.lec">
