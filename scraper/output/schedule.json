@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T06:33:52.975864+00:00",
+  "generated_at": "2026-08-08T07:34:27.922359+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1120,6 +1120,18 @@
     {
       "league": "LCK",
       "game": "lol",
+      "start": "2026-08-08T07:22:21.316000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
       "start": "2026-08-08T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
@@ -1949,7 +1961,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-08T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1961,7 +1973,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-08T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1973,7 +1985,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-08T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2424,6 +2436,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125824709"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-05T06:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824715"
     },
     {
       "league": "CBLOL",
@@ -7632,6 +7656,18 @@
       "description": "Gen.G  vs FULL SENSE \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280954978977"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-08T07:10:24.461000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
