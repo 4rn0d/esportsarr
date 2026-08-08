@@ -278,11 +278,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260808100000 +0000" stop="20260808120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">DN SOOPers vs NONGSHIM RED FORCE · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260809080000 +0000" stop="20260809100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Dplus KIA vs kt Rolster · Week 11 · Bo3</desc>
