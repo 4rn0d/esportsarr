@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T08:19:47.714230+00:00",
+  "generated_at": "2026-08-08T09:07:51.870028+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2426,6 +2426,18 @@
       "match_id": "115616310125824715"
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-05T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824721"
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2945,7 +2957,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-08T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
