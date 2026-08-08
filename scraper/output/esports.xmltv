@@ -743,11 +743,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260808090000 +0000" stop="20260808122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Relove Deep Cross Gaming vs MVK Esports · Swiss · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260809090000 +0000" stop="20260809122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">CTBC Flying Oyster vs Ground Zero Gaming · Swiss · Bo5</desc>

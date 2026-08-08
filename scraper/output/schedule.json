@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T13:25:30.025331+00:00",
+  "generated_at": "2026-08-08T14:04:19.624668+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -564,6 +564,18 @@
       "description": "Team Heretics vs Fnatic \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406135"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-08T14:02:14.741000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
@@ -2969,7 +2981,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-08T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
