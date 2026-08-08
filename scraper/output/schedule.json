@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T18:55:42.877291+00:00",
+  "generated_at": "2026-08-08T19:22:18.373619+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2584,6 +2584,18 @@
     {
       "league": "CBLOL",
       "game": "lol",
+      "start": "2026-08-08T15:01:29.775000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
       "start": "2026-08-08T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2597,7 +2609,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-08T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -7025,7 +7037,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-08T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7065,7 +7077,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Karmine Corp \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "ALTERNATE aTTaX Ruby vs Karmine Corp \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173247"
     },
