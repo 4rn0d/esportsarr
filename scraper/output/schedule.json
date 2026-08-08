@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T09:51:49.153524+00:00",
+  "generated_at": "2026-08-08T10:20:57.475031+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -7649,7 +7649,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-08T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7661,7 +7661,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-08T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
