@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:47:38.605921+00:00",
+  "generated_at": "2026-08-08T15:19:33.003025+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -568,20 +568,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-08T14:02:14.741000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-08T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2580,6 +2568,18 @@
       "description": "LOUD vs FURIA \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402949"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-08T15:01:29.775000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "CBLOL",
@@ -6153,7 +6153,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "GIANTX vs FUT Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FUT Esports vs GIANTX \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707001"
     },
@@ -7224,30 +7224,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-09T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Saints Esports vs FOKUS Clan \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956107731258"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-09T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "MIR vs CGN Esports \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058958"
     },
     {
       "league": "Last Chance Qualifier EMEA",
