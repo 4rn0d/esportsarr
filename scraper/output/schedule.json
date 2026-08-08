@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T17:00:08.085641+00:00",
+  "generated_at": "2026-08-08T17:33:29.462219+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -7224,30 +7224,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-09T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "UCAM Esports vs Mandatory \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058978"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-09T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "MISA Espo\u0131rts vs Cilekler \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116831956108058998"
     },
     {
       "league": "Last Chance Qualifier EMEA",
