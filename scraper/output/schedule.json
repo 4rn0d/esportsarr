@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:57:18.817295+00:00",
+  "generated_at": "2026-08-08T11:23:53.429823+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1125,7 +1125,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "NONGSHIM RED FORCE vs DN SOOPers \u00b7 Week 11 \u00b7 Bo3",
+      "description": "DN SOOPers vs NONGSHIM RED FORCE \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900684669"
     },
@@ -2436,6 +2436,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125824721"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-06T06:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824727"
     },
     {
       "league": "CBLOL",

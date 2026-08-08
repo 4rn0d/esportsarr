@@ -280,7 +280,7 @@
   </programme>
   <programme start="20260808100000 +0000" stop="20260808120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">NONGSHIM RED FORCE vs DN SOOPers · Week 11 · Bo3</desc>
+    <desc lang="en">DN SOOPers vs NONGSHIM RED FORCE · Week 11 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260809080000 +0000" stop="20260809100000 +0000" channel="twitch.lck">
@@ -639,6 +639,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905090000 +0000" stop="20260905122000 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260906060000 +0000" stop="20260906092000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
