@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:07:11.410380+00:00",
+  "generated_at": "2026-08-09T07:13:42.674757+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2448,6 +2448,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125824727"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-06T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125824733"
     },
     {
       "league": "CBLOL",
@@ -7644,6 +7656,18 @@
       "description": "GLOBAL ESPORTS vs ZETA DIVISION \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280954978989"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-09T07:08:23.529000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
