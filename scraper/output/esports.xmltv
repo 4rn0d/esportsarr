@@ -33,11 +33,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260808230000 +0000" stop="20260809010000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Shopify Rebellion vs Sentinels · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260809200000 +0000" stop="20260809220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Dignitas vs LYON · Week 3 · Bo3</desc>
@@ -886,11 +881,6 @@
   <programme start="20260907160000 +0000" stop="20260907192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260809000000 +0000" stop="20260809030000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">MIBR vs Leviatán Esports · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260809210000 +0000" stop="20260810000000 +0000" channel="twitch.valorant_americas">
