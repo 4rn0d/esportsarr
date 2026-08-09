@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T20:20:08.108018+00:00",
+  "generated_at": "2026-08-09T20:59:18.153500+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -4656,6 +4656,18 @@
       "description": "MIBR vs Leviat\u00e1n Esports \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115580818086942670"
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-08-09T20:28:28.938000+00:00",
+      "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Americas",
