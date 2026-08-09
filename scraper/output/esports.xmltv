@@ -258,11 +258,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260809100000 +0000" stop="20260809120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">BNK FEARX vs KIWOOM DRX · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260812080000 +0000" stop="20260812100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">DN SOOPers vs NONGSHIM RED FORCE · Week 12 · Bo3</desc>
@@ -706,11 +701,6 @@
   <programme start="20260906160000 +0000" stop="20260906192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260809090000 +0000" stop="20260809122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Ground Zero Gaming vs CTBC Flying Oyster · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813090000 +0000" stop="20260813122000 +0000" channel="twitch.lolpacificen">
@@ -1361,11 +1351,6 @@
   <programme start="20260819150000 +0000" stop="20260819203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260809100000 +0000" stop="20260809130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Rex Regum Qeon vs NONGSHIM REDFORCE · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813080000 +0000" stop="20260813110000 +0000" channel="twitch.valorant_pacific">
