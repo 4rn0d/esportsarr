@@ -850,7 +850,7 @@
   </programme>
   <programme start="20260809210000 +0000" stop="20260810000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">Evil Geniuses vs NRG · Week 4 · Bo3</desc>
+    <desc lang="en">NRG vs Evil Geniuses · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810000000 +0000" stop="20260810030000 +0000" channel="twitch.valorant_americas">
@@ -1124,6 +1124,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260903233000 +0000" stop="20260904023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
