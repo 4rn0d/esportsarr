@@ -258,11 +258,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260809080000 +0000" stop="20260809100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">kt Rolster vs Dplus KIA · Week 11 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260809100000 +0000" stop="20260809120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">BNK FEARX vs KIWOOM DRX · Week 11 · Bo3</desc>
@@ -1365,7 +1360,7 @@
   </programme>
   <programme start="20260809100000 +0000" stop="20260809130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">NONGSHIM REDFORCE vs Rex Regum Qeon · Week 4 · Bo3</desc>
+    <desc lang="en">Rex Regum Qeon vs NONGSHIM REDFORCE · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813080000 +0000" stop="20260813110000 +0000" channel="twitch.valorant_pacific">

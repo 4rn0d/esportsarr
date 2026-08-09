@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T10:14:42.503169+00:00",
+  "generated_at": "2026-08-09T10:53:04.365756+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1121,7 +1121,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-09T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1133,7 +1133,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-09T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -7677,7 +7677,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "NONGSHIM REDFORCE vs Rex Regum Qeon \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Rex Regum Qeon vs NONGSHIM REDFORCE \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280954978997"
     },
