@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:46:12.321540+00:00",
+  "generated_at": "2026-08-09T20:20:08.108018+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -148,20 +148,8 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-08-09T19:01:35.117000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-08-09T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -6221,7 +6209,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-09T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6237,7 +6225,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Eintracht Frankfurt \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Gentle Mates vs Eintracht Frankfurt \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707025"
     },
@@ -6321,7 +6309,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Enterprise Esports vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707021"
     },
