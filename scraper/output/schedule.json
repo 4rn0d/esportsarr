@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:59:05.805712+00:00",
+  "generated_at": "2026-08-09T15:31:45.154487+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -580,20 +580,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-09T14:04:04.799000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-09T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2628,6 +2616,18 @@
       "description": "LEVIAT\u00c1N vs LOS \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402985"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-09T15:02:28.859000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "CBLOL",
@@ -6213,7 +6213,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Fire Flux Esports vs Team Heretics \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Team Heretics vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707009"
     },
@@ -7260,30 +7260,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-10T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "CGN Esports vs Pixel Lumina \u00b7 Quarterfinals \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116832006199962618"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-10T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Cilekler vs Fire Flux Esports \u00b7 Quarterfinals \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116832006200028158"
     },
     {
       "league": "Last Chance Qualifier EMEA",
