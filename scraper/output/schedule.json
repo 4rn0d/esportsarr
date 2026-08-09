@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:20:30.394761+00:00",
+  "generated_at": "2026-08-09T23:55:07.561403+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -5724,6 +5724,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958259171"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-08T23:30:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595958259183"
     },
     {
       "league": "Last Chance Qualifier Americas",
