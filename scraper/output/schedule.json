@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T21:32:58.674276+00:00",
+  "generated_at": "2026-08-09T22:02:34.098314+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -149,7 +149,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-09T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -161,11 +161,11 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-09T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "FlyQuest vs Team Liquid Alienware \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Team Liquid Alienware vs FlyQuest \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797164345559"
     },

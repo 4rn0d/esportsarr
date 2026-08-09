@@ -33,14 +33,9 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260809200000 +0000" stop="20260809220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Dignitas vs LYON · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260809230000 +0000" stop="20260810010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">FlyQuest vs Team Liquid Alienware · Week 3 · Bo3</desc>
+    <desc lang="en">Team Liquid Alienware vs FlyQuest · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815200000 +0000" stop="20260815220000 +0000" channel="twitch.lcs">
