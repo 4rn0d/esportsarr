@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:01:19.400410+00:00",
+  "generated_at": "2026-08-09T08:59:39.448092+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -1125,7 +1125,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Dplus KIA vs kt Rolster \u00b7 Week 11 \u00b7 Bo3",
+      "description": "kt Rolster vs Dplus KIA \u00b7 Week 11 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900553477"
     },
@@ -2981,7 +2981,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-09T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
