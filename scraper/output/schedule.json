@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:55:30.603401+00:00",
+  "generated_at": "2026-08-09T18:25:35.373054+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -580,6 +580,18 @@
     {
       "league": "LEC",
       "game": "lol",
+      "start": "2026-08-09T14:04:04.799000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
       "start": "2026-08-09T15:00:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -593,7 +605,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-09T17:15:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -6213,7 +6225,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Enterprise Esports vs Gentle Mates \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Gentle Mates vs Enterprise Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707013"
     },

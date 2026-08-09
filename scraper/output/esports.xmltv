@@ -123,11 +123,6 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260809171500 +0000" stop="20260809191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Karmine Corp vs Fnatic · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260810150000 +0000" stop="20260810170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Vitality vs SK Gaming · Week 3 · Bo3</desc>
@@ -1140,7 +1135,7 @@
   </programme>
   <programme start="20260809180000 +0000" stop="20260809210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">Enterprise Esports vs Gentle Mates · Play-Ins · Bo3</desc>
+    <desc lang="en">Gentle Mates vs Enterprise Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812150000 +0000" stop="20260812180000 +0000" channel="twitch.valorant_emea">
