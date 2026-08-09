@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T19:09:48.774909+00:00",
+  "generated_at": "2026-08-09T19:46:12.321540+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2645,7 +2645,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-09T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -7056,18 +7056,6 @@
       "description": "Lost Puppies vs ALTERNATE aTTaX Ruby \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173235"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-09T14:31:11.098000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "Game Changers EMEA",
