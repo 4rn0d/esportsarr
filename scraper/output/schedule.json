@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-09T07:13:42.674757+00:00",
+  "generated_at": "2026-08-09T08:01:19.400410+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-10T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "G2 Esports vs LYON \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614593"
-    },
     {
       "league": "MSI",
       "game": "lol",
@@ -1133,7 +1121,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-09T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1973,7 +1961,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-09T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1985,7 +1973,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-09T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1997,7 +1985,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-09T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -7660,20 +7648,8 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-09T07:08:23.529000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-09T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -8004,18 +7980,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044721"
-    },
-    {
-      "league": "Last Chance Qualifier Pacific",
-      "game": "valorant",
-      "start": "2026-07-10T08:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "555 vs Fancy United Esports \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116810285110343196"
     }
   ]
 }
