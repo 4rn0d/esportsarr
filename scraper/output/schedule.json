@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T13:30:52.149332+00:00",
+  "generated_at": "2026-08-09T14:18:19.926736+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -576,6 +576,18 @@
       "description": "GIANTX vs Movistar KOI \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406235"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-09T14:04:04.799000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
@@ -6192,6 +6204,18 @@
       "description": "Joblife vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707005"
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
+      "start": "2026-08-09T14:14:10.840000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT EMEA",
