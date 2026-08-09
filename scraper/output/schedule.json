@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T22:47:30.639619+00:00",
+  "generated_at": "2026-08-09T23:20:30.394761+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -161,7 +161,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-09T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -4661,7 +4661,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-09T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4673,11 +4673,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-10T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "LOUD vs 100 Thieves \u00b7 Week 4 \u00b7 Bo3",
+      "description": "100 Thieves vs LOUD \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115580818087008230"
     },

@@ -33,11 +33,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260809230000 +0000" stop="20260810010000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Team Liquid Alienware vs FlyQuest · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260815200000 +0000" stop="20260815220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Disguised vs Team Liquid Alienware · Week 4 · Bo3</desc>
@@ -843,14 +838,9 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260809210000 +0000" stop="20260810000000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">NRG vs Evil Geniuses · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260810000000 +0000" stop="20260810030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">LOUD vs 100 Thieves · Week 4 · Bo3</desc>
+    <desc lang="en">100 Thieves vs LOUD · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813210000 +0000" stop="20260814000000 +0000" channel="twitch.valorant_americas">
