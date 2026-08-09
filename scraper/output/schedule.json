@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:21:47.453774+00:00",
+  "generated_at": "2026-08-09T17:55:30.603401+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2621,7 +2621,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-09T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2633,7 +2633,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-09T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -6197,7 +6197,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-09T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6209,7 +6209,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-09T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6237,7 +6237,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs NAVI \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Team Heretics vs NAVI \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707029"
     },
@@ -6309,7 +6309,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707021"
     },
@@ -7248,30 +7248,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-10T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Clan vs Eintracht Frankfurt \u00b7 Quarterfinals \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116832006200028162"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-10T17:30:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Mandatory vs Bar\u00e7a Esports \u00b7 Quarterfinals \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116832006200028166"
     },
     {
       "league": "Last Chance Qualifier EMEA",
