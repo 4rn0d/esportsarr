@@ -675,22 +675,22 @@
   </programme>
   <programme start="20260813090000 +0000" stop="20260813122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo5</desc>
+    <desc lang="en">GAM Esports vs Relove Deep Cross Gaming · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260814090000 +0000" stop="20260814122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <desc lang="en">CTBC Flying Oyster vs MVK Esports · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815090000 +0000" stop="20260815122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <desc lang="en">Ground Zero Gaming vs DetonatioN FocusMe · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816090000 +0000" stop="20260816122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <desc lang="en">TBD vs Team Secret Whales · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820090000 +0000" stop="20260820122000 +0000" channel="twitch.lolpacificen">
@@ -740,32 +740,32 @@
   </programme>
   <programme start="20260810160000 +0000" stop="20260810180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">Ruddy Corporation vs Lundqvist Lightside · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810170000 +0000" stop="20260810190000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">Bulldog Esports vs Bardicted to U · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810180000 +0000" stop="20260810200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">Arctic Pandas vs Brod &amp; Friends · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812160000 +0000" stop="20260812180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">VES vs Rich Gang · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812170000 +0000" stop="20260812190000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">Lund Esports Organization vs Epic Avalanche · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812180000 +0000" stop="20260812200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <desc lang="en">DMG Esports vs Absolved · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="twitch.NLCLoL">
@@ -836,11 +836,6 @@
   <programme start="20260907160000 +0000" stop="20260907192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260810000000 +0000" stop="20260810030000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">100 Thieves vs LOUD · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813210000 +0000" stop="20260814000000 +0000" channel="twitch.valorant_americas">

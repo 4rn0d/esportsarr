@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T23:55:07.561403+00:00",
+  "generated_at": "2026-08-10T00:57:30.444026+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -3021,7 +3021,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo5",
+      "description": "GAM Esports vs Relove Deep Cross Gaming \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115570814727903891"
     },
@@ -3033,7 +3033,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769725389404173"
     },
@@ -3045,9 +3045,9 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "Ground Zero Gaming vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "116769725389404185"
+      "match_id": "116769725389404179"
     },
     {
       "league": "LCP",
@@ -3057,9 +3057,9 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "TBD vs Team Secret Whales \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "116769725389404179"
+      "match_id": "116769725389404185"
     },
     {
       "league": "LCP",
@@ -4089,7 +4089,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Ruddy Corporation vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860023"
     },
@@ -4101,7 +4101,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Bulldog Esports vs Bardicted to U \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860027"
     },
@@ -4113,7 +4113,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Arctic Pandas vs Brod & Friends \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860031"
     },
@@ -4125,7 +4125,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "VES vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860035"
     },
@@ -4137,7 +4137,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Lund Esports Organization vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860039"
     },
@@ -4149,7 +4149,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "DMG Esports vs Absolved \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860043"
     },
@@ -4673,7 +4673,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-10T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
