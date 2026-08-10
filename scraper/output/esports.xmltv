@@ -113,11 +113,6 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260810171500 +0000" stop="20260810191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">G2 Esports vs Natus Vincere · Week 3 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260814150000 +0000" stop="20260814170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Shifters vs SK Gaming · Week 4 · Bo3</desc>
@@ -731,11 +726,6 @@
   <programme start="20260906050000 +0000" stop="20260906082000 +0000" channel="twitch.leagueoflegendsjp">
     <title lang="en">LJL</title>
     <desc lang="en">TBD vs FENNEL · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260810170000 +0000" stop="20260810190000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Bardicted to U vs Bulldog Esports · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810180000 +0000" stop="20260810200000 +0000" channel="twitch.NLCLoL">
