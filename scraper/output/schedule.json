@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:04:23.327970+00:00",
+  "generated_at": "2026-08-10T15:14:50.228484+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -593,11 +593,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-10T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Team Vitality vs SK Gaming \u00b7 Week 3 \u00b7 Bo3",
+      "description": "SK Gaming vs Team Vitality \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406187"
     },
@@ -7085,11 +7085,11 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-10T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "ALTERNATE aTTaX Ruby vs Karmine Corp \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "Karmine Corp vs ALTERNATE aTTaX Ruby \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173247"
     },
@@ -7260,18 +7260,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238839"
-    },
-    {
-      "league": "Last Chance Qualifier EMEA",
-      "game": "valorant",
-      "start": "2026-07-11T15:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Cilekler vs CGN Esports \u00b7 Semifinals \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116832006200028170"
     },
     {
       "league": "Last Chance Qualifier EMEA",

@@ -115,7 +115,7 @@
   </programme>
   <programme start="20260810150000 +0000" stop="20260810170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">Team Vitality vs SK Gaming · Week 3 · Bo3</desc>
+    <desc lang="en">SK Gaming vs Team Vitality · Week 3 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810171500 +0000" stop="20260810191500 +0000" channel="twitch.lec">
@@ -1230,7 +1230,7 @@
   </programme>
   <programme start="20260810150000 +0000" stop="20260810180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">ALTERNATE aTTaX Ruby vs Karmine Corp · Play In Knockouts · Bo3</desc>
+    <desc lang="en">Karmine Corp vs ALTERNATE aTTaX Ruby · Play In Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810180000 +0000" stop="20260810210000 +0000" channel="twitch.valorant_emea">
