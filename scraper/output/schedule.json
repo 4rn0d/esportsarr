@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:13:31.150185+00:00",
+  "generated_at": "2026-08-10T20:01:40.843189+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -7109,7 +7109,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-10T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
