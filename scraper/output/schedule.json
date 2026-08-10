@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:14:50.228484+00:00",
+  "generated_at": "2026-08-10T16:09:37.279985+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -4073,7 +4073,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-10T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -4308,6 +4308,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860091"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-09-09T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116878159559860105"
     },
     {
       "league": "VCT Americas",
