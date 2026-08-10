@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T20:58:54.129442+00:00",
+  "generated_at": "2026-08-10T21:41:11.208509+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2632,20 +2632,8 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-10T20:30:16.655000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-10T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -5397,18 +5385,6 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996923"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
       "description": "Revitalize GC vs Eternal Focus Amethyst \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958062471"
@@ -5421,9 +5397,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Los Chudeles vs SaD GC \u00b7 Swiss \u00b7 Bo3",
+      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957996931"
+      "match_id": "116888595957996923"
     },
     {
       "league": "Game Changers NA",
@@ -5440,8 +5416,20 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "completed",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "Los Chudeles vs SaD GC \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595957996931"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
       "start": "2026-08-10T20:59:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5457,7 +5445,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": ":3 vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
+      "description": "SEN Otters vs :3 \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958062483"
     },
@@ -5748,6 +5736,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958259183"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-09-09T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116888595958259187"
     },
     {
       "league": "Last Chance Qualifier Americas",

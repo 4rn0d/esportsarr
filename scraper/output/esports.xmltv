@@ -975,7 +975,7 @@
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
-    <desc lang="en">:3 vs SEN Otters · Swiss · Bo3</desc>
+    <desc lang="en">SEN Otters vs :3 · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260810210000 +0000" stop="20260811000000 +0000" channel="twitch.valorant_americas">
@@ -1096,6 +1096,11 @@
   <programme start="20260908233000 +0000" stop="20260909023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260909210000 +0000" stop="20260910023000 +0000" channel="twitch.valorant_americas">
+    <title lang="en">Game Changers NA</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812150000 +0000" stop="20260812180000 +0000" channel="twitch.valorant_emea">
