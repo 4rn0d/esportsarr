@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-10T06:06:31.221778+00:00",
+  "generated_at": "2026-08-10T08:02:10.153033+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-11T08:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "LYON vs Hanwha Life Esports \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614599"
-    },
     {
       "league": "MSI",
       "game": "lol",
