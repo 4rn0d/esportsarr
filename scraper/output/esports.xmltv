@@ -1090,12 +1090,12 @@
   </programme>
   <programme start="20260815150000 +0000" stop="20260815180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">Eternal Fire vs FUT Esports · Play-Ins · Bo3</desc>
+    <desc lang="en">Fire Flux Esports vs Enterprise Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815180000 +0000" stop="20260815210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">Enterprise Esports vs Fire Flux Esports · Play-Ins · Bo3</desc>
+    <desc lang="en">FUT Esports vs Eternal Fire · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.valorant_emea">

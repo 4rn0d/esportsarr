@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:42:30.619756+00:00",
+  "generated_at": "2026-08-11T10:33:22.342256+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6321,9 +6321,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Eternal Fire vs FUT Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Fire Flux Esports vs Enterprise Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115581261721707017"
+      "match_id": "115581261721707021"
     },
     {
       "league": "VCT EMEA",
@@ -6333,9 +6333,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Enterprise Esports vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FUT Esports vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115581261721707021"
+      "match_id": "115581261721707017"
     },
     {
       "league": "VCT EMEA",
