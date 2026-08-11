@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:33:21.573248+00:00",
+  "generated_at": "2026-08-11T07:52:00.493996+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3192,6 +3192,18 @@
       "description": "New Meta vs FENNEL \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783735"
+    },
+    {
+      "league": "LJL",
+      "game": "lol",
+      "start": "2026-08-11T07:39:28.916000+00:00",
+      "state": "in_progress",
+      "title": "LJL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LJL",
