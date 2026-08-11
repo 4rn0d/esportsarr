@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T00:56:52.993801+00:00",
+  "generated_at": "2026-08-11T03:01:34.439227+00:00",
   "matches": [
     {
       "league": "MSI",
@@ -2632,18 +2632,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-10T20:30:16.655000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-10T21:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -5085,9 +5073,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "The Spiders vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
+      "description": "FlyQuest RED vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931287"
+      "match_id": "116888595957931283"
     },
     {
       "league": "Game Changers NA",
@@ -5097,9 +5085,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
+      "description": "The Spiders vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931283"
+      "match_id": "116888595957931287"
     },
     {
       "league": "Game Changers NA",
@@ -5265,9 +5253,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Ora Temper vs SaD GC \u00b7 Swiss \u00b7 Bo3",
+      "description": "FlyQuest RED vs Axolotl \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931351"
+      "match_id": "116888595957931343"
     },
     {
       "league": "Game Changers NA",
@@ -5289,9 +5277,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs Axolotl \u00b7 Swiss \u00b7 Bo3",
+      "description": "Ora Temper vs SaD GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957931343"
+      "match_id": "116888595957931351"
     },
     {
       "league": "Game Changers NA",
@@ -5397,21 +5385,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Los Chudeles vs SaD GC \u00b7 Swiss \u00b7 Bo3",
+      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957996931"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "ROSO GC vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996927"
+      "match_id": "116888595957996923"
     },
     {
       "league": "Game Changers NA",
@@ -5433,9 +5409,21 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
+      "description": "Los Chudeles vs SaD GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957996923"
+      "match_id": "116888595957996931"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "completed",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": "ROSO GC vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595957996927"
     },
     {
       "league": "Game Changers NA",
@@ -5489,7 +5477,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-08-10T23:29:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5501,7 +5489,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-08-10T23:30:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5513,7 +5501,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-08-10T23:30:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",

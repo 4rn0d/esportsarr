@@ -958,21 +958,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260810232900 +0000" stop="20260811022900 +0000" channel="twitch.valorant_americas">
-    <title lang="en">Game Changers NA</title>
-    <desc lang="en">SwimTrek Blue vs HIMMERS · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260810233000 +0000" stop="20260811023000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">Game Changers NA</title>
-    <desc lang="en">Los Chudeles vs MVSK Secret · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260810233000 +0000" stop="20260811023000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">Game Changers NA</title>
-    <desc lang="en">ROSO GC vs SaD GC · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260812210000 +0000" stop="20260813000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
