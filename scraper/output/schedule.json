@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T07:52:00.493996+00:00",
+  "generated_at": "2026-08-11T08:43:30.051163+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3196,20 +3196,8 @@
     {
       "league": "LJL",
       "game": "lol",
-      "start": "2026-08-11T07:39:28.916000+00:00",
-      "state": "in_progress",
-      "title": "LJL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
       "start": "2026-08-11T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
