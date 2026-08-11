@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-11T05:40:15.791624+00:00",
+  "generated_at": "2026-08-11T06:33:21.573248+00:00",
   "matches": [
-    {
-      "league": "MSI",
-      "game": "lol",
-      "start": "2026-07-12T06:00:00+00:00",
-      "state": "completed",
-      "title": "MSI",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "BILIBILI GAMING vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570934355614605"
-    },
     {
       "league": "LCS",
       "game": "lol",
