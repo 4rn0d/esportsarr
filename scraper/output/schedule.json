@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T10:18:14.119130+00:00",
+  "generated_at": "2026-08-12T11:13:57.660513+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1121,7 +1121,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-12T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1133,11 +1133,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-12T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "kt Rolster vs Dplus KIA \u00b7 Week 12 \u00b7 Bo3",
+      "description": "Dplus KIA vs kt Rolster \u00b7 Week 12 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900684589"
     },
@@ -1488,18 +1488,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841631"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-22T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "TOP ESPORTS vs Xi'an Team WE \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769572"
     },
     {
       "league": "LPL",
