@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T15:35:35.029040+00:00",
+  "generated_at": "2026-08-12T16:33:17.904924+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3748,24 +3748,12 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-12T15:09:59.633000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-12T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs TLN Pirates \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TLN Pirates vs Ici Japon Corp \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900121272"
     },
@@ -3813,9 +3801,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
+      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794395"
+      "match_id": "116878159559794391"
     },
     {
       "league": "NLC",
@@ -3825,21 +3813,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794391"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-20T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bardicted to U vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794403"
+      "match_id": "116878159559794395"
     },
     {
       "league": "NLC",
@@ -3852,6 +3828,18 @@
       "description": "Arctic Pandas vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559794399"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-07-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "Bardicted to U vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116878159559794403"
     },
     {
       "league": "NLC",
@@ -4077,9 +4065,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
+      "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559860011"
+      "match_id": "116878159559860019"
     },
     {
       "league": "NLC",
@@ -4089,9 +4077,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559860019"
+      "match_id": "116878159559860011"
     },
     {
       "league": "NLC",
@@ -4132,24 +4120,12 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-08-12T15:32:33.795000+00:00",
-      "state": "in_progress",
-      "title": "NLC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-08-12T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "VES vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
+      "description": "Rich Gang vs VES \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860035"
     },

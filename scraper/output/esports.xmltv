@@ -698,7 +698,7 @@
   </programme>
   <programme start="20260812160000 +0000" stop="20260812180000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">Ici Japon Corp vs TLN Pirates · Playoffs · Bo3</desc>
+    <desc lang="en">TLN Pirates vs Ici Japon Corp · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812190000 +0000" stop="20260812210000 +0000" channel="twitch.otplol_">
@@ -718,7 +718,7 @@
   </programme>
   <programme start="20260812160000 +0000" stop="20260812180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">VES vs Rich Gang · Swiss · Bo3</desc>
+    <desc lang="en">Rich Gang vs VES · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812170000 +0000" stop="20260812190000 +0000" channel="twitch.NLCLoL">
