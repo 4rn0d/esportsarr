@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T11:58:17.482153+00:00",
+  "generated_at": "2026-08-12T13:04:57.754581+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1133,7 +1133,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-12T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1965,7 +1965,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "BILIBILI GAMING vs Beijing JDG Esports \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Beijing JDG Esports vs BILIBILI GAMING \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116566854547769668"
     },
