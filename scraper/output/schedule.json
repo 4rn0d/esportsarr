@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T18:33:06.979682+00:00",
+  "generated_at": "2026-08-12T19:45:56.551378+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3761,7 +3761,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-12T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
