@@ -233,7 +233,7 @@
   </programme>
   <programme start="20260812080000 +0000" stop="20260812100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">DN SOOPers vs NONGSHIM RED FORCE · Week 12 · Bo3</desc>
+    <desc lang="en">NONGSHIM RED FORCE vs DN SOOPers · Week 12 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260812100000 +0000" stop="20260812120000 +0000" channel="twitch.lck">
@@ -384,16 +384,6 @@
   <programme start="20260906080000 +0000" stop="20260906112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260812090000 +0000" stop="20260812110000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">EDWARD GAMING vs Anyone's Legend · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260812110000 +0000" stop="20260812130000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">BILIBILI GAMING vs Beijing JDG Esports · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813070000 +0000" stop="20260813090000 +0000" channel="youtube.LPL_English">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:53:14.437217+00:00",
+  "generated_at": "2026-08-12T09:00:49.363337+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1120,24 +1120,12 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-12T07:22:03.540000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-12T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "DN SOOPers vs NONGSHIM RED FORCE \u00b7 Week 12 \u00b7 Bo3",
+      "description": "NONGSHIM RED FORCE vs DN SOOPers \u00b7 Week 12 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900750245"
     },
@@ -1500,18 +1488,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841631"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-22T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "EDWARD GAMING vs LGD GAMING \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769644"
     },
     {
       "league": "LPL",
@@ -1985,7 +1961,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-12T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1997,7 +1973,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-12T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
