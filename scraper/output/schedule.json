@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T16:33:17.904924+00:00",
+  "generated_at": "2026-08-12T17:39:12.401807+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4137,7 +4137,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Lund Esports Organization vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
+      "description": "Epic Avalanche vs Lund Esports Organization \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860039"
     },
@@ -6269,7 +6269,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-12T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6281,7 +6281,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-12T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6321,7 +6321,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Eintracht Frankfurt \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707041"
     },
