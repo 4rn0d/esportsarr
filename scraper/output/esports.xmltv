@@ -706,11 +706,6 @@
     <desc lang="en">Solary vs Vitality.Bee · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260812180000 +0000" stop="20260812200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Absolved vs DMG Esports · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
