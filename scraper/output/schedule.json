@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T06:42:21.350381+00:00",
+  "generated_at": "2026-08-13T08:04:35.247334+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1145,7 +1145,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-13T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1490,16 +1490,16 @@
       "match_id": "117030752644841631"
     },
     {
-      "league": "LPL",
+      "league": "LCK",
       "game": "lol",
-      "start": "2026-07-23T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs Beijing JDG Esports \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769616"
+      "start": "2026-09-12T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117030752644841637"
     },
     {
       "league": "LPL",
@@ -7577,7 +7577,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-13T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",

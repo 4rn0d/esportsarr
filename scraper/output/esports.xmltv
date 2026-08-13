@@ -376,6 +376,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260912080000 +0000" stop="20260912112000 +0000" channel="twitch.lck">
+    <title lang="en">LCK</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260814070000 +0000" stop="20260814090000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">EDWARD GAMING vs LGD GAMING · Week 4 · Bo3</desc>
