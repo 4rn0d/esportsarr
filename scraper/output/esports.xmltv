@@ -1091,11 +1091,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260813150000 +0000" stop="20260813180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">G2 Gozen vs ALTERNATE aTTaX Ruby · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260813180000 +0000" stop="20260813210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">FOKUS Sakura vs Gentle Mates · Playoffs · Bo3</desc>
@@ -1113,7 +1108,7 @@
   </programme>
   <programme start="20260815150000 +0000" stop="20260815180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs ALTERNATE aTTaX Ruby · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815180000 +0000" stop="20260815210000 +0000" channel="twitch.valorant_emea">
@@ -1123,7 +1118,7 @@
   </programme>
   <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs G2 Gozen · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816180000 +0000" stop="20260816210000 +0000" channel="twitch.valorant_emea">
