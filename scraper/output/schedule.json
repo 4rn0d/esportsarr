@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:42:15.858983+00:00",
+  "generated_at": "2026-08-13T20:20:00.618049+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6209,7 +6209,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-13T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6237,7 +6237,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Joblife \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FNATIC vs Joblife \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707045"
     },
