@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:38:39.396563+00:00",
+  "generated_at": "2026-08-13T16:32:27.593748+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2774,6 +2774,18 @@
       "match_id": "115565671526403063"
     },
     {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-12T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565671526403069"
+    },
+    {
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-25T09:00:00+00:00",
@@ -3760,20 +3772,8 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-13T15:04:59.197000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-13T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
