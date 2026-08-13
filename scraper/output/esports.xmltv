@@ -231,11 +231,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260813100000 +0000" stop="20260813120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs Gen.G Esports · Week 12 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260814080000 +0000" stop="20260814100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">T1 vs Dplus KIA · Week 12 · Bo3</desc>
@@ -624,11 +619,6 @@
   <programme start="20260906160000 +0000" stop="20260906192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260813090000 +0000" stop="20260813122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Relove Deep Cross Gaming vs GAM Esports · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260814090000 +0000" stop="20260814122000 +0000" channel="twitch.lolpacificen">
@@ -1166,11 +1156,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260813100000 +0000" stop="20260813130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Rex Regum Qeon vs Sharper Esports · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260814080000 +0000" stop="20260814110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">FULL SENSE vs QT DIG ∞ · Play-Ins · Bo3</desc>
@@ -1183,12 +1168,12 @@
   </programme>
   <programme start="20260815080000 +0000" stop="20260815110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">Kiwoom DRX vs ZETA DIVISION · Play-Ins · Bo3</desc>
+    <desc lang="en">ZETA DIVISION vs Kiwoom DRX · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815100000 +0000" stop="20260815130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs DetonatioN FocusMe · Play-Ins · Bo3</desc>
+    <desc lang="en">DetonatioN FocusMe vs Sharper Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816080000 +0000" stop="20260816110000 +0000" channel="twitch.valorant_pacific">
@@ -1208,7 +1193,7 @@
   </programme>
   <programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs Rex Regum Qeon · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820080000 +0000" stop="20260820110000 +0000" channel="twitch.valorant_pacific">

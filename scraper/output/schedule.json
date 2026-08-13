@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:07:55.335261+00:00",
+  "generated_at": "2026-08-13T13:42:54.550782+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1157,7 +1157,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-13T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2957,7 +2957,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-13T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -7577,7 +7577,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-13T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7617,7 +7617,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Kiwoom DRX vs ZETA DIVISION \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ZETA DIVISION vs Kiwoom DRX \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044633"
     },
@@ -7629,7 +7629,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "DetonatioN FocusMe vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044637"
     },
@@ -7677,7 +7677,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Rex Regum Qeon \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044661"
     },
