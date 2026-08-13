@@ -678,12 +678,12 @@
   </programme>
   <programme start="20260813160000 +0000" stop="20260813180000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">Skillcamp vs Karmine Corp Blue · Playoffs · Bo3</desc>
+    <desc lang="en">Karmine Corp Blue vs Skillcamp · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813190000 +0000" stop="20260813210000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">Solary vs Vitality.Bee · Playoffs · Bo3</desc>
+    <desc lang="en">Vitality.Bee vs Solary · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="twitch.NLCLoL">

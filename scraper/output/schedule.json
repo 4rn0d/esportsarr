@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:42:54.550782+00:00",
+  "generated_at": "2026-08-13T15:38:39.396563+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3760,12 +3760,24 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
+      "start": "2026-08-13T15:04:59.197000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
       "start": "2026-08-13T16:00:00+00:00",
       "state": "unstarted",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Skillcamp vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Karmine Corp Blue vs Skillcamp \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900121280"
     },
@@ -3777,7 +3789,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Solary vs Vitality.Bee \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Vitality.Bee vs Solary \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900055732"
     },
@@ -6185,7 +6197,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-13T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7037,7 +7049,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-13T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
