@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T10:42:37.846824+00:00",
+  "generated_at": "2026-08-13T11:27:08.405521+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1161,7 +1161,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Week 12 \u00b7 Bo3",
+      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Week 12 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900619021"
     },
@@ -1500,18 +1500,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841637"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-24T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs LGD GAMING \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769620"
     },
     {
       "league": "LPL",
