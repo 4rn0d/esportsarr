@@ -556,6 +556,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260912090000 +0000" stop="20260912122000 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260815160000 +0000" stop="20260815180000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">FURIA vs RED Kalunga · Week 4 · Bo3</desc>
@@ -628,7 +633,7 @@
   </programme>
   <programme start="20260813090000 +0000" stop="20260813122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">GAM Esports vs Relove Deep Cross Gaming · Swiss · Bo5</desc>
+    <desc lang="en">Relove Deep Cross Gaming vs GAM Esports · Swiss · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260814090000 +0000" stop="20260814122000 +0000" channel="twitch.lolpacificen">
@@ -1168,7 +1173,7 @@
   </programme>
   <programme start="20260813080000 +0000" stop="20260813110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">Kiwoom DRX vs ONSIDE GAMING · Play-Ins · Bo3</desc>
+    <desc lang="en">ONSIDE GAMING vs Kiwoom DRX · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260813100000 +0000" stop="20260813130000 +0000" channel="twitch.valorant_pacific">

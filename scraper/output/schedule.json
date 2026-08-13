@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T08:04:35.247334+00:00",
+  "generated_at": "2026-08-13T09:31:26.723595+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1504,18 +1504,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-07-23T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "THUNDER TALK GAMING vs BILIBILI GAMING \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769568"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-07-24T07:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -2426,6 +2414,18 @@
       "match_id": "115616310125890287"
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-12T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125890275"
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -2969,11 +2969,11 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-13T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "GAM Esports vs Relove Deep Cross Gaming \u00b7 Swiss \u00b7 Bo5",
+      "description": "Relove Deep Cross Gaming vs GAM Esports \u00b7 Swiss \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115570814727903891"
     },
@@ -7581,7 +7581,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Kiwoom DRX vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ONSIDE GAMING vs Kiwoom DRX \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044617"
     },
