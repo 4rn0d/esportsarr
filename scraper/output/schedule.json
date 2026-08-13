@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T20:20:00.618049+00:00",
+  "generated_at": "2026-08-13T21:10:57.507229+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3785,7 +3785,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-13T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -4697,11 +4697,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-13T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "KR\u00dc Visa vs BESTIA \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "BESTIA vs KR\u00dc Visa \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450144"
     },
@@ -7061,7 +7061,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-13T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7101,7 +7101,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs ALTERNATE aTTaX Ruby \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FOKUS Sakura vs ALTERNATE aTTaX Ruby \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238815"
     },
@@ -7125,7 +7125,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Gentle Mates vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238807"
     },
