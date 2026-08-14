@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:43:58.242771+00:00",
+  "generated_at": "2026-08-14T15:33:19.244655+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -604,24 +604,12 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-14T14:10:00.345000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-14T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Shifters vs SK Gaming \u00b7 Week 4 \u00b7 Bo3",
+      "description": "SK Gaming vs Shifters \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406211"
     },
@@ -5788,18 +5776,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-15T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs NAVI \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706889"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-15T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -6292,24 +6268,12 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-14T14:31:35.240000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-14T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Team Heretics vs Eintracht Frankfurt \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Eintracht Frankfurt vs Team Heretics \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707041"
     },
@@ -7156,20 +7120,8 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-14T14:12:43.397000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-14T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
