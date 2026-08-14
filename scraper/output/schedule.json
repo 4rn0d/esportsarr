@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T08:57:48.481380+00:00",
+  "generated_at": "2026-08-14T09:57:50.556572+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1516,18 +1516,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-07-24T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "BILIBILI GAMING vs EDWARD GAMING \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769564"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-07-25T07:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -2412,6 +2400,30 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125890275"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-13T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125890293"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-13T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125890305"
     },
     {
       "league": "CBLOL",
