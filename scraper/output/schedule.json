@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T07:51:38.243574+00:00",
+  "generated_at": "2026-08-14T08:57:48.481380+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1173,7 +1173,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "T1 vs Dplus KIA \u00b7 Week 12 \u00b7 Bo3",
+      "description": "Dplus KIA vs T1 \u00b7 Week 12 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900619041"
     },
@@ -1500,6 +1500,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841637"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-09-13T08:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCK",
+      "stream_platform": "twitch",
+      "stream_channel": "lck",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117030752644841643"
     },
     {
       "league": "LPL",
@@ -2969,7 +2981,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-14T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",

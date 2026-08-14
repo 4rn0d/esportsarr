@@ -230,7 +230,7 @@
   </programme>
   <programme start="20260814080000 +0000" stop="20260814100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">T1 vs Dplus KIA · Week 12 · Bo3</desc>
+    <desc lang="en">Dplus KIA vs T1 · Week 12 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260814100000 +0000" stop="20260814120000 +0000" channel="twitch.lck">
@@ -366,6 +366,11 @@
   <programme start="20260912080000 +0000" stop="20260912112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260913080000 +0000" stop="20260913112000 +0000" channel="twitch.lck">
+    <title lang="en">LCK</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815070000 +0000" stop="20260815090000 +0000" channel="youtube.LPL_English">
