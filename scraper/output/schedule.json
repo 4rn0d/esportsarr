@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:51:37.069271+00:00",
+  "generated_at": "2026-08-14T14:43:58.242771+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -600,6 +600,18 @@
       "description": "G2 Esports vs Natus Vincere \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406175"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-14T14:10:00.345000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
@@ -6280,6 +6292,18 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-14T14:31:35.240000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-14T15:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
@@ -7128,6 +7152,18 @@
       "description": "FOKUS Sakura vs Gentle Mates \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173259"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-14T14:12:43.397000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "Game Changers EMEA",
