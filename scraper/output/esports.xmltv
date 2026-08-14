@@ -116,14 +116,9 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260814150000 +0000" stop="20260814170000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">SK Gaming vs Shifters · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260814171500 +0000" stop="20260814191500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">Team Vitality vs GIANTX · Week 4 · Bo3</desc>
+    <desc lang="en">GIANTX vs Team Vitality · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815150000 +0000" stop="20260815170000 +0000" channel="twitch.lec">
@@ -981,11 +976,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260814150000 +0000" stop="20260814180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">Eintracht Frankfurt vs Team Heretics · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260814180000 +0000" stop="20260814210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">FNATIC vs Joblife · Play-Ins · Bo3</desc>
@@ -1008,7 +998,7 @@
   </programme>
   <programme start="20260816180000 +0000" stop="20260816210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs Eintracht Frankfurt · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820150000 +0000" stop="20260820180000 +0000" channel="twitch.valorant_emea">
@@ -1071,11 +1061,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260814150000 +0000" stop="20260814180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Habos Babos vs GIANTX · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260814180000 +0000" stop="20260814210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">Twisted Minds Orchid vs SK Nebula · Playoffs · Bo3</desc>
@@ -1088,7 +1073,7 @@
   </programme>
   <programme start="20260815180000 +0000" stop="20260815210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs Habos Babos · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.valorant_emea">
@@ -1098,7 +1083,7 @@
   </programme>
   <programme start="20260816180000 +0000" stop="20260816210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs GIANTX · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260817150000 +0000" stop="20260817180000 +0000" channel="twitch.valorant_emea">
