@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T19:25:20.380601+00:00",
+  "generated_at": "2026-08-14T20:01:28.109319+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -600,18 +600,6 @@
       "description": "G2 Esports vs Natus Vincere \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406175"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-14T14:10:00.345000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LEC",
@@ -6293,7 +6281,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-14T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6333,7 +6321,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Joblife \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707053"
     },
