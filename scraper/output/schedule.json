@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:57:50.556572+00:00",
+  "generated_at": "2026-08-14T10:55:23.955270+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1169,7 +1169,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-14T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1181,7 +1181,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-14T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -7613,7 +7613,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-14T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7625,11 +7625,11 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-14T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Team Secret vs Xipto Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Xipto Esports vs Team Secret \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044629"
     },
@@ -7665,7 +7665,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs T1 \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FULL SENSE vs T1 \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044641"
     },
@@ -7713,7 +7713,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs QT DIG \u221e \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044665"
     },
