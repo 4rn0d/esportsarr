@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T11:36:58.719735+00:00",
+  "generated_at": "2026-08-14T12:28:03.932894+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3804,6 +3804,54 @@
       "description": "Vitality.Bee vs Solary \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900055732"
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-18T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Solary vs TLN Pirates \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116912368900121284"
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-18T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Galions vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116912368900121288"
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-19T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Ici Japon Corp vs Vitality.Bee \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116912368900121292"
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-08-19T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": "twitch",
+      "stream_channel": "otplol_",
+      "description": "Skillcamp vs Joblife \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116912368900121296"
     },
     {
       "league": "NLC",

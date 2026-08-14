@@ -21,6 +21,9 @@
   <channel id="twitch.leagueoflegendsjp">
     <display-name>LJL</display-name>
   </channel>
+  <channel id="twitch.otplol_">
+    <display-name>La Ligue Française</display-name>
+  </channel>
   <channel id="twitch.NLCLoL">
     <display-name>NLC</display-name>
   </channel>
@@ -671,6 +674,26 @@
   <programme start="20260906050000 +0000" stop="20260906082000 +0000" channel="twitch.leagueoflegendsjp">
     <title lang="en">LJL</title>
     <desc lang="en">TBD vs FENNEL · Finals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260818160000 +0000" stop="20260818180000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Solary vs TLN Pirates · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260818190000 +0000" stop="20260818210000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Galions vs Karmine Corp Blue · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260819160000 +0000" stop="20260819180000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Ici Japon Corp vs Vitality.Bee · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260819190000 +0000" stop="20260819210000 +0000" channel="twitch.otplol_">
+    <title lang="en">La Ligue Française</title>
+    <desc lang="en">Skillcamp vs Joblife · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="twitch.NLCLoL">
