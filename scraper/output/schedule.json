@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:28:03.932894+00:00",
+  "generated_at": "2026-08-14T13:51:37.069271+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1181,7 +1181,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-14T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2993,7 +2993,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-14T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -3021,7 +3021,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs Team Secret Whales \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "CTBC Flying Oyster vs Team Secret Whales \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769725389404185"
     },
@@ -7673,7 +7673,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-14T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7725,7 +7725,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs NONGSHIM REDFORCE \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Team Secret vs NONGSHIM REDFORCE \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044645"
     },
@@ -7773,7 +7773,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Xipto Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044669"
     },
