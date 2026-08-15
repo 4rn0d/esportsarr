@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:57:47.214835+00:00",
+  "generated_at": "2026-08-15T14:18:22.829227+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -624,6 +624,18 @@
       "description": "GIANTX vs Team Vitality \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406183"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-15T14:06:04.178000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
