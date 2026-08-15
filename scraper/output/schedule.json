@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T22:35:55.026305+00:00",
+  "generated_at": "2026-08-15T22:56:23.125296+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4817,7 +4817,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-15T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4829,7 +4829,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-16T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4905,7 +4905,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs Fluxo \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "KR\u00dc Visa vs Fluxo \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450196"
     },
@@ -4917,7 +4917,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs MIBR \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450176"
     },
