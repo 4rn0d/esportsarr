@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T19:34:38.392242+00:00",
+  "generated_at": "2026-08-15T19:53:33.936677+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6288,18 +6288,6 @@
       "description": "Joblife vs FNATIC \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707045"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-15T14:34:17.172000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT EMEA",
