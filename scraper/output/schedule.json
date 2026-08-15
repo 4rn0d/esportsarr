@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T09:46:43.177330+00:00",
+  "generated_at": "2026-08-15T10:12:35.841728+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7260,18 +7260,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-16T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "VARREL vs Team Secret \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044613"
     },
     {
       "league": "VCT Pacific",
