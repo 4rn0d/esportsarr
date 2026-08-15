@@ -221,11 +221,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260815080000 +0000" stop="20260815100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">kt Rolster vs Hanwha Life Esports · Week 12 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260815100000 +0000" stop="20260815120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">BNK FEARX vs DN SOOPers · Week 12 · Bo3</desc>
