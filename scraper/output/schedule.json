@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:20:10.751542+00:00",
+  "generated_at": "2026-08-15T07:05:04.450547+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7668,6 +7668,18 @@
       "description": "Xipto Esports vs Team Secret \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044629"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-15T07:00:35.514000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
