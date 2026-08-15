@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T17:56:32.716704+00:00",
+  "generated_at": "2026-08-15T18:19:11.611161+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -5800,18 +5800,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-16T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs PCIFIC Esports \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706909"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-17T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -7145,7 +7133,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-15T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7157,7 +7145,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-15T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7197,7 +7185,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs FOKUS Sakura \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238827"
     },
