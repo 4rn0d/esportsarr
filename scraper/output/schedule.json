@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:41:35.918893+00:00",
+  "generated_at": "2026-08-15T16:58:53.764618+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -629,7 +629,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-15T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -641,11 +641,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-15T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Shifters vs G2 Esports \u00b7 Week 4 \u00b7 Bo3",
+      "description": "G2 Esports vs Shifters \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406227"
     },
