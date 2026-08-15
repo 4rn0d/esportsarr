@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:11:15.967668+00:00",
+  "generated_at": "2026-08-15T20:36:22.690520+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2620,6 +2620,18 @@
     {
       "league": "CBLOL",
       "game": "lol",
+      "start": "2026-08-15T14:58:57.749000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
       "start": "2026-08-15T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2633,7 +2645,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-15T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -4824,6 +4836,18 @@
       "description": "Cloud9 vs Fluxo \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450156"
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-08-15T20:32:04.212000+00:00",
+      "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Americas",
@@ -7145,7 +7169,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-15T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7197,7 +7221,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Habos Babos \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238831"
     },
