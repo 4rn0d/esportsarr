@@ -756,11 +756,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260815000000 +0000" stop="20260815030000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">Cloud9 vs Fluxo · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260815210000 +0000" stop="20260816000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">KRÜ Visa vs MIBR · Play-Ins · Bo3</desc>
@@ -778,7 +773,7 @@
   </programme>
   <programme start="20260817000000 +0000" stop="20260817030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs Evil Geniuses · Play-Ins · Bo3</desc>
+    <desc lang="en">Cloud9 vs Evil Geniuses · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260819210000 +0000" stop="20260820000000 +0000" channel="twitch.valorant_americas">
@@ -798,7 +793,7 @@
   </programme>
   <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs Fluxo · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="twitch.valorant_americas">
