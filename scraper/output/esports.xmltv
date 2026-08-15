@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260815200000 +0000" stop="20260815220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Team Liquid Alienware vs Disguised · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260815230000 +0000" stop="20260816010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Shopify Rebellion vs Dignitas · Week 4 · Bo3</desc>
