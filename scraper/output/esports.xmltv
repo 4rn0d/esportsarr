@@ -956,14 +956,14 @@
     <desc lang="en">FUT Esports vs Eternal Fire · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260816150000 +0000" stop="20260816180000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">TBD vs Joblife · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260816180000 +0000" stop="20260816210000 +0000" channel="twitch.valorant_emea">
+  <programme start="20260816130000 +0000" stop="20260816160000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
     <desc lang="en">TBD vs Eintracht Frankfurt · Play-Ins · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260816160000 +0000" stop="20260816190000 +0000" channel="twitch.valorant_emea">
+    <title lang="en">VCT EMEA</title>
+    <desc lang="en">TBD vs Joblife · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820150000 +0000" stop="20260820180000 +0000" channel="twitch.valorant_emea">
