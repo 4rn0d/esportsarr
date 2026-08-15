@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T07:05:04.450547+00:00",
+  "generated_at": "2026-08-15T07:41:29.365984+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1192,6 +1192,18 @@
     {
       "league": "LCK",
       "game": "lol",
+      "start": "2026-08-15T07:00:50.457000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
       "start": "2026-08-15T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
@@ -2009,7 +2021,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-15T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2021,7 +2033,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-15T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2033,7 +2045,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-15T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
