@@ -508,7 +508,7 @@
   </programme>
   <programme start="20260815160000 +0000" stop="20260815180000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">FURIA vs RED Kalunga · Week 4 · Bo3</desc>
+    <desc lang="en">RED Kalunga vs FURIA · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815190000 +0000" stop="20260815210000 +0000" channel="twitch.cblol">
@@ -722,6 +722,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260909160000 +0000" stop="20260909192000 +0000" channel="twitch.NLCLoL">
+    <title lang="en">NLC</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
