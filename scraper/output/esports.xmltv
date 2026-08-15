@@ -1071,11 +1071,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260815080000 +0000" stop="20260815110000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Kiwoom DRX vs ZETA DIVISION · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260815100000 +0000" stop="20260815130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">DetonatioN FocusMe vs Sharper Esports · Play-Ins · Bo3</desc>
@@ -1108,12 +1103,12 @@
   </programme>
   <programme start="20260820100000 +0000" stop="20260820130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs Xipto Esports · Play-Ins · Bo3</desc>
+    <desc lang="en">ZETA DIVISION vs Xipto Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821080000 +0000" stop="20260821110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs Kiwoom DRX · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821100000 +0000" stop="20260821130000 +0000" channel="twitch.valorant_pacific">
