@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T23:57:53.710966+00:00",
+  "generated_at": "2026-08-15T01:04:32.361856+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4793,7 +4793,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-14T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4805,7 +4805,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-15T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4845,7 +4845,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FURIA vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450168"
     },
@@ -4893,7 +4893,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs 2GAME \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450192"
     },
