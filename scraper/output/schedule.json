@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T15:42:07.756332+00:00",
+  "generated_at": "2026-08-15T15:55:56.232976+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2620,20 +2620,8 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-15T14:58:57.749000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-15T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
