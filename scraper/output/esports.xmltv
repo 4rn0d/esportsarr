@@ -591,11 +591,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260815090000 +0000" stop="20260815122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">DetonatioN FocusMe vs Ground Zero Gaming · Play-Ins · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260816090000 +0000" stop="20260816122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">CTBC Flying Oyster vs Team Secret Whales · Play-Ins · Bo5</desc>
