@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:57:11.551605+00:00",
+  "generated_at": "2026-08-15T21:16:28.918755+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4420,18 +4420,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-16T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FURIA vs Leviat\u00e1n Esports \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942658"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-17T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4828,24 +4816,12 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-15T20:32:04.212000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-15T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "KR\u00dc Visa vs MIBR \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "MIBR vs KR\u00dc Visa \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450160"
     },
