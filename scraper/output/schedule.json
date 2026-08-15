@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T11:54:44.932126+00:00",
+  "generated_at": "2026-08-15T12:17:32.857553+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3012,18 +3012,6 @@
       "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769725389404173"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-15T08:10:21.265000+00:00",
-      "state": "in_progress",
-      "title": "LCP",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LCP",
