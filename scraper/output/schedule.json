@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T20:36:22.690520+00:00",
+  "generated_at": "2026-08-15T20:57:11.551605+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2616,18 +2616,6 @@
       "description": "LOS vs paiN Gaming \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402977"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-15T14:58:57.749000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "CBLOL",
