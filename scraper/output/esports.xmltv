@@ -223,7 +223,7 @@
   </programme>
   <programme start="20260815080000 +0000" stop="20260815100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs kt Rolster · Week 12 · Bo3</desc>
+    <desc lang="en">kt Rolster vs Hanwha Life Esports · Week 12 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815100000 +0000" stop="20260815120000 +0000" channel="twitch.lck">
@@ -1078,7 +1078,7 @@
   </programme>
   <programme start="20260815080000 +0000" stop="20260815110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">ZETA DIVISION vs Kiwoom DRX · Play-Ins · Bo3</desc>
+    <desc lang="en">Kiwoom DRX vs ZETA DIVISION · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260815100000 +0000" stop="20260815130000 +0000" channel="twitch.valorant_pacific">

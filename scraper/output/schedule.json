@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T07:58:27.293766+00:00",
+  "generated_at": "2026-08-15T08:26:35.280820+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1197,7 +1197,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs kt Rolster \u00b7 Week 12 \u00b7 Bo3",
+      "description": "kt Rolster vs Hanwha Life Esports \u00b7 Week 12 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900619025"
     },
@@ -3012,6 +3012,18 @@
       "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769725389404173"
+    },
+    {
+      "league": "LCP",
+      "game": "lol",
+      "start": "2026-08-15T08:10:21.265000+00:00",
+      "state": "in_progress",
+      "title": "LCP",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCP",
@@ -7264,18 +7276,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-07-16T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Gen.G  vs ZETA DIVISION \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954979017"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-07-16T10:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7677,7 +7677,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "ZETA DIVISION vs Kiwoom DRX \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Kiwoom DRX vs ZETA DIVISION \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044633"
     },
