@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T14:59:47.079904+00:00",
+  "generated_at": "2026-08-15T15:22:40.154799+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -633,7 +633,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "SK Gaming vs Fnatic \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Fnatic vs SK Gaming \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406255"
     },
@@ -2616,6 +2616,18 @@
       "description": "LOS vs paiN Gaming \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402977"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-15T14:58:57.749000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "CBLOL",
@@ -5784,18 +5796,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-16T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FNATIC vs GIANTX \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706925"
     },
     {
       "league": "VCT EMEA",
