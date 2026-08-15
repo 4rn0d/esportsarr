@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T18:19:11.611161+00:00",
+  "generated_at": "2026-08-15T18:53:05.883460+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -148,12 +148,24 @@
     {
       "league": "LCS",
       "game": "lol",
+      "start": "2026-08-15T18:39:48.940000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
       "start": "2026-08-15T20:00:00+00:00",
       "state": "unstarted",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Disguised vs Team Liquid Alienware \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Team Liquid Alienware vs Disguised \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797164280011"
     },
@@ -165,7 +177,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Dignitas vs Shopify Rebellion \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Shopify Rebellion vs Dignitas \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886775"
     },
@@ -2621,7 +2633,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-15T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2633,11 +2645,11 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-15T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "Vivo Keyd Stars vs LOS \u00b7 Week 4 \u00b7 Bo3",
+      "description": "LOS vs Vivo Keyd Stars \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402993"
     },
