@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:54:33.090249+00:00",
+  "generated_at": "2026-08-16T18:14:21.625404+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -5760,18 +5760,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-17T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Vitality vs NAVI \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706913"
     },
     {
       "league": "VCT EMEA",
