@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:41:28.952618+00:00",
+  "generated_at": "2026-08-16T17:54:33.090249+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -189,7 +189,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LYON vs Sentinels \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Sentinels vs LYON \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163821191"
     },
@@ -7109,7 +7109,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-16T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7121,7 +7121,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-16T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7149,7 +7149,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Habos Babos \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Habos Babos vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238831"
     },
@@ -7161,7 +7161,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Gentle Mates \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238823"
     },
