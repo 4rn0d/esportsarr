@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:56:08.734160+00:00",
+  "generated_at": "2026-08-16T21:12:38.698959+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4408,18 +4408,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-17T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "ENVY vs Evil Geniuses \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086877086"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-18T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4816,20 +4804,8 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-16T20:31:13.790000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-16T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
