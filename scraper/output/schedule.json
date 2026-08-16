@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T19:52:41.951172+00:00",
+  "generated_at": "2026-08-16T20:10:49.200125+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -172,20 +172,8 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-08-16T18:33:39.297000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-08-16T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
