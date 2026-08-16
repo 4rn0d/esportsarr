@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T13:58:37.908625+00:00",
+  "generated_at": "2026-08-16T14:21:22.662742+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -648,6 +648,18 @@
       "description": "G2 Esports vs Shifters \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406227"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-16T14:04:30.083000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
