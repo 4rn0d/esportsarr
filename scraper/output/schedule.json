@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:48:36.371801+00:00",
+  "generated_at": "2026-08-16T10:13:07.715849+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7216,18 +7216,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-07-17T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Kiwoom DRX vs DetonatioN FocusMe \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044593"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-07-18T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7629,7 +7617,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Team Secret vs NONGSHIM REDFORCE \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "NONGSHIM REDFORCE vs Team Secret \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044645"
     },
