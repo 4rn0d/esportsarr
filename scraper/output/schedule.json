@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T12:24:56.872956+00:00",
+  "generated_at": "2026-08-16T13:07:23.679778+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6269,11 +6269,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-16T13:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Eternal Fire vs Eintracht Frankfurt \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Eintracht Frankfurt vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707049"
     },
