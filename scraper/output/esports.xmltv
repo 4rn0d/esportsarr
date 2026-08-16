@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260816200000 +0000" stop="20260816220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Cloud9 Kia vs FlyQuest · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260816230000 +0000" stop="20260817010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Sentinels vs LYON · Week 4 · Bo3</desc>
