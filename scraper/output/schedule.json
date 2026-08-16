@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:42:07.347274+00:00",
+  "generated_at": "2026-08-16T11:56:31.409848+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7596,18 +7596,6 @@
       "description": "DetonatioN FocusMe vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044637"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-16T07:01:24.502000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT Pacific",
