@@ -203,7 +203,7 @@
   </programme>
   <programme start="20260816080000 +0000" stop="20260816100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">T1 vs Gen.G Esports · Week 12 · Bo3</desc>
+    <desc lang="en">Gen.G Esports vs T1 · Week 12 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816100000 +0000" stop="20260816120000 +0000" channel="twitch.lck">
@@ -993,7 +993,7 @@
   </programme>
   <programme start="20260816080000 +0000" stop="20260816110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">FULL SENSE vs T1 · Play-Ins · Bo3</desc>
+    <desc lang="en">T1 vs FULL SENSE · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260816100000 +0000" stop="20260816130000 +0000" channel="twitch.valorant_pacific">
