@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:45:23.028549+00:00",
+  "generated_at": "2026-08-16T15:11:43.657791+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -652,20 +652,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-16T14:04:30.083000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-16T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2656,6 +2644,18 @@
     {
       "league": "CBLOL",
       "game": "lol",
+      "start": "2026-08-16T14:59:31.883000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
       "start": "2026-08-16T16:00:00+00:00",
       "state": "unstarted",
       "title": "CBLOL",
@@ -3100,7 +3100,7 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-08-29T09:00:00+00:00",
+      "start": "2026-08-29T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCP",
       "stream_platform": "twitch",
@@ -3112,7 +3112,7 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-08-30T09:00:00+00:00",
+      "start": "2026-08-30T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCP",
       "stream_platform": "twitch",
@@ -5776,18 +5776,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-17T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eternal Fire vs Karmine Corp \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706969"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-17T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -6281,7 +6269,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-16T13:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6293,7 +6281,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-16T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
