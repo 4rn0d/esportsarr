@@ -201,11 +201,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260816100000 +0000" stop="20260816120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">HANJIN BRION vs KIWOOM DRX · Week 12 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260819080000 +0000" stop="20260819100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Gen.G Esports vs kt Rolster · Week 13 · Bo3</desc>
@@ -534,11 +529,6 @@
   <programme start="20260913160000 +0000" stop="20260913192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260816090000 +0000" stop="20260816122000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Team Secret Whales vs CTBC Flying Oyster · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820090000 +0000" stop="20260820122000 +0000" channel="twitch.lolpacificen">
