@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T09:17:20.208159+00:00",
+  "generated_at": "2026-08-16T09:48:36.371801+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7613,7 +7613,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-16T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7625,7 +7625,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-16T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7653,7 +7653,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs Rex Regum Qeon \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FULL SENSE vs Rex Regum Qeon \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044661"
     },
@@ -7701,7 +7701,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs T1 \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044653"
     },
