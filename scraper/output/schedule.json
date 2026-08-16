@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:15:59.309569+00:00",
+  "generated_at": "2026-08-16T11:42:07.347274+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7600,6 +7600,18 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
+      "start": "2026-08-16T07:01:24.502000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
       "start": "2026-08-16T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7613,7 +7625,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-16T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7629,7 +7641,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Team Secret vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044657"
     },
@@ -7689,7 +7701,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs T1 \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "NONGSHIM REDFORCE vs T1 \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044653"
     },
