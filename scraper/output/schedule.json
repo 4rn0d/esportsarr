@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T16:58:30.877469+00:00",
+  "generated_at": "2026-08-16T17:18:13.758444+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6252,18 +6252,6 @@
       "description": "FUT Esports vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707017"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-16T12:33:43.525000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT EMEA",
