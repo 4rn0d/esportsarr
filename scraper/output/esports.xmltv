@@ -201,14 +201,9 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260816080000 +0000" stop="20260816100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs T1 · Week 12 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260816100000 +0000" stop="20260816120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">KIWOOM DRX vs HANJIN BRION · Week 12 · Bo3</desc>
+    <desc lang="en">HANJIN BRION vs KIWOOM DRX · Week 12 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260819080000 +0000" stop="20260819100000 +0000" channel="twitch.lck">
