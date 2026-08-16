@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T20:10:49.200125+00:00",
+  "generated_at": "2026-08-16T20:35:28.784481+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4812,6 +4812,18 @@
       "description": "Sentinels vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450164"
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-08-16T20:31:13.790000+00:00",
+      "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Americas",
