@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:18:13.758444+00:00",
+  "generated_at": "2026-08-16T17:41:28.952618+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2645,7 +2645,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-16T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2657,7 +2657,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-16T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
