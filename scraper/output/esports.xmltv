@@ -106,11 +106,6 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260816171500 +0000" stop="20260816191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Fnatic vs G2 Esports · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260817150000 +0000" stop="20260817170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs Natus Vincere · Week 4 · Bo3</desc>
