@@ -106,11 +106,6 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260816150000 +0000" stop="20260816170000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Natus Vincere vs Movistar KOI · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260816171500 +0000" stop="20260816191500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Fnatic vs G2 Esports · Week 4 · Bo3</desc>
@@ -864,11 +859,6 @@
   <programme start="20260909210000 +0000" stop="20260910023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260816160000 +0000" stop="20260816190000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">Joblife vs Fire Flux Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820150000 +0000" stop="20260820180000 +0000" channel="twitch.valorant_emea">
