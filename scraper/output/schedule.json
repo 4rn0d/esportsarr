@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T14:21:22.662742+00:00",
+  "generated_at": "2026-08-16T14:45:23.028549+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3057,7 +3057,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220455389"
     },
@@ -3069,7 +3069,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Team Secret Whales vs GAM Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520931"
     },
@@ -7133,7 +7133,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-16T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
