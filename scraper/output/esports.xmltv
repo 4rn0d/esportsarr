@@ -556,11 +556,6 @@
     <desc lang="en">Skillcamp vs Joblife · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">DMG Esports vs Brod &amp; Friends · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260817170000 +0000" stop="20260817190000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">Bulldog Esports vs Lund Esports Organization · Swiss · Bo3</desc>
@@ -888,7 +883,7 @@
   </programme>
   <programme start="20260817180000 +0000" stop="20260817210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
-    <desc lang="en">Habos Babos vs G2 Gozen · Playoffs · Bo3</desc>
+    <desc lang="en">G2 Gozen vs Habos Babos · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260818150000 +0000" stop="20260818180000 +0000" channel="twitch.valorant_emea">
