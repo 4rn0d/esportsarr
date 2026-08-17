@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T07:43:07.298849+00:00",
+  "generated_at": "2026-08-17T08:24:29.366867+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3108,18 +3108,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520955"
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
-      "start": "2026-07-18T08:00:00+00:00",
-      "state": "completed",
-      "title": "LJL",
-      "stream_platform": "twitch",
-      "stream_channel": "leagueoflegendsjp",
-      "description": "New Meta vs Arneb \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116917034792783711"
     },
     {
       "league": "LJL",
@@ -7164,18 +7152,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-18T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs Rex Regum Qeon \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954978981"
     },
     {
       "league": "VCT Pacific",
