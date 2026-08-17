@@ -551,11 +551,6 @@
     <desc lang="en">Skillcamp vs Joblife · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">VES vs Lundqvist Lightside · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260819160000 +0000" stop="20260819180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
