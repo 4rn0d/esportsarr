@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:17:35.306032+00:00",
+  "generated_at": "2026-08-17T14:51:02.960353+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -672,6 +672,18 @@
       "description": "Fnatic vs G2 Esports \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406283"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-17T14:20:06.437000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
@@ -7084,20 +7096,8 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-17T14:15:26.239000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-17T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
