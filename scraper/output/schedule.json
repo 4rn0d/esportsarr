@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:52:32.435489+00:00",
+  "generated_at": "2026-08-17T14:17:35.306032+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7080,6 +7080,18 @@
       "description": "SK Nebula vs GIANTX \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238811"
+    },
+    {
+      "league": "Game Changers EMEA",
+      "game": "valorant",
+      "start": "2026-08-17T14:15:26.239000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "Game Changers EMEA",
