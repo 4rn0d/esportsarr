@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:46:43.342321+00:00",
+  "generated_at": "2026-08-17T16:15:45.441869+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3849,9 +3849,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794391"
+      "match_id": "116878159559794395"
     },
     {
       "league": "NLC",
@@ -3861,21 +3861,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
+      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559794395"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-20T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Arctic Pandas vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794399"
+      "match_id": "116878159559794391"
     },
     {
       "league": "NLC",
@@ -3888,6 +3876,18 @@
       "description": "Bardicted to U vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559794403"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-07-20T18:00:00+00:00",
+      "state": "completed",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "Arctic Pandas vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116878159559794399"
     },
     {
       "league": "NLC",
@@ -4113,9 +4113,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
+      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559860019"
+      "match_id": "116878159559860011"
     },
     {
       "league": "NLC",
@@ -4125,9 +4125,9 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
+      "description": "2 Massive vs Rich Gang \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116878159559860011"
+      "match_id": "116878159559860019"
     },
     {
       "league": "NLC",
@@ -4204,24 +4204,12 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-08-17T15:33:10.624000+00:00",
-      "state": "in_progress",
-      "title": "NLC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-08-17T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs DMG Esports \u00b7 Swiss \u00b7 Bo3",
+      "description": "DMG Esports vs Brod & Friends \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860047"
     },
@@ -4404,6 +4392,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860111"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-09-16T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "NLC",
+      "stream_platform": "twitch",
+      "stream_channel": "NLCLoL",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116878159559860117"
     },
     {
       "league": "VCT Americas",

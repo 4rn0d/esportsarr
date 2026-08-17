@@ -563,7 +563,7 @@
   </programme>
   <programme start="20260817160000 +0000" stop="20260817180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">Brod &amp; Friends vs DMG Esports · Swiss · Bo3</desc>
+    <desc lang="en">DMG Esports vs Brod &amp; Friends · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260817170000 +0000" stop="20260817190000 +0000" channel="twitch.NLCLoL">
@@ -639,6 +639,11 @@
   <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260916160000 +0000" stop="20260916192000 +0000" channel="twitch.NLCLoL">
+    <title lang="en">NLC</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260819210000 +0000" stop="20260820000000 +0000" channel="twitch.valorant_americas">
