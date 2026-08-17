@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:52:12.300990+00:00",
+  "generated_at": "2026-08-17T17:17:52.556882+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7085,7 +7085,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-17T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7097,7 +7097,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-17T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7125,7 +7125,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs FOKUS Sakura \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238835"
     },
