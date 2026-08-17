@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:51:02.960353+00:00",
+  "generated_at": "2026-08-17T15:16:00.894359+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -676,20 +676,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-17T14:20:06.437000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-17T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -5736,18 +5724,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-18T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs Gentle Mates \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706885"
     },
     {
       "league": "VCT EMEA",
