@@ -96,11 +96,6 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260817171500 +0000" stop="20260817191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Karmine Corp vs GIANTX · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260821150000 +0000" stop="20260821170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs SK Gaming · Week 5 · Bo3</desc>
@@ -556,14 +551,9 @@
     <desc lang="en">Skillcamp vs Joblife · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260817170000 +0000" stop="20260817190000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Bulldog Esports vs Lund Esports Organization · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260817180000 +0000" stop="20260817200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">Lundqvist Lightside vs VES · Swiss · Bo3</desc>
+    <desc lang="en">VES vs Lundqvist Lightside · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260819160000 +0000" stop="20260819180000 +0000" channel="twitch.NLCLoL">
