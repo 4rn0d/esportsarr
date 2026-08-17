@@ -96,14 +96,9 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260817150000 +0000" stop="20260817170000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Team Heretics vs Natus Vincere · Week 4 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260817171500 +0000" stop="20260817191500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">GIANTX vs Karmine Corp · Week 4 · Bo3</desc>
+    <desc lang="en">Karmine Corp vs GIANTX · Week 4 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821150000 +0000" stop="20260821170000 +0000" channel="twitch.lec">

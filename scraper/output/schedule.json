@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T16:15:45.441869+00:00",
+  "generated_at": "2026-08-17T16:52:12.300990+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -677,7 +677,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-17T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -689,11 +689,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-17T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "GIANTX vs Karmine Corp \u00b7 Week 4 \u00b7 Bo3",
+      "description": "Karmine Corp vs GIANTX \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406243"
     },
