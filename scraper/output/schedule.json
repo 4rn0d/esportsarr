@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:00:29.924039+00:00",
+  "generated_at": "2026-08-18T09:46:20.729394+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6256,7 +6256,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-22T15:00:00+00:00",
+      "start": "2026-08-22T14:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
@@ -6268,7 +6268,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-22T18:00:00+00:00",
+      "start": "2026-08-22T17:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
@@ -6280,7 +6280,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-23T15:00:00+00:00",
+      "start": "2026-08-23T14:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
@@ -6292,7 +6292,7 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-23T18:00:00+00:00",
+      "start": "2026-08-23T17:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
