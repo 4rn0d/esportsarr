@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:49:53.568464+00:00",
+  "generated_at": "2026-08-18T15:21:17.982583+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3808,6 +3808,18 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
+      "start": "2026-08-18T15:04:07.921000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
       "start": "2026-08-18T16:00:00+00:00",
       "state": "unstarted",
       "title": "La Ligue Fran\u00e7aise",
@@ -5724,18 +5736,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-19T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs GIANTX \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706945"
     },
     {
       "league": "VCT EMEA",
