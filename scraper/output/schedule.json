@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T01:04:03.260344+00:00",
+  "generated_at": "2026-08-18T02:20:07.529531+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -5301,18 +5301,6 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "ROSO GC vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996927"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
       "description": "Los Chudeles vs SaD GC \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595957996931"
@@ -5325,9 +5313,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
+      "description": "ROSO GC vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595957996923"
+      "match_id": "116888595957996927"
     },
     {
       "league": "Game Changers NA",
@@ -5340,6 +5328,18 @@
       "description": "Revitalize GC vs Eternal Focus Amethyst \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958062471"
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
+      "start": "2026-08-03T23:30:00+00:00",
+      "state": "completed",
+      "title": "Game Changers NA",
+      "stream_platform": "twitch",
+      "stream_channel": "valorant_americas",
+      "description": ":3 vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116888595957996923"
     },
     {
       "league": "Game Changers NA",
@@ -5501,7 +5501,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-08-17T23:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5517,7 +5517,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "MVSK Secret vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193603"
     },
@@ -5529,7 +5529,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Axolotl vs The Spiders \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193607"
     },
@@ -5541,7 +5541,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Cloud9 GC vs SwimTrek Blue \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193611"
     },
@@ -5553,7 +5553,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "HIMMERS vs Shopify Rebellion Gold \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193615"
     },
