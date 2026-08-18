@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:23:24.903249+00:00",
+  "generated_at": "2026-08-18T09:00:29.924039+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2424,6 +2424,30 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115616310125890305"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-17T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115616310125890299"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-17T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116957100120526824"
     },
     {
       "league": "CBLOL",
@@ -6189,9 +6213,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Team Vitality vs Enterprise Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115581261721707057"
+      "match_id": "115581261721707061"
     },
     {
       "league": "VCT EMEA",
@@ -6201,9 +6225,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Team Liquid vs FUT Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115581261721707061"
+      "match_id": "115581261721707057"
     },
     {
       "league": "VCT EMEA",
@@ -6213,9 +6237,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Karmine Corp \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115581261721707065"
+      "match_id": "115581261721707069"
     },
     {
       "league": "VCT EMEA",
@@ -6225,9 +6249,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs BBL Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115581261721707069"
+      "match_id": "115581261721707065"
     },
     {
       "league": "VCT EMEA",
@@ -6237,7 +6261,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Eintracht Frankfurt \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707073"
     },
@@ -6249,7 +6273,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Fire Flux Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707077"
     },
