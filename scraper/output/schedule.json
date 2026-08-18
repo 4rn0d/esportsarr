@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:50:26.277079+00:00",
+  "generated_at": "2026-08-18T18:21:53.059861+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3809,7 +3809,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-18T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3821,11 +3821,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-18T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Galions vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Karmine Corp Blue vs Galions \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900121288"
     },
@@ -5728,18 +5728,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-19T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Vitality vs BBL Esports \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706877"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-22T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -7089,7 +7077,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs FOKUS Sakura \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FOKUS Sakura vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242238835"
     },
