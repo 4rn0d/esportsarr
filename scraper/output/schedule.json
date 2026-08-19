@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:23:20.234825+00:00",
+  "generated_at": "2026-08-19T14:08:58.417595+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2109,7 +2109,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
+      "description": "EDWARD GAMING vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116566854547769720"
     },
@@ -7476,18 +7476,6 @@
       "description": "NONGSHIM REDFORCE vs Team Secret \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044645"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-19T07:02:38.544000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT Pacific",
