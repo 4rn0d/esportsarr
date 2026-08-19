@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T09:47:30.230681+00:00",
+  "generated_at": "2026-08-19T10:18:41.054701+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7481,7 +7481,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-19T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7493,7 +7493,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-19T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7557,7 +7557,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044673"
     },
