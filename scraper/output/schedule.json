@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T23:23:57.018423+00:00",
+  "generated_at": "2026-08-19T23:43:56.931332+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4773,7 +4773,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "G2 Esports vs M80 \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "M80 vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450188"
     },
@@ -5016,54 +5016,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-07-20T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "MVSK Secret vs Axolotl \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957931315"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-07-20T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "SwimTrek Blue vs SaD GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957931319"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-07-20T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": ":3 vs The Spiders \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957931331"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-07-20T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Los Chudeles vs ROSO GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957931335"
     },
     {
       "league": "Game Changers NA",
