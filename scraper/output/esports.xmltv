@@ -531,11 +531,6 @@
     <desc lang="en">Skillcamp vs Joblife · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260819160000 +0000" stop="20260819180000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Bulldog Esports vs Verdant · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260819180000 +0000" stop="20260819200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">Bardicted to U vs Arctic Pandas · Playoffs · Bo3</desc>
@@ -553,7 +548,7 @@
   </programme>
   <programme start="20260826160000 +0000" stop="20260826180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs Bulldog Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260826180000 +0000" stop="20260826200000 +0000" channel="twitch.NLCLoL">
@@ -563,7 +558,7 @@
   </programme>
   <programme start="20260831160000 +0000" stop="20260831180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs Verdant · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260831180000 +0000" stop="20260831200000 +0000" channel="twitch.NLCLoL">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:17:58.975864+00:00",
+  "generated_at": "2026-08-19T17:47:13.263913+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4229,7 +4229,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-19T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -4241,7 +4241,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-19T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -4281,7 +4281,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860083"
     },
@@ -4305,7 +4305,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Verdant \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860075"
     },
