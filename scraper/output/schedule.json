@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:21:13.028748+00:00",
+  "generated_at": "2026-08-19T15:53:37.041135+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4260,6 +4260,18 @@
       "description": "VES vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860055"
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-08-19T15:35:33.654000+00:00",
+      "state": "in_progress",
+      "title": "NLC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "NLC",
