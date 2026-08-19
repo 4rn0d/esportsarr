@@ -171,11 +171,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260819100000 +0000" stop="20260819120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">DN SOOPers vs HANJIN BRION · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260820080000 +0000" stop="20260820100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Dplus KIA vs Hanwha Life Esports · Week 13 · Bo3</desc>
@@ -856,11 +851,6 @@
     <desc lang="en">TBD vs Gentle Mates · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Rex Regum Qeon vs FULL SENSE · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260820080000 +0000" stop="20260820110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">DetonatioN FocusMe vs QT DIG ∞ · Play-Ins · Bo3</desc>
@@ -883,7 +873,7 @@
   </programme>
   <programme start="20260822080000 +0000" stop="20260822110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs ONSIDE GAMING · Play-Ins · Bo3</desc>
+    <desc lang="en">FULL SENSE vs ONSIDE GAMING · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260822100000 +0000" stop="20260822130000 +0000" channel="twitch.valorant_pacific">

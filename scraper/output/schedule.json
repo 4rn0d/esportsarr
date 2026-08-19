@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T12:23:25.406453+00:00",
+  "generated_at": "2026-08-19T13:23:20.234825+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1253,7 +1253,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-19T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -7480,6 +7480,18 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
+      "start": "2026-08-19T07:02:38.544000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
       "start": "2026-08-19T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7493,7 +7505,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-19T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7557,7 +7569,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "FULL SENSE vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044673"
     },
