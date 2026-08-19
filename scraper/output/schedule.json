@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T15:53:37.041135+00:00",
+  "generated_at": "2026-08-19T16:19:10.492711+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3832,20 +3832,8 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-19T15:06:16.863000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-19T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3864,30 +3852,6 @@
       "description": "Skillcamp vs Joblife \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900121296"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-20T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794395"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-20T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Verdant vs Absolved \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794391"
     },
     {
       "league": "NLC",
@@ -4264,24 +4228,12 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-08-19T15:35:33.654000+00:00",
-      "state": "in_progress",
-      "title": "NLC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-08-19T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Verdant vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Bulldog Esports vs Verdant \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860059"
     },
