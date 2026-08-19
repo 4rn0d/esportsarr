@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:15:14.968570+00:00",
+  "generated_at": "2026-08-19T20:51:11.001985+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4756,6 +4756,18 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
+      "start": "2026-08-19T20:28:15.309000+00:00",
+      "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
       "start": "2026-08-19T21:00:00+00:00",
       "state": "unstarted",
       "title": "VCT Americas",
@@ -7013,7 +7025,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-19T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -7029,7 +7041,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
+      "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
     },
