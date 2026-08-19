@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T07:51:46.034650+00:00",
+  "generated_at": "2026-08-19T08:24:19.705956+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1240,20 +1240,8 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-19T07:23:52.980000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-19T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -3148,18 +3136,6 @@
     {
       "league": "LJL",
       "game": "lol",
-      "start": "2026-07-20T08:00:00+00:00",
-      "state": "completed",
-      "title": "LJL",
-      "stream_platform": "twitch",
-      "stream_channel": "leagueoflegendsjp",
-      "description": "New Meta vs UWinks \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116917034792783729"
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
       "start": "2026-07-24T08:00:00+00:00",
       "state": "completed",
       "title": "LJL",
@@ -4269,7 +4245,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Verdant vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860059"
     },
@@ -4281,7 +4257,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Bardicted to U vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860063"
     },
@@ -4293,7 +4269,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Deer Gaming vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860067"
     },
@@ -4305,7 +4281,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Ruddy Corporation vs VES \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860071"
     },
@@ -7492,24 +7468,12 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-19T07:02:38.544000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-19T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Team Secret vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ONSIDE GAMING vs Team Secret \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044657"
     },

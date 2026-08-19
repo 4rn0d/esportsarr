@@ -538,22 +538,22 @@
   </programme>
   <programme start="20260819160000 +0000" stop="20260819180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">Verdant vs Bulldog Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260819180000 +0000" stop="20260819200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">Bardicted to U vs Arctic Pandas · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260824160000 +0000" stop="20260824180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">Deer Gaming vs DMG Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260824180000 +0000" stop="20260824200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">Ruddy Corporation vs VES · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260826160000 +0000" stop="20260826180000 +0000" channel="twitch.NLCLoL">
@@ -858,7 +858,7 @@
   </programme>
   <programme start="20260819080000 +0000" stop="20260819110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">Team Secret vs ONSIDE GAMING · Play-Ins · Bo3</desc>
+    <desc lang="en">ONSIDE GAMING vs Team Secret · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="twitch.valorant_pacific">
