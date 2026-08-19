@@ -171,11 +171,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260819080000 +0000" stop="20260819100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs kt Rolster · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260819100000 +0000" stop="20260819120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">HANJIN BRION vs DN SOOPers · Week 13 · Bo3</desc>
@@ -863,7 +858,7 @@
   </programme>
   <programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">FULL SENSE vs Rex Regum Qeon · Play-Ins · Bo3</desc>
+    <desc lang="en">Rex Regum Qeon vs FULL SENSE · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260820080000 +0000" stop="20260820110000 +0000" channel="twitch.valorant_pacific">

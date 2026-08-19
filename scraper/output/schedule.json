@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:18:41.054701+00:00",
+  "generated_at": "2026-08-19T10:52:17.767695+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1241,7 +1241,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-19T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1253,7 +1253,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-19T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -2097,7 +2097,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs TOP ESPORTS \u00b7 Week 5 \u00b7 Bo3",
+      "description": "TOP ESPORTS vs Anyone's Legend \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116566854547769688"
     },
@@ -7497,7 +7497,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "FULL SENSE vs Rex Regum Qeon \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Rex Regum Qeon vs FULL SENSE \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044661"
     },
