@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:28:26.982919+00:00",
+  "generated_at": "2026-08-20T17:56:07.735646+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3857,7 +3857,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-20T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3869,11 +3869,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-20T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Solary vs Skillcamp \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Skillcamp vs Solary \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900121310"
     },
@@ -3897,7 +3897,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121314"
     },
@@ -6153,7 +6153,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Karmine Corp \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Enterprise Esports vs Karmine Corp \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707069"
     },
@@ -6189,7 +6189,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Fire Flux Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Team Vitality vs Fire Flux Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707077"
     },
