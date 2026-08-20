@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:21:57.664660+00:00",
+  "generated_at": "2026-08-20T08:02:45.776932+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1265,7 +1265,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-20T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -7324,20 +7324,8 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-20T07:02:29.955000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-20T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
