@@ -826,11 +826,6 @@
     <desc lang="en">G2 Gozen vs Gentle Mates · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260820100000 +0000" stop="20260820130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Xipto Esports vs ZETA DIVISION · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260821080000 +0000" stop="20260821110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">Sharper Esports vs Kiwoom DRX · Play-Ins · Bo3</desc>
@@ -848,7 +843,7 @@
   </programme>
   <programme start="20260822100000 +0000" stop="20260822130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs DetonatioN FocusMe · Play-Ins · Bo3</desc>
+    <desc lang="en">ZETA DIVISION vs DetonatioN FocusMe · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823080000 +0000" stop="20260823110000 +0000" channel="twitch.valorant_pacific">

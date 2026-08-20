@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:06:34.409200+00:00",
+  "generated_at": "2026-08-20T14:52:24.624387+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6136,6 +6136,18 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-20T14:34:09.713000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-20T15:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
@@ -7421,7 +7433,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-20T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7473,7 +7485,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ZETA DIVISION vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044677"
     },
