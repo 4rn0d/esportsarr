@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T06:26:58.409606+00:00",
+  "generated_at": "2026-08-20T07:21:57.664660+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2117,7 +2117,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-20T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2129,7 +2129,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-20T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -7320,6 +7320,18 @@
       "description": "Rex Regum Qeon vs FULL SENSE \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044661"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-20T07:02:29.955000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
