@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T21:04:36.469690+00:00",
+  "generated_at": "2026-08-20T21:40:38.633881+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3820,18 +3820,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-20T15:04:08.660000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-20T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -4833,7 +4821,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Sentinels vs 2GAME \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "2GAME vs Sentinels \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450192"
     },
