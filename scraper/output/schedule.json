@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:56:07.735646+00:00",
+  "generated_at": "2026-08-20T18:27:08.273891+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3244,18 +3244,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-07-21T18:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs ZYB \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055724"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-07-21T19:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -6125,7 +6113,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-20T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6137,7 +6125,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-20T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6264,30 +6252,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-21T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Twisted Minds Orchid \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173183"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-21T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "SK Nebula vs Gentle Mates \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242041983"
     },
     {
       "league": "Game Changers EMEA",
