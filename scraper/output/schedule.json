@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T01:11:00.846321+00:00",
+  "generated_at": "2026-08-20T02:22:16.764525+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4769,7 +4769,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-20T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4833,7 +4833,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs BESTIA \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "G2 Esports vs BESTIA \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450200"
     },
