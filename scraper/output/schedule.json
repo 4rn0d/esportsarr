@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:52:24.624387+00:00",
+  "generated_at": "2026-08-20T15:24:04.452971+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3868,6 +3868,18 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
+      "start": "2026-08-20T15:04:08.660000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
       "start": "2026-08-20T16:00:00+00:00",
       "state": "unstarted",
       "title": "La Ligue Fran\u00e7aise",
@@ -6136,20 +6148,8 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-20T14:34:09.713000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-20T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6288,30 +6288,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-21T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs GIANTX \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173155"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-21T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Habos Babos \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173107"
     },
     {
       "league": "Game Changers EMEA",
