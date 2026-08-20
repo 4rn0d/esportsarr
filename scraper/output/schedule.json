@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T08:53:43.956552+00:00",
+  "generated_at": "2026-08-20T09:23:18.785547+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2462,6 +2462,18 @@
       "match_id": "116957100120526830"
     },
     {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-09-19T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "116957100120526836"
+    },
+    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-07-25T16:00:00+00:00",
@@ -3081,7 +3093,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "MVK Esports vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220455389"
     },

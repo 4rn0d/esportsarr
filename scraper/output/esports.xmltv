@@ -408,6 +408,11 @@
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260919090000 +0000" stop="20260919122000 +0000" channel="youtube.LPL_English">
+    <title lang="en">LPL</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260822160000 +0000" stop="20260822180000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">LEVIATÁN vs Vivo Keyd Stars · Week 5 · Bo3</desc>
@@ -470,7 +475,7 @@
   </programme>
   <programme start="20260820090000 +0000" stop="20260820122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">CTBC Flying Oyster vs MVK Esports · Playoffs · Bo5</desc>
+    <desc lang="en">MVK Esports vs CTBC Flying Oyster · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821090000 +0000" stop="20260821122000 +0000" channel="twitch.lolpacificen">
