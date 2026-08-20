@@ -171,11 +171,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260820100000 +0000" stop="20260820120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">KIWOOM DRX vs NONGSHIM RED FORCE · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260821080000 +0000" stop="20260821100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">HANJIN BRION vs BNK FEARX · Week 13 · Bo3</desc>
