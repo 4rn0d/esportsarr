@@ -173,7 +173,7 @@
   </programme>
   <programme start="20260820100000 +0000" stop="20260820120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">NONGSHIM RED FORCE vs KIWOOM DRX · Week 13 · Bo3</desc>
+    <desc lang="en">KIWOOM DRX vs NONGSHIM RED FORCE · Week 13 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821080000 +0000" stop="20260821100000 +0000" channel="twitch.lck">
@@ -863,7 +863,7 @@
   </programme>
   <programme start="20260822100000 +0000" stop="20260822130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs DetonatioN FocusMe · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823080000 +0000" stop="20260823110000 +0000" channel="twitch.valorant_pacific">
