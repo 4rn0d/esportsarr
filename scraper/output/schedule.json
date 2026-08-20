@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T15:56:03.720834+00:00",
+  "generated_at": "2026-08-20T16:24:12.703187+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2858,6 +2858,18 @@
       "match_id": "115565671526403075"
     },
     {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-19T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565671526403081"
+    },
+    {
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-25T09:00:00+00:00",
@@ -3228,18 +3240,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-21T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs TLN Pirates \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055708"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -3873,7 +3873,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs Ici Japon Corp \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Ici Japon Corp vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116912368900121306"
     },
