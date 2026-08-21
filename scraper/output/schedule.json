@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:59:16.997384+00:00",
+  "generated_at": "2026-08-21T12:49:24.620730+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3112,8 +3112,20 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-08-21T09:00:00+00:00",
+      "start": "2026-08-21T08:10:37.177000+00:00",
       "state": "in_progress",
+      "title": "LCP",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCP",
+      "game": "lol",
+      "start": "2026-08-21T09:00:00+00:00",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -3129,7 +3141,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "GAM Esports vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520943"
     },
@@ -3141,7 +3153,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Team Secret Whales vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520937"
     },
