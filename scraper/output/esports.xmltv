@@ -718,7 +718,7 @@
   </programme>
   <programme start="20260821180000 +0000" stop="20260821210000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">BBL Esports vs FUT Esports · Playoffs · Bo3</desc>
+    <desc lang="en">FUT Esports vs BBL Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260822140000 +0000" stop="20260822170000 +0000" channel="twitch.valorant_emea">
