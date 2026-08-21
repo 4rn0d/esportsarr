@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:37:08.560095+00:00",
+  "generated_at": "2026-08-21T14:17:23.677833+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -700,6 +700,18 @@
     {
       "league": "LEC",
       "game": "lol",
+      "start": "2026-08-21T14:03:58.675000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
       "start": "2026-08-21T15:00:00+00:00",
       "state": "unstarted",
       "title": "LEC",
@@ -1288,6 +1300,18 @@
     {
       "league": "LCK",
       "game": "lol",
+      "start": "2026-08-21T07:27:08.478000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
       "start": "2026-08-21T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1301,7 +1325,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-21T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -3129,7 +3153,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "GAM Esports vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "MVK Esports vs GAM Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520943"
     },
@@ -3141,7 +3165,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "Team Secret Whales vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
+      "description": "CTBC Flying Oyster vs Team Secret Whales \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520937"
     },
