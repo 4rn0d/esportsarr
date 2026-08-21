@@ -586,11 +586,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260821000000 +0000" stop="20260821030000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">KRÜ Visa vs Fluxo · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
     <desc lang="en">ENVY vs MIBR · Play-Ins · Bo3</desc>
@@ -608,7 +603,7 @@
   </programme>
   <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs Sentinels · Play-Ins · Bo3</desc>
+    <desc lang="en">KRÜ Visa vs Sentinels · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="twitch.valorant_americas">

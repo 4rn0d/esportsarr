@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T00:41:32.722914+00:00",
+  "generated_at": "2026-08-21T02:12:13.921423+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4829,7 +4829,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-21T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4881,7 +4881,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs Sentinels \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "KR\u00dc Visa vs Sentinels \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450204"
     },
