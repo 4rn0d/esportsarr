@@ -173,7 +173,7 @@
   </programme>
   <programme start="20260821080000 +0000" stop="20260821100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">HANJIN BRION vs BNK FEARX · Week 13 · Bo3</desc>
+    <desc lang="en">BNK FEARX vs HANJIN BRION · Week 13 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821100000 +0000" stop="20260821120000 +0000" channel="twitch.lck">
@@ -788,7 +788,7 @@
   </programme>
   <programme start="20260821080000 +0000" stop="20260821110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">Sharper Esports vs Kiwoom DRX · Play-Ins · Bo3</desc>
+    <desc lang="en">Kiwoom DRX vs Sharper Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260821100000 +0000" stop="20260821130000 +0000" channel="twitch.valorant_pacific">

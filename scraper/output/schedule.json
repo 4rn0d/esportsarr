@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T08:02:53.025499+00:00",
+  "generated_at": "2026-08-21T08:55:31.701439+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1293,7 +1293,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "HANJIN BRION vs BNK FEARX \u00b7 Week 13 \u00b7 Bo3",
+      "description": "BNK FEARX vs HANJIN BRION \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900684673"
     },
@@ -3113,7 +3113,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-21T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -7341,7 +7341,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Sharper Esports vs Kiwoom DRX \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Kiwoom DRX vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044649"
     },
