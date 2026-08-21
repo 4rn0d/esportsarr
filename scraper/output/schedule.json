@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T06:28:23.489384+00:00",
+  "generated_at": "2026-08-21T07:23:41.237726+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7332,6 +7332,18 @@
       "description": "Xipto Esports vs ZETA DIVISION \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044669"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-21T07:01:16.961000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
