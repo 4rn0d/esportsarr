@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:59:07.008797+00:00",
+  "generated_at": "2026-08-21T21:24:21.313021+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4749,7 +4749,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "ENVY vs MIBR \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "MIBR vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450176"
     },
@@ -5988,18 +5988,6 @@
       "description": "Team Liquid vs FUT Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707057"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-21T14:16:01.121000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT EMEA",

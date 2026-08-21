@@ -553,7 +553,7 @@
   </programme>
   <programme start="20260821210000 +0000" stop="20260822000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">ENVY vs MIBR · Play-Ins · Bo3</desc>
+    <desc lang="en">MIBR vs ENVY · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260822000000 +0000" stop="20260822030000 +0000" channel="twitch.valorant_americas">
