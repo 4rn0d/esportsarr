@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:58:26.356701+00:00",
+  "generated_at": "2026-08-21T17:26:57.089293+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3252,18 +3252,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-22T17:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "ZYB vs Skillcamp \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990116"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
