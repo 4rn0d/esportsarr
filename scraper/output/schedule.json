@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T20:41:25.863564+00:00",
+  "generated_at": "2026-08-21T20:59:07.008797+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4744,20 +4744,8 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-21T20:14:27.642000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-21T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -6004,6 +5992,18 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-21T14:16:01.121000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-21T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -6017,7 +6017,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-21T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6069,7 +6069,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs BBL Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707089"
     },
@@ -6081,7 +6081,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Karmine Corp \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Karmine Corp vs FUT Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707081"
     },
