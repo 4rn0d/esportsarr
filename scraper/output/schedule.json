@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T14:17:23.677833+00:00",
+  "generated_at": "2026-08-21T15:00:28.428081+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1296,18 +1296,6 @@
       "description": "KIWOOM DRX vs NONGSHIM RED FORCE \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900750237"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-21T07:27:08.478000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LCK",
@@ -5656,18 +5644,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-22T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "PCIFIC Esports vs FUT Esports \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706897"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-22T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -6136,6 +6112,18 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
+      "start": "2026-08-21T14:16:01.121000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
       "start": "2026-08-21T15:00:00+00:00",
       "state": "unstarted",
       "title": "VCT EMEA",
@@ -6252,30 +6240,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-22T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "SK Nebula vs Bar\u00e7a eSports \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173131"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-22T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs GIANTX \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173163"
     },
     {
       "league": "Game Changers EMEA",
