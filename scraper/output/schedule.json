@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:00:28.428081+00:00",
+  "generated_at": "2026-08-21T15:45:34.918634+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -700,24 +700,12 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-21T14:03:58.675000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-21T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Team Heretics vs SK Gaming \u00b7 Week 5 \u00b7 Bo3",
+      "description": "SK Gaming vs Team Heretics \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406127"
     },
@@ -6112,20 +6100,8 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-21T14:16:01.121000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-21T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
