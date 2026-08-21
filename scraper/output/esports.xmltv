@@ -446,6 +446,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260920160000 +0000" stop="20260920192000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260822090000 +0000" stop="20260822122000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
     <desc lang="en">MVK Esports vs GAM Esports · Playoffs · Bo5</desc>

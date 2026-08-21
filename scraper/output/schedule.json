@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:45:34.918634+00:00",
+  "generated_at": "2026-08-21T16:20:29.053490+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2870,6 +2870,18 @@
       "match_id": "115565671526403081"
     },
     {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-20T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565671526468629"
+    },
+    {
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-25T09:00:00+00:00",
@@ -3240,18 +3252,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-22T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Vitality.Bee vs TLN Pirates \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990136"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -3888,30 +3888,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-22T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "DMG Esports vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794411"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-22T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Rich Gang vs Ruddy Corporation \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794407"
     },
     {
       "league": "NLC",
