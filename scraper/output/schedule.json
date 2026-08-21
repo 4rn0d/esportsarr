@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:01:46.855261+00:00",
+  "generated_at": "2026-08-21T11:37:42.328118+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1305,7 +1305,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "kt Rolster vs T1 \u00b7 Week 13 \u00b7 Bo3",
+      "description": "T1 vs kt Rolster \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900619037"
     },
@@ -7337,7 +7337,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-21T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7349,7 +7349,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-21T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
