@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T19:54:57.489586+00:00",
+  "generated_at": "2026-08-21T20:14:07.911693+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3252,18 +3252,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-22T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs Esprit Shonen \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055700"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
