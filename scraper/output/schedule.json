@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T10:31:16.005443+00:00",
+  "generated_at": "2026-08-21T11:01:46.855261+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1289,7 +1289,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-21T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1301,7 +1301,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-21T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -7389,7 +7389,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044681"
     },

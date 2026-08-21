@@ -171,11 +171,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260821080000 +0000" stop="20260821100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">BNK FEARX vs HANJIN BRION · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260821100000 +0000" stop="20260821120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">kt Rolster vs T1 · Week 13 · Bo3</desc>
@@ -808,7 +803,7 @@
   </programme>
   <programme start="20260823080000 +0000" stop="20260823110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo3</desc>
+    <desc lang="en">TBD vs Sharper Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823100000 +0000" stop="20260823130000 +0000" channel="twitch.valorant_pacific">
