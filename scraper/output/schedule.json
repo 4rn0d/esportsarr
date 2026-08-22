@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:44:43.282402+00:00",
+  "generated_at": "2026-08-22T22:59:11.699857+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4697,7 +4697,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-22T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4709,7 +4709,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-23T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4725,7 +4725,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ENVY vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515744"
     },
