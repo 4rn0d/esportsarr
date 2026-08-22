@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:57:52.941817+00:00",
+  "generated_at": "2026-08-22T14:18:06.539970+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -720,6 +720,18 @@
       "description": "Natus Vincere vs Team Vitality \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406147"
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
+      "start": "2026-08-22T14:07:05.789000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LEC",
@@ -3137,7 +3149,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-22T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -3165,7 +3177,7 @@
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520949"
     },
@@ -6021,7 +6033,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Team Liquid vs Eintracht Frankfurt \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Eintracht Frankfurt vs Team Liquid \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707073"
     },
