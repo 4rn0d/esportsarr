@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:56:30.697634+00:00",
+  "generated_at": "2026-08-22T16:15:21.179191+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2716,24 +2716,12 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-22T14:59:43.333000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-22T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "LEVIAT\u00c1N vs Vivo Keyd Stars \u00b7 Week 5 \u00b7 Bo3",
+      "description": "Vivo Keyd Stars vs LEVIAT\u00c1N \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526403049"
     },
@@ -3264,18 +3252,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-23T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Esprit Shonen vs Skillcamp \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990110"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -6017,7 +5993,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-22T14:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6029,7 +6005,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-22T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -6045,7 +6021,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Enterprise Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Enterprise Esports vs Team Liquid \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707085"
     },
