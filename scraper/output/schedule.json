@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:07:29.755054+00:00",
+  "generated_at": "2026-08-22T07:43:25.098274+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1312,6 +1312,18 @@
     {
       "league": "LCK",
       "game": "lol",
+      "start": "2026-08-22T07:24:08.485000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
       "start": "2026-08-22T08:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
@@ -2177,7 +2189,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-22T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2189,7 +2201,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-22T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2201,7 +2213,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-22T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -7188,6 +7200,18 @@
       "description": "NONGSHIM REDFORCE vs T1 \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044653"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-22T07:26:34.612000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
