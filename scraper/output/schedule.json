@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:55:45.485492+00:00",
+  "generated_at": "2026-08-22T12:20:48.635958+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7164,18 +7164,6 @@
       "description": "NONGSHIM REDFORCE vs T1 \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044653"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-22T07:26:34.612000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "VCT Pacific",
