@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T18:54:42.497874+00:00",
+  "generated_at": "2026-08-22T19:15:52.715177+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -192,6 +192,18 @@
       "description": "Sentinels vs LYON \u00b7 Week 4 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163821191"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-22T18:55:06.418000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCS",
@@ -3252,18 +3264,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-23T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Solary vs ZYB \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055720"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
