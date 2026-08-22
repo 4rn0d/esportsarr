@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T16:46:13.501038+00:00",
+  "generated_at": "2026-08-22T17:11:50.915715+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -725,7 +725,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-22T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -737,11 +737,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-22T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "SK Gaming vs Movistar KOI \u00b7 Week 5 \u00b7 Bo3",
+      "description": "Movistar KOI vs SK Gaming \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406251"
     },
@@ -3252,18 +3252,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-23T17:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs Joblife \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055678"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
