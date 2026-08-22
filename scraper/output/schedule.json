@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T13:42:10.285290+00:00",
+  "generated_at": "2026-08-22T13:57:52.941817+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6016,20 +6016,8 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-22T13:31:41.264000+00:00",
-      "state": "in_progress",
-      "title": "VCT EMEA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-22T14:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
