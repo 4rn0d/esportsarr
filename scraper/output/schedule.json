@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T20:58:19.244135+00:00",
+  "generated_at": "2026-08-22T21:19:39.734071+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4252,18 +4252,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-23T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Leviat\u00e1n Esports vs Evil Geniuses \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086877094"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-24T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4708,24 +4696,12 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-22T20:27:07.111000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-22T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "G2 Esports vs BESTIA \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "BESTIA vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450200"
     },
