@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260822230000 +0000" stop="20260823010000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Dignitas vs Disguised · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260823200000 +0000" stop="20260823220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Disguised vs Sentinels · Week 5 · Bo3</desc>
@@ -498,7 +493,7 @@
   </programme>
   <programme start="20260823000000 +0000" stop="20260823030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">KRÜ Visa vs Sentinels · Play-Ins · Bo3</desc>
+    <desc lang="en">Sentinels vs KRÜ Visa · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823210000 +0000" stop="20260824000000 +0000" channel="twitch.valorant_americas">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T22:59:11.699857+00:00",
+  "generated_at": "2026-08-22T23:20:54.324032+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -196,6 +196,18 @@
     {
       "league": "LCS",
       "game": "lol",
+      "start": "2026-08-22T18:55:06.418000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
       "start": "2026-08-22T20:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -209,7 +221,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-22T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -4713,7 +4725,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "KR\u00dc Visa vs Sentinels \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Sentinels vs KR\u00dc Visa \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610450204"
     },
