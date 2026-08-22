@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260822200000 +0000" stop="20260822220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Sentinels vs FlyQuest · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260822230000 +0000" stop="20260823010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Dignitas vs Disguised · Week 5 · Bo3</desc>
