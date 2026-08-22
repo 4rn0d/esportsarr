@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:00:59.396029+00:00",
+  "generated_at": "2026-08-22T08:44:59.660195+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1317,7 +1317,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Dplus KIA vs Gen.G Esports \u00b7 Week 13 \u00b7 Bo3",
+      "description": "Gen.G Esports vs Dplus KIA \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900619049"
     },
@@ -1512,18 +1512,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-25T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs LGD GAMING \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769604"
     },
     {
       "league": "LPL",
@@ -2184,6 +2172,18 @@
       "description": "LGD GAMING vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116566854547769716"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
+      "start": "2026-08-22T08:34:14.146000+00:00",
+      "state": "in_progress",
+      "title": "LPL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LPL",
@@ -7185,7 +7185,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "FULL SENSE vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ONSIDE GAMING vs FULL SENSE \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044673"
     },

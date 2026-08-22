@@ -163,7 +163,7 @@
   </programme>
   <programme start="20260822080000 +0000" stop="20260822100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Dplus KIA vs Gen.G Esports · Week 13 · Bo3</desc>
+    <desc lang="en">Gen.G Esports vs Dplus KIA · Week 13 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260822100000 +0000" stop="20260822120000 +0000" channel="twitch.lck">
@@ -733,7 +733,7 @@
   </programme>
   <programme start="20260822080000 +0000" stop="20260822110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">FULL SENSE vs ONSIDE GAMING · Play-Ins · Bo3</desc>
+    <desc lang="en">ONSIDE GAMING vs FULL SENSE · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260822100000 +0000" stop="20260822130000 +0000" channel="twitch.valorant_pacific">
