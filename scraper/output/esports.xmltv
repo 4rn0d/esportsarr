@@ -341,11 +341,6 @@
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260822160000 +0000" stop="20260822180000 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">Vivo Keyd Stars vs LEVIATÁN · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260822190000 +0000" stop="20260822210000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">paiN Gaming vs FURIA · Week 5 · Bo3</desc>
