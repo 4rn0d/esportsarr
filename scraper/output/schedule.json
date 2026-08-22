@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T11:33:47.989400+00:00",
+  "generated_at": "2026-08-22T11:55:45.485492+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -7168,6 +7168,18 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
+      "start": "2026-08-22T07:26:34.612000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
       "start": "2026-08-22T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7181,7 +7193,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-22T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -7209,7 +7221,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs T1 \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "T1 vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044685"
     },
