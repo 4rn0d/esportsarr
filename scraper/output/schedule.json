@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:43:25.098274+00:00",
+  "generated_at": "2026-08-22T08:00:59.396029+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1312,20 +1312,8 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-22T07:24:08.485000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-22T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -6772,18 +6760,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-07-23T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs FULL SENSE \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954913425"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-07-23T10:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7204,20 +7180,8 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-22T07:26:34.612000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-22T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
