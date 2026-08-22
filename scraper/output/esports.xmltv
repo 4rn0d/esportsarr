@@ -161,11 +161,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260822080000 +0000" stop="20260822100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs Dplus KIA · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260822100000 +0000" stop="20260822120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">DN SOOPers vs KIWOOM DRX · Week 13 · Bo3</desc>
