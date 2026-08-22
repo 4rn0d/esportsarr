@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:44:59.660195+00:00",
+  "generated_at": "2026-08-22T09:04:14.870283+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1516,6 +1516,18 @@
     {
       "league": "LPL",
       "game": "lol",
+      "start": "2026-07-25T07:00:00+00:00",
+      "state": "completed",
+      "title": "LPL",
+      "stream_platform": "youtube",
+      "stream_channel": "LPL_English",
+      "description": "Xi'an Team WE vs LGD GAMING \u00b7 Week 1 \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "116566854547769604"
+    },
+    {
+      "league": "LPL",
+      "game": "lol",
       "start": "2026-07-25T09:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -2172,18 +2184,6 @@
       "description": "LGD GAMING vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116566854547769716"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-22T08:34:14.146000+00:00",
-      "state": "in_progress",
-      "title": "LPL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LPL",
@@ -3137,7 +3137,7 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-22T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
