@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T17:55:51.989384+00:00",
+  "generated_at": "2026-08-22T18:17:06.883772+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3256,18 +3256,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-07-23T18:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Galions vs Vitality.Bee \u00b7 Week 1 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990130"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-07-23T19:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -5512,18 +5500,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-23T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs NAVI \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706901"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-24T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -6072,30 +6048,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-23T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "ALTERNATE aTTaX Ruby vs Karmine Corp \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173203"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-23T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs GIANTX \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173147"
     },
     {
       "league": "Game Changers EMEA",
