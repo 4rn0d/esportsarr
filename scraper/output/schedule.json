@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:08:48.896174+00:00",
+  "generated_at": "2026-08-23T07:45:15.106202+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1332,6 +1332,18 @@
       "description": "KIWOOM DRX vs DN SOOPers \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900750241"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-23T07:34:32.710000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCK",
