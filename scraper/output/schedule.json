@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T06:23:17.737352+00:00",
+  "generated_at": "2026-08-23T07:08:48.896174+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2213,7 +2213,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-23T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2225,7 +2225,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-23T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2237,7 +2237,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-23T11:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -7032,6 +7032,18 @@
       "description": "ZETA DIVISION vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044677"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-23T07:01:32.682000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
