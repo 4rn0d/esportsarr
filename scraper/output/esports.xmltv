@@ -141,11 +141,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260823100000 +0000" stop="20260823120000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">NONGSHIM RED FORCE vs BNK FEARX · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260826080000 +0000" stop="20260826112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
@@ -639,11 +634,6 @@
   <programme start="20260830080000 +0000" stop="20260830133000 +0000" channel="twitch.valorant_emea">
     <title lang="en">Game Changers EMEA</title>
     <desc lang="en">G2 Gozen vs Gentle Mates · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260823100000 +0000" stop="20260823130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">T1 vs DetonatioN FocusMe · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260826080000 +0000" stop="20260826110000 +0000" channel="twitch.valorant_pacific">
