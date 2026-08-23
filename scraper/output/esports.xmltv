@@ -38,7 +38,7 @@
   </channel>
   <programme start="20260823200000 +0000" stop="20260823220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Disguised vs Sentinels · Week 5 · Bo3</desc>
+    <desc lang="en">Sentinels vs Disguised · Week 5 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823230000 +0000" stop="20260824010000 +0000" channel="twitch.lcs">
