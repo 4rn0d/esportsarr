@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T19:53:58.550971+00:00",
+  "generated_at": "2026-08-23T20:11:17.267743+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -720,18 +720,6 @@
       "description": "Movistar KOI vs SK Gaming \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406251"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-23T14:01:20.041000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LEC",
