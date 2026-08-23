@@ -141,11 +141,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260823080000 +0000" stop="20260823100000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">T1 vs Hanwha Life Esports · Week 13 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260823100000 +0000" stop="20260823120000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">BNK FEARX vs NONGSHIM RED FORCE · Week 13 · Bo3</desc>
