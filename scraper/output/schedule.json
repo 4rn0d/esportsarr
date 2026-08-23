@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:49:15.473105+00:00",
+  "generated_at": "2026-08-23T19:15:06.056979+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -216,6 +216,18 @@
       "description": "Dignitas vs Disguised \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886763"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-08-23T18:51:38.226000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCS",
