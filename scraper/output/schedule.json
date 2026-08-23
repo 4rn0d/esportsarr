@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T08:55:04.004983+00:00",
+  "generated_at": "2026-08-23T09:18:22.251133+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3148,24 +3148,12 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-08-23T08:41:00.617000+00:00",
-      "state": "in_progress",
-      "title": "LCP",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
       "start": "2026-08-23T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "CTBC Flying Oyster vs Team Secret Whales \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Team Secret Whales vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520937"
     },
