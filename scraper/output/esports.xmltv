@@ -143,7 +143,7 @@
   </programme>
   <programme start="20260823080000 +0000" stop="20260823100000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs T1 · Week 13 · Bo3</desc>
+    <desc lang="en">T1 vs Hanwha Life Esports · Week 13 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823100000 +0000" stop="20260823120000 +0000" channel="twitch.lck">
@@ -653,7 +653,7 @@
   </programme>
   <programme start="20260823080000 +0000" stop="20260823110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">Sharper Esports vs ONSIDE GAMING · Play-Ins · Bo3</desc>
+    <desc lang="en">ONSIDE GAMING vs Sharper Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823100000 +0000" stop="20260823130000 +0000" channel="twitch.valorant_pacific">

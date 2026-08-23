@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:45:15.106202+00:00",
+  "generated_at": "2026-08-23T08:18:00.534127+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1336,24 +1336,12 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-23T07:34:32.710000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-23T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs T1 \u00b7 Week 13 \u00b7 Bo3",
+      "description": "T1 vs Hanwha Life Esports \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900553481"
     },
@@ -3192,18 +3180,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520955"
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
-      "start": "2026-07-24T08:00:00+00:00",
-      "state": "completed",
-      "title": "LJL",
-      "stream_platform": "twitch",
-      "stream_channel": "leagueoflegendsjp",
-      "description": "Arneb vs RAYN Clocks \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116917034792783717"
     },
     {
       "league": "LJL",
@@ -6616,18 +6592,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-07-24T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Rex Regum Qeon vs ZETA DIVISION \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954979001"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-07-24T10:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -7048,24 +7012,12 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-23T07:01:32.682000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-23T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Sharper Esports vs ONSIDE GAMING \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ONSIDE GAMING vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044681"
     },
