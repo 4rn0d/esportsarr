@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T14:13:47.504460+00:00",
+  "generated_at": "2026-08-23T14:39:39.322529+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -336,18 +336,6 @@
       "description": "Disguised vs LYON \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886787"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-07-24T14:30:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Movistar KOI vs G2 Esports \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406275"
     },
     {
       "league": "LEC",
