@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:57:24.899018+00:00",
+  "generated_at": "2026-08-23T21:17:09.373550+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4216,18 +4216,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-24T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "NRG vs FURIA \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942666"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-25T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4677,7 +4665,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "ENVY vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "G2 Esports vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515744"
     },
