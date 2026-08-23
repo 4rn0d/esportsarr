@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T14:58:08.278886+00:00",
+  "generated_at": "2026-08-23T15:19:24.161975+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -736,24 +736,12 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-23T14:01:20.041000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-23T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Team Heretics vs GIANTX \u00b7 Week 5 \u00b7 Bo3",
+      "description": "GIANTX vs Team Heretics \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406123"
     },
@@ -2736,6 +2724,18 @@
       "description": "paiN Gaming vs FURIA \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402953"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-08-23T14:59:12.237000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "CBLOL",
@@ -5436,18 +5436,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-24T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs BBL Esports \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706865"
     },
     {
       "league": "VCT EMEA",
