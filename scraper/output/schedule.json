@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T18:14:42.006205+00:00",
+  "generated_at": "2026-08-23T18:49:15.473105+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -5885,7 +5885,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-23T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5913,7 +5913,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs Team Liquid \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Fire Flux Esports vs Team Liquid \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707093"
     },
