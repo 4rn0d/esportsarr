@@ -603,7 +603,7 @@
   </programme>
   <programme start="20260823140000 +0000" stop="20260823170000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">Enterprise Esports vs Team Liquid · Playoffs · Bo3</desc>
+    <desc lang="en">Team Liquid vs Enterprise Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260823170000 +0000" stop="20260823200000 +0000" channel="twitch.valorant_emea">
