@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:33:09.451266+00:00",
+  "generated_at": "2026-08-23T17:54:30.180856+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2717,7 +2717,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-23T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2729,11 +2729,11 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-23T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "LOS vs LOUD \u00b7 Week 5 \u00b7 Bo3",
+      "description": "LOUD vs LOS \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402973"
     },
