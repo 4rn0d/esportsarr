@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:18:30.069755+00:00",
+  "generated_at": "2026-08-23T13:51:01.678893+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -5916,6 +5916,18 @@
       "description": "Fire Flux Esports vs Team Vitality \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707077"
+    },
+    {
+      "league": "VCT EMEA",
+      "game": "valorant",
+      "start": "2026-08-23T13:19:32.838000+00:00",
+      "state": "in_progress",
+      "title": "VCT EMEA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT EMEA",
