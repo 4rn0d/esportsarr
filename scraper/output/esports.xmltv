@@ -36,11 +36,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260823230000 +0000" stop="20260824010000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Dignitas vs FlyQuest · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260829200000 +0000" stop="20260829220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Shopify Rebellion vs Team Liquid Alienware · Week 6 · Bo3</desc>
