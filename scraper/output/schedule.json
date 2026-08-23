@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T23:56:44.727818+00:00",
+  "generated_at": "2026-08-23T00:58:03.244800+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4248,18 +4248,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-07-24T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "ENVY vs MIBR \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086877114"
     },
     {
       "league": "VCT Americas",
