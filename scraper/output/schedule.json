@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T17:54:34.620475+00:00",
+  "generated_at": "2026-08-24T18:24:51.802878+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3977,7 +3977,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-24T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3989,11 +3989,11 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-24T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Ruddy Corporation vs VES \u00b7 Playoffs \u00b7 Bo3",
+      "description": "VES vs Ruddy Corporation \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860071"
     },
@@ -4581,7 +4581,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "LOUD vs FURIA \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515752"
     },
@@ -4593,7 +4593,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Leviat\u00e1n Esports vs MIBR \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515756"
     },
@@ -4605,7 +4605,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs NRG \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515760"
     },
@@ -4617,7 +4617,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515764"
     },
@@ -4629,7 +4629,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515768"
     },
@@ -4641,7 +4641,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Evil Geniuses \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515772"
     },
@@ -5292,18 +5292,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-25T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eternal Fire vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706957"
     },
     {
       "league": "VCT EMEA",
