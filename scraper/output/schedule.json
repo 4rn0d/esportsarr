@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-24T19:41:18.667392+00:00",
+  "generated_at": "2026-08-24T20:01:26.318216+00:00",
   "matches": [
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-07-25T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "FlyQuest vs LYON \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797164345551"
-    },
     {
       "league": "LCS",
       "game": "lol",
@@ -720,18 +708,6 @@
       "description": "Shifters vs Karmine Corp \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406223"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-24T14:09:54.419000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LEC",
@@ -3972,18 +3948,6 @@
       "description": "Bardicted to U vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860063"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-24T15:34:48.436000+00:00",
-      "state": "in_progress",
-      "title": "NLC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "NLC",
