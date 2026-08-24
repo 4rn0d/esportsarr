@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T14:58:00.956990+00:00",
+  "generated_at": "2026-08-24T15:36:33.125893+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -741,7 +741,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Natus Vincere vs Fnatic \u00b7 Week 5 \u00b7 Bo3",
+      "description": "Fnatic vs Natus Vincere \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406167"
     },
@@ -5316,18 +5316,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-25T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Vitality vs PCIFIC Esports \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706921"
     },
     {
       "league": "VCT EMEA",
