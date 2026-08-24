@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T15:36:33.125893+00:00",
+  "generated_at": "2026-08-24T16:14:53.671977+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2404,18 +2404,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-07-25T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "FURIA vs LOS \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402945"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-07-25T19:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -4001,7 +3989,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-24T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
