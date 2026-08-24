@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T06:36:23.152012+00:00",
+  "generated_at": "2026-08-24T07:43:13.951563+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1488,18 +1488,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-25T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs LGD GAMING \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769604"
     },
     {
       "league": "LPL",
