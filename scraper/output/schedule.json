@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:08:26.010105+00:00",
+  "generated_at": "2026-08-24T19:41:18.667392+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -724,6 +724,18 @@
     {
       "league": "LEC",
       "game": "lol",
+      "start": "2026-08-24T14:09:54.419000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
       "start": "2026-08-24T15:00:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -737,7 +749,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-24T17:15:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -3964,6 +3976,18 @@
     {
       "league": "NLC",
       "game": "lol",
+      "start": "2026-08-24T15:34:48.436000+00:00",
+      "state": "in_progress",
+      "title": "NLC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
       "start": "2026-08-24T16:00:00+00:00",
       "state": "completed",
       "title": "NLC",
@@ -3977,7 +4001,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-24T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -4005,7 +4029,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "VES vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860087"
     },
@@ -4029,7 +4053,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs Deer Gaming \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Ruddy Corporation vs Deer Gaming \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860079"
     },

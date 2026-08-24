@@ -76,11 +76,6 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260824171500 +0000" stop="20260824191500 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">G2 Esports vs GIANTX · Week 5 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260828150000 +0000" stop="20260828170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs Shifters · Week 6 · Bo3</desc>
@@ -366,11 +361,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260824180000 +0000" stop="20260824200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">VES vs Ruddy Corporation · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260826160000 +0000" stop="20260826180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">Bardicted to U vs Bulldog Esports · Playoffs · Bo3</desc>
@@ -378,7 +368,7 @@
   </programme>
   <programme start="20260826180000 +0000" stop="20260826200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs DMG Esports · Playoffs · Bo3</desc>
+    <desc lang="en">VES vs DMG Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260831160000 +0000" stop="20260831180000 +0000" channel="twitch.NLCLoL">
@@ -388,7 +378,7 @@
   </programme>
   <programme start="20260831180000 +0000" stop="20260831200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs Deer Gaming · Playoffs · Bo3</desc>
+    <desc lang="en">Ruddy Corporation vs Deer Gaming · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902160000 +0000" stop="20260902180000 +0000" channel="twitch.NLCLoL">
