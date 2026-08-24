@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-08-24T22:49:57.350257+00:00",
+  "generated_at": "2026-08-24T23:13:54.218446+00:00",
   "matches": [
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-07-25T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Sentinels vs Dignitas \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163821179"
-    },
     {
       "league": "LCS",
       "game": "lol",
