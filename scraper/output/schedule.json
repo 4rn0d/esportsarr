@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T08:26:00.871977+00:00",
+  "generated_at": "2026-08-24T09:11:18.988612+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1492,18 +1492,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-07-25T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Invictus Gaming vs WeiboGaming \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835312"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-07-25T11:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -2844,18 +2832,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468629"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-07-25T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "MVK Esports vs Ground Zero Gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727838285"
     },
     {
       "league": "LCP",
