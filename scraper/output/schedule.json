@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T23:56:28.352945+00:00",
+  "generated_at": "2026-08-24T00:53:48.670849+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -216,18 +216,6 @@
       "description": "Dignitas vs Disguised \u00b7 Week 5 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886763"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-23T18:51:38.226000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LCS",
@@ -4228,18 +4216,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-25T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "100 Thieves vs KR\u00dc Visa \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942690"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-25T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4673,7 +4649,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-23T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4685,11 +4661,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-24T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Evil Geniuses vs KR\u00dc Visa \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "KR\u00dc Visa vs Evil Geniuses \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515748"
     },
