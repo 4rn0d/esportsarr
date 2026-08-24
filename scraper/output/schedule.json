@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T11:18:15.706891+00:00",
+  "generated_at": "2026-08-24T11:50:23.534520+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2820,18 +2820,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468629"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-07-25T11:30:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Team Secret Whales vs Fukuoka SoftBank HAWKS gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903825"
     },
     {
       "league": "LCP",
