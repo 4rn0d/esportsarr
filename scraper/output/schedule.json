@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:24:48.299443+00:00",
+  "generated_at": "2026-08-25T08:05:22.638051+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6324,18 +6324,6 @@
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-26T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Paper Rex vs Kiwoom DRX \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954979025"
     },
     {
       "league": "VCT Pacific",
