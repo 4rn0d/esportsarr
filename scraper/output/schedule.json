@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T09:31:16.905443+00:00",
+  "generated_at": "2026-08-25T10:04:37.552655+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2121,7 +2121,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo5",
+      "description": "EDWARD GAMING vs Shenzhen NINJAS IN PYJAMAS \u00b7 Play In Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116566921179138936"
     },
@@ -2133,7 +2133,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Play In Knockouts \u00b7 Bo5",
+      "description": "THUNDER TALK GAMING vs Invictus Gaming \u00b7 Play In Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116566921179204478"
     },
@@ -2145,9 +2145,9 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TOP ESPORTS vs LGD GAMING \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824691"
+      "match_id": "117155436343202136"
     },
     {
       "league": "LPL",
@@ -2157,9 +2157,9 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Beijing JDG Esports vs Xi'an Team WE \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824697"
+      "match_id": "117155436343202142"
     },
     {
       "league": "LPL",
@@ -2169,9 +2169,9 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs BILIBILI GAMING \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824703"
+      "match_id": "117155436343202154"
     },
     {
       "league": "LPL",
@@ -2181,9 +2181,9 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Anyone's Legend \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824709"
+      "match_id": "117155436343202148"
     },
     {
       "league": "LPL",
@@ -2195,7 +2195,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824715"
+      "match_id": "117155436343202160"
     },
     {
       "league": "LPL",
@@ -2207,7 +2207,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824721"
+      "match_id": "117155436343202166"
     },
     {
       "league": "LPL",
@@ -2219,7 +2219,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824727"
+      "match_id": "117155436343202178"
     },
     {
       "league": "LPL",
@@ -2231,7 +2231,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125824733"
+      "match_id": "117155436343202184"
     },
     {
       "league": "LPL",
@@ -2243,7 +2243,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125890281"
+      "match_id": "117155436343202172"
     },
     {
       "league": "LPL",
@@ -2255,7 +2255,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125890287"
+      "match_id": "117155436343202190"
     },
     {
       "league": "LPL",
@@ -2267,19 +2267,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125890275"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-09-13T09:00:00+00:00",
-      "state": "unstarted",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115616310125890293"
+      "match_id": "117155436343202196"
     },
     {
       "league": "LPL",
@@ -2291,19 +2279,7 @@
       "stream_channel": "LPL_English",
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115616310125890305"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-09-17T09:00:00+00:00",
-      "state": "unstarted",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115616310125890299"
+      "match_id": "117155436343202202"
     },
     {
       "league": "LPL",
@@ -6300,18 +6276,6 @@
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-26T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Gen.G  vs Rex Regum Qeon \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954979005"
     },
     {
       "league": "VCT Pacific",
