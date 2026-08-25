@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T18:55:17.136357+00:00",
+  "generated_at": "2026-08-25T19:23:30.749629+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2280,18 +2280,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-07-26T19:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "Vivo Keyd Stars vs RED Kalunga \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403053"
     },
     {
       "league": "CBLOL",
