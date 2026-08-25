@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T10:47:15.953517+00:00",
+  "generated_at": "2026-08-25T11:17:40.227071+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1440,18 +1440,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-26T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "BILIBILI GAMING vs Anyone's Legend \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769552"
     },
     {
       "league": "LPL",
