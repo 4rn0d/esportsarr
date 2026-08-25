@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:12:30.441199+00:00",
+  "generated_at": "2026-08-25T15:03:52.932900+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -312,18 +312,6 @@
       "description": "Disguised vs LYON \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886787"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-07-26T14:30:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Team Vitality vs Movistar KOI \u00b7 Week 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406191"
     },
     {
       "league": "LEC",
@@ -5148,18 +5136,6 @@
       "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116922922018387799"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-26T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "NAVI vs BBL Esports \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706873"
     },
     {
       "league": "VCT EMEA",
