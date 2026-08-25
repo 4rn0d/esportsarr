@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T11:17:40.227071+00:00",
+  "generated_at": "2026-08-25T11:51:16.518922+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2688,18 +2688,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468629"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-07-26T11:30:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Relove Deep Cross Gaming vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903833"
     },
     {
       "league": "LCP",
