@@ -568,32 +568,32 @@
   </programme>
   <programme start="20260826080000 +0000" stop="20260826110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">Paper Rex vs NONGSHIM REDFORCE · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260826100000 +0000" stop="20260826130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">GLOBAL ESPORTS vs Kiwoom DRX · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs Gen.G  · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260827100000 +0000" stop="20260827130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs VARREL · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260828080000 +0000" stop="20260828110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs ONSIDE GAMING · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260828100000 +0000" stop="20260828130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs T1 · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829080000 +0000" stop="20260829110000 +0000" channel="twitch.valorant_pacific">
@@ -604,6 +604,26 @@
   <programme start="20260829100000 +0000" stop="20260829130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260904080000 +0000" stop="20260904110000 +0000" channel="twitch.valorant_pacific">
+    <title lang="en">VCT Pacific</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260904100000 +0000" stop="20260904130000 +0000" channel="twitch.valorant_pacific">
+    <title lang="en">VCT Pacific</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260905080000 +0000" stop="20260905133000 +0000" channel="twitch.valorant_pacific">
+    <title lang="en">VCT Pacific</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260906080000 +0000" stop="20260906133000 +0000" channel="twitch.valorant_pacific">
+    <title lang="en">VCT Pacific</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
 </tv>
