@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T09:54:36.502100+00:00",
+  "generated_at": "2026-08-26T10:24:33.911057+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6521,7 +6521,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-26T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6533,11 +6533,11 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-26T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs Kiwoom DRX \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Kiwoom DRX vs GLOBAL ESPORTS \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044693"
     },

@@ -556,14 +556,9 @@
     <desc lang="en">G2 Gozen vs Gentle Mates · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260826080000 +0000" stop="20260826110000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Paper Rex vs NONGSHIM REDFORCE · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260826100000 +0000" stop="20260826130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">GLOBAL ESPORTS vs Kiwoom DRX · Playoffs · Bo3</desc>
+    <desc lang="en">Kiwoom DRX vs GLOBAL ESPORTS · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.valorant_pacific">
