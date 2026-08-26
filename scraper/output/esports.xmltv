@@ -111,11 +111,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260826080000 +0000" stop="20260826112000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">HANJIN BRION vs kt Rolster · Play-Ins · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260827080000 +0000" stop="20260827112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">NONGSHIM RED FORCE vs BNK FEARX · Play-Ins · Bo5</desc>
@@ -123,27 +118,27 @@
   </programme>
   <programme start="20260828080000 +0000" stop="20260828112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <desc lang="en">TBD vs HANJIN BRION · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829080000 +0000" stop="20260829112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs T1 · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs Dplus KIA · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260901080000 +0000" stop="20260901112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs Gen.G Esports · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902080000 +0000" stop="20260902112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs Hanwha Life Esports · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260903080000 +0000" stop="20260903112000 +0000" channel="twitch.lck">
@@ -556,11 +551,6 @@
     <desc lang="en">G2 Gozen vs Gentle Mates · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260826100000 +0000" stop="20260826130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Kiwoom DRX vs GLOBAL ESPORTS · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">NONGSHIM REDFORCE vs Gen.G  · Playoffs · Bo3</desc>
@@ -568,7 +558,7 @@
   </programme>
   <programme start="20260827100000 +0000" stop="20260827130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs VARREL · Playoffs · Bo3</desc>
+    <desc lang="en">GLOBAL ESPORTS vs VARREL · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260828080000 +0000" stop="20260828110000 +0000" channel="twitch.valorant_pacific">
@@ -578,7 +568,7 @@
   </programme>
   <programme start="20260828100000 +0000" stop="20260828130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs T1 · Playoffs · Bo3</desc>
+    <desc lang="en">Kiwoom DRX vs T1 · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829080000 +0000" stop="20260829110000 +0000" channel="twitch.valorant_pacific">

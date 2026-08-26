@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T12:36:20.110903+00:00",
+  "generated_at": "2026-08-26T13:39:07.252601+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1241,7 +1241,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-26T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1269,7 +1269,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "TBD vs HANJIN BRION \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841583"
     },
@@ -1281,7 +1281,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs T1 \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841589"
     },
@@ -1293,7 +1293,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Dplus KIA \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841595"
     },
@@ -1305,7 +1305,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841601"
     },
@@ -1317,7 +1317,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841607"
     },
@@ -6533,7 +6533,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-26T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6561,7 +6561,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs VARREL \u00b7 Playoffs \u00b7 Bo3",
+      "description": "GLOBAL ESPORTS vs VARREL \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044701"
     },
@@ -6585,7 +6585,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs T1 \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Kiwoom DRX vs T1 \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044709"
     },
