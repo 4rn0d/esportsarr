@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T16:44:35.457877+00:00",
+  "generated_at": "2026-08-26T18:25:05.046775+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3460,30 +3460,6 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-07-27T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Verdant vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794431"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-27T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Arctic Pandas vs Bulldog Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794435"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-07-29T16:00:00+00:00",
       "state": "completed",
       "title": "NLC",
@@ -5508,18 +5484,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-27T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Karmine Corp \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173099"
     },
     {
       "league": "Game Changers EMEA",
