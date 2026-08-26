@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:57:28.593176+00:00",
+  "generated_at": "2026-08-26T16:44:35.457877+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3412,20 +3412,8 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-26T15:01:13.517000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-26T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3468,30 +3456,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-27T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Ruddy Corporation vs VES \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794423"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-27T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Deer Gaming vs Epic Avalanche \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794427"
     },
     {
       "league": "NLC",
@@ -3825,7 +3789,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Bardicted to U vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Bulldog Esports vs Bardicted to U \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860083"
     },
