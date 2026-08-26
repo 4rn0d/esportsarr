@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:38:20.318247+00:00",
+  "generated_at": "2026-08-26T07:30:19.726400+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1236,6 +1236,18 @@
       "description": "NONGSHIM RED FORCE vs BNK FEARX \u00b7 Week 13 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548147900750229"
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
+      "start": "2026-08-26T07:22:20.373000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCK",
@@ -6516,6 +6528,18 @@
       "description": "T1 vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044685"
+    },
+    {
+      "league": "VCT Pacific",
+      "game": "valorant",
+      "start": "2026-08-26T07:01:47.754000+00:00",
+      "state": "in_progress",
+      "title": "VCT Pacific",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "VCT Pacific",
