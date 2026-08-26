@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T07:30:19.726400+00:00",
+  "generated_at": "2026-08-26T08:22:15.617983+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1240,24 +1240,12 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-26T07:22:20.373000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-26T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "kt Rolster vs HANJIN BRION \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "HANJIN BRION vs kt Rolster \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841571"
     },
@@ -6532,20 +6520,8 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-26T07:01:47.754000+00:00",
-      "state": "in_progress",
-      "title": "VCT Pacific",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-26T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
