@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:24:07.876897+00:00",
+  "generated_at": "2026-08-26T15:57:28.593176+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3412,6 +3412,18 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
+      "start": "2026-08-26T15:01:13.517000+00:00",
+      "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
       "start": "2026-08-26T16:00:00+00:00",
       "state": "unstarted",
       "title": "La Ligue Fran\u00e7aise",
@@ -3809,7 +3821,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-26T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -5532,30 +5544,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-27T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242041987"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-27T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs Habos Babos \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173207"
     },
     {
       "league": "Game Changers EMEA",
