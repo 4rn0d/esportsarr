@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:25:05.046775+00:00",
+  "generated_at": "2026-08-26T20:21:48.235157+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3413,7 +3413,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-26T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3441,7 +3441,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121320"
     },
@@ -3453,7 +3453,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
     },
@@ -3761,7 +3761,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-26T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3773,7 +3773,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-26T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3813,7 +3813,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860097"
     },

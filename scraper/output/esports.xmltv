@@ -326,11 +326,6 @@
     <desc lang="en">TBD vs FENNEL · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260826160000 +0000" stop="20260826192000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">TLN Pirates vs Galions · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260827160000 +0000" stop="20260827192000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
     <desc lang="en">Karmine Corp Blue vs Skillcamp · Playoffs · Bo5</desc>
@@ -338,17 +333,12 @@
   </programme>
   <programme start="20260901160000 +0000" stop="20260901192000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs TLN Pirates · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902160000 +0000" stop="20260902192000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260826160000 +0000" stop="20260826180000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Bulldog Esports vs Bardicted to U · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs Galions · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260826180000 +0000" stop="20260826200000 +0000" channel="twitch.NLCLoL">
@@ -368,7 +358,7 @@
   </programme>
   <programme start="20260902160000 +0000" stop="20260902180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs Bulldog Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902180000 +0000" stop="20260902200000 +0000" channel="twitch.NLCLoL">
