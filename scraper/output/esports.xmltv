@@ -76,6 +76,36 @@
     <desc lang="en">Disguised vs LYON · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260912200000 +0000" stop="20260912232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260913200000 +0000" stop="20260913232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260918200000 +0000" stop="20260918232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260919200000 +0000" stop="20260919232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260920200000 +0000" stop="20260920232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260925200000 +0000" stop="20260925232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260828150000 +0000" stop="20260828170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs Shifters · Week 6 · Bo3</desc>
@@ -538,12 +568,12 @@
   </programme>
   <programme start="20260827080000 +0000" stop="20260827110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">NONGSHIM REDFORCE vs Gen.G  · Playoffs · Bo3</desc>
+    <desc lang="en">Gen.G  vs NONGSHIM REDFORCE · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260827100000 +0000" stop="20260827130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">GLOBAL ESPORTS vs VARREL · Playoffs · Bo3</desc>
+    <desc lang="en">VARREL vs GLOBAL ESPORTS · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260828080000 +0000" stop="20260828110000 +0000" channel="twitch.valorant_pacific">

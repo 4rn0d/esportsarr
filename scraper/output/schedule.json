@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T23:51:06.283361+00:00",
+  "generated_at": "2026-08-27T05:44:04.754204+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -288,6 +288,78 @@
       "description": "Disguised vs LYON \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886787"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-12T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949375"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-13T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949381"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-18T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949387"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-19T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949393"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-20T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949405"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-25T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949399"
     },
     {
       "league": "LEC",
@@ -6369,7 +6441,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "NONGSHIM REDFORCE vs Gen.G  \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Gen.G  vs NONGSHIM REDFORCE \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044697"
     },
@@ -6381,7 +6453,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs VARREL \u00b7 Playoffs \u00b7 Bo3",
+      "description": "VARREL vs GLOBAL ESPORTS \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044701"
     },
