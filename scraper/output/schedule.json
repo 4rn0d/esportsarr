@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T12:46:30.688797+00:00",
+  "generated_at": "2026-08-28T22:48:07.426109+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -372,6 +372,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949417"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-27T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949405"
     },
     {
       "league": "LEC",
@@ -761,7 +773,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-28T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -773,11 +785,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-28T17:15:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Team Vitality vs Fnatic \u00b7 Week 6 \u00b7 Bo3",
+      "description": "Fnatic vs Team Vitality \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406195"
     },
@@ -1320,18 +1332,6 @@
       "description": "BNK FEARX vs NONGSHIM RED FORCE \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841577"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-28T07:32:21.516000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LCK",
@@ -2678,6 +2678,18 @@
       "match_id": "115565671526468623"
     },
     {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-27T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565671526468635"
+    },
+    {
       "league": "LCP",
       "game": "lol",
       "start": "2026-07-30T09:00:00+00:00",
@@ -2976,66 +2988,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-29T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "TLN Pirates vs ZYB \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055722"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-29T17:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs Vitality.Bee \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990128"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Solary vs Esprit Shonen \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055696"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-29T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Joblife vs Karmine Corp Blue \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055688"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-29T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Galions vs Skillcamp \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990114"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -3444,54 +3396,6 @@
       "description": "TBD vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-29T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bardicted to U vs Absolved \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794439"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-29T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Rich Gang vs Lund Esports Organization \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794443"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "DMG Esports vs 2 Massive \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794447"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-07-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Brod & Friends vs S\u00f8rby Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559794451"
     },
     {
       "league": "NLC",
@@ -4301,11 +4205,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-28T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "LOUD vs NRG \u00b7 Playoffs \u00b7 Bo3",
+      "description": "NRG vs LOUD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515760"
     },
@@ -4864,30 +4768,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-29T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Liquid vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706953"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-07-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs Team Vitality \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706905"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-30T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -5297,11 +5177,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-28T14:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs FUT Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FUT Esports vs Karmine Corp \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707081"
     },
@@ -5309,11 +5189,11 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-28T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Fire Flux Esports vs Team Liquid \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Team Liquid vs Fire Flux Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581261721707093"
     },
@@ -5325,7 +5205,7 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Team Liquid vs FUT Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707097"
     },
@@ -5337,57 +5217,9 @@
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-29T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "SK Nebula vs G2 Gozen \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173087"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-29T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs FOKUS Sakura \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173079"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs ALTERNATE aTTaX Ruby \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173215"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Habos Babos vs GIANTX \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173159"
     },
     {
       "league": "Game Changers EMEA",
