@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T01:13:16.059429+00:00",
+  "generated_at": "2026-08-28T12:46:30.688797+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -844,30 +844,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-07-29T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "KIWOOM DRX vs NONGSHIM RED FORCE \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684661"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-07-29T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "T1 vs kt Rolster \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553461"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-07-30T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1348,12 +1324,24 @@
     {
       "league": "LCK",
       "game": "lol",
+      "start": "2026-08-28T07:32:21.516000+00:00",
+      "state": "in_progress",
+      "title": "LCK",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCK",
+      "game": "lol",
       "start": "2026-08-28T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "HANJIN BRION vs BNK FEARX \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "BNK FEARX vs HANJIN BRION \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841583"
     },
@@ -1365,7 +1353,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "T1 vs BNK FEARX \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841589"
     },
@@ -1377,7 +1365,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Dplus KIA vs kt Rolster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841595"
     },
@@ -1389,7 +1377,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841601"
     },
@@ -1401,7 +1389,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841607"
     },
@@ -1476,30 +1464,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-29T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs TOP ESPORTS \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769576"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-29T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "LGD GAMING vs BILIBILI GAMING \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769560"
     },
     {
       "league": "LPL",
@@ -2141,7 +2105,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-28T06:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2153,7 +2117,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-28T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2217,7 +2181,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Shenzhen NINJAS IN PYJAMAS \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202160"
     },
@@ -2229,7 +2193,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202166"
     },
@@ -2964,18 +2928,6 @@
       "description": "TBD vs Team Secret Whales \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520955"
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
-      "start": "2026-07-29T08:00:00+00:00",
-      "state": "completed",
-      "title": "LJL",
-      "stream_platform": "twitch",
-      "stream_channel": "leagueoflegendsjp",
-      "description": "L Guide Gaming vs Arneb \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116917034792783741"
     },
     {
       "league": "LJL",
@@ -6341,7 +6293,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-28T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6353,7 +6305,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-28T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -6369,7 +6321,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs VARREL \u00b7 Playoffs \u00b7 Bo3",
+      "description": "VARREL vs Paper Rex \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044717"
     },
@@ -6381,7 +6333,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs Gen.G  \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Gen.G  vs T1 \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044721"
     },
