@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:49:07.204980+00:00",
+  "generated_at": "2026-08-28T01:13:16.059429+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -360,6 +360,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949411"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-26T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949417"
     },
     {
       "league": "LEC",
@@ -3016,54 +3028,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-07-28T17:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "ZYB vs Esprit Shonen \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055694"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-28T18:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs Galions \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055718"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-28T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Vitality.Bee vs Joblife \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990124"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-28T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs Solary \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055706"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-07-29T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3497,7 +3461,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-08-27T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -3513,7 +3477,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TBD vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Karmine Corp Blue vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121320"
     },
@@ -4361,11 +4325,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-27T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "LOUD vs FURIA \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FURIA vs LOUD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515752"
     },
@@ -4373,11 +4337,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-28T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Leviat\u00e1n Esports vs MIBR \u00b7 Playoffs \u00b7 Bo3",
+      "description": "MIBR vs Leviat\u00e1n Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515756"
     },
@@ -4389,7 +4353,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs NRG \u00b7 Playoffs \u00b7 Bo3",
+      "description": "LOUD vs NRG \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515760"
     },
@@ -4401,7 +4365,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Leviat\u00e1n Esports vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515764"
     },
@@ -4413,7 +4377,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FURIA vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515768"
     },
@@ -4425,7 +4389,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs Evil Geniuses \u00b7 Playoffs \u00b7 Bo3",
+      "description": "MIBR vs Evil Geniuses \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515772"
     },
@@ -4936,42 +4900,6 @@
     {
       "league": "Last Chance Qualifier Americas",
       "game": "valorant",
-      "start": "2026-07-28T19:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Shopify Rebellion Black vs 2GAME \u00b7 Round 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116922922018387787"
-    },
-    {
-      "league": "Last Chance Qualifier Americas",
-      "game": "valorant",
-      "start": "2026-07-28T22:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Shopify Rebellion Black vs Bon Bon Bum Contra \u00b7 Round 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116922922018387795"
-    },
-    {
-      "league": "Last Chance Qualifier Americas",
-      "game": "valorant",
-      "start": "2026-07-29T01:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT_NorthAmerica",
-      "description": "2GAME vs Bon Bon Bum Contra \u00b7 Round 1 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116922922018387791"
-    },
-    {
-      "league": "Last Chance Qualifier Americas",
-      "game": "valorant",
       "start": "2026-07-30T22:00:00+00:00",
       "state": "completed",
       "title": "Last Chance Qualifier Americas",
@@ -5460,30 +5388,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-28T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs Habos Babos \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173179"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-07-28T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "SK Nebula vs ALTERNATE aTTaX Ruby \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173143"
     },
     {
       "league": "Game Changers EMEA",

@@ -106,6 +106,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260926200000 +0000" stop="20260926232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260828150000 +0000" stop="20260828170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Heretics vs Shifters · Week 6 · Bo3</desc>
@@ -356,14 +361,9 @@
     <desc lang="en">TBD vs FENNEL · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260827160000 +0000" stop="20260827192000 +0000" channel="twitch.otplol_">
-    <title lang="en">La Ligue Française</title>
-    <desc lang="en">Skillcamp vs Karmine Corp Blue · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260901160000 +0000" stop="20260901192000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">TBD vs TLN Pirates · Playoffs · Bo5</desc>
+    <desc lang="en">Karmine Corp Blue vs TLN Pirates · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902160000 +0000" stop="20260902192000 +0000" channel="twitch.otplol_">
@@ -411,34 +411,24 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260827210000 +0000" stop="20260828000000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">LOUD vs FURIA · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260828000000 +0000" stop="20260828030000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">Leviatán Esports vs MIBR · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260828210000 +0000" stop="20260829000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs NRG · Playoffs · Bo3</desc>
+    <desc lang="en">LOUD vs NRG · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829000000 +0000" stop="20260829030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs 100 Thieves · Playoffs · Bo3</desc>
+    <desc lang="en">Leviatán Esports vs 100 Thieves · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829210000 +0000" stop="20260830000000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs G2 Esports · Playoffs · Bo3</desc>
+    <desc lang="en">FURIA vs G2 Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830000000 +0000" stop="20260830030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs Evil Geniuses · Playoffs · Bo3</desc>
+    <desc lang="en">MIBR vs Evil Geniuses · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="twitch.valorant_americas">
