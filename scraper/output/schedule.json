@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T00:35:04.635323+00:00",
+  "generated_at": "2026-08-29T00:40:19.138759+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -6217,5 +6217,264 @@
       "best_of": 5,
       "match_id": "115581280955110271"
     }
-  ]
+  ],
+  "supplemental": {
+    "plat_chat_schedule": null,
+    "replay_candidates": {
+      "lol": [
+        {
+          "id": "oYCiVJH5SXc",
+          "title": "The LCS Heads to Mexico! | The Dive Driven by Kia",
+          "duration_seconds": 4979
+        },
+        {
+          "id": "Ck5cZTsKJUY",
+          "title": "PROS Overtake LCS Broadcast | ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "duration_seconds": 2624
+        },
+        {
+          "id": "nvuXmSsISng",
+          "title": "LCS Summer 2026 | DIG vs FLY | Regular Season",
+          "duration_seconds": 5001
+        },
+        {
+          "id": "oGquJY1JO2A",
+          "title": "LCS Summer 2026 | SEN vs DSG | Regular Season",
+          "duration_seconds": 4229
+        },
+        {
+          "id": "Le4ZgNR_tIM",
+          "title": "LCS Summer 2026 | DIG vs DSG | Regular Season",
+          "duration_seconds": 4538
+        },
+        {
+          "id": "gO8IxHE2uHI",
+          "title": "LCS Summer 2026 | SEN vs FLY | Regular Season",
+          "duration_seconds": 4574
+        },
+        {
+          "id": "ZfRcP_J3mK4",
+          "title": "Caps Aura Farms in the Hall of Legends | The Dive Driven by Kia",
+          "duration_seconds": 5069
+        },
+        {
+          "id": "KTX03qLNS3c",
+          "title": "Vulcan Falls Short of LCS Record | PROS ft. C9 Vulcan, SEN Impact & LYON Berserker",
+          "duration_seconds": 3578
+        },
+        {
+          "id": "koCtIkqawq4",
+          "title": "LCS Summer 2026 | LYON vs SEN | Regular Season",
+          "duration_seconds": 8619
+        },
+        {
+          "id": "ZwvBKTWzxaM",
+          "title": "LCS Summer 2026 | C9 vs FLY | Regular Season",
+          "duration_seconds": 5376
+        },
+        {
+          "id": "adBJ3Auz7VQ",
+          "title": "LCS Summer 2026 | SR vs DIG | Regular Season",
+          "duration_seconds": 6579
+        },
+        {
+          "id": "-z8Xi1KLOHI",
+          "title": "LCS Summer 2026 | TLAW vs DSG | Regular Season",
+          "duration_seconds": 4385
+        },
+        {
+          "id": "M1x_haoDrNA",
+          "title": "Azael vs Corki, Patch 26.16 and LCS W3 Recap! | The Dive Driven by Kia",
+          "duration_seconds": 6174
+        },
+        {
+          "id": "UyGeVEwISZI",
+          "title": "Breaking Down Breaking Point | PROS ft. DIG Dardoch, TLAW Josedeodo & FLY Gryffinn",
+          "duration_seconds": 3321
+        },
+        {
+          "id": "xndC4PIb_JY",
+          "title": "LCS Summer 2026 | TLAW vs FLY | Regular Season",
+          "duration_seconds": 4137
+        },
+        {
+          "id": "7zFcDsbiVhk",
+          "title": "LCS Summer 2026 | LYON vs DIG | Regular Season",
+          "duration_seconds": 3483
+        },
+        {
+          "id": "mfrAElZ-kQM",
+          "title": "EP.95 ALL-PRO VOTES 2026! | THE POG STATE",
+          "duration_seconds": 6933
+        },
+        {
+          "id": "9eADZQHe6vE",
+          "title": "NS vs BFX | Play-Ins Round 2 Game 4 | 2026 LCK",
+          "duration_seconds": 2024
+        },
+        {
+          "id": "k3rdBviFq9s",
+          "title": "NS vs BFX | Play-Ins Round 2 Game 3 | 2026 LCK",
+          "duration_seconds": 2668
+        },
+        {
+          "id": "Yl3bF7rfWuE",
+          "title": "NS vs BFX | Play-Ins Round 2 Game 2 | 2026 LCK",
+          "duration_seconds": 2279
+        },
+        {
+          "id": "03NwPQ1FJI4",
+          "title": "NS vs BFX | Play-Ins Round 2 Game 1 | 2026 LCK",
+          "duration_seconds": 2041
+        },
+        {
+          "id": "gfNU1PIL7iU",
+          "title": "KT vs BRO | Play-Ins Round 1 Game 5 | 2026 LCK",
+          "duration_seconds": 3369
+        },
+        {
+          "id": "AOpVcm8zELs",
+          "title": "KT vs BRO | Play-Ins Round 1 Game 4 | 2026 LCK",
+          "duration_seconds": 2494
+        },
+        {
+          "id": "P3IhwPpLvp4",
+          "title": "KT vs BRO | Play-Ins Round 1 Game 3 | 2026 LCK",
+          "duration_seconds": 2705
+        },
+        {
+          "id": "YC2JkbV4GJ0",
+          "title": "KT vs BRO | Play-Ins Round 1 Game 2 | 2026 LCK",
+          "duration_seconds": 2339
+        },
+        {
+          "id": "aUVuoqqvVrE",
+          "title": "KT vs BRO | Play-Ins Round 1 Game 1 | 2026 LCK",
+          "duration_seconds": 2820
+        },
+        {
+          "id": "Vb8mAZHH_1o",
+          "title": "Could AI Evolve To Be Better Than Pros?! (w. IT educator Deokjin Kim) | LoLing in the Deep Ep.5",
+          "duration_seconds": 2193
+        },
+        {
+          "id": "oBc8PEjPijk",
+          "title": "BFX vs NS | Match 130 Game 3 | 2026 LCK",
+          "duration_seconds": 2134
+        },
+        {
+          "id": "IXkvzXBiZkQ",
+          "title": "BFX vs NS | Match 130 Game 2 | 2026 LCK",
+          "duration_seconds": 2000
+        },
+        {
+          "id": "_O3FedvcGgU",
+          "title": "BFX vs NS | Match 130 Game 1 | 2026 LCK",
+          "duration_seconds": 2171
+        },
+        {
+          "id": "WKSr76LxWEU",
+          "title": "The Last Playoffs Bracket of 2026 - LPL English Podcast Episode 24",
+          "duration_seconds": 4993
+        },
+        {
+          "id": "vHQyz8P2euk",
+          "title": "Playoffs and All Pro Voting - LPL English Pod Ep 23",
+          "duration_seconds": 4181
+        },
+        {
+          "id": "CyAF8Hs2HYI",
+          "title": "BLG Flandre CONFIRMED and Playoffs on the Horizon - LPL English Podcast Ep 22",
+          "duration_seconds": 3417
+        },
+        {
+          "id": "UF1F4hY0ISI",
+          "title": "WBG EDG Jungle Swap and iG to Worlds?! - LPL English Podcast Ep 21",
+          "duration_seconds": 3799
+        },
+        {
+          "id": "cUZZ2A8frYo",
+          "title": "Doomed LPL Teams and Role Quest Frustrations - LPL English Podcast Episode 20",
+          "duration_seconds": 5822
+        },
+        {
+          "id": "4QVqIVvYYbw",
+          "title": "MSI Hopecore and LPL Split 3 - LPL English Episode 19",
+          "duration_seconds": 3876
+        },
+        {
+          "id": "qDumKRJI7v0",
+          "title": "LPL Finals & MSI 2026 Expectations - LPL English Podcast Episode 18",
+          "duration_seconds": 5144
+        }
+      ],
+      "valorant": [
+        {
+          "id": "-LinWApTGXA",
+          "title": "NRG vs LOUD - VCT Americas Stage 2 Playoffs - Day 2",
+          "duration_seconds": 8966
+        },
+        {
+          "id": "I2JPLhjRML4",
+          "title": "LEV vs MIBR - VCT Americas Stage 2 Playoffs - Day 1",
+          "duration_seconds": 5124
+        },
+        {
+          "id": "3xr90GTTG6g",
+          "title": "LOUD vs FUR - VCT Americas Stage 2 Playoffs - Day 1",
+          "duration_seconds": 5235
+        },
+        {
+          "id": "hjp6x6AQzkk",
+          "title": "KRU vs EG - VCT Americas Stage 2 Play-Ins - Day 9",
+          "duration_seconds": 8776
+        },
+        {
+          "id": "9-LJ9avVPxU",
+          "title": "G2 vs ENVY - VCT Americas Stage 2 Play-Ins - Day 9",
+          "duration_seconds": 8869
+        },
+        {
+          "id": "GZ1IZEPHgzs",
+          "title": "SEN vs KRU - VCT Americas Stage 2 Play-Ins - Day 8",
+          "duration_seconds": 6420
+        },
+        {
+          "id": "R_zmu13Ca3E",
+          "title": "BST vs G2 - VCT Americas Stage 2 Play-Ins - Day 8",
+          "duration_seconds": 5448
+        },
+        {
+          "id": "qIi4ztKsZJQ",
+          "title": "FUR vs EG - VCT Americas Stage 2 Play-Ins - Day 7",
+          "duration_seconds": 8003
+        },
+        {
+          "id": "iwPa53Ky9P0",
+          "title": "MIBR vs ENVY - VCT Americas Stage 2 Play-Ins - Day 7",
+          "duration_seconds": 7374
+        },
+        {
+          "id": "zs1MJgQjtrU",
+          "title": "FX vs KRU - VCT Americas Stage 2 Play-Ins - Day 6",
+          "duration_seconds": 6413
+        },
+        {
+          "id": "0I3p9jxx5rs",
+          "title": "2G vs SEN - VCT Americas Stage 2 Play-Ins - Day 6",
+          "duration_seconds": 6150
+        },
+        {
+          "id": "d1GkyqMSud8",
+          "title": "M80 vs G2 - VCT Americas Stage 2 Play-Ins - Day 5",
+          "duration_seconds": 6256
+        },
+        {
+          "id": "CjIbz3UhxDA",
+          "title": "BST vs C9 - VCT Americas Stage 2 Play-Ins - Day 5",
+          "duration_seconds": 6067
+        }
+      ]
+    }
+  }
 }
