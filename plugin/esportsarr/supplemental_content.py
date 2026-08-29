@@ -1,15 +1,3 @@
-"""Fills a genuinely idle slot with supplemental content instead of "No
-Match Scheduled" -- Plat Chat VALORANT (a live weekly show) and official
-match replays -- via yt-dlp's metadata-only extraction. Keyless, same
-no-credentials approach as the youtubearr plugin ("Zero API Quota: uses
-yt-dlp instead of the YouTube Data API"); no JS runtime is needed either,
-since we only ever read title/duration/thumbnail metadata, never resolve a
-playable format ourselves -- Dispatcharr's own stream profile plays the
-plain youtube.com URL, exactly like it already does for LPL.
-
-This only ever fills a slot that `assign_slots` left empty; it never
-competes with or bumps a real esports match (see plugin.py's _run_sync)."""
-
 from __future__ import annotations
 
 import json
@@ -27,33 +15,11 @@ logger = logging.getLogger(__name__)
 PLAT_CHAT_CHANNEL_URL = "https://www.youtube.com/@PlatChatVALORANT/streams"
 PLAT_CHAT_LEAGUE = "Plat Chat VALORANT"
 PLAT_CHAT_CHANNEL = "PlatChatVALORANT"
-# A live show with no real end time until it happens; 3.5h is the middle of
-# the "three to four hours" range Arnaud gave (2026-07-30). Same
-# "estimate, not truth" caveat as esports match durations.
 PLAT_CHAT_DURATION_SECONDS = 3.5 * 3600
 
-# The live sync tick runs every 60s (poll_interval_seconds), but a replay
-# candidate list and Plat Chat's schedule barely change within a day --
-# refetching via yt-dlp on every single tick is wasteful and needlessly
-# fragile (Arnaud, 2026-07-30: "preselect it... instead of doing constant
-# fetches"). get_cached_replay_candidates/get_cached_plat_chat_schedule
-# reuse a fetch from disk until it's older than this, so yt-dlp only
-# actually runs roughly once a day.
 CACHE_FILE_PATH = "/app/data/plugins/esportsarr/.state/supplemental-cache.json"
 CACHE_TTL = timedelta(hours=24)
-# A full match VOD runs well over an hour; anything under this is a clip,
-# highlight reel, or recap, not a real replay (confirmed as a real bug,
-# 2026-07-30: candidates as short as ~12 and ~43 minutes were being shown as
-# full replay blocks).
 MIN_REPLAY_DURATION_SECONDS = 1800
-# A genuinely empty/null result (nothing found, or the fetch itself failed)
-# gets a much shorter TTL than a real find -- caching "nothing" for the
-# full 24h risks missing an episode that gets announced/goes live an hour
-# after a check that happened to run too early (confirmed as a real bug,
-# 2026-07-30: Plat Chat never showed up because the first, cold-cache check
-# found nothing and that null result was then trusted for the rest of the
-# day). Once something real IS found, its own timing is fixed and known,
-# so it's safe to trust for the full CACHE_TTL.
 NEGATIVE_CACHE_TTL = timedelta(hours=1)
 
 
@@ -76,29 +42,8 @@ def _is_cache_entry_fresh(entry: dict[str, Any] | None, now: datetime, ttl: time
         return False
     return now - datetime.fromisoformat(entry["fetched_at"]) < ttl
 
-# Both Plat Chat and replays are still esports-adjacent content, but
-# neither is itself a live sports MATCH, so neither gets the "Sports"
-# category real matches default to (channel_sync.DEFAULT_CATEGORIES) --
-# whether something is live vs a rerun is instead the standard XMLTV
-# <live/>/<previously-shown/> tags, not a category string.
 SUPPLEMENTAL_CATEGORIES = ["Esports"]
-
-# Ends with "... Ep. 274" or "... Episode 274" -- confirmed against Plat
-# Chat's real titles, e.g. "The BEST teams in VCT right now are..? --
-# Plat Chat VALORANT Ep. 274".
 EPISODE_PATTERN = re.compile(r"(?:Episode|Ep\.)\s*(\d+)\s*$", re.IGNORECASE)
-
-# A replay VOD's own title is free-text and inconsistent across leagues
-# (confirmed against real titles: "FLY v C9 - PLAYOFFS 2025 LTA North Split
-# 2 - W11D2 - Game 05" vs "G2 v MKOI | 2025 LEC Spring Playoffs | Grand..."
-# -- different separators, different wording, same channel). Rather than
-# parse that structure, search for a known league name as a substring and
-# use it as the short display title, keeping the full original title as the
-# description (Arnaud, 2026-07-30: "the title of lol1 should only be LTA
-# North and the rest be the description"). Longer/more specific names are
-# listed first so e.g. "LTA North" matches before a hypothetical bare
-# "LTA" would. Not exhaustive -- extend as new replay sources surface
-# leagues not covered here.
 KNOWN_REPLAY_LEAGUES: dict[str, list[str]] = {
     "lol": [
         "Worlds",

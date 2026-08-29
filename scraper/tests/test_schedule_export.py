@@ -103,3 +103,14 @@ def test_build_schedule_json_uses_the_provided_generated_at_timestamp():
     payload = json.loads(build_schedule_json([], generated_at=generated_at))
 
     assert payload["generated_at"] == "2026-07-28T09:30:00+00:00"
+
+
+def test_build_schedule_json_includes_scraper_owned_supplemental_metadata():
+    supplemental = {
+        "plat_chat_schedule": None,
+        "replay_candidates": {"lol": [{"id": "vod-1", "duration_seconds": 3600}]},
+    }
+
+    payload = json.loads(build_schedule_json([], supplemental=supplemental))
+
+    assert payload["supplemental"] == supplemental

@@ -1,7 +1,10 @@
 # esportsarr (scraper)
 
 Fetches LoL + Valorant match schedules from Riot's esports API and writes
-`output/esports.xmltv` + `output/schedule.json`.
+`output/esports.xmltv` + `output/schedule.json`. The JSON also includes
+scraper-fetched supplemental metadata (Plat Chat timing and full-match
+YouTube VOD candidates) used by the Dispatcharr plugin to fill idle generic
+slots.
 
 Two things worth knowing about the raw data before it's touched:
 
@@ -49,7 +52,8 @@ pytest
 ```
 
 `tests/test_riot_api.py` mocks the Riot API with the `responses` library. No
-network calls or API key needed to run the test suite.
+network calls or API key needed to run the test suite. The scraper's
+supplemental fetch runs during the scheduled workflow, not during tests.
 
 ## Adding a league
 

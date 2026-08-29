@@ -15,20 +15,12 @@ from .models import Game, MatchEvent, MatchState
 
 DEFAULT_MATCH_DURATION = timedelta(hours=3)
 
-# Riot gives no match end time. A broadcast block runs roughly this long
-# depending on format, including pre/post-show. Per-game since individual
-# games/maps run a different length in each: a LoL game is ~30-40min, a
-# Valorant map ~40-45min, so the same best-of count adds up to a
-# meaningfully different broadcast length per game. Unrecognized/missing
-# formats (e.g. no "strategy" reported) fall back to DEFAULT_MATCH_DURATION.
 LOL_BEST_OF_DURATIONS = {
     1: timedelta(hours=1),
     3: timedelta(hours=2),
     5: timedelta(hours=3, minutes=20),
 }
-# Bo7 isn't used by any Valorant league we track yet (Rocket League, planned
-# for a different game entirely) -- this estimate is an unvalidated
-# placeholder until then.
+
 VALORANT_BEST_OF_DURATIONS = {
     1: timedelta(hours=1),
     3: timedelta(hours=3),

@@ -1,6 +1,3 @@
-"""Thin client for Riot Games' esports schedule API (undocumented, shared
-public key -- see README for what to check if it starts 401/403ing)."""
-
 from __future__ import annotations
 
 import logging
@@ -13,7 +10,7 @@ from .models import RIOT_STATE_TO_MATCH_STATE, League, MatchEvent, StreamPlatfor
 
 logger = logging.getLogger(__name__)
 
-RIOT_ESPORTS_PUBLIC_API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z"  # public, shared by Riot's own web client
+RIOT_ESPORTS_PUBLIC_API_KEY = "0TvQnueqKa5mxJntVWt0w4LpLfEkrV1Ta8rQBb9Z" 
 
 REQUEST_TIMEOUT_SECONDS = 15
 SCRAPER_USER_AGENT = "esportsarr/0.1 (+https://github.com/4rn0d/esportsarr)"
@@ -77,8 +74,6 @@ def _best_of(event: dict) -> int | None:
 
 
 def _match_description(event: dict, best_of: int | None) -> str:
-    # Title is always just the league name, so this is where the actual
-    # match info lives: participants first, then stage, then format.
     parts = [part for part in (_match_participants(event), event.get("blockName")) if part]
     if best_of:
         parts.append(f"Bo{best_of}")
@@ -92,8 +87,6 @@ STREAM_PLATFORM_PREFIXES: dict[str, StreamPlatform] = {
 
 
 def _stream_identity_for_league(league: League) -> tuple[StreamPlatform | None, str | None]:
-    # Riot's stream info per-event is unreliable (empty even for live
-    # matches), so this derives it from epg_channel_id's prefix instead.
     for prefix, platform in STREAM_PLATFORM_PREFIXES.items():
         if league.epg_channel_id.startswith(prefix):
             return platform, league.epg_channel_id[len(prefix):]
@@ -106,8 +99,6 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
     best_of = _best_of(event)
     stream_platform, stream_channel = _stream_identity_for_league(league)
     if not has_real_content:
-        # No team names and no stage name -- just the bare league name, not
-        # worth blocking a slot from a real match over.
         stream_platform, stream_channel = None, None
     return MatchEvent(
         league=league,
@@ -124,9 +115,6 @@ def _normalize_event(event: dict, league: League) -> MatchEvent:
 
 
 def fetch_matches_for_leagues(leagues: list[League], api_key: str = RIOT_ESPORTS_PUBLIC_API_KEY) -> list[MatchEvent]:
-    """Fetches and normalizes matches for every given league, grouped by host
-    so getLeagues is only called once per host. A league not found via
-    getLeagues is logged and skipped rather than raised."""
     matches: list[MatchEvent] = []
 
     leagues_by_game: dict[str, list[League]] = {}

@@ -1,22 +1,3 @@
-"""Dispatcharr plugin: consolidates per-league esports channels (Twitch,
-plus YouTube for leagues like LPL) into a fixed number of generic channels
-per game, switching the active stream to whichever live match currently
-holds priority (see allocator.py for the policy, channel_sync.py for the
-Dispatcharr-side writes).
-
-The live 60s tick does NOT run the allocation policy itself -- it applies
-whatever `plan_builder.build_weekly_plan` decided, rebuilding that plan only
-once a day (see `plan_refresh_interval_hours`). The tick's own job is
-narrower: look up what the stored plan says is current right now, and
-reconcile it against live reality (a match ending early/getting cancelled,
-Twitch stream-title verification for Game Changers). See plan_builder.py's
-docstring for why this split exists.
-
-Dispatcharr has no periodic-task hook for plugins, so the background
-scheduler thread here (self-rolled, DB-backed settings, file-based job lock,
-web-process detection) mirrors the Twitcharr plugin's own pattern.
-"""
-
 from __future__ import annotations
 
 import json
@@ -56,27 +37,11 @@ DEFAULT_SETTINGS = {
         "Last Chance Qualifier Americas,Last Chance Qualifier EMEA,Last Chance Qualifier Pacific,"
         "Game Changers NA,Game Changers EMEA,Game Changers Pacific"
     ),
-    # lookahead: how far ahead a slot can be reserved at all. priority: how
-    # close to start it actually competes for a contested slot (see allocator.py).
-    # Wide enough to cover typical multi-hour gaps between back-to-back
-    # matches on a shared regional channel (e.g. VCT then Game Changers).
     "reservation_lookahead_minutes": 180,
     "reservation_priority_minutes": 120,
     "schedule_projection_days": 7,
-    # StreamProfile names are settings, not hardcoded, since they're external
-    # identifiers this plugin doesn't own. YouTube's default is an unverified
-    # guess (no equivalent to Twitcharr exists for it yet) -- see plugin/README.md.
     "twitch_stream_profile_name": "Twitcharr (ad-free, low-latency)",
     "youtube_stream_profile_name": "Twitcharr (ad-free, low-latency)",
-    # Off by default: needs yt-dlp installed in the Dispatcharr environment,
-    # a new dependency this plugin didn't previously need -- see plugin/README.md.
-    "enable_supplemental_content": False,
-    "replay_channels_lol": "https://www.youtube.com/@lolesportsvods/videos",
-    "replay_channels_valorant": (
-        "https://www.youtube.com/@VCTPacific/videos,"
-        "https://www.youtube.com/channel/UCifCesg-EUkjKyQedaB3hRg/videos,"
-        "https://www.youtube.com/channel/UCp6n8d8Y8r3MwKNw_MMaouQ/videos"
-    ),
 }
 
 REQUEST_TIMEOUT_SECONDS = 10
@@ -126,14 +91,14 @@ def _release_job_lock(path: str) -> None:
         pass
 
 
-def _fetch_schedule(settings: dict) -> list[dict[str, Any]]:
+def _fetch_schedule(settings: dict) -> dict[str, Any]:
     schedule_url = settings["schedule_url"]
     if not schedule_url:
         logger.warning("esportsarr: schedule_url is not configured, skipping tick")
         return []
     response = requests.get(schedule_url, timeout=REQUEST_TIMEOUT_SECONDS)
     response.raise_for_status()
-    return response.json()["matches"]
+    return response.json()
 
 
 def _current_occupant(history: list[tuple[datetime, dict]], now: datetime) -> dict | None:
@@ -195,9 +160,10 @@ def _run_sync(settings: dict, force_rebuild: bool = False) -> dict:
 
         plan = None if force_rebuild else plan_builder.load_plan(PLAN_FILE_PATH)
         max_age = timedelta(hours=int(settings["plan_refresh_interval_hours"]))
-        matches = _fetch_schedule(settings)
+        schedule_payload = _fetch_schedule(settings)
+        matches = schedule_payload["matches"]
         if plan_builder.plan_is_stale(plan, now, max_age):
-            plan = plan_builder.build_weekly_plan(matches, now, settings)
+            plan = plan_builder.build_weekly_plan(matches, now, settings, schedule_payload.get("supplemental", {}))
             plan_builder.save_plan(plan, PLAN_FILE_PATH)
 
         matches_by_key = {

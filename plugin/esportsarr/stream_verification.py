@@ -14,8 +14,6 @@ import requests
 logger = logging.getLogger(__name__)
 
 TWITCH_GQL_URL = "https://gql.twitch.tv/gql"
-# Public, unauthenticated client-id shared by Streamlink and the Twitcharr
-# plugin -- no Twitch Developer app/credentials needed.
 TWITCH_PUBLIC_CLIENT_ID = "kimne78kx3ncx6brgo4mv6wki5h1ko"
 REQUEST_TIMEOUT_SECONDS = 10
 

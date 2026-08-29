@@ -1,9 +1,3 @@
-"""Serializes the full match list to schedule.json, the single source of
-truth the Dispatcharr plugin (piece 2) polls to decide stream priority.
-Unlike xmltv.py this includes every state (including completed), since the
-plugin needs to know when a live match has just ended, not only what's next.
-"""
-
 from __future__ import annotations
 
 import json
@@ -27,9 +21,16 @@ def _match_to_dict(match: MatchEvent) -> dict:
     }
 
 
-def build_schedule_json(matches: list[MatchEvent], *, generated_at: datetime | None = None) -> str:
+def build_schedule_json(
+    matches: list[MatchEvent],
+    *,
+    supplemental: dict | None = None,
+    generated_at: datetime | None = None,
+) -> str:
     payload = {
         "generated_at": (generated_at or datetime.now(timezone.utc)).isoformat(),
         "matches": [_match_to_dict(match) for match in matches],
     }
+    if supplemental is not None:
+        payload["supplemental"] = supplemental
     return json.dumps(payload, indent=2)

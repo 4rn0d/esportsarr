@@ -1,11 +1,3 @@
-"""CLI helper: prints every league Riot's getLeagues returns for a game, with
-its exact `name` string and `id`. TRACKED_LEAGUES entries in channel_map.py
-must match one of these names exactly (not a substring). This exists so
-adding or fixing a league doesn't require an ad-hoc API query first.
-
-Run via `python -m esportsarr.list_leagues --game valorant`.
-"""
-
 from __future__ import annotations
 
 import argparse

@@ -1,8 +1,3 @@
-"""Which leagues we track and which existing Dispatcharr/Twitcharr EPG channel
-each one feeds. Matching is by exact Riot API league `name` (not substring,
-e.g. "LCK" vs "LCK Challengers" must not collide).
-"""
-
 from __future__ import annotations
 
 from .models import Game, League

@@ -132,33 +132,6 @@
       "type": "string",
       "default": "Twitcharr (ad-free, low-latency)",
       "help_text": "For leagues that are YouTube-only (e.g. LPL). Dispatcharr can't play a raw youtube.com URL on its own either. The default here just tries the same profile as Twitch as an unverified guess, it has NOT been confirmed to actually work for YouTube. If it doesn't, set up a streamlink- or yt-dlp-capable StreamProfile yourself and point this at its exact name."
-    },
-    {
-      "id": "_section_supplemental_content",
-      "label": "Supplemental Content (idle-time filler)",
-      "type": "info",
-      "help_text": "Fills a slot that's genuinely idle (nothing live wants it, nothing reserved) with Plat Chat VALORANT if it's actually airing, or an official match replay otherwise -- never competes with or bumps a real esports match. Requires yt-dlp installed alongside this plugin's own dependencies; see plugin/README.md."
-    },
-    {
-      "id": "enable_supplemental_content",
-      "label": "Enable supplemental content",
-      "type": "boolean",
-      "default": false,
-      "help_text": "Off by default. Turn on once yt-dlp is confirmed installed in this Dispatcharr environment."
-    },
-    {
-      "id": "replay_channels_lol",
-      "label": "LoL replay VOD channels (comma-separated YouTube URLs)",
-      "type": "string",
-      "default": "https://www.youtube.com/@lolesportsvods/videos",
-      "help_text": "Full-match VOD sources to pick a replay from when a LoL slot is idle. Riot's own official English full-match VOD channel by default."
-    },
-    {
-      "id": "replay_channels_valorant",
-      "label": "Valorant replay VOD channels (comma-separated YouTube URLs)",
-      "type": "string",
-      "default": "https://www.youtube.com/@VCTPacific/videos,https://www.youtube.com/channel/UCifCesg-EUkjKyQedaB3hRg/videos,https://www.youtube.com/channel/UCp6n8d8Y8r3MwKNw_MMaouQ/videos",
-      "help_text": "VCT has no single central VOD channel like LoL does -- defaults to rotating across the three official regional channels (Pacific, Americas, EMEA)."
     }
   ],
   "actions": [

@@ -1,8 +1,3 @@
-"""CLI entrypoint: fetch matches for every tracked league, write
-output/esports.xmltv (per-league EPG) and output/schedule.json (source of
-truth for the Dispatcharr plugin). Run via `python -m esportsarr.main`.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -13,14 +8,13 @@ from .channel_map import TRACKED_LEAGUES
 from .models import MatchEvent
 from .riot_api import fetch_matches_for_leagues
 from .schedule_export import build_schedule_json
+from .supplemental_content import fetch_supplemental_content
 from .xmltv import build_xmltv
 
 DEFAULT_OUTPUT_DIR = Path("output")
 XMLTV_FILENAME = "esports.xmltv"
 SCHEDULE_FILENAME = "schedule.json"
 
-# Riot's endpoints return a league's entire history plus far-future
-# placeholders, unbounded, hence the window.
 SCHEDULE_WINDOW = timedelta(days=30)
 
 
@@ -31,10 +25,11 @@ def _within_schedule_window(matches: list[MatchEvent], now: datetime, window: ti
 def run(output_dir: Path) -> None:
     matches = fetch_matches_for_leagues(list(TRACKED_LEAGUES))
     matches = _within_schedule_window(matches, datetime.now(timezone.utc), SCHEDULE_WINDOW)
+    supplemental = fetch_supplemental_content()
 
     output_dir.mkdir(parents=True, exist_ok=True)
     (output_dir / XMLTV_FILENAME).write_text(build_xmltv(matches), encoding="utf-8")
-    (output_dir / SCHEDULE_FILENAME).write_text(build_schedule_json(matches), encoding="utf-8")
+    (output_dir / SCHEDULE_FILENAME).write_text(build_schedule_json(matches, supplemental=supplemental), encoding="utf-8")
 
     print(f"Wrote {len(matches)} matches to {output_dir / XMLTV_FILENAME} and {output_dir / SCHEDULE_FILENAME}")
 

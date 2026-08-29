@@ -123,14 +123,10 @@ the steps to run yourself:
    same split Twitcharr uses) and will keep re-running "Sync Now" on its own
    from then on.
 
-5. **Optional: enable supplemental content.** `enable_supplemental_content`
-   is off by default because it needs `yt-dlp` installed in the Dispatcharr
-   Python environment (`pip install yt-dlp` there, or confirm it's already
-   present -- it's a real dependency of this plugin per `pyproject.toml`,
-   not bundled). Once installed, turn the setting on and configure
-   `replay_channels_lol`/`replay_channels_valorant` if the defaults don't
-   suit you. See "Filling idle time with supplemental content" below for
-   what this actually does.
+5. Supplemental content is fetched by the scraper and included in the
+  `supplemental` section of `schedule.json`. The plugin uses that metadata
+  to fill projected gaps in its generic channels, so yt-dlp and YouTube
+  access are no longer required in the Dispatcharr environment.
 
 ## Publishing to the official Dispatcharr Plugins repo
 
@@ -329,90 +325,21 @@ of `fetch_twitch_stream_title` (see youtubearr's plugin for the pattern --
 
 ## Filling idle time with supplemental content
 
-Off by default (`enable_supplemental_content`). When on,
-`plan_builder._fill_game_projection_gaps` runs once, at plan-build time,
-against every idle stretch across the *whole* week-ahead plan -- not just
-"whatever's empty this tick" -- so Plat Chat/replay picks are decided up
-front and inspectable in the stored plan, the same way real matches are. It
-only ever touches a stretch `assign_slots`/`project_schedule` already left
-empty -- it never competes with or bumps a real esports match, same
-guarantee as everything else in the priority system (Arnaud, 2026-07-30).
+The scraper discovers Plat Chat and recent full-match VOD metadata and writes
+it under `supplemental` in `schedule.json`. The plugin consumes that metadata
+once while building the week-ahead plan and only fills stretches that real
+matches left idle. It does not run yt-dlp, cache YouTube data, or decide
+content on every sync tick.
 
-- **Plat Chat VALORANT**: a live weekly VALORANT talk show
-  (`youtube.com/@PlatChatVALORANT`), checked first for any empty Valorant
-  slot. `fetch_plat_chat_schedule` lists the channel's streams via yt-dlp
-  (metadata only, no JS runtime needed -- we never resolve a playable
-  format ourselves, same as the real leagues) and looks for the next
-  upcoming/live episode, returning its schedule (video id, topic, episode
-  number, real start time) independent of "now" so it's cacheable. The
-  separate, pure `plat_chat_match_if_live(schedule, now)` decides whether
-  it's actually airing at `now` -- derived purely from `real_start` +
-  `PLAT_CHAT_DURATION_SECONDS`, deliberately not from YouTube's own
-  `live_status` flag, which can be stale once `schedule` came from a cache
-  read hours earlier (same principle as trusting Riot's schedule timing
-  over its own unreliable state flag elsewhere in this plugin). Episode
-  number is parsed straight from the video's own title -- their format is
-  reliably `"{topic} — Plat Chat VALORANT Ep. {N}"` (confirmed against real
-  titles, e.g. "The BEST teams in VCT right now are..? — Plat Chat VALORANT
-  Ep. 274"). Duration is a fixed 3.5h estimate (the middle of Arnaud's
-  stated "three to four hours" range) since it's live and the real end is
-  unknown, same caveat as esports match duration estimates. Only ever fills
-  one slot, even if several are empty.
-- **Replays**: any Valorant/LoL slot still empty after Plat Chat gets an
-  official match replay instead. `fetch_replay_candidates` lists recent
-  uploads (with a real, exact duration from yt-dlp, not an estimate) from
-  the channels configured in `replay_channels_lol`/`replay_channels_valorant`
-  (comma-separated YouTube URLs -- defaults to Riot's own
-  `@lolesportsvods` for LoL; VCT has no single central VOD channel like
-  LoL does, so Valorant defaults to rotating across the three official
-  regional channels). `pick_replay` chooses deterministically from a seed
-  including the date, game, and slot index, so the same replay holds for a
-  whole idle stretch instead of changing every 60s poll tick, but still
-  varies day to day and across slots. A replay VOD's own title is
-  free-text and inconsistent across leagues (confirmed against real
-  titles: "FLY v C9 - PLAYOFFS 2025 LTA North Split 2 - W11D2 - Game 05"
-  vs "G2 v MKOI | 2025 LEC Spring Playoffs | Grand..." -- different
-  separators, different wording, same channel), so rather than parse that
-  structure, `_extract_replay_league` searches the title for a known
-  league name (`KNOWN_REPLAY_LEAGUES`, not exhaustive -- extend as new
-  replay sources surface leagues not covered) and uses it as the short
-  guide title, moving the full original title into the description; with
-  no recognized league it falls back to the full title with no separate
-  description (Arnaud, 2026-07-30: "the title of lol1 should only be LTA
-  North and the rest be the description"). "Replay" itself (`league_name`)
-  is an internal identifier only, never shown -- "this is a rerun" is the
-  `<previously-shown/>` tag, not a category string or title text.
+ - **Plat Chat VALORANT** is placed at most once using its published start
+   time and a 3.5-hour estimate.
+ - **Replays** fill remaining gaps using deterministic picks from official
+   LoL and Valorant VOD channels. Entries shorter than 30 minutes are ignored.
 
-Both are just another match-shaped dict fed through the exact same
-pipeline real matches use (`stream_platform`/`stream_channel`,
-`duration_for_match`, `project_schedule`) -- a replay's `stream_platform`
-is `"youtube_vod"` (a plain `youtube.com/watch?v=...` URL, distinct from
-`"youtube"`'s `/@handle/live` for genuinely live channels), and
-`duration_for_match` prefers an explicit `duration_seconds` field on the
-match dict over the best-of tables when present, which is how supplemental
-content gets its exact/estimated duration without needing a fake
-`best_of` value.
-
-One honest limitation: the virtual match's `start` is always regenerated
-as "now" on the tick it's created, not the real moment the idle stretch
-actually began, since that isn't tracked separately. In practice this
-mostly means the guide's displayed start time for supplemental content is
-approximate, not the precise instant a real match ended and the slot went
-idle.
-
-**Fetches are cached, not repeated every plan rebuild.** A replay candidate
-list and Plat Chat's schedule barely change within a day, and now that
-picks are only made once a day anyway (see "How the sync works" above),
-`get_cached_replay_candidates`/`get_cached_plat_chat_schedule` reuse a
-fetch from a local JSON file (`supplemental_content.CACHE_FILE_PATH`) until
-it's older than `CACHE_TTL` (24h), so yt-dlp doesn't necessarily run again
-on every single plan rebuild either (Arnaud, 2026-07-30: "preselect it...
-instead of doing constant fetches"). Every *pick* for the whole week is
-made once, at plan-build time (deterministically, via `pick_replay`'s
-seed) -- unlike the old per-tick design, whether Plat Chat is airing at a
-given moment is decided once per plan too (`plat_chat_match_if_live`
-against the cached schedule's `real_start`), not re-checked live every
-tick, since the live tick only applies whatever the plan already decided.
+Both are match-shaped plan entries. A replay uses `stream_platform:
+"youtube_vod"`, which the plugin maps to a plain
+`https://www.youtube.com/watch?v=<video-id>` URL, distinct from the live
+YouTube channel URL used for LPL.
 
 Whether something is live or a rerun is the standard XMLTV `<live/>` /
 `<previously-shown/>` empty tag, not a category string (Arnaud, 2026-07-30,
@@ -431,17 +358,6 @@ episode number. Guide entries also carry an `icon` (the video's own
 YouTube thumbnail, `i.ytimg.com/vi/<id>/maxresdefault.jpg`, no extra fetch
 needed since that URL pattern is universal).
 
-**A "nothing found" result is cached much more briefly than a real find.**
-`get_cached_plat_chat_schedule`/`get_cached_replay_candidates` trust a
-genuine result (a real schedule, a non-empty candidate list) for the full
-`CACHE_TTL` (24h), but a `None`/empty result only for `NEGATIVE_CACHE_TTL`
-(1h). Without this split, a check that happens to run before an episode is
-announced or goes live would cache "nothing" for the entire day, silently
-hiding Plat Chat even after it does get scheduled an hour later (confirmed
-as a real bug, 2026-07-30 -- Plat Chat never appeared because the first,
-cold-cache check found nothing and that null result was then trusted all
-day).
-
 **Replay candidates below `MIN_REPLAY_DURATION_SECONDS` (30 minutes) are
 excluded.** `fetch_replay_candidates` previously only skipped entries with
 no duration at all (still-live/upcoming uploads), which let short clips and
@@ -450,8 +366,7 @@ as a real bug, 2026-07-30 -- clips as short as ~12 minutes were shown as
 full replay blocks in the guide). A full match VOD reliably runs well past
 half an hour, so anything shorter is treated as a clip, not a candidate.
 
-**Requires `yt-dlp` installed in the Dispatcharr Python environment** (a
-real dependency in `pyproject.toml`, not bundled) -- see "First run" above.
+`yt-dlp` is required by the scraper workflow, not by the Dispatcharr plugin.
 
 ## What the guide shows, a week-ahead projection, not a one-tick snapshot
 

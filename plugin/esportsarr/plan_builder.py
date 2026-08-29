@@ -168,6 +168,7 @@ def _fill_game_projection_gaps(
     now: datetime,
     projection_end: datetime,
     settings: dict,
+    supplemental_data: dict | None = None,
     get_plat_chat_schedule: Callable[[datetime], dict | None] = supplemental_content.get_cached_plat_chat_schedule,
     get_replay_candidates: Callable[[str, list[str], datetime], list[dict]] = supplemental_content.get_cached_replay_candidates,
 ) -> list[SlotHistory]:
@@ -180,19 +181,24 @@ def _fill_game_projection_gaps(
     two slots never show the identical VOD at the same time (the same
     protection the old per-tick `_fill_supplemental_content` had, generalized
     across the whole week instead of just "now")."""
-    if not settings.get("enable_supplemental_content"):
+    supplemental_enabled = supplemental_data is not None or settings.get("enable_supplemental_content")
+    if not supplemental_enabled:
         return projected_by_slot
 
-    schedule = get_plat_chat_schedule(now) if game == "valorant" else None
+    if supplemental_data is not None:
+        schedule = supplemental_data.get("plat_chat_schedule") if game == "valorant" else None
+        candidates = supplemental_data.get("replay_candidates", {}).get(game, [])
+    else:
+        schedule = get_plat_chat_schedule(now) if game == "valorant" else None
+        channel_setting = REPLAY_CHANNELS_SETTING_BY_GAME.get(game)
+        channel_urls = _parse_priority(settings.get(channel_setting, "")) if channel_setting else []
+        candidates = get_replay_candidates(game, channel_urls, now)
+
     plat_chat_window: tuple[datetime, datetime] | None = None
     if schedule is not None:
         real_start = datetime.fromisoformat(schedule["real_start"])
         real_end = real_start + timedelta(seconds=supplemental_content.PLAT_CHAT_DURATION_SECONDS)
         plat_chat_window = (real_start, real_end)
-
-    channel_setting = REPLAY_CHANNELS_SETTING_BY_GAME.get(game)
-    channel_urls = _parse_priority(settings.get(channel_setting, "")) if channel_setting else []
-    candidates = get_replay_candidates(game, channel_urls, now)
 
     plat_chat_placed = False
     used_replay_ids_by_date: dict[str, set[str]] = {}
@@ -227,7 +233,9 @@ def _fill_game_projection_gaps(
     return filled_by_slot
 
 
-def build_weekly_plan(matches: list[MatchDict], now: datetime, settings: dict) -> WeeklyPlan:
+def build_weekly_plan(
+    matches: list[MatchDict], now: datetime, settings: dict, supplemental_data: dict | None = None
+) -> WeeklyPlan:
     """The ONE place `assign_slots`/`project_schedule` get called from. Runs
     once a day (see plugin.py's staleness check), not every 60s tick."""
     wide_lookahead = timedelta(minutes=int(settings["reservation_lookahead_minutes"]))
@@ -280,7 +288,7 @@ def build_weekly_plan(matches: list[MatchDict], now: datetime, settings: dict) -
             initial_channel_by_slot=channel_by_slot,
         )
 
-        games[game] = _fill_game_projection_gaps(game, projected_by_slot, now, projection_end, settings)
+        games[game] = _fill_game_projection_gaps(game, projected_by_slot, now, projection_end, settings, supplemental_data)
 
     return {"built_at": now.isoformat(), "priority_warnings": priority_warnings, "games": games}
 
