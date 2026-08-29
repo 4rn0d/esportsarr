@@ -116,14 +116,9 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260829150000 +0000" stop="20260829170000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Karmine Corp vs SK Gaming · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260829171500 +0000" stop="20260829191500 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">Natus Vincere vs GIANTX · Week 6 · Bo3</desc>
+    <desc lang="en">GIANTX vs Natus Vincere · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830120000 +0000" stop="20260830140000 +0000" channel="twitch.lec">
@@ -254,11 +249,6 @@
   <programme start="20260919090000 +0000" stop="20260919122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260829160000 +0000" stop="20260829180000 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">LOUD vs RED Kalunga · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829190000 +0000" stop="20260829210000 +0000" channel="twitch.cblol">
@@ -491,14 +481,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260829150000 +0000" stop="20260829203000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">Team Liquid vs FUT Esports · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260830150000 +0000" stop="20260830203000 +0000" channel="twitch.valorant_emea">
     <title lang="en">VCT EMEA</title>
-    <desc lang="en">TBD vs Karmine Corp · Finals · Bo5</desc>
+    <desc lang="en">Team Liquid vs Karmine Corp · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830080000 +0000" stop="20260830133000 +0000" channel="twitch.valorant_emea">
