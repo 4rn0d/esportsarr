@@ -118,7 +118,7 @@
   </programme>
   <programme start="20260829150000 +0000" stop="20260829170000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">SK Gaming vs Karmine Corp · Week 6 · Bo3</desc>
+    <desc lang="en">Karmine Corp vs SK Gaming · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829171500 +0000" stop="20260829191500 +0000" channel="twitch.lec">
@@ -141,11 +141,6 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260829080000 +0000" stop="20260829112000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">BNK FEARX vs T1 · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">Dplus KIA vs kt Rolster · Playoffs · Bo5</desc>
@@ -163,7 +158,7 @@
   </programme>
   <programme start="20260903080000 +0000" stop="20260903112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs BNK FEARX · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904080000 +0000" stop="20260904112000 +0000" channel="twitch.lck">
@@ -203,12 +198,12 @@
   </programme>
   <programme start="20260904090000 +0000" stop="20260904122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
-    <desc lang="en">TBD vs Anyone's Legend · Playoffs · Bo5</desc>
+    <desc lang="en">LGD GAMING vs Anyone's Legend · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905060000 +0000" stop="20260905092000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
-    <desc lang="en">TBD vs Shenzhen NINJAS IN PYJAMAS · Playoffs · Bo5</desc>
+    <desc lang="en">TOP ESPORTS vs Shenzhen NINJAS IN PYJAMAS · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905090000 +0000" stop="20260905122000 +0000" channel="youtube.LPL_English">
@@ -321,14 +316,9 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260829080000 +0000" stop="20260829112000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">MVK Esports vs CTBC Flying Oyster · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">TBD vs Team Secret Whales · Finals · Bo5</desc>
+    <desc lang="en">Team Secret Whales vs CTBC Flying Oyster · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905050000 +0000" stop="20260905082000 +0000" channel="twitch.leagueoflegendsjp">
@@ -516,16 +506,6 @@
     <desc lang="en">G2 Gozen vs Gentle Mates · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260829080000 +0000" stop="20260829110000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Paper Rex vs VARREL · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260829100000 +0000" stop="20260829130000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">Gen.G  vs T1 · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260904080000 +0000" stop="20260904110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
     <desc lang="en">GLOBAL ESPORTS vs NONGSHIM REDFORCE · Playoffs · Bo3</desc>
@@ -533,7 +513,7 @@
   </programme>
   <programme start="20260904100000 +0000" stop="20260904130000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">T1 vs VARREL · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905080000 +0000" stop="20260905133000 +0000" channel="twitch.valorant_pacific">
