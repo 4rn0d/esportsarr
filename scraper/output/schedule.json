@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T00:40:19.138759+00:00",
+  "generated_at": "2026-08-29T03:57:51.361655+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4217,7 +4217,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-29T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4257,7 +4257,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs Leviat\u00e1n Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515780"
     },
@@ -4281,7 +4281,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs NRG \u00b7 Playoffs \u00b7 Bo3",
+      "description": "100 Thieves vs NRG \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515776"
     },
@@ -6229,7 +6229,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "PROS Overtake LCS Broadcast | ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
@@ -6410,6 +6410,11 @@
       ],
       "valorant": [
         {
+          "id": "C6ZrKm5wiHU",
+          "title": "100T vs LEV - VCT Americas Stage 2 Play-Ins - Day 2",
+          "duration_seconds": 4759
+        },
+        {
           "id": "-LinWApTGXA",
           "title": "NRG vs LOUD - VCT Americas Stage 2 Playoffs - Day 2",
           "duration_seconds": 8966
@@ -6463,16 +6468,6 @@
           "id": "0I3p9jxx5rs",
           "title": "2G vs SEN - VCT Americas Stage 2 Play-Ins - Day 6",
           "duration_seconds": 6150
-        },
-        {
-          "id": "d1GkyqMSud8",
-          "title": "M80 vs G2 - VCT Americas Stage 2 Play-Ins - Day 5",
-          "duration_seconds": 6256
-        },
-        {
-          "id": "CjIbz3UhxDA",
-          "title": "BST vs C9 - VCT Americas Stage 2 Play-Ins - Day 5",
-          "duration_seconds": 6067
         }
       ]
     }
