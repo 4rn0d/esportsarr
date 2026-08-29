@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T03:57:51.361655+00:00",
+  "generated_at": "2026-08-29T10:44:32.813038+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -856,30 +856,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-07-30T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs DN SOOPers \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684657"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-07-30T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs Dplus KIA \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553453"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-07-31T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1349,11 +1325,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-29T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "T1 vs BNK FEARX \u00b7 Playoffs \u00b7 Bo5",
+      "description": "BNK FEARX vs T1 \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841589"
     },
@@ -1464,30 +1440,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-30T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Shenzhen NINJAS IN PYJAMAS vs WeiboGaming \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835324"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-30T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "EDWARD GAMING vs Xi'an Team WE \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769608"
     },
     {
       "league": "LPL",
@@ -2129,7 +2081,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-29T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2692,18 +2644,6 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-07-30T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "DetonatioN FocusMe vs Fukuoka SoftBank HAWKS gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903845"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
       "start": "2026-07-30T11:30:00+00:00",
       "state": "completed",
       "title": "LCP",
@@ -2921,11 +2861,11 @@
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-29T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
-      "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "MVK Esports vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520949"
     },
@@ -5692,30 +5632,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-07-30T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "DetonatioN FocusMe vs VARREL \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044609"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-30T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "FULL SENSE vs ZETA DIVISION \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954978973"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-07-31T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -6149,11 +6065,11 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-08-29T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "VARREL vs Paper Rex \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Paper Rex vs VARREL \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581280955044717"
     },
@@ -6229,7 +6145,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
@@ -6303,74 +6219,79 @@
           "duration_seconds": 3483
         },
         {
+          "id": "i24ztZEdpj4",
+          "title": "BRO vs BFX | Final Round Game 5 | 2026 LCK Play-Ins",
+          "duration_seconds": 2421
+        },
+        {
+          "id": "FZYnsgFOSqk",
+          "title": "BRO vs BFX | Final Round Game 4 | 2026 LCK  Play-Ins",
+          "duration_seconds": 2180
+        },
+        {
+          "id": "oxOlXV8GG6U",
+          "title": "BRO vs BFX | Final Round Game 3 | 2026 LCK Play-Ins",
+          "duration_seconds": 2391
+        },
+        {
+          "id": "SyAeodwwMpo",
+          "title": "BRO vs BFX | Final Round Game 2 | 2026 LCK Play-Ins",
+          "duration_seconds": 2152
+        },
+        {
+          "id": "p-7Vy_2vbS8",
+          "title": "BRO vs BFX | Final Round Game 1 | 2026 LCK Play-Ins",
+          "duration_seconds": 2431
+        },
+        {
           "id": "mfrAElZ-kQM",
           "title": "EP.95 ALL-PRO VOTES 2026! | THE POG STATE",
           "duration_seconds": 6933
         },
         {
           "id": "9eADZQHe6vE",
-          "title": "NS vs BFX | Play-Ins Round 2 Game 4 | 2026 LCK",
+          "title": "NS vs BFX | Round 2 Game 4 | 2026 LCK Play-Ins",
           "duration_seconds": 2024
         },
         {
           "id": "k3rdBviFq9s",
-          "title": "NS vs BFX | Play-Ins Round 2 Game 3 | 2026 LCK",
+          "title": "NS vs BFX | Round 2 Game 3 | 2026 LCK Play-Ins",
           "duration_seconds": 2668
         },
         {
           "id": "Yl3bF7rfWuE",
-          "title": "NS vs BFX | Play-Ins Round 2 Game 2 | 2026 LCK",
+          "title": "NS vs BFX | Round 2 Game 2 | 2026 LCK Play-Ins",
           "duration_seconds": 2279
         },
         {
           "id": "03NwPQ1FJI4",
-          "title": "NS vs BFX | Play-Ins Round 2 Game 1 | 2026 LCK",
+          "title": "NS vs BFX | Round 2 Game 1 | 2026 LCK Play-Ins",
           "duration_seconds": 2041
         },
         {
           "id": "gfNU1PIL7iU",
-          "title": "KT vs BRO | Play-Ins Round 1 Game 5 | 2026 LCK",
+          "title": "KT vs BRO | Round 1 Game 5 | 2026 LCK Play-Ins",
           "duration_seconds": 3369
         },
         {
           "id": "AOpVcm8zELs",
-          "title": "KT vs BRO | Play-Ins Round 1 Game 4 | 2026 LCK",
+          "title": "KT vs BRO | Round 1 Game 4 | 2026 LCK Play-Ins",
           "duration_seconds": 2494
         },
         {
           "id": "P3IhwPpLvp4",
-          "title": "KT vs BRO | Play-Ins Round 1 Game 3 | 2026 LCK",
+          "title": "KT vs BRO | Round 1 Game 3 | 2026 LCK Play-Ins",
           "duration_seconds": 2705
         },
         {
           "id": "YC2JkbV4GJ0",
-          "title": "KT vs BRO | Play-Ins Round 1 Game 2 | 2026 LCK",
+          "title": "KT vs BRO | Round 1 Game 2 | 2026 LCK Play-Ins",
           "duration_seconds": 2339
         },
         {
           "id": "aUVuoqqvVrE",
-          "title": "KT vs BRO | Play-Ins Round 1 Game 1 | 2026 LCK",
+          "title": "KT vs BRO | Round 1 Game 1 | 2026 LCK Play-Ins",
           "duration_seconds": 2820
-        },
-        {
-          "id": "Vb8mAZHH_1o",
-          "title": "Could AI Evolve To Be Better Than Pros?! (w. IT educator Deokjin Kim) | LoLing in the Deep Ep.5",
-          "duration_seconds": 2193
-        },
-        {
-          "id": "oBc8PEjPijk",
-          "title": "BFX vs NS | Match 130 Game 3 | 2026 LCK",
-          "duration_seconds": 2134
-        },
-        {
-          "id": "IXkvzXBiZkQ",
-          "title": "BFX vs NS | Match 130 Game 2 | 2026 LCK",
-          "duration_seconds": 2000
-        },
-        {
-          "id": "_O3FedvcGgU",
-          "title": "BFX vs NS | Match 130 Game 1 | 2026 LCK",
-          "duration_seconds": 2171
         },
         {
           "id": "WKSr76LxWEU",

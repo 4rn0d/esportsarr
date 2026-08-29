@@ -143,7 +143,7 @@
   </programme>
   <programme start="20260829080000 +0000" stop="20260829112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">T1 vs BNK FEARX · Playoffs · Bo5</desc>
+    <desc lang="en">BNK FEARX vs T1 · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lck">
@@ -189,11 +189,6 @@
   <programme start="20260913080000 +0000" stop="20260913112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260829090000 +0000" stop="20260829122000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">TOP ESPORTS vs LGD GAMING · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830090000 +0000" stop="20260830122000 +0000" channel="youtube.LPL_English">
@@ -328,7 +323,7 @@
   </programme>
   <programme start="20260829080000 +0000" stop="20260829112000 +0000" channel="twitch.lolpacificen">
     <title lang="en">LCP</title>
-    <desc lang="en">CTBC Flying Oyster vs MVK Esports · Playoffs · Bo5</desc>
+    <desc lang="en">MVK Esports vs CTBC Flying Oyster · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lolpacificen">
@@ -523,7 +518,7 @@
   </programme>
   <programme start="20260829080000 +0000" stop="20260829110000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">VCT Pacific</title>
-    <desc lang="en">VARREL vs Paper Rex · Playoffs · Bo3</desc>
+    <desc lang="en">Paper Rex vs VARREL · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260829100000 +0000" stop="20260829130000 +0000" channel="twitch.valorant_pacific">
