@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T21:15:12.277280+00:00",
+  "generated_at": "2026-08-29T23:21:17.193297+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -197,7 +197,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-29T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -209,11 +209,11 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-29T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Cloud9 Kia vs LYON \u00b7 Week 6 \u00b7 Bo3",
+      "description": "LYON vs Cloud9 Kia \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886751"
     },
@@ -4598,18 +4598,6 @@
       "match_id": "116888595958259193"
     },
     {
-      "league": "Last Chance Qualifier Americas",
-      "game": "valorant",
-      "start": "2026-07-30T22:00:00+00:00",
-      "state": "completed",
-      "title": "Last Chance Qualifier Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT_NorthAmerica",
-      "description": "Shopify Rebellion Black vs 2GAME \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116922922018387799"
-    },
-    {
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-07-31T15:00:00+00:00",
@@ -5971,6 +5959,11 @@
     "replay_candidates": {
       "lol": [
         {
+          "id": "5cH1hDHNeQY",
+          "title": "LCS Summer 2026 |  TLAW vs SR | Regular Season",
+          "duration_seconds": 7045
+        },
+        {
           "id": "oYCiVJH5SXc",
           "title": "The LCS Heads to Mexico! | The Dive Driven by Kia",
           "duration_seconds": 4979
@@ -6044,11 +6037,6 @@
           "id": "xndC4PIb_JY",
           "title": "LCS Summer 2026 | TLAW vs FLY | Regular Season",
           "duration_seconds": 4137
-        },
-        {
-          "id": "7zFcDsbiVhk",
-          "title": "LCS Summer 2026 | LYON vs DIG | Regular Season",
-          "duration_seconds": 3483
         },
         {
           "id": "i24ztZEdpj4",

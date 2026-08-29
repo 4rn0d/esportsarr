@@ -36,14 +36,9 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260829200000 +0000" stop="20260829220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Team Liquid Alienware vs Shopify Rebellion · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260829230000 +0000" stop="20260830010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Cloud9 Kia vs LYON · Week 6 · Bo3</desc>
+    <desc lang="en">LYON vs Cloud9 Kia · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830200000 +0000" stop="20260830220000 +0000" channel="twitch.lcs">
