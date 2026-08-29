@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:43:24.425573+00:00",
+  "generated_at": "2026-08-29T21:15:12.277280+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -196,24 +196,12 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-08-29T18:31:58.078000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-08-29T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs Team Liquid Alienware \u00b7 Week 6 \u00b7 Bo3",
+      "description": "Team Liquid Alienware vs Shopify Rebellion \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797164345571"
     },
@@ -821,7 +809,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-29T17:15:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2513,7 +2501,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-29T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2916,30 +2904,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-30T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "ZYB vs Galions \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055712"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-07-30T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Esprit Shonen vs TLN Pirates \u00b7 Week 2 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055698"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -3664,18 +3628,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-30T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "G2 Esports vs KR\u00dc Visa \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818087008254"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-31T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4121,11 +4073,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-29T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "FURIA vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "G2 Esports vs FURIA \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515768"
     },
@@ -6025,7 +5977,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
