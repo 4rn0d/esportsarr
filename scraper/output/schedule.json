@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T19:34:31.799051+00:00",
+  "generated_at": "2026-08-30T22:04:20.695307+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -220,24 +220,12 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-08-30T18:33:41.309000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-08-30T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LYON vs Team Liquid Alienware \u00b7 Week 6 \u00b7 Bo3",
+      "description": "Team Liquid Alienware vs LYON \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797164345567"
     },
@@ -245,11 +233,11 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-30T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Cloud9 Kia vs Shopify Rebellion \u00b7 Week 6 \u00b7 Bo3",
+      "description": "Shopify Rebellion vs Cloud9 Kia \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886755"
     },
@@ -2465,7 +2453,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-30T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -3544,18 +3532,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-31T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Cloud9 vs LOUD \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818087008246"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-01T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4001,7 +3977,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-30T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5815,6 +5791,11 @@
     "replay_candidates": {
       "lol": [
         {
+          "id": "3Kg1AG_Awv0",
+          "title": "LCS Summer 2026 | TLAW vs LYON | Regular Season",
+          "duration_seconds": 4250
+        },
+        {
           "id": "vBLizZhxVKo",
           "title": "LCS Summer 2026 | LYON vs C9 | Regular Season",
           "duration_seconds": 5877
@@ -5888,11 +5869,6 @@
           "id": "M1x_haoDrNA",
           "title": "Azael vs Corki, Patch 26.16 and LCS W3 Recap! | The Dive Driven by Kia",
           "duration_seconds": 6174
-        },
-        {
-          "id": "UyGeVEwISZI",
-          "title": "Breaking Down Breaking Point | PROS ft. DIG Dardoch, TLAW Josedeodo & FLY Gryffinn",
-          "duration_seconds": 3321
         },
         {
           "id": "d5Srw-FnH-U",
@@ -6075,6 +6051,11 @@
           "id": "zs1MJgQjtrU",
           "title": "FX vs KRU - VCT Americas Stage 2 Play-Ins - Day 6",
           "duration_seconds": 6413
+        },
+        {
+          "id": "3vQuOg1QU5c",
+          "title": "Karmine Corp vs Team Liquid - VCT EMEA Finals: Barcelona - Grand Finals",
+          "duration_seconds": 11824
         },
         {
           "id": "rldchMgNnuM",

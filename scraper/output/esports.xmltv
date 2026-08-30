@@ -27,14 +27,9 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260830200000 +0000" stop="20260830220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">LYON vs Team Liquid Alienware · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260830230000 +0000" stop="20260831010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Cloud9 Kia vs Shopify Rebellion · Week 6 · Bo3</desc>
+    <desc lang="en">Shopify Rebellion vs Cloud9 Kia · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905200000 +0000" stop="20260905220000 +0000" channel="twitch.lcs">
@@ -200,11 +195,6 @@
   <programme start="20260919090000 +0000" stop="20260919122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260830190000 +0000" stop="20260830210000 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">FURIA vs LEVIATÁN · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905160000 +0000" stop="20260905192000 +0000" channel="twitch.cblol">
