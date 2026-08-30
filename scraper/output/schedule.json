@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:21:17.193297+00:00",
+  "generated_at": "2026-08-30T01:22:58.083023+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -209,7 +209,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-29T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -3628,18 +3628,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-07-31T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "100 Thieves vs Sentinels \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818087008234"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-07-31T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4073,7 +4061,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-29T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4085,7 +4073,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-30T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4101,7 +4089,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs Leviat\u00e1n Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Leviat\u00e1n Esports vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515780"
     },
@@ -5959,6 +5947,11 @@
     "replay_candidates": {
       "lol": [
         {
+          "id": "vBLizZhxVKo",
+          "title": "LCS Summer 2026 | LYON vs C9 | Regular Season",
+          "duration_seconds": 5877
+        },
+        {
           "id": "5cH1hDHNeQY",
           "title": "LCS Summer 2026 |  TLAW vs SR | Regular Season",
           "duration_seconds": 7045
@@ -5970,7 +5963,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "PROS Overtake LCS Broadcast | ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
@@ -6032,11 +6025,6 @@
           "id": "UyGeVEwISZI",
           "title": "Breaking Down Breaking Point | PROS ft. DIG Dardoch, TLAW Josedeodo & FLY Gryffinn",
           "duration_seconds": 3321
-        },
-        {
-          "id": "xndC4PIb_JY",
-          "title": "LCS Summer 2026 | TLAW vs FLY | Regular Season",
-          "duration_seconds": 4137
         },
         {
           "id": "i24ztZEdpj4",
@@ -6150,6 +6138,11 @@
         }
       ],
       "valorant": [
+        {
+          "id": "f4DX65zN2IU",
+          "title": "G2 vs FUR - VCT Americas Stage 2 Playoffs - Day 3",
+          "duration_seconds": 8189
+        },
         {
           "id": "C6ZrKm5wiHU",
           "title": "100T vs LEV - VCT Americas Stage 2 Playoffs - Day 2",
