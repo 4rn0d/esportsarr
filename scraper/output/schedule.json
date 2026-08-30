@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T12:27:01.777780+00:00",
+  "generated_at": "2026-08-30T16:53:04.695923+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -384,18 +384,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-07-31T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Team Heretics vs Team Vitality \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406115"
     },
     {
       "league": "LEC",
@@ -821,7 +809,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-30T12:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -833,7 +821,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-30T14:15:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -845,7 +833,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-30T16:30:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2049,7 +2037,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs BILIBILI GAMING \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Xi'an Team WE vs BILIBILI GAMING \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202154"
     },
@@ -2085,7 +2073,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202166"
     },
@@ -2465,7 +2453,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-30T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -4516,18 +4504,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-31T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs BBL Esports \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706869"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-07-31T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -4937,7 +4913,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-30T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
@@ -5357,7 +5333,7 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-30T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
