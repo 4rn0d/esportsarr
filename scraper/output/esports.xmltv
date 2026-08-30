@@ -15,9 +15,6 @@
   <channel id="twitch.cblol">
     <display-name>CBLOL</display-name>
   </channel>
-  <channel id="twitch.lolpacificen">
-    <display-name>LCP</display-name>
-  </channel>
   <channel id="twitch.leagueoflegendsjp">
     <display-name>LJL</display-name>
   </channel>
@@ -121,24 +118,19 @@
     <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Dplus KIA vs kt Rolster · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260901080000 +0000" stop="20260901112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs Gen.G Esports · Playoffs · Bo5</desc>
+    <desc lang="en">Gen.G Esports vs kt Rolster · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902080000 +0000" stop="20260902112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs Hanwha Life Esports · Playoffs · Bo5</desc>
+    <desc lang="en">Hanwha Life Esports vs T1 · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260903080000 +0000" stop="20260903112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs BNK FEARX · Playoffs · Bo5</desc>
+    <desc lang="en">Dplus KIA vs BNK FEARX · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904080000 +0000" stop="20260904112000 +0000" channel="twitch.lck">
@@ -279,11 +271,6 @@
   <programme start="20260927160000 +0000" stop="20260927192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260830080000 +0000" stop="20260830112000 +0000" channel="twitch.lolpacificen">
-    <title lang="en">LCP</title>
-    <desc lang="en">Team Secret Whales vs CTBC Flying Oyster · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905050000 +0000" stop="20260905082000 +0000" channel="twitch.leagueoflegendsjp">

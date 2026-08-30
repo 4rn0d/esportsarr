@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T06:55:39.666923+00:00",
+  "generated_at": "2026-08-30T12:27:01.777780+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -821,7 +821,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-30T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -852,30 +852,6 @@
       "description": "GIANTX vs Fnatic \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115548681803406239"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-07-31T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Gen.G Esports vs T1 \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553457"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-07-31T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "KIWOOM DRX vs HANJIN BRION \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684637"
     },
     {
       "league": "LCK",
@@ -1337,11 +1313,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-08-30T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Dplus KIA vs kt Rolster \u00b7 Playoffs \u00b7 Bo5",
+      "description": "kt Rolster vs Dplus KIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841595"
     },
@@ -1353,7 +1329,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Gen.G Esports vs kt Rolster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841601"
     },
@@ -1365,7 +1341,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Hanwha Life Esports vs T1 \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841607"
     },
@@ -1377,7 +1353,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs BNK FEARX \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Dplus KIA vs BNK FEARX \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841613"
     },
@@ -1440,30 +1416,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-31T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs EDWARD GAMING \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769624"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-07-31T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs BILIBILI GAMING \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769548"
     },
     {
       "league": "LPL",
@@ -2632,30 +2584,6 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-07-31T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Team Secret Whales vs MVK Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903837"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-07-31T11:30:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "CTBC Flying Oyster vs GAM Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903841"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
       "start": "2026-08-01T09:00:00+00:00",
       "state": "completed",
       "title": "LCP",
@@ -2848,20 +2776,8 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-08-30T06:47:39.400000+00:00",
-      "state": "in_progress",
-      "title": "LCP",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
       "start": "2026-08-30T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LCP",
       "stream_platform": "twitch",
       "stream_channel": "lolpacificen",
@@ -5049,7 +4965,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs Gentle Mates \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Karmine Corp GC vs Gentle Mates \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173067"
     },
@@ -5085,7 +5001,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp \u00b7 Week 3 \u00b7 Bo3",
+      "description": "FOKUS Sakura vs Karmine Corp GC \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173199"
     },
@@ -5145,7 +5061,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs SK Nebula \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Karmine Corp GC vs SK Nebula \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173127"
     },
@@ -5193,7 +5109,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
+      "description": "Karmine Corp GC vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173151"
     },
@@ -5217,7 +5133,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs Joblife GC \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "Karmine Corp GC vs Joblife GC \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173231"
     },
@@ -5265,7 +5181,7 @@
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs ALTERNATE aTTaX Ruby \u00b7 Play In Knockouts \u00b7 Bo3",
+      "description": "Karmine Corp GC vs ALTERNATE aTTaX Ruby \u00b7 Play In Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116849606242173247"
     },
@@ -5441,37 +5357,13 @@
       "league": "Game Changers EMEA",
       "game": "valorant",
       "start": "2026-08-30T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-31T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Team Secret vs Paper Rex \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044569"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-07-31T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs Gen.G  \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954978993"
     },
     {
       "league": "VCT Pacific",
@@ -5975,7 +5867,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "PROS Overtake LCS Broadcast | ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
@@ -6039,6 +5931,31 @@
           "duration_seconds": 3321
         },
         {
+          "id": "d5Srw-FnH-U",
+          "title": "T1 vs BFX | Upper Round 1 Game 5 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2186
+        },
+        {
+          "id": "ouABrwreGm0",
+          "title": "T1 vs BFX | Upper Round 1 Game 4 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 3063
+        },
+        {
+          "id": "KJJteuwO6bo",
+          "title": "T1 vs BFX | Upper Round 1 Game 3 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2232
+        },
+        {
+          "id": "gK0HDs55u58",
+          "title": "T1 vs BFX | Upper Round 1 Game 2 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2271
+        },
+        {
+          "id": "0yrSfLBFlg8",
+          "title": "T1 vs BFX | Upper Round 1 Game 1 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2394
+        },
+        {
           "id": "i24ztZEdpj4",
           "title": "BRO vs BFX | Final Round Game 5 | 2026 LCK Play-Ins",
           "duration_seconds": 2421
@@ -6092,26 +6009,6 @@
           "id": "gfNU1PIL7iU",
           "title": "KT vs BRO | Round 1 Game 5 | 2026 LCK Play-Ins",
           "duration_seconds": 3369
-        },
-        {
-          "id": "AOpVcm8zELs",
-          "title": "KT vs BRO | Round 1 Game 4 | 2026 LCK Play-Ins",
-          "duration_seconds": 2494
-        },
-        {
-          "id": "P3IhwPpLvp4",
-          "title": "KT vs BRO | Round 1 Game 3 | 2026 LCK Play-Ins",
-          "duration_seconds": 2705
-        },
-        {
-          "id": "YC2JkbV4GJ0",
-          "title": "KT vs BRO | Round 1 Game 2 | 2026 LCK Play-Ins",
-          "duration_seconds": 2339
-        },
-        {
-          "id": "aUVuoqqvVrE",
-          "title": "KT vs BRO | Round 1 Game 1 | 2026 LCK Play-Ins",
-          "duration_seconds": 2820
         },
         {
           "id": "WKSr76LxWEU",
