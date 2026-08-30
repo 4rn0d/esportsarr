@@ -3,9 +3,6 @@
   <channel id="twitch.lcs">
     <display-name>LCS</display-name>
   </channel>
-  <channel id="twitch.lec">
-    <display-name>LEC</display-name>
-  </channel>
   <channel id="twitch.lck">
     <display-name>LCK</display-name>
   </channel>
@@ -26,9 +23,6 @@
   </channel>
   <channel id="twitch.valorant_americas">
     <display-name>VCT Americas</display-name>
-  </channel>
-  <channel id="twitch.valorant_emea">
-    <display-name>VCT EMEA</display-name>
   </channel>
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
@@ -101,11 +95,6 @@
   <programme start="20260927200000 +0000" stop="20260927232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260830163000 +0000" stop="20260830183000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">GIANTX vs Fnatic · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260901080000 +0000" stop="20260901112000 +0000" channel="twitch.lck">
@@ -211,11 +200,6 @@
   <programme start="20260919090000 +0000" stop="20260919122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260830160000 +0000" stop="20260830180000 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">paiN Gaming vs Vivo Keyd Stars · Week 6 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260830190000 +0000" stop="20260830210000 +0000" channel="twitch.cblol">
@@ -421,11 +405,6 @@
   <programme start="20260917210000 +0000" stop="20260918023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260830150000 +0000" stop="20260830203000 +0000" channel="twitch.valorant_emea">
-    <title lang="en">VCT EMEA</title>
-    <desc lang="en">Team Liquid vs Karmine Corp · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904080000 +0000" stop="20260904110000 +0000" channel="twitch.valorant_pacific">

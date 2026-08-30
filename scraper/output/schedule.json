@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T16:53:04.695923+00:00",
+  "generated_at": "2026-08-30T19:34:31.799051+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -220,6 +220,18 @@
     {
       "league": "LCS",
       "game": "lol",
+      "start": "2026-08-30T18:33:41.309000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
       "start": "2026-08-30T20:00:00+00:00",
       "state": "unstarted",
       "title": "LCS",
@@ -384,18 +396,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-07-31T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Movistar KOI vs Shifters \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406215"
     },
     {
       "league": "LEC",
@@ -833,7 +833,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-08-30T16:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2453,7 +2453,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-30T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2465,7 +2465,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-08-30T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -4504,18 +4504,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-07-31T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Heretics vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706949"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-01T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -4913,7 +4901,7 @@
       "league": "VCT EMEA",
       "game": "valorant",
       "start": "2026-08-30T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT EMEA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_emea",
