@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T01:22:58.083023+00:00",
+  "generated_at": "2026-08-30T06:55:39.666923+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2081,7 +2081,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-08-30T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2844,6 +2844,18 @@
       "description": "MVK Esports vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116769742220520949"
+    },
+    {
+      "league": "LCP",
+      "game": "lol",
+      "start": "2026-08-30T06:47:39.400000+00:00",
+      "state": "in_progress",
+      "title": "LCP",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCP",
@@ -4073,7 +4085,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-30T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4101,7 +4113,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs LOUD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "LOUD vs MIBR \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515784"
     },
@@ -6139,6 +6151,11 @@
       ],
       "valorant": [
         {
+          "id": "ug4i0ltrXuA",
+          "title": "EG vs MIBR - VCT Americas Stage 2 Playoffs - Day 3",
+          "duration_seconds": 10527
+        },
+        {
           "id": "f4DX65zN2IU",
           "title": "G2 vs FUR - VCT Americas Stage 2 Playoffs - Day 3",
           "duration_seconds": 8189
@@ -6197,11 +6214,6 @@
           "id": "zs1MJgQjtrU",
           "title": "FX vs KRU - VCT Americas Stage 2 Play-Ins - Day 6",
           "duration_seconds": 6413
-        },
-        {
-          "id": "0I3p9jxx5rs",
-          "title": "2G vs SEN - VCT Americas Stage 2 Play-Ins - Day 6",
-          "duration_seconds": 6150
         },
         {
           "id": "rldchMgNnuM",
