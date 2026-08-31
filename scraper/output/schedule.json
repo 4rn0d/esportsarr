@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T22:04:20.695307+00:00",
+  "generated_at": "2026-08-31T00:34:28.732833+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -220,6 +220,18 @@
     {
       "league": "LCS",
       "game": "lol",
+      "start": "2026-08-30T18:33:41.309000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
       "start": "2026-08-30T20:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -233,7 +245,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-30T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -3532,18 +3544,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-01T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "MIBR vs Evil Geniuses \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086877098"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-01T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3977,7 +3977,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-30T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3989,11 +3989,11 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-31T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "LOUD vs MIBR \u00b7 Playoffs \u00b7 Bo3",
+      "description": "MIBR vs LOUD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515784"
     },
@@ -4017,7 +4017,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515788"
     },
@@ -5988,6 +5988,11 @@
       ],
       "valorant": [
         {
+          "id": "ibXBRAHP4Dw",
+          "title": "G2 vs LEV - VCT Americas Stage 2 Playoffs - Day 4",
+          "duration_seconds": 8763
+        },
+        {
           "id": "ug4i0ltrXuA",
           "title": "EG vs MIBR - VCT Americas Stage 2 Playoffs - Day 3",
           "duration_seconds": 10527
@@ -6046,11 +6051,6 @@
           "id": "iwPa53Ky9P0",
           "title": "MIBR vs ENVY - VCT Americas Stage 2 Play-Ins - Day 7",
           "duration_seconds": 7374
-        },
-        {
-          "id": "zs1MJgQjtrU",
-          "title": "FX vs KRU - VCT Americas Stage 2 Play-Ins - Day 6",
-          "duration_seconds": 6413
         },
         {
           "id": "3vQuOg1QU5c",

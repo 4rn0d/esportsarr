@@ -27,11 +27,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>VCT Pacific</display-name>
   </channel>
-  <programme start="20260830230000 +0000" stop="20260831010000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Shopify Rebellion vs Cloud9 Kia · Week 6 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260905200000 +0000" stop="20260905220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Sentinels vs Cloud9 Kia · Week 7 · Bo3</desc>
@@ -297,14 +292,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260830210000 +0000" stop="20260831000000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">Leviatán Esports vs G2 Esports · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260831000000 +0000" stop="20260831030000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">LOUD vs MIBR · Playoffs · Bo3</desc>
+    <desc lang="en">MIBR vs LOUD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904170000 +0000" stop="20260904200000 +0000" channel="twitch.valorant_americas">
@@ -314,7 +304,7 @@
   </programme>
   <programme start="20260904200000 +0000" stop="20260904230000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs G2 Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905170000 +0000" stop="20260905223000 +0000" channel="twitch.valorant_americas">
