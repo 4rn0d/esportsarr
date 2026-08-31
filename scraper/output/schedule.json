@@ -1,30 +1,6 @@
 {
-  "generated_at": "2026-08-31T19:40:14.806149+00:00",
+  "generated_at": "2026-08-31T23:22:54.803823+00:00",
   "matches": [
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-01T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Dignitas vs Cloud9 Kia \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163821203"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-01T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Disguised vs FlyQuest \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163886783"
-    },
     {
       "league": "LCS",
       "game": "lol",
@@ -3396,18 +3372,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-01T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "ENVY vs FURIA \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086877106"
     },
     {
       "league": "VCT Americas",
