@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T06:08:55.979202+00:00",
+  "generated_at": "2026-08-31T13:41:02.311563+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -832,30 +832,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-01T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "NONGSHIM RED FORCE vs BNK FEARX \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684653"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-01T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Gen.G Esports vs Dplus KIA \u00b7 Week 10 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553473"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-02T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1392,42 +1368,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-01T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "THUNDER TALK GAMING vs Anyone's Legend \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769628"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-01T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "TOP ESPORTS vs LGD GAMING \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769584"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-01T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs BILIBILI GAMING \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769556"
     },
     {
       "league": "LPL",
@@ -2469,9 +2409,9 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Vivo Keyd Stars vs paiN Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115565671526403057"
+      "match_id": "115565671526403063"
     },
     {
       "league": "CBLOL",
@@ -2481,9 +2421,9 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "FURIA vs RED Kalunga \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115565671526403063"
+      "match_id": "115565671526403057"
     },
     {
       "league": "CBLOL",
@@ -2556,30 +2496,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468635"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-01T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "DetonatioN FocusMe vs Relove Deep Cross Gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903859"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-01T11:30:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "MVK Esports vs GAM Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115570814727903863"
     },
     {
       "league": "LCP",
@@ -5296,30 +5212,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-01T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "DetonatioN FocusMe vs T1 \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044581"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-01T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Rex Regum Qeon vs FULL SENSE \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954913429"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-02T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -5864,6 +5756,21 @@
           "duration_seconds": 6174
         },
         {
+          "id": "vYgtKGfa13A",
+          "title": "DK vs KT | Upper Round 1 Game 3 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2795
+        },
+        {
+          "id": "mMuAmToB3xE",
+          "title": "DK vs KT | Upper Round 1 Game 2 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 3111
+        },
+        {
+          "id": "T17c9Kl2tGE",
+          "title": "DK vs KT | Upper Round 1 Game 1 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2775
+        },
+        {
           "id": "d5Srw-FnH-U",
           "title": "T1 vs BFX | Upper Round 1 Game 5 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2186
@@ -5922,26 +5829,6 @@
           "id": "9eADZQHe6vE",
           "title": "NS vs BFX | Round 2 Game 4 | 2026 LCK Play-Ins",
           "duration_seconds": 2024
-        },
-        {
-          "id": "k3rdBviFq9s",
-          "title": "NS vs BFX | Round 2 Game 3 | 2026 LCK Play-Ins",
-          "duration_seconds": 2668
-        },
-        {
-          "id": "Yl3bF7rfWuE",
-          "title": "NS vs BFX | Round 2 Game 2 | 2026 LCK Play-Ins",
-          "duration_seconds": 2279
-        },
-        {
-          "id": "03NwPQ1FJI4",
-          "title": "NS vs BFX | Round 2 Game 1 | 2026 LCK Play-Ins",
-          "duration_seconds": 2041
-        },
-        {
-          "id": "gfNU1PIL7iU",
-          "title": "KT vs BRO | Round 1 Game 5 | 2026 LCK Play-Ins",
-          "duration_seconds": 3369
         },
         {
           "id": "WKSr76LxWEU",
