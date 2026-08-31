@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T00:34:28.732833+00:00",
+  "generated_at": "2026-08-31T06:08:55.979202+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -216,18 +216,6 @@
       "description": "LYON vs Cloud9 Kia \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886751"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-30T18:33:41.309000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LCS",
@@ -3989,7 +3977,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-31T00:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4017,7 +4005,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "LOUD vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115581239610515788"
     },
@@ -5791,6 +5779,11 @@
     "replay_candidates": {
       "lol": [
         {
+          "id": "Vcaeo8LUxcE",
+          "title": "LCS Summer 2026 | SR vs C9 | Regular Season",
+          "duration_seconds": 7401
+        },
+        {
           "id": "3Kg1AG_Awv0",
           "title": "LCS Summer 2026 | TLAW vs LYON | Regular Season",
           "duration_seconds": 4250
@@ -5988,6 +5981,11 @@
       ],
       "valorant": [
         {
+          "id": "kstncYQf1dw",
+          "title": "MIBR vs LOUD - VCT Americas Stage 2 Playoffs - Day 4",
+          "duration_seconds": 6191
+        },
+        {
           "id": "ibXBRAHP4Dw",
           "title": "G2 vs LEV - VCT Americas Stage 2 Playoffs - Day 4",
           "duration_seconds": 8763
@@ -6046,11 +6044,6 @@
           "id": "qIi4ztKsZJQ",
           "title": "FUR vs EG - VCT Americas Stage 2 Play-Ins - Day 7",
           "duration_seconds": 8003
-        },
-        {
-          "id": "iwPa53Ky9P0",
-          "title": "MIBR vs ENVY - VCT Americas Stage 2 Play-Ins - Day 7",
-          "duration_seconds": 7374
         },
         {
           "id": "3vQuOg1QU5c",
