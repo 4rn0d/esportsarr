@@ -252,29 +252,19 @@
     <desc lang="en">TBD vs Galions · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260831160000 +0000" stop="20260831180000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Arctic Pandas vs Verdant · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260831180000 +0000" stop="20260831200000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Ruddy Corporation vs Deer Gaming · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260902160000 +0000" stop="20260902180000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs Bulldog Esports · Playoffs · Bo3</desc>
+    <desc lang="en">Bulldog Esports vs Deer Gaming · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902180000 +0000" stop="20260902200000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs DMG Esports · Playoffs · Bo3</desc>
+    <desc lang="en">DMG Esports vs Verdant · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260907160000 +0000" stop="20260907192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">Ruddy Corporation vs Arctic Pandas · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260909160000 +0000" stop="20260909192000 +0000" channel="twitch.NLCLoL">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:41:02.311563+00:00",
+  "generated_at": "2026-08-31T19:40:14.806149+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -384,30 +384,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-01T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "GIANTX vs SK Gaming \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406231"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-01T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Karmine Corp vs Natus Vincere \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406171"
     },
     {
       "league": "LEC",
@@ -2116,30 +2092,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-01T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "Vivo Keyd Stars vs FURIA \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402969"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-01T19:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "paiN Gaming vs LEVIAT\u00c1N \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403021"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-02T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -3353,7 +3305,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-31T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3365,7 +3317,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-08-31T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3381,7 +3333,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Bulldog Esports vs Deer Gaming \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860097"
     },
@@ -3393,7 +3345,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "DMG Esports vs Verdant \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860101"
     },
@@ -3405,7 +3357,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Ruddy Corporation vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860091"
     },
@@ -4380,30 +4332,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-01T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs Team Vitality \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706893"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-01T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs Team Liquid \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706965"
     },
     {
       "league": "VCT EMEA",
@@ -5667,7 +5595,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "mKbQEOk6R8E",
+      "topic": "CHAMPIONS is on the horizon! \u2014 Plat Chat VALORANT",
+      "episode": 278,
+      "real_start": "2026-09-01T15:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
