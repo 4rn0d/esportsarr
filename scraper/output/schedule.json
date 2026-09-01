@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T16:47:25.634587+00:00",
+  "generated_at": "2026-09-01T19:41:05.399510+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -360,18 +360,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-02T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Movistar KOI vs Fnatic \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406267"
     },
     {
       "league": "LEC",
@@ -1965,7 +1953,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TOP ESPORTS vs Shenzhen NINJAS IN PYJAMAS \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Invictus Gaming vs TOP ESPORTS \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202160"
     },
@@ -1977,7 +1965,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Shenzhen NINJAS IN PYJAMAS vs Beijing JDG Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202166"
     },
@@ -2088,18 +2076,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-02T19:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LOS vs RED Kalunga \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402989"
     },
     {
       "league": "CBLOL",
@@ -4288,18 +4264,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-02T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Heretics vs FNATIC \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706933"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-06T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -5670,6 +5634,11 @@
           "duration_seconds": 2024
         },
         {
+          "id": "3jOX2W3vHvo",
+          "title": "Fastest LPL BO5 EVER, Playoff Upsets, and New Demacia Cup - LPL English Podcast Ep 25",
+          "duration_seconds": 5030
+        },
+        {
           "id": "WKSr76LxWEU",
           "title": "The Last Playoffs Bracket of 2026 - LPL English Podcast Episode 24",
           "duration_seconds": 4993
@@ -5698,11 +5667,6 @@
           "id": "4QVqIVvYYbw",
           "title": "MSI Hopecore and LPL Split 3 - LPL English Episode 19",
           "duration_seconds": 3876
-        },
-        {
-          "id": "qDumKRJI7v0",
-          "title": "LPL Finals & MSI 2026 Expectations - LPL English Podcast Episode 18",
-          "duration_seconds": 5144
         }
       ],
       "valorant": [
