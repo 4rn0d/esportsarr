@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-09-01T19:41:05.399510+00:00",
+  "generated_at": "2026-09-01T22:01:31.435305+00:00",
   "matches": [
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-02T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs LYON \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797164345563"
-    },
     {
       "league": "LCS",
       "game": "lol",
@@ -2957,7 +2945,7 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-09-01T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
@@ -2973,7 +2961,7 @@
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TBD vs Galions \u00b7 Finals \u00b7 Bo5",
+      "description": "TLN Pirates vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
     },
@@ -3348,18 +3336,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-02T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Cloud9 vs KR\u00dc Visa \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818087008242"
     },
     {
       "league": "VCT Americas",
@@ -4097,13 +4073,13 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-01T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "MVSK Secret vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Axolotl vs The Spiders \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595958193603"
+      "match_id": "116888595958193607"
     },
     {
       "league": "Game Changers NA",
@@ -4113,9 +4089,9 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Axolotl vs The Spiders \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FlyQuest RED vs MVSK Secret \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "116888595958193607"
+      "match_id": "116888595958193603"
     },
     {
       "league": "Game Changers NA",
