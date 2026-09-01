@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:22:54.803823+00:00",
+  "generated_at": "2026-09-01T01:55:04.275301+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3372,18 +3372,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-02T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Leviat\u00e1n Esports vs NRG \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942674"
     },
     {
       "league": "VCT Americas",
