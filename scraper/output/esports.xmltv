@@ -3,6 +3,9 @@
   <channel id="twitch.lcs">
     <display-name>LCS</display-name>
   </channel>
+  <channel id="twitch.lec">
+    <display-name>LEC</display-name>
+  </channel>
   <channel id="twitch.lck">
     <display-name>LCK</display-name>
   </channel>
@@ -87,9 +90,44 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260901080000 +0000" stop="20260901112000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs kt Rolster · Playoffs · Bo5</desc>
+  <programme start="20260905100000 +0000" stop="20260905132000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">Team Vitality vs G2 Esports · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260905150000 +0000" stop="20260905182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">Karmine Corp vs GIANTX · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260906150000 +0000" stop="20260906182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260911150000 +0000" stop="20260911182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">TBD vs Natus Vincere · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260912150000 +0000" stop="20260912182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">TBD vs Movistar KOI · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260918150000 +0000" stop="20260918182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260919150000 +0000" stop="20260919182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260920150000 +0000" stop="20260920182000 +0000" channel="twitch.lec">
+    <title lang="en">LEC</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902080000 +0000" stop="20260902112000 +0000" channel="twitch.lck">
@@ -109,7 +147,7 @@
   </programme>
   <programme start="20260905080000 +0000" stop="20260905112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs Gen.G Esports · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906080000 +0000" stop="20260906112000 +0000" channel="twitch.lck">
@@ -244,7 +282,7 @@
   </programme>
   <programme start="20260901160000 +0000" stop="20260901192000 +0000" channel="twitch.otplol_">
     <title lang="en">La Ligue Française</title>
-    <desc lang="en">Karmine Corp Blue vs TLN Pirates · Playoffs · Bo5</desc>
+    <desc lang="en">TLN Pirates vs Karmine Corp Blue · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260902160000 +0000" stop="20260902192000 +0000" channel="twitch.otplol_">
