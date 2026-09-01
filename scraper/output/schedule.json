@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T01:55:04.275301+00:00",
+  "generated_at": "2026-09-01T06:58:41.181851+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -5716,6 +5716,11 @@
           "duration_seconds": 2024
         },
         {
+          "id": "3jOX2W3vHvo",
+          "title": "Fastest LPL BO5 EVER, Playoff Upsets, and New Demacia Cup - LPL English Podcast Ep 25",
+          "duration_seconds": 5030
+        },
+        {
           "id": "WKSr76LxWEU",
           "title": "The Last Playoffs Bracket of 2026 - LPL English Podcast Episode 24",
           "duration_seconds": 4993
@@ -5744,11 +5749,6 @@
           "id": "4QVqIVvYYbw",
           "title": "MSI Hopecore and LPL Split 3 - LPL English Episode 19",
           "duration_seconds": 3876
-        },
-        {
-          "id": "qDumKRJI7v0",
-          "title": "LPL Finals & MSI 2026 Expectations - LPL English Podcast Episode 18",
-          "duration_seconds": 5144
         }
       ],
       "valorant": [
