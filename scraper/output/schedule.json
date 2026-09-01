@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:21:44.727842+00:00",
+  "generated_at": "2026-09-01T16:47:25.634587+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -360,18 +360,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-02T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "G2 Esports vs SK Gaming \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406263"
     },
     {
       "league": "LEC",
@@ -2104,18 +2092,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-02T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "Fluxo W7M vs LOUD \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403001"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-02T19:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -3005,11 +2981,11 @@
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
       "start": "2026-09-01T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
-      "description": "TLN Pirates vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Karmine Corp Blue vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121320"
     },
@@ -4312,18 +4288,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-02T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "PCIFIC Esports vs BBL Esports \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706881"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-02T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -5547,12 +5511,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "mKbQEOk6R8E",
-      "topic": "CHAMPIONS is on the horizon! \u2014 Plat Chat VALORANT",
-      "episode": 278,
-      "real_start": "2026-09-01T15:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
@@ -5636,11 +5595,6 @@
           "duration_seconds": 4385
         },
         {
-          "id": "M1x_haoDrNA",
-          "title": "Azael vs Corki, Patch 26.16 and LCS W3 Recap! | The Dive Driven by Kia",
-          "duration_seconds": 6174
-        },
-        {
           "id": "vYgtKGfa13A",
           "title": "DK vs KT | Upper Round 1 Game 3 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2795
@@ -5716,11 +5670,6 @@
           "duration_seconds": 2024
         },
         {
-          "id": "3jOX2W3vHvo",
-          "title": "Fastest LPL BO5 EVER, Playoff Upsets, and New Demacia Cup - LPL English Podcast Ep 25",
-          "duration_seconds": 5030
-        },
-        {
           "id": "WKSr76LxWEU",
           "title": "The Last Playoffs Bracket of 2026 - LPL English Podcast Episode 24",
           "duration_seconds": 4993
@@ -5749,6 +5698,11 @@
           "id": "4QVqIVvYYbw",
           "title": "MSI Hopecore and LPL Split 3 - LPL English Episode 19",
           "duration_seconds": 3876
+        },
+        {
+          "id": "qDumKRJI7v0",
+          "title": "LPL Finals & MSI 2026 Expectations - LPL English Podcast Episode 18",
+          "duration_seconds": 5144
         }
       ],
       "valorant": [
