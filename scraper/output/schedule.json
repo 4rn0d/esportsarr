@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-09-01T22:01:31.435305+00:00",
+  "generated_at": "2026-09-02T00:08:25.966311+00:00",
   "matches": [
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-02T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Team Liquid Alienware vs Sentinels \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163821199"
-    },
     {
       "league": "LCS",
       "game": "lol",
@@ -3340,18 +3328,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-03T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "G2 Esports vs Sentinels \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818087008262"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-06T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4073,7 +4049,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-01T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4085,7 +4061,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-01T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4097,7 +4073,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-01T23:30:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4125,7 +4101,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Axolotl vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193619"
     },
@@ -4137,7 +4113,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "The Spiders vs MVSK Secret \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193627"
     },
@@ -5647,6 +5623,11 @@
       ],
       "valorant": [
         {
+          "id": "-HZogCvrhuY",
+          "title": "SPID vs AXL -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 1",
+          "duration_seconds": 4747
+        },
+        {
           "id": "kstncYQf1dw",
           "title": "MIBR vs LOUD - VCT Americas Stage 2 Playoffs - Day 4",
           "duration_seconds": 6191
@@ -5705,11 +5686,6 @@
           "id": "R_zmu13Ca3E",
           "title": "BST vs G2 - VCT Americas Stage 2 Play-Ins - Day 8",
           "duration_seconds": 5448
-        },
-        {
-          "id": "qIi4ztKsZJQ",
-          "title": "FUR vs EG - VCT Americas Stage 2 Play-Ins - Day 7",
-          "duration_seconds": 8003
         },
         {
           "id": "3vQuOg1QU5c",
