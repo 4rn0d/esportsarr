@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T17:08:37.296075+00:00",
+  "generated_at": "2026-09-02T19:46:18.805845+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -336,18 +336,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-03T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Karmine Corp vs Team Heretics \u00b7 Week 2 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406139"
     },
     {
       "league": "LEC",
@@ -2932,38 +2920,26 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-09-02T16:00:00+00:00",
+      "start": "2026-09-02T15:09:32.794000+00:00",
       "state": "in_progress",
+      "title": "La Ligue Fran\u00e7aise",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "La Ligue Fran\u00e7aise",
+      "game": "lol",
+      "start": "2026-09-02T16:00:00+00:00",
+      "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
       "stream_platform": "twitch",
       "stream_channel": "otplol_",
       "description": "TLN Pirates vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-03T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Ruddy Corporation vs Deer Gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559859995"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-03T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Lund Esports Organization vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860003"
     },
     {
       "league": "NLC",
@@ -3220,8 +3196,20 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-09-02T16:00:00+00:00",
+      "start": "2026-09-02T15:30:49.513000+00:00",
       "state": "in_progress",
+      "title": "NLC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "NLC",
+      "game": "lol",
+      "start": "2026-09-02T16:00:00+00:00",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3233,7 +3221,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-09-02T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -3261,7 +3249,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Verdant vs Deer Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860105"
     },
@@ -4536,30 +4524,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-03T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173175"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-03T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "ALTERNATE aTTaX Ruby vs G2 Gozen \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173115"
     },
     {
       "league": "Game Changers EMEA",
