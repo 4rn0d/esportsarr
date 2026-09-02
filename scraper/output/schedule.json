@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:54:32.935338+00:00",
+  "generated_at": "2026-09-02T13:04:30.402469+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1265,7 +1265,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-02T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1305,7 +1305,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841619"
     },
@@ -5457,7 +5457,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
