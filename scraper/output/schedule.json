@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T00:08:25.966311+00:00",
+  "generated_at": "2026-09-02T04:26:37.718782+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -4073,7 +4073,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-01T23:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4085,7 +4085,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-01T23:30:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4125,7 +4125,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Shopify Rebellion Gold vs SwimTrek Blue \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193623"
     },
@@ -4137,7 +4137,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "HIMMERS vs Cloud9 GC \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193631"
     },
@@ -5623,6 +5623,11 @@
       ],
       "valorant": [
         {
+          "id": "DPF3Hvtn2as",
+          "title": "SWIM vs C9.GC -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 1",
+          "duration_seconds": 5164
+        },
+        {
           "id": "-HZogCvrhuY",
           "title": "SPID vs AXL -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 1",
           "duration_seconds": 4747
@@ -5681,11 +5686,6 @@
           "id": "GZ1IZEPHgzs",
           "title": "SEN vs KRU - VCT Americas Stage 2 Play-Ins - Day 8",
           "duration_seconds": 6420
-        },
-        {
-          "id": "R_zmu13Ca3E",
-          "title": "BST vs G2 - VCT Americas Stage 2 Play-Ins - Day 8",
-          "duration_seconds": 5448
         },
         {
           "id": "3vQuOg1QU5c",
