@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:46:18.805845+00:00",
+  "generated_at": "2026-09-02T22:08:42.895284+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2920,18 +2920,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-09-02T15:09:32.794000+00:00",
-      "state": "in_progress",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-09-02T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3192,18 +3180,6 @@
       "description": "Ruddy Corporation vs Deer Gaming \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860079"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-09-02T15:30:49.513000+00:00",
-      "state": "in_progress",
-      "title": "NLC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "NLC",
@@ -3736,54 +3712,6 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
-      "start": "2026-08-03T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs SwimTrek Blue \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996907"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Shopify Rebellion Gold vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996911"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Axolotl vs SEN Otters \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996915"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-03T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "The Spiders vs HIMMERS \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595957996919"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
       "start": "2026-08-03T23:30:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -4049,11 +3977,11 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-02T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "Axolotl vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo3",
+      "description": "FlyQuest RED vs Axolotl \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193619"
     },
