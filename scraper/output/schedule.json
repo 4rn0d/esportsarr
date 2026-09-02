@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:26:37.718782+00:00",
+  "generated_at": "2026-09-02T08:54:32.935338+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1265,11 +1265,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-02T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs T1 \u00b7 Playoffs \u00b7 Bo5",
+      "description": "T1 vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841607"
     },
@@ -1324,7 +1324,7 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-09-12T08:00:00+00:00",
+      "start": "2026-09-12T05:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
       "stream_platform": "twitch",
@@ -1336,7 +1336,7 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-09-13T08:00:00+00:00",
+      "start": "2026-09-13T05:00:00+00:00",
       "state": "unstarted",
       "title": "LCK",
       "stream_platform": "twitch",
@@ -3261,7 +3261,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Bulldog Esports vs Deer Gaming \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Deer Gaming vs Bulldog Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860097"
     },
@@ -3273,7 +3273,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "DMG Esports vs Verdant \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Verdant vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116878159559860101"
     },
@@ -3285,7 +3285,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Ruddy Corporation vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Arctic Pandas vs Ruddy Corporation \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860091"
     },
@@ -5457,7 +5457,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
@@ -5509,6 +5509,21 @@
           "id": "-z8Xi1KLOHI",
           "title": "LCS Summer 2026 | TLAW vs DSG | Regular Season",
           "duration_seconds": 4385
+        },
+        {
+          "id": "Qe-5L-mO1ic",
+          "title": "GEN vs KT | Upper Round 2 Game 3 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2306
+        },
+        {
+          "id": "arf7b-IRcV0",
+          "title": "GEN vs KT | Upper Round 2 Game 2 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2501
+        },
+        {
+          "id": "kz7Voby-wtM",
+          "title": "GEN vs KT | Upper Round 2 Game 1 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2807
         },
         {
           "id": "vYgtKGfa13A",
@@ -5574,16 +5589,6 @@
           "id": "p-7Vy_2vbS8",
           "title": "BRO vs BFX | Final Round Game 1 | 2026 LCK Play-Ins",
           "duration_seconds": 2431
-        },
-        {
-          "id": "mfrAElZ-kQM",
-          "title": "EP.95 ALL-PRO VOTES 2026! | THE POG STATE",
-          "duration_seconds": 6933
-        },
-        {
-          "id": "9eADZQHe6vE",
-          "title": "NS vs BFX | Round 2 Game 4 | 2026 LCK Play-Ins",
-          "duration_seconds": 2024
         },
         {
           "id": "3jOX2W3vHvo",
