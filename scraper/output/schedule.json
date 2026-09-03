@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:03:09.171560+00:00",
+  "generated_at": "2026-09-03T13:33:00.109967+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1253,7 +1253,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-03T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1269,7 +1269,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "kt Rolster vs Dplus KIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841625"
     },
@@ -1281,7 +1281,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841619"
     },
@@ -1293,7 +1293,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs T1 \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841631"
     },
@@ -1929,7 +1929,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Xi'an Team WE \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202178"
     },
@@ -1953,7 +1953,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs BILIBILI GAMING \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202172"
     },
@@ -5215,6 +5215,16 @@
     "replay_candidates": {
       "lol": [
         {
+          "id": "Y740BJoG5TM",
+          "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
+          "duration_seconds": 3630
+        },
+        {
+          "id": "XPox1utXBkI",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "duration_seconds": 5261
+        },
+        {
           "id": "Vcaeo8LUxcE",
           "title": "LCS Summer 2026 | SR vs C9 | Regular Season",
           "duration_seconds": 7401
@@ -5288,11 +5298,6 @@
           "id": "adBJ3Auz7VQ",
           "title": "LCS Summer 2026 | SR vs DIG | Regular Season",
           "duration_seconds": 6579
-        },
-        {
-          "id": "-z8Xi1KLOHI",
-          "title": "LCS Summer 2026 | TLAW vs DSG | Regular Season",
-          "duration_seconds": 4385
         },
         {
           "id": "XsUZPgASnl4",

@@ -127,24 +127,19 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260903080000 +0000" stop="20260903112000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">BNK FEARX vs Dplus KIA · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260904080000 +0000" stop="20260904112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">kt Rolster vs Dplus KIA · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905080000 +0000" stop="20260905112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Hanwha Life Esports vs Gen.G Esports · Playoffs · Bo5</desc>
+    <desc lang="en">Gen.G Esports vs Hanwha Life Esports · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906080000 +0000" stop="20260906112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs T1 · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260912050000 +0000" stop="20260912082000 +0000" channel="twitch.lck">
@@ -174,7 +169,7 @@
   </programme>
   <programme start="20260906060000 +0000" stop="20260906092000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs Xi'an Team WE · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906090000 +0000" stop="20260906122000 +0000" channel="youtube.LPL_English">
@@ -184,7 +179,7 @@
   </programme>
   <programme start="20260907090000 +0000" stop="20260907122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs BILIBILI GAMING · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260908090000 +0000" stop="20260908122000 +0000" channel="youtube.LPL_English">
