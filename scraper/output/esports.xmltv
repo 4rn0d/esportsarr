@@ -87,6 +87,11 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20261003200000 +0000" stop="20261003232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260905100000 +0000" stop="20260905132000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">Team Vitality vs G2 Esports · Playoffs · Bo5</desc>

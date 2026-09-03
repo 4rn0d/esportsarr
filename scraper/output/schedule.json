@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T19:49:41.377679+00:00",
+  "generated_at": "2026-09-03T21:59:55.779222+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -336,6 +336,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-03T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949423"
     },
     {
       "league": "LEC",
@@ -2596,18 +2608,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-04T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs Vitality.Bee \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990138"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-05T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3941,7 +3941,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-03T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -5167,7 +5167,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "PROS Overtake LCS Broadcast | ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
