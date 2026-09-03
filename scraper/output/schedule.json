@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T13:33:00.109967+00:00",
+  "generated_at": "2026-09-03T17:12:13.369682+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -2366,6 +2366,18 @@
       "match_id": "115565671526468635"
     },
     {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-10-03T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565671526468641"
+    },
+    {
       "league": "LCP",
       "game": "lol",
       "start": "2026-08-06T09:00:00+00:00",
@@ -2580,30 +2592,6 @@
       "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-04T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs Skillcamp \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990112"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-04T17:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Galions vs Esprit Shonen \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055692"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -4408,30 +4396,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-04T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Karmine Corp GC \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173199"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-04T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Bar\u00e7a eSports \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-04T18:00:00+00:00",
       "state": "completed",
       "title": "Game Changers EMEA",
@@ -5221,7 +5185,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
