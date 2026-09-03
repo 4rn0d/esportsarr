@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T04:20:34.510411+00:00",
+  "generated_at": "2026-09-03T09:03:09.171560+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -1253,11 +1253,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-03T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Dplus KIA vs BNK FEARX \u00b7 Playoffs \u00b7 Bo5",
+      "description": "BNK FEARX vs Dplus KIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841613"
     },
@@ -1877,7 +1877,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-03T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2565,7 +2565,7 @@
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "L Guide Gaming vs New Meta \u00b7 Playoffs \u00b7 Bo5",
+      "description": "New Meta vs L Guide Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783753"
     },
@@ -5295,6 +5295,31 @@
           "duration_seconds": 4385
         },
         {
+          "id": "XsUZPgASnl4",
+          "title": "HLE vs T1 | Upper Round 2 Game 5 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2283
+        },
+        {
+          "id": "BQ1EvWyvEN8",
+          "title": "HLE vs T1 | Upper Round 2 Game 4 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2268
+        },
+        {
+          "id": "OHJkWTqUvzU",
+          "title": "HLE vs T1 | Upper Round 2 Game 3 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2115
+        },
+        {
+          "id": "36VfmcMu1zk",
+          "title": "HLE vs T1 | Upper Round 2 Game 2 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2285
+        },
+        {
+          "id": "y9TUE3USTbM",
+          "title": "HLE vs T1 | Upper Round 2 Game 1 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2231
+        },
+        {
           "id": "Qe-5L-mO1ic",
           "title": "GEN vs KT | Upper Round 2 Game 3 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2306
@@ -5343,36 +5368,6 @@
           "id": "gK0HDs55u58",
           "title": "T1 vs BFX | Upper Round 1 Game 2 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2271
-        },
-        {
-          "id": "0yrSfLBFlg8",
-          "title": "T1 vs BFX | Upper Round 1 Game 1 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2394
-        },
-        {
-          "id": "i24ztZEdpj4",
-          "title": "BRO vs BFX | Final Round Game 5 | 2026 LCK Play-Ins",
-          "duration_seconds": 2421
-        },
-        {
-          "id": "FZYnsgFOSqk",
-          "title": "BRO vs BFX | Final Round Game 4 | 2026 LCK  Play-Ins",
-          "duration_seconds": 2180
-        },
-        {
-          "id": "oxOlXV8GG6U",
-          "title": "BRO vs BFX | Final Round Game 3 | 2026 LCK Play-Ins",
-          "duration_seconds": 2391
-        },
-        {
-          "id": "SyAeodwwMpo",
-          "title": "BRO vs BFX | Final Round Game 2 | 2026 LCK Play-Ins",
-          "duration_seconds": 2152
-        },
-        {
-          "id": "p-7Vy_2vbS8",
-          "title": "BRO vs BFX | Final Round Game 1 | 2026 LCK Play-Ins",
-          "duration_seconds": 2431
         },
         {
           "id": "3jOX2W3vHvo",

@@ -129,7 +129,7 @@
   </programme>
   <programme start="20260903080000 +0000" stop="20260903112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Dplus KIA vs BNK FEARX · Playoffs · Bo5</desc>
+    <desc lang="en">BNK FEARX vs Dplus KIA · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904080000 +0000" stop="20260904112000 +0000" channel="twitch.lck">
@@ -155,11 +155,6 @@
   <programme start="20260913050000 +0000" stop="20260913082000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260903090000 +0000" stop="20260903122000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Xi'an Team WE vs BILIBILI GAMING · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260904090000 +0000" stop="20260904122000 +0000" channel="youtube.LPL_English">
@@ -264,7 +259,7 @@
   </programme>
   <programme start="20260905050000 +0000" stop="20260905082000 +0000" channel="twitch.leagueoflegendsjp">
     <title lang="en">LJL</title>
-    <desc lang="en">L Guide Gaming vs New Meta · Playoffs · Bo5</desc>
+    <desc lang="en">New Meta vs L Guide Gaming · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906082000 +0000" channel="twitch.leagueoflegendsjp">
