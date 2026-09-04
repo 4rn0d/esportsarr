@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T18:31:23.410225+00:00",
+  "generated_at": "2026-09-04T21:02:15.100719+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -372,6 +372,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949423"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-04T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115565004607949429"
     },
     {
       "league": "LEC",
@@ -2572,30 +2584,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-05T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "ZYB vs Ici Japon Corp \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055704"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-05T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Vitality.Bee vs Skillcamp \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899924570"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-06T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3509,7 +3497,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-09-04T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3521,7 +3509,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-09-04T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3537,7 +3525,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs NRG \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610515792"
     },
@@ -3549,7 +3537,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs 100 Thieves \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
     },
@@ -4969,7 +4957,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -5154,6 +5142,11 @@
         }
       ],
       "valorant": [
+        {
+          "id": "TntlDvMFTX0",
+          "title": "NRG vs 100T - VCT Americas Stage 2 Playoffs - Day 05",
+          "duration_seconds": 4835
+        },
         {
           "id": "8USKl5eS1F0",
           "title": "AXL vs HER -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 3",
