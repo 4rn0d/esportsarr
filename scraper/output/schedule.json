@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T01:58:25.877456+00:00",
+  "generated_at": "2026-09-04T06:56:34.108743+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3936,18 +3936,6 @@
       "description": "HIMMERS vs Cloud9 GC \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958193631"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-03T20:39:41.154000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers NA",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "Game Changers NA",
