@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:02:15.100719+00:00",
+  "generated_at": "2026-09-04T23:02:00.771609+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3509,7 +3509,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-09-04T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3525,7 +3525,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs NRG \u00b7 Playoffs \u00b7 Bo5",
+      "description": "LOUD vs NRG \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610515792"
     },
@@ -4957,7 +4957,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -5143,8 +5143,13 @@
       ],
       "valorant": [
         {
+          "id": "kpOe4HSX-aQ",
+          "title": "G2 vs LOUD - VCT Americas Stage 2 Finals: Sao Paulo - Day 1",
+          "duration_seconds": 6230
+        },
+        {
           "id": "TntlDvMFTX0",
-          "title": "NRG vs 100T - VCT Americas Stage 2 Playoffs - Day 05",
+          "title": "NRG vs 100T - VCT Americas Stage 2 Finals: Sao Paulo - Day 1",
           "duration_seconds": 4835
         },
         {
@@ -5211,11 +5216,6 @@
           "id": "I2JPLhjRML4",
           "title": "LEV vs MIBR - VCT Americas Stage 2 Playoffs - Day 1",
           "duration_seconds": 5124
-        },
-        {
-          "id": "3xr90GTTG6g",
-          "title": "LOUD vs FUR - VCT Americas Stage 2 Playoffs - Day 1",
-          "duration_seconds": 5235
         },
         {
           "id": "3vQuOg1QU5c",
