@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T23:50:31.129435+00:00",
+  "generated_at": "2026-09-04T01:58:25.877456+00:00",
   "matches": [
     {
       "league": "LCS",
@@ -3940,6 +3940,18 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
+      "start": "2026-09-03T20:39:41.154000+00:00",
+      "state": "in_progress",
+      "title": "Game Changers NA",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "Game Changers NA",
+      "game": "valorant",
       "start": "2026-09-03T21:00:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -3953,11 +3965,11 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-03T23:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "HIMMERS vs Axolotl \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Axolotl vs HIMMERS \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958259179"
     },
@@ -3981,7 +3993,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs The Spiders \u00b7 Playoffs \u00b7 Bo3",
+      "description": "HIMMERS vs The Spiders \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "116888595958259183"
     },
@@ -5137,7 +5149,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -5328,6 +5340,11 @@
       ],
       "valorant": [
         {
+          "id": "8USKl5eS1F0",
+          "title": "AXL vs HER -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 3",
+          "duration_seconds": 5921
+        },
+        {
           "id": "vWgZyvPCcy0",
           "title": "SWIM vs SPID -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 3",
           "duration_seconds": 6249
@@ -5391,11 +5408,6 @@
           "id": "3xr90GTTG6g",
           "title": "LOUD vs FUR - VCT Americas Stage 2 Playoffs - Day 1",
           "duration_seconds": 5235
-        },
-        {
-          "id": "hjp6x6AQzkk",
-          "title": "KRU vs EG - VCT Americas Stage 2 Play-Ins - Day 9",
-          "duration_seconds": 8776
         },
         {
           "id": "3vQuOg1QU5c",
