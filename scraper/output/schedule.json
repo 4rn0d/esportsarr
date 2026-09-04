@@ -1,6 +1,30 @@
 {
-  "generated_at": "2026-09-04T11:55:31.764632+00:00",
+  "generated_at": "2026-09-04T15:26:58.623359+00:00",
   "matches": [
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-13T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117205970511380854"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-14T15:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117205970511380860"
+    },
     {
       "league": "LCS",
       "game": "lol",
@@ -1252,18 +1276,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-09-04T07:12:51.464000+00:00",
-      "state": "in_progress",
-      "title": "LCK",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-09-04T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1917,7 +1929,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs LGD GAMING \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202184"
     },
@@ -1929,7 +1941,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs BILIBILI GAMING \u00b7 Playoffs \u00b7 Bo5",
+      "description": "BILIBILI GAMING vs Anyone's Legend \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202172"
     },
@@ -4324,30 +4336,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-05T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173091"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-05T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Karmine Corp GC vs SK Nebula \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173127"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-05T18:00:00+00:00",
       "state": "completed",
       "title": "Game Changers EMEA",
@@ -5045,7 +5033,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-09-04T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -5061,7 +5049,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs GLOBAL ESPORTS \u00b7 Playoffs \u00b7 Bo5",
+      "description": "T1 vs GLOBAL ESPORTS \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581280955044729"
     },
@@ -5161,11 +5149,6 @@
           "id": "ZwvBKTWzxaM",
           "title": "LCS Summer 2026 | C9 vs FLY | Regular Season",
           "duration_seconds": 5376
-        },
-        {
-          "id": "adBJ3Auz7VQ",
-          "title": "LCS Summer 2026 | SR vs DIG | Regular Season",
-          "duration_seconds": 6579
         },
         {
           "id": "XUIbEg7Yf2s",
