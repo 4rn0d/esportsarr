@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:28:02.883671+00:00",
+  "generated_at": "2026-09-05T21:28:58.110609+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -220,24 +220,12 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-05T18:44:26.177000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-09-05T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Sentinels vs Cloud9 Kia \u00b7 Week 7 \u00b7 Bo3",
+      "description": "Cloud9 Kia vs Sentinels \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163821175"
     },
@@ -2225,7 +2213,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-05T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2265,7 +2253,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs paiN Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403075"
     },
@@ -2277,7 +2265,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Vivo Keyd Stars \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403081"
     },
@@ -2520,18 +2508,6 @@
       "description": "New Meta vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-06T20:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Vitality.Bee vs ZYB \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368899990132"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -2976,18 +2952,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-06T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FURIA vs Evil Geniuses \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086877090"
     },
     {
       "league": "VCT Americas",

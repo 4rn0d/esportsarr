@@ -42,7 +42,7 @@
   </programme>
   <programme start="20260905200000 +0000" stop="20260905220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Sentinels vs Cloud9 Kia · Week 7 · Bo3</desc>
+    <desc lang="en">Cloud9 Kia vs Sentinels · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260905230000 +0000" stop="20260906010000 +0000" channel="twitch.lcs">
@@ -200,11 +200,6 @@
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260905160000 +0000" stop="20260905192000 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">paiN Gaming vs Vivo Keyd Stars · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260906160000 +0000" stop="20260906192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">FURIA vs RED Kalunga · Playoffs · Bo5</desc>
@@ -217,12 +212,12 @@
   </programme>
   <programme start="20260913160000 +0000" stop="20260913192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs paiN Gaming · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260919160000 +0000" stop="20260919192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs Vivo Keyd Stars · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260920160000 +0000" stop="20260920192000 +0000" channel="twitch.cblol">
