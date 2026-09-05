@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:36:49.423807+00:00",
+  "generated_at": "2026-09-05T19:28:02.883671+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -216,6 +216,18 @@
       "description": "Shopify Rebellion vs Cloud9 Kia \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886755"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-05T18:44:26.177000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCS",
@@ -2512,30 +2524,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-06T18:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Ici Japon Corp vs Esprit Shonen \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055690"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-06T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Solary vs Galions \u00b7 Week 3 \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "116912368900055714"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-06T20:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3424,20 +3412,8 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-09-05T15:59:48.086000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-09-05T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3796,18 +3772,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-06T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Joblife vs NAVI \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706989"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-07T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -4140,18 +4104,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-06T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "ALTERNATE aTTaX Ruby vs Gentle Mates \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173083"
     },
     {
       "league": "Game Changers EMEA",
@@ -5005,7 +4957,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -5191,6 +5143,11 @@
       ],
       "valorant": [
         {
+          "id": "QLfrH-jv3Wg",
+          "title": "Team Daiki vs Team Mel - VCT Americas Override Showmatch",
+          "duration_seconds": 4617
+        },
+        {
           "id": "kpOe4HSX-aQ",
           "title": "G2 vs LOUD - VCT Americas Stage 2 Finals: Sao Paulo - Day 1",
           "duration_seconds": 6230
@@ -5259,11 +5216,6 @@
           "id": "-LinWApTGXA",
           "title": "NRG vs LOUD - VCT Americas Stage 2 Playoffs - Day 2",
           "duration_seconds": 8966
-        },
-        {
-          "id": "I2JPLhjRML4",
-          "title": "LEV vs MIBR - VCT Americas Stage 2 Playoffs - Day 1",
-          "duration_seconds": 5124
         },
         {
           "id": "3vQuOg1QU5c",
