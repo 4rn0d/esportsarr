@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:39:48.841053+00:00",
+  "generated_at": "2026-09-05T15:31:44.589782+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -761,7 +761,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-05T10:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -773,7 +773,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-05T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -789,7 +789,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs G2 Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406303"
     },
@@ -1881,7 +1881,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs LGD GAMING \u00b7 Playoffs \u00b7 Bo5",
+      "description": "LGD GAMING vs Shenzhen NINJAS IN PYJAMAS \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202184"
     },
@@ -2208,6 +2208,18 @@
       "description": "FURIA vs LEVIAT\u00c1N \u00b7 Week 6 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115565671526402961"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-05T15:01:12.677000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "CBLOL",
@@ -3808,18 +3820,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-06T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eintracht Frankfurt vs GIANTX \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706985"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-06T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -4164,30 +4164,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-06T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Habos Babos \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173219"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-06T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Karmine Corp GC vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173151"
     },
     {
       "league": "Game Changers EMEA",
@@ -4885,7 +4861,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -5032,11 +5008,6 @@
           "id": "Qe-5L-mO1ic",
           "title": "GEN vs KT | Upper Round 2 Game 3 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2306
-        },
-        {
-          "id": "arf7b-IRcV0",
-          "title": "GEN vs KT | Upper Round 2 Game 2 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2501
         },
         {
           "id": "3jOX2W3vHvo",
