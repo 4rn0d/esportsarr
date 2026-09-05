@@ -152,7 +152,7 @@
   </programme>
   <programme start="20260905080000 +0000" stop="20260905112000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">Gen.G Esports vs Hanwha Life Esports · Playoffs · Bo5</desc>
+    <desc lang="en">Hanwha Life Esports vs Gen.G Esports · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906080000 +0000" stop="20260906112000 +0000" channel="twitch.lck">
@@ -168,16 +168,6 @@
   <programme start="20260913050000 +0000" stop="20260913082000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260905060000 +0000" stop="20260905092000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Invictus Gaming vs TOP ESPORTS · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260905090000 +0000" stop="20260905122000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Shenzhen NINJAS IN PYJAMAS vs Beijing JDG Esports · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906060000 +0000" stop="20260906092000 +0000" channel="youtube.LPL_English">
@@ -270,14 +260,9 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905082000 +0000" channel="twitch.leagueoflegendsjp">
-    <title lang="en">LJL</title>
-    <desc lang="en">New Meta vs L Guide Gaming · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260906050000 +0000" stop="20260906082000 +0000" channel="twitch.leagueoflegendsjp">
     <title lang="en">LJL</title>
-    <desc lang="en">TBD vs FENNEL · Finals · Bo5</desc>
+    <desc lang="en">New Meta vs FENNEL · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260907160000 +0000" stop="20260907192000 +0000" channel="twitch.NLCLoL">

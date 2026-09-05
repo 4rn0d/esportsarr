@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T05:03:17.059034+00:00",
+  "generated_at": "2026-09-05T09:01:05.196209+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -856,18 +856,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-06T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "KIWOOM DRX vs DN SOOPers \u00b7 Week 11 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684665"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-06T10:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1301,11 +1289,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-05T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841619"
     },
@@ -1344,30 +1332,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-06T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "LGD GAMING vs THUNDER TALK GAMING \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769648"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-06T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Invictus Gaming vs Shenzhen NINJAS IN PYJAMAS \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835308"
     },
     {
       "league": "LPL",
@@ -1901,7 +1865,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-05T06:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1913,7 +1877,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-05T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2380,18 +2344,6 @@
     {
       "league": "LCP",
       "game": "lol",
-      "start": "2026-08-06T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Ground Zero Gaming vs Fukuoka SoftBank HAWKS gaming \u00b7 Swiss \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570814727903867"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
       "start": "2026-08-07T09:00:00+00:00",
       "state": "completed",
       "title": "LCP",
@@ -2561,11 +2513,11 @@
       "league": "LJL",
       "game": "lol",
       "start": "2026-09-05T05:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "New Meta vs L Guide Gaming \u00b7 Playoffs \u00b7 Bo5",
+      "description": "L Guide Gaming vs New Meta \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783753"
     },
@@ -2577,7 +2529,7 @@
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
-      "description": "TBD vs FENNEL \u00b7 Finals \u00b7 Bo5",
+      "description": "New Meta vs FENNEL \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
     },
@@ -4925,7 +4877,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-09-05T08:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -4957,7 +4909,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -4987,7 +4939,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
@@ -5029,6 +4981,26 @@
           "id": "ZwvBKTWzxaM",
           "title": "LCS Summer 2026 | C9 vs FLY | Regular Season",
           "duration_seconds": 5376
+        },
+        {
+          "id": "4CQLYOOidVA",
+          "title": "KT vs DK | Lower Round 2 Game 4 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2456
+        },
+        {
+          "id": "GZfNbWNKRqE",
+          "title": "KT vs DK | Lower Round 2 Game 3 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2153
+        },
+        {
+          "id": "5jJ1NWtQzFU",
+          "title": "KT vs DK | Lower Round 2 Game 2 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2964
+        },
+        {
+          "id": "p9snSiwRY8g",
+          "title": "KT vs DK | Lower Round 2 Game 1 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2290
         },
         {
           "id": "XUIbEg7Yf2s",
@@ -5089,21 +5061,6 @@
           "id": "arf7b-IRcV0",
           "title": "GEN vs KT | Upper Round 2 Game 2 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2501
-        },
-        {
-          "id": "kz7Voby-wtM",
-          "title": "GEN vs KT | Upper Round 2 Game 1 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2807
-        },
-        {
-          "id": "vYgtKGfa13A",
-          "title": "DK vs KT | Upper Round 1 Game 3 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2795
-        },
-        {
-          "id": "mMuAmToB3xE",
-          "title": "DK vs KT | Upper Round 1 Game 2 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 3111
         },
         {
           "id": "3jOX2W3vHvo",
