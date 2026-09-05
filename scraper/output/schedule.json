@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:01:05.196209+00:00",
+  "generated_at": "2026-09-05T12:39:48.841053+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -761,11 +761,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-05T10:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Team Vitality vs G2 Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "G2 Esports vs Team Vitality \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406297"
     },
@@ -852,18 +852,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406333"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-06T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "T1 vs Dplus KIA \u00b7 Week 11 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553465"
     },
     {
       "league": "LCK",
@@ -1289,7 +1277,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-05T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1317,7 +1305,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841637"
     },
@@ -1329,21 +1317,9 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-06T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs Anyone's Legend \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769596"
     },
     {
       "league": "LPL",
@@ -1893,7 +1869,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs Xi'an Team WE \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Xi'an Team WE vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202178"
     },
@@ -4877,7 +4853,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-09-05T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -4893,7 +4869,7 @@
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs NONGSHIM REDFORCE \u00b7 Finals \u00b7 Bo5",
+      "description": "GLOBAL ESPORTS vs NONGSHIM REDFORCE \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581280955110271"
     }
@@ -4909,7 +4885,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -4939,7 +4915,7 @@
         },
         {
           "id": "Ck5cZTsKJUY",
-          "title": "LCS Homegrounds-Bound | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
+          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
           "duration_seconds": 2624
         },
         {
