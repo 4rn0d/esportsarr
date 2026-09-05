@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T21:28:58.110609+00:00",
+  "generated_at": "2026-09-05T23:07:49.482358+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -221,7 +221,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-05T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -233,11 +233,11 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-05T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Dignitas vs Team Liquid Alienware \u00b7 Week 7 \u00b7 Bo3",
+      "description": "Team Liquid Alienware vs Dignitas \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886779"
     },
@@ -4920,8 +4920,13 @@
           "duration_seconds": 3630
         },
         {
+          "id": "05kaFcVloxQ",
+          "title": "LCS Summer 2026 | C9 vs SEN | Regular Season",
+          "duration_seconds": 4408
+        },
+        {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
@@ -4988,11 +4993,6 @@
           "id": "koCtIkqawq4",
           "title": "LCS Summer 2026 | LYON vs SEN | Regular Season",
           "duration_seconds": 8619
-        },
-        {
-          "id": "ZwvBKTWzxaM",
-          "title": "LCS Summer 2026 | C9 vs FLY | Regular Season",
-          "duration_seconds": 5376
         },
         {
           "id": "4CQLYOOidVA",

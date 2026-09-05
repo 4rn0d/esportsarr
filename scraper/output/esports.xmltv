@@ -40,14 +40,9 @@
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260905200000 +0000" stop="20260905220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Cloud9 Kia vs Sentinels · Week 7 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260905230000 +0000" stop="20260906010000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Dignitas vs Team Liquid Alienware · Week 7 · Bo3</desc>
+    <desc lang="en">Team Liquid Alienware vs Dignitas · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906200000 +0000" stop="20260906220000 +0000" channel="twitch.lcs">
