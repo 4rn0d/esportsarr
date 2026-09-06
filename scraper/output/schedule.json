@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T09:33:12.807337+00:00",
+  "generated_at": "2026-09-06T13:07:21.116090+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -856,18 +856,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-07T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "HANJIN BRION vs BNK FEARX \u00b7 Week 11 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684633"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-08T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1277,7 +1265,7 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-06T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
@@ -1293,7 +1281,7 @@
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "TBD vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "T1 vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841637"
     },
@@ -1308,18 +1296,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-07T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "TOP ESPORTS vs BILIBILI GAMING \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547704008"
     },
     {
       "league": "LPL",
@@ -1869,7 +1845,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202190"
     },
@@ -2453,7 +2429,7 @@
       "league": "LJL",
       "game": "lol",
       "start": "2026-09-06T05:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
@@ -4252,18 +4228,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-07T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Gen.G  vs FULL SENSE \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954978977"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-08T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -4661,7 +4625,7 @@
       "league": "VCT Pacific",
       "game": "valorant",
       "start": "2026-09-06T08:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -4859,7 +4823,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {

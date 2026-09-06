@@ -18,9 +18,6 @@
   <channel id="twitch.cblol">
     <display-name>CBLOL</display-name>
   </channel>
-  <channel id="twitch.leagueoflegendsjp">
-    <display-name>LJL</display-name>
-  </channel>
   <channel id="twitch.NLCLoL">
     <display-name>NLC</display-name>
   </channel>
@@ -28,7 +25,7 @@
     <display-name>VCT Americas</display-name>
   </channel>
   <channel id="twitch.valorant_pacific">
-    <display-name>VCT Pacific</display-name>
+    <display-name>Game Changers Pacific</display-name>
   </channel>
   <programme start="20260913150000 +0000" stop="20260913182000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
@@ -130,14 +127,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260906080000 +0000" stop="20260906112000 +0000" channel="twitch.lck">
-    <title lang="en">LCK</title>
-    <desc lang="en">Dplus KIA vs T1 · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260912050000 +0000" stop="20260912082000 +0000" channel="twitch.lck">
     <title lang="en">LCK</title>
-    <desc lang="en">TBD vs Hanwha Life Esports · Playoffs · Bo5</desc>
+    <desc lang="en">T1 vs Hanwha Life Esports · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260913050000 +0000" stop="20260913082000 +0000" channel="twitch.lck">
@@ -162,7 +154,7 @@
   </programme>
   <programme start="20260908090000 +0000" stop="20260908122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs Invictus Gaming · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260912090000 +0000" stop="20260912122000 +0000" channel="youtube.LPL_English">
@@ -230,11 +222,6 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260906050000 +0000" stop="20260906082000 +0000" channel="twitch.leagueoflegendsjp">
-    <title lang="en">LJL</title>
-    <desc lang="en">FENNEL vs New Meta · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260907160000 +0000" stop="20260907192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">Arctic Pandas vs Ruddy Corporation · Playoffs · Bo5</desc>
@@ -278,11 +265,6 @@
   <programme start="20260917210000 +0000" stop="20260918023000 +0000" channel="twitch.valorant_americas">
     <title lang="en">Game Changers NA</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260906080000 +0000" stop="20260906133000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">VCT Pacific</title>
-    <desc lang="en">GLOBAL ESPORTS vs NONGSHIM REDFORCE · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260914070000 +0000" stop="20260914100000 +0000" channel="twitch.valorant_pacific">
