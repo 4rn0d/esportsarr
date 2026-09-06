@@ -22,7 +22,7 @@
     <display-name>NLC</display-name>
   </channel>
   <channel id="twitch.valorant_americas">
-    <display-name>VCT Americas</display-name>
+    <display-name>Game Changers NA</display-name>
   </channel>
   <channel id="twitch.valorant_pacific">
     <display-name>Game Changers Pacific</display-name>
@@ -35,11 +35,6 @@
   <programme start="20260914150000 +0000" stop="20260914182000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260906200000 +0000" stop="20260906220000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Shopify Rebellion vs FlyQuest · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906230000 +0000" stop="20260907010000 +0000" channel="twitch.lcs">
@@ -220,11 +215,6 @@
   <programme start="20260916160000 +0000" stop="20260916192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260906170000 +0000" stop="20260906223000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">100 Thieves vs LOUD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="twitch.valorant_americas">

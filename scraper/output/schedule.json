@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T20:34:25.059498+00:00",
+  "generated_at": "2026-09-06T22:20:04.166870+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -245,7 +245,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-06T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -257,7 +257,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-06T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -1888,18 +1888,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-07T21:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "Vivo Keyd Stars vs Fluxo W7M \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403041"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-08T00:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2860,18 +2848,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-07T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "100 Thieves vs Cloud9 \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942682"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-08T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3280,8 +3256,20 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-09-06T17:00:00+00:00",
+      "start": "2026-09-06T16:01:28.801000+00:00",
       "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
+      "start": "2026-09-06T17:00:00+00:00",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -4759,9 +4747,9 @@
     "replay_candidates": {
       "lol": [
         {
-          "id": "Y740BJoG5TM",
-          "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
-          "duration_seconds": 3630
+          "id": "mAsLimu2hIY",
+          "title": "LCS Summer 2026 | SR vs FLY | Regular Season",
+          "duration_seconds": 4669
         },
         {
           "id": "OQpJVITv3_E",
@@ -4832,11 +4820,6 @@
           "id": "ZfRcP_J3mK4",
           "title": "Caps Aura Farms in the Hall of Legends | The Dive Driven by Kia",
           "duration_seconds": 5069
-        },
-        {
-          "id": "KTX03qLNS3c",
-          "title": "Vulcan Falls Short of LCS Record | PROS ft. C9 Vulcan, SEN Impact & LYON Berserker",
-          "duration_seconds": 3578
         },
         {
           "id": "CsUmQ4_PUes",
