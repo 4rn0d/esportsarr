@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:53:42.815786+00:00",
+  "generated_at": "2026-09-06T05:17:57.729002+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2501,7 +2501,7 @@
       "league": "LJL",
       "game": "lol",
       "start": "2026-09-06T05:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LJL",
       "stream_platform": "twitch",
       "stream_channel": "leagueoflegendsjp",
@@ -4919,7 +4919,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
