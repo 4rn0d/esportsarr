@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:07:21.116090+00:00",
+  "generated_at": "2026-09-06T16:13:30.010873+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -384,18 +384,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-07T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Shifters vs GIANTX \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406207"
     },
     {
       "league": "LEC",
@@ -785,11 +773,11 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-06T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "G2 Esports vs Karmine Corp \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Karmine Corp vs G2 Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406303"
     },
@@ -1805,7 +1793,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-06T06:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1817,7 +1805,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-06T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1845,7 +1833,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
+      "description": "LGD GAMING vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202190"
     },
@@ -2165,11 +2153,11 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-06T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "FURIA vs RED Kalunga \u00b7 Playoffs \u00b7 Bo5",
+      "description": "RED Kalunga vs FURIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403057"
     },
@@ -3304,6 +3292,18 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
+      "start": "2026-09-06T16:01:28.801000+00:00",
+      "state": "in_progress",
+      "title": "VCT Americas",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "VCT Americas",
+      "game": "valorant",
       "start": "2026-09-06T17:00:00+00:00",
       "state": "unstarted",
       "title": "VCT Americas",
@@ -3648,18 +3648,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-07T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Fire Flux Esports vs PCIFIC Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706993"
     },
     {
       "league": "VCT EMEA",
@@ -4823,7 +4811,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
+          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
