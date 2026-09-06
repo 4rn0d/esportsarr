@@ -40,11 +40,6 @@
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260905230000 +0000" stop="20260906010000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">Team Liquid Alienware vs Dignitas · Week 7 · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260906200000 +0000" stop="20260906220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">FlyQuest vs Shopify Rebellion · Week 7 · Bo3</desc>
@@ -260,14 +255,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260905170000 +0000" stop="20260905223000 +0000" channel="twitch.valorant_americas">
-    <title lang="en">VCT Americas</title>
-    <desc lang="en">LOUD vs NRG · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260906170000 +0000" stop="20260906223000 +0000" channel="twitch.valorant_americas">
     <title lang="en">VCT Americas</title>
-    <desc lang="en">TBD vs 100 Thieves · Finals · Bo5</desc>
+    <desc lang="en">LOUD vs 100 Thieves · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260908210000 +0000" stop="20260909000000 +0000" channel="twitch.valorant_americas">

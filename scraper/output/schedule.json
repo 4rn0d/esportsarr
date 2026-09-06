@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T23:07:49.482358+00:00",
+  "generated_at": "2026-09-06T00:53:42.815786+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -233,7 +233,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-05T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -2956,18 +2956,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-07T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "NRG vs ENVY \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942654"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-07T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3377,7 +3365,7 @@
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-09-05T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3393,7 +3381,7 @@
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs 100 Thieves \u00b7 Finals \u00b7 Bo5",
+      "description": "LOUD vs 100 Thieves \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
     },
@@ -4920,6 +4908,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "OQpJVITv3_E",
+          "title": "LCS Summer 2026 | DIG vs TLAW | Regular Season",
+          "duration_seconds": 4210
+        },
+        {
           "id": "05kaFcVloxQ",
           "title": "LCS Summer 2026 | C9 vs SEN | Regular Season",
           "duration_seconds": 4408
@@ -4988,11 +4981,6 @@
           "id": "KTX03qLNS3c",
           "title": "Vulcan Falls Short of LCS Record | PROS ft. C9 Vulcan, SEN Impact & LYON Berserker",
           "duration_seconds": 3578
-        },
-        {
-          "id": "koCtIkqawq4",
-          "title": "LCS Summer 2026 | LYON vs SEN | Regular Season",
-          "duration_seconds": 8619
         },
         {
           "id": "4CQLYOOidVA",
@@ -5107,6 +5095,11 @@
       ],
       "valorant": [
         {
+          "id": "wKj6GWnzxbo",
+          "title": "NRG vs LOUD - VCT Americas Stage 2 Finals: Sao Paulo - Lower Finals",
+          "duration_seconds": 12991
+        },
+        {
           "id": "QLfrH-jv3Wg",
           "title": "Team Daiki vs Team Mel - VCT Americas Override Showmatch",
           "duration_seconds": 4617
@@ -5175,11 +5168,6 @@
           "id": "C6ZrKm5wiHU",
           "title": "100T vs LEV - VCT Americas Stage 2 Playoffs - Day 2",
           "duration_seconds": 4759
-        },
-        {
-          "id": "-LinWApTGXA",
-          "title": "NRG vs LOUD - VCT Americas Stage 2 Playoffs - Day 2",
-          "duration_seconds": 8966
         },
         {
           "id": "3vQuOg1QU5c",
