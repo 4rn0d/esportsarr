@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T16:13:30.010873+00:00",
+  "generated_at": "2026-09-06T18:17:38.478801+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -384,18 +384,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-07T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Team Heretics vs Fnatic \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406135"
     },
     {
       "league": "LEC",
@@ -3292,24 +3280,12 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-09-06T16:01:28.801000+00:00",
-      "state": "in_progress",
-      "title": "VCT Americas",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-09-06T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "VCT Americas",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "LOUD vs 100 Thieves \u00b7 Finals \u00b7 Bo5",
+      "description": "100 Thieves vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
     },
@@ -3648,18 +3624,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-07T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Enterprise Esports vs FNATIC \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721706997"
     },
     {
       "league": "VCT EMEA",
@@ -4811,7 +4775,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
