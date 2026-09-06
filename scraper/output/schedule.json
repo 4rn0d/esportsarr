@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T18:17:38.478801+00:00",
+  "generated_at": "2026-09-06T20:34:25.059498+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -245,11 +245,11 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-06T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "FlyQuest vs Shopify Rebellion \u00b7 Week 7 \u00b7 Bo3",
+      "description": "Shopify Rebellion vs FlyQuest \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797164345555"
     },
@@ -761,7 +761,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-06T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -813,7 +813,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Karmine Corp \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406327"
     },
@@ -825,7 +825,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs G2 Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406333"
     },
@@ -2141,7 +2141,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-06T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2157,7 +2157,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs FURIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403069"
     },
@@ -2181,7 +2181,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs Vivo Keyd Stars \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Vivo Keyd Stars vs RED Kalunga \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403081"
     },

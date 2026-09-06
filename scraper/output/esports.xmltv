@@ -39,7 +39,7 @@
   </programme>
   <programme start="20260906200000 +0000" stop="20260906220000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">FlyQuest vs Shopify Rebellion · Week 7 · Bo3</desc>
+    <desc lang="en">Shopify Rebellion vs FlyQuest · Week 7 · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260906230000 +0000" stop="20260907010000 +0000" channel="twitch.lcs">
@@ -97,11 +97,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260906150000 +0000" stop="20260906182000 +0000" channel="twitch.lec">
-    <title lang="en">LEC</title>
-    <desc lang="en">Karmine Corp vs G2 Esports · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260911150000 +0000" stop="20260911182000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">TBD vs Natus Vincere · Playoffs · Bo5</desc>
@@ -119,12 +114,12 @@
   </programme>
   <programme start="20260919150000 +0000" stop="20260919182000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs Karmine Corp · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260920150000 +0000" stop="20260920182000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
-    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
+    <desc lang="en">TBD vs G2 Esports · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260912050000 +0000" stop="20260912082000 +0000" channel="twitch.lck">
@@ -172,14 +167,9 @@
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260906160000 +0000" stop="20260906192000 +0000" channel="twitch.cblol">
-    <title lang="en">CBLOL</title>
-    <desc lang="en">RED Kalunga vs FURIA · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260912160000 +0000" stop="20260912192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs FURIA · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260913160000 +0000" stop="20260913192000 +0000" channel="twitch.cblol">
@@ -189,7 +179,7 @@
   </programme>
   <programme start="20260919160000 +0000" stop="20260919192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">TBD vs Vivo Keyd Stars · Playoffs · Bo5</desc>
+    <desc lang="en">Vivo Keyd Stars vs RED Kalunga · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260920160000 +0000" stop="20260920192000 +0000" channel="twitch.cblol">
