@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:42:21.520131+00:00",
+  "generated_at": "2026-09-07T15:15:25.617672+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -384,18 +384,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Natus Vincere vs SK Gaming \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406159"
     },
     {
       "league": "LEC",
@@ -832,18 +820,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-08T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "DN SOOPers vs NONGSHIM RED FORCE \u00b7 Week 11 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684669"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-09T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1260,18 +1236,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-08T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "EDWARD GAMING vs BILIBILI GAMING \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769676"
     },
     {
       "league": "LPL",
@@ -1797,7 +1761,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Anyone's Legend \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202196"
     },
@@ -1809,7 +1773,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202202"
     },
@@ -3532,18 +3496,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs GIANTX \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707001"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-08T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3844,18 +3796,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-08T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Karmine Corp GC vs Joblife GC \u00b7 Play In Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173231"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-08T18:00:00+00:00",
       "state": "completed",
       "title": "Game Changers EMEA",
@@ -4080,18 +4020,6 @@
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-08T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs ZETA DIVISION \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954978989"
     },
     {
       "league": "VCT Pacific",
@@ -4647,18 +4575,18 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "EbEcpyQJ_5Q",
-      "topic": "The FINAL teams are locked in for Champions Shanghai! \u2014 Plat Chat VALORANT",
-      "episode": 279,
-      "real_start": "2026-09-07T15:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
           "id": "Y740BJoG5TM",
           "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
           "duration_seconds": 3630
+        },
+        {
+          "id": "CjcPwz_-oUo",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "duration_seconds": 2882
         },
         {
           "id": "IkylT2Q049g",
@@ -4734,11 +4662,6 @@
           "id": "gO8IxHE2uHI",
           "title": "LCS Summer 2026 | SEN vs FLY | Regular Season",
           "duration_seconds": 4574
-        },
-        {
-          "id": "ZfRcP_J3mK4",
-          "title": "Caps Aura Farms in the Hall of Legends | The Dive Driven by Kia",
-          "duration_seconds": 5069
         },
         {
           "id": "t2CteFHA8YY",
