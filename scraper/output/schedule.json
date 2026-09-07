@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T15:15:25.617672+00:00",
+  "generated_at": "2026-09-07T19:17:52.609104+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -384,18 +384,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-08T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "GIANTX vs Movistar KOI \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406235"
     },
     {
       "league": "LEC",
@@ -1816,30 +1804,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-08T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "RED Kalunga vs paiN Gaming \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403025"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-08T19:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LEVIAT\u00c1N vs LOS \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402985"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-09T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2705,11 +2669,11 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-09-07T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Arctic Pandas vs Ruddy Corporation \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Ruddy Corporation vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860091"
     },
@@ -2733,7 +2697,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860111"
     },
@@ -2745,7 +2709,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Ruddy Corporation \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
     },
@@ -3496,18 +3460,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-08T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Joblife vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707005"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-09T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3792,18 +3744,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-08T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Lost Puppies vs ALTERNATE aTTaX Ruby \u00b7 Play In Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173235"
     },
     {
       "league": "Game Changers EMEA",
@@ -4585,7 +4525,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
