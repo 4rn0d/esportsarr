@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T04:55:16.315795+00:00",
+  "generated_at": "2026-09-08T09:14:34.164047+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -784,18 +784,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-09T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "kt Rolster vs Dplus KIA \u00b7 Week 11 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553477"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-09T10:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1200,30 +1188,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-09T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Suzhou LNG Esports vs Invictus Gaming \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835328"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-09T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "THUNDER TALK GAMING vs TOP ESPORTS \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769704"
     },
     {
       "league": "LPL",
@@ -1709,7 +1673,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-08T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -2076,18 +2040,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468641"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-09T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Ground Zero Gaming vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115570814727903879"
     },
     {
       "league": "LCP",
@@ -3916,18 +3868,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-09T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "VARREL vs Paper Rex \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044573"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-09T10:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -4477,7 +4417,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
