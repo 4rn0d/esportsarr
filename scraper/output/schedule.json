@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T09:14:34.164047+00:00",
+  "generated_at": "2026-09-08T13:38:58.356009+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -784,18 +784,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-09T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs KIWOOM DRX \u00b7 Week 11 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684649"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-12T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1188,18 +1176,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-09T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs Beijing JDG Esports \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769712"
     },
     {
       "league": "LPL",
@@ -1689,7 +1665,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs Anyone's Legend \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Invictus Gaming vs Anyone's Legend \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117155436343202196"
     },
@@ -3868,18 +3844,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-09T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Rex Regum Qeon vs NONGSHIM REDFORCE \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280954978997"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-13T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -4496,6 +4460,11 @@
           "duration_seconds": 4574
         },
         {
+          "id": "nsmUwB4m6xQ",
+          "title": "EP.96 WHO WILL WIN 2026 LCK? | THE POG STATE",
+          "duration_seconds": 5085
+        },
+        {
           "id": "t2CteFHA8YY",
           "title": "T1 vs DK | Lower Round 3 Game 4 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2367
@@ -4574,11 +4543,6 @@
           "id": "jajdkKwsQF0",
           "title": "BFX vs DK | Lower Round 1 Game 2 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2981
-        },
-        {
-          "id": "hBz2c4txZbQ",
-          "title": "BFX vs DK | Lower Round 1 Game 1 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2952
         },
         {
           "id": "3jOX2W3vHvo",
