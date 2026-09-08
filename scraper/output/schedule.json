@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:38:58.356009+00:00",
+  "generated_at": "2026-09-08T17:29:18.871826+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -360,30 +360,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-09T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "G2 Esports vs Team Heretics \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406143"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-09T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Karmine Corp vs Fnatic \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406279"
     },
     {
       "league": "LEC",
@@ -1716,18 +1692,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-09T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LOUD vs Vivo Keyd Stars \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403013"
     },
     {
       "league": "CBLOL",
@@ -3340,18 +3304,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-09T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Team Heretics vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707009"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-09T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3624,18 +3576,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-09T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Bar\u00e7a eSports vs Mom Said No \u00b7 Play In Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173239"
     },
     {
       "league": "Game Changers EMEA",
@@ -4453,11 +4393,6 @@
           "id": "Le4ZgNR_tIM",
           "title": "LCS Summer 2026 | DIG vs DSG | Regular Season",
           "duration_seconds": 4538
-        },
-        {
-          "id": "gO8IxHE2uHI",
-          "title": "LCS Summer 2026 | SEN vs FLY | Regular Season",
-          "duration_seconds": 4574
         },
         {
           "id": "nsmUwB4m6xQ",
