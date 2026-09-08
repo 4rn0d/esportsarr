@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T22:08:31.874165+00:00",
+  "generated_at": "2026-09-08T00:21:17.957850+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -24,18 +24,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-08T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs Sentinels \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163821195"
     },
     {
       "league": "LCS",
@@ -2704,18 +2692,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-09T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "MIBR vs Leviat\u00e1n Esports \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818086942670"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-09T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4501,7 +4477,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
