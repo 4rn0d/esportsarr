@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:36:35.643114+00:00",
+  "generated_at": "2026-09-09T05:15:14.501554+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3209,7 +3209,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-08T23:30:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3225,7 +3225,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo5",
+      "description": "The Spiders vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259187"
     },
@@ -4237,7 +4237,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -4432,6 +4432,11 @@
         }
       ],
       "valorant": [
+        {
+          "id": "OY4ti6R_Lgs",
+          "title": "SPID vs HER -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 4",
+          "duration_seconds": 6722
+        },
         {
           "id": "gSAZEcLC_B4",
           "title": "FLY vs SRG -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 4",
