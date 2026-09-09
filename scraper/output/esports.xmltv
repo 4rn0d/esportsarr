@@ -21,6 +21,9 @@
   <channel id="twitch.NLCLoL">
     <display-name>NLC</display-name>
   </channel>
+  <channel id="twitch.VALORANT">
+    <display-name>Champions</display-name>
+  </channel>
   <channel id="twitch.valorant_americas">
     <display-name>Game Changers NA</display-name>
   </channel>
@@ -182,19 +185,144 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260909160000 +0000" stop="20260909192000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Verdant vs Deer Gaming · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs Arctic Pandas · Playoffs · Bo5</desc>
+    <desc lang="en">Verdant vs Arctic Pandas · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260916160000 +0000" stop="20260916192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
     <desc lang="en">TBD vs Ruddy Corporation · Finals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">Team Liquid vs Paper Rex · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TYLOO GAMING vs G2 Esports · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260925090000 +0000" stop="20260925120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">NONGSHIM REDFORCE vs NRG · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260925120000 +0000" stop="20260925150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">Karmine Corp vs Xi Lai Gaming · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260926090000 +0000" stop="20260926120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">GLOBAL ESPORTS vs Team Vitality · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260926120000 +0000" stop="20260926150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">LOUD vs EDWARD Gaming · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260927090000 +0000" stop="20260927120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">100 Thieves vs T1 · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260927120000 +0000" stop="20260927150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">JD GAMING vs FUT Esports · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260929090000 +0000" stop="20260929120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260929120000 +0000" stop="20260929150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260930090000 +0000" stop="20260930120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260930120000 +0000" stop="20260930150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261001090000 +0000" stop="20261001120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261001120000 +0000" stop="20261001150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261002090000 +0000" stop="20261002120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261002120000 +0000" stop="20261002150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261003090000 +0000" stop="20261003120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261003120000 +0000" stop="20261003150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261009090000 +0000" stop="20261009120000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261009120000 +0000" stop="20261009150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260909210000 +0000" stop="20260910023000 +0000" channel="twitch.valorant_americas">
