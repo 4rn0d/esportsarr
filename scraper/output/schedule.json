@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:15:14.501554+00:00",
+  "generated_at": "2026-09-09T09:48:07.018084+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -225,7 +225,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Cloud9 Kia vs Shopify Rebellion \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949375"
     },
@@ -237,7 +237,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "FlyQuest vs Sentinels \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Sentinels vs FlyQuest \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949381"
     },
@@ -4311,6 +4311,11 @@
           "duration_seconds": 4538
         },
         {
+          "id": "7eTqCLRPncM",
+          "title": "[LCK Documentary] New:Blood | Smash & Career",
+          "duration_seconds": 2133
+        },
+        {
           "id": "nsmUwB4m6xQ",
           "title": "EP.96 WHO WILL WIN 2026 LCK? | THE POG STATE",
           "duration_seconds": 5085
@@ -4391,9 +4396,9 @@
           "duration_seconds": 2343
         },
         {
-          "id": "jajdkKwsQF0",
-          "title": "BFX vs DK | Lower Round 1 Game 2 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2981
+          "id": "qJFsWsf_6E8",
+          "title": "IG are Top 2? Is The LPL's Future Doomed? - LPL English Podcast Episode 26",
+          "duration_seconds": 3448
         },
         {
           "id": "3jOX2W3vHvo",
