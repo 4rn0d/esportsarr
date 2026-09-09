@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:37:48.044617+00:00",
+  "generated_at": "2026-09-09T00:36:35.643114+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -24,18 +24,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-09T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Team Liquid Alienware vs FlyQuest \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797164345559"
     },
     {
       "league": "LCS",
@@ -2560,18 +2548,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-10T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "100 Thieves vs LOUD \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115580818087008230"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-13T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3221,7 +3197,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-08T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3233,7 +3209,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-08T23:30:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3249,7 +3225,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259187"
     },
@@ -3261,7 +3237,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
     },
@@ -4457,6 +4433,11 @@
       ],
       "valorant": [
         {
+          "id": "gSAZEcLC_B4",
+          "title": "FLY vs SRG -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 4",
+          "duration_seconds": 7323
+        },
+        {
           "id": "6fNuxyJtfq0",
           "title": "100T vs LOUD - VCT Americas Stage 2 Finals: Sao Paulo - Grand Finals",
           "duration_seconds": 15574
@@ -4483,7 +4464,7 @@
         },
         {
           "id": "8USKl5eS1F0",
-          "title": "AXL vs HER -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 3",
+          "title": "AXL vs HER -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 3",
           "duration_seconds": 5921
         },
         {
@@ -4493,22 +4474,22 @@
         },
         {
           "id": "GHwXg4xuBa0",
-          "title": "SWIM vs SRG -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 2",
+          "title": "SWIM vs SRG -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 2",
           "duration_seconds": 4327
         },
         {
           "id": "KZ-e_v-9usM",
-          "title": "FLY vs AXL -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 2",
+          "title": "FLY vs AXL - Verizon Game Changers NA Stage 2 Main Event - Day 2",
           "duration_seconds": 9088
         },
         {
           "id": "DPF3Hvtn2as",
-          "title": "SWIM vs C9.GC -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 1",
+          "title": "SWIM vs C9.GC -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 1",
           "duration_seconds": 5164
         },
         {
           "id": "-HZogCvrhuY",
-          "title": "SPID vs AXL -\u00a0 Verizon Game Changers NA Stage 2 Main Event - Day 1",
+          "title": "SPID vs AXL - Verizon Game Changers NA Stage 2 Main Event - Day 1",
           "duration_seconds": 4747
         },
         {
@@ -4525,11 +4506,6 @@
           "id": "ug4i0ltrXuA",
           "title": "EG vs MIBR - VCT Americas Stage 2 Playoffs - Day 3",
           "duration_seconds": 10527
-        },
-        {
-          "id": "f4DX65zN2IU",
-          "title": "G2 vs FUR - VCT Americas Stage 2 Playoffs - Day 3",
-          "duration_seconds": 8189
         },
         {
           "id": "3vQuOg1QU5c",
