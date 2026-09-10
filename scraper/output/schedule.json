@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:54:11.253646+00:00",
+  "generated_at": "2026-09-10T13:57:08.345213+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2774,6 +2774,18 @@
       "match_id": "115576361461142757"
     },
     {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-10T12:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115576361461142761"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-13T21:00:00+00:00",
@@ -4356,8 +4368,13 @@
           "duration_seconds": 3630
         },
         {
+          "id": "CxBRKsUnUZ4",
+          "title": "The Scariest Teams in NA & Patch 26.18 | The Dive Driven by Kia",
+          "duration_seconds": 4899
+        },
+        {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -4419,11 +4436,6 @@
           "id": "nvuXmSsISng",
           "title": "LCS Summer 2026 | DIG vs FLY | Regular Season",
           "duration_seconds": 5001
-        },
-        {
-          "id": "oGquJY1JO2A",
-          "title": "LCS Summer 2026 | SEN vs DSG | Regular Season",
-          "duration_seconds": 4229
         },
         {
           "id": "7eTqCLRPncM",
