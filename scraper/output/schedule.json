@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T05:15:25.700086+00:00",
+  "generated_at": "2026-09-10T09:54:11.253646+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2020,18 +2020,6 @@
     {
       "league": "LJL",
       "game": "lol",
-      "start": "2026-08-11T08:00:00+00:00",
-      "state": "completed",
-      "title": "LJL",
-      "stream_platform": "twitch",
-      "stream_channel": "leagueoflegendsjp",
-      "description": "L Guide Gaming vs UWinks \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116917034792783747"
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
       "start": "2026-09-05T05:00:00+00:00",
       "state": "completed",
       "title": "LJL",
@@ -2772,6 +2760,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142769"
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-10T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115576361461142757"
     },
     {
       "league": "VCT Americas",
@@ -4357,7 +4357,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
