@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T00:34:53.696024+00:00",
+  "generated_at": "2026-09-10T05:15:25.700086+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3132,42 +3132,6 @@
       "description": "100 Thieves vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-11T00:59:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Los Chudeles vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062491"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-11T01:59:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "ROSO GC vs SaD GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062499"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-11T02:59:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Revitalize GC vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062495"
     },
     {
       "league": "Game Changers NA",
