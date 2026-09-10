@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T22:32:16.241120+00:00",
+  "generated_at": "2026-09-10T00:34:53.696024+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1648,18 +1648,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-11T00:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LOS vs paiN Gaming \u00b7 Week 3 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402977"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-15T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -3148,30 +3136,6 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
-      "start": "2026-08-10T22:59:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "SEN Otters vs :3 \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062483"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-10T23:59:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "The Spiders vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062487"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
       "start": "2026-08-11T00:59:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -3437,7 +3401,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-09T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3453,7 +3417,7 @@
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
-      "description": "TBD vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
+      "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
     },
@@ -4625,6 +4589,11 @@
       ],
       "valorant": [
         {
+          "id": "_wWnQ7KG8no",
+          "title": "FLY vs SPID -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 5",
+          "duration_seconds": 6967
+        },
+        {
           "id": "OY4ti6R_Lgs",
           "title": "SPID vs HER -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 4",
           "duration_seconds": 6722
@@ -4698,11 +4667,6 @@
           "id": "ibXBRAHP4Dw",
           "title": "G2 vs LEV - VCT Americas Stage 2 Playoffs - Day 4",
           "duration_seconds": 8763
-        },
-        {
-          "id": "ug4i0ltrXuA",
-          "title": "EG vs MIBR - VCT Americas Stage 2 Playoffs - Day 3",
-          "duration_seconds": 10527
         },
         {
           "id": "3vQuOg1QU5c",
