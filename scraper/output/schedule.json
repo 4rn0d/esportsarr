@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T21:55:14.889782+00:00",
+  "generated_at": "2026-09-11T23:41:16.034103+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3076,42 +3076,6 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
-      "start": "2026-08-12T23:29:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "MVSK Secret vs The Spiders \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193579"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-12T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Los Chudeles vs Cloud9 GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193587"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-12T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": ":3 vs Ora Temper \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193591"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
       "start": "2026-08-17T21:00:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -4254,7 +4218,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -4279,7 +4243,7 @@
         },
         {
           "id": "XPox1utXBkI",
-          "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
+          "title": "Berserker is Lowkey GOATed | The Dive Driven by Kia",
           "duration_seconds": 5261
         },
         {
