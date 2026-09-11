@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:41:38.189064+00:00",
+  "generated_at": "2026-09-11T21:55:14.889782+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -648,18 +648,6 @@
       "description": "Karmine Corp vs G2 Esports \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406303"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-09-11T14:02:30.384000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LEC",
@@ -3088,30 +3076,6 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
-      "start": "2026-08-12T20:59:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "SEN Otters vs HIMMERS \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958062503"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-08-12T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Axolotl vs SaD GC \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193583"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
       "start": "2026-08-12T23:29:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -4290,7 +4254,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
