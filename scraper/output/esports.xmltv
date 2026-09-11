@@ -32,10 +32,10 @@
   </channel>
   <programme start="20260913150000 +0000" stop="20260913182000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <desc lang="en">TBD vs Movistar KOI Fénix · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260914150000 +0000" stop="20260914182000 +0000" channel="twitch.emeamasters">
+  <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
@@ -336,6 +336,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261010120000 +0000" stop="20261010150000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Champions</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261011090000 +0000" stop="20261011120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:33:54.444748+00:00",
+  "generated_at": "2026-09-11T09:07:57.939004+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -9,14 +9,14 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "TBD vs Movistar KOI F\u00e9nix \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380854"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-09-14T15:00:00+00:00",
+      "start": "2026-09-14T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
@@ -712,18 +712,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-12T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "NONGSHIM RED FORCE vs DN SOOPers \u00b7 Week 12 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900750245"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-12T10:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1104,18 +1092,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-12T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs EDWARD GAMING \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769736"
     },
     {
       "league": "LPL",
@@ -2796,6 +2772,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142761"
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-11T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115576361461208317"
     },
     {
       "league": "VCT Americas",
