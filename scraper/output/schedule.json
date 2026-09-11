@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:07:57.939004+00:00",
+  "generated_at": "2026-09-11T13:31:51.873767+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -712,18 +712,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-12T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Dplus KIA vs kt Rolster \u00b7 Week 12 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684589"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-13T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1092,18 +1080,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-12T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs BILIBILI GAMING \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769668"
     },
     {
       "league": "LPL",
@@ -2786,6 +2762,18 @@
       "match_id": "115576361461208317"
     },
     {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-11T12:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115576361461142777"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-13T21:00:00+00:00",
@@ -4374,7 +4362,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
