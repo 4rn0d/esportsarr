@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T17:06:19.599647+00:00",
+  "generated_at": "2026-09-12T19:16:58.127694+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -216,6 +216,18 @@
       "description": "Disguised vs LYON \u00b7 Week 7 \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115564797163886787"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-12T18:52:08.639000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCS",
@@ -1936,18 +1948,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-13T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Vitality.Bee vs Solary \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116912368900055732"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-18T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3184,18 +3184,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-13T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "GIANTX vs FNATIC \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707037"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-14T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3408,18 +3396,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-13T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs Gentle Mates \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173259"
     },
     {
       "league": "Game Changers EMEA",
@@ -4086,7 +4062,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
