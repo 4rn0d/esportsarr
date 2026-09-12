@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T14:04:53.659906+00:00",
+  "generated_at": "2026-09-12T17:06:19.599647+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -665,7 +665,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-12T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -1709,11 +1709,11 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-12T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "LOS vs FURIA \u00b7 Playoffs \u00b7 Bo5",
+      "description": "FURIA vs LOS \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403069"
     },
@@ -1932,18 +1932,6 @@
       "description": "FENNEL vs New Meta \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-13T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs Skillcamp \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116912368900121280"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -3196,18 +3184,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-13T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Joblife vs PCIFIC Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707033"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-13T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3432,18 +3408,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-13T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs ALTERNATE aTTaX Ruby \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173255"
     },
     {
       "league": "Game Changers EMEA",
@@ -4122,7 +4086,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
