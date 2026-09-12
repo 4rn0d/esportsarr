@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:31:01.383942+00:00",
+  "generated_at": "2026-09-12T23:20:11.640960+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -221,7 +221,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-12T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -249,7 +249,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Shopify Rebellion \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949399"
     },
@@ -261,7 +261,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs LYON \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Cloud9 Kia vs LYON \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949387"
     },
@@ -4032,13 +4032,18 @@
           "duration_seconds": 3630
         },
         {
+          "id": "_DcBxZaetbk",
+          "title": "LCS Summer 2026 | SR vs C9 | Playoffs",
+          "duration_seconds": 7261
+        },
+        {
           "id": "CxBRKsUnUZ4",
           "title": "The Scariest Teams in NA & Patch 26.18 | The Dive Driven by Kia",
           "duration_seconds": 4899
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -4090,11 +4095,6 @@
           "id": "oYCiVJH5SXc",
           "title": "The LCS Heads to Mexico! | The Dive Driven by Kia",
           "duration_seconds": 4979
-        },
-        {
-          "id": "Ck5cZTsKJUY",
-          "title": "Guess Who's Back? | PROS ft. LYON Inspired, FLY Massu & SR Zeyzal",
-          "duration_seconds": 2624
         },
         {
           "id": "7eTqCLRPncM",
