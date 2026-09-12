@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:33:04.959702+00:00",
+  "generated_at": "2026-09-12T06:29:43.592732+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1061,11 +1061,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-12T05:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "T1 vs Hanwha Life Esports \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Hanwha Life Esports vs T1 \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841637"
     },
@@ -4218,7 +4218,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -4355,11 +4355,6 @@
           "id": "mQg34JW992c",
           "title": "BFX vs DK | Lower Round 1 Game 4 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 1867
-        },
-        {
-          "id": "ry2loOj_528",
-          "title": "BFX vs DK | Lower Round 1 Game 3 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2343
         },
         {
           "id": "qJFsWsf_6E8",
