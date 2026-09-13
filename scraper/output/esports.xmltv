@@ -34,12 +34,12 @@
   </programme>
   <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs Berlin International Gaming · Regional Qualifier · Bo5</desc>
+    <desc lang="en">Movistar KOI Fénix vs Berlin International Gaming · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260913200000 +0000" stop="20260913232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">Sentinels vs FlyQuest · Playoffs · Bo5</desc>
+    <desc lang="en">FlyQuest vs Sentinels · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260918200000 +0000" stop="20260918232000 +0000" channel="twitch.lcs">
@@ -114,7 +114,7 @@
   </programme>
   <programme start="20260913160000 +0000" stop="20260913192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">LOUD vs paiN Gaming · Playoffs · Bo5</desc>
+    <desc lang="en">paiN Gaming vs LOUD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260919160000 +0000" stop="20260919192000 +0000" channel="twitch.cblol">

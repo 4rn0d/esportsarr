@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:17:12.412059+00:00",
+  "generated_at": "2026-09-13T18:15:39.438776+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -21,7 +21,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs Berlin International Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Movistar KOI F\u00e9nix vs Berlin International Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
     },
@@ -237,7 +237,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Sentinels vs FlyQuest \u00b7 Playoffs \u00b7 Bo5",
+      "description": "FlyQuest vs Sentinels \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949381"
     },
@@ -336,18 +336,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-14T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "GIANTX vs Team Vitality \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406183"
     },
     {
       "league": "LEC",
@@ -1648,24 +1636,12 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-09-13T15:03:54.708000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-09-13T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "LOUD vs paiN Gaming \u00b7 Playoffs \u00b7 Bo5",
+      "description": "paiN Gaming vs LOUD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403075"
     },
@@ -3076,18 +3052,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-14T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Joblife vs FNATIC \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707045"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-15T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3276,18 +3240,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-14T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs SK Nebula \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173267"
     },
     {
       "league": "Game Changers EMEA",
