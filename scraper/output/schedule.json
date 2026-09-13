@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:10:25.771215+00:00",
+  "generated_at": "2026-09-13T11:46:12.532004+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -9,7 +9,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs Movistar KOI F\u00e9nix \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Movistar KOI F\u00e9nix vs Bushido Wildcats \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380854"
     },
@@ -21,7 +21,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "TBD vs Berlin International Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
     },
@@ -712,30 +712,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-14T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Dplus KIA vs T1 \u00b7 Week 12 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900619041"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-14T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "HANJIN BRION vs NONGSHIM RED FORCE \u00b7 Week 12 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684681"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-15T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1049,49 +1025,13 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-13T05:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-14T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "EDWARD GAMING vs LGD GAMING \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835292"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-14T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs TOP ESPORTS \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769684"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-14T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs Anyone's Legend \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769728"
     },
     {
       "league": "LPL",
@@ -1493,7 +1433,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-13T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -1800,18 +1740,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-14T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "CTBC Flying Oyster vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769725389404173"
     },
     {
       "league": "LCP",
@@ -3504,30 +3432,6 @@
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-14T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "FULL SENSE vs QT DIG \u221e \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044625"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-14T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Xipto Esports vs Team Secret \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044629"
     },
     {
       "league": "VCT Pacific",
