@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:20:11.640960+00:00",
+  "generated_at": "2026-09-13T06:10:25.771215+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1049,11 +1049,11 @@
       "league": "LCK",
       "game": "lol",
       "start": "2026-09-13T05:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCK",
       "stream_platform": "twitch",
       "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
+      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
     },
@@ -2620,18 +2620,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-14T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "M80 vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450148"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-14T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -4043,7 +4031,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -4097,6 +4085,26 @@
           "duration_seconds": 4979
         },
         {
+          "id": "Q825b69RnM8",
+          "title": "HLE vs T1 | Lower Finals Game 4 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2327
+        },
+        {
+          "id": "W6NTohUwwYM",
+          "title": "HLE vs T1 | Lower Finals Game 3 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2475
+        },
+        {
+          "id": "5vYdd6cj8hE",
+          "title": "HLE vs T1 | Lower Finals Game 2 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 2329
+        },
+        {
+          "id": "YtZwPgLOQGk",
+          "title": "HLE vs T1 | Lower Finals Game 1 | 2026 Wooribank LCK Playoffs",
+          "duration_seconds": 3445
+        },
+        {
           "id": "7eTqCLRPncM",
           "title": "[LCK Documentary] New:Blood | Smash & Career",
           "duration_seconds": 2133
@@ -4145,36 +4153,6 @@
           "id": "91f48_Rjx90",
           "title": "GEN vs HLE | Upper Round 3 Game 1 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2884
-        },
-        {
-          "id": "4CQLYOOidVA",
-          "title": "KT vs DK | Lower Round 2 Game 4 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2456
-        },
-        {
-          "id": "GZfNbWNKRqE",
-          "title": "KT vs DK | Lower Round 2 Game 3 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2153
-        },
-        {
-          "id": "5jJ1NWtQzFU",
-          "title": "KT vs DK | Lower Round 2 Game 2 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2964
-        },
-        {
-          "id": "p9snSiwRY8g",
-          "title": "KT vs DK | Lower Round 2 Game 1 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2290
-        },
-        {
-          "id": "XUIbEg7Yf2s",
-          "title": "BFX vs DK | Lower Round 1 Game 5 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2058
-        },
-        {
-          "id": "mQg34JW992c",
-          "title": "BFX vs DK | Lower Round 1 Game 4 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 1867
         },
         {
           "id": "qJFsWsf_6E8",
