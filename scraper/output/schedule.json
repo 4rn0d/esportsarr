@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T20:58:38.105314+00:00",
+  "generated_at": "2026-09-13T22:53:36.038933+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -232,8 +232,20 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-13T20:00:00+00:00",
+      "start": "2026-09-13T19:13:31.610000+00:00",
       "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-13T20:00:00+00:00",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -249,7 +261,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs Shopify Rebellion \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Sentinels vs Shopify Rebellion \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949399"
     },
@@ -273,7 +285,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs Team Liquid Alienware \u00b7 Playoffs \u00b7 Bo5",
+      "description": "FlyQuest vs Team Liquid Alienware \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949393"
     },
@@ -2520,18 +2532,6 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142777"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-14T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FURIA vs 2GAME \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450152"
     },
     {
       "league": "VCT Americas",
