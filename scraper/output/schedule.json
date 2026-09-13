@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:46:12.532004+00:00",
+  "generated_at": "2026-09-13T15:17:12.412059+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -9,7 +9,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Movistar KOI F\u00e9nix vs Bushido Wildcats \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Bushido Wildcats vs Movistar KOI F\u00e9nix \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380854"
     },
@@ -336,18 +336,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-14T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "SK Gaming vs Shifters \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406211"
     },
     {
       "league": "LEC",
@@ -1656,6 +1644,18 @@
       "description": "FURIA vs LOS \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526403069"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-13T15:03:54.708000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "CBLOL",
@@ -3076,18 +3076,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-14T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eintracht Frankfurt vs Team Heretics \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707041"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-14T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3288,18 +3276,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-14T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Habos Babos vs GIANTX \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242173263"
     },
     {
       "league": "Game Changers EMEA",
