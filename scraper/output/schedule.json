@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:50:35.104644+00:00",
+  "generated_at": "2026-09-14T16:42:15.622230+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -17,11 +17,11 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-14T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Berlin International Gaming vs Movistar KOI F\u00e9nix \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Movistar KOI F\u00e9nix vs Berlin International Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
     },
@@ -336,18 +336,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-15T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Fnatic vs SK Gaming \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406255"
     },
     {
       "league": "LEC",
@@ -988,18 +976,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-08-15T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "BILIBILI GAMING vs Xi'an Team WE \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769660"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-08-16T07:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -1404,18 +1380,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-15T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "RED Kalunga vs FURIA \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402965"
     },
     {
       "league": "CBLOL",
@@ -2081,7 +2045,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-09-14T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -2968,18 +2932,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-15T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Fire Flux Esports vs Enterprise Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707021"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-15T18:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3156,18 +3108,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-15T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs ALTERNATE aTTaX Ruby \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242238815"
     },
     {
       "league": "Game Changers EMEA",
@@ -3581,7 +3521,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-14T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3621,7 +3561,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
+      "description": "FENNEL HOTELAVA vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503040"
     },
@@ -3645,7 +3585,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs Rising Esports GC \u00b7 Knockouts \u00b7 Bo3",
+      "description": "WIWIWI vs Rising Esports GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503048"
     },
@@ -3735,18 +3675,18 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "1Kqr1xvmqjw",
-      "topic": "We picked the Top 10 Players of Champions Shanghai... \u2014 Plat Chat VALORANT",
-      "episode": 280,
-      "real_start": "2026-09-14T15:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
           "id": "Y740BJoG5TM",
           "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
           "duration_seconds": 3630
+        },
+        {
+          "id": "u6D4agBqTBo",
+          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "duration_seconds": 2962
         },
         {
           "id": "ClQ1S1dP3cY",
@@ -3812,11 +3752,6 @@
           "id": "5cH1hDHNeQY",
           "title": "LCS Summer 2026 |  TLAW vs SR | Regular Season",
           "duration_seconds": 7045
-        },
-        {
-          "id": "oYCiVJH5SXc",
-          "title": "The LCS Heads to Mexico! | The Dive Driven by Kia",
-          "duration_seconds": 4979
         },
         {
           "id": "9pMDpMza5HU",
