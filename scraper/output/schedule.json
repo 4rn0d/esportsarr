@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:42:15.622230+00:00",
+  "generated_at": "2026-09-14T20:35:03.259665+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -17,25 +17,13 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-14T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
       "description": "Movistar KOI F\u00e9nix vs Berlin International Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-15T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Team Liquid Alienware vs Disguised \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797164280011"
     },
     {
       "league": "LCS",
@@ -336,18 +324,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-15T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "G2 Esports vs Shifters \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406227"
     },
     {
       "league": "LEC",
@@ -1384,18 +1360,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-08-15T19:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LOS vs Vivo Keyd Stars \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402993"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-08-16T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2045,7 +2009,7 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-09-14T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
@@ -2061,7 +2025,7 @@
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "TBD vs Ruddy Corporation \u00b7 Finals \u00b7 Bo5",
+      "description": "Verdant vs Ruddy Corporation \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
     },
@@ -2932,18 +2896,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-15T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707017"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-16T13:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3108,18 +3060,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-15T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Twisted Minds Orchid vs Habos Babos \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242238819"
     },
     {
       "league": "Game Changers EMEA",
@@ -3705,7 +3645,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="esportsarr">
-  <channel id="twitch.emeamasters">
-    <display-name>EMEA Masters</display-name>
-  </channel>
   <channel id="twitch.lcs">
     <display-name>LCS</display-name>
   </channel>
@@ -27,11 +24,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>Game Changers Pacific</display-name>
   </channel>
-  <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Movistar KOI Fénix vs Berlin International Gaming · Regional Qualifier · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260918200000 +0000" stop="20260918232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Sentinels vs Shopify Rebellion · Playoffs · Bo5</desc>
@@ -132,14 +124,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260914160000 +0000" stop="20260914192000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Verdant vs Arctic Pandas · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260916160000 +0000" stop="20260916192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">TBD vs Ruddy Corporation · Finals · Bo5</desc>
+    <desc lang="en">Verdant vs Ruddy Corporation · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="twitch.VALORANT">
