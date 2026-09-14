@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:53:36.038933+00:00",
+  "generated_at": "2026-09-14T00:32:02.311464+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -228,18 +228,6 @@
       "description": "Shopify Rebellion vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949375"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-09-13T19:13:31.610000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "LCS",
@@ -2536,18 +2524,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-15T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Cloud9 vs Fluxo \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450156"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-15T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3843,13 +3819,23 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "1Kqr1xvmqjw",
+      "topic": "We picked the Top 10 Players of Champions Shanghai... \u2014 Plat Chat VALORANT",
+      "episode": 280,
+      "real_start": "2026-09-14T15:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
           "id": "Y740BJoG5TM",
           "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
           "duration_seconds": 3630
+        },
+        {
+          "id": "ClQ1S1dP3cY",
+          "title": "LCS Summer 2026 | FLY vs SEN | Playoffs",
+          "duration_seconds": 7218
         },
         {
           "id": "_DcBxZaetbk",
@@ -3863,7 +3849,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
