@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:25:59.671932+00:00",
+  "generated_at": "2026-09-14T10:50:35.104644+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -21,7 +21,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Movistar KOI F\u00e9nix vs Berlin International Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Berlin International Gaming vs Movistar KOI F\u00e9nix \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117205970511380860"
     },
@@ -688,30 +688,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-15T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "kt Rolster vs Hanwha Life Esports \u00b7 Week 12 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900619025"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-15T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs DN SOOPers \u00b7 Week 12 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900750233"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-16T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1008,30 +984,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-15T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Shenzhen NINJAS IN PYJAMAS vs Suzhou LNG Esports \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835340"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-15T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs THUNDER TALK GAMING \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769740"
     },
     {
       "league": "LPL",
@@ -1665,7 +1617,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs paiN Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468629"
     },
@@ -1677,9 +1629,9 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "LOUD vs LOS \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs FURIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115565671526468623"
+      "match_id": "115565671526468635"
     },
     {
       "league": "CBLOL",
@@ -1689,9 +1641,9 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "LOS vs LOUD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115565671526468635"
+      "match_id": "115565671526468623"
     },
     {
       "league": "CBLOL",
@@ -1716,18 +1668,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-15T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "DetonatioN FocusMe vs Ground Zero Gaming \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769725389404179"
     },
     {
       "league": "LCP",
@@ -3340,30 +3280,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-15T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Kiwoom DRX vs ZETA DIVISION \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044633"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-15T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "DetonatioN FocusMe vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044637"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-16T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -3653,11 +3569,11 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-14T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "Gen.G GC vs Rising Esports GC \u00b7 Knockouts \u00b7 Bo3",
+      "description": "Rising Esports GC vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503024"
     },
@@ -3665,11 +3581,11 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-14T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "FENNEL HOTELAVA vs WIWIWI \u00b7 Knockouts \u00b7 Bo3",
+      "description": "WIWIWI vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503028"
     },
@@ -3705,7 +3621,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503040"
     },
@@ -3729,7 +3645,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs Rising Esports GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503048"
     },
@@ -3849,7 +3765,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
