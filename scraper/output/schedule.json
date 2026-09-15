@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:07:13.325234+00:00",
+  "generated_at": "2026-09-15T16:54:51.194582+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -792,18 +792,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-16T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Natus Vincere vs Movistar KOI \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406163"
     },
     {
       "league": "LEC",
@@ -1764,18 +1752,6 @@
       "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-16T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LEVIAT\u00c1N vs LOUD \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403005"
     },
     {
       "league": "CBLOL",
@@ -3268,30 +3244,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-16T13:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eintracht Frankfurt vs Eternal Fire \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707049"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-16T16:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Joblife vs Fire Flux Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707053"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-20T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3432,18 +3384,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-16T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Gentle Mates vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242238807"
     },
     {
       "league": "Game Changers EMEA",
@@ -3845,7 +3785,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-15T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3909,7 +3849,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781568600"
     },
@@ -3921,7 +3861,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503056"
     },
@@ -3972,6 +3912,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "_gONnnu9h2I",
+          "title": "League of Legends but Every Champion from the 2026 LCS Is Banned",
+          "duration_seconds": 2459
+        },
+        {
           "id": "u6D4agBqTBo",
           "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
@@ -3993,7 +3938,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {

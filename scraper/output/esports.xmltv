@@ -487,11 +487,6 @@
     <desc lang="en">FlyQuest RED vs Shopify Rebellion Gold · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260915090000 +0000" stop="20260915120000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">FENNEL HOTELAVA vs Gen.G GC · Knockouts · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260916050000 +0000" stop="20260916080000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
     <desc lang="en">FULL SENSE SISU vs Team Falcons Vega · Knockouts · Bo3</desc>
@@ -514,12 +509,12 @@
   </programme>
   <programme start="20260917090000 +0000" stop="20260917120000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
+    <desc lang="en">TBD vs Gen.G GC · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260918070000 +0000" stop="20260918100000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
+    <desc lang="en">TBD vs FENNEL HOTELAVA · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260918090000 +0000" stop="20260918120000 +0000" channel="twitch.valorant_pacific">
