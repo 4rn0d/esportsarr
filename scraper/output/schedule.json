@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:27:35.555566+00:00",
+  "generated_at": "2026-09-15T01:40:43.825970+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2380,18 +2380,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-16T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Sentinels vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450164"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-16T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3621,7 +3609,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
