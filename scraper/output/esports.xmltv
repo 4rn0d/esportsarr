@@ -497,11 +497,6 @@
     <desc lang="en">FlyQuest RED vs Shopify Rebellion Gold · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260916090000 +0000" stop="20260916120000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">Sasanqua vs swaglord9000 · Knockouts · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260917070000 +0000" stop="20260917100000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
     <desc lang="en">WIWIWI vs FULL SENSE SISU · Knockouts · Bo3</desc>
@@ -509,7 +504,7 @@
   </programme>
   <programme start="20260917090000 +0000" stop="20260917120000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">TBD vs Gen.G GC · Knockouts · Bo3</desc>
+    <desc lang="en">swaglord9000 vs Gen.G GC · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260918070000 +0000" stop="20260918100000 +0000" channel="twitch.valorant_pacific">

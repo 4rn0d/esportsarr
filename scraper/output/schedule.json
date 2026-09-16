@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:10:22.951644+00:00",
+  "generated_at": "2026-09-16T14:56:14.306130+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3761,7 +3761,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-16T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3789,7 +3789,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
+      "description": "swaglord9000 vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781568600"
     },
@@ -3847,6 +3847,11 @@
     "replay_candidates": {
       "lol": [
         {
+          "id": "RcObFO7no1k",
+          "title": "The Nice Episode | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP09",
+          "duration_seconds": 4154
+        },
+        {
           "id": "Y740BJoG5TM",
           "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
           "duration_seconds": 3630
@@ -3858,7 +3863,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
@@ -3878,7 +3883,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -3990,6 +3995,11 @@
           "id": "4gGeBBahPfI",
           "title": "T1 vs DK | Lower Round 3 Game 2 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2374
+        },
+        {
+          "id": "-miiCRLkQM8",
+          "title": "Tarzan is a Top 2 Jungler in the World, AL Champions - The LPL Eng Podcast Ep 27",
+          "duration_seconds": 3905
         },
         {
           "id": "qJFsWsf_6E8",
