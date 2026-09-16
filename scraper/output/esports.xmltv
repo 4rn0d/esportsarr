@@ -15,9 +15,6 @@
   <channel id="twitch.cblol">
     <display-name>CBLOL</display-name>
   </channel>
-  <channel id="twitch.NLCLoL">
-    <display-name>NLC</display-name>
-  </channel>
   <channel id="twitch.VALORANT">
     <display-name>Champions</display-name>
   </channel>
@@ -360,11 +357,6 @@
   <programme start="20261012210000 +0000" stop="20261013002000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260916160000 +0000" stop="20260916192000 +0000" channel="twitch.NLCLoL">
-    <title lang="en">NLC</title>
-    <desc lang="en">Ruddy Corporation vs Verdant · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="twitch.VALORANT">
