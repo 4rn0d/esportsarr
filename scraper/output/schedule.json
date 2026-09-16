@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:42:12.111835+00:00",
+  "generated_at": "2026-09-16T23:50:28.648848+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3028,18 +3028,6 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
-      "start": "2026-08-17T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": ":3 vs MVSK Secret \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193599"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
       "start": "2026-09-01T21:00:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -3871,7 +3859,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
