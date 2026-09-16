@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:28:21.630859+00:00",
+  "generated_at": "2026-09-16T10:10:22.951644+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1689,7 +1689,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "TOP ESPORTS vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526824"
     },
@@ -1701,7 +1701,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Xi'an Team WE vs Beijing JDG Esports \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526830"
     },
@@ -2714,6 +2714,30 @@
       "match_id": "115576361461142777"
     },
     {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-16T06:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115576361461142773"
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-16T09:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "115576361461208321"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-19T21:00:00+00:00",
@@ -3713,7 +3737,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-16T05:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3725,7 +3749,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-16T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3737,7 +3761,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-16T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3753,7 +3777,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "WIWIWI vs FULL SENSE SISU \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781568596"
     },
@@ -3777,7 +3801,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
+      "description": "Team Falcons Vega vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781503056"
     },
