@@ -317,9 +317,39 @@
     <desc lang="en">LOS vs LOUD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20260928210000 +0000" stop="20260929002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs KaBuM! Eports · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260929210000 +0000" stop="20260930002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs Estral Esports · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260930210000 +0000" stop="20261001002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs LOS · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261001210000 +0000" stop="20261002002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20261003160000 +0000" stop="20261003192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261005210000 +0000" stop="20261006002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261006210000 +0000" stop="20261007002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.cblol">
@@ -327,9 +357,14 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20261012210000 +0000" stop="20261013002000 +0000" channel="twitch.cblol">
+    <title lang="en">CBLOL</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260916160000 +0000" stop="20260916192000 +0000" channel="twitch.NLCLoL">
     <title lang="en">NLC</title>
-    <desc lang="en">Verdant vs Ruddy Corporation · Finals · Bo5</desc>
+    <desc lang="en">Ruddy Corporation vs Verdant · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="twitch.VALORANT">

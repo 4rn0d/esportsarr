@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T14:56:14.306130+00:00",
+  "generated_at": "2026-09-16T18:35:12.905763+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -768,30 +768,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-17T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Team Heretics vs Natus Vincere \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803340575"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-17T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Karmine Corp vs GIANTX \u00b7 Week 4 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406243"
     },
     {
       "league": "LEC",
@@ -1912,6 +1888,54 @@
     {
       "league": "CBLOL",
       "game": "lol",
+      "start": "2026-09-28T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs KaBuM! Eports \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353206"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-29T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs Estral Esports \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353212"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-30T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs LOS \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353218"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-10-01T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353224"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
       "start": "2026-10-03T16:00:00+00:00",
       "state": "unstarted",
       "title": "CBLOL",
@@ -1924,6 +1948,30 @@
     {
       "league": "CBLOL",
       "game": "lol",
+      "start": "2026-10-05T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353230"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-10-06T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353236"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
       "start": "2026-10-10T16:00:00+00:00",
       "state": "unstarted",
       "title": "CBLOL",
@@ -1932,6 +1980,18 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-10-12T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "CBLOL",
+      "stream_platform": "twitch",
+      "stream_channel": "cblol",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117275453885353242"
     },
     {
       "league": "LCP",
@@ -2152,42 +2212,6 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-08-17T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "DMG Esports vs Brod & Friends \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860047"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-17T17:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bulldog Esports vs Lund Esports Organization \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860051"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-17T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "VES vs Lundqvist Lightside \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860055"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-08-19T16:00:00+00:00",
       "state": "completed",
       "title": "NLC",
@@ -2345,11 +2369,11 @@
       "league": "NLC",
       "game": "lol",
       "start": "2026-09-16T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "NLC",
       "stream_platform": "twitch",
       "stream_channel": "NLCLoL",
-      "description": "Verdant vs Ruddy Corporation \u00b7 Finals \u00b7 Bo5",
+      "description": "Ruddy Corporation vs Verdant \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116878159559860117"
     },
@@ -3336,30 +3360,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-17T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs GIANTX \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242238827"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-17T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Habos Babos \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242238831"
     },
     {
       "league": "Game Changers EMEA",
