@@ -286,7 +286,7 @@
   </programme>
   <programme start="20260919090000 +0000" stop="20260919122000 +0000" channel="youtube.LPL_English">
     <title lang="en">LPL</title>
-    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <desc lang="en">TBD vs Invictus Gaming · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260919160000 +0000" stop="20260919192000 +0000" channel="twitch.cblol">
@@ -524,11 +524,6 @@
     <desc lang="en">FlyQuest RED vs Shopify Rebellion Gold · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260917090000 +0000" stop="20260917120000 +0000" channel="twitch.valorant_pacific">
-    <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">swaglord9000 vs Gen.G GC · Knockouts · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260918070000 +0000" stop="20260918100000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
     <desc lang="en">Team Falcons Vega vs FENNEL HOTELAVA · Knockouts · Bo3</desc>
@@ -536,7 +531,7 @@
   </programme>
   <programme start="20260918090000 +0000" stop="20260918120000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">TBD vs FULL SENSE SISU · Knockouts · Bo3</desc>
+    <desc lang="en">Gen.G GC vs FULL SENSE SISU · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260919070000 +0000" stop="20260919123000 +0000" channel="twitch.valorant_pacific">
