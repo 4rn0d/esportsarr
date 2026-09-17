@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T07:52:03.191714+00:00",
+  "generated_at": "2026-09-17T12:52:57.766892+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1661,7 +1661,7 @@
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-17T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
@@ -3761,7 +3761,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-17T07:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3773,7 +3773,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-17T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3801,7 +3801,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs FULL SENSE SISU \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117110122781568604"
     },
@@ -3851,7 +3851,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
@@ -3871,7 +3871,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
