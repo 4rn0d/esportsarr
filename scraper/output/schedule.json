@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T02:24:10.793909+00:00",
+  "generated_at": "2026-09-17T07:52:03.191714+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2507,7 +2507,7 @@
       "stream_channel": "VALORANT",
       "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115576361461077133"
+      "match_id": "115576361461077153"
     },
     {
       "league": "Champions",
@@ -2519,7 +2519,7 @@
       "stream_channel": "VALORANT",
       "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115576361461077153"
+      "match_id": "115576361461077133"
     },
     {
       "league": "Champions",
@@ -2555,7 +2555,7 @@
       "stream_channel": "VALORANT",
       "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115576361461077137"
+      "match_id": "115576361461077157"
     },
     {
       "league": "Champions",
@@ -2567,7 +2567,7 @@
       "stream_channel": "VALORANT",
       "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115576361461077157"
+      "match_id": "115576361461077137"
     },
     {
       "league": "Champions",
@@ -2603,7 +2603,7 @@
       "stream_channel": "VALORANT",
       "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115576361461077141"
+      "match_id": "115576361461077161"
     },
     {
       "league": "Champions",
@@ -2615,7 +2615,7 @@
       "stream_channel": "VALORANT",
       "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115576361461077161"
+      "match_id": "115576361461077141"
     },
     {
       "league": "Champions",
@@ -2760,6 +2760,18 @@
       "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461208321"
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
+      "start": "2026-10-17T07:00:00+00:00",
+      "state": "unstarted",
+      "title": "Champions",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115576361461208325"
     },
     {
       "league": "VCT Americas",
@@ -3749,7 +3761,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-17T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3839,7 +3851,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
@@ -3859,7 +3871,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
@@ -3901,11 +3913,6 @@
           "id": "vBLizZhxVKo",
           "title": "LCS Summer 2026 | LYON vs C9 | Regular Season",
           "duration_seconds": 5877
-        },
-        {
-          "id": "5cH1hDHNeQY",
-          "title": "LCS Summer 2026 |  TLAW vs SR | Regular Season",
-          "duration_seconds": 7045
         },
         {
           "id": "9pMDpMza5HU",
