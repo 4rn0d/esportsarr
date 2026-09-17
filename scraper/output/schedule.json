@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:22:06.672562+00:00",
+  "generated_at": "2026-09-17T20:26:12.833852+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2092,18 +2092,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-18T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Karmine Corp Blue vs Galions \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116912368900121288"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-19T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -3340,18 +3328,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-18T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FOKUS Sakura vs G2 Gozen \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116849606242238835"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-19T15:00:00+00:00",
       "state": "completed",
       "title": "Game Changers EMEA",
@@ -3821,13 +3797,18 @@
           "duration_seconds": 3630
         },
         {
+          "id": "miNTrZrpYgg",
+          "title": "Summer Kia All-Pro Teams Revealed! | The Dive Driven by Kia",
+          "duration_seconds": 6115
+        },
+        {
           "id": "_gONnnu9h2I",
           "title": "League of Legends but Every Champion from the 2026 LCS Is Banned",
           "duration_seconds": 2459
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
@@ -3847,7 +3828,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
