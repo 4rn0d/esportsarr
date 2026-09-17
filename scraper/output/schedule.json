@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T20:26:12.833852+00:00",
+  "generated_at": "2026-09-17T22:57:11.295014+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3173,7 +3173,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-17T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3808,7 +3808,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
