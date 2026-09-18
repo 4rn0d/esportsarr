@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T00:58:00.267099+00:00",
+  "generated_at": "2026-09-18T05:32:01.457531+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -3173,7 +3173,7 @@
       "league": "Game Changers NA",
       "game": "valorant",
       "start": "2026-09-17T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers NA",
       "stream_platform": "twitch",
       "stream_channel": "valorant_americas",
@@ -3984,6 +3984,11 @@
       ],
       "valorant": [
         {
+          "id": "0p5IMJh-3vE",
+          "title": "SRG vs FLY -\u00a0 Verizon Game Changers NA Stage 2 Grand Finals",
+          "duration_seconds": 14178
+        },
+        {
           "id": "_wWnQ7KG8no",
           "title": "FLY vs SPID -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 5",
           "duration_seconds": 6967
@@ -4057,11 +4062,6 @@
           "id": "kstncYQf1dw",
           "title": "MIBR vs LOUD - VCT Americas Stage 2 Playoffs - Day 4",
           "duration_seconds": 6191
-        },
-        {
-          "id": "ibXBRAHP4Dw",
-          "title": "G2 vs LEV - VCT Americas Stage 2 Playoffs - Day 4",
-          "duration_seconds": 8763
         },
         {
           "id": "3vQuOg1QU5c",
