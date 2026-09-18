@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:46:14.951584+00:00",
+  "generated_at": "2026-09-18T20:08:40.652643+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -677,7 +677,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-18T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -1013,7 +1013,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-18T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -1029,7 +1029,7 @@
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "TBD vs Karmine Corp \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Movistar KOI vs Karmine Corp \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406327"
     },
@@ -2032,18 +2032,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-19T19:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Skillcamp vs Joblife \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116912368900121296"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-20T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -2112,18 +2100,6 @@
       "description": "TLN Pirates vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-19T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bardicted to U vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860063"
     },
     {
       "league": "NLC",
