@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:28:48.748043+00:00",
+  "generated_at": "2026-09-18T17:46:14.951584+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -681,7 +681,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "Sentinels vs Shopify Rebellion \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Shopify Rebellion vs Sentinels \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949399"
     },
@@ -1012,20 +1012,8 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-09-18T13:54:43.117000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-09-18T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -2044,18 +2032,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-19T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Vitality.Bee vs Ici Japon Corp \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116912368900121292"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-19T19:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -2136,18 +2112,6 @@
       "description": "TLN Pirates vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-19T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bulldog Esports vs Verdant \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860059"
     },
     {
       "league": "NLC",
@@ -3292,18 +3256,6 @@
     {
       "league": "Game Changers EMEA",
       "game": "valorant",
-      "start": "2026-08-19T15:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs SK Nebula \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116849606242238839"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
       "start": "2026-08-30T08:00:00+00:00",
       "state": "completed",
       "title": "Game Changers EMEA",
@@ -3748,7 +3700,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
@@ -3768,7 +3720,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
