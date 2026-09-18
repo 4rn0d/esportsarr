@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T10:02:29.339824+00:00",
+  "generated_at": "2026-09-18T14:28:48.748043+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1012,6 +1012,18 @@
     {
       "league": "LEC",
       "game": "lol",
+      "start": "2026-09-18T13:54:43.117000+00:00",
+      "state": "in_progress",
+      "title": "LEC",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LEC",
+      "game": "lol",
       "start": "2026-09-18T15:00:00+00:00",
       "state": "unstarted",
       "title": "LEC",
@@ -1629,7 +1641,7 @@
       "title": "LPL",
       "stream_platform": "youtube",
       "stream_channel": "LPL_English",
-      "description": "TBD vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
     },
@@ -3677,7 +3689,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-18T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3693,7 +3705,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs Team Falcons Vega \u00b7 Knockouts \u00b7 Bo5",
+      "description": "Gen.G GC vs Team Falcons Vega \u00b7 Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117110122781568608"
     },
@@ -3756,7 +3768,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "LCS Playoffs Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
