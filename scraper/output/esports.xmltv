@@ -6,9 +6,6 @@
   <channel id="twitch.lec">
     <display-name>LEC</display-name>
   </channel>
-  <channel id="youtube.LPL_English">
-    <display-name>LPL</display-name>
-  </channel>
   <channel id="twitch.cblol">
     <display-name>CBLOL</display-name>
   </channel>
@@ -61,11 +58,6 @@
   <programme start="20260920150000 +0000" stop="20260920182000 +0000" channel="twitch.lec">
     <title lang="en">LEC</title>
     <desc lang="en">TBD vs G2 Esports · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260919090000 +0000" stop="20260919122000 +0000" channel="youtube.LPL_English">
-    <title lang="en">LPL</title>
-    <desc lang="en">Beijing JDG Esports vs Invictus Gaming · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260919160000 +0000" stop="20260919192000 +0000" channel="twitch.cblol">
@@ -305,7 +297,7 @@
   </programme>
   <programme start="20260919070000 +0000" stop="20260919123000 +0000" channel="twitch.valorant_pacific">
     <title lang="en">Game Changers Pacific</title>
-    <desc lang="en">Gen.G GC vs Team Falcons Vega · Knockouts · Bo5</desc>
+    <desc lang="en">Team Falcons Vega vs Gen.G GC · Knockouts · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260920070000 +0000" stop="20260920123000 +0000" channel="twitch.valorant_pacific">
