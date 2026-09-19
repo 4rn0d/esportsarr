@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T09:27:20.058905+00:00",
+  "generated_at": "2026-09-19T13:15:48.246240+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -568,18 +568,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-20T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "KIWOOM DRX vs NONGSHIM RED FORCE \u00b7 Week 13 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900750237"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-21T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -804,18 +792,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-20T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "LGD GAMING vs BILIBILI GAMING \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769672"
     },
     {
       "league": "LPL",
@@ -2704,18 +2680,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-20T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Xipto Esports vs ZETA DIVISION \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044669"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-21T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -3077,7 +3041,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-19T07:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3093,7 +3057,7 @@
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
-      "description": "TBD vs FENNEL HOTELAVA \u00b7 Finals \u00b7 Bo5",
+      "description": "Gen.G GC vs FENNEL HOTELAVA \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117110122781568614"
     }
@@ -3129,7 +3093,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
