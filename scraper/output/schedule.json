@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:07:41.247293+00:00",
+  "generated_at": "2026-09-20T19:26:16.693388+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -700,12 +700,24 @@
     {
       "league": "LCS",
       "game": "lol",
+      "start": "2026-09-20T18:15:15.193000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
       "start": "2026-09-20T20:00:00+00:00",
       "state": "unstarted",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "FlyQuest vs Team Liquid Alienware \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Team Liquid Alienware vs FlyQuest \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949393"
     },
@@ -768,18 +780,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-21T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Natus Vincere vs Team Vitality \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406147"
     },
     {
       "league": "LEC",
@@ -1025,7 +1025,7 @@
       "league": "LEC",
       "game": "lol",
       "start": "2026-09-20T15:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
@@ -1672,8 +1672,20 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-09-20T16:00:00+00:00",
+      "start": "2026-09-20T15:05:06.753000+00:00",
       "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
+      "start": "2026-09-20T16:00:00+00:00",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -1689,7 +1701,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs FURIA \u00b7 Playoffs \u00b7 Bo5",
+      "description": "RED Kalunga vs FURIA \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468635"
     },
@@ -2872,18 +2884,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-21T18:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs BBL Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707065"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-22T14:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -3351,9 +3351,19 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "b7IGKbCEucc",
+      "topic": "Power Ranking every team at Champions Shanghai \u2014 Plat Chat VALORANT",
+      "episode": 281,
+      "real_start": "2026-09-21T15:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
+        {
+          "id": "m2FYlQtSC-4",
+          "title": "G2 vs MKOI | 2026 LEC Summer Final | G2 Esports vs Movistar KOI",
+          "duration_seconds": 7239
+        },
         {
           "id": "RcObFO7no1k",
           "title": "The Nice Episode | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP09",
