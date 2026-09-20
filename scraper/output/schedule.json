@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:25:34.978423+00:00",
+  "generated_at": "2026-09-20T09:54:43.281021+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -568,18 +568,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-21T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs HANJIN BRION \u00b7 Week 13 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900684673"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-21T10:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -792,30 +780,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-21T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "THUNDER TALK GAMING vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835300"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-21T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769708"
     },
     {
       "league": "LPL",
@@ -1404,18 +1368,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117275453885353242"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-21T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "GAM Esports vs Team Secret Whales \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769742220520931"
     },
     {
       "league": "LCP",
@@ -2608,18 +2560,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-21T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Kiwoom DRX vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044649"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-21T10:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -2981,7 +2921,7 @@
       "league": "Game Changers Pacific",
       "game": "valorant",
       "start": "2026-09-20T07:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Pacific",
       "stream_platform": "twitch",
       "stream_channel": "valorant_pacific",
@@ -3138,11 +3078,6 @@
           "id": "syS_mPQkP-4",
           "title": "T1 vs DK | Lower Round 3 Game 3 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2965
-        },
-        {
-          "id": "4gGeBBahPfI",
-          "title": "T1 vs DK | Lower Round 3 Game 2 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2374
         },
         {
           "id": "-miiCRLkQM8",
