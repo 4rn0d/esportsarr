@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T21:43:13.528550+00:00",
+  "generated_at": "2026-09-20T23:32:25.920731+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -701,7 +701,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-20T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -741,7 +741,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Team Liquid Alienware vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
     },
@@ -3339,6 +3339,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "BZFxP1pPzag",
+          "title": "LCS Summer 2026 | TL vs FLY | Playoffs",
+          "duration_seconds": 7855
+        },
+        {
           "id": "2vWB61NJx0w",
           "title": "LCS Summer 2026 | LYON vs C9 | Playoffs",
           "duration_seconds": 11204
@@ -3407,11 +3412,6 @@
           "id": "XPox1utXBkI",
           "title": "Last Chance to Dominate NA | The Dive Driven by Kia",
           "duration_seconds": 5261
-        },
-        {
-          "id": "Vcaeo8LUxcE",
-          "title": "LCS Summer 2026 | SR vs C9 | Regular Season",
-          "duration_seconds": 7401
         },
         {
           "id": "9pMDpMza5HU",
