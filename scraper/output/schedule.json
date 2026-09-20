@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T19:26:16.693388+00:00",
+  "generated_at": "2026-09-20T21:43:13.528550+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -700,20 +700,8 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-20T18:15:15.193000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-09-20T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -1672,18 +1660,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-09-20T15:05:06.753000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-09-20T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2496,18 +2472,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115576361461208331"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-21T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "MIBR vs ENVY \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450176"
     },
     {
       "league": "VCT Americas",
