@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T13:48:46.856262+00:00",
+  "generated_at": "2026-09-20T17:07:41.247293+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -772,18 +772,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-21T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "SK Gaming vs Team Heretics \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406127"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-21T17:15:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -1036,24 +1024,12 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-09-20T13:19:49.876000+00:00",
-      "state": "in_progress",
-      "title": "LEC",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-09-20T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LEC",
       "stream_platform": "twitch",
       "stream_channel": "lec",
-      "description": "Movistar KOI vs G2 Esports \u00b7 Finals \u00b7 Bo5",
+      "description": "G2 Esports vs Movistar KOI \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406333"
     },
@@ -1697,7 +1673,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-20T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2892,18 +2868,6 @@
       "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-21T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Karmine Corp vs Enterprise Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707069"
     },
     {
       "league": "VCT EMEA",
