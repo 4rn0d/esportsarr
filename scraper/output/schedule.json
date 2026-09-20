@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T22:59:11.411440+00:00",
+  "generated_at": "2026-09-20T00:43:47.296318+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -209,7 +209,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-19T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -261,7 +261,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949405"
     },
@@ -2092,18 +2092,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-21T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "KR\u00dc Visa vs Fluxo \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450196"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-21T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3017,6 +3005,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "2vWB61NJx0w",
+          "title": "LCS Summer 2026 | LYON vs C9 | Playoffs",
+          "duration_seconds": 11204
+        },
+        {
           "id": "QZtxtSpTdMs",
           "title": "LCS Summer 2026 | SR vs SEN | Playoffs",
           "duration_seconds": 11175
@@ -3085,11 +3078,6 @@
           "id": "Vcaeo8LUxcE",
           "title": "LCS Summer 2026 | SR vs C9 | Regular Season",
           "duration_seconds": 7401
-        },
-        {
-          "id": "3Kg1AG_Awv0",
-          "title": "LCS Summer 2026 | TLAW vs LYON | Regular Season",
-          "duration_seconds": 4250
         },
         {
           "id": "9pMDpMza5HU",

@@ -15,11 +15,6 @@
   <channel id="twitch.valorant_pacific">
     <display-name>Game Changers Pacific</display-name>
   </channel>
-  <programme start="20260919200000 +0000" stop="20260919232000 +0000" channel="twitch.lcs">
-    <title lang="en">LCS</title>
-    <desc lang="en">LYON vs Cloud9 Kia · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260920200000 +0000" stop="20260920232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">FlyQuest vs Team Liquid Alienware · Playoffs · Bo5</desc>
@@ -37,7 +32,7 @@
   </programme>
   <programme start="20260927200000 +0000" stop="20260927232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs Cloud9 Kia · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261003200000 +0000" stop="20261003232000 +0000" channel="twitch.lcs">
