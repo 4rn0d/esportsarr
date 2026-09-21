@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:23:49.230259+00:00",
+  "generated_at": "2026-09-21T22:40:29.171666+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -28,20 +28,8 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-09-21T14:37:32.184000+00:00",
-      "state": "in_progress",
-      "title": "EMEA Masters",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-09-21T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -53,7 +41,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -65,7 +53,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -77,7 +65,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -89,7 +77,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -101,7 +89,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -113,7 +101,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -125,7 +113,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-21T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -141,7 +129,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs Skillcamp \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Skillcamp vs LODIS \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819665583"
     },
@@ -153,7 +141,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs Unicorns of Love Sexy Edition \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Unicorns of Love Sexy Edition vs CITA Kaizen \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819731133"
     },
@@ -165,7 +153,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "UCAM Esports Club vs Avella SU Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Avella SU Esports vs UCAM Esports Club \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819731147"
     },
@@ -177,7 +165,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Gamespace M.C. vs Bar\u00e7a Esports \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Bar\u00e7a Esports vs Gamespace M.C. \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819731161"
     },
@@ -189,7 +177,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs Arctic Pandas \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Pyramid IV Esports vs Arctic Pandas \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099673"
     },
@@ -201,7 +189,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs Otter Side \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TEAM AQUA vs Otter Side \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099681"
     },
@@ -612,18 +600,6 @@
       "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "117171782819796757"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-22T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Sentinels vs FlyQuest \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163821187"
     },
     {
       "league": "LCS",
@@ -2464,18 +2440,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-22T21:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "BESTIA vs G2 Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450200"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-23T00:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3246,6 +3210,21 @@
     "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
+        {
+          "id": "m2FYlQtSC-4",
+          "title": "G2 vs MKOI | 2026 LEC Summer Final | G2 Esports vs Movistar KOI",
+          "duration_seconds": 7239
+        },
+        {
+          "id": "RcObFO7no1k",
+          "title": "The Nice Episode | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP09",
+          "duration_seconds": 4154
+        },
+        {
+          "id": "Y740BJoG5TM",
+          "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
+          "duration_seconds": 3630
+        },
         {
           "id": "C9u4uc_xI68",
           "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
