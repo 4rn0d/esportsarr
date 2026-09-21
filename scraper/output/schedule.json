@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T07:09:04.516212+00:00",
+  "generated_at": "2026-09-21T14:03:39.109393+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1024,30 +1024,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-22T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Gen.G Esports vs Dplus KIA \u00b7 Week 13 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900619049"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-22T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "KIWOOM DRX vs DN SOOPers \u00b7 Week 13 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900750241"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-23T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1224,30 +1200,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-22T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Shenzhen NINJAS IN PYJAMAS vs Invictus Gaming \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835332"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-22T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs TOP ESPORTS \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769692"
     },
     {
       "league": "LPL",
@@ -1788,18 +1740,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117275453885353242"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-22T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "GAM Esports vs MVK Esports \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769742220520943"
     },
     {
       "league": "LCP",
@@ -2824,18 +2764,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-22T14:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Eintracht Frankfurt vs Team Liquid \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707073"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-22T17:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -2928,30 +2856,6 @@
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-22T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "ONSIDE GAMING vs FULL SENSE \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044673"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-22T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "ZETA DIVISION vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044677"
     },
     {
       "league": "VCT Pacific",
@@ -3313,6 +3217,11 @@
           "id": "Y740BJoG5TM",
           "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
           "duration_seconds": 3630
+        },
+        {
+          "id": "C9u4uc_xI68",
+          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "duration_seconds": 4397
         },
         {
           "id": "BZFxP1pPzag",
