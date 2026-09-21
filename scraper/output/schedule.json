@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T23:32:25.920731+00:00",
+  "generated_at": "2026-09-21T01:39:49.708594+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2472,18 +2472,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115576361461208331"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-22T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FURIA vs Evil Geniuses \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450180"
     },
     {
       "league": "VCT Americas",
