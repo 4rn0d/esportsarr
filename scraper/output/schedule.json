@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:39:49.708594+00:00",
+  "generated_at": "2026-09-21T07:09:04.516212+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1224,18 +1224,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-22T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "LGD GAMING vs Xi'an Team WE \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769716"
     },
     {
       "league": "LPL",
