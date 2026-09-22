@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T22:40:29.171666+00:00",
+  "generated_at": "2026-09-22T01:09:06.330232+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -600,18 +600,6 @@
       "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "117171782819796757"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-08-22T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Dignitas vs Disguised \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163886763"
     },
     {
       "league": "LCS",
@@ -2436,18 +2424,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115576361461208331"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-08-23T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Sentinels vs KR\u00dc Visa \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610450204"
     },
     {
       "league": "VCT Americas",
