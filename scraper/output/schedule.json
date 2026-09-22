@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:10:35.436632+00:00",
+  "generated_at": "2026-09-22T11:32:11.701586+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1072,30 +1072,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-23T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "T1 vs Hanwha Life Esports \u00b7 Week 13 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900553481"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-08-23T10:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "NONGSHIM RED FORCE vs BNK FEARX \u00b7 Week 13 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548147900750229"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-26T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1248,42 +1224,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-23T07:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "THUNDER TALK GAMING vs LGD GAMING \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547835296"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-23T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs EDWARD GAMING \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769748"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-23T11:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Anyone's Legend vs BILIBILI GAMING \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116566854547769664"
     },
     {
       "league": "LPL",
@@ -1764,18 +1704,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117275453885353242"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-23T09:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Team Secret Whales vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769742220520937"
     },
     {
       "league": "LCP",
@@ -2848,30 +2776,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-23T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "ONSIDE GAMING vs Sharper Esports \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044681"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-23T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "T1 vs DetonatioN FocusMe \u00b7 Play-Ins \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044685"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-26T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -3203,7 +3107,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
