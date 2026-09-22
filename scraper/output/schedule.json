@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:41:03.426918+00:00",
+  "generated_at": "2026-09-22T19:09:16.345543+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -189,7 +189,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Pyramid IV Esports vs Arctic Pandas \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Arctic Pandas vs Pyramid IV Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099673"
     },
@@ -201,7 +201,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TEAM AQUA vs Otter Side \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Otter Side vs TEAM AQUA \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099681"
     },
@@ -225,7 +225,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "ONLY THE FAMILY vs Bubliki \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Bubliki vs ONLY THE FAMILY \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099697"
     },
@@ -237,7 +237,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "TBD vs Skillcamp \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099677"
     },
@@ -249,7 +249,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Otter Side vs CITA Kaizen \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099685"
     },
@@ -261,7 +261,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "Verdant vs Avella SU Esports \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099693"
     },
@@ -273,7 +273,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo3",
+      "description": "ONLY THE FAMILY vs Gamespace M.C. \u00b7 Play-Ins \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117173205363099701"
     },
@@ -662,6 +662,54 @@
       "match_id": "117171782819796759"
     },
     {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819796773"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819796771"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819796769"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819796767"
+    },
+    {
       "league": "LCS",
       "game": "lol",
       "start": "2026-08-23T20:00:00+00:00",
@@ -900,18 +948,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-08-23T17:15:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Shifters vs Karmine Corp \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406223"
     },
     {
       "league": "LEC",
@@ -1476,30 +1512,6 @@
       "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-23T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "RED Kalunga vs Fluxo W7M \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526403037"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-08-23T19:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LOUD vs LOS \u00b7 Week 5 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115565671526402973"
     },
     {
       "league": "CBLOL",
@@ -2402,6 +2414,18 @@
       "match_id": "115576361461208331"
     },
     {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2026-10-22T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers Championship",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "117200188349540104"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-23T21:00:00+00:00",
@@ -2736,18 +2760,6 @@
       "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
-      "start": "2026-08-23T17:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "Fire Flux Esports vs BBL Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581261721707089"
     },
     {
       "league": "VCT EMEA",
