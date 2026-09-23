@@ -14,22 +14,22 @@
   </channel>
   <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">Pyramid IV Esports vs Skillcamp · Play-Ins · Bo3</desc>
+    <desc lang="en">Skillcamp vs Pyramid IV Esports · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">Otter Side vs CITA Kaizen · Play-Ins · Bo3</desc>
+    <desc lang="en">CITA Kaizen vs Otter Side · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">Verdant vs Avella SU Esports · Play-Ins · Bo3</desc>
+    <desc lang="en">Avella SU Esports vs Verdant · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">ONLY THE FAMILY vs Gamespace M.C. · Play-Ins · Bo3</desc>
+    <desc lang="en">Gamespace M.C. vs ONLY THE FAMILY · Play-Ins · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260926160000 +0000" stop="20260926170000 +0000" channel="twitch.emeamasters">
@@ -214,12 +214,12 @@
   </programme>
   <programme start="20260925200000 +0000" stop="20260925232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">TBD vs Shopify Rebellion · Playoffs · Bo5</desc>
+    <desc lang="en">Shopify Rebellion vs FlyQuest · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260926200000 +0000" stop="20260926232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <desc lang="en">TBD vs LYON · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260927200000 +0000" stop="20260927232000 +0000" channel="twitch.lcs">
@@ -249,12 +249,12 @@
   </programme>
   <programme start="20260928210000 +0000" stop="20260929002000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">TBD vs KaBuM! Eports · Regional Qualifier · Bo5</desc>
+    <desc lang="en">KaBuM! Eports vs Golden Lions · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260929210000 +0000" stop="20260930002000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
-    <desc lang="en">TBD vs Estral Esports · Regional Qualifier · Bo5</desc>
+    <desc lang="en">Estral Esports vs 9z Globant · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260930210000 +0000" stop="20261001002000 +0000" channel="twitch.cblol">
