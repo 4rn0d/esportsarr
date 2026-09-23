@@ -12,26 +12,6 @@
   <channel id="twitch.VALORANT">
     <display-name>Champions</display-name>
   </channel>
-  <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Pyramid IV Esports vs Skillcamp · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">CITA Kaizen vs Otter Side · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Avella SU Esports vs Verdant · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260923170000 +0000" stop="20260923190000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Gamespace M.C. vs ONLY THE FAMILY · Play-Ins · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260926160000 +0000" stop="20260926170000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
@@ -493,6 +473,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Game Changers Championship</title>
+    <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023210000 +0000" stop="20261024000000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
     <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>

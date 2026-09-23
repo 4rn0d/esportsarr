@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T18:36:56.536242+00:00",
+  "generated_at": "2026-09-23T21:46:23.563658+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -220,20 +220,8 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-09-23T16:39:08.147000+00:00",
-      "state": "in_progress",
-      "title": "EMEA Masters",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-09-23T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -245,7 +233,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-23T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -257,7 +245,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-23T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -269,7 +257,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-09-23T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -2426,6 +2414,18 @@
       "match_id": "117200188349540112"
     },
     {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2026-10-23T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers Championship",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "117200188349540116"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-27T21:00:00+00:00",
@@ -3131,7 +3131,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
