@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T18:30:31.536528+00:00",
+  "generated_at": "2026-09-24T21:47:20.259454+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2522,6 +2522,18 @@
       "match_id": "117200188349540120"
     },
     {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2026-10-24T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers Championship",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "117200188349540124"
+    },
+    {
       "league": "VCT Americas",
       "game": "valorant",
       "start": "2026-08-27T21:00:00+00:00",
@@ -3282,7 +3294,7 @@
         },
         {
           "id": "CjcPwz_-oUo",
-          "title": "Inspired Ruins Funmaxxing | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
+          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
         },
         {
