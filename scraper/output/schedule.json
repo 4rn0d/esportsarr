@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T09:32:46.355870+00:00",
+  "generated_at": "2026-09-24T14:26:04.902549+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -960,6 +960,90 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-05T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "Maryville University vs Zeu5 Esports \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322953110545728"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-06T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "Cupid Esports vs FUEGO \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322971012796382"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-07T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs Disguised \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322971012796388"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-08T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322971012796394"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-09T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322971012796400"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-10T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Regional Qualifier \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322971012796406"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-12T20:00:00+00:00",
+      "state": "unstarted",
+      "title": "LCS",
+      "stream_platform": "twitch",
+      "stream_channel": "lcs",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117322971012796412"
     },
     {
       "league": "LEC",
@@ -1973,7 +2057,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-24T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -1985,11 +2069,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-24T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TYLOO GAMING vs G2 Esports \u00b7 Groups \u00b7 Bo3",
+      "description": "G2 Esports vs TYLOO GAMING \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077165"
     },
@@ -2073,7 +2157,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "Paper Rex vs G2 Esports \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077173"
     },
@@ -2121,7 +2205,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "Team Liquid vs TYLOO GAMING \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142713"
     },

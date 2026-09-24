@@ -237,6 +237,41 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20261005200000 +0000" stop="20261005232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">Maryville University vs Zeu5 Esports · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261006200000 +0000" stop="20261006232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">Cupid Esports vs FUEGO · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261007200000 +0000" stop="20261007232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs Disguised · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261008200000 +0000" stop="20261008232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261009200000 +0000" stop="20261009232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261010200000 +0000" stop="20261010232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261012200000 +0000" stop="20261012232000 +0000" channel="twitch.lcs">
+    <title lang="en">LCS</title>
+    <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20260926160000 +0000" stop="20260926192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">RED Kalunga vs FURIA · Playoffs · Bo5</desc>
@@ -292,16 +327,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260924090000 +0000" stop="20260924120000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">Team Liquid vs Paper Rex · Groups · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20260924120000 +0000" stop="20260924150000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">TYLOO GAMING vs G2 Esports · Groups · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260925090000 +0000" stop="20260925120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
     <desc lang="en">NONGSHIM REDFORCE vs NRG · Groups · Bo3</desc>
@@ -334,7 +359,7 @@
   </programme>
   <programme start="20260929090000 +0000" stop="20260929120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <desc lang="en">Paper Rex vs G2 Esports · Groups · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260929120000 +0000" stop="20260929150000 +0000" channel="twitch.VALORANT">
@@ -354,7 +379,7 @@
   </programme>
   <programme start="20261001090000 +0000" stop="20261001120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <desc lang="en">Team Liquid vs TYLOO GAMING · Groups · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261001120000 +0000" stop="20261001150000 +0000" channel="twitch.VALORANT">
