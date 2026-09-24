@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:42:59.738188+00:00",
+  "generated_at": "2026-09-24T09:32:46.355870+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1973,7 +1973,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-24T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
