@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:01:54.614596+00:00",
+  "generated_at": "2026-09-25T22:16:30.179400+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -904,20 +904,8 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-25T18:47:46.958000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-09-25T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -2508,6 +2496,18 @@
       "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540132"
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2026-10-25T21:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers Championship",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "117200188349540128"
     },
     {
       "league": "VCT Americas",
