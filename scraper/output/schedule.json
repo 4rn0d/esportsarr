@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T14:51:26.417990+00:00",
+  "generated_at": "2026-09-25T19:01:54.614596+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -900,6 +900,18 @@
       "description": "Team Liquid Alienware vs FlyQuest \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949393"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-09-25T18:47:46.958000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCS",
@@ -1876,18 +1888,6 @@
     {
       "league": "La Ligue Fran\u00e7aise",
       "game": "lol",
-      "start": "2026-08-26T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "TLN Pirates vs Galions \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116912368900121300"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
       "start": "2026-08-27T16:00:00+00:00",
       "state": "completed",
       "title": "La Ligue Fran\u00e7aise",
@@ -1920,30 +1920,6 @@
       "description": "TLN Pirates vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-26T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bulldog Esports vs Bardicted to U \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860083"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-08-26T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "VES vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860087"
     },
     {
       "league": "NLC",
@@ -2520,6 +2496,18 @@
       "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540124"
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2026-10-25T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers Championship",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "117200188349540132"
     },
     {
       "league": "VCT Americas",
