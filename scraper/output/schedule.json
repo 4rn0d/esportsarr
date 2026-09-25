@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T09:54:50.093152+00:00",
+  "generated_at": "2026-09-25T14:51:26.417990+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2069,7 +2069,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-25T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2081,11 +2081,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-25T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "Karmine Corp vs Xi Lai Gaming \u00b7 Groups \u00b7 Bo3",
+      "description": "Xi Lai Gaming vs Karmine Corp \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142721"
     },
@@ -2157,7 +2157,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "NRG vs Karmine Corp \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142729"
     },
@@ -2205,7 +2205,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "NONGSHIM REDFORCE vs Xi Lai Gaming \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142733"
     },
@@ -2896,18 +2896,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-26T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Kiwoom DRX vs GLOBAL ESPORTS \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044693"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-27T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -3220,7 +3208,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
@@ -3287,11 +3275,6 @@
           "id": "OQpJVITv3_E",
           "title": "LCS Summer 2026 | DIG vs TLAW | Regular Season",
           "duration_seconds": 4210
-        },
-        {
-          "id": "05kaFcVloxQ",
-          "title": "LCS Summer 2026 | C9 vs SEN | Regular Season",
-          "duration_seconds": 4408
         },
         {
           "id": "9pMDpMza5HU",
