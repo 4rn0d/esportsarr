@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T10:05:41.318509+00:00",
+  "generated_at": "2026-09-26T14:27:21.287272+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -2045,7 +2045,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-26T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2057,7 +2057,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-26T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2121,7 +2121,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "LOUD vs Team Vitality \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077153"
     },
@@ -2169,7 +2169,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "EDWARD Gaming vs GLOBAL ESPORTS \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077157"
     },
@@ -3165,7 +3165,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
