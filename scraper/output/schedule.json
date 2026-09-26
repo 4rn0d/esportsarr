@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T05:29:50.470850+00:00",
+  "generated_at": "2026-09-26T10:05:41.318509+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1228,18 +1228,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-27T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs NONGSHIM RED FORCE \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841577"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-28T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -2057,7 +2045,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-26T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2884,30 +2872,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-27T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Gen.G  vs NONGSHIM REDFORCE \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044697"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-27T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "GLOBAL ESPORTS vs VARREL \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044701"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-28T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -3201,7 +3165,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
