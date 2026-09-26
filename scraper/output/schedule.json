@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T14:27:21.287272+00:00",
+  "generated_at": "2026-09-26T17:52:41.929498+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -268,6 +268,18 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
+      "start": "2026-09-26T15:21:44.874000+00:00",
+      "state": "in_progress",
+      "title": "EMEA Masters",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
       "start": "2026-09-26T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
@@ -333,7 +345,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Bushido Wildcats vs Senshi eSports \u00b7 Swiss \u00b7 Bo1",
+      "description": "Senshi eSports vs Bushido Wildcats \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "117171782819731177"
     },
@@ -345,7 +357,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Kaufland Hangry Knights vs Ruddy Corporation \u00b7 Swiss \u00b7 Bo1",
+      "description": "Ruddy Corporation vs Kaufland Hangry Knights \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "117171782819731179"
     },
@@ -357,7 +369,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "HMBLE vs UCAM Esports Club \u00b7 Swiss \u00b7 Bo1",
+      "description": "UCAM Esports Club vs HMBLE \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "117171782819731181"
     },
@@ -744,6 +756,102 @@
       "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "117171782819796775"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927857"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927855"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927859"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927861"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927863"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927865"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927867"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-28T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819927869"
     },
     {
       "league": "LCS",
@@ -1685,7 +1793,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-26T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -1860,18 +1968,6 @@
       "description": "FENNEL vs New Meta \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116917034792783759"
-    },
-    {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-08-27T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "Skillcamp vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116912368900121314"
     },
     {
       "league": "La Ligue Fran\u00e7aise",
@@ -3195,7 +3291,7 @@
         },
         {
           "id": "u6D4agBqTBo",
-          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
+          "title": "LCS Speedruns First Week of Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
         },
         {
