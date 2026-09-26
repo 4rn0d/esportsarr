@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T22:16:30.179400+00:00",
+  "generated_at": "2026-09-26T00:42:58.039545+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -905,7 +905,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-25T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -921,7 +921,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs LYON \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Shopify Rebellion vs LYON \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949417"
     },
@@ -3190,13 +3190,18 @@
           "duration_seconds": 3630
         },
         {
+          "id": "MyhFr03s0Xw",
+          "title": "LCS Summer 2026 | SR vs FLY | Playoffs",
+          "duration_seconds": 10569
+        },
+        {
           "id": "fsXbPu_qe1w",
           "title": "Kia Rookie of the Year Revealed! | The Dive Driven by Kia",
           "duration_seconds": 5141
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
@@ -3258,11 +3263,6 @@
           "id": "mAsLimu2hIY",
           "title": "LCS Summer 2026 | SR vs FLY | Regular Season",
           "duration_seconds": 4669
-        },
-        {
-          "id": "OQpJVITv3_E",
-          "title": "LCS Summer 2026 | DIG vs TLAW | Regular Season",
-          "duration_seconds": 4210
         },
         {
           "id": "9pMDpMza5HU",
