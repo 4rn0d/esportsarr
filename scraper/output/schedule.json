@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T06:43:51.995906+00:00",
+  "generated_at": "2026-09-27T12:28:26.695697+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1420,18 +1420,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-28T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs HANJIN BRION \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841583"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-29T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1548,18 +1536,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-28T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "THUNDER TALK GAMING vs Invictus Gaming \u00b7 Play In Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116566921179204478"
     },
     {
       "league": "LPL",
@@ -2237,7 +2213,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-27T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2249,11 +2225,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-27T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "JD GAMING vs FUT Esports \u00b7 Groups \u00b7 Bo3",
+      "description": "FUT Esports vs JD GAMING \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077129"
     },
@@ -2301,7 +2277,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "TBD vs 100 Thieves \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077133"
     },
@@ -2349,7 +2325,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "TBD vs T1 \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077137"
     },
@@ -3040,30 +3016,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-08-28T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "ONSIDE GAMING vs Paper Rex \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044705"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-28T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "T1 vs Kiwoom DRX \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044709"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-08-29T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -3338,7 +3290,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
