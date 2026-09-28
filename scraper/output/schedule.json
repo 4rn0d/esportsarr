@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T07:16:38.121378+00:00",
+  "generated_at": "2026-09-28T15:41:25.462020+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1264,18 +1264,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-29T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Karmine Corp vs SK Gaming \u00b7 Week 6 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406259"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-29T17:15:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -1420,18 +1408,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-29T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "BNK FEARX vs T1 \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841589"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-08-30T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1536,18 +1512,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-29T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "TOP ESPORTS vs LGD GAMING \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117155436343202136"
     },
     {
       "league": "LPL",
@@ -1968,18 +1932,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117275453885353242"
-    },
-    {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-29T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "MVK Esports vs CTBC Flying Oyster \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769742220520949"
     },
     {
       "league": "LCP",
@@ -2956,18 +2908,6 @@
     {
       "league": "VCT EMEA",
       "game": "valorant",
-      "start": "2026-08-29T15:00:00+00:00",
-      "state": "completed",
-      "title": "VCT EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "FUT Esports vs Team Liquid \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115581261721707097"
-    },
-    {
-      "league": "VCT EMEA",
-      "game": "valorant",
       "start": "2026-08-30T15:00:00+00:00",
       "state": "completed",
       "title": "VCT EMEA",
@@ -2988,30 +2928,6 @@
       "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116849606242238845"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-29T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Paper Rex vs VARREL \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044717"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
-      "start": "2026-08-29T10:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "T1 vs Gen.G  \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581280955044721"
     },
     {
       "league": "VCT Pacific",
@@ -3250,6 +3166,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "x4MNG9N0dco",
+          "title": "Kings of Summer | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
+          "duration_seconds": 2574
+        },
+        {
           "id": "2bwtRk7juHQ",
           "title": "LCS Summer 2026 | C9 vs TLAW | Playoffs",
           "duration_seconds": 9604
@@ -3318,11 +3239,6 @@
           "id": "CxBRKsUnUZ4",
           "title": "The Scariest Teams in NA & Patch 26.18 | The Dive Driven by Kia",
           "duration_seconds": 4899
-        },
-        {
-          "id": "CjcPwz_-oUo",
-          "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
-          "duration_seconds": 2882
         },
         {
           "id": "9pMDpMza5HU",
