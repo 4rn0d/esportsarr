@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T23:00:04.674124+00:00",
+  "generated_at": "2026-09-28T01:27:42.909451+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1145,7 +1145,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-09-27T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -1161,7 +1161,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs LYON \u00b7 Playoffs \u00b7 Bo5",
+      "description": "LYON vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949423"
     },
@@ -1173,7 +1173,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Team Liquid Alienware \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
     },
@@ -2692,18 +2692,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-08-29T00:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Leviat\u00e1n Esports vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610515764"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-08-29T21:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -3262,6 +3250,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "2bwtRk7juHQ",
+          "title": "LCS Summer 2026 | C9 vs TLAW | Playoffs",
+          "duration_seconds": 9604
+        },
+        {
           "id": "xrpKgobdXMA",
           "title": "LCS Summer 2026 | SR vs LYON | Regular Season",
           "duration_seconds": 9289
@@ -3330,11 +3323,6 @@
           "id": "CjcPwz_-oUo",
           "title": "The Road to Georgia Starts Now | PROS ft. LYON Isles, SR Fudge & FLY Gakgos",
           "duration_seconds": 2882
-        },
-        {
-          "id": "IkylT2Q049g",
-          "title": "LCS Summer 2026 | LYON vs DSG | Regular Season",
-          "duration_seconds": 3754
         },
         {
           "id": "9pMDpMza5HU",
