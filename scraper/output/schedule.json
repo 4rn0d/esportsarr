@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:52:00.819879+00:00",
+  "generated_at": "2026-09-29T13:32:47.990825+00:00",
   "matches": [
     {
       "league": "EMEA Masters",
@@ -1240,18 +1240,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-08-30T12:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Team Vitality vs Shifters \u00b7 Week 6 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115548681803406179"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-08-30T14:15:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -1372,18 +1360,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-08-30T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "kt Rolster vs Dplus KIA \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841595"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-09-01T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1476,18 +1452,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-08-30T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Beijing JDG Esports vs Xi'an Team WE \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117155436343202142"
     },
     {
       "league": "LPL",
@@ -1874,18 +1838,6 @@
       "match_id": "117275453885353242"
     },
     {
-      "league": "LCP",
-      "game": "lol",
-      "start": "2026-08-30T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCP",
-      "stream_platform": "twitch",
-      "stream_channel": "lolpacificen",
-      "description": "Team Secret Whales vs CTBC Flying Oyster \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116769742220520955"
-    },
-    {
       "league": "LJL",
       "game": "lol",
       "start": "2026-09-05T05:00:00+00:00",
@@ -2129,11 +2081,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-29T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "Paper Rex vs G2 Esports \u00b7 Groups \u00b7 Bo3",
+      "description": "G2 Esports vs Paper Rex \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077173"
     },
@@ -2141,7 +2093,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-09-29T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2229,7 +2181,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Groups \u00b7 Bo3",
+      "description": "TBD vs G2 Esports \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142717"
     },
@@ -2856,18 +2808,6 @@
       "description": "Team Liquid vs Karmine Corp \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581261721707103"
-    },
-    {
-      "league": "Game Changers EMEA",
-      "game": "valorant",
-      "start": "2026-08-30T08:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers EMEA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_emea",
-      "description": "G2 Gozen vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116849606242238845"
     },
     {
       "league": "VCT Pacific",
