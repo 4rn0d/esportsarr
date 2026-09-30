@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="esportsarr">
+  <channel id="twitch.riotgames">
+    <display-name>Worlds</display-name>
+  </channel>
   <channel id="twitch.emeamasters">
     <display-name>EMEA Masters</display-name>
   </channel>
@@ -12,14 +15,144 @@
   <channel id="twitch.VALORANT">
     <display-name>Champions</display-name>
   </channel>
-  <programme start="20260930130000 +0000" stop="20260930140000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Berlin International Gaming vs Senshi eSports · Swiss · Bo1</desc>
+  <programme start="20261015180000 +0000" stop="20261015212000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261015230000 +0000" stop="20261016022000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261016180000 +0000" stop="20261016212000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261016230000 +0000" stop="20261017022000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261017180000 +0000" stop="20261017212000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261018180000 +0000" stop="20261018212000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023200000 +0000" stop="20261023210000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023210000 +0000" stop="20261023220000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023220000 +0000" stop="20261023230000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261023230000 +0000" stop="20261024000000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024000000 +0000" stop="20261024010000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024170000 +0000" stop="20261024180000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024180000 +0000" stop="20261024190000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024190000 +0000" stop="20261024200000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024200000 +0000" stop="20261024210000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024210000 +0000" stop="20261024220000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024220000 +0000" stop="20261024230000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261024230000 +0000" stop="20261025000000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261025000000 +0000" stop="20261025010000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261028200000 +0000" stop="20261028220000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261028230000 +0000" stop="20261029010000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261029200000 +0000" stop="20261029220000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261029230000 +0000" stop="20261030010000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260930130000 +0000" stop="20260930140000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">Bushido Wildcats vs MAGAZA · Swiss · Bo1</desc>
+    <desc lang="en">Senshi eSports vs Berlin International Gaming · Swiss · Bo1</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20260930130000 +0000" stop="20260930140000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">MAGAZA vs Bushido Wildcats · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260930130000 +0000" stop="20260930140000 +0000" channel="twitch.emeamasters">
@@ -29,7 +162,7 @@
   </programme>
   <programme start="20260930140000 +0000" stop="20260930150000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">PCIFIC Esports vs Ruddy Corporation · Swiss · Bo1</desc>
+    <desc lang="en">Ruddy Corporation vs PCIFIC Esports · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20260930140000 +0000" stop="20260930150000 +0000" channel="twitch.emeamasters">
@@ -62,22 +195,22 @@
     <desc lang="en">eSuba vs UCAM Esports Club · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260930160000 +0000" stop="20260930180000 +0000" channel="twitch.emeamasters">
+  <programme start="20260930180000 +0000" stop="20260930200000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">G2 NORD vs BOMBA Team · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260930160000 +0000" stop="20260930180000 +0000" channel="twitch.emeamasters">
+  <programme start="20260930180000 +0000" stop="20260930200000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">Heretics Academy vs NightBirds · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260930160000 +0000" stop="20260930180000 +0000" channel="twitch.emeamasters">
+  <programme start="20260930180000 +0000" stop="20260930200000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">Team Phantasma vs Gamespace M.C. · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260930160000 +0000" stop="20260930180000 +0000" channel="twitch.emeamasters">
+  <programme start="20260930180000 +0000" stop="20260930200000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">The Secret Club vs Avella SU Esports · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
@@ -212,6 +345,36 @@
     <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261013160000 +0000" stop="20261013192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261014160000 +0000" stop="20261014192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20261003200000 +0000" stop="20261003232000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">LYON vs Cloud9 Kia · Playoffs · Bo5</desc>
@@ -222,37 +385,37 @@
     <desc lang="en">TBD vs Team Liquid Alienware · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261005200000 +0000" stop="20261005232000 +0000" channel="twitch.lcs">
+  <programme start="20261005210000 +0000" stop="20261006002000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Maryville University vs Zeu5 Esports · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261006200000 +0000" stop="20261006232000 +0000" channel="twitch.lcs">
+  <programme start="20261006210000 +0000" stop="20261007002000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">Cupid Esports vs FUEGO · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261007200000 +0000" stop="20261007232000 +0000" channel="twitch.lcs">
+  <programme start="20261007210000 +0000" stop="20261008002000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">TBD vs Disguised · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261008200000 +0000" stop="20261008232000 +0000" channel="twitch.lcs">
+  <programme start="20261008210000 +0000" stop="20261009002000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261009200000 +0000" stop="20261009232000 +0000" channel="twitch.lcs">
+  <programme start="20261009210000 +0000" stop="20261010002000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261010200000 +0000" stop="20261010232000 +0000" channel="twitch.lcs">
+  <programme start="20261010210000 +0000" stop="20261011002000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">TBD vs TBD · Regional Qualifier · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261012200000 +0000" stop="20261012232000 +0000" channel="twitch.lcs">
+  <programme start="20261012230000 +0000" stop="20261013022000 +0000" channel="twitch.lcs">
     <title lang="en">LCS</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
@@ -292,11 +455,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20260930090000 +0000" stop="20260930120000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">LOUD vs Team Vitality · Groups · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20260930120000 +0000" stop="20260930150000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
     <desc lang="en">FUT Esports vs 100 Thieves · Groups · Bo3</desc>
@@ -334,7 +492,7 @@
   </programme>
   <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Groups · Bo3</desc>
+    <desc lang="en">TBD vs LOUD · Groups · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="twitch.VALORANT">
