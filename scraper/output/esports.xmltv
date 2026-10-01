@@ -155,6 +155,16 @@
     <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
+  <programme start="20261031170000 +0000" stop="20261031190000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261031200000 +0000" stop="20261031220000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Swiss · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
   <programme start="20261001150000 +0000" stop="20261001170000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">Bushido Wildcats vs Frites Esports Club · Swiss · Bo3</desc>
@@ -192,12 +202,12 @@
   </programme>
   <programme start="20261001180000 +0000" stop="20261001200000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">JSK Gamefy vs UCAM Esports Club · Swiss · Bo3</desc>
+    <desc lang="en">UCAM Esports Club vs JSK Gamefy · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261001180000 +0000" stop="20261001200000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">Team Phantasma vs The Secret Club · Swiss · Bo3</desc>
+    <desc lang="en">The Secret Club vs Team Phantasma · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261001180000 +0000" stop="20261001200000 +0000" channel="twitch.emeamasters">
@@ -573,6 +583,11 @@
   <programme start="20261030210000 +0000" stop="20261031000000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
     <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261031180000 +0000" stop="20261031233000 +0000" channel="twitch.VALORANT">
+    <title lang="en">Game Changers Championship</title>
+    <desc lang="en">TBD vs TBD · Knockouts · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
 </tv>
