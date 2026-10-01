@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:01:11.963911+00:00",
+  "generated_at": "2026-10-01T02:06:05.249045+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2021,7 +2021,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-30T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2037,7 +2037,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs Estral Esports \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "LOS vs Estral Esports \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117275453885353224"
     },
@@ -2061,7 +2061,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs 9z Globant \u00b7 Regional Qualifier \u00b7 Bo5",
+      "description": "KaBuM! Eports vs 9z Globant \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117275453885353230"
     },
@@ -3275,7 +3275,7 @@
         },
         {
           "id": "x4MNG9N0dco",
-          "title": "Kings of Summer | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
+          "title": "Your LCS Championship Contenders | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
           "duration_seconds": 2574
         },
         {
@@ -3300,7 +3300,7 @@
         },
         {
           "id": "C9u4uc_xI68",
-          "title": "Highs & Lows of LCS Coaching | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
+          "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
         },
         {
