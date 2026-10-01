@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:06:05.249045+00:00",
+  "generated_at": "2026-10-01T08:50:57.164187+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -909,7 +909,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Bushido Wildcats vs Frites Esports Club \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819927955"
     },
@@ -921,7 +921,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Valerion vs Ruddy Corporation \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819927959"
     },
@@ -933,7 +933,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Colossal Gaming vs Unicorns of Love Sexy Edition \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819927963"
     },
@@ -945,7 +945,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "BOMBA Team vs Skillcamp \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819927967"
     },
@@ -957,67 +957,67 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819927971"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-01T16:00:00+00:00",
-      "state": "unstarted",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "MAGAZA vs Otter Side \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993511"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-01T16:00:00+00:00",
+      "start": "2026-10-01T18:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Berlin International Gaming vs NightBirds \u00b7 Swiss \u00b7 Bo3",
+      "best_of": 3,
+      "match_id": "117171782819927971"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-10-01T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "PCIFIC Esports vs LODIS \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993515"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-01T16:00:00+00:00",
+      "start": "2026-10-01T18:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "JSK Gamefy vs UCAM Esports Club \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993519"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-01T16:00:00+00:00",
+      "start": "2026-10-01T18:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Team Phantasma vs The Secret Club \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993523"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-01T16:00:00+00:00",
+      "start": "2026-10-01T18:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Senshi eSports vs Bar\u00e7a Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993527"
     },
@@ -1060,7 +1060,7 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-02T16:00:00+00:00",
+      "start": "2026-10-02T18:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
@@ -1072,7 +1072,7 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-02T16:00:00+00:00",
+      "start": "2026-10-02T18:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
@@ -1644,18 +1644,6 @@
       "description": "G2 Esports vs Movistar KOI \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406333"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-09-01T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Gen.G Esports vs kt Rolster \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841601"
     },
     {
       "league": "LCK",
@@ -2369,7 +2357,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-01T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -3342,11 +3330,6 @@
           "id": "_DcBxZaetbk",
           "title": "LCS Summer 2026 | SR vs C9 | Playoffs",
           "duration_seconds": 7261
-        },
-        {
-          "id": "CxBRKsUnUZ4",
-          "title": "The Scariest Teams in NA & Patch 26.18 | The Dive Driven by Kia",
-          "duration_seconds": 4899
         },
         {
           "id": "9pMDpMza5HU",
