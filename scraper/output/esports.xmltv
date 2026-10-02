@@ -177,12 +177,12 @@
   </programme>
   <programme start="20261002150000 +0000" stop="20261002170000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">Colossal Gaming vs The Secret Club · Swiss · Bo3</desc>
+    <desc lang="en">The Secret Club vs Colossal Gaming · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261002150000 +0000" stop="20261002170000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">NightBirds vs UCAM Esports Club · Swiss · Bo3</desc>
+    <desc lang="en">UCAM Esports Club vs NightBirds · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261002180000 +0000" stop="20261002200000 +0000" channel="twitch.emeamasters">
@@ -305,11 +305,6 @@
     <desc lang="en">TBD vs LOS · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261002120000 +0000" stop="20261002150000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">T1 vs JD GAMING · Groups · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261003090000 +0000" stop="20261003120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
     <desc lang="en">Team Liquid vs G2 Esports · Groups · Bo3</desc>
@@ -327,7 +322,7 @@
   </programme>
   <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs FUT Esports · Groups · Bo3</desc>
+    <desc lang="en">T1 vs FUT Esports · Groups · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="twitch.VALORANT">

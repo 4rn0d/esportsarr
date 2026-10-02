@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:20:45.972849+00:00",
+  "generated_at": "2026-10-02T16:44:07.098648+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -372,18 +372,6 @@
       "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095093"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-27T19:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Gamespace M.C. vs MAGAZA \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819796765"
     },
     {
       "league": "EMEA Masters",
@@ -1060,6 +1048,18 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
+      "start": "2026-10-02T14:47:56.724000+00:00",
+      "state": "in_progress",
+      "title": "EMEA Masters",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
       "start": "2026-10-02T15:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
@@ -1077,7 +1077,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Colossal Gaming vs The Secret Club \u00b7 Swiss \u00b7 Bo3",
+      "description": "The Secret Club vs Colossal Gaming \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993535"
     },
@@ -1089,7 +1089,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "NightBirds vs UCAM Esports Club \u00b7 Swiss \u00b7 Bo3",
+      "description": "UCAM Esports Club vs NightBirds \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117171782819993539"
     },
@@ -1970,30 +1970,6 @@
       "match_id": "116917034792783759"
     },
     {
-      "league": "La Ligue Fran\u00e7aise",
-      "game": "lol",
-      "start": "2026-09-02T16:00:00+00:00",
-      "state": "completed",
-      "title": "La Ligue Fran\u00e7aise",
-      "stream_platform": "twitch",
-      "stream_channel": "otplol_",
-      "description": "TLN Pirates vs Galions \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116912368900121326"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
-      "start": "2026-09-02T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Bulldog Esports vs Deer Gaming \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860097"
-    },
-    {
       "league": "NLC",
       "game": "lol",
       "start": "2026-09-02T18:00:00+00:00",
@@ -2237,7 +2213,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-02T12:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2289,7 +2265,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs FUT Esports \u00b7 Groups \u00b7 Bo3",
+      "description": "T1 vs FUT Esports \u00b7 Groups \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461077141"
     },
