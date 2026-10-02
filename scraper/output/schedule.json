@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T16:44:07.098648+00:00",
+  "generated_at": "2026-10-02T20:59:38.659089+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -372,6 +372,18 @@
       "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095093"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-27T19:00:00+00:00",
+      "state": "completed",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "Gamespace M.C. vs MAGAZA \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819796765"
     },
     {
       "league": "EMEA Masters",
@@ -1048,20 +1060,8 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-02T14:47:56.724000+00:00",
-      "state": "in_progress",
-      "title": "EMEA Masters",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-10-02T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1073,7 +1073,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-02T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1085,7 +1085,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-02T15:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1097,7 +1097,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-02T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1109,7 +1109,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-02T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1972,18 +1972,6 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-09-02T18:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Verdant vs DMG Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116878159559860101"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-09-07T16:00:00+00:00",
       "state": "completed",
       "title": "NLC",
@@ -2640,6 +2628,18 @@
       "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540168"
+    },
+    {
+      "league": "Game Changers Championship",
+      "game": "valorant",
+      "start": "2026-11-01T18:00:00+00:00",
+      "state": "unstarted",
+      "title": "Game Changers Championship",
+      "stream_platform": "twitch",
+      "stream_channel": "VALORANT",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117200188349540174"
     },
     {
       "league": "VCT Americas",
