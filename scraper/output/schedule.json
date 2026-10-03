@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T20:59:38.659089+00:00",
+  "generated_at": "2026-10-03T00:12:27.947839+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2688,54 +2688,6 @@
       "description": "100 Thieves vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-02T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs Axolotl \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193619"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-02T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "The Spiders vs MVSK Secret \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193627"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-02T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Shopify Rebellion Gold vs SwimTrek Blue \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193623"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-02T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "HIMMERS vs Cloud9 GC \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958193631"
     },
     {
       "league": "Game Changers NA",
