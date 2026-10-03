@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:25:40.316877+00:00",
+  "generated_at": "2026-10-03T21:34:44.459294+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1481,7 +1481,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-10-03T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -1901,7 +1901,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-10-03T16:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -2664,18 +2664,6 @@
       "description": "100 Thieves vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-03T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "The Spiders vs SwimTrek Blue \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958259175"
     },
     {
       "league": "Game Changers NA",
