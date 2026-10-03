@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:30:01.569708+00:00",
+  "generated_at": "2026-10-03T14:48:47.039956+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1125,7 +1125,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo5",
+      "description": "Galions vs The Secret Club \u00b7 Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911339"
     },
@@ -1137,7 +1137,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo5",
+      "description": "Solary vs Bar\u00e7a Esports \u00b7 Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911345"
     },
@@ -1149,7 +1149,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo5",
+      "description": "Movistar KOI F\u00e9nix vs UCAM Esports Club \u00b7 Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911351"
     },
@@ -2189,7 +2189,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-03T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2201,7 +2201,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-03T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2958,6 +2958,21 @@
     "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
+        {
+          "id": "m2FYlQtSC-4",
+          "title": "G2 vs MKOI | 2026 LEC Summer Final | G2 Esports vs Movistar KOI",
+          "duration_seconds": 7239
+        },
+        {
+          "id": "RcObFO7no1k",
+          "title": "The Nice Episode | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP09",
+          "duration_seconds": 4154
+        },
+        {
+          "id": "Y740BJoG5TM",
+          "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
+          "duration_seconds": 3630
+        },
         {
           "id": "ckS7WEgmxHM",
           "title": "The 2026 Kia Summer MVP Revealed! | The Dive Driven by Kia",

@@ -172,17 +172,17 @@
   </programme>
   <programme start="20261004160000 +0000" stop="20261004192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo5</desc>
+    <desc lang="en">Galions vs The Secret Club · Knockouts · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261004160000 +0000" stop="20261004192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo5</desc>
+    <desc lang="en">Solary vs Barça Esports · Knockouts · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261004160000 +0000" stop="20261004192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo5</desc>
+    <desc lang="en">Movistar KOI Fénix vs UCAM Esports Club · Knockouts · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261006160000 +0000" stop="20261006192000 +0000" channel="twitch.emeamasters">
@@ -278,16 +278,6 @@
   <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.cblol">
     <title lang="en">CBLOL</title>
     <desc lang="en">TBD vs LOS · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261003090000 +0000" stop="20261003120000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">Team Liquid vs G2 Esports · Groups · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261003120000 +0000" stop="20261003150000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">NONGSHIM REDFORCE vs Karmine Corp · Groups · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="twitch.VALORANT">
