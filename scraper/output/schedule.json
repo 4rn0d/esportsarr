@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:48:47.039956+00:00",
+  "generated_at": "2026-10-03T18:25:40.316877+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1901,7 +1901,7 @@
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-10-03T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
@@ -1917,7 +1917,7 @@
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
-      "description": "TBD vs LOS \u00b7 Finals \u00b7 Bo5",
+      "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
     },
