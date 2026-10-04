@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:58:35.433792+00:00",
+  "generated_at": "2026-10-04T19:12:09.415175+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1125,7 +1125,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Galions vs The Secret Club \u00b7 Knockouts \u00b7 Bo5",
+      "description": "The Secret Club vs Galions \u00b7 Knockouts \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911339"
     },
@@ -1488,6 +1488,18 @@
       "description": "LYON vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949423"
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-04T18:22:44.776000+00:00",
+      "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "LCS",
@@ -2592,18 +2604,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-09-04T17:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "NRG vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610515776"
     },
     {
       "league": "VCT Americas",
