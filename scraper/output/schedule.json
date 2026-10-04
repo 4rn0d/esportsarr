@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T21:34:44.459294+00:00",
+  "generated_at": "2026-10-04T00:01:32.584185+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1481,7 +1481,7 @@
       "league": "LCS",
       "game": "lol",
       "start": "2026-10-03T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -1497,7 +1497,7 @@
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "TBD vs Team Liquid Alienware \u00b7 Finals \u00b7 Bo5",
+      "description": "LYON vs Team Liquid Alienware \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
     },
@@ -2664,18 +2664,6 @@
       "description": "100 Thieves vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115581239610581334"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-03T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Axolotl vs HIMMERS \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958259179"
     },
     {
       "league": "Game Changers NA",
