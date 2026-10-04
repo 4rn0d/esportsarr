@@ -270,14 +270,9 @@
     <desc lang="en">FURIA vs LOS · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261004090000 +0000" stop="20261004120000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">GLOBAL ESPORTS vs LOUD · Groups · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261004120000 +0000" stop="20261004150000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">T1 vs FUT Esports · Groups · Bo3</desc>
+    <desc lang="en">FUT Esports vs T1 · Groups · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="twitch.VALORANT">
