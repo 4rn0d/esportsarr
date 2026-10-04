@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:12:09.415175+00:00",
+  "generated_at": "2026-10-04T22:19:38.421223+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -372,6 +372,30 @@
       "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095093"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-11-03T22:00:00+00:00",
+      "state": "unstarted",
+      "title": "Worlds",
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115660540726095097"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-09-27T19:00:00+00:00",
+      "state": "completed",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "Gamespace M.C. vs MAGAZA \u00b7 Swiss \u00b7 Bo1",
+      "best_of": 1,
+      "match_id": "117171782819796765"
     },
     {
       "league": "EMEA Masters",
@@ -1108,20 +1132,8 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-04T15:25:19.620000+00:00",
-      "state": "in_progress",
-      "title": "EMEA Masters",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-10-04T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1133,7 +1145,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-04T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1145,7 +1157,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-04T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1492,24 +1504,12 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-10-04T18:22:44.776000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-10-04T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
-      "description": "LYON vs Team Liquid Alienware \u00b7 Finals \u00b7 Bo5",
+      "description": "Team Liquid Alienware vs LYON \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565004607949429"
     },
@@ -2608,18 +2608,6 @@
     {
       "league": "VCT Americas",
       "game": "valorant",
-      "start": "2026-09-04T20:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "LOUD vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115581239610515788"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
       "start": "2026-09-05T17:00:00+00:00",
       "state": "completed",
       "title": "VCT Americas",
@@ -2970,11 +2958,6 @@
           "id": "u6D4agBqTBo",
           "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
           "duration_seconds": 2962
-        },
-        {
-          "id": "ClQ1S1dP3cY",
-          "title": "LCS Summer 2026 | FLY vs SEN | Playoffs",
-          "duration_seconds": 7218
         },
         {
           "id": "9pMDpMza5HU",
