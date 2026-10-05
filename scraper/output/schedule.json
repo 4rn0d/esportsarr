@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T22:19:38.421223+00:00",
+  "generated_at": "2026-10-05T01:04:06.215904+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1504,8 +1504,20 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-10-04T20:00:00+00:00",
+      "start": "2026-10-04T18:22:44.776000+00:00",
       "state": "in_progress",
+      "title": "LCS",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "LCS",
+      "game": "lol",
+      "start": "2026-10-04T20:00:00+00:00",
+      "state": "completed",
       "title": "LCS",
       "stream_platform": "twitch",
       "stream_channel": "lcs",
@@ -2890,6 +2902,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "8Mdtj9TMxWQ",
+          "title": "LCS Summer 2026 | TL vs LYON | Finals",
+          "duration_seconds": 11305
+        },
+        {
           "id": "5nGQj4T6pEg",
           "title": "LCS Summer 2026 | LYON vs C9 | Lower Finals",
           "duration_seconds": 10446
@@ -2953,11 +2970,6 @@
           "id": "_gONnnu9h2I",
           "title": "League of Legends but Every Champion from the 2026 LCS Is Banned",
           "duration_seconds": 2459
-        },
-        {
-          "id": "u6D4agBqTBo",
-          "title": "Sweeps Week in LCS Playoffs | PROS ft. FLY Quad, FLY Cryogen and SEN Darkwings",
-          "duration_seconds": 2962
         },
         {
           "id": "9pMDpMza5HU",
