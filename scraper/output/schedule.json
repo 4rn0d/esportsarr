@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:58:47.823843+00:00",
+  "generated_at": "2026-10-05T15:35:48.041736+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1516,30 +1516,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-09-05T10:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "G2 Esports vs Team Vitality \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115548681803406297"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-09-05T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Karmine Corp vs GIANTX \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115548681803406291"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-09-06T15:00:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -1612,18 +1588,6 @@
     {
       "league": "LCK",
       "game": "lol",
-      "start": "2026-09-05T08:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841619"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
       "start": "2026-09-06T08:00:00+00:00",
       "state": "completed",
       "title": "LCK",
@@ -1656,18 +1620,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-09-05T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Shenzhen NINJAS IN PYJAMAS vs Beijing JDG Esports \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117155436343202166"
     },
     {
       "league": "LPL",
@@ -2656,18 +2608,6 @@
     {
       "league": "VCT Pacific",
       "game": "valorant",
-      "start": "2026-09-05T08:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "T1 vs GLOBAL ESPORTS \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115581280955044729"
-    },
-    {
-      "league": "VCT Pacific",
-      "game": "valorant",
       "start": "2026-09-06T08:00:00+00:00",
       "state": "completed",
       "title": "VCT Pacific",
@@ -2989,11 +2929,6 @@
           "id": "t2CteFHA8YY",
           "title": "T1 vs DK | Lower Round 3 Game 4 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 2367
-        },
-        {
-          "id": "syS_mPQkP-4",
-          "title": "T1 vs DK | Lower Round 3 Game 3 | 2026 Wooribank LCK Playoffs",
-          "duration_seconds": 2965
         },
         {
           "id": "-miiCRLkQM8",
