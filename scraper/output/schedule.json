@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T15:35:48.041736+00:00",
+  "generated_at": "2026-10-05T22:10:46.223464+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -384,6 +384,18 @@
       "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095097"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-11-04T22:00:00+00:00",
+      "state": "unstarted",
+      "title": "Worlds",
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115660540726095103"
     },
     {
       "league": "EMEA Masters",
@@ -1348,18 +1360,6 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-05T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Cloud9 Kia vs Sentinels \u00b7 Week 7 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163821175"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-09-05T23:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -1728,18 +1728,6 @@
       "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-09-05T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "paiN Gaming vs Vivo Keyd Stars \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526403063"
     },
     {
       "league": "CBLOL",
@@ -2532,18 +2520,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
-    },
-    {
-      "league": "VCT Americas",
-      "game": "valorant",
-      "start": "2026-09-05T17:00:00+00:00",
-      "state": "completed",
-      "title": "VCT Americas",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "LOUD vs NRG \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115581239610515792"
     },
     {
       "league": "VCT Americas",
