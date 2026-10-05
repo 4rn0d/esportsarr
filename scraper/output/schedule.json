@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T01:04:06.215904+00:00",
+  "generated_at": "2026-10-05T06:58:47.823843+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1173,7 +1173,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Solary vs Valerion \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911357"
     },
@@ -1185,67 +1185,31 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911363"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-06T16:00:00+00:00",
-      "state": "unstarted",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911369"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-06T16:00:00+00:00",
-      "state": "unstarted",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911375"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
-      "state": "unstarted",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Movistar KOI F\u00e9nix vs Frites Esports Club \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911381"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
+      "start": "2026-10-06T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TLN Pirates vs Bushido Wildcats \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911387"
     },
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
+      "start": "2026-10-06T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Galions vs Berlin International Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911393"
     },
@@ -1257,7 +1221,43 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Heretics Academy vs G2 NORD \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117173205319911363"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-10-07T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "Karmine Corp Blue vs Skillcamp \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117173205319911369"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-10-07T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "Anubis Gaming vs Ruddy Corporation \u00b7 Playoffs \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "117173205319911375"
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
+      "start": "2026-10-07T16:00:00+00:00",
+      "state": "unstarted",
+      "title": "EMEA Masters",
+      "stream_platform": "twitch",
+      "stream_channel": "emeamasters",
+      "description": "Kaufland Hangry Knights vs Unicorns of Love Sexy Edition \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911399"
     },
@@ -1504,18 +1504,6 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-10-04T18:22:44.776000+00:00",
-      "state": "in_progress",
-      "title": "LCS",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-10-04T20:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -1668,18 +1656,6 @@
       "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117030752644841643"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
-      "start": "2026-09-05T06:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Invictus Gaming vs TOP ESPORTS \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117155436343202160"
     },
     {
       "league": "LPL",
@@ -1920,18 +1896,6 @@
       "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "LJL",
-      "game": "lol",
-      "start": "2026-09-05T05:00:00+00:00",
-      "state": "completed",
-      "title": "LJL",
-      "stream_platform": "twitch",
-      "stream_channel": "leagueoflegendsjp",
-      "description": "L Guide Gaming vs New Meta \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116917034792783753"
     },
     {
       "league": "LJL",
