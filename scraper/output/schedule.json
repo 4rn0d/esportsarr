@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T22:10:46.223464+00:00",
+  "generated_at": "2026-10-06T02:16:46.519081+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1356,18 +1356,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-09-05T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Team Liquid Alienware vs Dignitas \u00b7 Week 7 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163886779"
     },
     {
       "league": "LCS",
@@ -2782,6 +2770,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "fwfFZb-f5pM",
+          "title": "LCS Promotion Tournament | MU vs Z5 | Play-Ins",
+          "duration_seconds": 9653
+        },
+        {
           "id": "8Mdtj9TMxWQ",
           "title": "LCS Summer 2026 | TL vs LYON | Finals",
           "duration_seconds": 11305
@@ -2845,11 +2838,6 @@
           "id": "miNTrZrpYgg",
           "title": "Summer Kia All-Pro Teams Revealed! | The Dive Driven by Kia",
           "duration_seconds": 6115
-        },
-        {
-          "id": "_gONnnu9h2I",
-          "title": "League of Legends but Every Champion from the 2026 LCS Is Banned",
-          "duration_seconds": 2459
         },
         {
           "id": "9pMDpMza5HU",
