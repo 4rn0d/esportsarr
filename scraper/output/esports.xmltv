@@ -212,26 +212,6 @@
     <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261007160000 +0000" stop="20261007192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Heretics Academy vs G2 NORD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261007160000 +0000" stop="20261007192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Karmine Corp Blue vs Skillcamp · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261007160000 +0000" stop="20261007192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Ruddy Corporation vs Anubis Gaming · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261007160000 +0000" stop="20261007192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Unicorns of Love Sexy Edition vs Kaufland Hangry Knights · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">TLN Pirates vs Movistar KOI Fénix · Playoffs · Bo5</desc>
@@ -239,17 +219,17 @@
   </programme>
   <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs Galions · Playoffs · Bo5</desc>
+    <desc lang="en">Kaufland Hangry Knights vs Galions · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs Solary · Playoffs · Bo5</desc>
+    <desc lang="en">G2 NORD vs Solary · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs Karmine Corp Blue · Playoffs · Bo5</desc>
+    <desc lang="en">Anubis Gaming vs Karmine Corp Blue · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261013160000 +0000" stop="20261013192000 +0000" channel="twitch.emeamasters">
