@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:39:09.796039+00:00",
+  "generated_at": "2026-10-07T00:07:16.194362+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1444,18 +1444,6 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-06T23:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Disguised vs LYON \u00b7 Week 7 \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115564797163886787"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-09-12T20:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -2746,6 +2734,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "oJ34Qm_tz7k",
+          "title": "LCS Promotion Tournament | CPD vs FUE | Quarterfinals",
+          "duration_seconds": 7112
+        },
+        {
           "id": "fwfFZb-f5pM",
           "title": "LCS Promotion Tournament | MU vs Z5 | Play-Ins",
           "duration_seconds": 9653
@@ -2767,7 +2760,7 @@
         },
         {
           "id": "x4MNG9N0dco",
-          "title": "Your LCS Championship Contenders | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
+          "title": "Kings of Summer | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
           "duration_seconds": 2574
         },
         {
@@ -2809,11 +2802,6 @@
           "id": "QZtxtSpTdMs",
           "title": "LCS Summer 2026 | SR vs SEN | Playoffs",
           "duration_seconds": 11175
-        },
-        {
-          "id": "miNTrZrpYgg",
-          "title": "Summer Kia All-Pro Teams Revealed! | The Dive Driven by Kia",
-          "duration_seconds": 6115
         },
         {
           "id": "9pMDpMza5HU",
