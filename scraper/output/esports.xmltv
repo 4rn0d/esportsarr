@@ -234,22 +234,22 @@
   </programme>
   <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs Solary · Playoffs · Bo5</desc>
+    <desc lang="en">TLN Pirates vs Movistar KOI Fénix · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">TLN Pirates vs Movistar KOI Fénix · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
     <desc lang="en">TBD vs Galions · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs Solary · Playoffs · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
+    <title lang="en">EMEA Masters</title>
+    <desc lang="en">TBD vs TBD · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261013160000 +0000" stop="20261013192000 +0000" channel="twitch.emeamasters">
@@ -272,14 +272,9 @@
     <desc lang="en">FURIA vs LOS · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261007090000 +0000" stop="20261007120000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">NRG vs T1 · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261007120000 +0000" stop="20261007150000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">Paper Rex vs LOUD · Playoffs · Bo3</desc>
+    <desc lang="en">LOUD vs Paper Rex · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="twitch.VALORANT">
@@ -294,7 +289,7 @@
   </programme>
   <programme start="20261009090000 +0000" stop="20261009120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs T1 · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261009120000 +0000" stop="20261009150000 +0000" channel="twitch.VALORANT">
@@ -304,7 +299,7 @@
   </programme>
   <programme start="20261010090000 +0000" stop="20261010120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">TBD vs NRG · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261010120000 +0000" stop="20261010150000 +0000" channel="twitch.VALORANT">
