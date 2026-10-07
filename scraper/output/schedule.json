@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:17:51.955141+00:00",
+  "generated_at": "2026-10-07T19:00:12.327775+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -480,18 +480,6 @@
       "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095097"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-27T19:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Gamespace M.C. vs MAGAZA \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819796765"
     },
     {
       "league": "EMEA Masters",
@@ -1312,6 +1300,18 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
+      "start": "2026-10-07T15:33:25.110000+00:00",
+      "state": "in_progress",
+      "title": "EMEA Masters",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
       "start": "2026-10-07T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
@@ -1341,7 +1341,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Anubis Gaming vs Ruddy Corporation \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Ruddy Corporation vs Anubis Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911375"
     },
@@ -1353,7 +1353,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Kaufland Hangry Knights vs Unicorns of Love Sexy Edition \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Unicorns of Love Sexy Edition vs Kaufland Hangry Knights \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911399"
     },
@@ -1401,7 +1401,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911411"
     },
@@ -1816,18 +1816,6 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-09-07T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Ruddy Corporation vs Arctic Pandas \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116878159559860091"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-09-09T16:00:00+00:00",
       "state": "completed",
       "title": "NLC",
@@ -2117,7 +2105,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-07T12:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2157,7 +2145,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs T1 \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Paper Rex vs T1 \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142769"
     },
@@ -2181,7 +2169,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs NRG \u00b7 Playoffs \u00b7 Bo3",
+      "description": "LOUD vs NRG \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142761"
     },
