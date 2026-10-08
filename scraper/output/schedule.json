@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:30:04.344220+00:00",
+  "generated_at": "2026-10-08T02:50:38.125635+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2710,6 +2710,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "Fdh-TJyXYpk",
+          "title": "LCS Promotion Tournament | MU vs DSG | Quarterfinals",
+          "duration_seconds": 8767
+        },
+        {
           "id": "oJ34Qm_tz7k",
           "title": "LCS Promotion Tournament | CPD vs FUE | Quarterfinals",
           "duration_seconds": 7112
@@ -2773,11 +2778,6 @@
           "id": "2vWB61NJx0w",
           "title": "LCS Summer 2026 | LYON vs C9 | Playoffs",
           "duration_seconds": 11204
-        },
-        {
-          "id": "QZtxtSpTdMs",
-          "title": "LCS Summer 2026 | SR vs SEN | Playoffs",
-          "duration_seconds": 11175
         },
         {
           "id": "9pMDpMza5HU",
