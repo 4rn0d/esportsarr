@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T02:50:38.125635+00:00",
+  "generated_at": "2026-10-08T09:42:16.729944+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1648,18 +1648,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-09-08T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "LGD GAMING vs Invictus Gaming \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117155436343202190"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-09-12T09:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -2117,11 +2105,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-08T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "100 Thieves vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "G2 Esports vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142741"
     },
