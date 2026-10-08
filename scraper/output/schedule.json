@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T16:57:05.013374+00:00",
+  "generated_at": "2026-10-08T21:45:01.334639+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2460,18 +2460,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-08T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "Shopify Rebellion Gold vs FlyQuest RED \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958259171"
     },
     {
       "league": "Game Changers NA",
