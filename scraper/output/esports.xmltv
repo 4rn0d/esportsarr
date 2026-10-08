@@ -252,16 +252,6 @@
     <desc lang="en">FURIA vs LOS · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261008090000 +0000" stop="20261008120000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">G2 Esports vs 100 Thieves · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261008120000 +0000" stop="20261008150000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">Team Vitality vs NONGSHIM REDFORCE · Playoffs · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261009090000 +0000" stop="20261009120000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
     <desc lang="en">Paper Rex vs T1 · Playoffs · Bo3</desc>
@@ -269,7 +259,7 @@
   </programme>
   <programme start="20261009120000 +0000" stop="20261009150000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">NONGSHIM REDFORCE vs 100 Thieves · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261010090000 +0000" stop="20261010120000 +0000" channel="twitch.VALORANT">
@@ -279,7 +269,7 @@
   </programme>
   <programme start="20261010120000 +0000" stop="20261010150000 +0000" channel="twitch.VALORANT">
     <title lang="en">Champions</title>
-    <desc lang="en">TBD vs TBD · Playoffs · Bo3</desc>
+    <desc lang="en">Team Vitality vs G2 Esports · Playoffs · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261011090000 +0000" stop="20261011120000 +0000" channel="twitch.VALORANT">

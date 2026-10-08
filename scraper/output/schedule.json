@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:42:16.729944+00:00",
+  "generated_at": "2026-10-08T16:57:05.013374+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2105,7 +2105,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-08T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2117,11 +2117,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-08T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "Team Vitality vs NONGSHIM REDFORCE \u00b7 Playoffs \u00b7 Bo3",
+      "description": "NONGSHIM REDFORCE vs Team Vitality \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142745"
     },
@@ -2145,7 +2145,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "NONGSHIM REDFORCE vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142765"
     },
@@ -2169,7 +2169,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "Team Vitality vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142757"
     },
@@ -2698,6 +2698,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "sYHnqpTS_Ew",
+          "title": "Worlds Play-Ins (and The Diveys) are so back! | The Dive Driven by Kia",
+          "duration_seconds": 6570
+        },
+        {
           "id": "Fdh-TJyXYpk",
           "title": "LCS Promotion Tournament | MU vs DSG | Quarterfinals",
           "duration_seconds": 8767
@@ -2761,11 +2766,6 @@
           "id": "BZFxP1pPzag",
           "title": "LCS Summer 2026 | TL vs FLY | Playoffs",
           "duration_seconds": 7855
-        },
-        {
-          "id": "2vWB61NJx0w",
-          "title": "LCS Summer 2026 | LYON vs C9 | Playoffs",
-          "duration_seconds": 11204
         },
         {
           "id": "9pMDpMza5HU",
