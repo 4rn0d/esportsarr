@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T21:45:01.334639+00:00",
+  "generated_at": "2026-10-09T01:28:15.664885+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2464,18 +2464,6 @@
     {
       "league": "Game Changers NA",
       "game": "valorant",
-      "start": "2026-09-08T23:30:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "HIMMERS vs The Spiders \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "116888595958259183"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
       "start": "2026-09-09T21:00:00+00:00",
       "state": "completed",
       "title": "Game Changers NA",
@@ -2686,6 +2674,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "hjjAIQudpJg",
+          "title": "LCS Promotion Tournament | MU vs CPD | Semifinals",
+          "duration_seconds": 7806
+        },
+        {
           "id": "sYHnqpTS_Ew",
           "title": "Worlds Play-Ins (and The Diveys) are so back! | The Dive Driven by Kia",
           "duration_seconds": 6570
@@ -2749,11 +2742,6 @@
           "id": "C9u4uc_xI68",
           "title": "Week of Upsets (Almost) | PROS ft. TLAW Spawn & Spookz and FLY Thinkcard & Apollo",
           "duration_seconds": 4397
-        },
-        {
-          "id": "BZFxP1pPzag",
-          "title": "LCS Summer 2026 | TL vs FLY | Playoffs",
-          "duration_seconds": 7855
         },
         {
           "id": "9pMDpMza5HU",
