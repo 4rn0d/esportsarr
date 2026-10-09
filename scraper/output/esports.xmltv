@@ -212,16 +212,6 @@
     <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Movistar KOI Fénix vs TLN Pirates · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261009160000 +0000" stop="20261009192000 +0000" channel="twitch.emeamasters">
-    <title lang="en">EMEA Masters</title>
-    <desc lang="en">Galions vs Kaufland Hangry Knights · Playoffs · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261010160000 +0000" stop="20261010192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">G2 NORD vs Solary · Playoffs · Bo5</desc>
@@ -234,7 +224,7 @@
   </programme>
   <programme start="20261013160000 +0000" stop="20261013192000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
-    <desc lang="en">TBD vs Galions · Playoffs · Bo5</desc>
+    <desc lang="en">Galions vs Movistar KOI Fénix · Playoffs · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261014160000 +0000" stop="20261014192000 +0000" channel="twitch.emeamasters">
