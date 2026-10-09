@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:43:58.452594+00:00",
+  "generated_at": "2026-10-09T14:40:59.915000+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2129,7 +2129,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-09T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2141,7 +2141,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-09T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2193,7 +2193,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs T1 \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461208317"
     },
