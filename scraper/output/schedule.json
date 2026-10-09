@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:40:59.915000+00:00",
+  "generated_at": "2026-10-09T19:45:08.700278+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -480,18 +480,6 @@
       "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095097"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-27T19:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Gamespace M.C. vs MAGAZA \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819796765"
     },
     {
       "league": "EMEA Masters",
@@ -1360,12 +1348,24 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
+      "start": "2026-10-09T15:27:29.630000+00:00",
+      "state": "in_progress",
+      "title": "EMEA Masters",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
       "start": "2026-10-09T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TLN Pirates vs Movistar KOI F\u00e9nix \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Movistar KOI F\u00e9nix vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911417"
     },
@@ -1377,7 +1377,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Kaufland Hangry Knights vs Galions \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Galions vs Kaufland Hangry Knights \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911423"
     },
@@ -1413,7 +1413,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Galions \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911435"
     },
@@ -1804,18 +1804,6 @@
     {
       "league": "NLC",
       "game": "lol",
-      "start": "2026-09-09T16:00:00+00:00",
-      "state": "completed",
-      "title": "NLC",
-      "stream_platform": "twitch",
-      "stream_channel": "NLCLoL",
-      "description": "Verdant vs Deer Gaming \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116878159559860105"
-    },
-    {
-      "league": "NLC",
-      "game": "lol",
       "start": "2026-09-14T16:00:00+00:00",
       "state": "completed",
       "title": "NLC",
@@ -2141,7 +2129,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-09T12:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2181,7 +2169,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "TBD vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142777"
     },
