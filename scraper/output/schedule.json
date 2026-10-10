@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T15:20:04.465279+00:00",
+  "generated_at": "2026-10-10T19:24:03.772195+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -480,18 +480,6 @@
       "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095097"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-27T19:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Gamespace M.C. vs MAGAZA \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819796765"
     },
     {
       "league": "EMEA Masters",
@@ -1384,12 +1372,24 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
+      "start": "2026-10-10T15:43:05.245000+00:00",
+      "state": "in_progress",
+      "title": "EMEA Masters",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "EMEA Masters",
+      "game": "lol",
       "start": "2026-10-10T16:00:00+00:00",
       "state": "unstarted",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "G2 NORD vs Solary \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Solary vs G2 NORD \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911405"
     },
@@ -1401,7 +1401,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Anubis Gaming vs Karmine Corp Blue \u00b7 Playoffs \u00b7 Bo5",
+      "description": "Karmine Corp Blue vs Anubis Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911411"
     },
@@ -1425,7 +1425,7 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Anubis Gaming \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911429"
     },
@@ -1792,20 +1792,8 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-10-10T15:14:04.964000+00:00",
-      "state": "in_progress",
-      "title": "CBLOL",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-10-10T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "CBLOL",
       "stream_platform": "twitch",
       "stream_channel": "cblol",
