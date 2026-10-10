@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:03:17.469626+00:00",
+  "generated_at": "2026-10-10T15:20:04.465279+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1792,6 +1792,18 @@
     {
       "league": "CBLOL",
       "game": "lol",
+      "start": "2026-10-10T15:14:04.964000+00:00",
+      "state": "in_progress",
+      "title": "CBLOL",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "CBLOL",
+      "game": "lol",
       "start": "2026-10-10T16:00:00+00:00",
       "state": "unstarted",
       "title": "CBLOL",
@@ -2141,7 +2153,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-10T09:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2153,11 +2165,11 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-10T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "Team Vitality vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
+      "description": "G2 Esports vs Team Vitality \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142757"
     },
@@ -2169,7 +2181,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
+      "description": "100 Thieves vs NRG \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142777"
     },
@@ -2181,7 +2193,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs T1 \u00b7 Playoffs \u00b7 Bo3",
+      "description": "T1 vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461208317"
     },
@@ -2193,7 +2205,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "LOUD vs Team Vitality \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142773"
     },
