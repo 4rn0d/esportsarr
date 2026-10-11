@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:27:10.416795+00:00",
+  "generated_at": "2026-10-11T14:16:36.191145+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2164,8 +2164,20 @@
     {
       "league": "Champions",
       "game": "valorant",
+      "start": "2026-10-11T08:30:38.441000+00:00",
+      "state": "in_progress",
+      "title": "Champions",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "Champions",
+      "game": "valorant",
       "start": "2026-10-11T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2177,7 +2189,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-11T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2205,7 +2217,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo3",
+      "description": "G2 Esports vs 100 Thieves \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461208321"
     },
