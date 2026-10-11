@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T14:16:36.191145+00:00",
+  "generated_at": "2026-10-11T19:03:49.932858+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1564,18 +1564,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-09-11T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "GIANTX vs Natus Vincere \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115548681803406309"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-09-12T15:00:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -2160,18 +2148,6 @@
       "description": "G2 Esports vs Team Vitality \u00b7 Playoffs \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115576361461142757"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-11T08:30:38.441000+00:00",
-      "state": "in_progress",
-      "title": "Champions",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
     },
     {
       "league": "Champions",
