@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:54:51.389138+00:00",
+  "generated_at": "2026-10-12T08:16:29.473148+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1608,18 +1608,6 @@
       "description": "G2 Esports vs Movistar KOI \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115548681803406333"
-    },
-    {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-09-12T05:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Hanwha Life Esports vs T1 \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841637"
     },
     {
       "league": "LCK",
