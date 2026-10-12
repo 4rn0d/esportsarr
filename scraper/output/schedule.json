@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:16:29.473148+00:00",
+  "generated_at": "2026-10-12T18:04:36.090558+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -9,9 +9,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "FURIA vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "Cloud9 Kia vs Karmine Corp \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660588583040710"
+      "match_id": "115660588583171786"
     },
     {
       "league": "Worlds",
@@ -21,9 +21,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Cloud9 Kia vs Karmine Corp \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "FURIA vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660588583171786"
+      "match_id": "115660588583040710"
     },
     {
       "league": "Worlds",
@@ -1564,18 +1564,6 @@
     {
       "league": "LEC",
       "game": "lol",
-      "start": "2026-09-12T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "Team Vitality vs Movistar KOI \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115548681803406315"
-    },
-    {
-      "league": "LEC",
-      "game": "lol",
       "start": "2026-09-18T15:00:00+00:00",
       "state": "completed",
       "title": "LEC",
@@ -1624,18 +1612,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-09-12T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Invictus Gaming vs Anyone's Legend \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117155436343202196"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-09-13T09:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -1680,18 +1656,6 @@
       "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-09-12T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "FURIA vs LOS \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526403069"
     },
     {
       "league": "CBLOL",
