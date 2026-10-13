@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:59:44.058385+00:00",
+  "generated_at": "2026-10-13T20:32:25.867447+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1409,7 +1409,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-13T16:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -1437,21 +1437,9 @@
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-09-13T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "FlyQuest vs Sentinels \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949381"
     },
     {
       "league": "LCS",
@@ -1620,18 +1608,6 @@
       "description": "Beijing JDG Esports vs Invictus Gaming \u00b7 Regional Qualifier \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116957100120526836"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-09-13T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "paiN Gaming vs LOUD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526403075"
     },
     {
       "league": "CBLOL",
@@ -2535,7 +2511,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "XTCd_8-8C3o",
+      "topic": "Only FOUR teams remain! LIVE in Shanghai \u2014 Plat Chat VALORANT",
+      "episode": 282,
+      "real_start": "2026-10-15T11:45:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
