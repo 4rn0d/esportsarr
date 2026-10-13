@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:04:36.090558+00:00",
+  "generated_at": "2026-10-13T00:35:23.896600+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1440,18 +1440,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-09-12T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949375"
     },
     {
       "league": "LCS",
