@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:35:23.896600+00:00",
+  "generated_at": "2026-10-13T07:05:31.039385+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1586,18 +1586,6 @@
       "match_id": "115548681803406333"
     },
     {
-      "league": "LCK",
-      "game": "lol",
-      "start": "2026-09-13T05:00:00+00:00",
-      "state": "completed",
-      "title": "LCK",
-      "stream_platform": "twitch",
-      "stream_channel": "lck",
-      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117030752644841643"
-    },
-    {
       "league": "LPL",
       "game": "lol",
       "start": "2026-09-13T09:00:00+00:00",
@@ -2578,6 +2566,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "_hxF-oOg3g8",
+          "title": "LCS Promotion Tournament | DSG vs MU | Grand Final",
+          "duration_seconds": 5680
+        },
+        {
           "id": "UXRb9LDXsD0",
           "title": "LCS Promotion Tournament | CPD vs DSG | Lower Bracket Finals",
           "duration_seconds": 6996
@@ -2646,11 +2639,6 @@
           "id": "MyhFr03s0Xw",
           "title": "LCS Summer 2026 | SR vs FLY | Playoffs",
           "duration_seconds": 10569
-        },
-        {
-          "id": "fsXbPu_qe1w",
-          "title": "Kia Rookie of the Year Revealed! | The Dive Driven by Kia",
-          "duration_seconds": 5141
         },
         {
           "id": "9pMDpMza5HU",
