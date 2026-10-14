@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:40:58.530275+00:00",
+  "generated_at": "2026-10-14T08:00:59.341963+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2340,18 +2340,6 @@
       "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-14T07:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Rising Esports GC vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503024"
     },
     {
       "league": "Game Changers Pacific",
