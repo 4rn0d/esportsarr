@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:05:35.389879+00:00",
+  "generated_at": "2026-10-15T04:31:34.339926+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2676,6 +2676,11 @@
       ],
       "valorant": [
         {
+          "id": "rym_wLGSbBc",
+          "title": "AKV vs MIBR -\u00a0 Verizon Game Changers Americas Last Chance Qualifier - Day 01",
+          "duration_seconds": 5126
+        },
+        {
           "id": "mk6rOw1muHM",
           "title": "MIBR vs FLY -\u00a0 Verizon Game Changers Americas Last Chance Qualifier - Day 01",
           "duration_seconds": 4863
@@ -2754,11 +2759,6 @@
           "id": "DPF3Hvtn2as",
           "title": "SWIM vs C9.GC -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 1",
           "duration_seconds": 5164
-        },
-        {
-          "id": "-HZogCvrhuY",
-          "title": "SPID vs AXL - Verizon Game Changers NA Stage 2 Main Event - Day 1",
-          "duration_seconds": 4747
         },
         {
           "id": "3vQuOg1QU5c",
