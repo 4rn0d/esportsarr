@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T04:31:34.339926+00:00",
+  "generated_at": "2026-10-15T09:24:10.718535+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2328,42 +2328,6 @@
       "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-15T05:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "swaglord9000 vs Team Falcons Vega \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503032"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-15T07:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Sasanqua vs FULL SENSE SISU \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503036"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-15T09:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "FENNEL HOTELAVA vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503040"
     },
     {
       "league": "Game Changers Pacific",
