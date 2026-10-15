@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:24:10.718535+00:00",
+  "generated_at": "2026-10-15T14:15:11.687972+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2439,12 +2439,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "XTCd_8-8C3o",
-      "topic": "Only FOUR teams remain! LIVE in Shanghai \u2014 Plat Chat VALORANT",
-      "episode": 282,
-      "real_start": "2026-10-15T11:45:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
