@@ -11,7 +11,7 @@
   </channel>
   <programme start="20261015180000 +0000" stop="20261015212000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">Cloud9 Kia vs Karmine Corp · Play-Ins · Bo5</desc>
+    <desc lang="en">Karmine Corp vs Cloud9 Kia · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261015230000 +0000" stop="20261016022000 +0000" channel="twitch.riotgames">
@@ -205,6 +205,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261103220000 +0000" stop="20261104012000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261104220000 +0000" stop="20261105012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>

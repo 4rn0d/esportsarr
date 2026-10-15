@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-15T14:15:11.687972+00:00",
+  "generated_at": "2026-10-15T18:19:08.780673+00:00",
   "matches": [
     {
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-15T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Cloud9 Kia vs Karmine Corp \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "Karmine Corp vs Cloud9 Kia \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660588583171786"
     },
@@ -480,6 +480,18 @@
       "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095097"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-11-04T22:00:00+00:00",
+      "state": "unstarted",
+      "title": "Worlds",
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115660540726095103"
     },
     {
       "league": "EMEA Masters",
