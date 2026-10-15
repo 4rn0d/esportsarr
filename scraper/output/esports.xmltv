@@ -9,24 +9,19 @@
   <channel id="twitch.VALORANT">
     <display-name>Champions</display-name>
   </channel>
-  <programme start="20261015180000 +0000" stop="20261015212000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Karmine Corp vs Cloud9 Kia · Play-Ins · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261015230000 +0000" stop="20261016022000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">FURIA vs MVK Esports · Play-Ins · Bo5</desc>
+    <desc lang="en">MVK Esports vs FURIA · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261016180000 +0000" stop="20261016212000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <desc lang="en">TBD vs Karmine Corp · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261016230000 +0000" stop="20261017022000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Play-Ins · Bo5</desc>
+    <desc lang="en">TBD vs Cloud9 Kia · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261017180000 +0000" stop="20261017212000 +0000" channel="twitch.riotgames">
@@ -210,6 +205,11 @@
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261104220000 +0000" stop="20261105012000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261105220000 +0000" stop="20261106012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>

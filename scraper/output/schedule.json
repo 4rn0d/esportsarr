@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T21:34:06.536575+00:00",
+  "generated_at": "2026-10-15T23:50:29.784220+00:00",
   "matches": [
     {
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-15T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -17,11 +17,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-15T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "FURIA vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "MVK Esports vs FURIA \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660588583040710"
     },
@@ -33,7 +33,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "TBD vs Karmine Corp \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660588583171790"
     },
@@ -45,7 +45,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "TBD vs Cloud9 Kia \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660588583171794"
     },
@@ -492,6 +492,18 @@
       "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095103"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-11-05T22:00:00+00:00",
+      "state": "unstarted",
+      "title": "Worlds",
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115660540726095109"
     },
     {
       "league": "EMEA Masters",
