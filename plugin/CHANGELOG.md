@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.6.0](https://github.com/4rn0d/esportsarr/compare/esportsarr-v0.5.0...esportsarr-v0.6.0) (2026-08-03)
+
+
+### Features
+
+* add new ligues and change plugin settings ([238d74d](https://github.com/4rn0d/esportsarr/commit/238d74db1d6c8d63f5f23676703ef4b4f5d5b1ad))
+* add per format (bo?) estimated durations ([6d1deb3](https://github.com/4rn0d/esportsarr/commit/6d1deb3f36afcfbb490abcecec418f94cdf5f925))
+* added offtime content ([1edbea9](https://github.com/4rn0d/esportsarr/commit/1edbea9bb16a6de44283564901d6c72caf90886a))
+
+
+### Bug Fixes
+
+* lfl missing and change title ([9b6e84e](https://github.com/4rn0d/esportsarr/commit/9b6e84e31f6438404d5d63988248c37e2b43c614))
+* match duration handling for esports games ([2177b41](https://github.com/4rn0d/esportsarr/commit/2177b41fd93e5b9976c074141e33ac8fc9d06ddc))
+* missing games ([cab20f0](https://github.com/4rn0d/esportsarr/commit/cab20f07cd4d898bffd006f2cbcc48f17b174493))
+* missing gc game ([2bd5766](https://github.com/4rn0d/esportsarr/commit/2bd5766b259444099ba7921dbc1fdc3bd36c87d4))
+* missing streams ([f46a014](https://github.com/4rn0d/esportsarr/commit/f46a0140aaf1eb23da0c5d4525d20b19f54fc874))
+* rechecked priority order ([a7bacf1](https://github.com/4rn0d/esportsarr/commit/a7bacf17e4e37b8aa6fdc3add916d84ff39b8aaa))
+* remove useless comments ([b19af2b](https://github.com/4rn0d/esportsarr/commit/b19af2bf146e2a123c8ffbd42727e974b759c56d))
+* remove weird generic place older ([a7bacf1](https://github.com/4rn0d/esportsarr/commit/a7bacf17e4e37b8aa6fdc3add916d84ff39b8aaa))
+* removed category from fillers ([a7bacf1](https://github.com/4rn0d/esportsarr/commit/a7bacf17e4e37b8aa6fdc3add916d84ff39b8aaa))
+* update project_schedule and build_guide_entries to use claimed_at for match timings ([d382573](https://github.com/4rn0d/esportsarr/commit/d3825733594becf9b96c01772065be7775e2d542))
+
 ## [0.5.0](https://github.com/4rn0d/esportsarr/compare/esportsarr-v0.4.0...esportsarr-v0.5.0) (2026-07-29)
 
 
