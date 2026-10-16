@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T23:50:29.784220+00:00",
+  "generated_at": "2026-10-16T02:13:14.049548+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -17,7 +17,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-15T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -33,7 +33,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs Karmine Corp \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "Karmine Corp vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660588583171790"
     },
@@ -45,7 +45,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs Cloud9 Kia \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "Cloud9 Kia vs FURIA \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660588583171794"
     },
