@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:13:14.049548+00:00",
+  "generated_at": "2026-10-16T07:08:34.728672+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2081,7 +2081,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-16T06:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2133,7 +2133,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "FENNEL HOTELAVA vs Made In Brazil \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540104"
     },
@@ -2145,7 +2145,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "SK Nebula vs Nova Esports GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540108"
     },
@@ -2157,7 +2157,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "Team Liquid VISA vs Gentle Mates \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540112"
     },
@@ -2169,7 +2169,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "VISA KR\u00dc Blaze vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540116"
     },
@@ -2181,7 +2181,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs G2 Gozen \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540120"
     },
@@ -2193,7 +2193,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs Shopify Rebellion Gold \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540124"
     },
@@ -2352,30 +2352,6 @@
       "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-16T05:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Team Falcons Vega vs FULL SENSE SISU \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503044"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-16T07:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "WIWIWI vs Rising Esports GC \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503048"
     },
     {
       "league": "Game Changers Pacific",
@@ -2659,6 +2635,11 @@
       ],
       "valorant": [
         {
+          "id": "JIEbyRUErEs",
+          "title": "FLY vs MIBR -\u00a0 Verizon Game Changers Americas Last Chance Qualifier Final",
+          "duration_seconds": 13158
+        },
+        {
           "id": "rym_wLGSbBc",
           "title": "AKV vs MIBR -\u00a0 Verizon Game Changers Americas Last Chance Qualifier - Day 01",
           "duration_seconds": 5126
@@ -2737,11 +2718,6 @@
           "id": "KZ-e_v-9usM",
           "title": "FLY vs AXL - Verizon Game Changers NA Stage 2 Main Event - Day 2",
           "duration_seconds": 9088
-        },
-        {
-          "id": "DPF3Hvtn2as",
-          "title": "SWIM vs C9.GC -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 1",
-          "duration_seconds": 5164
         },
         {
           "id": "3vQuOg1QU5c",
