@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:08:34.728672+00:00",
+  "generated_at": "2026-10-16T12:22:09.844563+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2081,7 +2081,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-16T06:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2093,7 +2093,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-16T09:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2109,7 +2109,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Playoffs \u00b7 Bo5",
+      "description": "TBD vs Team Vitality \u00b7 Playoffs \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115576361461208325"
     },
@@ -2121,7 +2121,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "description": "TBD vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115576361461208331"
     },
@@ -2352,18 +2352,6 @@
       "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116888595958259193"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-16T09:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Sasanqua vs swaglord9000 \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503052"
     },
     {
       "league": "Game Changers Pacific",
