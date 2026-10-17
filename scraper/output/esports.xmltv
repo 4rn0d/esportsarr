@@ -9,14 +9,9 @@
   <channel id="twitch.VALORANT">
     <display-name>Champions</display-name>
   </channel>
-  <programme start="20261016230000 +0000" stop="20261017022000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">FURIA vs Cloud9 Kia · Play-Ins · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261017180000 +0000" stop="20261017212000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs MVK Esports · Play-Ins · Bo5</desc>
+    <desc lang="en">MVK Esports vs FURIA · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261018180000 +0000" stop="20261018212000 +0000" channel="twitch.riotgames">
@@ -207,6 +202,11 @@
   <programme start="20261106220000 +0000" stop="20261107012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <category lang="en">Esports</category>
+  </programme>
+  <programme start="20261107220000 +0000" stop="20261108012000 +0000" channel="twitch.riotgames">
+    <title lang="en">Worlds</title>
+    <desc lang="en">TBD vs TBD · Semifinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261022120000 +0000" stop="20261022152000 +0000" channel="twitch.emeamasters">
