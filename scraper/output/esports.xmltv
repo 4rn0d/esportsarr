@@ -9,14 +9,9 @@
   <channel id="twitch.VALORANT">
     <display-name>Champions</display-name>
   </channel>
-  <programme start="20261017180000 +0000" stop="20261017212000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">MVK Esports vs FURIA · Play-Ins · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261018180000 +0000" stop="20261018212000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs Karmine Corp · Play-Ins · Bo5</desc>
+    <desc lang="en">Karmine Corp vs MVK Esports · Play-Ins · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="twitch.riotgames">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T20:47:36.326766+00:00",
+  "generated_at": "2026-10-17T22:46:10.753609+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -53,7 +53,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-17T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -69,7 +69,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs Karmine Corp \u00b7 Play-Ins \u00b7 Bo5",
+      "description": "Karmine Corp vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
       "best_of": 5,
       "match_id": "116299649498303884"
     },
@@ -2352,18 +2352,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
-    },
-    {
-      "league": "Game Changers NA",
-      "game": "valorant",
-      "start": "2026-09-17T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers NA",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_americas",
-      "description": "FlyQuest RED vs Shopify Rebellion Gold \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116888595958259193"
     },
     {
       "league": "Game Changers Pacific",
