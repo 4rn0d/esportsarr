@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T09:00:59.471596+00:00",
+  "generated_at": "2026-10-17T12:56:08.304422+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2105,7 +2105,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-17T07:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2121,7 +2121,7 @@
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs LOUD \u00b7 Finals \u00b7 Bo5",
+      "description": "Team Vitality vs LOUD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115576361461208331"
     },
