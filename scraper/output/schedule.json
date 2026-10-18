@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T04:57:45.891999+00:00",
+  "generated_at": "2026-10-18T09:18:47.456539+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1636,18 +1636,6 @@
     {
       "league": "LPL",
       "game": "lol",
-      "start": "2026-09-18T09:00:00+00:00",
-      "state": "completed",
-      "title": "LPL",
-      "stream_platform": "youtube",
-      "stream_channel": "LPL_English",
-      "description": "Xi'an Team WE vs Beijing JDG Esports \u00b7 Regional Qualifier \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116957100120526830"
-    },
-    {
-      "league": "LPL",
-      "game": "lol",
       "start": "2026-09-19T09:00:00+00:00",
       "state": "completed",
       "title": "LPL",
@@ -2128,20 +2116,8 @@
     {
       "league": "Champions",
       "game": "valorant",
-      "start": "2026-10-18T04:32:54.582000+00:00",
-      "state": "in_progress",
-      "title": "Champions",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
       "start": "2026-10-18T06:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2364,30 +2340,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-18T07:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "FENNEL HOTELAVA vs Team Falcons Vega \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781503056"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-18T09:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Gen.G GC vs FULL SENSE SISU \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117110122781568604"
     },
     {
       "league": "Game Changers Pacific",
