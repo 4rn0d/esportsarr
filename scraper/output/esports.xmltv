@@ -9,49 +9,44 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261018180000 +0000" stop="20261018212000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Karmine Corp vs MVK Esports · Play-Ins · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">Gen.G Esports vs Invictus Gaming · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">Team Liquid Alienware vs CTBC Flying Oyster · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">Anyone's Legend vs Karmine Corp · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023200000 +0000" stop="20261023210000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">G2 Esports vs Dplus KIA · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023210000 +0000" stop="20261023220000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">Hanwha Life Esports vs TOP ESPORTS · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023220000 +0000" stop="20261023230000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">LOS vs T1 · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023230000 +0000" stop="20261024000000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">Team Secret Whales vs LYON · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261024000000 +0000" stop="20261024010000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Swiss · Bo1</desc>
+    <desc lang="en">BILIBILI GAMING vs Movistar KOI · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261024170000 +0000" stop="20261024180000 +0000" channel="twitch.riotgames">

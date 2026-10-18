@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:55:28.200454+00:00",
+  "generated_at": "2026-10-18T21:10:36.354373+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -65,7 +65,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-18T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -81,7 +81,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "Gen.G Esports vs Invictus Gaming \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095005"
     },
@@ -93,7 +93,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "Team Liquid Alienware vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095007"
     },
@@ -105,7 +105,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "Anyone's Legend vs Karmine Corp \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095009"
     },
@@ -117,7 +117,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "G2 Esports vs Dplus KIA \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095011"
     },
@@ -129,7 +129,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "Hanwha Life Esports vs TOP ESPORTS \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095013"
     },
@@ -141,7 +141,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "LOS vs T1 \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095015"
     },
@@ -153,7 +153,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "Team Secret Whales vs LYON \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095017"
     },
@@ -165,7 +165,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo1",
+      "description": "BILIBILI GAMING vs Movistar KOI \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095019"
     },
@@ -1512,18 +1512,6 @@
       "description": "Galions vs Solary \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-09-18T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs Sentinels \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949399"
     },
     {
       "league": "LCS",
