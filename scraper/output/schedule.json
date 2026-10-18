@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:38:48.857518+00:00",
+  "generated_at": "2026-10-18T18:55:28.200454+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -65,7 +65,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-18T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -540,6 +540,18 @@
       "description": "TBD vs TBD \u00b7 Semifinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095127"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-11-14T19:00:00+00:00",
+      "state": "unstarted",
+      "title": "Worlds",
+      "stream_platform": "twitch",
+      "stream_channel": "riotgames",
+      "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
+      "best_of": 5,
+      "match_id": "115660540726095133"
     },
     {
       "league": "EMEA Masters",
