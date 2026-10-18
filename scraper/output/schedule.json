@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:18:47.456539+00:00",
+  "generated_at": "2026-10-18T13:23:43.534006+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2117,7 +2117,7 @@
       "league": "Champions",
       "game": "valorant",
       "start": "2026-10-18T06:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Champions",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",

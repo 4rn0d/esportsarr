@@ -7,7 +7,7 @@
     <display-name>EMEA Masters</display-name>
   </channel>
   <channel id="twitch.VALORANT">
-    <display-name>Champions</display-name>
+    <display-name>Game Changers Championship</display-name>
   </channel>
   <programme start="20261018180000 +0000" stop="20261018212000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
@@ -212,11 +212,6 @@
   <programme start="20261022120000 +0000" stop="20261022152000 +0000" channel="twitch.emeamasters">
     <title lang="en">EMEA Masters</title>
     <desc lang="en">Galions vs Solary · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261018060000 +0000" stop="20261018113000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Champions</title>
-    <desc lang="en">Team Vitality vs LOUD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261022180000 +0000" stop="20261022210000 +0000" channel="twitch.VALORANT">
