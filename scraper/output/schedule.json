@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T06:35:18.503575+00:00",
+  "generated_at": "2026-10-20T12:09:46.541728+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2280,18 +2280,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
-    },
-    {
-      "league": "Game Changers Pacific",
-      "game": "valorant",
-      "start": "2026-09-20T07:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Pacific",
-      "stream_platform": "twitch",
-      "stream_channel": "valorant_pacific",
-      "description": "Gen.G GC vs FENNEL HOTELAVA \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117110122781568614"
     }
   ],
   "supplemental": {
