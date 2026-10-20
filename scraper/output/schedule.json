@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:57:28.201542+00:00",
+  "generated_at": "2026-10-20T20:16:10.414858+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1512,18 +1512,6 @@
       "description": "Galions vs Solary \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-09-20T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Team Liquid Alienware vs FlyQuest \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949393"
     },
     {
       "league": "LCS",
