@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T12:09:46.541728+00:00",
+  "generated_at": "2026-10-20T16:57:28.201542+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1586,30 +1586,6 @@
       "match_id": "115565004607949429"
     },
     {
-      "league": "LEC",
-      "game": "lol",
-      "start": "2026-09-20T15:00:00+00:00",
-      "state": "completed",
-      "title": "LEC",
-      "stream_platform": "twitch",
-      "stream_channel": "lec",
-      "description": "G2 Esports vs Movistar KOI \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115548681803406333"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-09-20T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "RED Kalunga vs paiN Gaming \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526468629"
-    },
-    {
       "league": "CBLOL",
       "game": "lol",
       "start": "2026-09-26T16:00:00+00:00",
@@ -2302,6 +2278,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "02NuWBDty_E",
+          "title": "Welcome to Worlds Swiss Stage! Play-Ins Recap and Swiss Bracket Breakdown | The Dive Driven by Kia",
+          "duration_seconds": 5796
+        },
+        {
           "id": "_hxF-oOg3g8",
           "title": "LCS Promotion Tournament | DSG vs MU | Grand Final",
           "duration_seconds": 5680
@@ -2370,11 +2351,6 @@
           "id": "xrpKgobdXMA",
           "title": "LCS Summer 2026 | SR vs LYON | Regular Season",
           "duration_seconds": 9289
-        },
-        {
-          "id": "MyhFr03s0Xw",
-          "title": "LCS Summer 2026 | SR vs FLY | Playoffs",
-          "duration_seconds": 10569
         },
         {
           "id": "Ewsg-JYQhkk",
