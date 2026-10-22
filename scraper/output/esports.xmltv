@@ -206,14 +206,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261022180000 +0000" stop="20261022210000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Game Changers Championship</title>
-    <desc lang="en">Made In Brazil vs FENNEL HOTELAVA · Knockouts · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261022210000 +0000" stop="20261023000000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">SK Nebula vs Nova Esports GC · Knockouts · Bo3</desc>
+    <desc lang="en">Nova Esports GC vs SK Nebula · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="twitch.VALORANT">
@@ -228,7 +223,7 @@
   </programme>
   <programme start="20261024180000 +0000" stop="20261024210000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">TBD vs G2 Gozen · Knockouts · Bo3</desc>
+    <desc lang="en">Made In Brazil vs G2 Gozen · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261024210000 +0000" stop="20261025000000 +0000" channel="twitch.VALORANT">
@@ -238,7 +233,7 @@
   </programme>
   <programme start="20261025180000 +0000" stop="20261025210000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
+    <desc lang="en">TBD vs FENNEL HOTELAVA · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261025210000 +0000" stop="20261026000000 +0000" channel="twitch.VALORANT">
