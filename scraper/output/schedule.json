@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:48:23.769246+00:00",
+  "generated_at": "2026-10-22T13:18:14.449565+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1505,11 +1505,11 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-22T12:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
-      "description": "Galions vs Solary \u00b7 Finals \u00b7 Bo5",
+      "description": "Solary vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
     },
