@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:18:14.449565+00:00",
+  "generated_at": "2026-10-22T18:04:01.429508+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1505,7 +1505,7 @@
       "league": "EMEA Masters",
       "game": "lol",
       "start": "2026-10-22T12:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "EMEA Masters",
       "stream_platform": "twitch",
       "stream_channel": "emeamasters",
@@ -2033,11 +2033,11 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-22T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "FENNEL HOTELAVA vs Made In Brazil \u00b7 Knockouts \u00b7 Bo3",
+      "description": "Made In Brazil vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540104"
     },
