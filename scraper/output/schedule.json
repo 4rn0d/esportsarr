@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:30:52.186600+00:00",
+  "generated_at": "2026-10-23T00:09:15.588065+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -2045,7 +2045,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-22T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2097,7 +2097,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs Shopify Rebellion Gold \u00b7 Knockouts \u00b7 Bo3",
+      "description": "SK Nebula vs Shopify Rebellion Gold \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540124"
     },
@@ -2121,7 +2121,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs Nova Esports GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540128"
     },
