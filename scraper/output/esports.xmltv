@@ -6,14 +6,9 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Gen.G Esports vs Invictus Gaming · Swiss · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261023180000 +0000" stop="20261023190000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">Hanwha Life Esports vs TOP ESPORTS · Swiss · Bo1</desc>
+    <desc lang="en">TOP ESPORTS vs Hanwha Life Esports · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="twitch.riotgames">
@@ -208,7 +203,7 @@
   </programme>
   <programme start="20261023180000 +0000" stop="20261023210000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">Team Liquid VISA vs Gentle Mates · Knockouts · Bo3</desc>
+    <desc lang="en">Gentle Mates vs Team Liquid VISA · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261023210000 +0000" stop="20261024000000 +0000" channel="twitch.VALORANT">
