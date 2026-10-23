@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:39:44.187223+00:00",
+  "generated_at": "2026-10-23T23:59:24.307767+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -125,7 +125,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-23T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -137,7 +137,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-23T22:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -149,7 +149,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-23T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -2069,7 +2069,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-23T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2109,7 +2109,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
+      "description": "FENNEL HOTELAVA vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540132"
     },
@@ -2169,7 +2169,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs VISA KR\u00dc Blaze \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540140"
     },
