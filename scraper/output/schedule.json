@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:21:03.787881+00:00",
+  "generated_at": "2026-10-24T18:53:49.492137+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -172,24 +172,12 @@
     {
       "league": "Worlds",
       "game": "lol",
-      "start": "2026-10-24T16:01:54.634000+00:00",
-      "state": "in_progress",
-      "title": "Worlds",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
       "start": "2026-10-24T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Anyone's Legend vs TOP ESPORTS \u00b7 Swiss \u00b7 Bo1",
+      "description": "TOP ESPORTS vs Anyone's Legend \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095029"
     },
@@ -197,11 +185,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-24T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "CTBC Flying Oyster vs Movistar KOI \u00b7 Swiss \u00b7 Bo1",
+      "description": "Movistar KOI vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095021"
     },
@@ -2069,7 +2057,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-24T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
