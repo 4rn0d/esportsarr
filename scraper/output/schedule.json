@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:49:01.046487+00:00",
+  "generated_at": "2026-10-24T16:21:03.787881+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -168,6 +168,18 @@
       "description": "LYON vs Team Secret Whales \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095017"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-10-24T16:01:54.634000+00:00",
+      "state": "in_progress",
+      "title": "Worlds",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "Worlds",
@@ -2293,7 +2305,7 @@
         },
         {
           "id": "8Mdtj9TMxWQ",
-          "title": "LCS Summer 2026 | TL vs LYON | Finals",
+          "title": "LCS Summer 2026 | TLAW vs LYON | Finals",
           "duration_seconds": 11305
         },
         {
