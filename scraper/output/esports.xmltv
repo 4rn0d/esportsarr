@@ -6,19 +6,9 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261024210000 +0000" stop="20261024220000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Team Secret Whales vs Invictus Gaming · Swiss · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261024220000 +0000" stop="20261024230000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Gen.G Esports vs Hanwha Life Esports · Swiss · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261024230000 +0000" stop="20261025000000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">T1 vs Dplus KIA · Swiss · Bo1</desc>
+    <desc lang="en">Dplus KIA vs T1 · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261025000000 +0000" stop="20261025010000 +0000" channel="twitch.riotgames">
@@ -146,11 +136,6 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261024210000 +0000" stop="20261025000000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Game Changers Championship</title>
-    <desc lang="en">SK Nebula vs Shopify Rebellion Gold · Knockouts · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261025180000 +0000" stop="20261025210000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
     <desc lang="en">FENNEL HOTELAVA vs Gen.G GC · Knockouts · Bo3</desc>
@@ -163,7 +148,7 @@
   </programme>
   <programme start="20261026180000 +0000" stop="20261026210000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">TBD vs TBD · Knockouts · Bo3</desc>
+    <desc lang="en">TBD vs SK Nebula · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261026210000 +0000" stop="20261027000000 +0000" channel="twitch.VALORANT">
@@ -178,7 +163,7 @@
   </programme>
   <programme start="20261027210000 +0000" stop="20261028000000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">TBD vs VISA KRÜ Blaze · Knockouts · Bo3</desc>
+    <desc lang="en">VISA KRÜ Blaze vs Shopify Rebellion Gold · Knockouts · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261028180000 +0000" stop="20261028210000 +0000" channel="twitch.VALORANT">

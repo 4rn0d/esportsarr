@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:19:00.816532+00:00",
+  "generated_at": "2026-10-24T23:28:29.337509+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -221,7 +221,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-24T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -233,11 +233,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-24T22:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Gen.G Esports vs Hanwha Life Esports \u00b7 Swiss \u00b7 Bo1",
+      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095025"
     },
@@ -245,11 +245,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-24T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "T1 vs Dplus KIA \u00b7 Swiss \u00b7 Bo1",
+      "description": "Dplus KIA vs T1 \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095027"
     },
@@ -2069,7 +2069,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-24T21:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2109,7 +2109,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs SK Nebula \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540148"
     },
@@ -2145,7 +2145,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs VISA KR\u00dc Blaze \u00b7 Knockouts \u00b7 Bo3",
+      "description": "VISA KR\u00dc Blaze vs Shopify Rebellion Gold \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540140"
     },
@@ -2410,11 +2410,6 @@
           "id": "cUZZ2A8frYo",
           "title": "Doomed LPL Teams and Role Quest Frustrations - LPL English Podcast Episode 20",
           "duration_seconds": 5822
-        },
-        {
-          "id": "4QVqIVvYYbw",
-          "title": "MSI Hopecore and LPL Split 3 - LPL English Episode 19",
-          "duration_seconds": 3876
         }
       ],
       "valorant": [
