@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T15:14:58.436121+00:00",
+  "generated_at": "2026-10-25T18:24:37.643305+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -269,11 +269,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-25T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Hanwha Life Esports vs Invictus Gaming \u00b7 Swiss \u00b7 Bo1",
+      "description": "Invictus Gaming vs Hanwha Life Esports \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095045"
     },
@@ -281,11 +281,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-25T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "G2 Esports vs TOP ESPORTS \u00b7 Swiss \u00b7 Bo1",
+      "description": "TOP ESPORTS vs G2 Esports \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095047"
     },
@@ -2057,7 +2057,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-25T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2381,11 +2381,6 @@
           "id": "UF1F4hY0ISI",
           "title": "WBG EDG Jungle Swap and iG to Worlds?! - LPL English Podcast Ep 21",
           "duration_seconds": 3799
-        },
-        {
-          "id": "cUZZ2A8frYo",
-          "title": "Doomed LPL Teams and Role Quest Frustrations - LPL English Podcast Episode 20",
-          "duration_seconds": 5822
         }
       ],
       "valorant": [

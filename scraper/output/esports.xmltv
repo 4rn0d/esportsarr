@@ -6,14 +6,9 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261025170000 +0000" stop="20261025180000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Hanwha Life Esports vs Invictus Gaming · Swiss · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261025180000 +0000" stop="20261025190000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">G2 Esports vs TOP ESPORTS · Swiss · Bo1</desc>
+    <desc lang="en">TOP ESPORTS vs G2 Esports · Swiss · Bo1</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261025190000 +0000" stop="20261025210000 +0000" channel="twitch.riotgames">
