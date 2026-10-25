@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:28:29.337509+00:00",
+  "generated_at": "2026-10-25T01:25:00.558027+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -172,6 +172,18 @@
     {
       "league": "Worlds",
       "game": "lol",
+      "start": "2026-10-24T16:01:54.634000+00:00",
+      "state": "in_progress",
+      "title": "Worlds",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
       "start": "2026-10-24T17:00:00+00:00",
       "state": "completed",
       "title": "Worlds",
@@ -245,7 +257,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-24T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -257,7 +269,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-25T00:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
