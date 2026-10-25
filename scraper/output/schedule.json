@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:51:56.872014+00:00",
+  "generated_at": "2026-10-25T15:14:58.436121+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1620,18 +1620,6 @@
       "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-09-25T12:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Xi Lai Gaming vs Karmine Corp \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461142721"
     },
     {
       "league": "Champions",
