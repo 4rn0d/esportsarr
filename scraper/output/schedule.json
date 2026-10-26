@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T12:52:31.535659+00:00",
+  "generated_at": "2026-10-26T18:56:06.630771+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -317,11 +317,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-26T17:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "CTBC Flying Oyster vs T1 \u00b7 Swiss \u00b7 Bo1",
+      "description": "T1 vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo1",
       "best_of": 1,
       "match_id": "115660540726095049"
     },
@@ -329,7 +329,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-26T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -341,7 +341,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-26T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -1564,18 +1564,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-09-26T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "RED Kalunga vs FURIA \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526468635"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-09-27T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2045,7 +2033,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-26T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",

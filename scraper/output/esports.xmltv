@@ -6,16 +6,6 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261026170000 +0000" stop="20261026180000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">CTBC Flying Oyster vs T1 · Swiss · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261026180000 +0000" stop="20261026190000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">BILIBILI GAMING vs Karmine Corp · Swiss · Bo1</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261026190000 +0000" stop="20261026210000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">LOS vs Team Secret Whales · Swiss · Bo3</desc>
