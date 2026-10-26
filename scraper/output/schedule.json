@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T18:56:06.630771+00:00",
+  "generated_at": "2026-10-26T22:57:42.271949+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -316,6 +316,18 @@
     {
       "league": "Worlds",
       "game": "lol",
+      "start": "2026-10-26T16:03:09.675000+00:00",
+      "state": "in_progress",
+      "title": "Worlds",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
       "start": "2026-10-26T17:00:00+00:00",
       "state": "completed",
       "title": "Worlds",
@@ -341,11 +353,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-26T19:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "LOS vs Team Secret Whales \u00b7 Swiss \u00b7 Bo3",
+      "description": "Team Secret Whales vs LOS \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095053"
     },
@@ -353,11 +365,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-26T22:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Team Liquid Alienware vs Anyone's Legend \u00b7 Swiss \u00b7 Bo3",
+      "description": "Anyone's Legend vs Team Liquid Alienware \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095057"
     },
@@ -1516,18 +1528,6 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-09-26T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Shopify Rebellion vs LYON \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949417"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-09-27T20:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -2033,7 +2033,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-26T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2045,11 +2045,11 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-26T21:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "Team Liquid VISA vs G2 Gozen \u00b7 Knockouts \u00b7 Bo3",
+      "description": "G2 Gozen vs Team Liquid VISA \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540144"
     },
@@ -2085,7 +2085,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs SK Nebula \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540160"
     },
@@ -2097,7 +2097,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs TBD \u00b7 Knockouts \u00b7 Bo3",
+      "description": "TBD vs Team Liquid VISA \u00b7 Knockouts \u00b7 Bo3",
       "best_of": 3,
       "match_id": "117200188349540156"
     },
@@ -2151,7 +2151,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "n99i2sqlzGQ",
+      "topic": "The Start of a NEW ERA.. \u2014 Plat Chat VALORANT",
+      "episode": 283,
+      "real_start": "2026-10-27T15:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
