@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T13:09:32.675042+00:00",
+  "generated_at": "2026-10-27T18:40:03.138262+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -1552,18 +1552,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-09-27T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "LOUD vs LOS \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526468623"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-10-03T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -2021,7 +2009,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-27T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -2115,12 +2103,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "n99i2sqlzGQ",
-      "topic": "The Start of a NEW ERA.. \u2014 Plat Chat VALORANT",
-      "episode": 283,
-      "real_start": "2026-10-27T15:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
