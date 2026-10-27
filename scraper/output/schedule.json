@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:57:42.271949+00:00",
+  "generated_at": "2026-10-27T01:47:52.537429+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -316,18 +316,6 @@
     {
       "league": "Worlds",
       "game": "lol",
-      "start": "2026-10-26T16:03:09.675000+00:00",
-      "state": "in_progress",
-      "title": "Worlds",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
       "start": "2026-10-26T17:00:00+00:00",
       "state": "completed",
       "title": "Worlds",
@@ -381,7 +369,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Movistar KOI vs T1 \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095061"
     },
@@ -393,7 +381,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "LYON vs Invictus Gaming \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095065"
     },
@@ -405,9 +393,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "CTBC Flying Oyster vs Karmine Corp \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115660540726095069"
+      "match_id": "115660540726095073"
     },
     {
       "league": "Worlds",
@@ -417,9 +405,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "BILIBILI GAMING vs TOP ESPORTS \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
-      "match_id": "115660540726095073"
+      "match_id": "115660540726095069"
     },
     {
       "league": "Worlds",
@@ -429,7 +417,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "Team Liquid Alienware vs LOS \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095077"
     },
@@ -441,7 +429,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Swiss \u00b7 Bo3",
+      "description": "G2 Esports vs Hanwha Life Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095081"
     },
