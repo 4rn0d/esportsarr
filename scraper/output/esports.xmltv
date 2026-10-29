@@ -6,11 +6,6 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261028230000 +0000" stop="20261029010000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">LYON vs Invictus Gaming · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261029200000 +0000" stop="20261029220000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">CTBC Flying Oyster vs Karmine Corp · Swiss · Bo3</desc>
