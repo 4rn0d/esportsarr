@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:03:45.385182+00:00",
+  "generated_at": "2026-10-29T21:04:56.322372+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -389,11 +389,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-29T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "CTBC Flying Oyster vs Karmine Corp \u00b7 Swiss \u00b7 Bo3",
+      "description": "Karmine Corp vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095073"
     },
@@ -552,102 +552,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T17:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Otter Side vs Kaufland Hangry Knights \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819927889"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T17:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Bushido Wildcats vs UCAM Esports Club \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819927897"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T17:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Senshi eSports vs HMBLE \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819927899"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T17:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Team Phantasma vs LODIS \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "117171782819927901"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Anubis Gaming vs TLN Pirates \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819927871"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Heretics Academy vs Karmine Corp Blue \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819927875"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "The Secret Club vs Forsaken \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819927903"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-09-29T18:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "eSuba vs White Dragons \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819927907"
     },
     {
       "league": "EMEA Masters",
