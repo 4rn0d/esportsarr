@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T00:55:24.687020+00:00",
+  "generated_at": "2026-10-30T06:37:58.572015+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -401,7 +401,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-29T23:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",

@@ -6,11 +6,6 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261029230000 +0000" stop="20261030010000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">BILIBILI GAMING vs TOP ESPORTS · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261030200000 +0000" stop="20261030220000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">Team Liquid Alienware vs LOS · Swiss · Bo3</desc>
