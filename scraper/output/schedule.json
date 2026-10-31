@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T18:02:38.145600+00:00",
+  "generated_at": "2026-10-31T21:28:58.622685+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -437,7 +437,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-31T17:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -449,11 +449,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-31T20:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "LOS vs LYON \u00b7 Swiss \u00b7 Bo3",
+      "description": "LYON vs LOS \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095089"
     },
@@ -1312,20 +1312,8 @@
     {
       "league": "Game Changers Championship",
       "game": "valorant",
-      "start": "2026-10-31T17:37:13.997000+00:00",
-      "state": "in_progress",
-      "title": "Game Changers Championship",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
       "start": "2026-10-31T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -1524,11 +1512,6 @@
           "id": "CyAF8Hs2HYI",
           "title": "BLG Flandre CONFIRMED and Playoffs on the Horizon - LPL English Podcast Ep 22",
           "duration_seconds": 3417
-        },
-        {
-          "id": "UF1F4hY0ISI",
-          "title": "WBG EDG Jungle Swap and iG to Worlds?! - LPL English Podcast Ep 21",
-          "duration_seconds": 3799
         }
       ],
       "valorant": [

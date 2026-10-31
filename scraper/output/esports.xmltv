@@ -6,14 +6,9 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261031170000 +0000" stop="20261031190000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Karmine Corp vs Movistar KOI · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261031200000 +0000" stop="20261031220000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">LOS vs LYON · Swiss · Bo3</desc>
+    <desc lang="en">LYON vs LOS · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261031230000 +0000" stop="20261101010000 +0000" channel="twitch.riotgames">
