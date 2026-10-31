@@ -8,7 +8,7 @@
   </channel>
   <programme start="20261031170000 +0000" stop="20261031190000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">Movistar KOI vs Karmine Corp · Swiss · Bo3</desc>
+    <desc lang="en">Karmine Corp vs Movistar KOI · Swiss · Bo3</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261031200000 +0000" stop="20261031220000 +0000" channel="twitch.riotgames">
@@ -58,7 +58,7 @@
   </programme>
   <programme start="20261031180000 +0000" stop="20261031233000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">VISA KRÜ Blaze vs Shopify Rebellion Gold · Knockouts · Bo5</desc>
+    <desc lang="en">Shopify Rebellion Gold vs VISA KRÜ Blaze · Knockouts · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261101180000 +0000" stop="20261101233000 +0000" channel="twitch.VALORANT">
