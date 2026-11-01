@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:46:38.548567+00:00",
+  "generated_at": "2026-11-01T18:40:08.532504+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -552,66 +552,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-02T15:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "PCIFIC Esports vs Frites Esports Club \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819993531"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-02T15:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "The Secret Club vs Colossal Gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819993535"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-02T15:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "UCAM Esports Club vs NightBirds \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819993539"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-02T18:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Valerion vs MAGAZA \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819993543"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-02T18:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "BOMBA Team vs Bar\u00e7a Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117171782819993547"
     },
     {
       "league": "EMEA Masters",
@@ -1301,11 +1241,11 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-11-01T18:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "VISA KR\u00dc Blaze vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
+      "description": "Gentle Mates vs VISA KR\u00dc Blaze \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
     }
@@ -1328,6 +1268,11 @@
           "id": "Y740BJoG5TM",
           "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
           "duration_seconds": 3630
+        },
+        {
+          "id": "GVbfIR3kkcg",
+          "title": "NA MADE IT TO QUARTERFINALS! | The Dive Driven by Kia",
+          "duration_seconds": 5804
         },
         {
           "id": "xNdnGhNZhiU",
@@ -1398,11 +1343,6 @@
           "id": "x4MNG9N0dco",
           "title": "Kings of Summer | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
           "duration_seconds": 2574
-        },
-        {
-          "id": "2bwtRk7juHQ",
-          "title": "LCS Summer 2026 | C9 vs TLAW | Playoffs",
-          "duration_seconds": 9604
         },
         {
           "id": "Ewsg-JYQhkk",
