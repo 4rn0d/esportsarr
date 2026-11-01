@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:30:47.803545+00:00",
+  "generated_at": "2026-11-01T13:46:38.548567+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -876,30 +876,6 @@
       "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-02T09:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "EDWARD Gaming vs GLOBAL ESPORTS \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461077157"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-02T12:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "T1 vs JD GAMING \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461077137"
     },
     {
       "league": "Champions",
