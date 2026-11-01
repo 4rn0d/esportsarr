@@ -6,34 +6,24 @@
   <channel id="twitch.VALORANT">
     <display-name>Game Changers Championship</display-name>
   </channel>
-  <programme start="20261031200000 +0000" stop="20261031220000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">LYON vs LOS · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261031230000 +0000" stop="20261101010000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Hanwha Life Esports vs BILIBILI GAMING · Swiss · Bo3</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261103220000 +0000" stop="20261104012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <desc lang="en">TOP ESPORTS vs Invictus Gaming · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261104220000 +0000" stop="20261105012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <desc lang="en">Gen.G Esports vs LYON · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261105220000 +0000" stop="20261106012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <desc lang="en">Dplus KIA vs BILIBILI GAMING · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261106220000 +0000" stop="20261107012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Quarterfinals · Bo5</desc>
+    <desc lang="en">T1 vs Karmine Corp · Quarterfinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261107220000 +0000" stop="20261108012000 +0000" channel="twitch.riotgames">
@@ -51,14 +41,9 @@
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
-  <programme start="20261031180000 +0000" stop="20261031233000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Game Changers Championship</title>
-    <desc lang="en">Shopify Rebellion Gold vs VISA KRÜ Blaze · Knockouts · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261101180000 +0000" stop="20261101233000 +0000" channel="twitch.VALORANT">
     <title lang="en">Game Changers Championship</title>
-    <desc lang="en">TBD vs Gentle Mates · Finals · Bo5</desc>
+    <desc lang="en">VISA KRÜ Blaze vs Gentle Mates · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
 </tv>

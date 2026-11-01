@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T21:28:58.622685+00:00",
+  "generated_at": "2026-11-01T00:17:36.798993+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -449,7 +449,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-31T20:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -461,11 +461,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-10-31T23:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Hanwha Life Esports vs BILIBILI GAMING \u00b7 Swiss \u00b7 Bo3",
+      "description": "BILIBILI GAMING vs Hanwha Life Esports \u00b7 Swiss \u00b7 Bo3",
       "best_of": 3,
       "match_id": "115660540726095093"
     },
@@ -477,9 +477,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "description": "TOP ESPORTS vs Invictus Gaming \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660540726095097"
+      "match_id": "115660540726095109"
     },
     {
       "league": "Worlds",
@@ -489,9 +489,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "description": "Gen.G Esports vs LYON \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660540726095103"
+      "match_id": "115660540726095115"
     },
     {
       "league": "Worlds",
@@ -501,9 +501,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "description": "Dplus KIA vs BILIBILI GAMING \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660540726095109"
+      "match_id": "115660540726095097"
     },
     {
       "league": "Worlds",
@@ -513,9 +513,9 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Quarterfinals \u00b7 Bo5",
+      "description": "T1 vs Karmine Corp \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660540726095115"
+      "match_id": "115660540726095103"
     },
     {
       "league": "Worlds",
@@ -527,7 +527,7 @@
       "stream_channel": "riotgames",
       "description": "TBD vs TBD \u00b7 Semifinals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660540726095121"
+      "match_id": "115660540726095127"
     },
     {
       "league": "Worlds",
@@ -539,7 +539,7 @@
       "stream_channel": "riotgames",
       "description": "TBD vs TBD \u00b7 Semifinals \u00b7 Bo5",
       "best_of": 5,
-      "match_id": "115660540726095127"
+      "match_id": "115660540726095121"
     },
     {
       "league": "Worlds",
@@ -1313,7 +1313,7 @@
       "league": "Game Changers Championship",
       "game": "valorant",
       "start": "2026-10-31T18:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
@@ -1329,7 +1329,7 @@
       "title": "Game Changers Championship",
       "stream_platform": "twitch",
       "stream_channel": "VALORANT",
-      "description": "TBD vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
+      "description": "VISA KR\u00dc Blaze vs Gentle Mates \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117200188349540174"
     }
