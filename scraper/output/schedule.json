@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T08:16:50.986044+00:00",
+  "generated_at": "2026-11-02T18:36:51.842616+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -796,18 +796,6 @@
     {
       "league": "CBLOL",
       "game": "lol",
-      "start": "2026-10-03T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "FURIA vs LOUD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526468641"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
       "start": "2026-10-10T16:00:00+00:00",
       "state": "completed",
       "title": "CBLOL",
@@ -816,30 +804,6 @@
       "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-03T09:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Team Liquid vs G2 Esports \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461142717"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-03T12:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "NONGSHIM REDFORCE vs Karmine Corp \u00b7 Groups \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461142737"
     },
     {
       "league": "Champions",
@@ -1251,7 +1215,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "DfEfldEsSmk",
+      "topic": "\u201cSuper Teams\u201d and Stream Teams \u2014 Plat Chat VALORANT",
+      "episode": 284,
+      "real_start": "2026-11-03T16:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
@@ -1271,7 +1240,7 @@
         },
         {
           "id": "GVbfIR3kkcg",
-          "title": "Help Us LYON, You're NA's Only Hope | The Dive Driven by Kia",
+          "title": "NA MADE IT TO QUARTERFINALS! | The Dive Driven by Kia",
           "duration_seconds": 5804
         },
         {
