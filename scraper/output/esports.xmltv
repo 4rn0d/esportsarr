@@ -3,9 +3,6 @@
   <channel id="twitch.riotgames">
     <display-name>Worlds</display-name>
   </channel>
-  <channel id="twitch.VALORANT">
-    <display-name>Game Changers Championship</display-name>
-  </channel>
   <programme start="20261103220000 +0000" stop="20261104012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">TOP ESPORTS vs Invictus Gaming · Quarterfinals · Bo5</desc>
@@ -39,11 +36,6 @@
   <programme start="20261114190000 +0000" stop="20261114222000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">TBD vs TBD · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-  <programme start="20261101180000 +0000" stop="20261101233000 +0000" channel="twitch.VALORANT">
-    <title lang="en">Game Changers Championship</title>
-    <desc lang="en">Gentle Mates vs VISA KRÜ Blaze · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
 </tv>
