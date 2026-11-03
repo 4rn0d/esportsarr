@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T18:36:51.842616+00:00",
+  "generated_at": "2026-11-03T01:14:43.488956+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -772,18 +772,6 @@
     {
       "league": "LCS",
       "game": "lol",
-      "start": "2026-10-03T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "LYON vs Cloud9 Kia \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949423"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
       "start": "2026-10-04T20:00:00+00:00",
       "state": "completed",
       "title": "LCS",
@@ -1240,7 +1228,7 @@
         },
         {
           "id": "GVbfIR3kkcg",
-          "title": "NA MADE IT TO QUARTERFINALS! | The Dive Driven by Kia",
+          "title": "Help Us LYON, You're NA's Only Hope | The Dive Driven by Kia",
           "duration_seconds": 5804
         },
         {
