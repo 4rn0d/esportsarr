@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:38:13.936294+00:00",
+  "generated_at": "2026-11-03T21:15:16.343535+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -472,6 +472,18 @@
     {
       "league": "Worlds",
       "game": "lol",
+      "start": "2026-11-03T20:45:55.898000+00:00",
+      "state": "in_progress",
+      "title": "Worlds",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
       "start": "2026-11-03T22:00:00+00:00",
       "state": "unstarted",
       "title": "Worlds",
@@ -552,42 +564,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-04T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "The Secret Club vs Galions \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911339"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-04T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Solary vs Bar\u00e7a Esports \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911345"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-04T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "UCAM Esports Club vs Movistar KOI F\u00e9nix \u00b7 Knockouts \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911351"
     },
     {
       "league": "EMEA Masters",
@@ -768,18 +744,6 @@
       "description": "Solary vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "LCS",
-      "game": "lol",
-      "start": "2026-10-04T20:00:00+00:00",
-      "state": "completed",
-      "title": "LCS",
-      "stream_platform": "twitch",
-      "stream_channel": "lcs",
-      "description": "Team Liquid Alienware vs LYON \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565004607949429"
     },
     {
       "league": "CBLOL",
@@ -1179,12 +1143,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "DfEfldEsSmk",
-      "topic": "\u201cSuper Teams\u201d and Stream Teams \u2014 Plat Chat VALORANT",
-      "episode": 284,
-      "real_start": "2026-11-03T16:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
