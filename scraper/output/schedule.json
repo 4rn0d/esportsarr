@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T15:45:44.640619+00:00",
+  "generated_at": "2026-11-04T21:37:35.861211+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -480,6 +480,18 @@
       "description": "Invictus Gaming vs TOP ESPORTS \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095109"
+    },
+    {
+      "league": "Worlds",
+      "game": "lol",
+      "start": "2026-11-04T21:09:14.808000+00:00",
+      "state": "in_progress",
+      "title": "Worlds",
+      "stream_platform": null,
+      "stream_channel": null,
+      "description": "",
+      "best_of": null,
+      "match_id": null
     },
     {
       "league": "Worlds",
