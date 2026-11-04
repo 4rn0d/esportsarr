@@ -3,11 +3,6 @@
   <channel id="twitch.riotgames">
     <display-name>Worlds</display-name>
   </channel>
-  <programme start="20261103220000 +0000" stop="20261104012000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Invictus Gaming vs TOP ESPORTS · Quarterfinals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261104220000 +0000" stop="20261105012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">Gen.G Esports vs LYON · Quarterfinals · Bo5</desc>
@@ -25,7 +20,7 @@
   </programme>
   <programme start="20261107220000 +0000" stop="20261108012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs TBD · Semifinals · Bo5</desc>
+    <desc lang="en">TBD vs Invictus Gaming · Semifinals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
   <programme start="20261108220000 +0000" stop="20261109012000 +0000" channel="twitch.riotgames">
