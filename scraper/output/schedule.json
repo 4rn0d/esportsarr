@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T16:51:10.004798+00:00",
+  "generated_at": "2026-11-05T22:27:10.423965+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -497,11 +497,11 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-11-05T22:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "Dplus KIA vs BILIBILI GAMING \u00b7 Quarterfinals \u00b7 Bo5",
+      "description": "BILIBILI GAMING vs Dplus KIA \u00b7 Quarterfinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095097"
     },
