@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T21:37:35.861211+00:00",
+  "generated_at": "2026-11-05T01:47:01.692453+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -484,20 +484,8 @@
     {
       "league": "Worlds",
       "game": "lol",
-      "start": "2026-11-04T21:09:14.808000+00:00",
-      "state": "in_progress",
-      "title": "Worlds",
-      "stream_platform": null,
-      "stream_channel": null,
-      "description": "",
-      "best_of": null,
-      "match_id": null
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
       "start": "2026-11-04T22:00:00+00:00",
-      "state": "unstarted",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -537,7 +525,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs Invictus Gaming \u00b7 Semifinals \u00b7 Bo5",
+      "description": "Gen.G Esports vs Invictus Gaming \u00b7 Semifinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095127"
     },
@@ -1237,6 +1225,11 @@
           "duration_seconds": 2574
         },
         {
+          "id": "sa5uoooHUi4",
+          "title": "[Worlds Special] Agents Analyze Quarterfinals! | 2026 Secret Boardroom",
+          "duration_seconds": 2380
+        },
+        {
           "id": "Ewsg-JYQhkk",
           "title": "EP.97 LCK GOES TO WORLDS 2026 | THE POG STATE",
           "duration_seconds": 4856
@@ -1285,11 +1278,6 @@
           "id": "7eTqCLRPncM",
           "title": "[LCK Documentary] New:Blood | Smash & Career",
           "duration_seconds": 2133
-        },
-        {
-          "id": "nsmUwB4m6xQ",
-          "title": "EP.96 WHO WILL WIN 2026 LCK? | THE POG STATE",
-          "duration_seconds": 5085
         },
         {
           "id": "-miiCRLkQM8",
