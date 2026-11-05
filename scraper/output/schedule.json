@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T08:43:10.693859+00:00",
+  "generated_at": "2026-11-05T16:51:10.004798+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -552,54 +552,6 @@
       "description": "TBD vs TBD \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-06T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Valerion vs Solary \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911357"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-06T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Frites Esports Club vs Movistar KOI F\u00e9nix \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911381"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-06T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Bushido Wildcats vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911387"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-06T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Berlin International Gaming vs Galions \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911393"
     },
     {
       "league": "EMEA Masters",
