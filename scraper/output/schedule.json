@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:27:10.423965+00:00",
+  "generated_at": "2026-11-06T02:41:05.211962+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -497,7 +497,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-11-05T22:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -537,7 +537,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs TBD \u00b7 Semifinals \u00b7 Bo5",
+      "description": "TBD vs BILIBILI GAMING \u00b7 Semifinals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095121"
     },
@@ -1103,7 +1103,7 @@
         },
         {
           "id": "GVbfIR3kkcg",
-          "title": "Help Us LYON, You're NA's Only Hope | The Dive Driven by Kia",
+          "title": "NA MADE IT TO QUARTERFINALS! | The Dive Driven by Kia",
           "duration_seconds": 5804
         },
         {
