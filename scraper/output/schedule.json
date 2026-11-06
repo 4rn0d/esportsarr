@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:52:31.401898+00:00",
+  "generated_at": "2026-11-06T17:01:10.962226+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -556,54 +556,6 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Heretics Academy vs G2 NORD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911363"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Karmine Corp Blue vs Skillcamp \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911369"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Ruddy Corporation vs Anubis Gaming \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911375"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-07T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Unicorns of Love Sexy Edition vs Kaufland Hangry Knights \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911399"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-10-09T16:00:00+00:00",
       "state": "completed",
       "title": "EMEA Masters",
@@ -696,18 +648,6 @@
       "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115565671526468647"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-07T12:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "LOUD vs Paper Rex \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461142753"
     },
     {
       "league": "Champions",
