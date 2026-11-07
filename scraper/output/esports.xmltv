@@ -3,11 +3,6 @@
   <channel id="twitch.riotgames">
     <display-name>Worlds</display-name>
   </channel>
-  <programme start="20261106220000 +0000" stop="20261107012000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">T1 vs Karmine Corp · Quarterfinals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261107220000 +0000" stop="20261108012000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
     <desc lang="en">Gen.G Esports vs Invictus Gaming · Semifinals · Bo5</desc>
