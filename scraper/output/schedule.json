@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:26:13.402082+00:00",
+  "generated_at": "2026-11-08T19:50:18.748938+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -552,30 +552,6 @@
       "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-09T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Movistar KOI F\u00e9nix vs TLN Pirates \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911417"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-09T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Galions vs Kaufland Hangry Knights \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911423"
     },
     {
       "league": "EMEA Masters",
