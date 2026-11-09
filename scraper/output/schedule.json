@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:36:28.958978+00:00",
+  "generated_at": "2026-11-09T21:03:18.958846+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -556,30 +556,6 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-10T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Solary vs G2 NORD \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911405"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
-      "start": "2026-10-10T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Karmine Corp Blue vs Anubis Gaming \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911411"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-10-13T16:00:00+00:00",
       "state": "completed",
       "title": "EMEA Masters",
@@ -612,30 +588,6 @@
       "description": "Solary vs Galions \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "117173205319911441"
-    },
-    {
-      "league": "CBLOL",
-      "game": "lol",
-      "start": "2026-10-10T16:00:00+00:00",
-      "state": "completed",
-      "title": "CBLOL",
-      "stream_platform": "twitch",
-      "stream_channel": "cblol",
-      "description": "FURIA vs LOS \u00b7 Finals \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115565671526468647"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
-      "start": "2026-10-10T12:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "G2 Esports vs Team Vitality \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461142757"
     },
     {
       "league": "Champions",
@@ -946,6 +898,11 @@
           "duration_seconds": 3630
         },
         {
+          "id": "xE0vtIg5jsY",
+          "title": "Worlds Knockouts Reflections and Worlds Final Preview! | The Dive Driven by Kia",
+          "duration_seconds": 4973
+        },
+        {
           "id": "GVbfIR3kkcg",
           "title": "Help Us LYON, You're NA's Only Hope | The Dive Driven by Kia",
           "duration_seconds": 5804
@@ -1014,11 +971,6 @@
           "id": "ckS7WEgmxHM",
           "title": "The 2026 Kia Summer MVP Revealed! | The Dive Driven by Kia",
           "duration_seconds": 4777
-        },
-        {
-          "id": "x4MNG9N0dco",
-          "title": "Kings of Summer | PROS ft. C9 Blaber, TLAW CoreJJ & LYON Isles",
-          "duration_seconds": 2574
         },
         {
           "id": "sa5uoooHUi4",
