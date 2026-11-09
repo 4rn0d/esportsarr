@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T23:16:51.391029+00:00",
+  "generated_at": "2026-11-09T02:48:46.280754+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -533,7 +533,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-11-08T22:00:00+00:00",
-      "state": "in_progress",
+      "state": "completed",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
@@ -549,7 +549,7 @@
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
-      "description": "TBD vs Gen.G Esports \u00b7 Finals \u00b7 Bo5",
+      "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
     },

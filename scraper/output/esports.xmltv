@@ -3,14 +3,9 @@
   <channel id="twitch.riotgames">
     <display-name>Worlds</display-name>
   </channel>
-  <programme start="20261108220000 +0000" stop="20261109012000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">BILIBILI GAMING vs T1 · Semifinals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
   <programme start="20261114190000 +0000" stop="20261114222000 +0000" channel="twitch.riotgames">
     <title lang="en">Worlds</title>
-    <desc lang="en">TBD vs Gen.G Esports · Finals · Bo5</desc>
+    <desc lang="en">Gen.G Esports vs BILIBILI GAMING · Finals · Bo5</desc>
     <category lang="en">Esports</category>
   </programme>
 </tv>
