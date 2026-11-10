@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T11:44:48.912252+00:00",
+  "generated_at": "2026-11-10T18:50:54.131248+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -592,18 +592,6 @@
     {
       "league": "Champions",
       "game": "valorant",
-      "start": "2026-10-11T12:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "T1 vs G2 Esports \u00b7 Playoffs \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115576361461208317"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
       "start": "2026-10-16T06:00:00+00:00",
       "state": "completed",
       "title": "Champions",
@@ -867,12 +855,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "UaBQE34tn9Y",
-      "topic": "VCT Open Qualifiers already has Cheaters.. \u2014 Plat Chat VALORANT",
-      "episode": 285,
-      "real_start": "2026-11-10T16:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
