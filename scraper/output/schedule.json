@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T21:03:18.958846+00:00",
+  "generated_at": "2026-11-10T03:30:22.973817+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -879,7 +879,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "UaBQE34tn9Y",
+      "topic": "VCT Open Qualifiers already has Cheaters.. \u2014 Plat Chat VALORANT",
+      "episode": 285,
+      "real_start": "2026-11-10T16:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
