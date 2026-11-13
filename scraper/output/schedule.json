@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T10:19:14.671121+00:00",
+  "generated_at": "2026-11-13T17:55:37.193095+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -556,18 +556,6 @@
     {
       "league": "EMEA Masters",
       "game": "lol",
-      "start": "2026-10-14T16:00:00+00:00",
-      "state": "completed",
-      "title": "EMEA Masters",
-      "stream_platform": "twitch",
-      "stream_channel": "emeamasters",
-      "description": "Anubis Gaming vs Solary \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "117173205319911429"
-    },
-    {
-      "league": "EMEA Masters",
-      "game": "lol",
       "start": "2026-10-22T12:00:00+00:00",
       "state": "completed",
       "title": "EMEA Masters",
@@ -937,6 +925,11 @@
           "duration_seconds": 4777
         },
         {
+          "id": "Pbt-KOEwf0w",
+          "title": "EP.98 CAN GEN.G DO IT THIS WORLDS? | THE POG STATE",
+          "duration_seconds": 4677
+        },
+        {
           "id": "sa5uoooHUi4",
           "title": "[Worlds Special] Agents Analyze Quarterfinals! | 2026 Secret Boardroom",
           "duration_seconds": 2380
@@ -985,11 +978,6 @@
           "id": "YtZwPgLOQGk",
           "title": "HLE vs T1 | Lower Finals Game 1 | 2026 Wooribank LCK Playoffs",
           "duration_seconds": 3445
-        },
-        {
-          "id": "7eTqCLRPncM",
-          "title": "[LCK Documentary] New:Blood | Smash & Career",
-          "duration_seconds": 2133
         },
         {
           "id": "-miiCRLkQM8",
