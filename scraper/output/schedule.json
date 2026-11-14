@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-14T16:39:25.284103+00:00",
+  "generated_at": "2026-11-14T20:55:33.211069+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-15T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Karmine Corp vs Cloud9 Kia \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115660588583171786"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -545,7 +533,7 @@
       "league": "Worlds",
       "game": "lol",
       "start": "2026-11-14T19:00:00+00:00",
-      "state": "unstarted",
+      "state": "in_progress",
       "title": "Worlds",
       "stream_platform": "twitch",
       "stream_channel": "riotgames",
