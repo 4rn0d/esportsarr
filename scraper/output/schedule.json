@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-15T14:42:59.097821+00:00",
+  "generated_at": "2026-11-15T19:57:15.880944+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-16T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Karmine Corp vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115660588583171790"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -783,7 +771,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "sCk98hrJlCM",
+      "topic": "The WAY too early Tier List for VCT 2027 \u2014 Plat Chat VALORANT",
+      "episode": 286,
+      "real_start": "2026-11-16T16:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
