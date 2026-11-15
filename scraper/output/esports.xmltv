@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="esportsarr">
-  <channel id="twitch.riotgames">
-    <display-name>Worlds</display-name>
-  </channel>
-  <programme start="20261114190000 +0000" stop="20261114222000 +0000" channel="twitch.riotgames">
-    <title lang="en">Worlds</title>
-    <desc lang="en">Gen.G Esports vs BILIBILI GAMING · Finals · Bo5</desc>
-    <category lang="en">Esports</category>
-  </programme>
-</tv>
+<tv generator-info-name="esportsarr" />
