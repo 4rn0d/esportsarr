@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-15T19:57:15.880944+00:00",
+  "generated_at": "2026-11-15T23:42:10.745741+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-16T23:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "FURIA vs Cloud9 Kia \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115660588583171794"
-    },
     {
       "league": "Worlds",
       "game": "lol",
