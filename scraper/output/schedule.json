@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T23:42:10.745741+00:00",
+  "generated_at": "2026-11-16T03:08:06.690970+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -759,12 +759,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "sCk98hrJlCM",
-      "topic": "The WAY too early Tier List for VCT 2027 \u2014 Plat Chat VALORANT",
-      "episode": 286,
-      "real_start": "2026-11-16T16:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
