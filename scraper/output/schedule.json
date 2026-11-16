@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T03:08:06.690970+00:00",
+  "generated_at": "2026-11-16T11:04:19.167400+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -520,18 +520,6 @@
     {
       "league": "Champions",
       "game": "valorant",
-      "start": "2026-10-17T07:00:00+00:00",
-      "state": "completed",
-      "title": "Champions",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "100 Thieves vs Team Vitality \u00b7 Playoffs \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115576361461208325"
-    },
-    {
-      "league": "Champions",
-      "game": "valorant",
       "start": "2026-10-18T06:00:00+00:00",
       "state": "completed",
       "title": "Champions",
@@ -759,7 +747,12 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": null,
+    "plat_chat_schedule": {
+      "video_id": "sCk98hrJlCM",
+      "topic": "The WAY too early Tier List for VCT 2027 \u2014 Plat Chat VALORANT",
+      "episode": 286,
+      "real_start": "2026-11-16T16:00:00+00:00"
+    },
     "replay_candidates": {
       "lol": [
         {
