@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-16T11:04:19.167400+00:00",
+  "generated_at": "2026-11-16T20:58:41.106773+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-17T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "MVK Esports vs FURIA \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "115660588583171798"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -747,12 +735,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "sCk98hrJlCM",
-      "topic": "The WAY too early Tier List for VCT 2027 \u2014 Plat Chat VALORANT",
-      "episode": 286,
-      "real_start": "2026-11-16T16:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
@@ -764,11 +747,6 @@
           "id": "RcObFO7no1k",
           "title": "The Nice Episode | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP09",
           "duration_seconds": 4154
-        },
-        {
-          "id": "Y740BJoG5TM",
-          "title": "It's Playoffs Time! | THE LEC PODCAST presented by ExpressVPN | 2026 LEC EP08",
-          "duration_seconds": 3630
         },
         {
           "id": "xE0vtIg5jsY",
