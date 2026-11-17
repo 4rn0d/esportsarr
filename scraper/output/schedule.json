@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-17T12:10:43.326831+00:00",
+  "generated_at": "2026-11-17T20:50:33.467504+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-18T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Karmine Corp vs MVK Esports \u00b7 Play-Ins \u00b7 Bo5",
-      "best_of": 5,
-      "match_id": "116299649498303884"
-    },
     {
       "league": "Worlds",
       "game": "lol",
