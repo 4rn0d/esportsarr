@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:32:13.528380+00:00",
+  "generated_at": "2026-11-21T02:49:20.826065+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -887,6 +887,11 @@
       ],
       "valorant": [
         {
+          "id": "whu59LP-fV0",
+          "title": "C9 vs FAKE - 2027 VCT Americas Kickoff NA Qualifiers x Red Bull Home Ground - Group Stage",
+          "duration_seconds": 6090
+        },
+        {
           "id": "JIEbyRUErEs",
           "title": "FLY vs MIBR -\u00a0 Verizon Game Changers Americas Last Chance Qualifier Final",
           "duration_seconds": 13158
@@ -965,11 +970,6 @@
           "id": "GHwXg4xuBa0",
           "title": "SWIM vs SRG -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 2",
           "duration_seconds": 4327
-        },
-        {
-          "id": "KZ-e_v-9usM",
-          "title": "FLY vs AXL - Verizon Game Changers NA Stage 2 Main Event - Day 2",
-          "duration_seconds": 9088
         },
         {
           "id": "3vQuOg1QU5c",
