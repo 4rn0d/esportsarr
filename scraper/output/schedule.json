@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T17:41:56.950939+00:00",
+  "generated_at": "2026-11-21T22:23:17.624037+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -480,30 +480,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-22T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Made In Brazil vs FENNEL HOTELAVA \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540104"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-22T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Nova Esports GC vs SK Nebula \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540108"
     },
     {
       "league": "Game Changers Championship",
