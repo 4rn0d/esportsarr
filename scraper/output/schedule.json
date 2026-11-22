@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T02:25:24.791368+00:00",
+  "generated_at": "2026-11-22T09:59:01.209183+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -851,6 +851,11 @@
       ],
       "valorant": [
         {
+          "id": "L7SZP5WUBH4",
+          "title": "OAF vs SRB - 2027 VCT Americas Kickoff NA Qualifiers x Red Bull Home Ground - Group Stage",
+          "duration_seconds": 7682
+        },
+        {
           "id": "Io6SkJBK35g",
           "title": "WU vs YFP - 2027 VCT Americas Kickoff NA Qualifiers x Red Bull Home Ground - Group Stage",
           "duration_seconds": 7021
@@ -929,11 +934,6 @@
           "id": "TntlDvMFTX0",
           "title": "NRG vs 100T - VCT Americas Stage 2 Finals: Sao Paulo - Day 1",
           "duration_seconds": 4835
-        },
-        {
-          "id": "8USKl5eS1F0",
-          "title": "AXL vs HER -\u00a0Verizon Game Changers NA Stage 2 Main Event - Day 3",
-          "duration_seconds": 5921
         },
         {
           "id": "3vQuOg1QU5c",
