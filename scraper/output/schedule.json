@@ -1,66 +1,6 @@
 {
-  "generated_at": "2026-11-22T17:38:30.577161+00:00",
+  "generated_at": "2026-11-22T22:46:38.375035+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-23T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "TOP ESPORTS vs Hanwha Life Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095013"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-23T19:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Movistar KOI vs BILIBILI GAMING \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095019"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-23T20:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Karmine Corp vs Anyone's Legend \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095009"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-23T21:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Dplus KIA vs G2 Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095011"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-23T22:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Team Liquid Alienware vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095007"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -468,30 +408,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-23T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Gentle Mates vs Team Liquid VISA \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540112"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-23T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "VISA KR\u00dc Blaze vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540116"
     },
     {
       "league": "Game Changers Championship",
