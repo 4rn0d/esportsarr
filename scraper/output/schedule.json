@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-22T09:59:01.209183+00:00",
+  "generated_at": "2026-11-22T17:38:30.577161+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-23T17:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Invictus Gaming vs Gen.G Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095005"
-    },
     {
       "league": "Worlds",
       "game": "lol",
