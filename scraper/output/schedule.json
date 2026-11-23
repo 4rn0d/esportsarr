@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:21:45.087464+00:00",
+  "generated_at": "2026-11-23T13:21:22.391323+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -731,6 +731,16 @@
       ],
       "valorant": [
         {
+          "id": "8Sg3nxfaLbs",
+          "title": "FAKE vs FLY - 2027 VCT Americas Kickoff NA Qualifiers x Red Bull Home Ground - Group Stage",
+          "duration_seconds": 5722
+        },
+        {
+          "id": "Ix5TI2Wm6P0",
+          "title": "MU vs QOR - 2027 VCT Americas Kickoff NA Qualifiers x Red Bull Home Ground - Group Stage",
+          "duration_seconds": 4915
+        },
+        {
           "id": "L7SZP5WUBH4",
           "title": "OAF vs SRB - 2027 VCT Americas Kickoff NA Qualifiers x Red Bull Home Ground - Group Stage",
           "duration_seconds": 7682
@@ -804,16 +814,6 @@
           "id": "QLfrH-jv3Wg",
           "title": "Team Daiki vs Team Mel - VCT Americas Override Showmatch",
           "duration_seconds": 4617
-        },
-        {
-          "id": "kpOe4HSX-aQ",
-          "title": "G2 vs LOUD - VCT Americas Stage 2 Finals: Sao Paulo - Day 1",
-          "duration_seconds": 6230
-        },
-        {
-          "id": "TntlDvMFTX0",
-          "title": "NRG vs 100T - VCT Americas Stage 2 Finals: Sao Paulo - Day 1",
-          "duration_seconds": 4835
         },
         {
           "id": "3vQuOg1QU5c",
