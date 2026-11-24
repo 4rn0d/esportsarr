@@ -1,102 +1,6 @@
 {
-  "generated_at": "2026-11-23T13:21:22.391323+00:00",
+  "generated_at": "2026-11-24T01:03:43.231561+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T17:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "TOP ESPORTS vs Anyone's Legend \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095029"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Movistar KOI vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095021"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T19:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "LOS vs G2 Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095031"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T20:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Karmine Corp vs LYON \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095023"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T21:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Team Secret Whales vs Invictus Gaming \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095033"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T22:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Hanwha Life Esports vs Gen.G Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095025"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-24T23:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Dplus KIA vs T1 \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095027"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-25T00:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Team Liquid Alienware vs BILIBILI GAMING \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095035"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -384,30 +288,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-24T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "G2 Gozen vs Made In Brazil \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540120"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-24T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "SK Nebula vs Shopify Rebellion Gold \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540124"
     },
     {
       "league": "Game Changers Championship",
