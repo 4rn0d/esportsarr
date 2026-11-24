@@ -1,42 +1,6 @@
 {
-  "generated_at": "2026-11-24T10:52:40.714420+00:00",
+  "generated_at": "2026-11-24T20:56:03.403132+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-25T17:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Invictus Gaming vs Hanwha Life Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095045"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-25T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "TOP ESPORTS vs G2 Esports \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095047"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-25T19:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Movistar KOI vs Dplus KIA \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115660540726095037"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -292,18 +256,6 @@
     {
       "league": "Game Changers Championship",
       "game": "valorant",
-      "start": "2026-10-25T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "FENNEL HOTELAVA vs Gen.G GC \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540132"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
       "start": "2026-10-25T21:00:00+00:00",
       "state": "completed",
       "title": "Game Changers Championship",
@@ -435,12 +387,7 @@
     }
   ],
   "supplemental": {
-    "plat_chat_schedule": {
-      "video_id": "l7onl1VVKjo",
-      "topic": "Were they frauds all along\u2026? \u2014 Plat Chat VALORANT",
-      "episode": 287,
-      "real_start": "2026-11-24T16:00:00+00:00"
-    },
+    "plat_chat_schedule": null,
     "replay_candidates": {
       "lol": [
         {
