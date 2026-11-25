@@ -1,54 +1,6 @@
 {
-  "generated_at": "2026-11-25T13:43:24.671564+00:00",
+  "generated_at": "2026-11-25T22:47:24.282824+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-26T17:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "T1 vs CTBC Flying Oyster \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095049"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-26T18:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "BILIBILI GAMING vs Karmine Corp \u00b7 Swiss \u00b7 Bo1",
-      "best_of": 1,
-      "match_id": "115660540726095051"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-26T19:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Team Secret Whales vs LOS \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115660540726095053"
-    },
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-26T22:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "Anyone's Legend vs Team Liquid Alienware \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115660540726095057"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -240,30 +192,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-26T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "FENNEL HOTELAVA vs SK Nebula \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540148"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-26T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "G2 Gozen vs Team Liquid VISA \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540144"
     },
     {
       "league": "Game Changers Championship",
