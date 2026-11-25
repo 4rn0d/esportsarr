@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-24T20:56:03.403132+00:00",
+  "generated_at": "2026-11-25T03:53:35.183772+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-25T22:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "LYON vs Gen.G Esports \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115660540726095041"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -252,18 +240,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-25T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Nova Esports GC vs Team Liquid VISA \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540128"
     },
     {
       "league": "Game Changers Championship",
