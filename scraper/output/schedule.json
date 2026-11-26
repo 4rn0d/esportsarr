@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T14:26:01.505554+00:00",
+  "generated_at": "2026-11-26T23:08:32.700001+00:00",
   "matches": [
     {
       "league": "Worlds",
@@ -192,30 +192,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-27T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Gentle Mates vs Made In Brazil \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540136"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-27T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "VISA KR\u00dc Blaze vs Shopify Rebellion Gold \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540140"
     },
     {
       "league": "Game Changers Championship",
