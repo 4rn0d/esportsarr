@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-27T14:43:15.570676+00:00",
+  "generated_at": "2026-11-27T22:57:31.851119+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-28T20:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "T1 vs Movistar KOI \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115660540726095061"
-    },
     {
       "league": "Worlds",
       "game": "lol",
@@ -192,30 +180,6 @@
       "description": "Gen.G Esports vs BILIBILI GAMING \u00b7 Finals \u00b7 Bo5",
       "best_of": 5,
       "match_id": "115660540726095133"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-28T18:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "Made In Brazil vs SK Nebula \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540160"
-    },
-    {
-      "league": "Game Changers Championship",
-      "game": "valorant",
-      "start": "2026-10-28T21:00:00+00:00",
-      "state": "completed",
-      "title": "Game Changers Championship",
-      "stream_platform": "twitch",
-      "stream_channel": "VALORANT",
-      "description": "VISA KR\u00dc Blaze vs Team Liquid VISA \u00b7 Knockouts \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "117200188349540156"
     },
     {
       "league": "Game Changers Championship",
