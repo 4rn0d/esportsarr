@@ -1,18 +1,6 @@
 {
-  "generated_at": "2026-11-27T22:57:31.851119+00:00",
+  "generated_at": "2026-11-28T04:28:49.839821+00:00",
   "matches": [
-    {
-      "league": "Worlds",
-      "game": "lol",
-      "start": "2026-10-28T23:00:00+00:00",
-      "state": "completed",
-      "title": "Worlds",
-      "stream_platform": "twitch",
-      "stream_channel": "riotgames",
-      "description": "LYON vs Invictus Gaming \u00b7 Swiss \u00b7 Bo3",
-      "best_of": 3,
-      "match_id": "115660540726095065"
-    },
     {
       "league": "Worlds",
       "game": "lol",
